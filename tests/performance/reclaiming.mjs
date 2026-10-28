@@ -1,0 +1,19 @@
+import {chromium} from '@playwright/test';
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {decodeWire} from 'galbox-sdk/wire';
+const cut=process.env.FATA_MEMORY_CUT??'page-500';if(!['page-100','page-500','dance'].includes(cut))throw new Error('Unknown memory cut');
+const label=process.argv[2]??'current',base=process.env.FATA_PROFILE_BASE??'http://127.0.0.1:4181';
+await mkdir('artifacts/wheel-memory',{recursive:true});const browser=await chromium.launch({headless:true,args:['--disable-webgl']});
+try{
+ const page=await browser.newPage({viewport:{width:1280,height:950}}),errors=[];page.on('pageerror',e=>errors.push(e.message));await page.addInitScript(()=>{window.__reclaimMedia=[];const create=AudioContext.prototype.createMediaElementSource;AudioContext.prototype.createMediaElementSource=function(element){window.__reclaimMedia.push(new WeakRef(element));return create.call(this,element);};});
+ const backupBytes=await readFile(`artifacts/wheel-memory/${cut}.pb`),backup=decodeWire('PortableBackup',new Uint8Array(backupBytes));await page.goto(base+'/?lang=en&__test');await page.locator('[data-title-action=start]').waitFor({timeout:60000});await page.locator('.game').click({position:{x:1,y:1}});
+ await page.evaluate(async backup=>{const p=window.__fataTest.player();await p.updatePreferences({prefetchPages:4,text:{intervalMs:0}});const receipt=await p.commitBackupRestore(p.prepareBackupRestore(backup));await p.load(receipt.slots[0].restoredSlot);},backup);await page.waitForTimeout(150);
+ const cdp=await page.context().newCDPSession(page);await cdp.send('HeapProfiler.enable');
+ const sample=()=>page.evaluate(()=>{const p=window.__fataTest.player(),v=p.getSnapshot(),s=p.capture(),music=window.__reclaimMedia.map(r=>r.deref()).find(m=>m&&!m.paused&&m.duration>20);return {text:s.text?.textId,frames:s.frames,loading:v.loading,canvasBytes:v.resources.canvasBytesEstimated,canvasSurfaces:v.resources.canvasSurfaces,assets:v.resources.assets,ids:v.resources.integrity.map(r=>r.id),media:v.media,music:music?{url:music.currentSrc,time:music.currentTime}:null,error:v.error};});
+ const immediate=await sample();await page.waitForTimeout(3300);await cdp.send('HeapProfiler.collectGarbage');const idle=await sample(),idleHeap=await cdp.send('Runtime.getHeapUsage');
+ await page.evaluate(()=>{Object.defineProperty(document,'hidden',{configurable:true,get:()=>true});document.dispatchEvent(new Event('visibilitychange'));});await page.waitForTimeout(1000);const background=await sample();await page.evaluate(()=>{Reflect.deleteProperty(document,'hidden');document.dispatchEvent(new Event('visibilitychange'));});await page.waitForTimeout(100);const resumed=await sample();
+ const restored=await page.evaluate(async()=>{const p=window.__fataTest.player(),id=p.capture().text?.textId;await p.quickSave();await p.quickLoad();return {before:id,after:p.capture().text?.textId,thumbnail:!!p.getSnapshot().slots.find(s=>s.kind==='quick')?.capture?.thumbnail,error:p.getSnapshot().error};});
+ const result={label,cut,base,capturedAt:new Date().toISOString(),browser:browser.version(),driverSha256:createHash('sha256').update(await readFile(new URL(import.meta.url))).digest('hex'),backupSha256:createHash('sha256').update(backupBytes).digest('hex'),immediate,idle,idleHeap,background,resumed,restored,errors};await writeFile(`artifacts/wheel-memory/${label}-reclaiming.json`,JSON.stringify(result,null,2));console.log(JSON.stringify({label,resident:[immediate.loading.residentBytes,idle.loading.residentBytes],canvas:[idle.canvasBytes,background.canvasBytes,resumed.canvasBytes],assets:[immediate.assets,idle.assets],restored,errors}));
+ if(errors.length||[immediate,idle,background,resumed].some(r=>r.error)||restored.before!==restored.after||!restored.thumbnail)throw new Error('Reclamation changed a live session or save');
+}finally{await browser.close();}

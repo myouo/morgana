@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: morgana-opening\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2026-10-28 00:00+0000\n"
+"Last-Translator: Community contributors\n"
+"Language-Team: pt-BR\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt-BR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:load"
+msgid "Load"
+msgstr "Carregar"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:save"
+msgid "Save"
+msgstr "Salvar"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:settings"
+msgid "Config"
+msgstr "Configuração"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:back"
+msgid "Back"
+msgstr "Voltar"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:reset"
+msgid "Default"
+msgstr "Padrão"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:title"
+msgid "Return to title"
+msgstr "Tela inicial"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:empty"
+msgid "No data"
+msgstr "Sem dados"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:confirmLoad"
+msgid "Load this memory?"
+msgstr "Carregar esta memória?"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:confirmTitle"
+msgid "Return to title? Unsaved progress will be lost."
+msgstr "Voltar ao início? O progresso não salvo será perdido."
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:confirmExit"
+msgid "Exit the game?"
+msgstr "Sair do jogo?"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:yes"
+msgid "Yes"
+msgstr "Sim"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:no"
+msgid "No"
+msgstr "Não"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:stopped"
+msgid "Playback stopped. You can close this page."
+msgstr "Reprodução encerrada. Você pode fechar esta página."
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:restart"
+msgid "Return to title"
+msgstr "Tela inicial"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:background"
+msgid "Continue scenes and music in background"
+msgstr "Continuar cenas e música em segundo plano"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:linked"
+msgid "Read text uses the same display speed"
+msgstr "Mesma velocidade para texto já lido"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:saved"
+msgid "Saved"
+msgstr "Salvo"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:failed"
+msgid "This operation could not be completed."
+msgstr "Não foi possível concluir a operação."
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:retry"
+msgid "Retry"
+msgstr "Tentar novamente"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:language"
+msgid "Language"
+msgstr "Idioma"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:confirmLanguage"
+msgid "Changing language returns to the title. Unsaved progress will be lost."
+msgstr "Mudar o idioma volta ao início. O progresso não salvo será perdido."
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:textSpeed"
+msgid "Text speed"
+msgstr "Velocidade do texto"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:instant"
+msgid "Instant text"
+msgstr "Texto instantâneo"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:autoWait"
+msgid "Auto wait"
+msgstr "Espera automática"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:bgmVolume"
+msgid "BGM Volume"
+msgstr "Volume BGM"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:seVolume"
+msgid "SE Volume"
+msgstr "Volume SE"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:history"
+msgid "History"
+msgstr "Histórico"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:historyEmpty"
+msgid "No reading history yet."
+msgstr "Ainda não há texto no histórico."
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:wheel"
+msgid "Mouse wheel reading"
+msgstr "Leitura com a roda do mouse"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:auto"
+msgid "Auto"
+msgstr "Leitura automática"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:skip"
+msgid "Skip"
+msgstr "Avanço rápido"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:hideText"
+msgid "Hide text window"
+msgstr "Ocultar janela de texto"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:controls"
+msgid "Reading controls"
+msgstr "Controles de leitura"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:confirmOverwrite"
+msgid "Overwrite this saved memory?"
+msgstr "Sobrescrever este arquivo salvo?"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:working"
+msgid "Please wait…"
+msgstr "Aguarde…"
+
+msgctxt "ui:incompatibleSave"
+msgid "This save is incompatible with the current story version. The original record is preserved."
+msgstr "Este arquivo não é compatível com a versão atual da história. O registro original foi preservado."
+
+#. Reading lookahead; 0 disables speculative preloading.
+msgctxt "ui:prefetchPages"
+msgid "Pages to preload"
+msgstr "Páginas para pré-carregar"
+
+#. Shown only when foreground resource preparation lasts longer than 350 ms.
+msgctxt "ui:loadingScene"
+msgid "Preparing the next scene…"
+msgstr "Preparando a próxima cena…"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:wheelMode"
+msgid "Wheel input"
+msgstr "Controle de rolagem"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:mouseWheel"
+msgid "Mouse wheel"
+msgstr "Roda do mouse"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:touchpad"
+msgid "Touchpad"
+msgstr "Touchpad"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:readTextSpeed"
+msgid "Seen text display rate"
+msgstr "Velocidade do texto já lido"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:skipInlineConfirmations"
+msgid "Ignore inline confirmations"
+msgstr "Ignorar confirmações intermediárias"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:readSkipInlineConfirmations"
+msgid "Ignore inline confirmations in seen text"
+msgstr "Ignorar confirmações do texto já lido"

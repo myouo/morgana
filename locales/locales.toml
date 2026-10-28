@@ -1,0 +1,42 @@
+version = 1
+default_locale = "zh-Hans"
+
+[[locales]]
+id = "en"
+label = "English"
+aliases = []
+
+[[locales]]
+id = "fr"
+label = "Français"
+aliases = []
+
+[[locales]]
+id = "it"
+label = "Italiano"
+aliases = []
+
+[[locales]]
+id = "ja"
+label = "日本語"
+aliases = [ "jp" ]
+
+[[locales]]
+id = "ko"
+label = "한국어"
+aliases = []
+
+[[locales]]
+id = "pt-BR"
+label = "Português (Brasil)"
+aliases = []
+
+[[locales]]
+id = "ru"
+label = "Русский"
+aliases = []
+
+[[locales]]
+id = "zh-Hans"
+label = "简体中文"
+aliases = [ "zh" ]

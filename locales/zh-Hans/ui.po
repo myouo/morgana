@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: morgana-opening\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2026-10-28 00:00+0000\n"
+"Last-Translator: Community contributors\n"
+"Language-Team: zh-Hans\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-Hans\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:load"
+msgid "Load"
+msgstr "读取记忆"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:save"
+msgid "Save"
+msgstr "保存记忆"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:settings"
+msgid "Config"
+msgstr "设置"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:back"
+msgid "Back"
+msgstr "返回"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:reset"
+msgid "Default"
+msgstr "默认设置"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:title"
+msgid "Return to title"
+msgstr "返回标题"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:empty"
+msgid "No data"
+msgstr "没有记忆"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:confirmLoad"
+msgid "Load this memory?"
+msgstr "读取这份记忆？"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:confirmTitle"
+msgid "Return to title? Unsaved progress will be lost."
+msgstr "返回标题？未保存的进度将会丢失。"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:confirmExit"
+msgid "Exit the game?"
+msgstr "退出游戏？"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:yes"
+msgid "Yes"
+msgstr "确定"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:no"
+msgid "No"
+msgstr "取消"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:stopped"
+msgid "Playback stopped. You can close this page."
+msgstr "播放已停止，可以关闭此页面。"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:restart"
+msgid "Return to title"
+msgstr "返回标题"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:background"
+msgid "Continue scenes and music in background"
+msgstr "后台继续演出与音乐"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:linked"
+msgid "Read text uses the same display speed"
+msgstr "已读文字使用相同的显示速度"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:saved"
+msgid "Saved"
+msgstr "已保存"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:failed"
+msgid "This operation could not be completed."
+msgstr "操作未能完成，请重试。"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:retry"
+msgid "Retry"
+msgstr "重试"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:language"
+msgid "Language"
+msgstr "语言"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:confirmLanguage"
+msgid "Changing language returns to the title. Unsaved progress will be lost."
+msgstr "切换语言将返回标题，未保存的进度将会丢失。"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:textSpeed"
+msgid "Text speed"
+msgstr "文字速度"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:instant"
+msgid "Instant text"
+msgstr "立即显示"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:autoWait"
+msgid "Auto wait"
+msgstr "自动阅读等待"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:bgmVolume"
+msgid "BGM Volume"
+msgstr "BGM Volume"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:seVolume"
+msgid "SE Volume"
+msgstr "SE Volume"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:history"
+msgid "History"
+msgstr "历史记录"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:historyEmpty"
+msgid "No reading history yet."
+msgstr "暂无历史记录。"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:wheel"
+msgid "Mouse wheel reading"
+msgstr "滚轮阅读"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:auto"
+msgid "Auto"
+msgstr "自动阅读"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:skip"
+msgid "Skip"
+msgstr "快进"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:hideText"
+msgid "Hide text window"
+msgstr "隐藏文本框"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:controls"
+msgid "Reading controls"
+msgstr "阅读操作"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:confirmOverwrite"
+msgid "Overwrite this saved memory?"
+msgstr "覆盖这份记忆？"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:working"
+msgid "Please wait…"
+msgstr "请稍候…"
+
+msgctxt "ui:incompatibleSave"
+msgid "This save is incompatible with the current story version. The original record is preserved."
+msgstr "这份记忆与当前剧情版本不兼容，原存档已保留。"
+
+#. Reading lookahead; 0 disables speculative preloading.
+msgctxt "ui:prefetchPages"
+msgid "Pages to preload"
+msgstr "提前加载页数"
+
+#. Shown only when foreground resource preparation lasts longer than 350 ms.
+msgctxt "ui:loadingScene"
+msgid "Preparing the next scene…"
+msgstr "正在准备下一幕…"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:wheelMode"
+msgid "Wheel input"
+msgstr "滚轮输入"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:mouseWheel"
+msgid "Mouse wheel"
+msgstr "鼠标滚轮"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:touchpad"
+msgid "Touchpad"
+msgstr "触控板"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:readTextSpeed"
+msgid "Seen text display rate"
+msgstr "已读文字速度"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:skipInlineConfirmations"
+msgid "Ignore inline confirmations"
+msgstr "跳过行内确认"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:readSkipInlineConfirmations"
+msgid "Ignore inline confirmations in seen text"
+msgstr "已读时跳过行内确认"

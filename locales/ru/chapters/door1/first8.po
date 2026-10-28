@@ -1,0 +1,812 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: morgana-chapters\n"
+"PO-Revision-Date: 2026-10-28 00:00+0000\n"
+"Last-Translator: Community contributors\n"
+"Language-Team: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: scenario:scenario_6B896362_2179_4779_A2FB_5D320F94D413
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 097b8db75d83e2f45aa5148f9f9359a080288d5ef428bcb5dd6eb0a69041758a
+#. default-sha256: 1760fed2776b9febabd9d173eac21f4b892352c1d75c991ac5667c7dae5028be
+msgctxt "scenario:scenario_6B896362_2179_4779_A2FB_5D320F94D413"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫Death!"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫ Смерть!"
+
+#: scenario:scenario_AA5AAA58_40F7_44E2_9FFA_0D66EA0E0B05
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1c8b62834962b770eb21794bcc624ab320610a319029a6599d08a9ef563ed336
+#. default-sha256: aff28624d9b29203e407f4f4879d1536697f294360b74d53202dcf57f1327a2a
+msgctxt "scenario:scenario_AA5AAA58_40F7_44E2_9FFA_0D66EA0E0B05"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Death to the unholy one!"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫ Смерть безбожнице!"
+
+#: scenario:scenario_3A2368A9_570C_4CA2_B05E_6500F40508AD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b96e0e17f4530b4e02539b458a03e5b75e8abf1a2cf123bfd17a50dfdee0008d
+#. default-sha256: 93ab29c64bd93c28d6a61b4438581b8b2b76c252a6874c214ea714a01a16084b
+msgctxt "scenario:scenario_3A2368A9_570C_4CA2_B05E_6500F40508AD"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Death to the heretic!"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫ Смерть еретичке!"
+
+#: scenario:scenario_DEC5DF59_1195_47C8_AB0B_2843D6C682D5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f00298bbfc6f5639cc4dca3b9034a8f8f783ece381bd6f00ebd0107634c202c7
+#. default-sha256: 2aa27b336c2a2c886815c60e99818c9065fbae5eedf907c5df28ef9dfd2c9356
+msgctxt "scenario:scenario_DEC5DF59_1195_47C8_AB0B_2843D6C682D5"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Death to the witch!"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫ Смерть ведьме!"
+
+#: scenario:scenario_A97F7560_E6B7_4D96_B273_06D44B86CE9F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 50a1a2e479a594bae09ed0ab55059c6b7bb882688e672ec4db2486a958e300f0
+#. default-sha256: 5e0d3138c24fc8f2c8af1c9649da1dc23d430c6c1876ea4b3446c6d6c7e3bcb8
+msgctxt "scenario:scenario_A97F7560_E6B7_4D96_B273_06D44B86CE9F"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫⟪k:15⟫⟪k:16⟫⟪k:17⟫"
+"⟪k:18⟫⟪k:19⟫⟪k:20⟫⟪k:21⟫⟪k:22⟫Kill ×××!⟪k:23⟫"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫⟪k:15⟫⟪k:16⟫⟪k:17⟫"
+"⟪k:18⟫⟪k:19⟫⟪k:20⟫⟪k:21⟫⟪k:22⟫ Убить ×××!⟪k:23⟫"
+
+#: scenario:scenario_7D4B0603_BBBE_41C0_940C_B87FF13D45F9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 14d258343130db28ca28695c71e03a396ef078a475abed870c3a8556f05135ee
+#. default-sha256: 603b377f807258424f41d3ab03fedbee1ff634edd6319c39d8959894142981e5
+msgctxt "scenario:scenario_7D4B0603_BBBE_41C0_940C_B87FF13D45F9"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫⟪k:15⟫⟪k:16⟫"
+"⟪k:17⟫............⟪k:18⟫⟪k:19⟫She’s..."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫⟪k:15⟫⟪k:16⟫"
+"⟪k:17⟫............⟪k:18⟫Хаах..."
+
+#: scenario:scenario_4635E36D_CBA1_4286_A55E_F0AE30CA87DF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4fe25266aa874ba286a8797e49dd0eca8d09636695d4c7462af50d689f2f4b09
+#. default-sha256: aed766da6af11c125c089839ec1028424dd357228a22a2fcfc2613fcf0e9b164
+msgctxt "scenario:scenario_4635E36D_CBA1_4286_A55E_F0AE30CA87DF"
+msgid "⟪k:0⟫Why... ⟪k:1⟫I never wanted her to die..."
+msgstr "⟪k:0⟫Почему... ⟪k:1⟫Я никогда не желал ей смерти..."
+
+#: scenario:scenario_56ED9020_2FD0_4EE4_A1F6_710442E0344E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f8276f0642967a3d1e3be61eeeb0efb81100c609b25df688d53122cf3a6c78b4
+#. default-sha256: f515e2a1314fc369b8415b6ebe52575f7f993812c2b8bbe1f3fe72aabade6447
+msgctxt "scenario:scenario_56ED9020_2FD0_4EE4_A1F6_710442E0344E"
+msgid "⟪k:0⟫Was she not eating?!"
+msgstr "⟪k:0⟫Она не ела?!"
+
+#: scenario:scenario_4C2388AA_1BB0_4186_91A8_010C9D918F90
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 72123a2d7884a5b6e263566259ac7bbbd0d30b510e262325339bcce5a9e06dfe
+#. default-sha256: 48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d
+msgctxt "scenario:scenario_4C2388AA_1BB0_4186_91A8_010C9D918F90"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫............"
+
+#: scenario:scenario_993D8730_B1DE_47A3_B0CC_1458E963831B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: efcde7b6c0ef3bceb93709d8554eccedf97b76d18298e5abf5f90c2443f064b7
+#. default-sha256: d134d18c65c70a5d522c6bcff6126352e6d4a78e6d9ba1b77401add38f4e0f65
+msgctxt "scenario:scenario_993D8730_B1DE_47A3_B0CC_1458E963831B"
+msgid "⟪k:0⟫Seal off the tower.⟪k:1⟫⟪k:2⟫Understood? ⟪k:3⟫No one⟪k:4⟫ finds out about this."
+msgstr "⟪k:0⟫Запечатайте башню.⟪k:1⟫⟪k:2⟫Понятно? ⟪k:3⟫Никто⟪k:4⟫ не должен узнать об этом."
+
+#: scenario:scenario_43C38B6F_3A5A_40CE_AA56_655167EAAF5C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d27169b42def8fac51756fb04dfd54b78b463c4536ea3843562aae700378d591
+#. default-sha256: 8d6a519850e426c0ac3de7597517cf69d493f491b8e2f42caeb022ac27bb26e8
+msgctxt "scenario:scenario_43C38B6F_3A5A_40CE_AA56_655167EAAF5C"
+msgid "⟪k:0⟫How... ⟪k:1⟫can you be so calm?!"
+msgstr "⟪k:0⟫Как... ⟪k:1⟫ты можешь оставаться таким спокойным?!"
+
+#: scenario:scenario_E9BA0B7B_9CEE_412E_B41C_166A39B7AAAC
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fd94783d033ea830c39bf5c1edfe65d553cf14983dd1df72976fa0f1c70fcbec
+#. default-sha256: 7e58d68c43192ff8687b068be9b00501a7b790c6f2958bd3618dec84e14afd31
+msgctxt "scenario:scenario_E9BA0B7B_9CEE_412E_B41C_166A39B7AAAC"
+msgid "⟪k:0⟫Don’t you understand what you’ve done?!"
+msgstr "⟪k:0⟫Разве ты не понимаешь, что мы натворили?!"
+
+#: scenario:scenario_E5EFFF93_4010_4C03_96E3_CDEFBEEF1F21
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: df5d2e315d643f00e3f9329150a0db99e1523a9abcba808496221d276d4efb9a
+#. default-sha256: cd496e5472bf66b1dfa2503768e4a9251a08b145f0f5417046d3987051a8cbe1
+msgctxt "scenario:scenario_E5EFFF93_4010_4C03_96E3_CDEFBEEF1F21"
+msgid ""
+"⟪k:0⟫Ha. Pinning the blame on me?⟪k:1⟫⟪k:2⟫How nice it must be to be able to distort reality with "
+"panic."
+msgstr ""
+"⟪k:0⟫Ха. Пытаешься взвалить всю вину на меня?⟪k:1⟫⟪k:2⟫Как же, должно быть, удобно, когда можешь "
+"за паникой скрыть истину."
+
+#: scenario:scenario_657318E6_F11F_4A1B_81A2_E0F8F7D52809
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 75fa972a07193aa732cc5058e16af832ec9598e84ff4200835f842c3d55657ce
+#. default-sha256: d5413f510812c33b161c877dd39ab1f60a3a60730b00e17afea4ba1438db3df9
+msgctxt "scenario:scenario_657318E6_F11F_4A1B_81A2_E0F8F7D52809"
+msgid "⟪k:0⟫...!"
+msgstr "⟪k:0⟫...!"
+
+#: scenario:scenario_9B60444B_81E8_4EE1_97A7_FCBC985E5C43
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: daac9e9836f8a1e04e5cae7927822eb2f55071b75c74e7bb3d578f82c54a73f0
+#. default-sha256: 48c45fcf59dcf2714ae3fe877d0f33c071fd69bf08dc72db0f2d0f5a84cb5f03
+msgctxt "scenario:scenario_9B60444B_81E8_4EE1_97A7_FCBC985E5C43"
+msgid "⟪k:0⟫You’re just as guilty as any of us."
+msgstr "⟪k:0⟫Ты виновен, как и все мы."
+
+#: scenario:scenario_AD85BC45_4DA4_43AF_8B36_7CFD0654E5CE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f2b27e121a279d9cec12ac624e031114d140528d315976f6880f7a1694bb6742
+#. default-sha256: e0f4c3601bee2baa1e9b4634e8a611092dc173178b4cd42b90f0dcf821297004
+msgctxt "scenario:scenario_AD85BC45_4DA4_43AF_8B36_7CFD0654E5CE"
+msgid "⟪k:0⟫I... ⟪k:1⟫I never ⟪k:2⟫wanted⟪k:3⟫ her to die..."
+msgstr "⟪k:0⟫Я... ⟪k:1⟫Я никогда ⟪k:2⟫не желал⟪k:3⟫ ей смерти..."
+
+#: scenario:scenario_AD85BC45_4DA4_43AF_8B37_7CFD0654E5CE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 78ef1072d1a636619ece67817d4bc4ef58f0970f43e92541a9fd4c52b8331a65
+#. default-sha256: 279cd9632f04cfaca1b98a7b436753d05647d19a629e8317b8dc76a3689986a4
+msgctxt "scenario:scenario_AD85BC45_4DA4_43AF_8B37_7CFD0654E5CE"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫⟪k:15⟫⟪k:16⟫⟪k:17⟫"
+"⟪k:18⟫⟪k:19⟫⟪k:20⟫The witch killed her..."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫⟪k:15⟫⟪k:16⟫⟪k:17⟫"
+"⟪k:18⟫⟪k:19⟫⟪k:20⟫Ведьма убила ее..."
+
+#: scenario:scenario_AD85BC45_4DA4_43AF_8B38_7CFD0654E5CE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cb84f729fe63b84da94066c3f39f375a9a479263e931f56e083b92e1c75e1bfa
+#. default-sha256: faa927bf1b48f363502ea423ccec0e639ebb9fcb8c56283470fdf8a6480029c2
+msgctxt "scenario:scenario_AD85BC45_4DA4_43AF_8B38_7CFD0654E5CE"
+msgid "⟪k:0⟫The blood of the witch killed my ××××××!"
+msgstr "⟪k:0⟫Ведьмовская кровь убила мою ××××××!"
+
+#: scenario:scenario_71B1278A_D863_4860_988F_524969B5A42B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 877a6af08425f21395928007ecc03627cac6f58744d45f6d72b05925be75224a
+#. default-sha256: c8b7f620d5d084fff145bb473327f058401985aded50b7c7969e7302bfbe61af
+msgctxt "scenario:scenario_71B1278A_D863_4860_988F_524969B5A42B"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫⟪k:15⟫⟪k:16⟫⟪k:17⟫"
+"⟪k:18⟫⟪k:19⟫⟪k:20⟫⟪k:21⟫⟪k:22⟫⟪k:23⟫⟪k:24⟫⟪k:25⟫⟪k:26⟫⟪k:27⟫⟪k:28⟫⟪k:29⟫⟪k:30⟫⟪k:31⟫⟪k:32⟫⟪k:33⟫"
+"⟪k:34⟫⟪k:35⟫⟪k:36⟫⟪k:37⟫⟪k:38⟫⟪k:39⟫⟪k:40⟫⟪k:41⟫⟪k:42⟫⟪k:43⟫⟪k:44⟫⟪k:45⟫⟪k:46⟫⟪k:47⟫⟪k:48⟫⟪k:49⟫"
+"⟪k:50⟫............Grh...⟪k:51⟫⟪k:52⟫...Aah!"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫⟪k:15⟫⟪k:16⟫⟪k:17⟫"
+"⟪k:18⟫⟪k:19⟫⟪k:20⟫⟪k:21⟫⟪k:22⟫⟪k:23⟫⟪k:24⟫⟪k:25⟫⟪k:26⟫⟪k:27⟫⟪k:28⟫⟪k:29⟫⟪k:30⟫⟪k:31⟫⟪k:32⟫⟪k:33⟫"
+"⟪k:34⟫⟪k:35⟫⟪k:36⟫⟪k:37⟫⟪k:38⟫⟪k:39⟫⟪k:40⟫⟪k:41⟫⟪k:42⟫⟪k:43⟫⟪k:44⟫⟪k:45⟫⟪k:46⟫⟪k:47⟫⟪k:48⟫⟪k:49⟫"
+"⟪k:50⟫............Грх...⟪k:51⟫⟪k:52⟫...Аах!"
+
+#: scenario:scenario_863FA9BA_F81D_4974_B02A_ED852F693927
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ce63ed51bb983b1b4bf419b1d14d2e96312af32474cef3ae3665141becb1e501
+#. default-sha256: 8dca7b993a7758aa5af56044c9a42debe85e5560449796ee32e05001d924a1e8
+msgctxt "scenario:scenario_863FA9BA_F81D_4974_B02A_ED852F693927"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫......⟪k:13⟫⟪k:14⟫......⟪k:15⟫"
+"⟪k:16⟫⟪k:17⟫A-⟪k:18⟫A dream?"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫......⟪k:13⟫⟪k:14⟫......⟪k:15⟫"
+"⟪k:16⟫⟪k:17⟫С-⟪k:18⟫Сон?"
+
+#: scenario:scenario_7BE7A6EE_8125_4FD9_9569_DE1C0F2BE1D2
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 389cd8176b38ed29cf467b916e50c07f35fd9fbe1395e65150807777a61f0b7a
+#. default-sha256: 950fd148b0f972b0d2ca079f9d4cac4a2e44a20d4fdaf861830a340f7f5f4fd4
+msgctxt "scenario:scenario_7BE7A6EE_8125_4FD9_9569_DE1C0F2BE1D2"
+msgid ""
+"⟪k:0⟫What ⟪k:1⟫was⟪k:2⟫... ⟪k:3⟫that dream...?⟪k:4⟫⟪k:5⟫It was... ⟪k:6⟫horribly unsettling..."
+msgstr "⟪k:0⟫Что ⟪k:1⟫это⟪k:2⟫... ⟪k:3⟫за сон...?⟪k:4⟫⟪k:5⟫Он был... ⟪k:6⟫ужасно тревожным..."
+
+#: scenario:scenario_7BE7A6EE_8225_4FD9_9569_DE1C0F2BE1D2
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5f88777ecd6bc5bf100a047ed27f87a273f79dc14ce79989fc4e06987a47270a
+#. default-sha256: 48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d
+msgctxt "scenario:scenario_7BE7A6EE_8225_4FD9_9569_DE1C0F2BE1D2"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫............"
+
+#: scenario:scenario_A482394C_4602_47D0_8A05_6654813CDADA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2217c82c6cb4aaef960dff6f0b33c48f6e7112c2e3095fadad34107afdb68432
+#. default-sha256: cbefd13f9a33faacc37d4eb097b2a2d12e9d3eacea824ef4a74abbbb308adc2d
+msgctxt "scenario:scenario_A482394C_4602_47D0_8A05_6654813CDADA"
+msgid ""
+"⟪k:0⟫(I was holding someone—⟪k:1⟫⟪k:2⟫a girl I cared for dearly—⟪k:3⟫⟪k:4⟫in my arms, and she was "
+"limp...)"
+msgstr ""
+"⟪k:0⟫(В своих руках я кого-то держал — ⟪k:1⟫⟪k:2⟫девочку, которая значила для меня очень много — "
+"⟪k:3⟫⟪k:4⟫и она была неподвижной...)"
+
+#: scenario:scenario_A444394C_4602_4710_8A05_6654813CDADA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c22cdaf6ffcdc1c55869688b10d03dac458b0f82f82b7480a67de16701ec0429
+#. default-sha256: 7599a775df753b0822af90bf107789bc7563e5d0d09cde41fed4240297c09266
+msgctxt "scenario:scenario_A444394C_4602_4710_8A05_6654813CDADA"
+msgid "⟪k:0⟫(It was almost... ⟪k:1⟫as if she were dead...)"
+msgstr "⟪k:0⟫(Так, как если бы она... ⟪k:1⟫была мертва...)"
+
+#: scenario:scenario_A442394C_4602_47D0_8A05_6654813CDADA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7375377144dcdd57d72f5f16e43bd9a3e3ee4fe42b27b46720a9cb4a3b19a1d9
+#. default-sha256: 8c6d7e83a0383cf5e45ff5d2a9916e9f46fea5110ca4fa33ce9c4c6e414f45cc
+msgctxt "scenario:scenario_A442394C_4602_47D0_8A05_6654813CDADA"
+msgid "⟪k:0⟫(I’ve been having a lot of really unpleasant dreams lately.)"
+msgstr "⟪k:0⟫(В последнее время у меня действительно много неприятных снов.)"
+
+#: scenario:scenario_A442394C_4602_47D0_8A05_6654843CDADA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b2137c4812e00948f1a9163d70653b11b4d529968a27098d28597d70fdc36e82
+#. default-sha256: e67706301bfbd18813ee9e345019f6ac555e0cb92726b6b3dc748c4c529540ea
+msgctxt "scenario:scenario_A442394C_4602_47D0_8A05_6654843CDADA"
+msgid "⟪k:0⟫(I can’t stop shaking... ⟪k:1⟫Why would I have such a dream?⟪k:2⟫⟪k:3⟫I feel sick...)"
+msgstr ""
+"⟪k:0⟫(Я не могу перестать трястись... ⟪k:1⟫Почему мне приснился этот сон?⟪k:2⟫⟪k:3⟫Мне дурно...)"
+
+#: scenario:scenario_C2A4844B_751E_42B4_AFEF_3F3C98BDDD34
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: bca03ec20b4567469515e0e0acb098e836c06f264999bb1d4e8924ea0d572b59
+#. default-sha256: 7f908a6c123eb26e4fd3719718c95109842f8fdb289d331faef1a8f67dfc251e
+msgctxt "scenario:scenario_C2A4844B_751E_42B4_AFEF_3F3C98BDDD34"
+msgid "⟪k:0⟫Back to sleep..."
+msgstr "⟪k:0⟫Ладно, нужно поспать..."
+
+#: scenario:scenario_777CD1EF_9D71_4395_A397_D4DCEFF4C42A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8bd47346176035bb19a708a0a73e3482cbde68cd37fcc7244fbe97f0e977cee4
+#. default-sha256: b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e
+msgctxt "scenario:scenario_777CD1EF_9D71_4395_A397_D4DCEFF4C42A"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫............"
+
+#: scenario:scenario_A442394C_4612_47D0_8A05_6654813CDADA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 28c22e8f31b83b6f309ef536bcc3ae60671cb3d2b5b886a4f744339c14c5b1ac
+#. default-sha256: 85a5726edb4d48edb53e31160c413b35ee452e83b41366fbe9864bb43c17c7ff
+msgctxt "scenario:scenario_A442394C_4612_47D0_8A05_6654813CDADA"
+msgid "⟪k:0⟫(But I wonder... ⟪k:1⟫Who was that girl?)"
+msgstr "⟪k:0⟫(Интересно... ⟪k:1⟫Кто была та девушка?)"
+
+#: scenario:scenario_143FC5F1_267B_4DB2_A49F_B493F50C4BF8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 744bcd87ca22cd8be620fe9f26068118072a1fff914cb89bb6d20dae73281bad
+#. default-sha256: b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e
+msgctxt "scenario:scenario_143FC5F1_267B_4DB2_A49F_B493F50C4BF8"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫............"
+
+#: scenario:scenario_143FC5F2_267B_4DB2_A49F_B493F50C4BF8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e30992bedbc90588cdb437486fb69979dbd4f5132be0edf6fdb1ffcb98d228fa
+#. default-sha256: 246d574dc691bc84929b488fd05f4439f40e261ff1da52ce090908fe9d2df18c
+msgctxt "scenario:scenario_143FC5F2_267B_4DB2_A49F_B493F50C4BF8"
+msgid "⟪k:0⟫...?"
+msgstr "⟪k:0⟫...?"
+
+#: scenario:scenario_7286FA69_BB00_403A_96EB_B1AE30CF9D18
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f2ff09d8afc8697be054f11ed1e5e16ac9f47431462cc86be233f82e7089cc97
+#. default-sha256: b8b659c54aeb19e6da61653ba1ccc20611a05b7cbeeb647e1782446dfaffd9a9
+msgctxt "scenario:scenario_7286FA69_BB00_403A_96EB_B1AE30CF9D18"
+msgid "⟪k:0⟫⟪k:1⟫(I can sense someone standing beyond my door.)"
+msgstr "⟪k:0⟫⟪k:1⟫(Я чувствую чье-то присутствие за дверью.)"
+
+#: scenario:scenario_09FC48EB_5627_4282_B93D_0D91B6A3D0AC
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5f88777ecd6bc5bf100a047ed27f87a273f79dc14ce79989fc4e06987a47270a
+#. default-sha256: 48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d
+msgctxt "scenario:scenario_09FC48EB_5627_4282_B93D_0D91B6A3D0AC"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫............"
+
+#: scenario:scenario_7A0477BD_3070_4D98_B13E_FD4B6EB84A38
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8776c5f2e90ea3f9f677e579fe3b9a188d65bffd4fd0e8945745b6d994d98a56
+#. default-sha256: d1b55ee6bbe95e1cbabbbbef694c5af3b7acbbf0264c5dd261abec359bae8faa
+msgctxt "scenario:scenario_7A0477BD_3070_4D98_B13E_FD4B6EB84A38"
+msgid "⟪k:0⟫Is someone there?"
+msgstr "⟪k:0⟫Там кто-то есть?"
+
+#: scenario:scenario_EA3A52AB_9CD0_4940_8422_01877703CDF7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 18973391c0d90636c2a279925d0a047d265656faad7b96a83cfb750b74462e80
+#. default-sha256: aec68237b268b900a89a5c3adbb6243779b1bee096f96b16e51d81522ac0bff0
+msgctxt "scenario:scenario_EA3A52AB_9CD0_4940_8422_01877703CDF7"
+msgid "⟪k:0⟫(It’s like they’re watching me...)"
+msgstr "⟪k:0⟫(Такое чувство, будто они наблюдают за мной...)"
+
+#: scenario:scenario_63D56649_2FFC_49D4_A4EA_9A53353CA69A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6623ba7eb9a9b0db17beb704cbb5eba2dafeae2174b9de77bc513cf231f4b182
+#. default-sha256: f5b18ca32e40cfd0bbf2f858a7bd3b8acca57f57e7536056e8a893430101796d
+msgctxt "scenario:scenario_63D56649_2FFC_49D4_A4EA_9A53353CA69A"
+msgid "⟪k:0⟫(Is it just my imagination?)"
+msgstr "⟪k:0⟫(Может быть, мне кажется?)"
+
+#: scenario:scenario_0F74F84E_E316_462C_981A_5E3F4FD39D62
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5f88777ecd6bc5bf100a047ed27f87a273f79dc14ce79989fc4e06987a47270a
+#. default-sha256: 48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d
+msgctxt "scenario:scenario_0F74F84E_E316_462C_981A_5E3F4FD39D62"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫............"
+
+#: scenario:scenario_28323AFB_D0FE_4491_B722_76406167D1D8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7c18d5203cae08a984610bfe0b3c243d570e1a9f477bc2727d3e070339e3b689
+#. default-sha256: bf526d49afdd811b0e6ec9bed06acc3e709f02a0caa2438380093e597b87966d
+msgctxt "scenario:scenario_28323AFB_D0FE_4491_B722_76406167D1D8"
+msgid "⟪k:0⟫⟪k:1⟫(I can’t move.)"
+msgstr "⟪k:0⟫⟪k:1⟫(Я не могу пошевелиться.)"
+
+#: scenario:scenario_0F775147_DA4C_4E1C_A643_77DE91841CE8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c4473c21a178a50cf2f9a4936063346004aa1b0598938306f333fc64bf471843
+#. default-sha256: 71e5b6ac9643f9c2c3a24cea60dd69fece7d95a681514765acb1593a628e3e7a
+msgctxt "scenario:scenario_0F775147_DA4C_4E1C_A643_77DE91841CE8"
+msgid "⟪k:0⟫(What? What do you want? Go away.)"
+msgstr "⟪k:0⟫(Что? Что вам нужно? Уходите.)"
+
+#: scenario:scenario_4E8F5BFC_216A_4E79_BD05_2863D6123095
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5f88777ecd6bc5bf100a047ed27f87a273f79dc14ce79989fc4e06987a47270a
+#. default-sha256: 48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d
+msgctxt "scenario:scenario_4E8F5BFC_216A_4E79_BD05_2863D6123095"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫............"
+
+#: scenario:scenario_F0CB5530_3DA1_479A_9913_02F4F6036CD9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4f0e2cd0e7bfc3a665edd5dffee76af3b4b142f6b2b9374eba40ba34a85fca91
+#. default-sha256: 795022d0be4ed33e5b6c9b799a2b0f70d84355d45fe45ed0d04153c1858e08ff
+msgctxt "scenario:scenario_F0CB5530_3DA1_479A_9913_02F4F6036CD9"
+msgid "⟪k:0⟫Haah..."
+msgstr "⟪k:0⟫Хаах..."
+
+#: scenario:scenario_109D61B9_A417_4E5C_8FC7_2CCC9A9C87CE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 62016fe20afce972083b9af5a082e8497d16814b779ae5697650000967a95114
+#. default-sha256: b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e
+msgctxt "scenario:scenario_109D61B9_A417_4E5C_8FC7_2CCC9A9C87CE"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫............"
+
+#: scenario:scenario_E3C0B24E_3927_46F3_BD8D_E639C98F1DB4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: bfc6db592f76da7457f053d051b5648459cb3fe31ef9af478ec9fe46ffbc6675
+#. default-sha256: ef1abf32dc6a282e5452b89e33447770c1a14c0c6757b0d1ea7220620261755d
+msgctxt "scenario:scenario_E3C0B24E_3927_46F3_BD8D_E639C98F1DB4"
+msgid "⟪k:0⟫⟪k:1⟫(The sound... ⟪k:2⟫is growing fainter.)"
+msgstr "⟪k:0⟫⟪k:1⟫(Звук... ⟪k:2⟫становится слабее.)"
+
+#: scenario:scenario_DFFE0247_7541_4D49_AC5C_65027A88C182
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5f88777ecd6bc5bf100a047ed27f87a273f79dc14ce79989fc4e06987a47270a
+#. default-sha256: 48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d
+msgctxt "scenario:scenario_DFFE0247_7541_4D49_AC5C_65027A88C182"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫............"
+
+#: scenario:scenario_ED020A61_17C7_417F_A396_BBC5955C3BC0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 250c4a3ae6394f412a6cb20da2cf27983acc29b8ec8b9c3144e6ad7fceaf7b00
+#. default-sha256: de30daea197a4b2eba78ff15868e7e3e98de6240a9a4b1fa246101dd29d8e11c
+msgctxt "scenario:scenario_ED020A61_17C7_417F_A396_BBC5955C3BC0"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫............"
+
+#: scenario:scenario_3ABC7AA8_04C0_4D7B_9443_94921066477D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 181195a102296a98c54520ddfe7287a93be141624981a1ad5d5c7104301336ae
+#. default-sha256: 172540b0be8aec4a48d0be128f30fdabb1bcfebc3c680696f57e004c1987601b
+msgctxt "scenario:scenario_3ABC7AA8_04C0_4D7B_9443_94921066477D"
+msgid "⟪k:0⟫⟪k:1⟫I..."
+msgstr "⟪k:0⟫⟪k:1⟫Я..."
+
+#: scenario:scenario_293426D1_AEC5_4597_99F6_12B2E33399B6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a276dd232ac2a42f577922d5aec3fdb827b2884698374b8553ad6b59044cca3d
+#. default-sha256: 48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d
+msgctxt "scenario:scenario_293426D1_AEC5_4597_99F6_12B2E33399B6"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫............"
+
+#: scenario:scenario_92F9B36D_FE07_4A23_B311_8CBBF3825A3D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 30d6c30023d097d7138fb174d4649b7935341f08afe30f7b0e02db7f92662af3
+#. default-sha256: a4c94c625fa78c444e4752e40bb64b6ce9c8cc6db78dad177131802ad3204eb8
+msgctxt "scenario:scenario_92F9B36D_FE07_4A23_B311_8CBBF3825A3D"
+msgid "⟪k:0⟫Is that truly what your story meant, ⟪k:1⟫Father?"
+msgstr "⟪k:0⟫Действительно ли об этом была твоя история, ⟪k:1⟫Отец?"
+
+#: scenario:scenario_74F6F2A9_C1BC_4A66_BF93_717EF9DDE069
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 970ca724a8f648565866bbcda9e1439af3170cdb8c9a546b24b745199c1c1d97
+#. default-sha256: 5465647b51d48c010286fed1b7fbb6fa1b616f77823baa075577b787be265669
+msgctxt "scenario:scenario_74F6F2A9_C1BC_4A66_BF93_717EF9DDE069"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫But I..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫Но я..."
+
+#: scenario:scenario_29F21CCE_0AB4_4ACB_915D_FB800D953A3E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a276dd232ac2a42f577922d5aec3fdb827b2884698374b8553ad6b59044cca3d
+#. default-sha256: 48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d
+msgctxt "scenario:scenario_29F21CCE_0AB4_4ACB_915D_FB800D953A3E"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫............"
+
+#: scenario:scenario_74BA1563_B5D4_4119_BF24_5A51F204C27D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 93ff1998ce5b921553465798d007e9cab9035aad3c32615b9cb1f4ec1c25573d
+#. default-sha256: 139b1fdbb7776f1320216a3810673e2d7beb5729249eace42d5f8304652bdff9
+msgctxt "scenario:scenario_74BA1563_B5D4_4119_BF24_5A51F204C27D"
+msgid "⟪k:0⟫⟪k:1⟫Such a magnificent garden...⟪k:2⟫⟪k:3⟫Something we could never have had..."
+msgstr "⟪k:0⟫⟪k:1⟫Какой прекрасный сад...⟪k:2⟫⟪k:3⟫То, чего у нас никогда не могло быть..."
+
+#: scenario:scenario_BEE36031_80B0_45AC_AD82_278CA72F8D43
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 13808d7a4fbc85bcee0f9dacfb43f03420c9c353ad29029330424403b93df4ca
+#. default-sha256: e303fe910067488bd1cf90966f3fc45b32b7e52f1f2693dbcf05a8909877cd7a
+msgctxt "scenario:scenario_BEE36031_80B0_45AC_AD82_278CA72F8D43"
+msgid "⟪k:0⟫Are my intentions... ⟪k:1⟫misguided?"
+msgstr "⟪k:0⟫Неужели мои намерения... ⟪k:1⟫ошибочны?"
+
+#: scenario:scenario_D16199F9_A739_4440_B70B_8001D9D804D6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a276dd232ac2a42f577922d5aec3fdb827b2884698374b8553ad6b59044cca3d
+#. default-sha256: 48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d
+msgctxt "scenario:scenario_D16199F9_A739_4440_B70B_8001D9D804D6"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫............"
+
+#: scenario:scenario_AE1B7E8E_5586_4E06_8D63_D97DED68BA76
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4027f4235584decd299b96dd7aae1803544f88e74654a5df14533fe6cb2ee472
+#. default-sha256: c74e769c32b5ac64bfb3215a793f86a552038b27735f0399bb616202a59940ee
+msgctxt "scenario:scenario_AE1B7E8E_5586_4E06_8D63_D97DED68BA76"
+msgid "⟪k:0⟫⟪k:1⟫What a beautiful white rose."
+msgstr "⟪k:0⟫⟪k:1⟫Какая красивая белая роза."
+
+#: scenario:scenario_618566AD_D462_4C49_92B5_BD2F5530B4D5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 72732dfcd21760be2e2098a80f72f8805bec0b00d499aa33ce6c98de0f873a6a
+#. default-sha256: d6267fd03dfd5a6dc0b0334a032a09ce93ffab3052e3aada13ec7ee271d3a643
+msgctxt "scenario:scenario_618566AD_D462_4C49_92B5_BD2F5530B4D5"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫You know, you could have sneaked "
+"into his room rather easily then."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫Знаешь, ты могла бы без труда "
+"проникнуть в его комнату."
+
+#: scenario:scenario_11BBF004_DC00_493C_A938_8EECC1759867
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5673a4ac03faa02ace237cc885844ec2796502c569eb037a95b492bbaf11ca34
+#. default-sha256: 4ba2dc0f4317c673dd7554ec5d5608b53d9d6eee43a834b25fa6a9ca033dacf9
+msgctxt "scenario:scenario_11BBF004_DC00_493C_A938_8EECC1759867"
+msgid "⟪k:0⟫No one was watching. ⟪k:1⟫Hehehe..."
+msgstr "⟪k:0⟫Никто не смотрел. ⟪k:1⟫Хехехе..."
+
+#: scenario:scenario_E2FD99FD_7933_41DA_AFC7_95E93D0957D7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cedde10a44207bf79e88c2d18b38cc86f48e2e08ce837a0b4ee94ec9a8038ef2
+#. default-sha256: d5413f510812c33b161c877dd39ab1f60a3a60730b00e17afea4ba1438db3df9
+msgctxt "scenario:scenario_E2FD99FD_7933_41DA_AFC7_95E93D0957D7"
+msgid "⟪k:0⟫...!"
+msgstr "⟪k:0⟫...!"
+
+#: scenario:scenario_B6EAFD02_3B0F_4151_9261_5E6118C85EDD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 400c217168f431d5d13d12df9ef0fa256d2309ed45967be475d32978dcc77e20
+#. default-sha256: b2ff182539914bcf64728aeabb87dcd4df6c77e9c865abfe21a5b0cdf5d7859e
+msgctxt "scenario:scenario_B6EAFD02_3B0F_4151_9261_5E6118C85EDD"
+msgid "⟪k:0⟫H-⟪k:1⟫How long have you..."
+msgstr "⟪k:0⟫К-⟪k:1⟫Как долго вы..."
+
+#: scenario:scenario_71442DC4_82EE_4E58_9393_90609E4E68C4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: edcf04d238576a82cf8a2aa7a7d28a28a8947deff2b4b8c69ccc5f2661edfba3
+#. default-sha256: 8f479bae0cabbf8ec0aa430e0e72641509b470cf9db770b7085cc0c46811cf65
+msgctxt "scenario:scenario_71442DC4_82EE_4E58_9393_90609E4E68C4"
+msgid ""
+"⟪k:0⟫Oh, you needn’t pay me any mind.⟪k:1⟫⟪k:2⟫I shall not condemn you, ⟪k:3⟫⟪k:4⟫no matter what "
+"you might do."
+msgstr ""
+"⟪k:0⟫Ох, не обращай на меня внимания.⟪k:1⟫⟪k:2⟫Я не стану осуждать тебя, ⟪k:3⟫⟪k:4⟫что бы ты ни "
+"сделала."
+
+#: scenario:scenario_71442DC4_82EE_5E58_9393_90609E4E68C4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 115f262ea04627f48a8beb898e6cb6b339d3d99f151ade73ddac335721baeddb
+#. default-sha256: e2bd3f18329115dd06b6e87b772c02e8493546c257129725b1f14069a1d265e0
+msgctxt "scenario:scenario_71442DC4_82EE_5E58_9393_90609E4E68C4"
+msgid "⟪k:0⟫Rather, ⟪k:1⟫⟪k:2⟫I am on your side."
+msgstr "⟪k:0⟫Более того, ⟪k:1⟫⟪k:2⟫я на твоей стороне."
+
+#: scenario:scenario_88D11434_253C_4BE5_B1BE_16080DF3E16D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a276dd232ac2a42f577922d5aec3fdb827b2884698374b8553ad6b59044cca3d
+#. default-sha256: 48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d
+msgctxt "scenario:scenario_88D11434_253C_4BE5_B1BE_16080DF3E16D"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫............"
+
+#: scenario:scenario_C719F40D_0867_47A4_8117_5E16E9366D05
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ecad1d47543c47a2e68dfc5ea6c795e09dd8aeb514a53ea445c3b288866f1bbd
+#. default-sha256: 29d2c142a39879f8dbf8c8b6852ed63b2a56178b67a8fd4e7263f09f31404d80
+msgctxt "scenario:scenario_C719F40D_0867_47A4_8117_5E16E9366D05"
+msgid "⟪k:0⟫I was not... ⟪k:1⟫going to do anything."
+msgstr "⟪k:0⟫Я не собиралась... ⟪k:1⟫ничего делать."
+
+#: scenario:scenario_A4C8DD22_FF5B_4FB8_93FE_A2C6A422FF14
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d497a02576cfe7d2c51325b6f7f19ae17e7fd3c5db5aca0adeb1ca1cea4dd2f6
+#. default-sha256: 31b368a16b3e53200641a2b55b42fe854773dd4774d0e35399289c2b57380b31
+msgctxt "scenario:scenario_A4C8DD22_FF5B_4FB8_93FE_A2C6A422FF14"
+msgid "⟪k:0⟫Oh? Is that so?"
+msgstr "⟪k:0⟫О? Неужели?"
+
+#: scenario:scenario_06FAA352_6C8A_4B26_BEA4_41ED4EB0E92F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: aac69a2ff8b12ac9b2289954201ecdf106b4bf7903f86373157d3faeb0d710c6
+#. default-sha256: b84ebec1e781633fd38c0e2278bbe7c013f91361a4ea0f66b24f204699318cd8
+msgctxt "scenario:scenario_06FAA352_6C8A_4B26_BEA4_41ED4EB0E92F"
+msgid ""
+"⟪k:0⟫Then perhaps you were out for a late-night stroll.⟪k:1⟫⟪k:2⟫I... ⟪k:3⟫imagine you have less "
+"difficulties going outside at night."
+msgstr ""
+"⟪k:0⟫Тогда, возможно, ты отправилась на ночной променад.⟪k:1⟫⟪k:2⟫Я... ⟪k:3⟫полагаю, тебе проще "
+"гулять ночью."
+
+#: scenario:scenario_13D32079_3DA8_49D5_92CB_2E15DF3088AA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4f4dc683acf0b1b9e42c087f96f8279e64cfaee1617a187d2a3ab612479616bb
+#. default-sha256: e0af62acbcd4ddcc4c2e27ea6adfd7ac84a890c51643bd8b0e5d58a2225347d4
+msgctxt "scenario:scenario_13D32079_3DA8_49D5_92CB_2E15DF3088AA"
+msgid "⟪k:0⟫I beg your pardon.⟪k:1⟫I will... ⟪k:2⟫return to the mansion immediately."
+msgstr "⟪k:0⟫Прошу прощения.⟪k:1⟫Я... ⟪k:2⟫немедленно вернусь в особняк."
+
+#: scenario:scenario_769F371F_2D1E_4795_951F_9B5C68A1BB35
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 98ee0d4206698dee8ca8f478daf24d6e3a46963a22bda4956e5194f2408bf77e
+#. default-sha256: fb829b443ca0522c1b4019b32245365d8c964d96dc0aa99eb881928c72797110
+msgctxt "scenario:scenario_769F371F_2D1E_4795_951F_9B5C68A1BB35"
+msgid ""
+"⟪k:0⟫Oh yes, that reminds me—⟪k:1⟫⟪k:2⟫it was also the middle of the night when the grocer’s "
+"servant broke into their safe. ⟪k:3⟫News of that spread quite far;⟪k:4⟫⟪k:5⟫I am sure you would "
+"have heard about it."
+msgstr ""
+"⟪k:0⟫О да, это мне напомнило тот случай — ⟪k:1⟫⟪k:2⟫когда посреди ночи бакалейщик вскрыл их сейф. "
+"⟪k:3⟫Новость о том быстро разлетелась;⟪k:4⟫⟪k:5⟫Уверена, что ты слышала об этом."
+
+#: scenario:scenario_BBE6854E_1F2E_4694_8B3C_66779A816C4E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8350ffec3f72f3675d30234e142bec5bb425f988c0a75a8f1ee60d93889f039e
+#. default-sha256: 9c3e72e91d98894131b0aa4705743c7aba91d82c49d8d58d506eebb2de8aa02e
+msgctxt "scenario:scenario_BBE6854E_1F2E_4694_8B3C_66779A816C4E"
+msgid "⟪k:0⟫Oh?"
+msgstr "⟪k:0⟫Ох?"
+
+#: scenario:scenario_3F0FEF86_3510_4796_9022_9E7797471719
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c617555ddfad2f40bcf48b985fc9ee26bb246c77edc2a5780f455c70243e36b2
+#. default-sha256: d2fef3f92e16c42ffd9764a6e2e10a12f75fe773fdd7c18fa66c70a312d681fa
+msgctxt "scenario:scenario_3F0FEF86_3510_4796_9022_9E7797471719"
+msgid "⟪k:0⟫Although, was Gemasch imprisoned?⟪k:1⟫⟪k:2⟫Dear me, I am having trouble remembering."
+msgstr "⟪k:0⟫Интересно, Гемаша посадили?⟪k:1⟫⟪k:2⟫Ну, надо же, моя память меня подводит."
+
+#: scenario:scenario_C33E516E_93C7_48B5_B5B7_90F21465841A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a276dd232ac2a42f577922d5aec3fdb827b2884698374b8553ad6b59044cca3d
+#. default-sha256: 48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d
+msgctxt "scenario:scenario_C33E516E_93C7_48B5_B5B7_90F21465841A"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫............"
+
+#: scenario:scenario_31750AD1_23A4_4362_8BA9_24BBF94EAE66
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 79840ed53f5edaf0dfcd7b0ce6c9858cb9d7047fa44dd84d8793251b9b9fd278
+#. default-sha256: e35c2ea8905a73a66515bd1cc7f3806611de36a99bb85edf112e99d9999d80cd
+msgctxt "scenario:scenario_31750AD1_23A4_4362_8BA9_24BBF94EAE66"
+msgid ""
+"⟪k:0⟫But worry not. If you wish for it, the mansion shall provide.⟪k:1⟫⟪k:2⟫You are in no danger "
+"whatsoever of getting caught."
+msgstr "⟪k:0⟫Но не волнуйся. Если ты этого желаешь, дом поможет.⟪k:1⟫⟪k:2⟫Тебя не схватят."
+
+#: scenario:scenario_699904DE_B0A4_4CB2_8DC9_5CC4DB2BF71D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 70b16c8e627a1104276d1e88aaa67f057a32a576e21d24e9dc501c1c8962560e
+#. default-sha256: 27aba3f2c96ae8cb03547268d7253b737bf1284c3a10ef65cb6eaf9ff91cf097
+msgctxt "scenario:scenario_699904DE_B0A4_4CB2_8DC9_5CC4DB2BF71D"
+msgid "⟪k:0⟫I-⟪k:1⟫I..."
+msgstr "⟪k:0⟫Я-⟪k:1⟫Я..."
+
+#: scenario:scenario_5040D9BD_5FB7_49FE_B301_FCC9E67C4F95
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a276dd232ac2a42f577922d5aec3fdb827b2884698374b8553ad6b59044cca3d
+#. default-sha256: 48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d
+msgctxt "scenario:scenario_5040D9BD_5FB7_49FE_B301_FCC9E67C4F95"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫............"
+
+#: scenario:scenario_01637366_72EE_4420_9D69_BAFB11FFD9DE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 399736bd7cd7fbfdcdda9d8a7196ad9dbef9f97c8b67c68a4249914790c47636
+#. default-sha256: 76f0507f494f448a8ace7d8a95dc35fd9c962952b9f89892176e1aa8bfacac6c
+msgctxt "scenario:scenario_01637366_72EE_4420_9D69_BAFB11FFD9DE"
+msgid "⟪k:0⟫You said... ⟪k:1⟫that a witch lives in the mansion, did you not?"
+msgstr "⟪k:0⟫Вы сказали... ⟪k:1⟫что в этом доме жила ведьма, верно?"
+
+#: scenario:scenario_26FC22AF_F739_4BB7_BC88_829095B333EB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 611604421d05232895bb88fe891f5517716521510fe9c135cd8f920d2bed479c
+#. default-sha256: 3a4438d5bdcc3c78701d81b6e70612981199b1e5db47b4115685d6b98f5a2f2f
+msgctxt "scenario:scenario_26FC22AF_F739_4BB7_BC88_829095B333EB"
+msgid "⟪k:0⟫I did.⟪k:1⟫⟪k:2⟫Does that sound, perhaps, a bit archaic to you?"
+msgstr "⟪k:0⟫Сказала.⟪k:1⟫⟪k:2⟫Для тебя это не звучит немного старомодно?"
+
+#: scenario:scenario_1AD4E769_F286_4359_8F48_66DF917052A0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f4299cfddb1c1a08a2f896b21db37f07bc456f8b5e8abd33c574954966d6e0de
+#. default-sha256: a3a9cffdae23e6cc366814354dcd9ba8ccabdc3cb7861181e11e50109835525e
+msgctxt "scenario:scenario_1AD4E769_F286_4359_8F48_66DF917052A0"
+msgid "⟪k:0⟫No...⟪k:1⟫⟪k:2⟫I believe those rumors mockingly refer to me."
+msgstr "⟪k:0⟫Нет...⟪k:1⟫⟪k:2⟫Мне кажется, эти слухи ради издевки свяжут со мной."
+
+#: scenario:scenario_ED70EF9C_1DD7_4714_98BD_7992DEE1A2F5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5df1a423540e9d499a625f02fd1d24eaa2d6e4e15a669ee0d9bcfe8c7c12e1fc
+#. default-sha256: 14cb26b7d8237c58886c93cd083cc3861c40dd2195472f98d934286a255ad097
+msgctxt "scenario:scenario_ED70EF9C_1DD7_4714_98BD_7992DEE1A2F5"
+msgid "⟪k:0⟫Oh my."
+msgstr "⟪k:0⟫Ох, надо же."
+
+#: scenario:scenario_0AE9463B_F10F_4194_9D05_4F0943661162
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 41183090deadc10f7913edf66299632a1ee5abe27e867d1f3ff972bd37c15375
+#. default-sha256: aa432dd165ee3f1b18c0ccba82932e26424f07f157957714a61ee694d1b2f65e
+msgctxt "scenario:scenario_0AE9463B_F10F_4194_9D05_4F0943661162"
+msgid ""
+"⟪k:0⟫I have been accused of being a witch before.⟪k:1⟫⟪k:2⟫Which is amusing—⟪k:3⟫⟪k:4⟫I don’t "
+"have any magical powers."
+msgstr ""
+"⟪k:0⟫Меня и раньше обвиняли в ведьмовстве.⟪k:1⟫⟪k:2⟫Однако, это смешно — ⟪k:3⟫⟪k:4⟫у меня нет "
+"каких-либо магических сил."
+
+#: scenario:scenario_AF40D102_15C7_4F44_B3CE_CF0C246716DF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2e2b292c7078bc5f017b62d373650535c6a85f80e94972358cde0c6278639619
+#. default-sha256: c637ca3147eabe7d89e249ffebd4f398c753078d9c9529cffad3a7a744d3daf5
+msgctxt "scenario:scenario_AF40D102_15C7_4F44_B3CE_CF0C246716DF"
+msgid "⟪k:0⟫I simply... ⟪k:1⟫have an unusual... ⟪k:2⟫appear...⟪k:3⟫ance...⟪k:4⟫"
+msgstr "⟪k:0⟫У меня просто... ⟪k:1⟫необычная... ⟪k:2⟫внеш...⟪k:3⟫ность...⟪k:4⟫"
+
+#: scenario:scenario_AC05B431_035C_4DA4_BB49_D8128FC2E2D6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4cda8442cabe49d5954017ff38ac20f3cb00ff5363801c067f9f2aa5a306ef90
+#. default-sha256: 27ecdb534ed296192295273c5f0096228228e769eee20094c886b957168f0b2e
+msgctxt "scenario:scenario_AC05B431_035C_4DA4_BB49_D8128FC2E2D6"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫............"
+
+#: scenario:scenario_342F42EA_8624_4023_AEA4_68CB645702BE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f90aa1a61bb6d0d030f0379017e976f94e17f3b94e9e8b3ada365109d58316d8
+#. default-sha256: 8cf48f92c13aca8dbeb443ced899019c55d210e4507d6aa9b199af64644c3f15
+msgctxt "scenario:scenario_342F42EA_8624_4023_AEA4_68CB645702BE"
+msgid "⟪k:0⟫My, what a lovely shade of red."
+msgstr "⟪k:0⟫Надо же, какой прекрасный оттенок красного."
+
+#: scenario:scenario_D31BBE64_78C0_46BD_9850_92029133ED29
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4e744587fa90d833e8cc171c08bd8ee191d43ec35f4e9dc6937c4e03bdfafc21
+#. default-sha256: 83ea813464a6a22dc470b8cb42d0a8e8d2ccaa182459e93e7332f82be25a1861
+msgctxt "scenario:scenario_D31BBE64_78C0_46BD_9850_92029133ED29"
+msgid "⟪k:0⟫The rose..."
+msgstr "⟪k:0⟫Роза..."
+
+#: scenario:scenario_266085A2_28D5_4C0D_B984_190ED8C4AB8A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a276dd232ac2a42f577922d5aec3fdb827b2884698374b8553ad6b59044cca3d
+#. default-sha256: 48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d
+msgctxt "scenario:scenario_266085A2_28D5_4C0D_B984_190ED8C4AB8A"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫............"
+
+#: scenario:scenario_4532E5E7_F2FE_481B_952F_7C32D033E368
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f445e42a1976e140b4d6186ce1ab2ba023315aabcdcc9ff0da247f6249bbe4b7
+#. default-sha256: 0e90e88fb7fce51011e9660a2ebbac2e379acfdf1f8c7ccd20dade46e27b1dc2
+msgctxt "scenario:scenario_4532E5E7_F2FE_481B_952F_7C32D033E368"
+msgid "⟪k:0⟫Is something the matter?"
+msgstr "⟪k:0⟫Что-то не так?"
+
+#: scenario:scenario_469B0EBD_E38E_4621_8941_9A687B599CB2
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6d397755a2e619bf4a3ab131038d5e44565d4024d39996ab89aeca515da2e20e
+#. default-sha256: 2e8f748104a5b29eb90b3fc7800eb29c4a3047b9de40086e1833365355e11126
+msgctxt "scenario:scenario_469B0EBD_E38E_4621_8941_9A687B599CB2"
+msgid "⟪k:0⟫This rose..."
+msgstr "⟪k:0⟫Эта роза..."
+
+#: scenario:scenario_3AB45C28_4954_4146_8817_92646FABAA91
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0c0bc25544e351b83432dba508f42aafa99ef68c8e47900c080b72443b7c4616
+#. default-sha256: 506ad6df243e34e5eaa78e8cbcbaf91e0ac5b4e69207b0a1604e19947e8fa0e9
+msgctxt "scenario:scenario_3AB45C28_4954_4146_8817_92646FABAA91"
+msgid "⟪k:0⟫This rose was white.⟪k:1⟫⟪k:2⟫Until I took it in my hand..."
+msgstr "⟪k:0⟫Эта роза была белой.⟪k:1⟫⟪k:2⟫Пока я не взяла ее в руку..."
+
+#: scenario:scenario_77D9C119_AE96_4310_90EF_BF3D389C3669
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 11087047b2cab5a507f810e79e4f6248ba2300b83a33ab5996d589e2890286ea
+#. default-sha256: 9beaa6b4932ae69e2005e3481871540e2cf7c165f50e820b74f3421c8064360e
+msgctxt "scenario:scenario_77D9C119_AE96_4310_90EF_BF3D389C3669"
+msgid "⟪k:0⟫Hehe... ⟪k:1⟫Is that so?"
+msgstr "⟪k:0⟫Хехе... ⟪k:1⟫Разве?"
+
+#: scenario:scenario_4F3D5C96_F640_42FB_A52E_BB9CC13796FC
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 975244289c76c985ca815eca527ec25922d370cca070d0766f51e8ef51647a38
+#. default-sha256: 814f32a39111281984272386dbb15120fd45ed3d4b7b1cba04181d0a3491d397
+msgctxt "scenario:scenario_4F3D5C96_F640_42FB_A52E_BB9CC13796FC"
+msgid ""
+"⟪k:0⟫I apologize. I must sound mad.⟪k:1⟫⟪k:2⟫I’m sure I was just mistaken.⟪k:3⟫⟪k:4⟫It couldn’t "
+"possibly have changed—"
+msgstr ""
+"⟪k:0⟫Я прошу прощения. Это, наверное, безумно звучит.⟪k:1⟫⟪k:2⟫Уверена, мне лишь показалось.⟪k:3⟫"
+"⟪k:4⟫Я ведь не могла на самом деле изменить—"
+
+#: scenario:scenario_A21B7DA4_8C70_4C5B_B9D5_01C1D39C2260
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5c11a6e86ee109f1646ee57ff1f643746e464e7b77732ae21e389fc9c6e1a324
+#. default-sha256: 894577c8ef46a35f0fe2826dbd05aeac41deaa7f77b0bdcd7494c01bd094b61e
+msgctxt "scenario:scenario_A21B7DA4_8C70_4C5B_B9D5_01C1D39C2260"
+msgid "⟪k:0⟫I wonder..."
+msgstr "⟪k:0⟫Интересно..."
+
+#: scenario:scenario_B4C2BEF3_6F3D_4897_B00F_A0C7375F0091
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 259e1be4227b78a29211bad02951cfeaed9feeaf8626e02f89af971c55765520
+#. default-sha256: 895fceeae7ad0b718eee2cf6924ceb4a17872c40f976adab66296a8bd0b24e2e
+msgctxt "scenario:scenario_B4C2BEF3_6F3D_4897_B00F_A0C7375F0091"
+msgid "⟪k:0⟫Yes?"
+msgstr "⟪k:0⟫Да?"
+
+#: scenario:scenario_BD1A9779_7F44_4D84_9F9A_32BADA4BCC5C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 863c53ab1e5903fdea74a7d4407b2e1038880c8cfdd2e1e239cda813853fd3ef
+#. default-sha256: 470c139fcfdbc3ae28838435718f6eb2f171feee5b7a7ff43add2ee946724bef
+msgctxt "scenario:scenario_BD1A9779_7F44_4D84_9F9A_32BADA4BCC5C"
+msgid "⟪k:0⟫Did the girl locked in the mansion become a princess?"
+msgstr "⟪k:0⟫Девушка, запертая в особняке, стала-таки принцессой?"
+
+#: scenario:scenario_92C3B444_2AC4_4E77_AF7B_0FF0F2A46C02
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9990d24114e945a338004f85967331edd5c98541e733bebc4d183d7a75de53d8
+#. default-sha256: bb1a1b88685858947fae53fe35a083ac520856d5ac2b460fb967355b9f5696d5
+msgctxt "scenario:scenario_92C3B444_2AC4_4E77_AF7B_0FF0F2A46C02"
+msgid "⟪k:0⟫Wha—"
+msgstr "⟪k:0⟫Что—"
+
+#: scenario:scenario_472613F0_DE6D_4F88_9400_9B70222BD21F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fbd246f72b88132b18646c35682cf70ef16a1708e1a60b28a8c694793e52a745
+#. default-sha256: bfdf2ba38e1d65b389554bc9dd113111e47b3aaddcc315b67bc3c05a6673abbc
+msgctxt "scenario:scenario_472613F0_DE6D_4F88_9400_9B70222BD21F"
+msgid ""
+"⟪k:0⟫We should lock up and head to bed.⟪k:1⟫⟪k:2⟫Make sure all of the shutters are closed nice "
+"and tight, and then draw the bar on the front door."
+msgstr ""
+"⟪k:0⟫Мы должны все запереть, и отправиться в постель.⟪k:1⟫⟪k:2⟫Убедись, что ставни хорошо и "
+"плотно закрыты, а затем запри входные двери."

@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: morgana-opening\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2026-10-28 00:00+0000\n"
+"Last-Translator: Community contributors\n"
+"Language-Team: zh-Hans\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-Hans\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "choice:greeting-0"
+msgid "...Good morning..."
+msgstr "……早安……"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "choice:greeting-1"
+msgid "............"
+msgstr "…………"

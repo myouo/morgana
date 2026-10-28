@@ -1,0 +1,16 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';
+import {readFile,mkdir,writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {stringify} from 'yaml';
+import {tokenize} from '../tooling/kag.js';import {parseKag} from '../tooling/kag-ast.js';import {lowerLiteralText} from '../tooling/text-stream.js';
+import {ProgramBuilder,richPage,instruction} from 'galbox-sdk/port-kit';import {createCore} from 'galbox-sdk/core';import {encodeWire,decodeWire} from 'galbox-sdk/wire';
+import {languages} from '../tooling/locale.js';
+test('literal text lowering keeps [l] and [r] independent and rejects dynamic/foreign controls',()=>{const p=lowerLiteralText(tokenize('A[l]B[r]C','input'));assert.equal(p.content,'AB\nC');assert.deepEqual(p.runs.map(r=>r.kind),['text','confirm','text','break','text']);for(const text of ['[c text=&f.x]','A[waitclick]','A[image storage=x]'])assert.throws(()=>lowerLiteralText(tokenize(text,'input')),/UNSUPPORTED/);assert.throws(()=>lowerLiteralText(parseKag('[if exp="f.x"]A[endif]','input').nodes),/UNSUPPORTED/);});
+test('real source literal paragraphs from every language use actual SDK confirmations and protobuf restore',async()=>{
+ const coverage=[];for(const locale of languages){const text=await readFile(`private/text/${locale}/scenario/scenario.ks`,'utf8'),tokens=tokenize(text,'scenario/scenario.ks');let body:ReturnType<typeof lowerLiteralText>|undefined,sourceLine=0;
+  for(let i=0;i<tokens.length;i++){const token=tokens[i];if(token?.kind!=='tag'||token.name!=='jinobun')continue;const candidates=[];for(let j=i+1;j<tokens.length;j++){const next=tokens[j];if(next?.kind==='tag'&&next.name==='p')break;if(!next)break;candidates.push(next);}if(!candidates.some(t=>t.kind==='tag'&&t.name==='l'))continue;try{body=lowerLiteralText(candidates);sourceLine=token.source.line;break;}catch{}}
+  assert.ok(body,`No supported source literal paragraph for ${locale}`);const p=new ProgramBuilder({gameId:'real-source-inline',release:'source-v1',entry:'main'}).function({id:'main',entry:'page',layout:1,params:[],locals:[],returns:'void',code:[richPage('page','source','v1','',body.runs),instruction('control.end',{at:'end'})]}).build(),c=createCore(p);c.accept({type:'text.preferences',value:{intervalMs:0}});c.run(100);let confirmations=0;
+  for(let n=0;n<50;n++){const cut=c.capture();if(cut.status==='ended')break;assert.equal(cut.text?.content,body.content);assert.equal(cut.history.length,0);if(cut.text?.rich?.waitingForClick){confirmations++;const restored=createCore(p,c.view().profile,decodeWire('Snapshot',encodeWire('Snapshot',cut)));assert.deepEqual(restored.capture(),cut);}const wait=cut.wait;assert.ok(wait?.kind==='text');c.accept({type:'step',prompt:wait.prompt,inputId:`${locale}:${n}`});c.run(100);}
+  assert.equal(c.capture().status,'ended');assert.equal(c.capture().history.length,1);assert.equal(confirmations,body.confirmations);coverage.push({locale,file:'scenario/scenario.ks',speakerContextLine:sourceLine,confirmations,characters:body.content.length,contentSha256:createHash('sha256').update(body.content).digest('hex'),scope:'literal text-flow only; speaker/layout context not executed'});
+ }await mkdir('artifacts/ast',{recursive:true});await writeFile('artifacts/ast/inline-source-coverage.yaml',stringify(coverage));
+});

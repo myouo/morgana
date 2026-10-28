@@ -1,0 +1,3 @@
+import type {Prologue,ProloguePage} from '../tooling/prologue.js';
+import {requireValue} from '../tooling/kag.js';
+export function prologuePath(source:Prologue,option:number):ProloguePage[]{const pages:ProloguePage[]=[];let cursor=0,steps=0;while(cursor<source.nodes.length){requireValue(++steps<2000&&cursor>=0,'TEST_SOURCE_FLOW');const node=source.nodes[cursor++]!;if(node.kind==='page')pages.push(node.page);else if(node.kind==='choice'){const target=node.options[option]?.target;requireValue(target,'TEST_CHOICE');cursor=source.nodes.findIndex(n=>n.kind==='label'&&n.name===target);}else if(node.kind==='tag'&&node.tag.name==='jump'){const target=node.tag.args.target?.slice(1);cursor=source.nodes.findIndex(n=>n.kind==='label'&&n.name===target);}}return pages;}

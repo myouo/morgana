@@ -1,0 +1,569 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: morgana-opening\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2026-10-28 00:00+0000\n"
+"Last-Translator: Community contributors\n"
+"Language-Team: zh-Hans\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-Hans\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: scenario:first_6F184769_6CDF_4639_9190_C2DD93C8ECA0
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:first_6F184769_6CDF_4639_9190_C2DD93C8ECA0"
+msgid "Your consciousness, wavering like a ship at sea, was slowly drawn back to the surface."
+msgstr ""
+"随着嘎吱、嘎吱的声音，{{gb:pauseunits:0}}缥缈的意识……{{gb:pauseunits:1}}渐渐地……被拉回现实。"
+
+#: scenario:first_55CA7F50_AD2F_4ACE_8C13_092E88A5B7F7
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:first_55CA7F50_AD2F_4ACE_8C13_092E88A5B7F7"
+msgid "{{gb:pause:0}}{{gb:style:1}}...ter.{{gb:endstyle:2}}"
+msgstr "{{gb:pause:0}}{{gb:style:1}}……老爷？{{gb:endstyle:2}}"
+
+#: scenario:first_ABDB8EDE_1354_4370_883C_999B93387DB8
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:first_ABDB8EDE_1354_4370_883C_999B93387DB8"
+msgid "With each new breath, feeling gradually returned to Your fingers."
+msgstr "伴随着每一次呼吸，{{gb:pauseunits:0}}手指慢慢地取回知觉。"
+
+#: scenario:first_9F186082_C02E_43C0_8505_AB881358FCFF
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:first_9F186082_C02E_43C0_8505_AB881358FCFF"
+msgid "{{gb:pause:0}}{{gb:style:1}}Master.{{gb:endstyle:2}}"
+msgstr "{{gb:pause:0}}{{gb:style:1}}老爷？{{gb:endstyle:2}}"
+
+#: scenario:first_7EA48DE0_2E43_4621_A279_8BC9819C1FB0
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:first_7EA48DE0_2E43_4621_A279_8BC9819C1FB0"
+msgid "You could hear the pattering of rain from somewhere."
+msgstr "……耳边最先传来的，是淅沥的雨声。"
+
+#: scenario:first_A3960FA7_8974_4185_BD95_776DC75AF63E
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:first_A3960FA7_8974_4185_BD95_776DC75AF63E"
+msgid "{{gb:pause:0}}{{gb:style:1}}Master?{{gb:endstyle:2}}"
+msgstr "{{gb:pause:0}}{{gb:style:1}}那个……{{gb:endstyle:2}}"
+
+#: scenario:first_AFF24FCE_C014_426C_BC92_821420911E35
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:first_AFF24FCE_C014_426C_BC92_821420911E35"
+msgid "And the sound of a crackling fire."
+msgstr "……而后，是火焰劈啪作响的声音。"
+
+#: scenario:first_ADB4F9C1_6C1D_466C_A6AE_D704E26D16A5
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:first_ADB4F9C1_6C1D_466C_A6AE_D704E26D16A5"
+msgid "{{gb:pause:0}}{{gb:style:1}}Wake up, Master.{{gb:endstyle:2}}"
+msgstr "{{gb:pause:0}}{{gb:style:1}}烦请老爷醒来{{gb:endstyle:2}}"
+
+#: scenario:first_64AED7C6_7E70_4797_95B8_5FEA87FCEBDA
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:first_64AED7C6_7E70_4797_95B8_5FEA87FCEBDA"
+msgid ""
+"{{gb:style:0}}Creak, {{gb:endstyle:1}}{{gb:pauseunits:2}}{{gb:style:3}}creak, {{gb:endstyle:4}}"
+"{{gb:pauseunits:5}}{{gb:style:6}}creak.{{gb:endstyle:7}}"
+msgstr "嘎吱……{{gb:pauseunits:0}}嘎吱……{{gb:pauseunits:1}}嘎吱……"
+
+#: scenario:first_E1C002DC_8CA6_44E2_992F_B987DBE0095F
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:first_E1C002DC_8CA6_44E2_992F_B987DBE0095F"
+msgid "{{gb:pause:0}}{{gb:style:1}}Wake up.{{gb:endstyle:2}}"
+msgstr "{{gb:pause:0}}{{gb:style:1}}……请醒来……{{gb:endstyle:2}}"
+
+#: scenario:first_E1C86CAA_4E54_4AE6_9F69_C5E4B731EB51
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:first_E1C86CAA_4E54_4AE6_9F69_C5E4B731EB51"
+msgid ""
+"{{gb:pauseunits:0}}{{gb:pauseunits:1}}When You came to, You were rocking back and forth in a "
+"rocking chair."
+msgstr "{{gb:pauseunits:0}}{{gb:pauseunits:1}}「你」慢慢睁开眼，发现自己蜷身于轻晃的摇椅上。"
+
+#: scenario:scenario_D4FF2400_8393_4FDF_99CA_C8E8DDEBEA27
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_D4FF2400_8393_4FDF_99CA_C8E8DDEBEA27"
+msgid ""
+"The room was dimly lit; {{gb:confirm:0}}aside from the flickering of the fireplace, there was no "
+"other illumination."
+msgstr "身处于漆黑的房间，{{gb:pauseunits:0}}唯一的光源是壁炉里劈啪作响的火光。"
+
+#: scenario:first_9B1F8BB5_7AD3_47AF_B692_87373028E8E7
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:first_9B1F8BB5_7AD3_47AF_B692_87373028E8E7"
+msgid ""
+"No light shone through the closed windows;{{gb:break:0}}there was only the pitter-patter of rain "
+"on the glass.{{gb:confirm:1}}{{gb:break:2}}It was as though the whole mansion had been enveloped "
+"in darkness."
+msgstr ""
+"雨滴轻声敲叩着紧闭的窗，{{gb:pauseunits:0}}但透过窗，只能窥探到无尽的黑暗。{{gb:confirm:1}}如同整"
+"间屋子都在黑暗的怀抱中一般。"
+
+#: scenario:first_3675C0FE_B595_46A4_8729_173AACA6B810
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:first_3675C0FE_B595_46A4_8729_173AACA6B810"
+msgid "Oh, splendid...{{gb:confirm:0}}{{gb:break:1}}You have finally awoken."
+msgstr "啊……{{gb:pauseunits:0}}您终于醒来了。"
+
+#: scenario:scenario_DEF8E5D2_5E70_458C_B883_CF0620E61EC1
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_DEF8E5D2_5E70_458C_B883_CF0620E61EC1"
+msgid ""
+"Someone called out to You.{{gb:confirm:0}}{{gb:break:1}}You were about to search the room, but "
+"that turned out to be unnecessary."
+msgstr ""
+"「你」听到有人在说话。{{gb:confirm:0}}{{gb:break:1}}「你」想要找到声音的来源，{{gb:pauseunits:2}}"
+"但似乎这个行为也是多余的。"
+
+#: scenario:first_BE2E91F1_927C_45A2_ADA5_26E15DE54290
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:first_BE2E91F1_927C_45A2_ADA5_26E15DE54290"
+msgid "The source of the voice was crouching beside the chair, looking up at You with emerald eyes."
+msgstr "声音的主人正跪身于「你」的身侧，{{gb:pauseunits:0}}用翠绿色的瞳孔望着你。"
+
+#: scenario:scenario_EEDD192A_1898_4B57_B932_63297D4A85E9
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_EEDD192A_1898_4B57_B932_63297D4A85E9"
+msgid "............"
+msgstr "…………"
+
+#: scenario:scenario_EEDD192A_1898_4B57_B932_63297D4A75E9
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_EEDD192A_1898_4B57_B932_63297D4A75E9"
+msgid "Good morning, Master."
+msgstr "早安，{{gb:pauseunits:0}}老爷……"
+
+#: scenario:scenario_EEDD192A_1898_4B57_B992_63297D4A75E9
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_EEDD192A_1898_4B57_B992_63297D4A75E9"
+msgid ""
+"Hehe, what is the matter?{{gb:confirm:0}}{{gb:break:1}}Are you still waking up?{{gb:confirm:2}}"
+"{{gb:break:3}}You seem rather drowsy."
+msgstr ""
+"呵呵……{{gb:pauseunits:0}}您怎么了？{{gb:pauseunits:1}}看上去睡眼惺忪的样子。{{gb:confirm:2}}"
+"{{gb:break:3}}是还没有完全睡醒吗？"
+
+#: scenario:scenario_EEDD192A_1898_4B57_B932_63297D4A75E9-repeat2
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_EEDD192A_1898_4B57_B932_63297D4A75E9-repeat2"
+msgid ""
+"Come now, you must gather yourself.{{gb:confirm:0}}{{gb:break:1}}Though I {{gb:style:2}}"
+"am{{gb:endstyle:3}} glad to hear your voice."
+msgstr ""
+"真是的，{{gb:pauseunits:0}}不振作起来可不行呢。{{gb:confirm:1}}{{gb:break:2}}但是……老爷能听到下仆"
+"的声音，{{gb:pauseunits:3}}真的是太好了。"
+
+#: scenario:scenario_EEDD192A_2898_6B57_B992_63297D4A75E9
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_EEDD192A_2898_6B57_B992_63297D4A75E9"
+msgid ""
+"Oh my, is something the matter?{{gb:confirm:0}}{{gb:break:1}}Why do you stare at me like that?"
+"{{gb:confirm:2}}{{gb:break:3}}Is there something on my face?"
+msgstr ""
+"……哎呀，{{gb:pauseunits:0}}您怎么了？{{gb:confirm:1}}直直地盯着下仆……{{gb:pauseunits:2}}是下仆的脸"
+"上沾有什么东西吗？"
+
+#: scenario:scenario_EEDD992A_1898_4B57_B932_63297D4A75E9
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_EEDD992A_1898_4B57_B932_63297D4A75E9"
+msgid ""
+"“It was a surprising sight to wake up to”?{{gb:confirm:0}}{{gb:break:1}}Hehehe, I didn’t mean to "
+"startle you."
+msgstr ""
+"莫非，是还没有摆脱「沉眠初方醒」的感觉？{{gb:confirm:0}}{{gb:break:1}}也是……{{gb:pauseunits:2}}被"
+"这样叫醒的话，任谁都会有些不适呢。"
+
+#: scenario:scenario_EEDD192A_1898_4B57_B932_63297D4A74E9
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_EEDD192A_1898_4B57_B932_63297D4A74E9"
+msgid "I have simply been waiting so long for this moment."
+msgstr "可还请老爷见谅，{{gb:pauseunits:0}}因为下仆我梦寐以求的一刻终于到来了……"
+
+#: scenario:scenario_030F1964_1AB1_46F1_B13A_535FD494EBEE
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_030F1964_1AB1_46F1_B13A_535FD494EBEE"
+msgid ""
+"Tending to the mansion all by my lonesome,{{gb:break:0}}ensuring it was ready for your return—"
+"{{gb:pauseunits:1}}{{gb:pauseunits:2}}{{gb:break:3}}whenever that time may be."
+msgstr "下仆独自一人修缮着这间屋子，{{gb:pauseunits:0}}时刻做好迎接老爷归来的准备。"
+
+#: scenario:scenario_9DF01A0E_BF40_442E_8434_CCA03BD6ED84
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_9DF01A0E_BF40_442E_8434_CCA03BD6ED84"
+msgid ""
+"When I caught sight of you through the window,{{gb:break:0}}my heart fluttered. {{gb:confirm:1}}"
+"The time had finally arrived."
+msgstr ""
+"从窗边看到您身影的那一刻，{{gb:pauseunits:0}}下仆想，{{gb:pauseunits:1}}如此之久的等待，总算有价值"
+"了——"
+
+#: scenario:scenario_786CFC51_1180_4979_843D_DFAA8FF5CB56
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_786CFC51_1180_4979_843D_DFAA8FF5CB56"
+msgid "You were perplexed."
+msgstr "「你」一头雾水。"
+
+#: scenario:scenario_01950270_4712_4CC8_9591_BA6A0E93D4D4
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_01950270_4712_4CC8_9591_BA6A0E93D4D4"
+msgid "This woman, who looked like a maid, seemed to know You, but You had no memory of her."
+msgstr ""
+"眼前像是女仆的女子，似乎对「你」了如指掌。{{gb:pauseunits:0}}但相反的，「你」对自身却一无所知。"
+
+#: scenario:scenario_36D312AA_B1BC_4424_8368_EF3141CF64A0
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_36D312AA_B1BC_4424_8368_EF3141CF64A0"
+msgid ""
+"What kind of herbal tea would you like to start your day with?{{gb:confirm:0}}{{gb:break:1}}I "
+"have some wonderful chamomile leaves, if you would like."
+msgstr ""
+"老爷需要来杯醒神的香草茶吗？{{gb:confirm:0}}{{gb:break:1}}馆内还备有上等的春黄菊，"
+"{{gb:pauseunits:2}}推荐老爷试试。"
+
+#: scenario:scenario_5C228EBD_91E3_4C2B_BA41_C8A4AD2C4F7C
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_5C228EBD_91E3_4C2B_BA41_C8A4AD2C4F7C"
+msgid ""
+"Or perhaps your tastes have changed since last we met.{{gb:confirm:0}}{{gb:break:1}}Tell me, "
+"Master, what would you like?"
+msgstr ""
+"还是说……{{gb:pauseunits:0}}已经没有以前那样的喝茶习惯了吗……{{gb:confirm:1}}{{gb:break:2}}老爷，"
+"{{gb:pauseunits:3}}您的意见是什么呢？"
+
+#: scenario:scenario_78C8F3C1_99A0_4B17_9E5A_851678DBBFE8
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_78C8F3C1_99A0_4B17_9E5A_851678DBBFE8"
+msgid ""
+"Hehehe... {{gb:pauseunits:0}}I beg your pardon.{{gb:confirm:1}}{{gb:break:2}}I allowed myself to "
+"get too excited."
+msgstr "呵呵……{{gb:confirm:0}}{{gb:break:1}}抱歉，{{gb:pauseunits:2}}下仆盼到您的到来情绪有些高涨。"
+
+#: scenario:scenario_0CD29F9F_029C_4DA5_8EC8_961F3523EB8D
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_0CD29F9F_029C_4DA5_8EC8_961F3523EB8D"
+msgid ""
+"But I hope you will be sympathetic, Master.{{gb:confirm:0}}{{gb:break:1}}I am just utterly elated "
+"that I could see you again."
+msgstr "但请老爷见谅。{{gb:confirm:0}}能与老爷相逢，{{gb:pauseunits:1}}下仆心里实在有点激动。"
+
+#: scenario:scenario_33BA479C_7F52_4A11_8119_1327DBA95E31
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_33BA479C_7F52_4A11_8119_1327DBA95E31"
+msgid ""
+"The woman appeared to be genuinely delighted that You had awoken, but she seemed to lack the "
+"energy typical of her age."
+msgstr ""
+"眼前的女子因「你」的出现，展露出喜悦之情。{{gb:break:0}}{{gb:pauseunits:1}}但却完全感受不到和她外"
+"表年龄相符的「开朗」之色。"
+
+#: scenario:scenario_B0CFA04E_4360_41E7_826F_7C7B97FCA936
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_B0CFA04E_4360_41E7_826F_7C7B97FCA936"
+msgid "Or perhaps “life” was a more appropriate word than “energy.”"
+msgstr ""
+"不，{{gb:pauseunits:0}}与其说是「开朗」，{{gb:pauseunits:1}}{{gb:break:2}}倒不如说，"
+"{{gb:pauseunits:3}}是「生机」。"
+
+#: scenario:scenario_3691FA4F_585E_4124_A85A_08B5F77887A0
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_3691FA4F_585E_4124_A85A_08B5F77887A0"
+msgid ""
+"But the gloom extended beyond the Maid—{{gb:pauseunits:0}}{{gb:pauseunits:1}}it seemed to "
+"encompass the entire mansion."
+msgstr "没有生机的不只是眼前的女仆。{{gb:confirm:0}}{{gb:break:1}}而是包裹着「你」的这座馆全体。"
+
+#: scenario:scenario_C7CCFCFB_07DF_46B2_83BF_0E73E9FC1D27
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_C7CCFCFB_07DF_46B2_83BF_0E73E9FC1D27"
+msgid ""
+"The plaster walls illuminated by the fireplace and the rose engravings in the ebony pillars felt "
+"vaguely familiar."
+msgstr ""
+"房间的四周——{{gb:pauseunits:0}}暖炉里火光映射出的灰色墙壁，{{gb:pauseunits:1}}装饰着蔷薇浮雕的黑色"
+"屋柱，{{gb:pauseunits:2}}都给人一种熟悉的感觉。"
+
+#: scenario:scenario_10F6AF30_947D_4862_8FA5_77E61F3514DB
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_10F6AF30_947D_4862_8FA5_77E61F3514DB"
+msgid "But a crushing sense of claustrophobia overpowered that familiarity."
+msgstr "然而，尝试着让大脑回忆时，{{gb:pauseunits:0}}却不适时宜地感到心悸。"
+
+#: scenario:scenario_7309026B_7B99_4803_B36B_1C58611FEC61
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_7309026B_7B99_4803_B36B_1C58611FEC61"
+msgid "It seemed as though the house wasn’t interested in accepting You just yet."
+msgstr "仿若这座「馆」本身，{{gb:pauseunits:0}}仍旧拒绝着「你」的出现。"
+
+#: scenario:scenario_D0B5A739_A73A_4C42_B8E6_FD24D3722F26
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_D0B5A739_A73A_4C42_B8E6_FD24D3722F26"
+msgid "Oh my, you do not know who I am?"
+msgstr "哎呀，{{gb:pauseunits:0}}您问下仆是谁？"
+
+#: scenario:scenario_D0B5A739_A73A_4C42_B8E6_FD24D3722F56
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_D0B5A739_A73A_4C42_B8E6_FD24D3722F56"
+msgid "Do you not know who you are, either?"
+msgstr "莫非您……{{gb:pauseunits:0}}连自己是谁也不记得了？"
+
+#: scenario:scenario_58D10758_5CA7_4E7E_9E6C_B3E29772B14D
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_58D10758_5CA7_4E7E_9E6C_B3E29772B14D"
+msgid "That is quite the predicament."
+msgstr "那还真是……令人伤脑筋呀。"
+
+#: scenario:scenario_B4FDE4A5_7FD3_47F4_98EA_3429B2DAF175
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_B4FDE4A5_7FD3_47F4_98EA_3429B2DAF175"
+msgid "If you cannot remember who you are,{{gb:break:0}}then who am I to serve?"
+msgstr "如果您连自己的事都不记得的话，{{gb:pauseunits:0}}下仆我又到底是在侍奉着谁呢……"
+
+#: scenario:scenario_F2F6E58B_7ED3_4924_A9F7_9DD012B76DB8
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_F2F6E58B_7ED3_4924_A9F7_9DD012B76DB8"
+msgid "The woman’s face was pale, almost as though she..."
+msgstr "女仆的脸庞苍白，{{gb:pauseunits:0}}仿佛就像{{gb:pauseunits:1}}……"
+
+#: scenario:scenario_B672483A_4C17_4AF7_8E26_BC553F3F471B
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_B672483A_4C17_4AF7_8E26_BC553F3F471B"
+msgid "A faint chill ran down Your spine."
+msgstr "「你」感到背脊有些发凉。"
+
+#: scenario:scenario_A1205768_128C_4733_ADA1_924A59D38568
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_A1205768_128C_4733_ADA1_924A59D38568"
+msgid ""
+"You are the master of this house.{{gb:confirm:0}}{{gb:break:1}}Though it would seem you have no "
+"memories of such.{{gb:confirm:2}}{{gb:break:3}}Quite the dilemma..."
+msgstr ""
+"您是这座「馆」的馆主。{{gb:confirm:0}}{{gb:break:1}}可是您并没有记忆吧。{{gb:pauseunits:2}}这可怎"
+"么办……"
+
+#: scenario:scenario_9D29A830_27A4_4F10_A954_8424F4C087FF
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_9D29A830_27A4_4F10_A954_8424F4C087FF"
+msgid "If you know not who you are,"
+msgstr "如果您已完全遗忘了这里的事，{{gb:pauseunits:0}}{{gb:break:1}}那下仆我又是在和谁交谈呢？"
+
+#: scenario:scenario_6E2CC821_CD27_4B3A_881C_25232FACED90
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_6E2CC821_CD27_4B3A_881C_25232FACED90"
+msgid "then you are no different than a stranger to me, no?"
+msgstr "这样可不行呢……"
+
+#: scenario:scenario_E76A3A39_2321_4697_A845_B9D30C4E883A
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_E76A3A39_2321_4697_A845_B9D30C4E883A"
+msgid ""
+"Indeed, you have returned.{{gb:confirm:0}}{{gb:break:1}}But from where? {{gb:confirm:2}}That, I "
+"cannot say."
+msgstr ""
+"是啊……{{gb:pauseunits:0}}下仆好不容易把您盼回来了。{{gb:confirm:1}}{{gb:break:2}}但下仆并不知道您"
+"之前去了哪里。"
+
+#: scenario:scenario_DFCE3B0E_5C56_4B8F_8FC5_3F6550B65ECF
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_DFCE3B0E_5C56_4B8F_8FC5_3F6550B65ECF"
+msgid "Then how about this?"
+msgstr "为了让您回忆起一切，不如这样……"
+
+#: scenario:scenario_E7C498E0_DBE2_4235_9DD0_94F92B255799
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_E7C498E0_DBE2_4235_9DD0_94F92B255799"
+msgid ""
+"I am a servant of this mansion, and as such,{{gb:break:0}}I am familiar with the many incidents "
+"that have taken place here.{{gb:confirm:1}}{{gb:break:2}}I shall show you the history of this "
+"house, Master."
+msgstr ""
+"下仆我身为馆内的女仆，{{gb:pauseunits:0}}对发生在此的种种事件了如指掌。{{gb:confirm:1}}不如，"
+"{{gb:pauseunits:2}}由下仆来带您一览这座馆的陈年往事。"
+
+#: scenario:scenario_026CDFF8_D69A_4968_AA58_2A83D1DF2721
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_026CDFF8_D69A_4968_AA58_2A83D1DF2721"
+msgid "That will surely allow you to recall who you are."
+msgstr "如此一来……{{gb:pauseunits:0}}{{gb:break:1}}想必老爷一定能回想起一切。"
+
+#: scenario:scenario_9E69DD74_1FB2_43E0_84E4_F946145FAC24
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_9E69DD74_1FB2_43E0_84E4_F946145FAC24"
+msgid ""
+"The freshly awakened gears in Your head began to turn as You mulled things over. {{gb:confirm:0}}"
+"The Maid had called You the “master” of this house."
+msgstr ""
+"思绪依旧昏昏沉沉，{{gb:pauseunits:0}}「你」有些哑然。{{gb:confirm:1}}{{gb:break:2}}不明白，为何女"
+"仆坚称「你」是馆主。"
+
+#: scenario:scenario_A8C1E217_42E2_4EAC_B9E8_0234433AB5F2
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_A8C1E217_42E2_4EAC_B9E8_0234433AB5F2"
+msgid ""
+"But without a single mirror in the room,{{gb:break:0}}You had no way of seeing what You looked "
+"like."
+msgstr "可是屋子里连一面镜子都找不到，{{gb:pauseunits:0}}「你」甚至无法确认自己的容貌。"
+
+#: scenario:scenario_6AF86C38_B6C1_4C91_8A22_569C72053F2A
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_6AF86C38_B6C1_4C91_8A22_569C72053F2A"
+msgid "Unable to decide, You reflexively nodded."
+msgstr "最终，作为答复，{{gb:pauseunits:0}}「你」妥协地点了点头。"
+
+#: scenario:scenario_6D8729E1_6EED_4BA1_B343_A6B2C764A9C9
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_6D8729E1_6EED_4BA1_B343_A6B2C764A9C9"
+msgid ""
+"Let us be off, then.{{gb:confirm:0}}{{gb:break:1}}And fear not—{{gb:pauseunits:2}}"
+"{{gb:pauseunits:3}}I merely entreat you not to let go of my hand."
+msgstr ""
+"既然如此，{{gb:pauseunits:0}}老爷请安心随下仆来。{{gb:confirm:1}}{{gb:break:2}}请务必抓紧下仆的"
+"手，{{gb:pauseunits:3}}片刻都不要松开。"
+
+#: scenario:scenario_B06F28F8_900F_4E60_A10B_DE6DCA8358E7
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_B06F28F8_900F_4E60_A10B_DE6DCA8358E7"
+msgid ""
+"Should you hold it tightly, you need not worry about being washed away by the waves of history."
+msgstr "牵着下仆的手，{{gb:pauseunits:0}}老爷您就不会被卷进历史的波浪之中。"
+
+#: scenario:scenario_D2137210_5983_4B19_91CB_1A67E3C78170
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_D2137210_5983_4B19_91CB_1A67E3C78170"
+msgid "No matter what happens, you mustn’t let go of my hand."
+msgstr "是的……无论遇到什么，{{gb:pauseunits:0}}都请不要放开下仆的手……"
+
+#: scenario:scenario_765D0949_C52A_4EC4_8847_D1E554D77064
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_765D0949_C52A_4EC4_8847_D1E554D77064"
+msgid "Your hand in hers, You followed the Maid’s lead through the hall."
+msgstr "就这样，「你」被女仆的手牵引着，穿过了长长的大厅。"
+
+#: scenario:scenario_86F1AB8D_1838_4908_9CEC_1C64C1565762
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_86F1AB8D_1838_4908_9CEC_1C64C1565762"
+msgid ""
+"The air within the mansion was oppressive, as though a black miasma hovered within. "
+"{{gb:confirm:0}}The house was bleak and barren—{{gb:pauseunits:1}}{{gb:pauseunits:2}}hardly a "
+"trace of color to be found."
+msgstr ""
+"漆黑的周遭，{{gb:pauseunits:0}}如同迷雾一样浓而不化。{{gb:confirm:1}}{{gb:break:2}}除此之外，"
+"{{gb:pauseunits:3}}再也没有其他的色彩。"
+
+#: scenario:scenario_49A05E12_9D9F_4315_8EB6_24A779ADE75D
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_49A05E12_9D9F_4315_8EB6_24A779ADE75D"
+msgid ""
+"You came across an open window.{{gb:confirm:0}}{{gb:break:1}}Beyond it lay nothing but darkness—"
+"{{gb:pauseunits:2}}{{gb:pauseunits:3}}neither sunlight nor moonlight could be seen."
+msgstr ""
+"……身侧的窗户敞开着。{{gb:confirm:0}}{{gb:break:1}}但窗外……{{gb:pauseunits:2}}既不见日光，"
+"{{gb:pauseunits:3}}亦没有月色……"
+
+#: scenario:scenario_D312E403_5EC0_44E6_B383_24B73284D074
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_D312E403_5EC0_44E6_B383_24B73284D074"
+msgid ""
+"There were no chirping birds, no rustling grass, no signs of life at all. {{gb:confirm:0}}"
+"Everything that would normally give color to the world had vanished entirely."
+msgstr ""
+"听不到鸟鸣，{{gb:pauseunits:0}}感觉不到风声，{{gb:pauseunits:1}}更没有动物的气息……{{gb:confirm:2}}"
+"{{gb:break:3}}似乎装点世界所有的颜色都不曾存在。"
+
+#: scenario:scenario_8FC56747_E057_421C_85C6_9BECDB4D4EA9
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_8FC56747_E057_421C_85C6_9BECDB4D4EA9"
+msgid "The only other presence was that of the Maid."
+msgstr "「你」唯一能感受到的存在，{{gb:pauseunits:0}}是身旁的女仆。"
+
+#: scenario:scenario_ADD011BC_424D_4F2C_BE07_EDF18B03538D
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_ADD011BC_424D_4F2C_BE07_EDF18B03538D"
+msgid "Following her lead, You proceeded through the mansion."
+msgstr "就这样，「你」被女仆引导着默默地步行于长长的通道。"
+
+#: scenario:scenario_7D48FC52_3F6B_4A90_8B57_9F91B3A8DA3B
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_7D48FC52_3F6B_4A90_8B57_9F91B3A8DA3B"
+msgid ""
+"After some time, You arrived at a double door, the glass within shattered. {{gb:confirm:0}}The "
+"door, once pure-white, had long since faded into a dull gray."
+msgstr ""
+"不知走了多久，{{gb:pauseunits:0}}视野里出现一道门扉。{{gb:confirm:1}}{{gb:break:2}}曾经华美的琉璃"
+"门饰已破败不堪。{{gb:confirm:3}}{{gb:break:4}}曾经典雅的纯白外漆已黯然发灰。"
+
+#: scenario:scenario_7256E9ED_9DCC_45D3_8158_521677342D8C
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_7256E9ED_9DCC_45D3_8158_521677342D8C"
+msgid "It appeared to lead to the back garden."
+msgstr "似乎，门扉的外面是后花园。"
+
+#: scenario:scenario_7256E9ED_9DCC_45D3_8158_521677342D8A
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_7256E9ED_9DCC_45D3_8158_521677342D8A"
+msgid "You could hear children laughing on the other side."
+msgstr "从门后面传来孩童的笑语。"
+
+#: scenario:scenario_3C3E4AC9_FDC3_4C36_ADE6_AAB4249E0AA7
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_3C3E4AC9_FDC3_4C36_ADE6_AAB4249E0AA7"
+msgid ""
+"Though it is in the state you now see it,{{gb:break:0}}a beautiful, beautiful garden once lay "
+"beyond these doors."
+msgstr ""
+"这里，{{gb:pauseunits:0}}尽管如今是这般凋零……{{gb:break:1}}{{gb:pauseunits:2}}但曾经，"
+"{{gb:pauseunits:3}}外面有着一座美丽的花园。"
+
+#: scenario:scenario_049E11B1_65C8_4480_B0EC_D0A8640B7AF5
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_049E11B1_65C8_4480_B0EC_D0A8640B7AF5"
+msgid ""
+"The owner of the time enjoyed gathering rare species of rose from all across the world. "
+"{{gb:confirm:0}}At its grandest, it seemed every flower was in constant competition for the most "
+"majestic bloom."
+msgstr ""
+"那时，{{gb:pauseunits:0}}这里满载着全世界各形各色的蔷薇，如同瑰宝般盛开在每一个角落。"
+"{{gb:break:1}}{{gb:confirm:2}}这座花园，是整座馆的快乐之源。"
+
+#: scenario:scenario_2E2DDB84_D1B6_48D6_8027_1684E4CB8E94
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_2E2DDB84_D1B6_48D6_8027_1684E4CB8E94"
+msgid "Would you like to see this wonderful era of splendor and prosperity?"
+msgstr ""
+"老爷有兴趣一睹吗？{{gb:pauseunits:0}}这段奢华、{{gb:pauseunits:1}}丰裕、{{gb:pauseunits:2}}美妙的"
+"往昔……"
+
+#: scenario:scenario_C545E734_549F_4077_A263_65FE1D78E9D6
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_C545E734_549F_4077_A263_65FE1D78E9D6"
+msgid "Hehehe..."
+msgstr "呵呵……"
+
+#: scenario:scenario_C5B0EAE6_8615_48E2_AA4B_2BCB65003008
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_C5B0EAE6_8615_48E2_AA4B_2BCB65003008"
+msgid "I very much hope it is to your liking, Master."
+msgstr ""
+"老爷能有此雅兴，{{gb:pauseunits:0}}下仆不胜惶恐。{{gb:confirm:1}}{{gb:break:2}}那么，开始吧……"
+
+#: scenario:scenario_98128577_2BE0_4F07_9A38_7DC294C8B08A
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_98128577_2BE0_4F07_9A38_7DC294C8B08A"
+msgid "The Maid opened the doors to the back garden."
+msgstr "女仆轻轻地推开了吱呀作响的门扉。"
+
+#: scenario:scenario_F9CF72D3_E1F9_4B13_9E18_55D77E02BA7F
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_F9CF72D3_E1F9_4B13_9E18_55D77E02BA7F"
+msgid ""
+"A sudden gust of wind brushed across Your face, forcing You to close Your eyes as You followed "
+"the Maid out the doors."
+msgstr ""
+"刹那间，{{gb:pauseunits:0}}一阵强风迎面向「你」刮来。{{gb:confirm:1}}{{gb:break:2}}「你」不由地闭"
+"上了双眼。{{gb:pauseunits:3}}{{gb:pauseunits:4}}随即被女仆牵引着，向前踏出了脚步。"
+
+#: scenario:scenario_E8F2E811_AC7F_4B2D_9E8C_3F2D4CF9973E
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "page:scenario_E8F2E811_AC7F_4B2D_9E8C_3F2D4CF9973E"
+msgid "When You next opened Your eyes, the world was no longer blanketed in shadows."
+msgstr "再一次睁开眼时，{{gb:pauseunits:0}}周围已不再是之前暗无天日的世界。"

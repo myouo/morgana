@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: morgana-chapters\n"
+"PO-Revision-Date: 2026-10-28 00:00+0000\n"
+"Last-Translator: Community contributors\n"
+"Language-Team: zh-Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-Hans\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: scenario:first_540C42D1_CF8B_4050_832A_CFD8B94A0EAE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 170bf0297ba2cf3734a75c4e2afcfc75fa903ed92aa52aed294304e15362259c
+#. default-sha256: baa109ded7198954890b03cd3c0fbd42cbacc3bfd71731cd5fce27aa47363df9
+msgctxt "scenario:first_540C42D1_CF8B_4050_832A_CFD8B94A0EAE"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫I was looking "
+"down upon a corpse."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫此刻，我低头俯视着尸体……"
+
+#: scenario:first_37585A74_A7E2_48F0_989E_25B6DC38DBCB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b6ca8a7c947fcf1a3564479d13c44cfb86d0c5be9f3d47a7680657e64862305d
+#. default-sha256: 235cddb5fc7535b654439e891f130d304a05b5b782993a290b79cce4071e99c1
+msgctxt "scenario:first_37585A74_A7E2_48F0_989E_25B6DC38DBCB"
+msgid "⟪k:0⟫⟪k:1⟫My own corpse."
+msgstr "⟪k:0⟫⟪k:1⟫……我自己的尸体。"
+
+#: scenario:first_79213175_FEDD_40B3_A0AA_B0EB913874D0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 77993b7fdb3a079fa78d852cf341049e0df578f658ba794f36a50c8ad55524a8
+#. default-sha256: 8bce09b31f68bac60b1ffb85200c636ba8320c017478f456e924b831710b4997
+msgctxt "scenario:first_79213175_FEDD_40B3_A0AA_B0EB913874D0"
+msgid "⟪k:0⟫⟪k:1⟫I was afflicted with great despair"
+msgstr "⟪k:0⟫⟪k:1⟫不久之后，这具躯壳将被绑上十字架……"
+
+#: scenario:first_A7FCDB93_195C_497F_85E5_EA06E877E9AA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ab5b516a8a0194cd44d59f86fe487bf6d332b593eb18d016e99a91477f67ce9f
+#. default-sha256: 94048a2ed0a9591c72d745f91e8b30d718ab1fd8243284c0f63516dfc1afa840
+msgctxt "scenario:first_A7FCDB93_195C_497F_85E5_EA06E877E9AA"
+msgid "⟪k:0⟫⟪k:1⟫at the sight of it being dragged to the place of my crucifixion."
+msgstr "⟪k:0⟫⟪k:1⟫我万念俱灰……"
+
+#: scenario:first_E85CC0FE_0471_4EF1_BBA0_51400C5AC44D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ac3fac84a321ddb9533f0c7210c51c923f21514dded7eabe676179bbbdafd54a
+#. default-sha256: 0e28f97a3faf443cd1a3c3a4ecd204c96b1317f63899c4508ddc049411be916f
+msgctxt "scenario:first_E85CC0FE_0471_4EF1_BBA0_51400C5AC44D"
+msgid "⟪k:0⟫⟪k:1⟫My soul crumbled,"
+msgstr "⟪k:0⟫⟪k:1⟫灵魂泯灭……"
+
+#: scenario:first_3F2933EA_3E00_4D37_BB6D_28E31C48A036
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9bf6b997fd5656cf9da24ad369dddba5303db40672e622a298aa2dfacb9ed69f
+#. default-sha256: 813fe58370b9206d03e10974c724f31642cbb6acb9082dcb460997f9959b0ee7
+msgctxt "scenario:first_3F2933EA_3E00_4D37_BB6D_28E31C48A036"
+msgid "⟪k:0⟫⟪k:1⟫and I was wholly extinguished."
+msgstr "⟪k:0⟫⟪k:1⟫曾存于世的证明，皆逝。"
+
+#: scenario:first_59EC77B3_02F7_42BF_9344_D15CBCF0D413
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9d6305cdd6e0c076996333d85183c439fe97479d56b8d5696c812066f858c4e8
+#. default-sha256: 960c4a436506bc81b7a1b4cc9b0c083676a8a822ddd00e6b1d5f5edbf4216615
+msgctxt "scenario:first_59EC77B3_02F7_42BF_9344_D15CBCF0D413"
+msgid "⟪k:0⟫⟪k:1⟫Indeed, I did once lose everything."
+msgstr "⟪k:0⟫⟪k:1⟫所有的一切，都全数消陨。"
+
+#: scenario:first_347457C5_05AD_400F_B6D5_C78A5C32ECAE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e0e77bd28eea2deb3738d2fa078ffbdfe53ee5c99b92bac798dd5f666132d4fe
+#. default-sha256: 9e81d4df51c5fb023c83d6aa470159b1ca5fd9b63e4d4c4b08474fa850126a01
+msgctxt "scenario:first_347457C5_05AD_400F_B6D5_C78A5C32ECAE"
+msgid "⟪k:0⟫⟪k:1⟫However..."
+msgstr "⟪k:0⟫⟪k:1⟫……然而……"
+
+#: scenario:first_947457C5_05AD_400F_B6D5_C78A5C32ECAE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a127a899ffb5d6e7d515de05e06c0ad14a4581a1d21fdb3a829978fbb80056f5
+#. default-sha256: 4ef033087fa98655a50eed52497669f08f4f4c93c304aa0c64b343a8f2bf9576
+msgctxt "scenario:first_947457C5_05AD_400F_B6D5_C78A5C32ECAE"
+msgid "⟪k:0⟫⟪k:1⟫as I faded into darkness everlasting,"
+msgstr "⟪k:0⟫⟪k:1⟫……正当我的意识，将消融在无尽黑暗中的瞬间……"
+
+#: scenario:first_347457C5_05AD_400F_B6D5_C98A5C32ECAE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b1923515fd9ef09f3db6d47e987ee40f9efa6ce5b282ff55f1b21a9ecc6deb1f
+#. default-sha256: bcc62c2877d43d34992041c3a8a7d3e4b9940e0002336dc25010da355f587b24
+msgctxt "scenario:first_347457C5_05AD_400F_B6D5_C98A5C32ECAE"
+msgid "⟪k:0⟫⟪k:1⟫I heard a voice calling out to me."
+msgstr "⟪k:0⟫⟪k:1⟫耳边传来低吟的声音，呼唤着我的名字。"
+
+#: scenario:first_347457C5_05AD_400F_B6D5_C78A5C34ECAE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 15d77fd266cfb9239c5752bfd9d292f0f8322d6947e28b3aaf5405216a3e9cd5
+#. default-sha256: f9698fd45698eabb312b9787966897454ee4013c62ead3bdf8807800cfb0cdbf
+msgctxt "scenario:first_347457C5_05AD_400F_B6D5_C78A5C34ECAE"
+msgid "⟪k:0⟫⟪k:1⟫And so,"
+msgstr "⟪k:0⟫⟪k:1⟫……所以……"
+
+#: scenario:first_347457C5_05AD_400F_B6D9_C78A5C32ECAE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4e2d02a97a10cea9667d659d3656fae940b1519c9d70705bbac3c290cd838138
+#. default-sha256: c5e4266d513590f793f0943f144ad39ee914d3c93ae764ab3db2332c652327f6
+msgctxt "scenario:first_347457C5_05AD_400F_B6D9_C78A5C32ECAE"
+msgid "⟪k:0⟫⟪k:1⟫I vowed once more"
+msgstr "⟪k:0⟫⟪k:1⟫再一次，在心中默誓——"
+
+#: scenario:first_347457C5_05AD_401F_B6D5_C78A5C32ECAE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 109335b0ed98b391e4359751ed4c9cc2522b508aa66445d1a178dcb0b3628ef7
+#. default-sha256: ed694a315e06d08b7f3aa0f0d817604c81762ddec203059b6019463c13a6fa57
+msgctxt "scenario:first_347457C5_05AD_401F_B6D5_C78A5C32ECAE"
+msgid "⟪k:0⟫⟪k:1⟫that no matter how long it may take,"
+msgstr "⟪k:0⟫⟪k:1⟫——无论时光荏苒，"
+
+#: scenario:first_347457C5_05AD_410F_B6D5_C78A5C32ECAE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 447f09e014b683636002e9a6a8480c0b61d3a6755913d7caf72b2fa3a19c248b
+#. default-sha256: 25fbdc29a01c1ab8e3f6a22b9f2dc38de042917d67d37ee4c11c587758b2b51f
+msgctxt "scenario:first_347457C5_05AD_410F_B6D5_C78A5C32ECAE"
+msgid "⟪k:0⟫⟪k:1⟫how great the obstacles that stand in my way,"
+msgstr "⟪k:0⟫⟪k:1⟫——无论荆棘几度，"
+
+#: scenario:first_347457C5_05AD_910F_B6D5_C78A5C32ECAE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2c52e1a25fd5f398917b5371d03e377bf2b858e93f6bd76f766bf76ccb81a5d4
+#. default-sha256: 77be2ee318af197bd443c120ed6aec047b1efb471b15dcb34c45c15d6e3dd738
+msgctxt "scenario:first_347457C5_05AD_910F_B6D5_C78A5C32ECAE"
+msgid "⟪k:0⟫⟪k:1⟫or what form you may assume,"
+msgstr "⟪k:0⟫⟪k:1⟫——无论你的颜姿，将化作何形。"
+
+#: scenario:first_347457C5_06AD_400F_B6D5_C78A5C32ECAE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1949045d7bc84d91d6438b44a3948b43ee6875b4f0cdd284fdf9b966e14066bc
+#. default-sha256: 3f83d19733c444450d3222141d22e7576884a8b3a0c1ea1800d41bf37f79df36
+msgctxt "scenario:first_347457C5_06AD_400F_B6D5_C78A5C32ECAE"
+msgid "⟪k:0⟫⟪k:1⟫I shall come back for you."
+msgstr "⟪k:0⟫⟪k:1⟫我都将与你相迎……"
+
+#: scenario:first_347457C9_06AD_400F_B6D5_C78A5C32ECAE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 84f308595d605fc6398e0f3d0847a9422ef4e756ce0f02f5a78ea8852a69f69f
+#. default-sha256: 1b81a93cd7ecdd61f5f96efb869a694b5abfa7b9867aefc02cf7be9130596312
+msgctxt "scenario:first_347457C9_06AD_400F_B6D5_C78A5C32ECAE"
+msgid "⟪k:0⟫⟪k:1⟫That I must return"
+msgstr "⟪k:0⟫⟪k:1⟫……于此馆之内……"
+
+#: scenario:first_399457C5_06AD_400F_B6D5_C78A5C32ECAE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ad7f5deb23ee76fa5f101b165921ea83e5643fef1cdadbdbc76136316a7850c9
+#. default-sha256: 4d4be9de30b4f5107117bc7ee9696549881d686bc48bb3ea42773e3652fadc5c
+msgctxt "scenario:first_399457C5_06AD_400F_B6D5_C78A5C32ECAE"
+msgid "⟪k:0⟫⟪k:1⟫to that house."
+msgstr "⟪k:0⟫⟪k:1⟫……纵沧海桑田，我必归矣。"
+
+#: scenario:first_399457C5_06AD_400F_B6D5_C78A5C72ECAE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6b8aae1e3fb9469d7c4277fe967c4f202dd449b429f25d3dc152489d5d618533
+#. default-sha256: 5340eaa1cfe598afc340a0fc5e8b2816cab76b29d573fd4d34083500e117aa5d
+msgctxt "scenario:first_399457C5_06AD_400F_B6D5_C78A5C72ECAE"
+msgid "⟪k:0⟫⟪k:1⟫So I ask of you,"
+msgstr "⟪k:0⟫⟪k:1⟫……所以，请你……"
+
+#: scenario:first_319457C7_06AD_400F_B6D5_C78A5C72ECAE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1dea0b42d7fa318bfbca0fda1fc97a9a91ae0da852c085ec02dfb412ad96f1a1
+#. default-sha256: 5acd12e25748b276509a94e37063cd4da17aa0762e4437d9d78b089663874b41
+msgctxt "scenario:first_319457C7_06AD_400F_B6D5_C78A5C72ECAE"
+msgid "⟪k:0⟫⟪k:1⟫please wait"
+msgstr "⟪k:0⟫⟪k:1⟫……等着我……"
+
+#: scenario:first_419457C7_06AD_400F_B6D5_C78A5C72ECAE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 44cb5ec21f239271319894d822f94962f16b4072b09c98e12e110fff98ef741d
+#. default-sha256: a6fdac76afcbb3ea837983d7eb0148ffe69bc2b5c80f602a2e664ac207784bf3
+msgctxt "scenario:first_419457C7_06AD_400F_B6D5_C78A5C72ECAE"
+msgid "⟪k:0⟫⟪k:1⟫until this mutilated body"
+msgstr "⟪k:0⟫⟪k:1⟫……这具支离破碎的躯壳……"
+
+#: scenario:first_419407C7_06AD_400F_B6D5_C78A5C72ECAE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c97be3135750239d7b6ddc5bc34f0373c8c0a3c76455c6777a6f734e31ca3db3
+#. default-sha256: dbafb4cb68f09ee3c334353d0486774f6e51205645a527404a9450652b0349fd
+msgctxt "scenario:first_419407C7_06AD_400F_B6D5_C78A5C72ECAE"
+msgid "⟪k:0⟫⟪k:1⟫arrives there once more."
+msgstr "⟪k:0⟫⟪k:1⟫……再一次，回归于里……"

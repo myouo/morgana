@@ -1,0 +1,49 @@
+name = "morgana-network-test"
+main = "deployment/worker.ts"
+account_id = "d71300e999470c31c5f10f0591ebd0f5"
+compatibility_date = "2026-10-28"
+workers_dev = false
+preview_urls = false
+
+[[routes]]
+pattern = "test.morgana.love"
+custom_domain = true
+
+[assets]
+directory = "./generated/edge-preview"
+binding = "SITE"
+run_worker_first = true
+not_found_handling = "none"
+
+[[r2_buckets]]
+binding = "MEDIA"
+bucket_name = "morgana-sdk-network-test"
+
+[observability]
+enabled = true
+head_sampling_rate = 0.1
+
+[vars]
+DEPLOYMENT_KIND = "preview"
+
+[env.regression]
+name = "morgana-sdk-regression"
+workers_dev = false
+preview_urls = false
+
+[[env.regression.routes]]
+pattern = "testsdk.morgana.love"
+custom_domain = true
+
+[env.regression.assets]
+directory = "./generated/edge-regression"
+binding = "SITE"
+run_worker_first = true
+not_found_handling = "none"
+
+[[env.regression.r2_buckets]]
+binding = "MEDIA"
+bucket_name = "morgana-sdk-network-test"
+
+[env.regression.vars]
+DEPLOYMENT_KIND = "regression"

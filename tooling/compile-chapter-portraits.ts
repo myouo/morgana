@@ -1,0 +1,13 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {stringify} from 'smol-toml';
+import {chapters} from './chapter-catalog.js';
+import {tokenize,requireValue,literalArg} from './kag.js';
+import {languages,hash} from './locale.js';
+import {CharacterParts} from './character-parts.js';
+import {PortraitAssets} from './portrait-assets.js';
+const spec=chapters.find(c=>c.id===(process.argv[2]??'door1'));requireValue(spec,'CHAPTER_UNKNOWN');await mkdir('artifacts/chapters',{recursive:true});const results=[];
+for(const locale of languages){const scenario=await readFile(`private/text/${locale}/scenario/${spec.file}`,'utf8');let registry:string;try{registry=await readFile(`private/text/${locale}/scenario/macros_sprites.ks`,'utf8');}catch(error){if(!(error instanceof Error)||!('code'in error)||error.code!=='ENOENT')throw error;registry=scenario;}const registration=tokenize(registry,'character-registration.ks').filter(t=>t.kind==='tag'&&t.name==='char_reg'),names=new Set(registration.map(t=>t.kind==='tag'?literalArg(t,'name'):'')),images=new PortraitAssets(locale),model=new CharacterParts(images.lookup),all=tokenize(scenario,spec.file),start=all.findIndex(t=>t.kind==='label'&&t.name===spec.start),end='end'in spec?all.findIndex((t,i)=>i>start&&t.kind==='label'&&t.name===spec.end):all.length;requireValue(start>=0&&end>start,'CHAPTER_SCOPE');const variants=new Set<string>(),references=new Set<string>(),issues:{line:number;reason:string}[]=[];let calls=0;
+ for(const t of all.slice(start,end)){if(t.kind!=='tag')continue;if(t.name==='char_erase'){model.clear(t.args.name);continue;}if(!names.has(t.name)||t.args.storage===undefined)continue;calls++;try{const storage=literalArg(t,'storage'),coordinates=t.args.coordinates===undefined?undefined:literalArg(t,'coordinates');requireValue(t.args.partname===undefined||t.args.partname==='base','CHAR_PART_GROUP_UNSUPPORTED');const parts=model.update(t.name,storage,coordinates);variants.add(JSON.stringify(parts));for(const p of parts)if(p.storage)references.add(p.storage);}catch(e){issues.push({line:t.source.line,reason:String(e)});}}
+ results.push({locale,source_sha256:hash(scenario),part_macro_sha256:hash(await readFile(`private/text/${locale}/others/Macro_CharLayers.ks`)),calls,static_variants:variants.size,image_references:references.size,issues,scope:'static images part resolution only; positioning/motion/source control flow require chapter lowering',playable:false});console.log(locale,calls,'portrait calls;',variants.size,'variants;',references.size,'resources;',issues.length,'explicit issues');
+}
+await writeFile(`artifacts/chapters/${spec.id}-portraits.toml`,stringify({version:1,chapter:spec.id,results}));

@@ -1,0 +1,10 @@
+import {interfaceTextCatalog} from 'galbox-sdk/port-kit';
+const keys=['load','save','settings','back','reset','title','empty','confirmLoad','confirmTitle','confirmExit','yes','no','stopped','restart','background','linked','saved','failed','language','confirmLanguage','textSpeed','instant','autoWait','bgmVolume','seVolume','retry','history','historyEmpty','wheel','auto','skip','hideText','controls','confirmOverwrite','working','incompatibleSave','prefetchPages','loadingScene','wheelMode','mouseWheel','touchpad','readTextSpeed','skipInlineConfirmations','readSkipInlineConfirmations'] as const;
+export type MenuWords=Record<typeof keys[number],string>;
+export function menuWords(input:unknown):MenuWords {
+ const catalog=interfaceTextCatalog(input),messages=new Map(catalog.messages.map(m=>[m.id,m.text]));
+ const get=(key:typeof keys[number])=>{const value=messages.get(key);if(value===undefined)throw new Error('UI_TEXT_MISSING '+key);return value;};
+ return {load:get('load'),save:get('save'),settings:get('settings'),back:get('back'),reset:get('reset'),title:get('title'),empty:get('empty'),confirmLoad:get('confirmLoad'),confirmTitle:get('confirmTitle'),confirmExit:get('confirmExit'),yes:get('yes'),no:get('no'),stopped:get('stopped'),restart:get('restart'),background:get('background'),linked:get('linked'),saved:get('saved'),failed:get('failed'),language:get('language'),confirmLanguage:get('confirmLanguage'),textSpeed:get('textSpeed'),instant:get('instant'),autoWait:get('autoWait'),bgmVolume:get('bgmVolume'),seVolume:get('seVolume'),retry:get('retry'),history:get('history'),historyEmpty:get('historyEmpty'),wheel:get('wheel'),auto:get('auto'),skip:get('skip'),hideText:get('hideText'),controls:get('controls'),confirmOverwrite:get('confirmOverwrite'),working:get('working'),incompatibleSave:get('incompatibleSave'),prefetchPages:get('prefetchPages'),loadingScene:get('loadingScene'),wheelMode:get('wheelMode'),mouseWheel:get('mouseWheel'),touchpad:get('touchpad'),readTextSpeed:get('readTextSpeed'),skipInlineConfirmations:get('skipInlineConfirmations'),readSkipInlineConfirmations:get('readSkipInlineConfirmations')};
+}
+
+export {keys as menuKeys};

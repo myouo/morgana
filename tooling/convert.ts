@@ -1,0 +1,85 @@
+import {readFile,writeFile,mkdir,cp} from 'node:fs/promises';
+import {execFile} from 'node:child_process';
+import {promisify} from 'node:util';
+import path from 'node:path';
+import {realpathSync} from 'node:fs';
+import {ProgramBuilder,stageImage,richPage,textLayout,textWindow,textTheme,textFont,instruction,stageTransition,stageRuleTransition,audioTrack,audioFadeOutAndStop,uiSound,sceneMarker} from 'galbox-sdk/port-kit';
+import {inspectResource,createReleaseManifest} from 'galbox-sdk/release';
+import {encodeWire,decodeWire} from 'galbox-sdk/wire';
+import {string,parseProgram,parseJsonValue} from 'galbox-sdk/protocol';
+import {createCore} from 'galbox-sdk/core';
+import {stringify} from 'yaml';
+import {languages,hash} from './locale.js';
+import {readOpening} from './opening.js';
+import {readPrologue} from './prologue.js';
+import {localizePrologue} from './localize-prologue.js';
+import {lowerPrologue} from './lower-prologue.js';
+import {chapterArtwork} from './chapter-artwork.js';
+import {lowerDoor} from './lower-door.js';import {sourceReplayCatalog} from './chapter-replay.js';
+import {prologueProfiles} from './prologue-profiles.js';
+import {localizeOpening,pageRevision} from './localize-opening.js';
+import {localeInfo} from '../src/locales.js';
+import {Content} from './content.js';
+import {readTitleExit,readOpeningPresentation} from './presentation.js';
+import {lowerPresentation} from './lower-presentation.js';
+import {appearance} from './appearance.js';
+import {menuArtwork} from './menu-artwork.js';
+import {requireValue} from './kag.js';
+const run=promisify(execFile),sourceRoot=process.env.FATA_SOURCE??'/home/myo/.steam/steam/steamapps/common/The House in Fata Morgana';
+await mkdir('public/assets',{recursive:true});await mkdir('public/programs',{recursive:true});await mkdir('private/generated',{recursive:true});await mkdir('artifacts/conversion',{recursive:true});
+const sdk=realpathSync('node_modules/galbox-sdk');requireValue(!sdk.includes('/galbox-sdk/packages/'),'WORKSPACE_SOURCE_LEAK');
+await run('magick',['private/extracted/shared/bgimage/blacksozai.jpg','-strip','public/assets/black.png']);await cp('private/extracted/shared/bgimage/meserei0.png','public/assets/message-frame.png');
+const englishOpening=readOpening(await readFile('private/text/en/scenario/scenario.ks','utf8'),'scenario/scenario.ks');
+const englishPrologue=readPrologue(await readFile('private/text/en/scenario/scenario.ks','utf8'),await readFile('private/text/en/scenario/macro.ks','utf8'));
+const report=[],firstIds:string[]=[];
+for(const locale of languages){
+ const look=await appearance(locale),unlockedLook=await appearance(locale,'unlocked'),file=`private/text/${locale}/scenario/scenario.ks`,source=await readFile(file,'utf8'),localized=await localizeOpening(readOpening(source,'scenario/scenario.ks'),englishOpening,localeInfo[locale].html),opening=localized.opening,revision=hash(source).slice(0,16),b=new ProgramBuilder({gameId:'fata-morgana-steam-opening',release:`steam21523397-${locale}-fresh-prologue`,entry:'main',title:look.windowTitle});
+ const macro=await readFile(`private/text/${locale}/scenario/macro.ks`,'utf8');requireValue(hash(await readFile(`private/text/${locale}/scenario/macro.ks`))===prologueProfiles[locale].macro&&hash(await readFile(`private/text/${locale}/others/Macro_CharLayers.ks`))===prologueProfiles[locale].characters,'PROLOGUE_LIBRARY_PROFILE');const prologue=await localizePrologue(readPrologue(source,macro,look.fontSize),englishPrologue,localeInfo[locale].html);
+ const image=async(id:string,file:string)=>b.asset('image',{id,path:file,mime:'image/png',sha256:hash(await readFile('public/'+file))});
+ const black=await image('black','assets/black.png'),frame=await image('message-frame','assets/message-frame.png');
+ const preparedImage=async(id:string,file:string)=>{const temporary=`private/generated/${locale}-${id}.png`;await run('magick',[file,'-strip',temporary]);const encoded=await readFile(temporary),name=`assets/${hash(encoded).slice(0,20)}.png`;await writeFile('public/'+name,encoded);return image(id,name);};
+ const title=await preparedImage('title-background','public/'+look.data.background),menuFile=`public/assets/title-page-${locale}.png`;await run('magick',['public/'+look.data.background,'public/'+look.data.menu,'-geometry',`+0+${look.data.menuTop}`,'-compose','over','-composite','-strip',menuFile]);const menu=await image('title-menu',menuFile.slice(7)),rule=await preparedImage('title-rule',`private/extracted/shared/rule/${look.presentation.rule}.jpg`);
+ const musicBytes=await readFile(`private/extracted/shared/bgm/${look.presentation.music}.ogg`),musicFile=`assets/${hash(musicBytes).slice(0,20)}.ogg`;await writeFile('public/'+musicFile,musicBytes);const music=b.asset('audio',{id:'title-music',path:musicFile,mime:'audio/ogg',sha256:hash(musicBytes),playback:'element',transport:{kind:'versioned-url',version:'sha256-'+hash(musicBytes)}});
+ const content=new Content(b,locale),sequence=readOpeningPresentation(source,look.data.menuTop),exit=readTitleExit(await readFile(`private/text/${locale}/scenario/title.ks`,'utf8')),lowered=await lowerPresentation(content,exit,sequence.effects,title,black);
+ const unlockedButtons=await Promise.all(unlockedLook.data.buttons.map(async({enterSE,clickSE,...button})=>({...button,enterSound:enterSE?uiSound(await content.audio(enterSE,'buffer')):null,clickSound:clickSE?uiSound(await content.audio(clickSE,'buffer')):null})));const buttons=await Promise.all(look.data.buttons.map(async({enterSE,clickSE,...button})=>({...button,enterSound:enterSE?uiSound(await content.audio(enterSE,'buffer')):null,clickSound:clickSE?uiSound(await content.audio(clickSE,'buffer')):null})));await writeFile(`public/programs/${locale}.title.pb`,encodeWire('JsonValue',parseJsonValue({...look.data,buttons,unlockedButtons,chapters:[{title:prologue.title,addresses:prologue.pages.map(p=>'prologue:page-'+p.id)}],menus:await menuArtwork(locale)})));
+ b.global({id:'title-action',kind:'string',initial:string('')});
+ const door=await lowerDoor(b,content,locale,source,macro,look.fontSize),replays=sourceReplayCatalog(b,await readFile(`private/text/${locale}/scenario/chapter.ks`,'utf8'),{prologue:prologue.title,door1:door.titles[0]?.title??look.windowTitle},await content.audio('M-6','element'));const replay=await chapterArtwork(content,locale);
+ const chars=[...opening.pages,...prologue.pages].map(p=>p.text+('speaker'in p?p.speaker:'')).join('\n')+'\n'+door.story.nodes.flatMap(n=>n.kind==='text'?n.atoms.flatMap(a=>a.kind==='text'?[a.text]:[]):[]).join('');await writeFile(`private/generated/${locale}-chars.txt`,chars);
+ const fontName=locale==='ko'?'NotoSerifCJKkr-SemiBold.ttf':locale==='zh'||locale==='jp'?'NotoSansCJKsc-Medium.ttf':locale==='ru'?'Merriweather-Regular.ttf':'LibreBaskerville-Regular.ttf';
+ await run('private/.venv/bin/python',['-m','fontTools.subset',path.join(sourceRoot,'fonts',fontName),`--text-file=private/generated/${locale}-chars.txt`,`--output-file=public/assets/font-${locale}.ttf`,'--layout-features=*','--notdef-glyph','--notdef-outline']);
+ await run('private/.venv/bin/python',['tooling/check-font.py',`public/assets/font-${locale}.ttf`,`private/generated/${locale}-chars.txt`]);
+ const fontBytes=await readFile(`public/assets/font-${locale}.ttf`),font=b.asset('font',{id:'opening-font',path:`assets/font-${locale}.ttf`,mime:'font/ttf',sha256:hash(fontBytes)});
+ // Project the source 800x600 onto the SDK logical viewport, then display
+ // its canvas at the source 4:3 aspect. DOM font sizes use the width scale.
+ const baseTheme={font:textFont(font),fontSize:look.fontSize*1.6,lineHeight:(look.fontSize+look.lineSpacing)/look.fontSize,letterSpacing:0,color:'#9D9D9D',speakerColor:'#9D9D9D',background:'#000000',backgroundOpacity:0,borderWidth:0,padding:0};
+ b.textLayout(textLayout('dialogue',[textTheme('opening',{...baseTheme,align:'center'}),textTheme('narration',{...baseTheme,align:'left'}),textTheme('whisper',{...baseTheme,align:'center',color:'#707070'}),textTheme('speech',{...baseTheme,align:'left',color:'#ffffff'})],[textWindow('dialogue','adv','opening',{x:0,y:look.centerY*1.2,width:1280,height:(580-look.centerY)*1.2}),textWindow('narration','adv','narration',{x:70*1.6,y:look.centerY*1.2,width:670*1.6,height:(580-look.centerY)*1.2},{visible:false}),textWindow('whisper','adv','whisper',{x:0,y:look.centerY*1.2,width:1280,height:(580-look.centerY)*1.2},{visible:false}),textWindow('speech','adv','speech',{x:70*1.6,y:look.centerY*1.2,width:670*1.6,height:(580-look.centerY)*1.2},{visible:false}),...['narration','speech'].map(theme=>textWindow(theme+'-wide','adv',theme,{x:90*1.6,y:look.centerY*1.2,width:640*1.6,height:(580-look.centerY)*1.2},{visible:false})),textWindow('whisper-inset','adv','whisper',{x:70*1.6,y:look.centerY*1.2,width:670*1.6,height:(580-look.centerY)*1.2},{visible:false}),textWindow('whisper-inset-wide','adv','whisper',{x:90*1.6,y:look.centerY*1.2,width:640*1.6,height:(580-look.centerY)*1.2},{visible:false})],{followStage:true,stageZ:110}));
+ const scene=await content.page({base:{storage:'暖炉',visible:true,left:0,top:0},one:{storage:null,visible:false,left:0,top:0},message:{storage:'meserei0',visible:true,left:0,top:0}});
+ const full=await lowerPrologue(b,content,prologue,locale,macro,`${locale}-${revision}`,scene);
+ full.code[full.code.length-1]=instruction('control.return',{at:'prologue:door-one-boundary'});
+ requireValue(opening.musicFadeMs===4000,'PROLOGUE_FADE_STAGE_DURATION');
+ const continuation=[instruction('text.window.visible',{at:'awakening:hide-intro',window:'dialogue',visible:false}),audioFadeOutAndStop('awakening:music-fade','awakening-music-fade','op-music',opening.musicFadeMs,{inactive:'ignore'}),stageTransition('awakening:scene','awakening-scene','background',scene,{duration:4000}),instruction('task.join',{at:'awakening:scene-wait',group:'awakening-ready',members:['awakening-scene']}),...full.code];
+ const meta=decodeWire('JsonValue',new Uint8Array(await readFile(`public/programs/${locale}.title.pb`)));requireValue(meta&&typeof meta==='object'&&!Array.isArray(meta),'TITLE_METADATA');await writeFile(`public/programs/${locale}.title.pb`,encodeWire('JsonValue',parseJsonValue({...meta,replay,choices:full.choices,autoAt:full.autoAt,chapters:[{title:prologue.title,addresses:prologue.pages.map(p=>'prologue:page-'+p.id)},...door.titles.flatMap(t=>Array.from({length:Math.ceil(t.addresses.length/256)},(_,n)=>({title:t.title,addresses:t.addresses.slice(n*256,(n+1)*256)})))]})));
+
+ const prologueLine=source.split(/\r?\n/u).findIndex(l=>l.trim()==='*prologstart')+1,firstEffect=sequence.effects.findIndex(e=>e.source.line>prologueLine);requireValue(firstEffect>=0,'PROLOGUE_PRESENTATION_ENTRY');const entryAddress=`op:${String(firstEffect).padStart(3,'0')}:from`,splitAt=lowered.code.findIndex(i=>i.at===entryAddress);requireValue(splitAt>=0,'PROLOGUE_PRESENTATION_SPLIT');
+ b.function({id:'prologue',entry:'prologue:marker',layout:1,params:[],locals:[],returns:'void',code:[sceneMarker('prologue:marker',replays.prologue),stageImage('prologue:initialize','background',black,{x:0,y:0,scaleX:1.6,scaleY:1.2}),...lowered.code.slice(splitAt),instruction('save.policy',{at:'bootstrap:save',allow:true}),instruction('text.window.visible',{at:'bootstrap:text',window:'dialogue',visible:true}),...opening.pages.map(p=>richPage(`page:${p.id}`,p.id,pageRevision(`${locale}-${revision}`,p,localized.edited),'',p.runs)),...continuation]});
+ b.function({id:'door1',entry:'door1:marker',layout:1,params:[],locals:[],returns:'void',code:[sceneMarker('door1:marker',replays.door1),stageImage('door1:initialize','background',black,{x:0,y:0,scaleX:1.6,scaleY:1.2}),instruction('save.policy',{at:'door1:save',allow:true}),...door.code,instruction('control.return',{at:'door1:complete'})]});
+ const code=[instruction('save.policy',{at:'title:no-save',allow:false}),instruction('text.window.visible',{at:'title:hide-text',window:'dialogue',visible:false}),stageImage('title:black','background',black,{x:0,y:0,scaleX:1.6,scaleY:1.2}),stageTransition('title:fade','title-fade','background',title,{duration:look.presentation.fadeMs}),instruction('task.join',{at:'title:fade-wait',group:'title-fade-wait',members:['title-fade']}),audioTrack('title:music','title-music',music,{channel:'bgm',loop:true,restore:'replay'}),stageRuleTransition('title:menu-reveal','title-rule','background',menu,rule,{duration:look.presentation.ruleMs,vague:look.presentation.vague}),instruction('task.join',{at:'title:menu-wait',group:'title-menu-wait',members:['title-rule']}),instruction('choice',{at:'title:wait',dest:'title-action',options:[{id:'start',text:look.data.buttons.find(b=>b.action==='start')?.hint??'',target:'exit:menu'}]}),...lowered.code.slice(0,splitAt),instruction('control.call',{at:'main:prologue',function:'prologue',args:[]}),instruction('control.call',{at:'main:door1',function:'door1',args:[]}),instruction('control.end',{at:'main:complete'})];
+ b.function({id:'main',entry:'title:no-save',layout:1,params:[],locals:[],returns:'void',code});const built=b.build(),program=parseProgram({...built,release:`steam21523397-${locale}-${hash(encodeWire('Program',built)).slice(0,16)}`}),resources=await Promise.all(program.assets.map(async asset=>inspectResource(asset,new Uint8Array(await readFile('public/'+asset.path)),bytes=>new TextDecoder('utf-8',{fatal:true}).decode(bytes))));
+ const release=await createReleaseManifest({program,series:`opening-v1-${locale}`,resources,resourceScope:'resident'},{async sha256(text){return hash(text);}}),bytes=encodeWire('Program',program);requireValue(decodeWire('Program',bytes).release===program.release,'PROTOBUF_ROUNDTRIP');
+ // Full path and save closure validation runs in tests/prologue-runtime.test.ts.
+
+ await writeFile(`public/programs/${locale}.pb`,bytes);await writeFile(`public/programs/${locale}.release.pb`,encodeWire('ReleaseManifest',release));
+ const presentationAssets=await content.presentationAssets(program);
+ const finalMeta=decodeWire('JsonValue',new Uint8Array(await readFile(`public/programs/${locale}.title.pb`)));requireValue(finalMeta&&typeof finalMeta==='object'&&!Array.isArray(finalMeta),'TITLE_METADATA');const history=new Map<string,{id:string;key:string;centered:boolean}>();for(const p of prologue.pages)history.set(p.id,{id:p.id,key:p.mode==='speech'?'unknown':p.mode,centered:p.mode==='whisper'});for(const n of door.story.nodes)if(n.kind==='text')history.set(n.paragraph.id,{id:n.paragraph.id,key:n.speaker.key,centered:n.historyCentered});requireValue(content.dialogueImages.size<=128,'DIALOGUE_VARIANT_BUDGET');await writeFile(`public/programs/${locale}.title.pb`,encodeWire('JsonValue',parseJsonValue({...finalMeta,presentationAssets,dialogue:{objects:['door:message0:a','door:message0:b','door:name:a','door:name:b'],images:[...content.dialogueImages].map(([source,hidden])=>({source,hidden}))},history:Array.from({length:Math.ceil(history.size/256)},(_,n)=>[...history.values()].slice(n*256,(n+1)*256)),historyNamePrefix:macro.includes('return "    - " + name + " -"')?'    ':''})));
+ if(locale==='en')firstIds.push(...opening.pages.map(p=>p.id));
+ const row={locale,sourceIssues:door.sourceIssues,sourceSha256:hash(source),startLine:opening.startLine,endLine:opening.endLine,pages:opening.pages.length+prologue.pages.length+door.story.paragraphs.length,doorPages:door.story.paragraphs.length,prologueIds:prologue.pages.map(p=>p.id),ids:opening.pages.map(p=>p.id),sameLogicalIdsAsEnglish:locale==='en'||opening.pages.every((p,i)=>p.id===firstIds[i]),programBytes:bytes.byteLength,fontSource:fontName,appearance:look,presentation:{exit,sequence,waits:lowered.waits},fontBytes:fontBytes.byteLength,sourceTrace:{suite:'tests/door-runtime.test.ts',verification:'whole chapter and browser validation are separate commands'},saveRecreateCuts:[1,100,500,1000,1500,2000,2478],release:program.release,series:release.series};report.push(row);await writeFile(`private/generated/${locale}-pages.yaml`,stringify(opening));
+ console.log(`${locale}: ${row.pages} source pages; ${row.programBytes} protobuf bytes; ${row.fontBytes} font bytes; compiled complete first door and fresh prologue`);
+}
+await writeFile('artifacts/conversion/result.yaml',stringify({sdk,externalDependency:true,scope:'complete source-led fresh-profile prologue and first door in eight locales, shared chapter replay entries, native presentation and separated PO text; later doors, native save codec and native executable comparison are not included',languages:report}));
+
+// Check the whole multi-locale publication after the final writer, not only each
+// locale before another conversion can overwrite a shared generated resource.
+for(const locale of languages){const p=decodeWire('Program',new Uint8Array(await readFile(`public/programs/${locale}.pb`)));for(const a of p.assets)requireValue(hash(await readFile('public/'+a.path))===a.sha256,`PUBLICATION_DIGEST ${locale}:${a.id}`);}
+console.log('All eight published resource closures retain their verified digests');
+
+await (await import('./publish.js')).publish();

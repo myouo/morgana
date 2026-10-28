@@ -1,0 +1,113 @@
+version = 1
+
+[[editions]]
+locale = "en"
+kind = "opening32"
+release = "steam21523397-en-346b6ff1cc153d1c"
+sha256 = "80970b606193c0cb236e27f85af6ab61d81904403aa666b3c4afcc038b04be74"
+path = "compat/80970b606193c0cb236e27f85af6ab61d81904403aa666b3c4afcc038b04be74.pb"
+
+[[editions]]
+locale = "en"
+kind = "prologue93"
+release = "steam21523397-en-d4c4ef6a709f263d"
+sha256 = "a040241d695020be66dc9b26d749d5abcefad09062875b5a857f328fdc0593bc"
+path = "compat/a040241d695020be66dc9b26d749d5abcefad09062875b5a857f328fdc0593bc.pb"
+
+[[editions]]
+locale = "fr"
+kind = "opening32"
+release = "steam21523397-fr-2c1c6737dd2d3238"
+sha256 = "33ba565c3d249d053dbf4e38f92c8e880413fd54dd506bf5e25e53bd62ab9e23"
+path = "compat/33ba565c3d249d053dbf4e38f92c8e880413fd54dd506bf5e25e53bd62ab9e23.pb"
+
+[[editions]]
+locale = "fr"
+kind = "prologue93"
+release = "steam21523397-fr-9028f6296a75d783"
+sha256 = "309d388260ef4ded91f5e3d73b015c1abdbd5744d43afedf7a590760563c60fd"
+path = "compat/309d388260ef4ded91f5e3d73b015c1abdbd5744d43afedf7a590760563c60fd.pb"
+
+[[editions]]
+locale = "it"
+kind = "opening32"
+release = "steam21523397-it-4d7d849f4c62ab2e"
+sha256 = "0c12d3c8d6b3bdce3e20fbcdce38a9a4f2ad24e20058e478992167caab897e9e"
+path = "compat/0c12d3c8d6b3bdce3e20fbcdce38a9a4f2ad24e20058e478992167caab897e9e.pb"
+
+[[editions]]
+locale = "it"
+kind = "prologue93"
+release = "steam21523397-it-0eeefe4b7350fc15"
+sha256 = "7ff4f3500070957e39df2b21b5dd3ac95472ebe571ff80eaf6af65f45fb3223d"
+path = "compat/7ff4f3500070957e39df2b21b5dd3ac95472ebe571ff80eaf6af65f45fb3223d.pb"
+
+[[editions]]
+locale = "jp"
+kind = "opening32"
+release = "steam21523397-jp-cecd466b7519f2a2"
+sha256 = "9d5929a33e605e5cd985e3176cb8b6926f7e356ea1913349035c3b6413c4cfe5"
+path = "compat/9d5929a33e605e5cd985e3176cb8b6926f7e356ea1913349035c3b6413c4cfe5.pb"
+
+[[editions]]
+locale = "jp"
+kind = "prologue93"
+release = "steam21523397-jp-9bd08d587369792f"
+sha256 = "ab3b3c9612a818b620bbdecec670b2d8b80c757be2333a67a085183da5a1ea65"
+path = "compat/ab3b3c9612a818b620bbdecec670b2d8b80c757be2333a67a085183da5a1ea65.pb"
+
+[[editions]]
+locale = "ko"
+kind = "opening32"
+release = "steam21523397-ko-8823be0b482d4468"
+sha256 = "74b793883f79f5b5f1d86e89390fa4c9ce34a7a90c85fc1e74b41aa244e8d9d5"
+path = "compat/74b793883f79f5b5f1d86e89390fa4c9ce34a7a90c85fc1e74b41aa244e8d9d5.pb"
+
+[[editions]]
+locale = "ko"
+kind = "prologue93"
+release = "steam21523397-ko-cf3e99de2e63b213"
+sha256 = "100b4845f61bb441b6eba06638a3719355cb76de2b16567c1dd04196e166e160"
+path = "compat/100b4845f61bb441b6eba06638a3719355cb76de2b16567c1dd04196e166e160.pb"
+
+[[editions]]
+locale = "pt-br"
+kind = "opening32"
+release = "steam21523397-pt-br-e4ecd7709682649c"
+sha256 = "aa53b70a991cd89f56148c2ee77acd07a60ac87496040da831b7e8390379b35a"
+path = "compat/aa53b70a991cd89f56148c2ee77acd07a60ac87496040da831b7e8390379b35a.pb"
+
+[[editions]]
+locale = "pt-br"
+kind = "prologue93"
+release = "steam21523397-pt-br-a84134071ed3dca7"
+sha256 = "5950b1eedb3c5ec817170b34eb9a4b49512e3310cd5af7a0d33ff721c581f51d"
+path = "compat/5950b1eedb3c5ec817170b34eb9a4b49512e3310cd5af7a0d33ff721c581f51d.pb"
+
+[[editions]]
+locale = "ru"
+kind = "opening32"
+release = "steam21523397-ru-810c5e00b96d6cb4"
+sha256 = "a0b0599b1b29cab1a73e8441f7c63b970236cb256a67ca3a16506f2143b14c35"
+path = "compat/a0b0599b1b29cab1a73e8441f7c63b970236cb256a67ca3a16506f2143b14c35.pb"
+
+[[editions]]
+locale = "ru"
+kind = "prologue93"
+release = "steam21523397-ru-22ba978e2b311d18"
+sha256 = "5e27dfdb9038fab310f6f6f3c0bd3da1bb83ed0b55ba90c210aed634937731b4"
+path = "compat/5e27dfdb9038fab310f6f6f3c0bd3da1bb83ed0b55ba90c210aed634937731b4.pb"
+
+[[editions]]
+locale = "zh"
+kind = "opening32"
+release = "steam21523397-zh-42ab0c71842171db"
+sha256 = "3ef5ce97053e53aaff2e828ed5da10e683c49885e467b3aa5da886294c794676"
+path = "compat/3ef5ce97053e53aaff2e828ed5da10e683c49885e467b3aa5da886294c794676.pb"
+
+[[editions]]
+locale = "zh"
+kind = "prologue93"
+release = "steam21523397-zh-30b7bb612d1aa841"
+sha256 = "21aa5b8378d0d8c1a7d9497669ba3bd1af8b6216155a6ad73280bcf6bebe3c56"
+path = "compat/21aa5b8378d0d8c1a7d9497669ba3bd1af8b6216155a6ad73280bcf6bebe3c56.pb"
