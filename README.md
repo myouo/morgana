@@ -47,7 +47,7 @@ PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的�
 
 ## 仍未完成
 
-第三门以后、通关变体、结局鉴赏、原版 tft codec、原作逐帧和真实移动设备对照。当前v2支持富文/窗口/演出/源音频及鉴赏组合，脚本UI/流程图/视频/operations等模块能力仍明确拒绝。不同v2 manifest仍要求显式迁移，完整旧性能/真机矩阵没有沿用为本版重验。
+第三门以后、通关变体、结局鉴赏、原版 tft codec、原作逐帧和真实移动设备对照。当前SDK v2已支持富文/窗口/演出/源音频、鉴赏、剧本UI/流程图/视频/计时/RNG与注册operations的模块组合；本作仍只编译已验收的两门内容。跨v2 manifest迁移、模块recipe/SaveBridge/历史回溯另列W1-03B3，完整旧性能/真机矩阵没有沿用为本版重验。
 
 当前事实和下一步见 [STATUS](STATUS.md)、[能力边界](docs/CAPABILITIES.md)、[部署说明](deployment/README.md)。游戏原包/解包/KS/TJS/素材/字体/日志/trace全部 ignore；Git 仅保存适配源码、允许提交的 PO 和短报告。SDK 包不含游戏、证据或日志。
 

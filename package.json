@@ -58,7 +58,7 @@
     "r2:verify": "python3 tooling/verify-integrated-assets.py"
   },
   "dependencies": {
-    "galbox-sdk": "file:vendor/galbox-sdk-d7ce3fb67fdd.tgz",
+    "galbox-sdk": "file:vendor/galbox-sdk-e538ab1e09aa.tgz",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },
