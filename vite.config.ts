@@ -1,6 +1,6 @@
 import {defineConfig} from 'vite';
 import {versionedMediaPlugin} from './tooling/versioned-media.js';
-const modular=process.env.FATA_MODULES==='1',root=modular?'generated/integrated':'generated/site';
+const modular=process.env.FATA_MODULES==='1',root=process.env.FATA_PUBLICATION_ROOT??(modular?'generated/integrated':'generated/site');
 export default defineConfig({
  cacheDir:modular?'node_modules/.vite-integrated':'node_modules/.vite-main',
  define:{'import.meta.env.VITE_FATA_MODULES':JSON.stringify(modular?'1':'0')},

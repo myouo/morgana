@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'tests/integration-browser',testMatch:['connection.spec.ts','text-fit.spec.ts'],timeout:180000,workers:1,reporter:[['list'],['json',{outputFile:'artifacts/connection/browser-results.json'}]],outputDir:'artifacts/connection/browser-results',use:{baseURL:'http://127.0.0.1:4186',headless:true,viewport:{width:1280,height:950},launchOptions:{args:['--disable-webgl']},trace:'retain-on-failure'},webServer:{command:'pnpm dev:connected',url:'http://127.0.0.1:4186',reuseExistingServer:false}});

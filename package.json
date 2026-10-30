@@ -59,10 +59,18 @@
     "door3:build": "tsx tooling/compile-third-door.ts",
     "door3:verify": "tsx tooling/drive-third-door.ts",
     "dev:door3": "vite --config tests/door3-app/vite.config.ts",
-    "test:door3": "playwright test --config playwright.third-door.config.ts"
+    "test:door3": "playwright test --config playwright.third-door.config.ts",
+    "connection:build": "tsx tooling/compile-connected.ts",
+    "dev:connected": "FATA_MODULES=1 FATA_PUBLICATION_ROOT=generated/connected vite --host 127.0.0.1 --port 4186",
+    "connection:verify": "tsx tooling/drive-connected.ts",
+    "connection:old-cuts": "tsx tooling/verify-module-cuts.ts",
+    "test:connection": "playwright test --config playwright.connection.config.ts",
+    "connection:freeze": "tsx tooling/freeze-module-sources.ts",
+    "connection:promote": "tsx tooling/promote-connected.ts",
+    "test:connection:fit": "FATA_FIT_ROOT=generated/connected playwright test --config playwright.connected-fit.config.ts"
   },
   "dependencies": {
-    "galbox-sdk": "file:vendor/galbox-sdk-6e65a997d34e.tgz",
+    "galbox-sdk": "file:vendor/galbox-sdk-7ae4655617e1.tgz",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },

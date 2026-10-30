@@ -1,0 +1,2 @@
+import {compileIntegrated} from './compile-integrated.js';import {languages} from './locale.js';import {requireValue} from './kag.js';
+try{const wanted=process.argv[2]??'zh';requireValue(wanted==='all'||languages.some(l=>l===wanted),'LOCALE');for(const locale of languages.filter(l=>wanted==='all'||l===wanted))await compileIntegrated(locale,{includeThird:true,outputRoot:'generated/connected'});}catch(error){console.error(error instanceof Error?error.stack:String(error));process.exitCode=1;}

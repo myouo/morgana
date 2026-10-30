@@ -1,0 +1,2 @@
+import {driveIntegrated} from './drive-integrated.js';import {languages} from './locale.js';import {requireValue} from './kag.js';
+try{const wanted=process.argv[2]??'zh';requireValue(wanted==='all'||languages.some(l=>l===wanted),'LOCALE');for(const locale of languages.filter(l=>wanted==='all'||l===wanted))await driveIntegrated(locale,{root:'generated/connected',third:true,artifacts:'artifacts/connection'});}catch(error){console.error(error instanceof Error?error.stack:String(error));process.exitCode=1;}
