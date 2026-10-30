@@ -36,13 +36,17 @@
     "test:edge": "python3 tooling/test-worker-cache.py",
     "test:reading": "pnpm build && playwright test tests/browser/reading-network.spec.ts && node tooling/compare-reading.mjs artifacts/browser/results.json",
     "compat:fetch": "tsx tooling/publish-legacy.ts --fetch",
+    "door2:build": "tsx tooling/compile-full-door.ts",
+    "door2:verify": "tsx tooling/drive-full-door.ts",
+    "dev:door2:full": "FATA_FULL_DOOR=1 vite --config tests/door2-app/vite.config.ts",
+    "test:door2:full": "playwright test --config playwright.full-door.config.ts",
     "chapters:build": "tsx tooling/compile-next-door.ts",
     "chapters:verify": "tsx tooling/drive-next-door.ts",
     "dev:door2": "vite --config tests/door2-app/vite.config.ts",
     "test:door2": "playwright test --config playwright.door2.config.ts"
   },
   "dependencies": {
-    "galbox-sdk": "file:vendor/galbox-sdk-bd497859ad58.tgz",
+    "galbox-sdk": "file:vendor/galbox-sdk-dc6650936aae.tgz",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },

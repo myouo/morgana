@@ -7,14 +7,16 @@ function coordinate(value:string):[number,number]{requireValue(/^-?\d+(?:\.\d+)?
  * Each invocation owns a candidate; failed lookup cannot mutate earlier parts. */
 export class CharacterParts {
  private readonly actors=new Map<string,CharacterPart[]>();
- constructor(private readonly lookup:CharacterImageLookup){}
+ constructor(private readonly lookup:CharacterImageLookup,private missing?:((name:string,part:number,token:string)=>void)){}
+ missingPolicy(policy:(name:string,part:number,token:string)=>void){this.missing=policy;}
+ fork():CharacterParts{const next=new CharacterParts(this.lookup,this.missing);for(const [name,parts]of this.actors)next.actors.set(name,parts.map(p=>({...p})));return next;}
  clear(name?:string):void {if(name===undefined)this.actors.clear();else this.actors.delete(name);}
  snapshot(name:string):CharacterPart[]{return (this.actors.get(name)??[]).map(p=>({...p}));}
  update(name:string,storage:string,coordinates?:string):CharacterPart[]{
   requireValue(name.length>0&&name.length<=128&&!/[\/\\\0]/u.test(name),'CHAR_NAME');const tokens=storage.split(' ');requireValue(tokens.length<=16,'CHAR_PART_LIMIT');const candidate=this.snapshot(name);
   const part=(i:number)=>candidate[i]??{storage:'',x:0,y:0};
   for(const [i,token]of tokens.entries()){requireValue(!/[\/\\\0]/u.test(token),'CHAR_STORAGE_NAME');const prior=part(i);let image=prior.storage;
-   if(token&&token!=='='){if(token==='-')image='';else {const named=name+'_'+token;image=this.lookup(named)?named:this.lookup(token)?token:'';requireValue(image,'CHAR_IMAGE_MISSING '+name+':'+token);}}
+   if(token&&token!=='='){if(token==='-')image='';else {const named=name+'_'+token;image=this.lookup(named)?named:this.lookup(token)?token:'';if(!image&&i>0&&this.missing)this.missing(name,i,token);else requireValue(image,'CHAR_IMAGE_MISSING '+name+':'+token);}}
    if(image){const info=this.lookup(image);requireValue(info&&!info.animated,'CHAR_ANIMATION_UNSUPPORTED '+image);requireValue(info.width>0&&info.height>0&&info.width<=4096&&info.height<=4096,'CHAR_IMAGE_SIZE');}
    candidate[i]={...prior,storage:image};
   }

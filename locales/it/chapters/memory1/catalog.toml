@@ -1,0 +1,550 @@
+version = 1
+chapter = "memory1"
+locale = "it"
+status = "extracted-not-compiled"
+source_sha256 = "28a3b84a34c2c9ab9803fbb305bdc6fe9535ac277a0cf634a63e17640249bbad"
+files = [ "memory1.po" ]
+
+[[messages]]
+context = "memory1:memory1_8747DBAB_AF6D_4835_A667_6C93865E2B71"
+msgid_sha256 = "6ab319cc7180a997eade334873249588f00578edd2ff9fda0a836b5bdd8840ce"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22 ]
+control_kinds = [ "loadplugin", "history", "layopt", "trans", "wt", "visible_text", "char_setopt", "char_clear_all", "char_visible", "title", "qmenu", "delay", "layopt", "position", "glyph", "backlay", "layopt", "trans", "wt", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_1BA043E7_90D8_40B2_8A25_6260AA4427CA"
+msgid_sha256 = "f8b63302d35cf625042361db8666fb977127d32e244b316c5787e4f8f00ef2c8"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "r", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_D88ED359_DFE1_4C80_9AD3_AD80053FEC7E"
+msgid_sha256 = "b7f9ec9e11deca851389fe47f79d86c322cdbb3d14223c9e08e9456a1f33c902"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "r", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_C78588C0_71B8_45C6_92A6_9A0FC5214436"
+msgid_sha256 = "948bf3be2c93ca4b2e01e76e19a8025d3c00fbba88d49b893cf90df323d675e2"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_943B8A01_1926_4812_A94F_E5E789000386"
+msgid_sha256 = "3e78a335ae01992273c6b1c83f49e123ed130aa791bc07aba920ec0a8540319c"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "fadeoutbgm", "image", "image", "trans", "wt", "wait", "jinobun", "c" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_BF61E3EA_817B_442F_B651_AC10B49AB97E"
+msgid_sha256 = "d99a842adf620095b6bf0816244eb9697fc11fe92808c4ade18e41edbfd138d5"
+controls = [ 0, 1 ]
+control_kinds = [ "jinobun", "c" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_19D16DE7_1610_4E43_9A80_67C3CA00E708"
+msgid_sha256 = "4847da1b68749ab3d02b3b71cd0a5872b6de19a386e9e83d9bdf8a68ce9fb39d"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36 ]
+control_kinds = [ "layopt", "trans", "wt", "image", "image", "trans", "wt", "image", "image", "trans", "wt", "image", "image", "trans", "wt", "image", "image", "trans", "wt", "freeimage", "freeimage", "freeimage", "freeimage", "layopt", "position", "backlay", "layopt", "trans", "wt", "playse", "image", "image", "trans", "wt", "giselle", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_1097D92D_333F_4AEF_A996_BF85C6F0B013"
+msgid_sha256 = "8996198fb1a556d3ce95d94d7291ceb8432f6d450500ece3a6bc10645ce5b86b"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "giselle", "l", "r", "l", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_62DCB7F0_C413_4ADC_9052_A11672E120F2"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "giselle" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_382604F6_6BEB_47BD_942D_BE1428409378"
+msgid_sha256 = "4f6909dd65237cabd153bda3a001e654fb888cd2f7d5d2cfe8c75b1f5c4a7a37"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8 ]
+control_kinds = [ "image", "image", "trans", "wt", "image", "image", "trans", "wt", "giselle" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_2FE47706_8906_4C38_9069_01D9E8D6FDA6"
+msgid_sha256 = "edc5aa1272049d86330f83479d00591f84162f0b3a1c77cf64e015dec75a29ae"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "fadeoutse", "playse", "giselle", "w", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_B53D6035_3C01_400D_9C7C_561DEBCE8F6B"
+msgid_sha256 = "b3fbfaa2bc7c4156caa4d12824f8da826aacebcd5272d9f33e0fc8083bf2524d"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "giselle", "w", "ws", "playse" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_13CB3EAB_BF33_42BE_93C5_31E89D6BFFB4"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "giselle" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_86B0DE03_6AE5_4E2C_86AF_9F15D7EFA080"
+msgid_sha256 = "1a801127bade8ae1c65bc848e6064eda86fdb139564b51bf4a62360cc5b50946"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "fadeoutse", "giselle", "i", "/i", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_478C93AE_5D27_4BBE_9740_C6B86A8993C2"
+msgid_sha256 = "ea2f75f1dd0d138f62c6cf9ca8127974e4ad5804dd9b789135daff5f063ca9bd"
+controls = [ 0 ]
+control_kinds = [ "giselle" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_FD566403_94BE_4F78_8ECF_A18A1757741D"
+msgid_sha256 = "f8213e5583ccdc1858ce5f2b8e62fb5ccfda9f60bc641c0d616c3723cd687856"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "playse", "ws", "flash", "wflash", "giselle", "l", "r", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_2D6042BB_3476_4F85_95C8_31071B4476EE"
+msgid_sha256 = "c085f73216f42d5f0e095c51dcd3164f4d785a908344418c95db92b8bd2a7df4"
+controls = [ 0 ]
+control_kinds = [ "giselle" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_E6C9C17C_F726_4AB7_9BAF_32D076DC35C6"
+msgid_sha256 = "61b58c84ebf5941d1edd5a836a24ca04ebe5528392d69be21d85203f3f74e269"
+controls = [ 0 ]
+control_kinds = [ "giselle" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_F8488B45_F548_4D4D_8172_E1A9DADA50FB"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "giselle" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_4277DB69_68AD_4DFD_B706_2489B8F8979B"
+msgid_sha256 = "6f4d68ea75c19b28fbd182c2b720c8f43702e422763a1826cdff0dd7d0127980"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "playse", "flash", "giselle" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_CD2D09F3_AB6B_45E7_8BEE_2EB5A3867881"
+msgid_sha256 = "d36a41e4d6e34a4460af9c78291f2b6715a689f4514ab003f0c99f971e003d4a"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ]
+control_kinds = [ "image", "image", "trans", "wt", "image", "image", "trans", "wt", "image", "image", "trans", "wt", "image", "image", "trans", "wt", "playse", "giselle" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_49AB2DE1_D4B2_430B_BBA3_F5E5B80D5D59"
+msgid_sha256 = "54f65b90aa997a5b436dcbf526511313950b3c8400a4e2a31e884fcb24c3db5c"
+controls = [ 0, 1 ]
+control_kinds = [ "giselle", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_8DBC60C5_5BF3_40DD_B0CA_821923CABE57"
+msgid_sha256 = "284d89a348911281b854d7591e3fe67644f48fc93e36ec20d41986115c405b56"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "stopse", "giselle", "w", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_E9B6A17C_0645_47B3_BB9C_0677081E8D99"
+msgid_sha256 = "dd18342b14a53e733470ab9e7f6c4b8e236f8a0e4c1318ba69d24437b6880da3"
+controls = [ 0 ]
+control_kinds = [ "giselle" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_7DFFF2D9_A05A_4B44_A798_57965C44881D"
+msgid_sha256 = "a0f47045d4e7a7b3bc52ea2984d566ecc61b0561798d610d4a74d15fe42aaa87"
+controls = [ 0 ]
+control_kinds = [ "giselle" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_6280050F_F733_4799_93BC_DE5F1E80DAC0"
+msgid_sha256 = "e610be4769810105d13edf13b54ff54f1ed673261447237bef2f63a73ef3a3d4"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "playse", "flash", "giselle", "l", "r", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_D1C52D04_F760_4635_AAA0_0B4062FFDF79"
+msgid_sha256 = "44fc91a2755749a213dc184167075d6040907c13cc3711cd91200887bea0f22b"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 ]
+control_kinds = [ "image", "image", "trans", "wt", "image", "image", "trans", "wt", "image", "image", "trans", "wt", "fadeinbgm", "giselle" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_CEF3FE61_F740_4676_BF98_4485BF0CB7F3"
+msgid_sha256 = "720063b1d5b42832ed675cfc7dbaa97c7673d09fa67137f47f198511241ce376"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "stopse", "giselle", "accent", "/accent", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_1A6D8AF6_63CB_4B3E_8303_547B96B2A2F3"
+msgid_sha256 = "2cabc94724a7f10d6490f7c33415a8c587196c2496f0317098f81505fe0beec1"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "giselle", "accent", "/accent", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_068E5A60_A438_446B_A336_3C2AD4A0B67C"
+msgid_sha256 = "8b67189eb5086176791694dab6a84fb0cec64f4ac09dcaf62a9b62fb68c585b1"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "image", "image", "trans", "wt", "unknown" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_E860A3E8_3358_40B4_8E09_1CCE0B1D019B"
+msgid_sha256 = "d5413f510812c33b161c877dd39ab1f60a3a60730b00e17afea4ba1438db3df9"
+controls = [ 0 ]
+control_kinds = [ "giselle" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_49377C70_6C2C_4C86_9DB4_E5FF8A117CFA"
+msgid_sha256 = "3393b2a60b4fa7c5f0cfe7c67d0c3fa43b261ef9e5a77c7ca9ce728ccf985f6d"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "unknown", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_21605356_DB32_4DA6_AD04_A8056E5B5A00"
+msgid_sha256 = "838587b2afbeeceeaf5f4a407da7da1eaed5269dcc528ad1ea4aaf301d9a826d"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "image", "image", "trans", "wt", "michel", "char_setopt", "ミシェル" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_0FCC47DF_9E32_4F58_B9EC_B9318537ED46"
+msgid_sha256 = "d9837b7e3152028496cf3286764d8741c1cb15bac2cbee18b8b947cff79c62ca"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+control_kinds = [ "giselle", "char_setopt", "char_popdown_one", "wt", "w", "w", "l", "w", "l", "w", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_10183D7F_68F0_4F28_8983_207040093EB6"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "michel", "ミシェル" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_C3133295_9587_4C7E_9535_CCD52A79F98B"
+msgid_sha256 = "f79ee4ab73265ea2d8581033749d019aa01e4d0d26a44a39912aeb9a7fa78fcf"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "giselle", "char_popdown_one", "wt", "w", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_E5E79270_16C2_4674_AEA2_E676CD5AFE42"
+msgid_sha256 = "ff4e6ee730d2808101897f98fe956ba2e4ef1d58cde281cea97d384e19ae676b"
+controls = [ 0, 1 ]
+control_kinds = [ "michel", "ミシェル" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_7945B53F_022C_4169_9241_EC6B26D4726C"
+msgid_sha256 = "998f11c49689eeb7474c1ce664cafb55ca52b3f09af00aab679e775cfce3b43a"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "giselle", "char_popdown_one", "wt", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_30DA0299_9E71_44C6_A756_72393BAE2A67"
+msgid_sha256 = "a850ab8e90d9e27c0d3c6b2d658a3fd8dd19cd16151d5ea0e7251ad7c92d02e7"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "michel", "ミシェル", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_DB6513FE_D251_4F25_8B51_26E957E16D66"
+msgid_sha256 = "4edda2aacf69e00eee9bd1965cdb1f27b4d0f0fbf55fd4f058ab2b660f9170d1"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "giselle", "char_popdown_one", "wt", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_BFE5E892_44FF_4C8E_9CEF_39C798CEECB4"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "michel", "ミシェル" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_1E250A9F_F331_4BD3_BEB2_4C841CEEABA7"
+msgid_sha256 = "d64ad27049f2a0147d69d4290a078bf35599fed057bca3a6019734816841d8ed"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "giselle", "char_popdown_one", "wt", "w", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_4CDAF1F7_DAF8_46A0_81CB_581E39273B15"
+msgid_sha256 = "02b9b7329944d67572e4ac902f4133e44459da373f5508ec86967c1f27f8e1b4"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "giselle", "w", "l", "r", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_20E1FC29_B409_42F2_BF55_F235685B04DD"
+msgid_sha256 = "e839ff66e82127c6ae310480f4cca302b91bbd54f3d614d6ac3e9e7c55dd4dbd"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "michel", "ミシェル", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_EE12F453_3D74_4665_B7A5_A5116865B169"
+msgid_sha256 = "3ee436945cfddd9ceda572c01c5fe8c895cf8eb55fb36d79a842fa781c1dc28d"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "giselle", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_B34C2717_D780_4667_983B_EB0053B53B3B"
+msgid_sha256 = "148de0ab0c69298c91906094ad677ca4d7939a0de0a90bffd8716bf97684694c"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "michel", "ミシェル", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_B4210B0A_5D98_4989_B2DC_4EB61E467931"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "giselle", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_ED2561DF_E5B5_45C3_95FE_2C11314EF0EB"
+msgid_sha256 = "b02d738b149562cb873b66ab4afeb774b444486ae29f0051754895b4200fce90"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "michel", "ミシェル", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_BF141D79_6878_497F_9FAA_5B0BAF171543"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "giselle", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_33B34BBC_2DB3_4534_BDE7_976BC130CDD3"
+msgid_sha256 = "7d5e902f06f52a27c957bb23a445b9af7f5b5261d041cb69b7e4b8ba69c60a17"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "michel", "ミシェル", "l", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_4FD31178_C44E_4F65_B3CB_05B3A630BECC"
+msgid_sha256 = "02374c4b614c4d75dfe69aa5e80bcb30e8c1d9e3b44b7d0ff8908a9dd5779abe"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "giselle", "char_popdown_one", "wt", "w", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_E1F01928_0292_4D1E_B7F8_84C6DD547EB5"
+msgid_sha256 = "2191fcb02aec77fb992626fd149e548b58e7f3a9feaf9948bc164301e53528ab"
+controls = [ 0, 1 ]
+control_kinds = [ "giselle", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_41436246_D867_4DDE_A43E_CE60BB193C92"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "michel", "ミシェル" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_3E1C58A9_91F5_4B2D_B4F2_077056D84721"
+msgid_sha256 = "4653aa8ca9f75ead131335e1c4766422c1c2310c6e39110dac64341ac8436604"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "michel", "ミシェル", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_BBB9109C_4C1E_4169_8059_714545598921"
+msgid_sha256 = "e84ee6823ccf335a9c92a243ae98d389ca40cc20c4de109d6d28d4ac455ab3ed"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "giselle", "char_popdown_one", "wt", "l", "r", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_CD603DCE_5112_494A_8DF2_449A9B653A0C"
+msgid_sha256 = "8a9cee4d5bbfca88a72e6ca21b97b07e324cccfd4aa74004b1a28b1c0a121af0"
+controls = [ 0, 1 ]
+control_kinds = [ "michel", "ミシェル" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_3236950B_6E7E_4908_BE0F_938D0A3B3E95"
+msgid_sha256 = "c1d29e938aeaf40401d31359c01016cb442f19dafe68680a23126ed32b28300a"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "giselle", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_993919A9_F413_4D46_8461_F849CF87BCFE"
+msgid_sha256 = "be45b60bfeaa94ba246feec5c4885d1d857c4b95cef9b63bfcbf080c4ad74311"
+controls = [ 0, 1 ]
+control_kinds = [ "michel", "ミシェル" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_7D036242_3411_4A8D_8996_8827099A662F"
+msgid_sha256 = "b0b22f36ddb65b058307a5bf2fdebbe10d8f7e5848387d87619788dc90f2a7e0"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "giselle", "char_popdown_one", "wt", "accent", "/accent" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_E33CE545_F3B5_4ACA_BAA1_937F981739A6"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "michel", "ミシェル" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_0D6D6CB7_0FC0_4047_A645_30C2987C9219"
+msgid_sha256 = "0f7109edd146265adc2e491e95a111ea0cfcb73288e0cf36ef37c4c4d65675b6"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "giselle", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_0C55FB79_F653_4FCF_99CA_4A66DF78AAC7"
+msgid_sha256 = "270977ad9dcee1a615240d929bbd46779f1af90ccfcca95e9a0187852e924beb"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "michel", "ミシェル", "w", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_2867F5E6_E421_475D_93B6_832DA69534FF"
+msgid_sha256 = "530be968cccdf4dd405f746638770c23ef60ed5164481be3549f9875880c3ec2"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "giselle", "char_popdown_one", "wt", "l", "r", "accent", "/accent" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_16C30E01_55D8_4C7A_BD06_E5F3D05FB825"
+msgid_sha256 = "8c7a0817ebf1b0c3786628c46820a5a3f5550dcc5b0353bde421821c6134d92a"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "michel", "ミシェル", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_DEC0AE44_E862_4EAA_9B83_2CED4B32B399"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "giselle", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_57378521_0C18_4D78_AD78_798F250A9557"
+msgid_sha256 = "5484780f6d8d54308a797dc5a66dfdc3b8f9b4ae9a25bec8675d74b36c26dc72"
+controls = [ 0, 1 ]
+control_kinds = [ "michel", "ミシェル" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_13117D8C_37CE_4A47_BEB4_1FE330864C0E"
+msgid_sha256 = "eb503f6ce0d5d7a7fc3f1d390c8d546899dcf395e0b254b0b1c1809f48ab60fb"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "memory1:memory1_1B93048B_2CF9_4C45_AB99_1D5BACA7DE72"
+msgid_sha256 = "4d2d155954d2cb30cb8f00e712b6cc1ce6796239243fd1b7fcdf69b848b870f0"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "char_setopt", "char_erase", "image", "image", "trans", "wt", "michel", "c" ]
+source_locale = "en"
+alignment = "stable-label"

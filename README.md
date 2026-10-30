@@ -39,15 +39,15 @@ PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的�
 
 无引用旧资源空闲2秒后分批回收，当前画面/媒体/候选与前看资源保留；后台释放Canvas临时工作面，恢复时重建。HTTP目录不额外保留整章副本。实际数据及边界见[滚轮与内存验收](docs/evidence/WHEEL_MEMORY.md)。
 
-## 二门本地接续入口
+## 完整二门本地入口
 
-本地已接第一间章与二门前三节（八语79–80+351–355个源候选段），从实际Core生成的切点开始；当前工作区可运行`pnpm dev:door2`，访问`http://127.0.0.1:4182/?lang=zh`。新gameId/series/DB与正式存档隔离；公开预览仍是上一版第一门。
+八语完整二门、章尾间章与memory1的两个选择已生成标准Program。已有第一门构建/原资料环境中运行 `pnpm door2:build all`、`pnpm door2:verify all`，然后 `pnpm dev:door2:full`，访问 `http://127.0.0.1:4183/?lang=zh`。初次从原生章头开始，之后可以继续本地存档；`&cut=start`显式重新从章头开始。`pnpm test:door2:full`运行中英真实浏览器回归。测试期间冻结生成目录。
 
-重新准备：先完成普通原资料/第一门构建，再运行`pnpm chapters:convert interlude1 --staging`、`pnpm chapters:convert door2 --staging`、`pnpm chapters:build all`；需要的语言执行`pnpm chapters:verify zh`（或en/fr/it/jp/ko/pt-br/ru），最后`pnpm dev:door2`。`pnpm test:door2`验证真实浏览器。程序生成期间先停止测试；该片段没有完整标题/鉴赏，回标题控件禁用。完整范围与限制见[二门验收](docs/evidence/SECOND_DOOR_SLICE.md)。
+独立gameId/series/DB保护正式旧槽；当前在去往scenario3的入口结束，没有第三门正文。第一门→二门的无缝接续、正式旧档迁移与R2发布仍待验收，公开预览保持已验收第一门。八语二门/回忆PO在locales，原KS/TJS/素材保持ignore。范围、命令和表现缺口见[完整二门验收](docs/evidence/SECOND_DOOR_FULL.md)。4182的旧小片段入口仅保留为早期证据。
 
 ## 仍未完成
 
-第二门剩余内容/memory1支线以后、通关变体、结局鉴赏、原版 tft codec、原作逐帧和真实移动设备对照。高级表现与按需剧情代码模块的组合仍是 SDK 后续任务；不能把当前整章 Program 称作已实现所有代码分包。
+第一门至二门无缝接续和旧档迁移、第三门以后、通关变体、结局鉴赏、原版 tft codec、原作逐帧和真实移动设备对照。高级表现与按需剧情代码模块的组合仍是 SDK 后续任务；不能把当前整章 Program 称作已实现所有代码分包。
 
 当前事实和下一步见 [STATUS](STATUS.md)、[能力边界](docs/CAPABILITIES.md)、[部署说明](deployment/README.md)。游戏原包/解包/KS/TJS/素材/字体/日志/trace全部 ignore；Git 仅保存适配源码、允许提交的 PO 和短报告。SDK 包不含游戏、证据或日志。
 
