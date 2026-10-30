@@ -26,6 +26,7 @@ export async function driveFullDoor(locale:Language){
    if(w.kind==='text'){
     requireValue(run.text&&expected.has(w.at),'FULL_UNEXPECTED_TEXT '+w.at);requireValue(run.text.rich,'FULL_RICH_STATE');observe(w.at,run.text.content,run.text.rich.runs);
     if(route==='remember'){
+     if(locale==='zh'&&run.text.content.includes('会成为下仆'))await save('user-before-second2');
      if(w.at.startsWith('door2:')){await save('door2-start');if(seen.size>=1000)await save('door2-middle');if(seen.size>=3500)await save('door2-late');}
      if(w.at.startsWith('memory1:'))await save('memory-start');if(w.at.startsWith('door2-memory-tail:'))await save('memory-tail');
     }else if(w.at.startsWith('door2-avert-tail:'))await save('avert-tail');

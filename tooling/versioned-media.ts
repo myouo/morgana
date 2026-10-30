@@ -22,4 +22,4 @@ export function versionedMedia(root:string){
   }catch{if(!res.headersSent)res.writeHead(404).end();else res.destroy();}
  };
 }
-export function versionedMediaPlugin():Plugin{return {name:'morgana-versioned-media',configureServer(server){const serve=versionedMedia('generated/site');server.middlewares.use((req,res,next)=>void serve(req,res,next));},configurePreviewServer(server){const serve=versionedMedia('dist');server.middlewares.use((req,res,next)=>void serve(req,res,next));}};}
+export function versionedMediaPlugin(root='generated/site'):Plugin{return {name:'morgana-versioned-media',configureServer(server){const serve=versionedMedia(root);server.middlewares.use((req,res,next)=>void serve(req,res,next));},configurePreviewServer(server){const serve=versionedMedia('dist');server.middlewares.use((req,res,next)=>void serve(req,res,next));}};}

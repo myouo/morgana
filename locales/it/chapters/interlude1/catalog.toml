@@ -1,0 +1,646 @@
+version = 1
+chapter = "interlude1"
+locale = "it"
+status = "extracted-not-compiled"
+source_sha256 = "1ec0341f6a2d6dc28897b41cc36c94d0e9d03ee7b5c51e8de00f22443c6d8b8a"
+files = [ "zero3.po" ]
+
+[[messages]]
+context = "scenario:scenario_2AFF8341_4A3E_430F_A1D6_31F2D481EF83"
+msgid_sha256 = "3542313d2a570d44f6964150763520eeb28f15e3e00708d2a9bcf3afb767cfe6"
+controls = [ 0, 1 ]
+control_kinds = [ "title", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_43A49B46_7AAD_44A2_B999_45334FEA1E47"
+msgid_sha256 = "f56e2793e4757fda9535ca71432d1be1735115e5b63f8af03134c3b4b480ceb3"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "if", "else", "r", "endif", "r", "l", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_0FB3F01D_B617_4D13_8095_F4F8541039DF"
+msgid_sha256 = "cb253c01817583f115d1b1612e4447c4b0a518ebf25ca440f4f22bd176f3e863"
+controls = [ 0, 1 ]
+control_kinds = [ "jinobun", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_93B40010_CB1F_4857_8A6C_0EE53963A89B"
+msgid_sha256 = "249f4d94b5f715e18a40f7ac4c94b07785efd1a50b491c2ce5da7b53f58bbe9f"
+controls = [ 0, 1 ]
+control_kinds = [ "jinobun", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_86CD0575_B690_4CCE_B840_8CAD4CBE8F1B"
+msgid_sha256 = "5e97aa3f2331cd3ea57390a4d0fcfa301944f2a02414e6457bdb0bf21995016f"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "if", "else", "endif", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_BFE39B41_77DF_4C61_A551_D046F6766418"
+msgid_sha256 = "838587b2afbeeceeaf5f4a407da7da1eaed5269dcc528ad1ea4aaf301d9a826d"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "playbgm", "char_setopt", "女中", "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_DB0A84E6_2297_42D2_844B_407E9CCD8F4F"
+msgid_sha256 = "e5ff454eaab029ef40892b311dbf199ef824a963fb4405d02482980e0f667133"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_D4E5DA51_6ABA_4378_BDCD_CD996D2A1ABE"
+msgid_sha256 = "ff1d84ff4c09a2ceea83a0f5f04a7976c04b086cd8103e0fcdbfa9b1ed36d060"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_87A80FBF_A79F_441E_AD6C_E595DA546313"
+msgid_sha256 = "ad0baf69dcc959d6cba1b0dd14774d8f52b471567e6157ecf5328bac16f3ae91"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8 ]
+control_kinds = [ "endif", "maid", "char_setopt", "女中", "l", "r", "w", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_5C91DC6A_6057_415B_8AAB_32BA4375E97D"
+msgid_sha256 = "188f365e7425f51354c132147a541f38c9c6c7e37665a932493076d2f153516c"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_19D8E3AD_6C12_4512_84DB_159A7A00DB49"
+msgid_sha256 = "3c26311d862e9f08606825531f855560aab088985dbe4c107a56f5687d64bd56"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_8A8633FB_D3B7_4989_A4DB_888B6CC19281"
+msgid_sha256 = "164016214ef49d2b21b0e448e6db40144a8a4b8da560b0bacfa1a70b8c8a8c15"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_648776E5_F044_473D_BE8E_A87D7B4CA23D"
+msgid_sha256 = "fc9d5e02b3f8182ac6bf2d6c0237fe451aecb98d54b308b42b641dff639d75f0"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "maid", "女中", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:unlabelled:scenario_648776E5_F044_473D_BE8E_A87D7B4CA23D:1"
+msgid_sha256 = "188f365e7425f51354c132147a541f38c9c6c7e37665a932493076d2f153516c"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "it"
+alignment = "needs-review"
+
+[[messages]]
+context = "scenario:scenario_7E05C727_D588_444B_B9B8_E11950DC1AEE"
+msgid_sha256 = "188f365e7425f51354c132147a541f38c9c6c7e37665a932493076d2f153516c"
+controls = []
+control_kinds = []
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_23DC6B01_83EC_42FB_8E1C_A0D23A5383B2"
+msgid_sha256 = "6ae7737e9b432396a630e7a90da5470e45908f3e1d7eac14dc125b1e6c8512da"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "endif", "maid", "女中", "l", "r", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_54842DC4_933A_4031_94E3_5E93C20311F1"
+msgid_sha256 = "5a02fd0ff3cee09e21feca55268ecf3a11c3bd693fe299dd9d200fd3a51c5b77"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 ]
+control_kinds = [ "char_setopt", "char_erase", "playse", "image", "image", "trans", "wt", "image", "image", "trans", "wt", "jinobun", "if", "else", "endif", "if", "else", "endif", "l", "if", "else", "endif", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_FE74AE6E_A77F_4DB7_8FCD_27355A2EB0FF"
+msgid_sha256 = "a2460aae16687c756eb489edd98aa83c9b188e995b0b6416960f93435b9a867b"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "maid", "char_setopt", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_E0DF12AB_4E49_4D99_9816_8E37338ABF6C"
+msgid_sha256 = "85706d7019402007f67ed9805fbb64148a3bbca2026a36bfbdf301d4bddc7f71"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "char_setopt", "maid", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_D13158DC_E35B_476B_B0D2_EBF74C7BD092"
+msgid_sha256 = "188f365e7425f51354c132147a541f38c9c6c7e37665a932493076d2f153516c"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_23BBE72E_C813_4805_8E5D_CB4DF7AB65B7"
+msgid_sha256 = "7236bc6c2e4a6bedddb32c022b12896f41c727e3b6d81c7e4d8b1eb13b4c92e1"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_1BEA7571_A33A_4193_A56A_D391133CF250"
+msgid_sha256 = "76fc8a62ea96fab62af9b132b765b3b38e47da9186a9da33fd0882b7b0fa5e9b"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "endif", "if", "soul", "w", "w", "r", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_9976515C_4DBC_46B6_B6AA_CC79248EEB6B"
+msgid_sha256 = "740ae9d4790ce5213fcaa449b5b2252fe72fc64029ca6049cebd8b5709fe1ac9"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_DD82605B_296C_4B08_8924_289114001EE2"
+msgid_sha256 = "1c7888cbbdddb34739879460bcbb86cf6fa27dbc3833a75886c3921066ebe485"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "maid", "l", "r", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_9D6770CF_A015_4EA6_B969_2E0569DBDAD7"
+msgid_sha256 = "188f365e7425f51354c132147a541f38c9c6c7e37665a932493076d2f153516c"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_6BC6C18A_98AD_4F6C_9BF0_25A2BE00B42E"
+msgid_sha256 = "f0abf2605b58b592b4a2f2db89dcfd66bb17cd39ceb023b8f19d921327d493d4"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "maid", "女中", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_8EB6CCFB_8C05_41A1_943B_DFDE9A2D9CAC"
+msgid_sha256 = "8083a06f933c11e6cb368352e350e04af56ae6393b2d2c4f0e5968ad47acc547"
+controls = [ 0 ]
+control_kinds = [ "maid" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_3E7C3EBA_FCFC_498C_A44D_61007B0C158B"
+msgid_sha256 = "a6ad08db963445f119659dd2882f2aff2a759ee48a430d3d0d794e1218c2c5a9"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "maid", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_BA8636F4_F7C4_4286_A550_3608EF08E503"
+msgid_sha256 = "dfcbfd6a8720c237f1dd3e848a12d59be5b054b3f86843f915f854cded501dfb"
+controls = [ 0 ]
+control_kinds = [ "maid" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_E0BF6DD9_3CDD_4089_9C10_4C7F32B671A3"
+msgid_sha256 = "b3bc36f9863789b1c7c07e924360062d6601f3552a8de4378764eb0351791bd3"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_C55633D2_3FCD_4264_B248_C2B9E07848C2"
+msgid_sha256 = "0884c7116d2fc297b69a6cc9e1fefe7f59b86175855578aea8588870d36cb8fd"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "maid", "女中", "r", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_3E0098AD_64E0_467E_B31F_30B89AE2DCE9"
+msgid_sha256 = "f0588a14184f8d680000b39a0c3589f04b3c85aad7da13a527074b07017a09cc"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ]
+control_kinds = [ "char_setopt", "char_erase", "playse", "image", "image", "trans", "wt", "image", "image", "trans", "wt", "jinobun", "if", "else", "endif", "if", "else", "endif", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_3590CCBB_AA7D_4E04_BC51_2F36824B6DC1"
+msgid_sha256 = "324845e894b9c487a11183afbf24c26cfcd466a173db6607a05c7a2694dd06c4"
+controls = [ 0, 1 ]
+control_kinds = [ "jinobun", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_382C1586_9230_4B82_B3DC_ED57391C36F9"
+msgid_sha256 = "451ff56203780affc53444f361a4f6c967fea4bf436cb0df38e921bffcc73f3c"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "jinobun", "r", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_B769E173_C69E_4908_8DEA_A736136C2D74"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_83E0FA05_868A_41D1_B293_575F93B12ACA"
+msgid_sha256 = "4abea5afe89343e314d855e92d4d7eecc3edd100ce8cf9d014b154213e414a34"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "if", "soul", "w", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_B2594DE4_975A_4B28_8262_A2026AC76C1F"
+msgid_sha256 = "4161d8028748a859171bf181832ed18f0d53b97c1dd21da9af61b2bf6dbfaf08"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_0C75BFBA_3CDA_4864_9088_7DCB299BBD09"
+msgid_sha256 = "fa15556b05a8657b5b7ae3dce770d35a4d4f754de735ca80f96904fdde0b1c14"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_85CB2F6A_350E_4F01_871B_F4871B161F28"
+msgid_sha256 = "9e9ec74862ae18d78b6741566888142d33ff709a9f51571588e9820084efd9ac"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_D1501654_9802_42F5_B057_31298364BCAC"
+msgid_sha256 = "6f86e3d3e9f03717cc9b8211a830a9e929681c7334245a0ad4830ce6aa9f4342"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "maid", "女中", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_0920101E_8DD4_417C_8E2D_737F0C4DB4D8"
+msgid_sha256 = "fa6e687a94afa9745d4b5ae9a20a92e9f46a769938e6f5ffdca0f5a7304c6527"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "char_setopt", "if", "soul", "char_popdown_one", "wt", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_CAA23125_1907_4F4C_8229_116584CFACF3"
+msgid_sha256 = "a249170def4a5866401da98be3899b3abfb83857045fd350168c81efcae65527"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_4767945A_66C0_4D43_9E9A_F055D63DBC77"
+msgid_sha256 = "629633d8783cec33e884fb00dc98cafc200f28224278417a9ee6a5b452129ea6"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "女中", "endif", "maid", "l", "r", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_D5F40B26_E60B_4A42_A6DF_AAD603185977"
+msgid_sha256 = "188f365e7425f51354c132147a541f38c9c6c7e37665a932493076d2f153516c"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_3118679E_FC91_4252_A116_5C1DF3E03353"
+msgid_sha256 = "22a4888cd2a45c95179ccdbf828ea8b8e4b9469d69200303d1df53b82e304272"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "maid", "女中", "w", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_DBCDAD4A_9D7E_47F5_B9C5_5385EEB41C6A"
+msgid_sha256 = "ed3257a9de23e804eb4347bfa85de0ed4f7612fc870b63ec1c9d7a8a57596eb2"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "maid", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_85F2BD75_3AFC_4E21_B65A_455D0278F39B"
+msgid_sha256 = "188f365e7425f51354c132147a541f38c9c6c7e37665a932493076d2f153516c"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_8132CE13_9DEE_4911_AC25_39552D942891"
+msgid_sha256 = "eff95c348b47c3d02644dba6e54ddbba20bd061bfc6d7342e7226c06d3042bc2"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_8CB014B3_1D98_48D8_8FD0_262FFC0B4B94"
+msgid_sha256 = "e3dd4b681b2fd43af604a3c988152a4374bae9484e78fc58985035d6cb47229d"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "endif", "jinobun", "r", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_C76FE336_96B4_42D8_BD55_4FD8CEF9B7B2"
+msgid_sha256 = "f5bde5155adf78665b9cdc82f6d0e5df2a8753de76a7780c3166b4177e34aafb"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 ]
+control_kinds = [ "char_setopt", "char_erase", "image", "image", "trans", "wt", "image", "image", "trans", "wt", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_891C56F0_1A5B_418C_A4B8_9E566A8F3627"
+msgid_sha256 = "d47256a718be4644f661ecd20f96b3c5313d4201f6e39a4f0788d40bc5238199"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_1714D5DB_9608_46C7_8D77_8F4C2AA11F95"
+msgid_sha256 = "56b9dff382b139abbfdf9c2f87c564c0a05409eff03abaff847cad3b90d99d22"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "stopse", "maid", "女中", "w", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_CD6D587B_6852_467F_8EEA_54E17C3A4023"
+msgid_sha256 = "cbe9addd2d1ac01b8057e5de062f1f8dcd598ed84ed67af68e41609b89798de2"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "char_setopt", "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_F9599B14_311C_4B89_A718_2F70F998C5B2"
+msgid_sha256 = "658ccf6e97226836c8dea406da70260886a75ef560aff75bce360a8a57a1c732"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_786FE928_7DC3_4070_826D_D1B2E0E3DA82"
+msgid_sha256 = "593d09c09f2b15e8c7601b6585f52536b2d743a86c37125d03c26a93802dcdfb"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_B8E679AB_1FA7_42E6_9DE9_01BF4404B358"
+msgid_sha256 = "a800de54cbeb445fbc173485355d08da965c5c15e442eaa7e79379ba01a71a2a"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "char_setopt", "char_erase", "playse", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_033FD29B_6E30_436B_8A5F_8EBF8929CEB7"
+msgid_sha256 = "5c4a66591688c9fb1a65eed26d938f97308c91d5049ed20bed82753192f7e5f4"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_56A84306_A4D5_45FD_B7EE_4AEDC25DD709"
+msgid_sha256 = "39566ce48302cafa6c9b03ba836d45bf2e315139cb78eb688c0b2c79dba7edce"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+control_kinds = [ "image", "image", "trans", "wt", "image", "image", "trans", "wt", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_3ABF0FC4_722D_476E_AD65_DAB184ED765B"
+msgid_sha256 = "0a47545ad9ab2fa36f0727c77b63ed17c7dd02a4a1ecb0c94a483d76eef402df"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_09EE16C9_3F3B_4A95_A304_7E8E98D1C3AD"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_364B0606_C0D4_46D6_9366_FAF980A57C73"
+msgid_sha256 = "90d9d5ebc0f360ae2a4e41fcda5ab33b7b7157fbaf2eaddcce00dd2583124d0b"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_58858D3A_9B7C_4F82_88F1_63ABCF513048"
+msgid_sha256 = "f44f5e3c8d41887028f2d8996ce8388275780df55ffe5750a166691618f77af1"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_23AD1CC0_E42C_4024_AAA8_42B30C2D95CC"
+msgid_sha256 = "9446443b3e8b3707ddf8cbbfaeb89e6eee69d6ba8cd88a8dd5f2867a15755ec7"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "stopse", "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_B11A365E_3A87_40CC_9BCB_A07411582B18"
+msgid_sha256 = "27ecdb534ed296192295273c5f0096228228e769eee20094c886b957168f0b2e"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "char_setopt", "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_2E2CE38C_41BE_4809_A349_A61A655C04DC"
+msgid_sha256 = "17832d8b65ef80d32eac1eb68d40b1823d1196e4f3be94a518d20f619eb12130"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "maid", "女中", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_27E41608_7A45_4E72_8492_B4D37E101128"
+msgid_sha256 = "5d09db2bdb7704673c7817e03318657d8b1cf6cb92a5d3320a9a69656a368e4b"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_2E2CE38C_41BE_4809_A349_A61A655C03DC"
+msgid_sha256 = "1067fb06bf542fc2d5d4d17199baf02e8179529eee62d15d0a1ac3df6ad77985"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "女中", "endif", "maid", "w", "accent", "/accent" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_6DA209DE_14DF_4139_97C9_5AE9C84504D6"
+msgid_sha256 = "a462fe9940f9bef985caa828925ef13b79cf7dd7262a93424dfa6372470ecac5"
+controls = [ 0 ]
+control_kinds = [ "maid" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_00F3BF47_6BE4_49AC_B708_2026ED14568F"
+msgid_sha256 = "d210ffc3a52372267f28e25e2fa1aa997e299f49930ed38303927249741948ff"
+controls = [ 0 ]
+control_kinds = [ "maid" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_B66D1C3E_FBDA_44E5_B858_646D03424D8E"
+msgid_sha256 = "95449c8964f5e6ad73454647a55171ca40167b6be5a09a28cbbb664391dbb9c0"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "maid", "女中", "l", "r", "w", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_D8D65CA3_2964_4518_BF96_DC6CDB508F67"
+msgid_sha256 = "093d4496d98ab0933390aaafe113c8cd005e843b47a2deab171a9d634835e757"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_B67A6A85_B25A_498E_A8B1_BE754F34E1C6"
+msgid_sha256 = "188f365e7425f51354c132147a541f38c9c6c7e37665a932493076d2f153516c"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_7E2246A4_EEE6_423F_9EA7_C68FF5AAA68B"
+msgid_sha256 = "681172ece87f0c8ede858c4128dc3f30e9b6be7bb4b9ae3d5704ab90dec519e1"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "playse", "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_F7C44372_A5CC_44F6_ADAC_3B1464BA2F19"
+msgid_sha256 = "09d79b8ac8bd8c5257e4484c9d144e285fff139fae0b33b78f62d4957da351bd"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "jinobun", "r", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_5B85D805_0569_47A7_8B79_87D8082883FD"
+msgid_sha256 = "66ae9b9f3f95ec15032d7d1731b9e104f9d7af7fed4657f41522115905cc2a43"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_0AA8F7F1_7645_4BFC_9323_8E61E67EA2DD"
+msgid_sha256 = "5d333e887c4685c67d42e4b37e954edb28dc968a8e381750c639f4447bb37d8b"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_79207DB0_80C2_44D2_8D36_30A8E441E7C7"
+msgid_sha256 = "8c2bae65e5d4952b151f2030d80e7fff7c613f2c49f3a20fc479c44e622061c5"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_F2BC4381_B82F_4F29_8852_EF64FE1FCD75"
+msgid_sha256 = "d5dd6312352b03d98880bb62ebb5c82457b96596a85ccb764d46a3ce7651af5b"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_0CC58872_4D4C_438D_9F1D_4358ECD5FE55"
+msgid_sha256 = "4b3b912c24730c8bc099fda2750338d97b8f5818e635733277ccde5e0efdc846"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "scenario:scenario_6D912E01_EF85_4CC9_8A32_815AF39FD4CF"
+msgid_sha256 = "fcb3088000d4d3033b07a3f5d33fb4a0cb6cf00cc081ac276c499f211b7fc57f"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"

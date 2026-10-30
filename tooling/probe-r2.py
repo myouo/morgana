@@ -1,5 +1,6 @@
 """Verify the actual authenticated HTTPS/R2 path, byte-for-byte, without logging credentials."""
 import concurrent.futures
+import os
 import argparse
 import http.client
 import time
@@ -16,7 +17,9 @@ if args.changed_from and not (args.changed_from/'assets').is_dir():
 
 ORIGIN = 'https://testsdk.morgana.love'
 AUTH = Path('private/cloudflare/auth-header.txt').read_text().strip()
-ROOT = Path('generated/site')
+ROOT = Path(os.environ.get('FATA_PUBLICATION_ROOT', 'generated/site'))
+if ROOT not in (Path('generated/site'), Path('generated/integrated')):
+    raise RuntimeError('Expected a verified publication directory')
 files = sorted(p for p in (ROOT/'assets').rglob('*') if p.is_file())
 
 def exchange(key, method='GET', headers=None, auth=True):

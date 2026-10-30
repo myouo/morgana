@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'tests/integration-browser',timeout:180000,workers:1,reporter:[['list'],['json',{outputFile:'artifacts/integration/browser-results.json'}]],outputDir:'artifacts/integration/browser-results',use:{baseURL:'http://127.0.0.1:4184',headless:true,viewport:{width:1280,height:950},launchOptions:{args:['--disable-webgl']},trace:'retain-on-failure'},webServer:{command:'FATA_MODULES=1 pnpm exec vite',url:'http://127.0.0.1:4184',reuseExistingServer:false}});

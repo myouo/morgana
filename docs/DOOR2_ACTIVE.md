@@ -1,11 +1,9 @@
-# 完整二门接续
+# 两门接续
 
-八语完整scenario2、memory1两个选择和返回尾声已编译为标准SDK Program，至scenario3 start边界结束；候选段3672–3682+68。每语74函数，无预算放宽。默认新周目，通关变体另验。实际源路径、浏览器和限制见[evidence/SECOND_DOOR_FULL.md](evidence/SECOND_DOOR_FULL.md)。旧SECOND_DOOR_SLICE是前三节历史证据。
+当前以[接续验收](evidence/INTEGRATED_DOORS.md)为准：正式标题/序章/第一门→间章→完整二门、memory1双选择及返回，至第三门入口。八语v2模块保留101个原第一门函数，旧正式档与原生二门回放已接。当前公开部署/回归事实见STATUS及报告，不沿用旧前三节状态。
 
-运行pnpm door2:build all、pnpm door2:verify all、pnpm dev:door2:full，访问http://127.0.0.1:4183/?lang=zh。初次从原生章头开始；&cut=start重开。gameId/series/DB与正式槽隔离。4182旧入口不再作为完整二门入口。完整二门/回忆PO已在locales，原资料/资源/存档/构建/日志ignore。
+pnpm integration:build all、pnpm integration:verify all、pnpm dev，http://127.0.0.1:4184/?lang=zh。4183独立二门仍保留；老爷台词后的规则图故障修复不改变其Program/存档身份，&resume=user-before-second2恢复已知台词副本。原资料/资源/存档/日志ignore，PO在locales。
 
-SDK实包dc6650936aaec7964e3405d1d14aadaa98e1c8b8defe52e9dcf3ed85dee89258（生产84da7b4）。窗淡出、小字、共享正文样式已补SDK自身；参数化转场、共用窗口切换与短地址减少重复。角色/舞台/音频上下文在构建时分叉，运行时没有第二套解释器。oldMovieinit是原源注释，撤销先前将它列为运行缺口的说法。
+W1-03B2当前v2有限支持集涵盖富文/窗口、舞台/动作/粒子/规则、源音频/流和鉴赏；脚本UI/流程图/视频/operations及跨v2版本迁移仍待后续。脚本输入限制、历史注记、首行定位、glyph与原作对照仍有差异；不声称整作或原生存档完成。
 
-下一优先W1-03B2：把完整二门接入第一门后的同一播放器与正式存档，完成高级模块生产/执行/恢复闭包后再发布。不能仅打开白名单或提高输入预算。还需脚本取消快进/限制文字揭示、hisout历史注记、CJK首行65px定位、动画glyph与原运行时对照。公开预览仍是已验收第一门，F-01F保持进行中。
-
-只普通追加提交、快进推送授权main，不再反复force-push。源脚本只按数据解析，不执行TJS/eval或逆向exe；SDK缺口在SDK实现并消费真实tarball。
+Source-first，不执行TJS/eval或逆向exe，SDK缺口在SDK实现后消费实际tarball。首次历史清理已结束，只正常追加提交和快进推送两个授权main。

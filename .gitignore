@@ -52,3 +52,5 @@ unpacked/
 
 # Atomic translation-catalog write staging.
 *.next
+
+dist.pre-integrated/
