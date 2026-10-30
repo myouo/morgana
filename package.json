@@ -7,7 +7,7 @@
     "extract": "python3 tooling/extract.py",
     "inspect": "tsx tooling/inspect.ts",
     "convert": "tsx tooling/convert.ts",
-    "check": "tsc --noEmit && tsx tooling/check-locales.ts && tsx tooling/check-chapters.ts && node tooling/check-boundaries.mjs",
+    "check": "tsc --noEmit && tsc -p tests/door2-app/tsconfig.json --noEmit && tsx tooling/check-locales.ts && tsx tooling/check-chapters.ts && node tooling/check-boundaries.mjs",
     "test": "pnpm test:extractor && tsx --test tests/*.test.ts",
     "dev": "vite --host 127.0.0.1",
     "build": "pnpm check && tsx tooling/publish.ts && vite build && tsx tooling/compress-static.ts dist",
@@ -35,10 +35,14 @@
     "chapters:portraits": "tsx tooling/compile-chapter-portraits.ts",
     "test:edge": "python3 tooling/test-worker-cache.py",
     "test:reading": "pnpm build && playwright test tests/browser/reading-network.spec.ts && node tooling/compare-reading.mjs artifacts/browser/results.json",
-    "compat:fetch": "tsx tooling/publish-legacy.ts --fetch"
+    "compat:fetch": "tsx tooling/publish-legacy.ts --fetch",
+    "chapters:build": "tsx tooling/compile-next-door.ts",
+    "chapters:verify": "tsx tooling/drive-next-door.ts",
+    "dev:door2": "vite --config tests/door2-app/vite.config.ts",
+    "test:door2": "playwright test --config playwright.door2.config.ts"
   },
   "dependencies": {
-    "galbox-sdk": "file:vendor/galbox-sdk-7936d45c910b.tgz",
+    "galbox-sdk": "file:vendor/galbox-sdk-bd497859ad58.tgz",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },

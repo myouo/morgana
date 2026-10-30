@@ -1,6 +1,6 @@
 # SDK 能力与当前接入边界
 
-2026-10-30。实例通过实际 tarball/public exports 运行；核心不识别作品。完整第一门与八语序章的源路径、旧档迁移、实际资源保存和隔离回放已验证，证据见 [FIRST_DOOR](evidence/FIRST_DOOR.md)。
+2026-10-30。实例通过实际 tarball/public exports 运行；核心不识别作品。第一间章与二门前三节已在独立本地入口生成八语Program并通过八语Core/中英浏览器，仍非完整二门，见[局部验收](evidence/SECOND_DOOR_SLICE.md)。完整第一门与八语序章的源路径、旧档迁移、实际资源保存和隔离回放已验证，证据见 [FIRST_DOOR](evidence/FIRST_DOOR.md)。
 
 | 能力 | 当前实现与边界 |
 |---|---|

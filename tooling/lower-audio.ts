@@ -3,7 +3,7 @@ import type {ProgramBuilder,AssetRef,SfxBufferRef,BgmBufferRef} from 'galbox-sdk
 import type {Instruction} from 'galbox-sdk/protocol';
 import {strictArgs,literalArg,requireValue} from './kag.js';import type {Tag} from './kag.js';
 export type SourceAudioResolver=(storage:string,role:'bgm'|'sfx',loop:boolean)=>Promise<AssetRef<'audio'>|null>;
-export const sourceAudioTags=new Set(['playbgm','playse','fadeinbgm','fadeinse','stopbgm','stopse','fadeoutbgm','fadeoutse','xchgbgm','bgmopt','seopt','ws']);
+export const sourceAudioTags=new Set(['playbgm','playse','fadeinbgm','fadeinse','stopbgm','stopse','fadeoutbgm','fadeoutse','xchgbgm','bgmopt','seopt','ws','fadese']);
 interface Lane {task:string;loop:boolean;}
 const registeredBuffers=new WeakMap<ProgramBuilder,Map<number,SfxBufferRef>>(),registeredAlternate=new WeakMap<ProgramBuilder,BgmBufferRef>();
 /** Source-script state is compiled into ordinary SDK instructions. Runtime media
@@ -17,6 +17,7 @@ export class SourceAudioLowerer {
   requireValue(sourceAudioTags.has(tag.name),'SOURCE_AUDIO_UNSUPPORTED '+tag.name);requireValue(tag.attributes.every(a=>a.mode==='literal'),'SOURCE_AUDIO_DYNAMIC');
   const bgm=tag.name.endsWith('bgm')||tag.name==='bgmopt',role=bgm?'bgm':'sfx',slot=tag.args.buf===undefined?0:Number(literalArg(tag,'buf'));requireValue(Number.isInteger(slot)&&slot>=0&&slot<=7&&(!bgm||slot===0),'SOURCE_AUDIO_BUFFER');const lane=bgm?this.bgmBank:`se-${slot}`,volumeKey=bgm?'bgm':lane;
   if(tag.name==='seopt'||tag.name==='bgmopt'){strictArgs(tag,['volume','buf']);const volume=Number(literalArg(tag,'volume'));requireValue(Number.isFinite(volume)&&volume>=0&&volume<=200,'SOURCE_AUDIO_VOLUME');this.volumes.set(volumeKey,volume);const lanes=bgm?['bgm','bgm-alt']:[lane];return lanes.flatMap((id,n)=>{const source=this.active.get(id);return source?[audioSourceGain(at+':'+n,source.task,Math.min(1,volume/100),{inactive:'ignore'})]:[];});}
+  if(tag.name==='fadese'){strictArgs(tag,['buf','volume','time']);const volume=Number(literalArg(tag,'volume')),time=tag.args.time===undefined?5000:Number(literalArg(tag,'time'));requireValue(Number.isFinite(volume)&&volume>=0&&volume<=200&&Number.isInteger(time)&&time>0&&time<=3600000,'SOURCE_AUDIO_FADE');this.volumes.set(volumeKey,volume);const source=this.active.get(lane);return source?[audioSourceFade(at,at+'-fade',source.task,Math.min(1,volume/100),time,{policy:'replace',inactive:'ignore'})]:[];}
   if(tag.name==='ws'){strictArgs(tag,['buf','canskip']);requireValue(tag.args.canskip===undefined||['true','false'].includes(tag.args.canskip),'SOURCE_AUDIO_WAIT');const source=this.active.get(lane);return source&&!source.loop?[instruction('audio.wait',{at,task:source.task,inactive:'ignore'})]:[];}
   if(tag.name==='xchgbgm'){
    strictArgs(tag,['storage','time']);const storage=literalArg(tag,'storage'),time=tag.args.time===undefined?5000:Number(literalArg(tag,'time'));requireValue(Number.isInteger(time)&&time>=0&&time<=1800000,'SOURCE_AUDIO_TIME');if(storage===this.bgmStorage)return [];const asset=await this.resolve(storage,'bgm',true),old=this.active.get(this.bgmBank),next=old?(this.bgmBank==='bgm'?'bgm-alt':'bgm'):'bgm',task=at+'-source',target=Math.min(1,(this.volumes.get('bgm')??100)/100),code:Instruction[]=[];

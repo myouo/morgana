@@ -8,6 +8,7 @@ interface Pending {task:string;source:string[];target:string[];names:readonly La
 export class DoorStage {
  readonly code:Instruction[]=[];readonly all=new Map<string,NativeLayer>();readonly fore=new Map<LayerName,NativeLayer>();readonly back=new Map<LayerName,NativeLayer>();private readonly sent=new Map<string,NativeLayer>();private readonly helpers=new Map<string,{id:string;task?:string}>();private serial=0;pending:Pending|null=null;
  constructor(readonly builder:ProgramBuilder,readonly content:Content,readonly blank:AssetRef<'image'>,readonly white:AssetRef<'image'>){for(const side of ['a','b'])for(const key of layerNames){const layer:NativeLayer={id:`door:${key}:${side}`,asset:key==='flash'?white:blank,left:0,top:0,width:800,height:600,visible:key==='base',alpha:key==='flash'?0:1,brightness:1,leftMargin:70,rightMargin:60,z:key==='base'?0:key==='0'?5:key==='message0'?100:key==='name'?101:key==='leaf-low'?1:key==='leaf-high'||key==='flash'?90:key==='rain'?120:10+Number(key)};this.all.set(layer.id,layer);(side==='a'?this.fore:this.back).set(key,layer);}}
+ invalidate(keys:readonly LayerName[]):void{for(const key of keys)for(const side of ['fore','back'])this.sent.delete(this.get(key,side).id);}
  at(label='fx'):string{return `door:${label}:${++this.serial}`;}
  get(key:string,page='fore'):NativeLayer{const layer=(page==='back'?this.back:this.fore).get(key as LayerName);requireValue(layer,'DOOR_LAYER '+key);return layer;}
  private active(){return new Set([...this.fore.values()].map(v=>v.id).concat(this.pending?.target??[]));}

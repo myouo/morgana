@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'tests/door2-browser',timeout:120000,workers:1,forbidOnly:!!process.env.CI,reporter:[['list'],['json',{outputFile:'artifacts/door2-dev/browser-results.json'}]],outputDir:'artifacts/door2-dev/browser-results',use:{baseURL:'http://127.0.0.1:4182',headless:true,viewport:{width:1280,height:950},launchOptions:{args:['--disable-webgl']},trace:'retain-on-failure'},webServer:{command:'pnpm exec vite --config tests/door2-app/vite.config.ts',url:'http://127.0.0.1:4182',reuseExistingServer:true}});

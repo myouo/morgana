@@ -1,19 +1,18 @@
-# 活动工作与接续
+# 二门接续
 
-2026-10-30：G1-05有限验收完成，当前F-01F。SDK生产1210638/8d19155、接续文档a792913；实包7936d45c910b7a7f5a595ddde2553a0f4bd35197950a2acaf43d481b4db2294d。详细命令/失败/限制见evidence/INTERFACE_COMPLETION.md与SDK tasks.json；性能旧证据只代表对应版本。
+当前已完成八语第一批真实Program：完整第一门→zero3间章→scenario2 *start至*second4前。间章79–80源段、二门351–355源段；八语完整Core和源确认/保存重建通过，中英4实际浏览器通过。原第一门101执行函数逐语一致；二门整体仍未完成，详见evidence/SECOND_DOOR_SLICE.md。
 
-八语原config已读字速、普通/已读nonstop、源范围/按钮/复选框已接入，Default重置原控件。历史用SDK公开HistoryText保留富格式、源调色板和角色键去重；阅读右键与QuickMenu隐藏文字/框，首次输入仅恢复，顶层菜单/确认框取消和真实章节回放通过。原生tft/像素/历史全部断行分组仍未认证。
+本地pnpm dev:door2，http://127.0.0.1:4182/?lang=zh；源码/虚拟回执验收与真实设备验证分开。独立gameId/series/DB避免变更正式旧档。公开预览仍前轮第一门，没有发布此局部内容。
 
-显示图片用SDK独立PresentationAssetCatalog，共享同一缓存、校验和预算，不进入Core、流目录或解锁指纹。八语24个Program/release/剧情文本目录与已上线旧版逐字节一致；因此不新增一次剧情迁移或重写旧槽。eager原剧情租约保留，临时图可闲时释放；前看/当前/候选/媒体/捕获保护保持。provider万指令受控复测约496B，未宣称OS总RAM。
+新增工具：compile-next-door跨章共用Context、生成独立源字体/Program/release和SHA资产；drive-next-door从真实Core走全链并导出四个备份切点。freshChapter只特化既定新周目条件，保留源PO和控制；参数化静态宏不执行TJS。原生日/韩注册声明按有限模型解析。er重置文本身份，葡语额外p是强制inline确认。原第一间章fataend_scenario1只在通关态赋值，新档不写。
 
-实例八语整章Core/解锁/切点、92唯一Node与3 Python取得通过结果（旧菜单布局断言修订后定向补验）；本地21唯一浏览器通过。SDK check、362单元、217全浏览器、严格独立包consumer/package/合成compatibility通过。原始记录仅ignored artifacts/interface-completion。新增10个SHA对象已上传私有R2并核对公网字节，前端发布仍隔离。认证回归40783f5b-e73a-4e37-a7d9-a437ecf321e4、公开预览3577a49c-dbb3-4e41-84e8-b74cd7a5cee1；9公网回归与109静态文件一致性/匿名实际开始通过，详见本轮证据。
+心跳使用空闲插件平面进入前后台组合，避免外部根交错；新启动先replace/finish旧pose再重置，Core拒绝规则未放宽。源clear-all只清图，不清角色/部件注册。SDK新增通用step-end并通过363单元/4相关浏览器，实包bd497859ad58c80dd808cde1cf6ea0c2bdfcd840736c18db6f1f85ad10a70a63；普通模块仍只有原有限支持集。
 
-Door2保持source-first：scenario.ks *zero3至EOF是interlude1，79–80段，必须接到scenario2；scenario2 *start至EOF包含第二门和second20后的尾间章，3672–3682段，不能在second20截断。两种分支只出现有限sf.fataend==/!=1。新lower-conditions输出SDK profile表达式/branch/jump，八语32个新档/通关态在预算1/100下与原静态分支选择一致；标记动作仅验证控制流，未声称第二门演出可玩。
+下一优先：
 
-下一步：
+1. 当前127/128函数（日/韩128）；落实SDK W1-03B2高级模块生产者、媒体/富文/窗口/演出元数据与恢复闭包。不能只把capability白名单打开，不能用普遍抬预算代替组合设计。
+2. 从second4接二门剩余场景，补角色/oldMovie等源演出。用已保存切点减少重复第一门驱动，冻结构建再测；姓名图已有按字体/文字摘要缓存。
+3. memory1.ks已提取八语各68段，第二门choice第一项跳*手を伸ばした，末尾f.memory1=true并跳scenario2 *見た後戻ってきた；另一项走*目をそむけた。需要验证真实舞台/角色/音频状态汇合，不能用标记动作冒充支线执行。second20后的尾间章与scenario3跳转保留。
+4. 完成动画glyph、CJK首行65px定位、hisout历史注记、脚本限制文字揭示/取消快进。当前定时/组合等待的不可跳过已映射，其余差异在报告中明确。
 
-1. 追踪第二门尾choice的memory1.ks与本地分支/返回，保留去往scenario3的源跳转；为实际条件分支验证编译期舞台/角色状态汇合，不能把计数标记当内容降低。
-2. 扩展第二门角色宏/资源、noise/heartbeat/eyecatch与char_clear_all等已有明确来源的有限语义；未知表达式/标签继续显式拒绝，不执行TJS。动态注册和脚本体仍是数据。
-3. 量出真实Program/媒体/字体闭包，按W1-03B2落实高级模块组合及正式SDK恢复/回放。第一门和新章的命名空间/既有槽迁移单独设计，不抬单函数/节点/资源预算掩盖缺口。
-
-主Desktop/galbox-sdk工作区保留不动；使用本工程galbox子模块和真实tarball/public exports。原包/解包KS/TJS/素材/存档/日志不入Git，只有整理的PO可提交。沿既有授权仅推SDK myouo/galbox和单根实例myouo/morgana的main；实例精确lease，预览与认证回归隔离，不推旧分支/tag。
+以KS/TJS/宏/资源为数据，不逆向exe/不执行eval，不建另一个剧情解释器；SDK缺口修SDK再打真实tarball。原资料/资产/存档/日志不进Git。用户最新要求后续普通追加提交、快进推送，首次清理已经结束，不再反复force-push；只推授权main。

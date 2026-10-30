@@ -39,8 +39,16 @@ PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的�
 
 无引用旧资源空闲2秒后分批回收，当前画面/媒体/候选与前看资源保留；后台释放Canvas临时工作面，恢复时重建。HTTP目录不额外保留整章副本。实际数据及边界见[滚轮与内存验收](docs/evidence/WHEEL_MEMORY.md)。
 
+## 二门本地接续入口
+
+本地已接第一间章与二门前三节（八语79–80+351–355个源候选段），从实际Core生成的切点开始；当前工作区可运行`pnpm dev:door2`，访问`http://127.0.0.1:4182/?lang=zh`。新gameId/series/DB与正式存档隔离；公开预览仍是上一版第一门。
+
+重新准备：先完成普通原资料/第一门构建，再运行`pnpm chapters:convert interlude1 --staging`、`pnpm chapters:convert door2 --staging`、`pnpm chapters:build all`；需要的语言执行`pnpm chapters:verify zh`（或en/fr/it/jp/ko/pt-br/ru），最后`pnpm dev:door2`。`pnpm test:door2`验证真实浏览器。程序生成期间先停止测试；该片段没有完整标题/鉴赏，回标题控件禁用。完整范围与限制见[二门验收](docs/evidence/SECOND_DOOR_SLICE.md)。
+
 ## 仍未完成
 
-第二门以后、通关变体、结局鉴赏、原版 tft codec、原作逐帧和真实移动设备对照。高级表现与按需剧情代码模块的组合仍是 SDK 后续任务；不能把当前整章 Program 称作已实现所有代码分包。
+第二门剩余内容/memory1支线以后、通关变体、结局鉴赏、原版 tft codec、原作逐帧和真实移动设备对照。高级表现与按需剧情代码模块的组合仍是 SDK 后续任务；不能把当前整章 Program 称作已实现所有代码分包。
 
 当前事实和下一步见 [STATUS](STATUS.md)、[能力边界](docs/CAPABILITIES.md)、[部署说明](deployment/README.md)。游戏原包/解包/KS/TJS/素材/字体/日志/trace全部 ignore；Git 仅保存适配源码、允许提交的 PO 和短报告。SDK 包不含游戏、证据或日志。
+
+首次历史清理和删除LICENSE已完成；后续使用正常追加提交、快进推送，不反复重写已发布提交。

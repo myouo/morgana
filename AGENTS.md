@@ -15,3 +15,7 @@
 本轮用户授权将独立实例推送myouo/morgana，SDK推送myouo/galbox；独立实例删除本地开发提交历史，折叠为一次全新根提交；用户后续要求删除原LICENSE文件/提交。只推本次明确引用，不推旧分支/tag；只允许对已确认的旧LICENSE分支SHA使用明确force-with-lease；远端变化即拒绝。真实游戏原包/解包目录/提取出的KS/TJS与二进制素材全部不得上GitHub，历史也要检查。i18n文字可提交，仅整理后的PO翻译源纳入Git，KS/TJS与解包树保持ignore。
 
 test.morgana.love是本地build的可玩预览；testsdk.morgana.love用于自动化网络/故障/慢网回归。Worker和前端发布目录隔离，共用只按SHA命名的私有R2资产；速度限制仅在测试浏览器CDP中模拟，不加到预览/Worker/R2。登录/原资料/资源/日志永不提交。
+
+## 后续提交规则（用户最新偏好）
+
+首次清理开发历史、折叠新根和移除LICENSE已经完成。此后保留已发布历史，使用正常追加提交和快进推送；不为继续保持单根而反复amend/force-push。除非用户再次明确要求重写历史，不执行强推。其余载荷/凭据保护、只推明确main引用、不推旧分支/tag约束继续有效。
