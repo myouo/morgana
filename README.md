@@ -8,7 +8,7 @@
 
 ## 文本与资源在哪里
 
-- 可编辑正文：`locales/<BCP47>/story.po`、`prologue.po`；章节为 `locales/<BCP47>/chapters/{door1,interlude1,door2,memory1}/*.po`。中文目录是 `locales/zh-Hans/chapters/door1/`。
+- 可编辑正文：`locales/<BCP47>/story.po`、`prologue.po`；章节为 `locales/<BCP47>/chapters/{door1,interlude1,door2,memory1,door3}/*.po`。中文目录是 `locales/zh-Hans/chapters/door1/`。
 - 系统文字：各语言 `ui.po`；选择文字：`choices.po`。
 - 浏览器从Worker静态资源读取 `/programs/zh.modules.pb`、按SHA命名的代码模块、标题与 `/text/zh.ui.pb`；旧单门的指令模板/文本目录仅用于兼容。这些pb **不在 R2**，也不进 Git。
 - 图片、音频、字体由专用 R2 桶按 SHA 内容地址提供。只有跨全部语言相同的字节共享，其余按语言隔离。
@@ -45,9 +45,15 @@ PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的�
 
 独立gameId/series/DB保护正式旧槽；当前在去往scenario3的入口结束，没有第三门正文。第一门→二门的正式接续、旧档及回放已接入主入口；4183仍是独立测试命名空间。八语二门/回忆PO在locales，原KS/TJS/素材保持ignore。范围、命令和表现缺口见[完整二门验收](docs/evidence/SECOND_DOOR_FULL.md)。4182的旧小片段入口仅保留为早期证据。
 
+## 第三门本地入口
+
+第三门以独立命名空间接通 21 个场景，终止于原脚本的 `search.ks` 调查章节入口。已有原资料与第一门基线的环境中运行 `pnpm chapters:convert door3`、`pnpm door3:build all`、`pnpm door3:verify all`、`pnpm dev:door3`，访问 `http://127.0.0.1:4185/?lang=zh`。之后直接继续本地存档，`&cut=start`重新从第三门章头开始。`pnpm test:door3`验证图文刷新、效果交接、滚轮与全文无滚动；构建完毕后冻结生成目录再测试。详见[第三门验收](docs/evidence/THIRD_DOOR.md)。
+
+此入口与 4183/4184、公开两门预览隔离。正式第一门→二门之后的自动接续和旧模块档升级仍需 SDK W1-03B3；本轮没有覆盖已发布清单。长残像为有限采样近似，原作逐像素与通关变体仍未认证。
+
 ## 仍未完成
 
-第三门以后、通关变体、结局鉴赏、原版 tft codec、原作逐帧和真实移动设备对照。当前SDK v2已支持富文/窗口/演出/源音频、鉴赏、剧本UI/流程图/视频/计时/RNG与注册operations的模块组合；本作仍只编译已验收的两门内容。跨v2 manifest迁移、模块recipe/SaveBridge/历史回溯另列W1-03B3，完整旧性能/真机矩阵没有沿用为本版重验。
+调查章节及后续门、通关变体、结局鉴赏、原版 tft codec、原作逐帧和真实移动设备对照。当前SDK v2已支持富文/窗口/演出/源音频、鉴赏、剧本UI/流程图/视频/计时/RNG与注册operations的模块组合；正式主入口仍保留两门发布，第三门使用上述独立入口。跨v2 manifest迁移、模块recipe/SaveBridge/历史回溯另列W1-03B3，完整旧性能/真机矩阵没有沿用为本版重验。
 
 当前事实和下一步见 [STATUS](STATUS.md)、[能力边界](docs/CAPABILITIES.md)、[部署说明](deployment/README.md)。游戏原包/解包/KS/TJS/素材/字体/日志/trace全部 ignore；Git 仅保存适配源码、允许提交的 PO 和短报告。SDK 包不含游戏、证据或日志。
 

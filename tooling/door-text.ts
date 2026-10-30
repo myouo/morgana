@@ -25,7 +25,7 @@ export function readDoorText(ir:DoorIR,macro:string,fontSize:number,options?:{na
   if(token.kind==='label'){nodes.push(token);continue;}
   if(token.kind==='text'){requireValue(page,'DOOR_UNOWNED_TEXT '+token.source.line);atoms.push({kind:'text',text:token.text,italic,...(bold?{bold:true}:{}),scale,color,shadow,shadowColor});continue;}
   const t=token;
-  if(names.has(t.name)){strictArgs(t,[]);requireValue(!hasText(),'DOOR_MIDPAGE_SPEAKER '+t.name+':'+t.source.line);speaker=speakers.get(t.name)!;if(t.name==='jinobun'){color='#9D9D9D';shadow=false;shadowColor='#242424';}scale=1;speed='user';if(page)atoms.push({kind:'speed',value:'user'});nodes.push({kind:'tag',tag:t});continue;}
+  if(names.has(t.name)){strictArgs(t,[]);requireValue(!hasText()||options?.extended&&speaker.key===t.name,'DOOR_MIDPAGE_SPEAKER '+t.name+':'+t.source.line);speaker=speakers.get(t.name)!;if(t.name==='jinobun'){color='#9D9D9D';shadow=false;shadowColor='#242424';}scale=1;speed='user';if(page)atoms.push({kind:'speed',value:'user'});nodes.push({kind:'tag',tag:t});continue;}
   switch(t.name){
    case 'c':strictArgs(t,['text']);requireValue(page,'DOOR_CENTER_TEXT');align='center';atoms.push({kind:'text',text:literalArg(t,'text'),italic,...(bold?{bold:true}:{}),scale,color,shadow,shadowColor});break;
    case 'style':strictArgs(t,['align']);requireValue(t.args.align==='center'&&speaker.key==='monolog_gray'&&!hasText(),'DOOR_TEXT_ALIGNMENT');alignSetting='inset';align='inset';break;

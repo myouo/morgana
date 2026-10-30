@@ -7,7 +7,7 @@
     "extract": "python3 tooling/extract.py",
     "inspect": "tsx tooling/inspect.ts",
     "convert": "tsx tooling/convert.ts",
-    "check": "tsc --noEmit && tsc -p tests/door2-app/tsconfig.json --noEmit && tsx tooling/check-locales.ts && tsx tooling/check-chapters.ts && node tooling/check-boundaries.mjs",
+    "check": "tsc --noEmit && tsc -p tests/door2-app/tsconfig.json --noEmit && tsc -p tests/door3-app/tsconfig.json --noEmit && tsx tooling/check-locales.ts && tsx tooling/check-chapters.ts && node tooling/check-boundaries.mjs",
     "test": "pnpm test:extractor && tsx --test tests/*.test.ts",
     "dev": "FATA_MODULES=1 vite --host 127.0.0.1",
     "build": "pnpm build:integrated",
@@ -55,10 +55,14 @@
     "test:remote:door1": "playwright test --config playwright.remote.config.ts",
     "r2:upload:door1": "python3 tooling/upload-r2.py",
     "r2:probe:door1": "python3 tooling/probe-r2.py",
-    "r2:verify": "python3 tooling/verify-integrated-assets.py"
+    "r2:verify": "python3 tooling/verify-integrated-assets.py",
+    "door3:build": "tsx tooling/compile-third-door.ts",
+    "door3:verify": "tsx tooling/drive-third-door.ts",
+    "dev:door3": "vite --config tests/door3-app/vite.config.ts",
+    "test:door3": "playwright test --config playwright.third-door.config.ts"
   },
   "dependencies": {
-    "galbox-sdk": "file:vendor/galbox-sdk-e538ab1e09aa.tgz",
+    "galbox-sdk": "file:vendor/galbox-sdk-6e65a997d34e.tgz",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },
