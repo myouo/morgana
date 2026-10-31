@@ -1,12 +1,14 @@
 # 可玩预览与独立网络回归
 
+最新状态：用户已要求停止上传，R2上传进程已终止，线上仍是此前版本。SDK实时电影/残像与本地三门已验收，本轮没有恢复上传或切换Worker。
+
 独立工程通过实际SDK tarball运行。`test.morgana.love`是本地Vite build的可玩预览，`testsdk.morgana.love`是自动化回归。两者使用不同Worker与前端目录，均由静态前端/程序/文本与私有R2绑定组成，桶名`morgana-sdk-network-test`。`workers.dev`和preview URL关闭，桶r2.dev公开入口关闭。按用户要求，preview环境直接公开页面和媒体；regression环境仍先认证。登录资料只在本机ignored `private/cloudflare/access.md`，Worker只保存`TEST_AUTH` secret。
 
 `pnpm convert`先将原作准备到ignored public，再仅按8语言Program和标题/菜单资源闭包构建`generated/site.next`；全部摘要与文本绑定通过后原子提升为`generated/site`。Vite只服务该发布目录，旧public孤儿不会进入构建/上传。8语言字面剧情和UI分别为protobuf，模板摘要/文本身份验证后恢复标准Program，原图片里的文字继续作为本地化图片。
 
 资源为`assets/shared/{images,audio,fonts}/<sha256>.<ext>`或`assets/locales/<BCP47>/...`；只有全部语言引用的相同字节共享，其余保守归属所选语言。前端只请求当前语言目录。切换语言确认后回标题，字体/美术/正文/UI/locale偏好同步；存档按语言隔离，已登记旧32/93页SDK槽自动迁移并保留，未知release拒绝。
 
-`pnpm cloudflare:prepare`只把前端和protobuf目录复制到`generated/edge-preview`（回归为`generated/edge-regression`），媒体只进R2。`pnpm r2:upload --oauth`使用已有Wrangler OAuth、4并发、完整摘要对象名校验与可续传标记；不删除既有对象。不要对其他桶执行该脚本。本机环境变量API Token缺R2权限，所以本次明确选择已登录的OAuth。
+`pnpm cloudflare:prepare`只把前端和protobuf目录复制到`generated/edge-preview`（回归为`generated/edge-regression`），媒体只进R2。上传脚本从当前程序/展示资源引用闭包取文件，不再扫描所有历史文件。`pnpm r2:upload --oauth`使用已有Wrangler OAuth、4并发、完整摘要对象名校验与可续传标记；不删除既有对象。不要对其他桶执行该脚本。本机环境变量API Token缺R2权限，所以本次明确选择已登录的OAuth。
 
 在本机接续：
 

@@ -12,7 +12,7 @@ async function serve(request:Request,env:Env,ctx:ExecutionContext):Promise<Respo
   if(!['GET','HEAD'].includes(request.method))return reply('Method not allowed',405,{Allow:'GET, HEAD'});
   const url=new URL(request.url),match=mediaPath.exec(url.pathname);
   if(!match){
-   const protobuf=/^\/(?:programs|text)\/.+\.pb$/u.test(url.pathname);
+   const protobuf=/^\/(?:programs|text|compat)\/.+\.pb$/u.test(url.pathname);
    let result:Response|undefined,compressed=false;
    if(protobuf&&!request.headers.has('Range')&&acceptsBrotli(request.headers.get('Accept-Encoding'))){const encoded=new URL(url);encoded.pathname+='.br';const sourceHeaders=new Headers(request.headers);sourceHeaders.set('Accept-Encoding','identity');const candidate=await env.SITE.fetch(new Request(encoded,{method:request.method,headers:sourceHeaders}));if(candidate.ok||candidate.status===304){result=candidate;compressed=true;}else await candidate.body?.cancel();}
    result??=await env.SITE.fetch(request);const headers=new Headers(result.headers);headers.set('Cache-Control','private, no-cache');headers.set('X-Content-Type-Options','nosniff');headers.set('Referrer-Policy','same-origin');if(protobuf)headers.set('Vary','Accept-Encoding');if(compressed){headers.set('Content-Type','application/x-protobuf');headers.set('Content-Encoding','br');return new Response(result.body,{status:result.status,headers,encodeBody:'manual'});}return new Response(result.body,{status:result.status,headers});

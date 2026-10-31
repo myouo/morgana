@@ -20,7 +20,7 @@ PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的�
 1. `git submodule update --init galbox`；`pnpm sdk:build`；`pnpm install --frozen-lockfile`。
 2. `uv venv private/.venv`；`uv pip sync --python private/.venv/bin/python requirements.txt`。
 3. `pnpm extract`；`pnpm inspect`。游戏路径见 `source.example.yaml`；更改路径时同步 `FATA_SOURCE`，提取支持 `--source`。
-4. `pnpm compat:fetch`取得按摘要锁定的旧 SDK Program；`pnpm convert`。首次重建旧来源时先运行 `pnpm integration:build all --previous`、`pnpm connection:freeze`；已有冻结来源则保留。然后 `pnpm integration:build all`、`pnpm check`、`pnpm build`。
+4. `pnpm compat:fetch`取得按摘要锁定的旧 SDK Program；`pnpm convert`。首次重建旧来源时先运行 `pnpm integration:build all --previous`、`pnpm connection:freeze`；已有冻结来源则保留。升级历史三门帧版本时用 `pnpm integration:build all --frames`、`pnpm exec tsx tooling/freeze-frame-release.ts` 固定旧来源；已有固定来源则跳过。然后 `pnpm integration:build all`、`pnpm check`、`pnpm build`。
 5. `pnpm dev`，访问 `http://127.0.0.1:4184/`。语言：`?lang=en/fr/it/jp/ko/pt-br/ru/zh`（选其中一个）。默认 WebGL2 优先、不可用则 Canvas；`?renderer=canvas`可显式选择兼容路径。
 
 新 clone 不含游戏、tarball、构建或凭据。完整测试还需要原资料和 ignored `private/compat32`、`private/compat93`和 `private/compat-modules` 的真实旧发布快照；缺失会明确失败。SDK 构建只使用子模块锁定提交，不能通过 workspace 源码别名消费。
@@ -35,9 +35,9 @@ PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的�
 
 默认 balanced 提前4页、64MiB估算驻留；设置可选0/2/4/8页，刷新保留。预取跨已加载静态函数，受资源/内存预算约束；`?loading=demand`提供纯按需策略。长音乐和长单发音效走 versioned-url/HEAD/Range；短音效完整摘要校验。历史窗口按原作只读，未开启不使用的整页回滚快照。资源等待与本作历史页保持已有音乐；实际性能与限制见[验证记录](docs/evidence/PERFORMANCE_READING.md)。
 
-`pnpm test`运行适配器与完整源路径，`pnpm test:browser`运行真实浏览器。整章单语可用 `FATA_TEST_LOCALE=en pnpm exec tsx --test tests/door-runtime.test.ts`；`pnpm test:reading`保留旧单门性能命令；当前完整接续未复用其测量结论。新增第二门IR测试还需 `pnpm chapters:convert interlude1 --staging` 与 `pnpm chapters:convert door2 --staging`，暂存不代表可玩。网络节流仅在测试 CDP，不在 Worker/R2/预览。
+`pnpm test`运行适配器与完整源路径，`pnpm test:browser`运行真实浏览器。整章单语可用 `FATA_TEST_LOCALE=en pnpm exec tsx --test tests/door-runtime.test.ts`；`pnpm test:reading`保留旧单门性能命令；当前完整接续未复用其测量结论。正式 `integration:build`/`connection:build` 默认使用实时效果；`--frames`只用于旧三门兼容来源重建，4185历史独立目录不作为本次实时版本入口。新增第二门IR测试还需 `pnpm chapters:convert interlude1 --staging` 与 `pnpm chapters:convert door2 --staging`，暂存不代表可玩。网络节流仅在测试 CDP，不在 Worker/R2/预览。
 
-旧模块迁移仅缓存原始清单，临时旧代码对象在迁移完成后可回收；无引用旧资源空闲2秒后分批回收，当前画面/媒体/候选与前看资源保留；后台释放Canvas临时工作面，恢复时重建。HTTP目录不额外保留整章副本。实际数据及边界见[滚轮与内存验收](docs/evidence/WHEEL_MEMORY.md)。
+原作旧电影/残像改由SDK从参数及原图实时绘制，当前没有生成效果帧被程序引用；[缺口核查](docs/evidence/EFFECT_GAPS.md)。旧模块迁移仅缓存原始清单，临时旧代码对象在迁移完成后可回收；无引用旧资源空闲2秒后分批回收，当前画面/媒体/候选与前看资源保留；后台释放Canvas临时工作面，恢复时重建。HTTP目录不额外保留整章副本。实际数据及边界见[滚轮与内存验收](docs/evidence/WHEEL_MEMORY.md)。
 
 ## 完整二门本地入口
 
@@ -49,7 +49,7 @@ PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的�
 
 第三门以独立命名空间接通 21 个场景，终止于原脚本的 `search.ks` 调查章节入口。已有原资料与第一门基线的环境中运行 `pnpm chapters:convert door3`、`pnpm door3:build all`、`pnpm door3:verify all`、`pnpm dev:door3`，访问 `http://127.0.0.1:4185/?lang=zh`。之后直接继续本地存档，`&cut=start`重新从第三门章头开始。`pnpm test:door3`验证图文刷新、效果交接、滚轮与全文无滚动；构建完毕后冻结生成目录再测试。详见[第三门验收](docs/evidence/THIRD_DOOR.md)。
 
-4185仍保留为独立测试入口；正式三门接续使用4184。旧两门清单和原代码按摘要保留，经SDK W1-03B3A显式验证来源后升级；新版本保留旧槽。公开域名仍是此前两门发布，本轮未重新部署。长残像为有限采样近似，原作逐像素与通关变体仍未认证。
+4185仍保留为独立测试入口；正式三门接续使用4184。旧两门清单和原代码按摘要保留，经SDK W1-03B3A显式验证来源后升级；新版本保留旧槽。公开域名仍是此前两门发布，按用户要求停止上传，本轮未重新部署。长残像为有限采样近似，原作逐像素与通关变体仍未认证。
 
 ## 仍未完成
 

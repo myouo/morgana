@@ -19,8 +19,9 @@ env['CLOUDFLARE_ACCOUNT_ID'] = 'd71300e999470c31c5f10f0591ebd0f5'
 env['TMPDIR'] = '/dev/shm'
 logs = Path('artifacts/r2-upload')
 logs.mkdir(parents=True, exist_ok=True)
-files = sorted((ROOT/'assets').rglob('*'))
-files = [p for p in files if p.is_file()]
+# Only the verified live closure is uploaded; old on-disk files stay available locally.
+plan = json.loads(subprocess.check_output(['pnpm','exec','tsx','tooling/publication-assets.ts',str(ROOT)], env=env, text=True))
+files = [ROOT/row['key'] for row in plan]
 if not files:
     raise RuntimeError('No published assets')
 

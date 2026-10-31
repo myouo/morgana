@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       galbox-sdk:
-        specifier: file:vendor/galbox-sdk-7ae4655617e1.tgz
-        version: file:vendor/galbox-sdk-7ae4655617e1.tgz(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+        specifier: file:vendor/galbox-sdk-8feb22f5945f.tgz
+        version: file:vendor/galbox-sdk-8feb22f5945f.tgz(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       react:
         specifier: 19.3.1
         version: 19.3.1
@@ -800,8 +800,8 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
-  galbox-sdk@file:vendor/galbox-sdk-7ae4655617e1.tgz:
-    resolution: {integrity: sha512-hw7jJqjR5JHPZ3Z0Z5OZhMJfixmeA6kisC5keB+dKR982BZBLmgRbH/5/7MUSdpHrrUP3iiBsJvnoDSWKVmg2g==, tarball: file:vendor/galbox-sdk-7ae4655617e1.tgz}
+  galbox-sdk@file:vendor/galbox-sdk-8feb22f5945f.tgz:
+    resolution: {integrity: sha512-w0S9faXIgvnvNHA/UltqLqemwG+v079dfNDtHGbFzK0r+6vvLq5eoxmjcxWgyIbDoM1qqhqLSUzvDlx1HazGyA==, tarball: file:vendor/galbox-sdk-8feb22f5945f.tgz}
     version: 0.1.0
     peerDependencies:
       react: '>=19'
@@ -1608,7 +1608,7 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
-  galbox-sdk@file:vendor/galbox-sdk-7ae4655617e1.tgz(react-dom@19.3.1(react@19.3.1))(react@19.3.1):
+  galbox-sdk@file:vendor/galbox-sdk-8feb22f5945f.tgz(react-dom@19.3.1(react@19.3.1))(react@19.3.1):
     dependencies:
       '@noble/hashes': 2.4.0
       pixi.js: 8.22.0

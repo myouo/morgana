@@ -21,6 +21,9 @@ protobuf = bytes(range(256))*400
 compressed = subprocess.run(['node','--input-type=module','-e',"import {readFileSync} from 'node:fs';import {brotliCompressSync} from 'node:zlib';process.stdout.write(brotliCompressSync(readFileSync(0)));"],input=protobuf,stdout=subprocess.PIPE,check=True).stdout
 (frontend/'programs'/'synthetic.pb').write_bytes(protobuf)
 (frontend/'programs'/'synthetic.pb.br').write_bytes(compressed)
+(frontend/'compat'/'modules').mkdir(parents=True, exist_ok=True)
+(frontend/'compat'/'modules'/'synthetic.pb').write_bytes(protobuf)
+(frontend/'compat'/'modules'/'synthetic.pb.br').write_bytes(compressed)
 config = work/'wrangler.toml'
 config.write_text('\n'.join([
     'name = "morgana-worker-cache-fixture"',
@@ -91,6 +94,11 @@ try:
             body = gzip.decompress(body)
         assert status == 200 and headers.get('Content-Encoding') != 'br' and body == protobuf, (encoding, status, headers.get('Content-Encoding'), len(body))
     assert request('programs/synthetic.pb', headers={'Accept-Encoding':'br'}, authorized=False)[0] == 401
+    status, headers, body = request('compat/modules/synthetic.pb', headers={'Accept-Encoding':'br'})
+    assert status == 200 and headers.get('Content-Encoding') == 'br' and body == compressed
+    assert request('compat/modules/synthetic.pb', headers={'Accept-Encoding':'br'}, authorized=False)[0] == 401
+    status, headers, body = request('compat/modules/synthetic.pb', headers={'Accept-Encoding':'identity'})
+    assert status == 200 and not headers.get('Content-Encoding') and body == protobuf
     print('Production workerd static protobuf: lossless Brotli/HEAD/ETag, raw fallback and authorization passed')
     full, partial = keys
     status, headers, body = request(full, headers={'Range':'bytes=0-'})

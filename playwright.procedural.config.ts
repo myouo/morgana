@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';import base from './playwright.connection.config.js';
+export default defineConfig({...base,testMatch:'procedural.spec.ts',timeout:240000,reporter:[['list'],['json',{outputFile:'artifacts/procedural/browser-results.json'}]],outputDir:'artifacts/procedural/browser-results',use:{...base.use,baseURL:'http://127.0.0.1:4188',launchOptions:{args:['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']}},webServer:{command:'pnpm dev:procedural',url:'http://127.0.0.1:4188',reuseExistingServer:false}});

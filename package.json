@@ -67,10 +67,18 @@
     "test:connection": "playwright test --config playwright.connection.config.ts",
     "connection:freeze": "tsx tooling/freeze-module-sources.ts",
     "connection:promote": "tsx tooling/promote-connected.ts",
-    "test:connection:fit": "FATA_FIT_ROOT=generated/connected playwright test --config playwright.connected-fit.config.ts"
+    "test:connection:fit": "FATA_FIT_ROOT=generated/connected playwright test --config playwright.connected-fit.config.ts",
+    "procedural:build": "tsx tooling/compile-procedural.ts",
+    "procedural:verify": "tsx tooling/drive-procedural.ts",
+    "procedural:share": "tsx tooling/share-procedural-assets.ts",
+    "publication:assets": "tsx tooling/publication-assets.ts",
+    "dev:procedural": "FATA_MODULES=1 FATA_PUBLICATION_ROOT=generated/procedural vite --host 127.0.0.1 --port 4188",
+    "test:procedural": "playwright test --config playwright.procedural.config.ts",
+    "procedural:promote": "tsx tooling/promote-procedural.ts",
+    "procedural:old-cuts": "tsx tooling/verify-frame-upgrades.ts"
   },
   "dependencies": {
-    "galbox-sdk": "file:vendor/galbox-sdk-7ae4655617e1.tgz",
+    "galbox-sdk": "file:vendor/galbox-sdk-8feb22f5945f.tgz",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },
