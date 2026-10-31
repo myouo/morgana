@@ -2,13 +2,13 @@
 
 用户提供的 Steam KRKR2 版本（app303310/build21523397），通过 `galbox/` 子模块的实际 tarball 和公开 exports 使用 SDK。原安装只读；根据 KS/TJS、宏、资源和原配置生成标准 Program，不逆向 exe，不运行另一套 KAG VM。
 
-当前内容已接通：原标题与OP、新周目完整序章、八语完整第一门→第一间章→完整二门、memory1两个选择及章尾间章→完整第三门21场景，至 `search.ks:*start` 调查章节入口。正式旧第一门和旧两门Web存档均可接续；第三门也已接入原章节回放，关闭后主线保持原状态。实际范围与限制见[三门接续验收](docs/evidence/CONNECTED_DOORS.md)。
+当前本地已接通：原标题与OP、新周目完整序章、第一门→第一间章→第二门及memory1两路→第三门→调查四问/八地点循环→第四门正文与后段，八语言同步；正线止于 `scenario5.ks:*start`。记忆由实际选择取得，第四门第三项按双记忆条件开放。正式旧第一至三门Web槽通过来源验证后接续，详见[调查与四门接续验收](docs/evidence/SEARCH_CONNECTION.md)。鉴赏回放目前仍截至第三门。
 
-公开可玩预览：[test.morgana.love](https://test.morgana.love)。自动化网络回归使用独立的 testsdk.morgana.love。
+线上预览 [test.morgana.love](https://test.morgana.love) 仍是此前两门发布；按用户要求停止资源上传和线上部署，本轮内容仅本地。testsdk.morgana.love 保留为网络回归域名。
 
 ## 文本与资源在哪里
 
-- 可编辑正文：`locales/<BCP47>/story.po`、`prologue.po`；章节为 `locales/<BCP47>/chapters/{door1,interlude1,door2,memory1,door3,door4}/*.po`。中文目录是 `locales/zh-Hans/chapters/door1/`。
+- 可编辑正文：`locales/<BCP47>/story.po`、`prologue.po`；章节为 `locales/<BCP47>/chapters/{door1,interlude1,door2,memory1,door3,search,door4}/*.po`。中文目录是 `locales/zh-Hans/chapters/door1/`。
 - 系统文字：各语言 `ui.po`；选择文字：`choices.po`。
 - 浏览器从Worker静态资源读取 `/programs/zh.modules.pb`、按SHA命名的代码模块、标题与 `/text/zh.ui.pb`；旧单门的指令模板/文本目录仅用于兼容。这些pb **不在 R2**，也不进 Git。
 - 图片、音频、字体由专用 R2 桶按 SHA 内容地址提供。只有跨全部语言相同的字节共享，其余按语言隔离。
@@ -21,7 +21,8 @@ PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的�
 2. `uv venv private/.venv`；`uv pip sync --python private/.venv/bin/python requirements.txt`。
 3. `pnpm extract`；`pnpm inspect`。游戏路径见 `source.example.yaml`；更改路径时同步 `FATA_SOURCE`，提取支持 `--source`。
 4. `pnpm compat:fetch`取得按摘要锁定的旧 SDK Program；`pnpm convert`。首次重建旧来源时先运行 `pnpm integration:build all --previous`、`pnpm connection:freeze`；已有冻结来源则保留。升级历史三门帧版本时用 `pnpm integration:build all --frames`、`pnpm exec tsx tooling/freeze-frame-release.ts` 固定旧来源；已有固定来源则跳过。冻结旧实时三门来源后（`pnpm exec tsx tooling/freeze-heartbeat-source.ts`；新环境须先以 `compile-procedural.ts` 重建旧实时心跳版本），再 `pnpm integration:build all`、`pnpm check`、`pnpm build`。
-5. `pnpm dev`，访问 `http://127.0.0.1:4184/`。语言：`?lang=en/fr/it/jp/ko/pt-br/ru/zh`（选其中一个）。默认 WebGL2 优先、不可用则 Canvas；`?renderer=canvas`可显式选择兼容路径。
+5. 保留现有三门冻结来源后，`pnpm search:freeze`、`pnpm search:build all`、`pnpm search:verify all`；八语验收后 `pnpm search:promote`。
+6. `pnpm dev`，访问 `http://127.0.0.1:4184/`。语言：`?lang=en/fr/it/jp/ko/pt-br/ru/zh`（选其中一个）。默认 WebGL2 优先、不可用则 Canvas；`?renderer=canvas`可显式选择兼容路径。
 
 新 clone 不含游戏、tarball、构建或凭据。完整测试还需要原资料和 ignored `private/compat32`、`private/compat93`和 `private/compat-modules` 的真实旧发布快照；缺失会明确失败。SDK 构建只使用子模块锁定提交，不能通过 workspace 源码别名消费。
 
@@ -49,7 +50,7 @@ PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的�
 
 第三门以独立命名空间接通 21 个场景，终止于原脚本的 `search.ks` 调查章节入口。已有原资料与第一门基线的环境中运行 `pnpm chapters:convert door3`、`pnpm door3:build all`、`pnpm door3:verify all`、`pnpm dev:door3`，访问 `http://127.0.0.1:4185/?lang=zh`。之后直接继续本地存档，`&cut=start`重新从第三门章头开始。`pnpm test:door3`验证图文刷新、效果交接、滚轮与全文无滚动；构建完毕后冻结生成目录再测试。详见[第三门验收](docs/evidence/THIRD_DOOR.md)。
 
-4185仍保留为独立测试入口；正式三门接续使用4184。旧两门清单和原代码按摘要保留，经SDK W1-03B3A显式验证来源后升级；新版本保留旧槽。公开域名仍是此前两门发布，按用户要求停止上传，本轮未重新部署。正式实时残像每32ms累积，原作逐像素与通关变体仍未认证。
+4185仍保留为独立测试入口；4184现为正式一至四门接续。旧两门清单和原代码按摘要保留，经SDK W1-03B3A显式验证来源后升级；新版本保留旧槽。公开域名仍是此前两门发布，按用户要求停止上传，本轮未重新部署。正式实时残像每32ms累积，原作逐像素与通关变体仍未认证。
 
 ## 第四门本地入口
 

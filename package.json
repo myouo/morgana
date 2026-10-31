@@ -85,10 +85,17 @@
     "door4:verify:main": "tsx tooling/drive-fourth-door.ts",
     "door4:freeze": "tsx tooling/freeze-fourth-source.ts",
     "door4:promote": "tsx tooling/promote-fourth.ts",
-    "test:door4:full": "FATA_FOURTH_ROOT=generated/door4-next FATA_FIT_LOCALES=en,fr,it,jp,ko,pt-br,ru,zh playwright test --config playwright.fourth-next.config.ts"
+    "test:door4:full": "FATA_FOURTH_ROOT=generated/door4-next FATA_FIT_LOCALES=en,fr,it,jp,ko,pt-br,ru,zh playwright test --config playwright.fourth-next.config.ts",
+    "search:build": "tsx tooling/compile-search.ts",
+    "search:verify": "tsx tooling/drive-search.ts",
+    "search:old-cuts": "tsx tooling/verify-search-upgrades.ts",
+    "search:freeze": "tsx tooling/freeze-three-source.ts",
+    "search:promote": "tsx tooling/promote-search.ts",
+    "dev:search": "FATA_MODULES=1 FATA_PUBLICATION_ROOT=generated/search-connected vite --host 127.0.0.1 --port 4192",
+    "test:search": "playwright test --config playwright.search.config.ts"
   },
   "dependencies": {
-    "galbox-sdk": "file:vendor/galbox-sdk-b4fd424ed3ed.tgz",
+    "galbox-sdk": "file:vendor/galbox-sdk-5c5fe3df3fe3.tgz",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },
