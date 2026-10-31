@@ -1,6 +1,6 @@
 # 可玩预览与独立网络回归
 
-最新状态：用户本轮已明确授权恢复上传与线上部署；八语一至四门、坏结局返标题和隔离回放已在本地通过。新资源按SHA合并跨语言重复路径；先发布回归站，验证后再切换可玩预览。具体版本和命令见[本轮发布记录](../docs/evidence/ONLINE_DOORS4.md)。
+最新状态：用户本轮已明确授权恢复上传与线上部署；八语一至四门、坏结局返标题和隔离回放已在本地通过。新资源按SHA合并跨语言重复路径；回归站验证后已切换可玩预览，一至四门八语现已上线。具体版本和命令见[本轮发布记录](../docs/evidence/ONLINE_DOORS4.md)。
 
 独立工程通过实际SDK tarball运行。`test.morgana.love`是本地Vite build的可玩预览，`testsdk.morgana.love`是自动化回归。两者使用不同Worker与前端目录，均由静态前端/程序/文本与私有R2绑定组成，桶名`morgana-sdk-network-test`。`workers.dev`和preview URL关闭，桶r2.dev公开入口关闭。按用户要求，preview环境直接公开页面和媒体；regression环境仍先认证。登录资料只在本机ignored `private/cloudflare/access.md`，Worker只保存`TEST_AUTH` secret。
 

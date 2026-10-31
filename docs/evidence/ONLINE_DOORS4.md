@@ -55,3 +55,21 @@ Worker、前端目录及认证维持preview/regression隔离，节流和故障�
 认证资料、原KS/TJS、素材、字体、tarball、存档、构建、截图与原始日志均ignore。
 仍止于第五门入口；通关后变体、原生tft、动画glyph与原作逐像素/真机长期认证
 另验。没有执行原脚本或增加第二套解释器。
+
+## 发布结果（2026-11-01）
+
+- 回归：8f0981fd-ce69-48cb-ba70-5ef6ed5a81ac，testsdk.morgana.love。
+- 预览：99451069-808c-47ba-9f35-55add2895593，test.morgana.love，100%流量。
+- 预览先执行versions upload预上传，回归通过后versions deploy切流量；旧版本与
+  R2对象均保留。静态上传中的网关重试由Wrangler续传，没有强推Git。
+- `node --use-env-proxy --import tsx tooling/verify-preview-build.ts`：292个当前
+  前端/八语清单/代码/UI/文本/标题片段，181514949个解码字节与dist.next完全
+  相同；不包括逐份重读历史兼容代码。校验使用与既有预览检查相同的明确
+  浏览器User-Agent；默认客户端UA被边缘规则403拒绝，不计为内容不一致。
+- 完整R2 HTTPS校验2046对象/458535980字节，全部SHA正确；2034 HIT、12 MISS，
+  暖缓存、鉴权、HEAD/Range/后缀/ETag/304/404/405/412/416通过。可选requests
+  Session仅用于探针连接复用，缺失时仍回退标准库；字节探针固定identity传输。
+- 生产回归6场景：八语入口，英/中返标题及回放隔离、英/中菜单冷恢复、坏代码
+  重试。中文慢网仅CDP。英文初轮5秒就绪断言超时，按资源等待上限修正后单项
+  复验通过；其余5项首次通过。
+- 运行安装仍只消费SDK实包；Git仅源代码、测试与报告，原作载荷/凭据/日志不入库。
