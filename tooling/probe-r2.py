@@ -1,6 +1,14 @@
 """Verify the actual authenticated HTTPS/R2 path, byte-for-byte, without logging credentials."""
 import concurrent.futures
+import threading
+try:
+    import requests
+except ImportError:
+    requests = None
+_sessions = threading.local()
 import os
+import json
+import subprocess
 import argparse
 import http.client
 import time
@@ -18,16 +26,25 @@ if args.changed_from and not (args.changed_from/'assets').is_dir():
 ORIGIN = 'https://testsdk.morgana.love'
 AUTH = Path('private/cloudflare/auth-header.txt').read_text().strip()
 ROOT = Path(os.environ.get('FATA_PUBLICATION_ROOT', 'generated/site'))
-if ROOT not in (Path('generated/site'), Path('generated/integrated')):
+if ROOT not in (Path('generated/site'), Path('generated/integrated'), Path('generated/release-next')):
     raise RuntimeError('Expected a verified publication directory')
-files = sorted(p for p in (ROOT/'assets').rglob('*') if p.is_file())
+plan = json.loads(subprocess.check_output(['pnpm','exec','tsx','tooling/publication-assets.ts',str(ROOT)], text=True))
+files = [ROOT/row['key'] for row in plan]
 
 def exchange(key, method='GET', headers=None, auth=True):
-    values = {'User-Agent':'galbox-network-probe/1.0'}
+    values = {'User-Agent':'galbox-network-probe/1.0', 'Accept-Encoding':'identity'}
     if auth:
         values['Authorization'] = AUTH
     if headers:
         values.update(headers)
+    if requests is not None:
+        if not hasattr(_sessions, 'session'):
+            _sessions.session = requests.Session()
+        try:
+            with _sessions.session.request(method, ORIGIN+'/'+key, headers=values, timeout=(15, 60)) as response:
+                return response.status_code, response.headers, response.content
+        except requests.RequestException:
+            raise OSError('HTTPS transport failed') from None
     req = urllib.request.Request(ORIGIN+'/'+key, method=method, headers=values)
     try:
         response = urllib.request.urlopen(req, timeout=60)

@@ -95,7 +95,7 @@
     "test:search": "playwright test --config playwright.search.config.ts"
   },
   "dependencies": {
-    "galbox-sdk": "file:vendor/galbox-sdk-5c5fe3df3fe3.tgz",
+    "galbox-sdk": "file:vendor/galbox-sdk-f0ac40cae565.tgz",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },

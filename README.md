@@ -2,9 +2,9 @@
 
 用户提供的 Steam KRKR2 版本（app303310/build21523397），通过 `galbox/` 子模块的实际 tarball 和公开 exports 使用 SDK。原安装只读；根据 KS/TJS、宏、资源和原配置生成标准 Program，不逆向 exe，不运行另一套 KAG VM。
 
-当前本地已接通：原标题与OP、新周目完整序章、第一门→第一间章→第二门及memory1两路→第三门→调查四问/八地点循环→第四门正文与后段，八语言同步；正线止于 `scenario5.ks:*start`。记忆由实际选择取得，第四门第三项按双记忆条件开放。正式旧第一至三门Web槽通过来源验证后接续，详见[调查与四门接续验收](docs/evidence/SEARCH_CONNECTION.md)。鉴赏回放目前仍截至第三门。
+当前本地已接通：原标题与OP、新周目完整序章、第一门→第一间章→第二门及memory1两路→第三门→调查四问/八地点循环→第四门正文与后段，八语言同步；正线止于 `scenario5.ks:*start`。记忆由实际选择取得，第四门第三项按双记忆条件开放。正式旧第一至三门Web槽通过来源验证后接续，详见[调查与四门接续验收](docs/evidence/SEARCH_CONNECTION.md)。第四门鉴赏回放与坏结局返标题已接入。
 
-线上预览 [test.morgana.love](https://test.morgana.love) 仍是此前两门发布；按用户要求停止资源上传和线上部署，本轮内容仅本地。testsdk.morgana.love 保留为网络回归域名。
+用户本轮已授权恢复线上发布；[test.morgana.love](https://test.morgana.love) 为可玩预览，[testsdk.morgana.love](https://testsdk.morgana.love) 为鉴权网络回归站。发布进度与版本见[本轮记录](docs/evidence/ONLINE_DOORS4.md)。
 
 ## 文本与资源在哪里
 
@@ -14,6 +14,8 @@
 - 图片、音频、字体由专用 R2 桶按 SHA 内容地址提供。只有跨全部语言相同的字节共享，其余按语言隔离。
 
 PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的发布格式，不能通过修改二进制维护剧情。[翻译说明](locales/README.md)和[章节说明](docs/CHAPTERS.md)列出保留标记与校验命令。
+
+新增发布候选：`pnpm exec tsx tooling/prepare-release.ts all`、`pnpm exec tsx tooling/verify-release.ts all`、`pnpm exec tsx tooling/stage-release.ts`；生成目录与测试数据均不进Git。
 
 ## 本地运行
 

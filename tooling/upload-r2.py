@@ -8,7 +8,7 @@ import subprocess
 import sys
 
 ROOT = Path(os.environ.get('FATA_PUBLICATION_ROOT', 'generated/site'))
-if ROOT not in (Path('generated/site'), Path('generated/integrated')):
+if ROOT not in (Path('generated/site'), Path('generated/integrated'), Path('generated/release-next')):
     raise RuntimeError('Expected a verified publication directory')
 BUCKET = 'morgana-sdk-network-test'
 MIME = {'.png':'image/png', '.jpg':'image/jpeg', '.ogg':'audio/ogg', '.mp3':'audio/mpeg', '.wav':'audio/wav', '.ttf':'font/ttf'}
