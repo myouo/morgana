@@ -1,0 +1,4350 @@
+version = 1
+chapter = "search"
+locale = "it"
+status = "extracted-not-compiled"
+source_sha256 = "60275c500c9a79f756b5dc53e38dd30ed128a6c3d8bf4f81e18e8938a9cd5f78"
+files = [ "search1.po", "search2.po", "search3.po" ]
+
+[[messages]]
+context = "search:search_EA7B882C_C77E_48DC_95BF_60A87ECDA9C5"
+msgid_sha256 = "449ed46faea311bb09cb9cf62a3c82f436d41ff6bc90db692bb0f6e12dd48ba3"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 ]
+control_kinds = [ "playbgm", "loadplugin", "loadplugin", "visible_text", "char_setopt", "char_clear_all", "char_visible", "glyph", "title", "if", "eval", "unknown", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_703E19E0_726C_433E_BAC7_50B93A16C2B7"
+msgid_sha256 = "86c97d6b3cab094d450b05df10000cbf11b7710c0d79795be782ed3862a749b3"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "w", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_93F85EDE_C4D7_4905_B000_4CBEB0BF467F"
+msgid_sha256 = "ab9e21c981083ae82f7103297a3ccc94fc9a26b78ea0cf68d70032492ce0f241"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B07EC243_739B_4E71_8C88_18A02077BB67"
+msgid_sha256 = "7a00cb101853e7a33ee130a675fe266f753685b0fffedefbaeb65ab750cdba41"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_30150091_426D_424D_BA43_80800C085731"
+msgid_sha256 = "b8d0a21024449b4d5f8a84a0297c24ea0b058d0fdc390d50fb2b854997706ec9"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "unknown", "l", "r", "w", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_49F955BE_4E05_4E8D_ABE8_12721B082B88"
+msgid_sha256 = "fa63a00bb480d15a51d18f26d0bc3f4011e0879c7ebf8f31201bc98625890ba8"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A848CFDD_5F69_4274_ADC7_2A7A946C9E34"
+msgid_sha256 = "188f365e7425f51354c132147a541f38c9c6c7e37665a932493076d2f153516c"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "mytrans_move1", "mytrans_move2", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_43FF3F4F_9D66_463E_9F9D_BC8EC72526D0"
+msgid_sha256 = "0f63c870859977b3dc806f9109d13a506492964c16d1a489630e6c4a74a9ca9a"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_12F9A415_B3A4_4F7E_BF5F_AF37FAA4F250"
+msgid_sha256 = "01e40feee08e0d4b1bae2431de91221d7c15e08ab54afcf1b3f3de7aceaf3aef"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_70781000_740E_41B0_9E28_0F14D836233E"
+msgid_sha256 = "7c7a9883caabc54a87f23efef3a2c2a623bccfcb5c0a979bccaa8e91d7a28a39"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "unknown", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_39BDFE66_9108_46E1_9EFD_FDB3A1CBB4C8"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_86D0ED15_8AC5_4B17_8FF1_0852C079C487"
+msgid_sha256 = "6515b2e2e8c7da7e116d3fb52fbfb271633052f07edc716477cd5e4c477e9dc1"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_F6A058C8_2CC7_42DB_83AB_176712F953A8"
+msgid_sha256 = "fe3376d19c90ba5e0e8fb55af5397752d2426584b014e5d2199e25ce5ae2197c"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "unknown", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0E103304_6ED7_4229_9C7D_927531562BB9"
+msgid_sha256 = "7c9a605c561df092d9602f442b2fc828cc487b339ec0267af664a11eef8018bb"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_D919F848_50E7_4423_9AA1_62B2AEE0FA02"
+msgid_sha256 = "d7c86a502bb70598d7bd5bf7d7ebe7a29574c83582bc765bc9a4abc58e339338"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C4E222F0_ECAB_4708_90BE_7BC639B4E253"
+msgid_sha256 = "ca35a9bce5a88dfa43a520a610494f43c3c534184805adb63e42f4624140e9c9"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E274FD87_12D4_4405_8215_FA3F45F727AD"
+msgid_sha256 = "bbe93caf948b8b5f9ab85199aa25fe4b29c9a6d0a145323817182c96e74a58a2"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "picture", "accent", "/accent", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_3A7FA097_8099_4B4C_90DB_0DE1D276157B"
+msgid_sha256 = "80e58daa32ab78e3d4ec1bf69901cf70e1b81e396df50b0f9db3cf6c2997f99d"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_53E12C05_26DB_47D1_9EB4_35E31462CE24"
+msgid_sha256 = "c971f81f620d17e74310a8ec5e574c38b7251376373ab12fd49eeff44a722608"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_AA1E2BF7_D662_4D19_BFD8_D0B8B08D191A"
+msgid_sha256 = "f1336814ea04ffccfe5d4a8aa810f6a6689ddea68135a577800a9c87b08c9d3f"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "picture", "accent", "/accent", "r", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E1EF2AD4_F041_48C4_AB86_840D600A6EB6"
+msgid_sha256 = "c08cbd73d1d139977228045cb83c93bc225e11182f743f9273138204ef253788"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "w", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4D53616D_8E16_476F_8EAA_1318DB2A3890"
+msgid_sha256 = "d3fde0424f399f86b013c3d5aaa38c6426cdd533a80948eebb48d17ce5830ddb"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "picture", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8833BD8D_AEEA_4661_B533_6DE38CFDC60E"
+msgid_sha256 = "b9a3a035aa3600bcf5d16fd6822ba3effddce706f3d4a29368b07af12e4e9528"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "picture", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_55D06A8D_6D62_4964_B686_5578F59611EC"
+msgid_sha256 = "518f3d37914da642551521daefe882762f1bba16f0d97a17c0d6bb1349a5493b"
+controls = [ 0, 1 ]
+control_kinds = [ "picture", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_243D2F9F_5D36_4FBC_BB7F_5ADAC95E10E1"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_51712C12_CBA0_4DDD_A7DB_6DCDE8268617"
+msgid_sha256 = "4aab4c904c941dee251f14bf9cae5d26ddd4ba49c3043f7424123fd5cb4ca8f8"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E8290194_3DEE_4D82_BDBC_11AEFAFF25F5"
+msgid_sha256 = "e80cdd78a5ae53b244d729c33f06389692aca7fb95fc8fcdd3d88066f5f715b2"
+controls = [ 0, 1 ]
+control_kinds = [ "jinobun", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E4B5DFEB_CADD_46EE_88D6_DE8D1C8C88B7"
+msgid_sha256 = "e14d379d24c9ef1cee55b123febf4250fa05efebc4b37cccc99afbdc9a8f0ae0"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:絵画は誰なのか"
+msgid_sha256 = "13c56734ef203d9046f453b2d5e7f980f4b279308b0d9e978d2e22820f8ddf36"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 ]
+control_kinds = [ "layopt", "trans", "wt", "if", "jump", "endif", "choice", "r", "r", "r", "r", "r", "if", "endif", "r", "if", "endif", "r", "if", "endif", "r", "if", "endif", "wait", "if", "locate", "button", "endif", "if", "locate", "button", "endif", "if", "locate", "button", "endif", "if", "locate", "button", "endif", "s" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4D4B84F3_16BF_42DC_A096_DE02239C6333"
+msgid_sha256 = "beb8e1f68e283be79594119f77438e54d503ceb5281958ae9c157cc7c063709e"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+control_kinds = [ "eval", "choice_start", "layopt", "position", "backlay", "layopt", "trans", "wt", "picture", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A5521A13_6869_4705_AAB1_C29863B034C7"
+msgid_sha256 = "943f157d24043e5a24414fdefeb153945d99aca0bc5103371a6feccba7e1ffca"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C06123F3_2389_45DB_8A3F_414E211298A4"
+msgid_sha256 = "bdacebbfb482d53382eba868185f5367254ed182b5021338a96b41512dc9dcae"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "picture", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_F7B7B4D4_BD14_4C7E_ACDD_C7D0A3538D41"
+msgid_sha256 = "8e88da48e9db6ba0ee55c6238e297218ce2e769ced6b93a469891b2a1e99df62"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_42F9BC62_5D48_4AD0_ACAE_3D7FE793FBEE"
+msgid_sha256 = "2adf0966864c20d9c75411a7fc358d4941ce7b7e009afc2d8cb14371fab86e33"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "picture", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_9A6658DB_E4E3_4326_9FC2_F03AD49019CD"
+msgid_sha256 = "1df7a8190d01e8ef5dc73363748d5fd65ada4cd70ba5126bd13b61800d5ee8a5"
+controls = [ 0, 1 ]
+control_kinds = [ "picture", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_06B2DE81_6F9B_4CD7_BC91_EA2A9F9CE418"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E2412C51_8F3D_485F_A82A_B05DD84A3664"
+msgid_sha256 = "bb4028bf6f51942c72e8ef7a01ec46186c8128571a61f1d46c23dad5791b8cd6"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "picture", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_59547A1D_A5F6_41AB_A4A1_66273E7BE6FC"
+msgid_sha256 = "31745fc28e88bd88cba3b669eadd84762e732014222457f7a7176f9f5e705bbd"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "picture", "l", "r", "accent", "/accent" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_08FC780F_7B95_4AD3_8F58_59325AB48C89"
+msgid_sha256 = "9fc434344e009cb23d02ded77edb3ec04704aed641bb08db714c8bc995fef821"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "picture", "w", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7E559C86_1DD7_47B7_94E7_3D4AB5380AC5"
+msgid_sha256 = "9472e554a2987acf7236f98e703aaf6c1f1a49409e5123239a936e8ddad25cef"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_358E86B6_8704_4CC7_8677_BA24B4D47BAC"
+msgid_sha256 = "2d8e6f58018885c2b2d125f54d02269cc95e5f0410f5218564e38bc89198188b"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "endif", "picture", "r", "w", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7F2FE142_B09E_4610_B227_B06B8BC74430"
+msgid_sha256 = "33ffecd1ddfa7c56ab7227a313c69f112d8a70e683409842c2f2f44027903427"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C7D70122_37D5_4EC2_A724_AD926C3ED043"
+msgid_sha256 = "26f80d83380c498a3fa71edbf1dff42c89dc93ff37b69886763780e0f461bbe6"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "picture", "r", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7AE2A16A_A3A8_4A64_BE4A_7E1A67609EC6"
+msgid_sha256 = "9d513e7d433b980133f789c21f34e1e9187d068e36c505738e508a54162d5b68"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "picture", "l", "r", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_FF487C96_9909_4516_A9D5_7DC215858976"
+msgid_sha256 = "0532df3517d6eac5b011f7f23ccd6dbc0f445b142a29a0c199053c4cd383ac9e"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_15CE5063_B793_4AC3_8A72_BC1FBE17B783"
+msgid_sha256 = "cfa9be5a6266c21554c4ea5f84011a0f1a6609d896026923c62b099546930fd2"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_128BDE90_15DB_4DA7_AD72_2DB402F87B18"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_D33594DA_AE1A_4563_8C28_DC2897CBE5F1"
+msgid_sha256 = "1824fb8048cd36cfafb0523ff19135eef2f5f057cfad8286f3459579048e5606"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "picture", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_FD4FAC64_A27F_4E07_91E0_F413BC3AE334"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0128F799_05F7_41A5_9F7C_B72D1EB4EBDC"
+msgid_sha256 = "109b689382464489ec2f75a1438fc508c188e7dbabf6da71f4bb6a9e20b97451"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_CA425D51_C511_42C3_90FE_D6B80FF9487A"
+msgid_sha256 = "c9c43b4856b09195d37b8fd14e4c4aeca527ede63e594e67bae16197856b243a"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4D3C9F19_22ED_46CA_8E62_DC2910702B26"
+msgid_sha256 = "05b20e1762313bf4ad75515cb6189352e898edda965b5698ef576862e86e7262"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A2418376_4EA5_47DE_B3AB_3CBAAF3FF0F5"
+msgid_sha256 = "803bf0aae4c6590087d3f87ed563c064b4ec06550db69cf661d42c05625fef81"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_26ACB83A_55C9_45CC_A976_32CF23A90AA9"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8E559B0D_1617_496E_A0DF_F992FD9DA3E9"
+msgid_sha256 = "f73ea3fe6374863075a8c435017a6b633253ebfc541c866c3896efcf57325c1c"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_5EDC33B0_5E9E_4214_B594_81FCDF5A5EFB"
+msgid_sha256 = "dc821ba6a7cd115571613fc98246c6d285fea2eaf018263761bcff4e01352a65"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "picture", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_77D5571A_E614_41E3_9DB5_4EB1757941FA"
+msgid_sha256 = "e3369c492d92a7d0d339b1752915f9a275d907f43415d33315a1b240ba420b62"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C637FC65_7A6C_43A5_A7AE_7EAFFCE8F45D"
+msgid_sha256 = "84681c25b39e2f2217abcf170efa475e11c00548b757bd62abc7e5c27b348f85"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "picture", "w", "i", "/i", "hr" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_1EBE73C3_B6DC_49DE_83A5_22350F9A710C"
+msgid_sha256 = "166b668f99499d4122eb0068587269f8d7867dd8120e8a3290514e78e34d7af9"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ]
+control_kinds = [ "layopt", "trans", "wt", "jump", "s", "eval", "choice_start", "layopt", "position", "backlay", "layopt", "trans", "wt", "picture", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0E50FD3D_7707_412B_9E83_19902E084C38"
+msgid_sha256 = "94e758f0483597a3e741e8f1285ab15dbf09e4d1ed084e227e45e0b145311b26"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_18BD0078_A54C_41E6_A56E_DFEE77208E9B"
+msgid_sha256 = "56710fee0e44ec99222e23719c4507b45889e7da8f172b9c038f5687ffe13c5b"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "picture", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2F67B18B_E936_41D2_8BAC_9955C267CFEA"
+msgid_sha256 = "0f642e8f853e25d9ade1d368837c31f2d9f2b58b229788402c8c6c7cd67b9ffb"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "picture", "r", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_CDC6DD6B_A050_480C_8DD1_112B69497996"
+msgid_sha256 = "d6c9a1b62d972434d6e322c7d64c5a17d948df84d656ad5c6290d4d0d3d490ed"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A4E01C64_9E43_46F4_A612_CE86AD59DA32"
+msgid_sha256 = "38e0ce5fdc296fc2bc22be6b848e80ff7487f21e4f512b6c31099312ddfdaccc"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4EB8B2BF_41C1_4CC0_A444_CB8448F57C16"
+msgid_sha256 = "3303a376cfb355024bd2d7de88cf2ca5306d7cb23b9da5bdc3877c96a764633b"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "picture", "w", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8C4C0401_A312_41FB_8D1E_BA5D1D20934F"
+msgid_sha256 = "e26c62b8bab23b6fdf9f3a798cfa5b9fa18449649b68e9697c4e460c7933c3be"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4F50CC45_D6DA_45B7_AEEB_B0D4D48D4652"
+msgid_sha256 = "967bf0b25eaec35a347b40f82e789326f7fe61f976e6eef9d419620f5d355ba1"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "endif", "picture", "w", "r", "w", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2ACA7598_8BEE_4519_938E_9FB7F99AF6D8"
+msgid_sha256 = "43ee54be78b47780526fb9a8bee59b63b0aee80c8887450812ac287fbffdda3c"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_26941EF7_CE1F_46B0_B0AF_5EF028F2BC19"
+msgid_sha256 = "c0b2bbd271d22a7b9692a210ff5f0b9849a04060efe9aa006c596cd29b0eed44"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2ACA7598_8BEE_4519_938E_9FB6F99AF6D8"
+msgid_sha256 = "2a1da38d1019be9afb3c4a45a03e8ca3757addf93105f90c790bf92e992e4973"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "picture", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8714ADD1_C3B8_4F22_84A4_CF5C84E850F7"
+msgid_sha256 = "8952c9a2008de2207692a793f261a674e5f6e2e00af9608b84782bfa4871797d"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_5CFEC384_5E26_445D_BC10_92B3D88CA7E3"
+msgid_sha256 = "a3156f4bc09827581b32c6dc0bb045c1f46c34fab24acdf26131ac4baa21cd64"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "picture", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_3B16228C_E25A_4B9D_AF3F_32D8DAD7CA76"
+msgid_sha256 = "02d44346e2a69fee8b034b45e83cb565524adc44b63f1c4c072314ce84590cc5"
+controls = [ 0, 1 ]
+control_kinds = [ "picture", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_3759B8B8_FEB5_419B_AFF6_2A6AB82BEBDB"
+msgid_sha256 = "977702d99f3b460b195b38fb4eedd9bc81562e36d09bab3dc2b1cf38e72a4f4b"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A73976EE_2CFF_44F6_A414_E9BE5FC0923B"
+msgid_sha256 = "d780141e0a3eafa88da8f58fe1ff3c8434a0d49319f62adf329d3f968396ba48"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "endif", "picture", "l", "r", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E517FA56_9507_4F86_974E_11C695D47875"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_881B59E6_CF65_486D_8C60_DAEC080849A8"
+msgid_sha256 = "2fe635a0665d42f5c3be59d4d2509a93ffcc178b7e95860603a683bd434cc0ea"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "picture", "r", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_96BAE40F_7A68_43EB_9587_FD7AC9925886"
+msgid_sha256 = "76aa98b2c0973703a03520f418555776df6b1e8e24ea8089c05f6b8ff78deab6"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "picture", "accent", "/accent" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_BBCEAE5E_3E6A_4440_B865_F3564E724617"
+msgid_sha256 = "20336d88b6336654e28768e4e14582113213571f188e36c5bbc4139ac17fdd0d"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7B7820B2_8193_45A6_A97A_FD6EAB60B6E5"
+msgid_sha256 = "56a5351c80e9aff49f8889c2b2106d47442711b8ae9d9fcc9890ec4f9d92efc2"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "picture", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E7231D65_64E8_4820_B061_EE6DAEEF1D68"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_9BFC5F1E_BA8D_4FBA_B4BA_789B98EAA3CB"
+msgid_sha256 = "aebeddb01ff0f967bfaf7d8a6571a84178cfc6775b3f41ded4faedc4566bb6ea"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C1676152_00B3_4CD9_B511_B53B0CC6D7ED"
+msgid_sha256 = "7a02a21da80987cad3dce252aa7ac4c990b7f6d440e667b3e8103a975ed3f6d0"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_3830CAAE_2946_43C2_80E4_9516727C5D8F"
+msgid_sha256 = "d8cd76d290f533170842c31db9488ab78cb143d8284994468c47d4f7aabb4adf"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_75CFDBA0_7977_4D8D_83EA_EC8A1A05C60C"
+msgid_sha256 = "afcb33692b3f40a02912118169ff6b6cd39da59e7aeca882f5359afecfe5ba73"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "picture", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_3B734C17_99CC_4137_BB42_6B8BAF855DBF"
+msgid_sha256 = "05c9d8162c47342cdd949f97b5090b82435d6e780b4f3459cfe64fa5b89c444d"
+controls = [ 0, 1 ]
+control_kinds = [ "picture", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_1D897423_75F8_4CBA_8EEE_73F1A769259B"
+msgid_sha256 = "bb84947ece744ca477637abeeb762e5463dc206688750aea0d2d292869a5335a"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "picture", "r", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7276F56F_9F4A_4D2A_9FCB_06818CFF7726"
+msgid_sha256 = "1f5e1aa242e6dcd38c9ed84e2d5a5ec631d669d6cf8a28fae21ebb851a113dc8"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_34A67EEB_8B5B_4770_8887_6694255BE613"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_6987DE34_B6C9_4FBB_9AF4_F85F766B6DE6"
+msgid_sha256 = "20a082b7b3a68d92e1d7e832482ccaa0716a2ddecf6026a84ed588be0e38d347"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7AF1FB98_D139_47DF_A905_F1E1924B7ECD"
+msgid_sha256 = "bce659983e41d7ebd28d3ea7484bf880fa6b78d3c2f06895d81739c641e41144"
+controls = [ 0, 1 ]
+control_kinds = [ "picture", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_34C6AA47_2E7E_404C_A494_78D41BE2462A"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_FBC73184_C1EE_461A_9497_0B68331E761D"
+msgid_sha256 = "30d27acab0e2dcc38f2fb8482318dd747b35786831280694a7bc4bf4e48b042d"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0EAF33B3_606E_44A1_A35F_7705EF24A3A6"
+msgid_sha256 = "6f1bb1907cde98cd50d197eefd1b08084e7ca0a839af4e2c1d2e327aff51c44b"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "picture", "w", "w", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0EAF33B3_606E_44A1_A35F_7705EF25A3A6"
+msgid_sha256 = "9ef1c6b8760bc4e569ba761afe98d280d1c4cedca2dd4a0586a243b6a0ac44d8"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "picture", "w", "w", "w", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0EAF33B3_606E_44A1_A35F_7705EF25A3A7"
+msgid_sha256 = "f93e3cce689adf9ce38fe65e7c0133a179c8075517f8695154b7445dfc9600b4"
+controls = [ 0, 1 ]
+control_kinds = [ "picture", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4B9EEB19_1017_482D_BCF0_63C4FD1C7001"
+msgid_sha256 = "c4049fbd6a849f7d20befa9d544483f866ec5b4db34306335bb06fb210f0eb9a"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_66AE7D76_E215_465E_B4DA_FD75B1D49333"
+msgid_sha256 = "896f2d275ab69a10862955ae8737309eb56e12f00809711c327e732ab9505224"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_DF7B8F64_707F_47B2_971C_17EC8FD2F0BB"
+msgid_sha256 = "2712c6c68b5afa4da812aa044cc9b04441058ecb8ff7d56f7917ebc34ebc7adb"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "if", "soul", "w", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0EAF33B3_606E_44A1_A35F_7705EF28A3A7"
+msgid_sha256 = "e8ccb4a2d1ec8f763bc986ca08b4ff2049ff085880a7a3ebd81d6ba417340ebc"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "endif", "picture", "l", "r", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_CD3B6705_55F3_4C3F_BB20_D2526B2CB4F5"
+msgid_sha256 = "5340c5dc36c0b0370d0b4c78b728a533e75bfc2a550a2c960dd7d4b0d4ef15fa"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8AD724D2_B412_43EB_BEE2_AACA767594BA"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_254C381C_7498_4E81_BF74_AA41068DDB17"
+msgid_sha256 = "970bf45fc7e41191e7909a3ea34bf3db674c81b27b2509b1c160fe0fa410a50d"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "endif", "picture", "w", "w", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E86D6A6A_4C99_4CB3_9BD7_5F62309E2D4C"
+msgid_sha256 = "06410214372c71fb781d10704e10df0b679383284ae6bc492a2ad5d76f339d64"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E7CD6E50_BED8_4621_A635_D2398B3DEF00"
+msgid_sha256 = "ab9e21c981083ae82f7103297a3ccc94fc9a26b78ea0cf68d70032492ce0f241"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B6810B9C_4B9E_4462_BB45_4FA5D3B0F4AE"
+msgid_sha256 = "394fb6dc22b782cb72f87ef8d4b2dc8a4d1aec876a2dc82ae3df22d842967ac9"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_DDAC95AD_522F_43A8_8320_F81997DE7EC3"
+msgid_sha256 = "f0341833ad47c0b496de9400258daabbf8ccf7dd284107fced86053671c19a98"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_D3861356_A8D1_44F1_AEC0_2992612A03DD"
+msgid_sha256 = "b347fc1df77939a776a6e31c69c3c1ab6906ece3591959953c22c1ba6bf00f3e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_9F83AB48_9BA5_4527_BE1E_9F02EC88AC57"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_AE8341DA_97A4_45C6_9E74_39CA8DDE4D05"
+msgid_sha256 = "86a50aa8af0a5773ea47e35c314a233998ea775b00d776a625631eb0c1c293ae"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2BFFC11D_49B2_4F26_BB4A_3FAAAD797162"
+msgid_sha256 = "ad1b1d5b5765b776b26b180c91c61c6a1bb08c0f214dd9aa6835a5f3aac6d95d"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2BFFC11D_49B2_4F26_BB4A_3FAAAD797162:2"
+msgid_sha256 = "2f3a13bb4db333c632f9a73afb946ed1708d134a96e2c9385e297da74a8c9341"
+controls = [ 0, 1 ]
+control_kinds = [ "picture", "hr" ]
+source_locale = "it"
+alignment = "needs-review"
+
+[[messages]]
+context = "search:search_9D3D10D3_A66E_47D1_9DE5_89DF40ECBAAB"
+msgid_sha256 = "2600a8fcfa06211965a682d3463e9162958e4acf46e0655edcd2c4da22a93eb8"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ]
+control_kinds = [ "layopt", "trans", "wt", "jump", "s", "eval", "choice_start", "layopt", "position", "backlay", "layopt", "trans", "wt", "picture", "accent", "/accent" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_3CDE4071_C3E8_4823_AB3A_DED2B85C9B41"
+msgid_sha256 = "e56de53a8c43aab45960d1b04a8603e57c2a0028f93427fa5e1503d67c8abcca"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_46C1C852_EE75_47E9_A513_071E25884D66"
+msgid_sha256 = "7a6b7a918a0645d4ff719f0602f2a11b1a9a0b7fb37282c2d7c9d845a15f4695"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_64A79951_79BC_4BEA_84EF_3B256938E20F"
+msgid_sha256 = "881826293ae2f45d6597e8bd026cfb3bc9b4656ab0f9e26a9ba1b45c7cac3655"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_D32FBC19_9B3C_468C_BD6A_3AB2163AAC0D"
+msgid_sha256 = "1641a87ae121fe836bb02e8908d8c72d5acabf7039825387055ab5a6c59360d0"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "picture", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4508D910_AA6C_48EE_9069_CBADF5A4A85D"
+msgid_sha256 = "655dcc947f1f3589f4162e79099af4a29aeb859b7eefc820321afb35aac1050b"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "picture", "accent", "/accent" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E2A916E2_A1B9_4F31_B845_0DF98C33F633"
+msgid_sha256 = "3960ddecc35e8078f81f9baa42fa713bf59c23d7304c56d54dafc23e28f665a1"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B48052DE_D1AD_4DC4_878D_9A23BC293849"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C0BDE01F_D66E_4E93_9911_73AD8C59C235"
+msgid_sha256 = "2e43a640b61b9414e138478258e62078d4ae99a6f2fbce8dcc8566a2fefebfda"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "picture", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8E5CD97C_7144_4B94_9AEE_B2EE94776F74"
+msgid_sha256 = "e42d54f7b2a1d7c2e7c773f88e2dd665356c1de30074e12c2a932240dd13b5c3"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "picture", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_F81AD9B0_6912_4632_ACBA_467731935ECF"
+msgid_sha256 = "339fc32c010abd869463cc7ba02f4b6644df3e63cc1734e2afa57195933d19bd"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_42A28509_1575_46B3_8CA1_5FB1561DE69D"
+msgid_sha256 = "e80d3eed51d5f7d17f8166669f2fe25c5d141cda22dce88ace75185a55980a7b"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_90A4B8ED_497F_440E_8AA6_9152ED179E55"
+msgid_sha256 = "ecc670a20dbb600a2055d0d7d79cf63e186f54d1465e9e34b3fcaddc91c13ea3"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "picture", "w", "w", "i", "/i", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7CEEF015_676E_4D24_B3ED_5433767ABDB1"
+msgid_sha256 = "46a7f278c1ef0c748ad07ecda7ad44ca00e2d5b0bd996362b241932fa8426ed7"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_3E136CED_F1DF_4210_AD40_795C73D76F56"
+msgid_sha256 = "8ee299da67089762e56775324a32489e0cb6393740b461c96b1e298ffeff300f"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "picture", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2B12FAAD_7174_4607_A2E9_517D5555DF01"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_807D6633_A9FE_4E5E_89E1_45667EFE82B0"
+msgid_sha256 = "ba92089cf5a35ef7cbb4ab77159bf6d86ca993d94be68c35e9eb4cf8f30a8ab2"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_DD0272E4_0563_4832_9604_038D8D947AA8"
+msgid_sha256 = "32cfe513e145dfb695e5ea3ef4dee182e7f934614afc199ce99c42a1eaa7bf03"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_303BFB52_AD9B_42B0_9C18_F5C8AB1B5F3A"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4983AF1E_3156_43A7_B055_1DEDD5F9AF89"
+msgid_sha256 = "24447fe3dba286f0c3933b1d23b4c2295cc92f3f8271137fba6365915c45c44e"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_DFD59803_B275_41C5_84C1_C277CF0DDABB"
+msgid_sha256 = "a260d96756762389a3242315a7ac94d54ac31eea1208867f4339afc49cadce91"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_AE7B18E5_43A3_43DC_94CD_EFBC301557F3"
+msgid_sha256 = "4fe11ab9b3aefcd25e5d041d2f942f0277f65bde6abdfa114f97b8c899757bf3"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_DD0272E4_0563_4832_9605_038D8D947AA8"
+msgid_sha256 = "20456c4f0722480893186a5694862e7ebc61c73ac145fc29f9d70a96b104ac0f"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "picture", "r", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_DD0272E4_0563_4832_9606_038D8D947AA8"
+msgid_sha256 = "07bbc694f57be1d680f3117d9aaca838bc80d88529663fba455cbd2a82a74471"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_DD0272E4_0563_4832_9607_038D8D947AA8"
+msgid_sha256 = "b9eb0aa473a6b1986f2f3c3462ddcd39cc522ba3c6bd0bc30a8ee008fc63f589"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:女中は何者なのか"
+msgid_sha256 = "2f3a13bb4db333c632f9a73afb946ed1708d134a96e2c9385e297da74a8c9341"
+controls = [ 0, 1 ]
+control_kinds = [ "picture", "hr" ]
+source_locale = "it"
+alignment = "needs-review"
+
+[[messages]]
+context = "search:search_EF8D5742_183A_48CF_8F26_463C0BC87AF4"
+msgid_sha256 = "5922ada3d5cf40424a0171a2d9a1bf36c0ba87dbf04f41b19fdd2d631d952080"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8 ]
+control_kinds = [ "eval", "choice_start", "layopt", "position", "backlay", "layopt", "trans", "wt", "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_72D02638_557C_435F_9AF0_3F3FF89E95B1"
+msgid_sha256 = "5c0699055b6eea379f46d5e81b808ccc50281d02c70268ad02565da63f2ed6b4"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_028179BD_D2DA_4393_9C27_BD1FB28C2CA2"
+msgid_sha256 = "5097f938384584a79d48079ab9553f2a6890c8c5eeda2af831925b459e5528e6"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E5F479A4_1035_4B22_815B_702BC50A9581"
+msgid_sha256 = "3c47040a3be92073a577f5bf7731fcdc94db54067495c2102a2328c56a89075c"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_D632127D_ABC5_4008_826A_093CD1C818EC"
+msgid_sha256 = "129ad2f57c04bb76cd98ff679f526f1a635750c1813aeafc2f0ed9252e5f638f"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "picture", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7553B8CB_5CB7_4D5A_A1EB_6DDF6B4B940B"
+msgid_sha256 = "d3279b9bf552735331512419c1f2dfc847197f18987d857ddd6b51a77f384a3e"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_F13139FA_3F96_410A_8014_127F6EE6E0CE"
+msgid_sha256 = "5cec4ebe339b436cc80e2a5fa52d37045b2108b158432274f6d702173b8a3a59"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_6E9E4A90_6067_4E52_83FA_2068EA9F0F53"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_6033A9BB_9B89_477D_8B69_30FBD1D30580"
+msgid_sha256 = "5c25657eebbdda22da5a81d461820365f13f5d3e60f19efc2458acb7b17cdbe2"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_92AFCB1B_F68D_4949_998F_7E7A07087DFC"
+msgid_sha256 = "2e534b0a558676e20e17310be8a489fac74d0e4b0ce40637b986f193686ef861"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_84BFD4EF_9540_45FE_99BC_7215946D309F"
+msgid_sha256 = "b79078610648cc153d59d8aab1b1310bce0bf27917553189700dde97c04db836"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_203CEBAC_6527_407D_9293_85D58AB48291"
+msgid_sha256 = "f4462378434cb1a1093249da3d403d8f884ae75c5ba905392da71ef5714c33cf"
+controls = [ 0, 1 ]
+control_kinds = [ "picture", "hr" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_3E3BDEDE_E8AC_401A_B53D_6036821A57EB"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_1B949CA8_D522_4623_BD8F_3D760267A556"
+msgid_sha256 = "f03535f51f14f8881cb537ff4238a0020471dcfb32be8acd4534d61b75ea553b"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 ]
+control_kinds = [ "endif", "layopt", "trans", "wt", "jump", "s", "flash", "wflash", "layopt", "position", "backlay", "layopt", "trans", "wt", "picture", "accent", "/accent", "accent", "/accent", "l", "r", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_D432B483_FA00_4902_9424_9B39B7269E26"
+msgid_sha256 = "a32416d889c5bac500ba9d66069e6eed3c27e1685e602efc77b19c523cfeeab9"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_1E3CF8A2_241A_40E6_9B36_A69BF13B13A3"
+msgid_sha256 = "c1ffd82a8ef5a23bdaa39389b7bbac328520b994f7f28579e1223acb79091f58"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "picture", "r", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_F75F0601_5308_487A_B75E_E71049D49F7E"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_DD84C755_C4B0_46A2_83B7_FE3CE234B0BC"
+msgid_sha256 = "8b83d796cbd4a7be9f354ddc8c6f363e40feadfc6bad455777dcb49b19f5fe00"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A5E85B02_977C_49EF_A71A_D93AD8C81273"
+msgid_sha256 = "edce59f162aeb79f16c6ba40b68348bfb6ccf045cf3db070a07114d59d2c719c"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_CA47B55B_02D1_479C_94DD_878471BBEBCF"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0EA98246_DBF5_45A9_866E_454561A35182"
+msgid_sha256 = "847a1c52383ca6d6d97f0d0b0531cdec9505a6418fb95089f125ca11684b8cdf"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "picture", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B00EC198_F2E8_4E63_9BDA_B23186A8B59A"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_F9E376CC_41CD_416C_8CFE_3781BBEE6FFF"
+msgid_sha256 = "df076684854ed914eb9f85ddd22346d7367c7965202379c9e2387b166fda18c2"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0A14FBFE_D2BD_438C_9D03_40A175C01DDB"
+msgid_sha256 = "f03b001f69e2e0d85baa1bc3af5425414ff5930f4b0bfbe24e300070566bcb43"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "picture", "w", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_3391FC87_D8BE_40B8_94A6_E8A047F8B14F"
+msgid_sha256 = "9b0ea0d7ed738edb319cd81418f8c2039048bf28f4d6761e096617858c5610df"
+controls = [ 0, 1 ]
+control_kinds = [ "picture", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7A7A4125_F85D_46FF_AA03_406964DAF7F1"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_69E47148_4B4D_45EE_AFF7_57A666305511"
+msgid_sha256 = "5e0f442631b008f24741676513bc7a7c82bf3c24b78b34433822e88798be7f0f"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4919CC99_9380_4ECA_8656_EF65B35EBB08"
+msgid_sha256 = "45bff294aa7a54e786ce57eb2da3bc05b8ed055a57c0f9812e589acee64b7e37"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_9A973047_A191_4035_8A83_3B4BBD46C327"
+msgid_sha256 = "2715aeffae0911bf37210a2e0bcd841fe7fd31850f83e3acc63ade5e27c17da1"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0BCB51CE_4F22_4B92_AEB2_E4DB8E654421"
+msgid_sha256 = "eb6c2aeca1be98a169de4d21ff22f8d28b45270881cf7b3223e283bbdc8c5111"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A5CFA7A3_3C89_468F_8D73_1F900CF4573B"
+msgid_sha256 = "ef771262483ca272b9962757005a175c0ed03abf5b780ba61b508ea4ca12d5aa"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_31372206_BFBC_46DB_87A4_8B121113F84B"
+msgid_sha256 = "fce85e87283ded45c5bca28f4e57c03a8b0260feb1a224cfa2c8ae101056870e"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "r", "l", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:手を入れた"
+msgid_sha256 = "913662427d12ec47128f7eb87da21938d3b128efb5ff3da579b38437fd9f8283"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22 ]
+control_kinds = [ "layopt", "trans", "wt", "choice", "r", "r", "r", "r", "r", "if", "else", "endif", "r", "if", "else", "endif", "wait", "locate", "button", "locate", "button", "autosave", "s" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4B971C77_124B_4238_9F98_8E425CAD0C36"
+msgid_sha256 = "3878191765d3a2d053a42dc59a38a12e80488b7e2258ec1285c5ce0903c80d05"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+control_kinds = [ "choice_start", "layopt", "position", "backlay", "layopt", "trans", "wt", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C00F1851_EFF5_4138_B634_66A45445A8AD"
+msgid_sha256 = "89c918b702c8f9c46804efcc36f36700b4f968ca9aca40eb5e4ff38d6d4401ea"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "r", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_F3B6EF1A_723A_448D_BC66_59296E195548"
+msgid_sha256 = "bcae6b4cdf1591a6b30425a8dc683f6ea063570ffa4708aa475839437d28a724"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "picture", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_09611211_42D9_41F7_BD9B_F0DD4C441760"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B9E9A75D_4BEF_47BF_86BC_D2585D844C4A"
+msgid_sha256 = "b7dc66fa056db6f8d5045fe971fc9f40f84d3ddb037d07778bc3402dec88adb6"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2F3CDDA2_8B48_41FF_B14E_396377A5F9F5"
+msgid_sha256 = "df8a66f0a11da21c21fcdd51ef53c8e90624fb2fa7600a1813051bb095271f71"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif", "if", "else", "endif", "l", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B8B36C23_D3A3_4FE8_ADEA_9BBCCD8F9A5E"
+msgid_sha256 = "ebc5cdc0eb39c1754ca9700efdd78ba55f0abf928338c5fb7bc675ef73e4a5d3"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "l", "r", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7BEDCB45_4862_40CC_A8C5_8815027F713E"
+msgid_sha256 = "40c1c17198e7cebb25b95760f1f16c310fe9b11160c580291f2fb6bf14f58a9e"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B2CB9786_AE35_41FC_A83F_6431A529DC7F"
+msgid_sha256 = "7b75338b76ab5d7f80330fb097955d4a01a4b0d1c2335a984a13b1fc32026a29"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ]
+control_kinds = [ "eval", "image", "trans", "wt", "image", "trans", "wt", "wait", "image", "image", "trans", "wt", "freeimage", "freeimage", "picture", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_9FC47079_BD10_40C8_A155_7E6C3710E38F"
+msgid_sha256 = "5578ae6e0841868d28bf0fe3dc5aae3471487236d04b26e31ad7451fcc3f7b1a"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "picture", "i", "/i", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0DA984F3_C14A_4809_9169_8FF61096BAEE"
+msgid_sha256 = "4d83632bcf4d26eaf46bfd4b2ab5d6e6cd0a9e7d069e6af4a1733d0bbef8406c"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_64D6A2E0_2125_4340_B24C_BE216F30278E"
+msgid_sha256 = "f913ec1303a187f1ac3529d203e018e256d3f1e8d8683a1f9fc6f56797016192"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "picture", "w", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_6C3438B6_0623_44A3_A741_979054DE67F5"
+msgid_sha256 = "fd96d2c7fd51897f97917bfc2f4cab654f7c6e924120e708ea2d8ebf20eb6372"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "picture", "r", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_F46F1A66_92D9_4643_A86F_10C9B0A4902F"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_3B4D9935_F4AF_4AB8_83BE_B02ACD80C500"
+msgid_sha256 = "c526ea607af935d7f35ea472851990dbc59c036146ffe88f47b146316ae8ffa3"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "picture", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7F29B33A_A7FC_42F1_9F01_A210B47A119E"
+msgid_sha256 = "7647c5ee7e9a1a148c11af84a975801e38dd4597a4af8fd84c095b1ba9d177ba"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_83735450_397E_4EA7_9730_405CF64A2276"
+msgid_sha256 = "91b7c39511a28311d05e69164c4cb5150959df8bfca71f7b29f61236c59ac023"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_73798D44_9397_41B8_833D_9B524346B233"
+msgid_sha256 = "ecfe2a586e371539bbdf577ab23d7b8e4424666c0d79e0aeff9a7dcf4e295ff4"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2CCF6544_8B76_4FC2_964D_78366BF5E037"
+msgid_sha256 = "d15f24377a23a0724b0ecf10cfdb05906cd8160cbfa9a3c2c9563915c9cf7227"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "image", "image", "trans", "wt", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_858A7969_8B66_4929_9865_3CA937B14224"
+msgid_sha256 = "4a7ab1bdd01551d1ecee3cda60639ce64d58ca0a3fe7c59e2c3c1f5a24669b9a"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "l", "r", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7DFBDFB4_BEE7_4D9F_91F0_35A04C0A39F1"
+msgid_sha256 = "fe43a9e6d92909d0e09b08da2d0afa42adb33bd82e3acb6b6e3e0dcc19836b63"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "jinobun", "r", "l", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_BBA5FBDD_A277_4A69_8FAA_1329D5C1749A"
+msgid_sha256 = "ba66e9500c82475e35f6d4e99102777acda9b3db24195c84cab29ea5f456a754"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ]
+control_kinds = [ "jump", "s", "choice_start", "layopt", "position", "backlay", "layopt", "trans", "wt", "jinobun", "if", "else", "endif", "r", "l", "if", "else", "endif", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_783C3C02_F838_4B77_BE49_1A1129FB518D"
+msgid_sha256 = "553e644c5222d83991cc8023f56f06560fd3715577418b97b40d9b6d9f8d12af"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "picture", "w", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C1956F4A_6E4A_49A1_95EF_25D9DFFF0907"
+msgid_sha256 = "edc1a9564cc8e44c192eabef5a6afff09e5eb9eb8611cfd349ed105690a593f0"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8F10CBB0_0A31_4DE7_B71E_DA8745AE1FCF"
+msgid_sha256 = "a453d85e11f065bdd31355d397d09047f8ef727148cb68444acd072d0bd3a140"
+controls = [ 0, 1 ]
+control_kinds = [ "picture", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_6B37C2A6_5FA5_4B94_82DB_FA16FBEBC15B"
+msgid_sha256 = "8e57401bd2cf8076fd4d37c4c2f1c768b051de0ae42267ae696f6baaa477aa27"
+controls = [ 0 ]
+control_kinds = [ "picture" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_556C6AB7_3991_47BA_8BEE_F1474DD649E4"
+msgid_sha256 = "762bff0dfc4e76a1dd456ecb046ee0b2d88d1bec86618a1db34c8e588e3baa99"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "image", "image", "trans", "wt", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_15190D8F_EC1F_4BBE_AE03_373BA6B95DF2"
+msgid_sha256 = "5842383a2274f3de59fdea5ddb41f431ab715ab425f05ab7581f192b89f2d80a"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:scenario3_CDCB7AF2_DE04_4487_B92D_67F60BCCB173"
+msgid_sha256 = "0e535ce424dd4845d45f14189561ab2b249624448ec72b36d1dad4939207c7aa"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
+control_kinds = [ "jump", "s", "endif", "title", "jinobun", "if", "else", "endif", "if", "r", "else", "endif", "hr" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:エントランスに行く"
+msgid_sha256 = "240cfb923a852868136f36b6f8a19b9244375258d5b302922cb3ab7020708d5d"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69 ]
+control_kinds = [ "layopt", "trans", "wt", "choice", "r", "r", "if", "endif", "r", "if", "endif", "r", "if", "endif", "r", "if", "endif", "r", "if", "endif", "r", "if", "endif", "r", "if", "endif", "r", "if", "endif", "r", "wait", "if", "locate", "button", "endif", "if", "locate", "button", "endif", "if", "locate", "button", "endif", "if", "locate", "button", "endif", "if", "locate", "button", "endif", "if", "locate", "button", "endif", "if", "locate", "button", "endif", "if", "locate", "button", "endif", "if", "locate", "button", "endif", "locate", "button", "s" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0641B97A_7F5D_4EFE_ACB5_2FD0C4D9A424"
+msgid_sha256 = "dd8499429740b086006bb9c4c331ffe1cf9e5dc4b3a0ca55b2286ad0c51b93bc"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ]
+control_kinds = [ "eval", "choice_start", "image", "trans", "wt", "mytrans_normal_in", "layopt", "position", "backlay", "layopt", "trans", "wt", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_43DF377E_93FB_4946_BB4C_7FE01E7F9136"
+msgid_sha256 = "200b40e282c8772c313e3921e008b095f8419912bc83a8cceeb402de39d09b56"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "jinobun", "l", "r", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8662708A_785E_4AFE_B9B3_F382E757AA8C"
+msgid_sha256 = "cba22235c5e9de51757be2d4970f4f6e003d4a480451a4835cbc6783b00976d1"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E8479F80_3665_4DA0_8968_E2CAC697B637"
+msgid_sha256 = "ed583e360d003720d9b3ced995851a2aff63cddf707752cf7509e162016d5564"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_58282FD8_8909_4CF8_9298_72C0177BD930"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A8B7497A_4DA1_4A21_8B17_FCC1E9774D21"
+msgid_sha256 = "d15740064c2a667c3340ed263d9ed808dee231a0a126ea3c9d1838ddd2311322"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "monolog", "sm", "c", "/sm" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A8B7497A_4DA1_4A21_8B17_FCC1E9774D20"
+msgid_sha256 = "10f28c6760dc7990576e0c4ba01a526d186a294fb7b3716c994abc6be08689c5"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "monolog", "sm", "c", "/sm" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A8B7497A_4DA1_4A21_8B17_FCC1E9774D22"
+msgid_sha256 = "1d2996d8c161024f9c6a1e82e13de5ff5357768fea9e758b9a5fd3f20afabcf6"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_CCA7653D_0124_449B_877A_A8114CE6CA83"
+msgid_sha256 = "3977b5485769f9d4ff8db2945531e57750e8041916f971d4cdcb120d08cfbb5e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_069D2EE3_EE9C_4C7C_B4F1_1010E832CC5B"
+msgid_sha256 = "6128069b126674f7d92cc47e7f7cb89f012e75979c32e11ece0a4fd824c91f42"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_359F9969_CF72_42F6_B88D_78083A0D77E3"
+msgid_sha256 = "d399dc1071d2d51c8c5c542ec30da6b5f7632fb4889aeefc0f7a1b54bc710628"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_1F7A8018_C01B_4DC7_93E1_C2657F351933"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2D6C68CE_7325_45A5_8BAA_0BE1243EF95B"
+msgid_sha256 = "98a033c3dd339b9d1c6e8323fcd2ecdca6cd9ee66fdfa4f1d827a8fb423156cd"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2095A768_61DA_420E_9078_EA6D6007B31E"
+msgid_sha256 = "f915e20b499aa0e87450e1f6cc5e0b4629fd689a9d8a5741c6a85ff5762c6763"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_3BF2B6D8_9B01_49D7_9F42_2464BDE75031"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_80B6279F_7B55_4A92_8249_3FCDAF0D9841"
+msgid_sha256 = "e1fd3c533e6cd2efc69c0cb66d5a0af3e5f99f454052b45746179fb494097ab5"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif", "if", "else", "endif", "hr" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2443B644_17D9_4497_BD77_8B1E51E1B861"
+msgid_sha256 = "2d0b406da8370363e2f9cb41f022d30319bf8c9c1f62a7f885963e23380c01a7"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ]
+control_kinds = [ "layopt", "trans", "wt", "jump", "s", "eval", "choice_start", "image", "trans", "wt", "mytrans_normal_in", "layopt", "position", "backlay", "layopt", "trans", "wt", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_87818A02_D2F5_4EE8_B921_E52678DCB9B6"
+msgid_sha256 = "f5e77efa59a01aaec6b0fda033262dd21d2306bda7c0ab4af5b13606646c9b9c"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_05B8B180_E969_405C_AB6D_78775D3E73EE"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_83D78450_8CAE_4AC6_8F20_CF2C1417531B"
+msgid_sha256 = "2b641e66508a56394c2970ab5280528ecf90f9f594954d6decb938e74d7f305b"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2E5ABBB2_6F8B_4A5B_91D9_540EB127C584"
+msgid_sha256 = "6d783698d9da0292a927442e271eae5dcd7f2d906af644617fc0fab835f7fdf2"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif", "if", "else", "endif", "r", "l", "if", "else", "endif", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7E456C7_3A24_42D0_B6EF_3FEA2D6189C4"
+msgid_sha256 = "c79f1f2359076357b3f6503cc2960eead5cb26395d96f9c9f07cc8feb6d1ee4e"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "jinobun", "i", "w", "w", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_34F3C7F9_9B4C_4067_9D57_580FC375D3A2"
+msgid_sha256 = "f483d385c554185fde3b715aeb3027536aaa469990b2fa9d07b021eecc3f425d"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_160CFB89_D455_47EF_98F7_154F2F9E873A"
+msgid_sha256 = "e40f144604d7132db4484af1a6ca8742b66be0839e7802ead8aba4e102f3dec2"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "mytrans_normal_out", "wait", "unknown" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_160CFB89_D455_47EF_98F7_154F2F9E972A"
+msgid_sha256 = "b564f91642e128b985efe61f860397b190642497a553899be85609cfd2b15ad1"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "unknown", "w", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_160CFB89_D455_47EF_98F7_154F3F9E872A"
+msgid_sha256 = "026be9575bc083de1e2485a65f1a46a867b7e6600e7c7e0b4e676ebda07b796b"
+controls = [ 0, 1 ]
+control_kinds = [ "wait", "unknown" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_260CFB89_D455_47EF_98F7_154F2F9E872A"
+msgid_sha256 = "edbb0b439c04272ccb6a2d7e9c4adf9088c0cdc0d6fa239bda9ed287e6c2c3c0"
+controls = [ 0, 1 ]
+control_kinds = [ "unknown", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_160CFB89_D455_47EF_98F7_154F1F9E872A"
+msgid_sha256 = "4c0a2ea3765e8801bcb536e1bf2226483232ffcbef24aba28b0b9662cc3c8bab"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "unknown", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_160CFB89_D465_47EF_98F7_154F2F9E872A"
+msgid_sha256 = "d1629cb6fc7fe73c646df207f0f0c7c43e268d7d85aa8e2689a6fce822c695b5"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+control_kinds = [ "unknown", "w", "w", "w", "r", "w", "w", "r", "w", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_160CFB89_D455_47EF_98F7_154F2F9E872A"
+msgid_sha256 = "3efe1b5b9cba5232ed83037cce4dbce8edb0f0927659372bc8dcb6e8504f90a8"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "wait", "mytrans_normal_in", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_D79A8990_C357_4929_85DF_DDBCE84E8A1A"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_23BA17B1_F91D_472B_A504_E391B6792174"
+msgid_sha256 = "5d3fa74939defe00ec4113f857bc14b4710b2ac889dd7981da75b1c7c2b41705"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif", "l", "r", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_414FFD51_29D6_4C82_8540_4A9955941585"
+msgid_sha256 = "887975df7d7ac67a9092b41b9e7b631fcd1755266a0e6492d9faa53f99e89aba"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "r", "l", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_D5B8709E_8923_4808_9B5F_9CC9FAE4B155"
+msgid_sha256 = "0a295d0330cafe9735e8e99c23f34a481d3086aefb98b4588bd7ba36d3bd54bc"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "r", "l", "if", "else", "endif", "if", "else", "endif", "hr" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_1B958237_B74B_47A9_A85C_CCEDEC800C8C"
+msgid_sha256 = "77127192a9e1bde3608b1823beebefc377c44e232a7a989969826f855f4344a1"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ]
+control_kinds = [ "layopt", "trans", "wt", "jump", "s", "eval", "choice_start", "image", "trans", "wt", "mytrans_normal_in", "layopt", "position", "backlay", "layopt", "trans", "wt", "jinobun", "r", "l", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_F83D8822_37DD_4BB0_A7E2_18E8744256FC"
+msgid_sha256 = "d9ed1140b8285b88246b2a1609865bf72e60c2ca10840f5967030dd5a1e6e623"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "playse", "jinobun", "w", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_44252F91_9474_44F7_9D6D_D73E813417F9"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C9B3DF37_6DD5_4B67_8116_63402D1C0F20"
+msgid_sha256 = "a1fb15f65e7406a51edc3b02143999653c774d1e14dcd5b6a0875184cdb02d0c"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "endif", "playse", "jinobun", "w", "l", "w", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C3C63C4C_FD06_4DDE_892C_B578B58E4261"
+msgid_sha256 = "957eb7f322b04f136bbaa325c877120220e6a4eda39d2f3f8bbc1ce9789bdc54"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_F90AA2EA_FA7E_4681_A1A9_8B43CDBE33EF"
+msgid_sha256 = "a8c3ec8dbceb651fc9a2132b3c2e457e9f33a7e96f2f71f299e51d41bca99718"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7BEC7AAA_72F2_4686_BE03_938B1C82D9A8"
+msgid_sha256 = "b14e663b9ef209cad5da164ba78ed4b3f07f913761ae94a784dc4305842b1a86"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_60CF7062_E7FC_4750_B5D6_CC8B7808A424"
+msgid_sha256 = "14f661f50c2eecaa81466c487630ec01b2eb4aba9ac98c2d44276f844b3ccf80"
+controls = [ 0, 1 ]
+control_kinds = [ "jinobun", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C266B608_E554_49D1_A7C6_DDFB614C7F59"
+msgid_sha256 = "f3310fff30705f741781d79070f76396fb3357b2f96972600fa13cfec198e13d"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "if", "else", "r", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_F6458A02_3DA5_4237_A769_F3B95FD779C3"
+msgid_sha256 = "ab9e21c981083ae82f7103297a3ccc94fc9a26b78ea0cf68d70032492ce0f241"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A93A77AA_D0C3_4E53_9EC1_8E4B6C3F9C6E"
+msgid_sha256 = "4f9d215b4d14edec499b68e74c61cebd591f7ba21124367e7208c4de0c690dd3"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif", "if", "else", "endif", "l", "r", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_9A997471_231E_48A1_ADE3_1F48E35FF898"
+msgid_sha256 = "20e75a007a2e0d90a0b5fd4c44e15d16b9a038c400d384a35e14ad297b6ee03e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_BF93D76F_4263_427B_BF74_65C113A262B6"
+msgid_sha256 = "9c2b37ffcad3dda8d5b55cd2df6dbdfedc4226a26107cf63d84c16e1b601289b"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "jinobun", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_9FFE6D81_9F16_4628_8D34_EDE1ABFAD962"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4E8C08AA_8CDD_4A23_97A9_23A5448D27C5"
+msgid_sha256 = "facfcc3b345435a6ec84d6500eb4246693ddecd1455bed049c6d3273d189ad46"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0FE82AB3_FD68_4CE2_8DC2_0F8573AC0A22"
+msgid_sha256 = "adb9cf0c84c6d3b417ada2557d701636e6db9f6b86b34f8f0436786ce5f5e79f"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif", "r", "l", "playse" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_867236CA_8C10_4601_A96C_187464730264"
+msgid_sha256 = "636858d70879abdc61ef8923b60a2c80f23aa2d1a2f3ba3644e85a57c50ae9db"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "char_erase", "char_clear_all", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_D841841C_1912_493E_9325_3D134D2E53F5"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_D0063A7B_295D_4C4A_BD0A_979A0D37AE4A"
+msgid_sha256 = "aabdb73b8b87da4abeef79047aaceefed6558a9af81c1e93871397009c8f3914"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "endif", "playse", "jinobun", "r", "if", "else", "endif", "hr" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8EB32721_55E9_4925_8F82_2E76D7B82092"
+msgid_sha256 = "465ace688a752908b29a2498d05b01d8f335174340b5b5005f38f2a3aaf1016f"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18 ]
+control_kinds = [ "playse", "layopt", "trans", "wt", "jump", "s", "eval", "choice_start", "image", "trans", "wt", "mytrans_normal_in", "layopt", "position", "backlay", "layopt", "trans", "wt", "nellievoice" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B92677B1_A0AF_4BA6_A0C8_B7EDD8AC4165"
+msgid_sha256 = "27169c02cf936f79c0be3345f561e8553436316c4cabcdfc7ead25c4f90f16f7"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "mellvoice", "w", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_04D7B33E_6572_4EF4_9809_6F475660D19E"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_52A0FCBD_5744_4F53_B621_9C321390AE7E"
+msgid_sha256 = "a25bd2a3f23f6c9e60dc0a8bbd6bda8fc8d38ee4cd269a8e4cd9de03ab72f481"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8376CF13_C57F_404E_A142_E1013283A8C0"
+msgid_sha256 = "30d6c0ccbe3ba5baa98e0af553d1309e3a3b414861d39c485b7f0089ead055f5"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4014AC0C_E9D9_4BCA_819F_C32D532E895B"
+msgid_sha256 = "e11828022b8bedc5bc20195f62b655a32245bf3ec1624042bd708c715994e1e0"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_62CEB48A_6693_40FF_AD31_CFED7F44E4F3"
+msgid_sha256 = "bc4186406aa3d4e1009e15fdd357815c83f6cb8b0029fb67494893dc94396b15"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A570F934_DE12_499D_9FC4_84F02E8F49D0"
+msgid_sha256 = "ec3381252fb82c689ad5dd0ae69d84945dd7e6a48bfedf3db363e9906f9845e9"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "jinobun", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_855A271D_3E5B_4515_B042_8D2FC59410DE"
+msgid_sha256 = "3920d0f3e4e9bd7e3d5c915298e59bb67b35036ffd88cac729884506516ee883"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "image", "image", "trans", "wt", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_3EDD529E_97D5_43CA_AAC4_445F8F2C15E1"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_5E06A740_8DFD_46A3_B818_4643056DEC1C"
+msgid_sha256 = "6b0f7a2aab9102dc6fe0c8421ec54884d4fa7ddbde983381139b0f1db51894b9"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_34D24377_FAE8_4736_A05D_A3A5F0758AB5"
+msgid_sha256 = "02d6aa0a0d1e15fdcc39d44c605122e9a035ded38e947c6e889759a0efb877f2"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8 ]
+control_kinds = [ "jinobun", "l", "r", "if", "else", "endif", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B0DC21E2_77F4_4C57_8093_9D16E257AE79"
+msgid_sha256 = "20e75a007a2e0d90a0b5fd4c44e15d16b9a038c400d384a35e14ad297b6ee03e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C769C14D_ACF5_48BB_BD2C_73174E339576"
+msgid_sha256 = "833d5c35b9ebdef76ee48907b6b29e38f2b0af6908d39d174da699a1edc1ded0"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B925BB90_DE6F_4237_A8F4_5481DFF96E35"
+msgid_sha256 = "13ebdff056ece4062d246d16e7cee68b1bdc336bb388da4b411c2a8d32013af6"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_240533F7_A793_4A0D_899E_B07564F49098"
+msgid_sha256 = "6c9eb32fad9ac1d268572bc44eaf5d16a89ed1311703decdba8503f0c6b83720"
+controls = [ 0 ]
+control_kinds = [ "unknown" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0AB52B3A_A4B1_4F2B_94D3_94587DEF71A4"
+msgid_sha256 = "542131cc57a1fba221a4f4a6174634b52e5ffc2fd5e12c1f3a793fc92c6e476f"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "unknown", "w", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_13824D01_82A6_4167_AFA7_F9478A1D6256"
+msgid_sha256 = "73e5c74133642db5e0e7f6deb7ff12ebe3a023908bc43cd5b9ce4615b58a91a3"
+controls = [ 0 ]
+control_kinds = [ "unknown" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4B271AD5_8F03_4A44_9C33_8F653DB928DF"
+msgid_sha256 = "f21c23fc736017f1194d965c60400aef7fb176d11efa074212cf5908103ba4aa"
+controls = [ 0 ]
+control_kinds = [ "unknown" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_44405085_00A3_462A_A0EB_B598FC4F6119"
+msgid_sha256 = "239dd3bf478f653a55a521c1ff1291b98d78de8970dd4373406aede1a61b7b00"
+controls = [ 0 ]
+control_kinds = [ "unknown" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_F8945377_9E35_436E_802C_DA49C9A6A17B"
+msgid_sha256 = "7ce834655fc46fa78608e391e639d951a3b66139fd54c2391e89a92cc9ef6241"
+controls = [ 0 ]
+control_kinds = [ "unknown" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_F624C7B7_2226_40AB_875E_CB231E133329"
+msgid_sha256 = "d83b360e6f590eac181eadf9e54352261fe76ff1f867d9564d2f8687870cd383"
+controls = [ 0, 1 ]
+control_kinds = [ "unknown", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_609696DB_1B29_4380_A6F7_489D67A2E0E8"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "unknown" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B8FF9A89_B257_4802_9999_BBEB806A4235"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B47289FB_2D58_47AE_8010_1FD931F46489"
+msgid_sha256 = "5889e9e60599a4d1754f9d950bca38c392f3a582935198b8fe0b5290f8436414"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7983C225_F876_4308_9EE8_A68E22FE269B"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_DD937317_F3E6_4DE3_A140_C556EF55487C"
+msgid_sha256 = "737d0272743963c8dbf6e39b683c8097f36eb4ce67460a9331d05494ee2ed795"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_D8849A12_EEF0_4B44_916B_DAA4AAAF97E3"
+msgid_sha256 = "98b10d9a25fbe1ac50c122a184c3ec844e590964169a3a4ed73fd698dd87b09d"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif", "if", "else", "r", "endif", "if", "else", "endif", "l", "if", "else", "r", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7FB1D45E_4BDF_4FEE_9D4C_04AD06006490"
+msgid_sha256 = "90f06c877b96ebcaf9ab78494ffab9c9519f1290ad01ef31d36a77d35dd80ab0"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "char_erase", "char_clear_all", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E939B3A2_5382_4F29_A994_D906B313591B"
+msgid_sha256 = "59574c8c1221991683c4e019c632b8209511a8b3c3b46f86221cb10f66fc78d2"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "hr" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B6B4A22D_338A_4D21_93CB_4EFA53E04941"
+msgid_sha256 = "9b63715d1c21f1ea239f5adddeef76b1848cf87dba7f8c8816535a16167a2abc"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 ]
+control_kinds = [ "layopt", "trans", "wt", "jump", "s", "eval", "choice_start", "image", "trans", "wt", "mytrans_normal_in", "layopt", "position", "backlay", "layopt", "trans", "wt", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_886E3A24_A875_4493_82C4_FB6C0D077785"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7AB6359F_E073_41B4_8503_12FB7F4A19A4"
+msgid_sha256 = "07afb68c06810e9488dfc6ba87f481602607128069b5d1d05f71c112cb411d6f"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2B2B8F87_DA6A_4352_AB42_91791ADBD63C"
+msgid_sha256 = "bf12a73ebf209cbbc0f4e13dda3aac6c35840123f1813c6e8a64ad144dceca0d"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_31C5C7D2_0B16_4340_82F1_8E13A06BDB18"
+msgid_sha256 = "442d5a90e167484992084ad6d833681f9dca95e190e1ba40a951e0c9fb78edb6"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4F7C2206_EA04_48BC_A45F_23D79CB1E3E0"
+msgid_sha256 = "1329b6cd5ae5bc4e1f103ef9109fa56ddd724affe83d234c317b65845f219b06"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_356D7932_2D41_440A_8D62_0C4807C4CF02"
+msgid_sha256 = "45ee468769efb3e0285306717b94425107f989266d9f5267ea6ba636639ba06c"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ]
+control_kinds = [ "layopt", "trans", "wt", "playse", "mytrans_normal_out2", "mytrans_normal_in2", "quakex", "wait", "mytrans_normal_out2", "layopt", "trans", "wt", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_068872F3_357C_4DDA_A5E4_0F4F14A73A26"
+msgid_sha256 = "c71325908a7a017641241f7491d6407998af431932d6f895d464547b897b56dc"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "l", "r", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_5570A078_8EB4_4A0D_8F79_53E366940B52"
+msgid_sha256 = "124fa1e44bd8187be05bdda47d1965ed5313c23ad92400d88114f3fa2cd8132f"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "mytrans_normal_in", "char_setopt", "過去ユキマサ", "jinobun", "if", "else", "endif", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_3D668142_3E55_4DD3_8380_D3E0DB8F204B"
+msgid_sha256 = "fccec65f74d3dd5445b79d6722223dcd529915d0dc9ccf3d139d72f45c8988d4"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "l", "r", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2D778870_5EB2_48EB_8592_C520F2EE49F7"
+msgid_sha256 = "20e75a007a2e0d90a0b5fd4c44e15d16b9a038c400d384a35e14ad297b6ee03e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_75E43BFA_5E8E_41C5_BFA0_AA46E7FFF1F6"
+msgid_sha256 = "08fccbe5831fbd29521e1d77dcee199d328c054ccb03b8ad35eb0e67a2085f57"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "playse", "unknown" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_98ACF7B2_594C_404D_9545_CE96374B29DE"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_AC8EDF5F_5725_4C47_8575_454DD9748799"
+msgid_sha256 = "f21318bf671acb81fd0181f9ff0968277916752bbd13f32c46b2626349e1bd39"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A39D66F7_F3BB_4556_87B9_DE5CFEE1F28E"
+msgid_sha256 = "22aaec4c5908fab386515b6e2c78b568d2e90e5f8baf7d6e8014da85f0712fb7"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_FE9F0B65_3CDC_4B0B_9583_77B1B114965D"
+msgid_sha256 = "b6c416d267e0a9e1a5f5e922b63d5c24bcd153d8ec101b8bbf783b49699aec7f"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_BA00740F_A268_42ED_B86D_D9C426207DCC"
+msgid_sha256 = "8093f74926983b494653d986b09e5b90aa092a6a971da357ed0ea82b5f53cbfc"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "endif", "jinobun", "r", "if", "else", "endif", "hr" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E8A24510_034C_43AC_81BE_E92860408EDC"
+msgid_sha256 = "7f3ce2aa3f965de46add253afa692bb41dc4033a0793fb24b0196cbfdd5c679a"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 ]
+control_kinds = [ "char_erase", "char_clear_all", "layopt", "trans", "wt", "jump", "s", "eval", "choice_start", "image", "trans", "wt", "mytrans_normal_in", "layopt", "position", "backlay", "layopt", "trans", "wt", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E75CFDAF_48D7_49D5_9E19_84469F91030E"
+msgid_sha256 = "26b7d931a972c3ab774f280a3de18831ab52949b7ef06ddfb68b3ba2a79a0d07"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8AC0F6F8_15FC_43BF_976A_547C019077D7"
+msgid_sha256 = "22387aef6b8666f577288679ffd651190a5ddbc38e7b70313fef3a273140d87d"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "quake", "playse", "wait", "playse", "wait", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B644FF24_D3C8_4B8F_962E_93D0C599E98C"
+msgid_sha256 = "be95df21037efeba2e407c8994c18d2c86409d2b1b6f86b7b0c37b124e608c2f"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_5326D767_3DA5_44E0_9DA4_0CF06093F96B"
+msgid_sha256 = "87564823a9baec2cb7fc5a9423e837e52cc7120a5fc39cdf6e0c6395c25941b8"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif", "l", "r", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_735EC5BE_E302_411E_B351_432F11E9F213"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_1FEC0688_4837_4DFE_B927_466685E61C88"
+msgid_sha256 = "cd532f8df553abd7d30a550929344db24d90afb8cb8a712d7ec0034251586784"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+control_kinds = [ "endif", "jinobun", "r", "if", "else", "endif", "r", "l", "w", "w", "w", "w", "w", "w", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_61C0EF1C_D226_4F07_8703_939BD7AC2C21"
+msgid_sha256 = "3e6bb4a640cb01b0626f8282e6d9d6af54d1391ed2ff7e6e2bdb35e57cc329b0"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "quake", "playse", "wait", "playse", "wait", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_FC5016AE_AA21_46A8_B9BE_F216C35592F0"
+msgid_sha256 = "8cf228d3044091ced768eb3e2b07342616f3476cacd3cd875d9dc0a6d9c7121e"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+control_kinds = [ "endif", "jinobun", "l", "r", "if", "else", "endif", "if", "else", "r", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B61730FA_1635_4C6F_8854_CB840C56E5F2"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7BB617CE_4DAB_4C88_98FE_432C0AC0DD4E"
+msgid_sha256 = "a1aa64ce87308768ea6dd30fab0f63a0b6b5cdb06e39d00be9545a654c85011f"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif", "hr" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8B493DCD_3DDE_465F_B54C_1DD5E5ED2FD2"
+msgid_sha256 = "05f68dd74da7bf01bd070d2e168cae2698dd67e3d338282550cf8341033804bf"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ]
+control_kinds = [ "layopt", "trans", "wt", "jump", "s", "eval", "choice_start", "image", "trans", "wt", "mytrans_normal_in", "layopt", "position", "backlay", "layopt", "trans", "wt", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_3D53E821_30F3_42EE_B045_BA414AAE423A"
+msgid_sha256 = "c60a81af8235e58d4f4050535e52774badb6a7769a86a961240eb088561acc52"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_43002B89_789E_4106_9881_AAF84477BDD3"
+msgid_sha256 = "ad81a15c7be496c79af12da32a39ec59598fee3ca0e7afbd806cf4a900c626bb"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2E80BA31_A98C_45AE_96F6_1F64C37237CC"
+msgid_sha256 = "40def503ed893dcca8dcfee78ad42fafde89951597e6c05770394e86acb1ef1c"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C9DE22E9_F80E_4561_A265_3DAE76FA8442"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0BCCE98E_29F1_457F_B3F3_FB6364054348"
+msgid_sha256 = "3491f132c395f4dd336a93a396927152d3baabdb0e8b0d2caa0547e3801f969a"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "if", "soul", "accent", "/accent" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_1B659976_9634_45FE_8ECB_D684C6AA2E76"
+msgid_sha256 = "e92d4453d7ff35e8805f863657ec5c91e3abe370b787147c85a1f1ee17706fd8"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_AC677E8D_620C_4EA7_8E00_1F9FC6F592D1"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_43465481_1217_4B3C_BCCC_D0E308AF2CE0"
+msgid_sha256 = "e4b334c4ed661d80a52850dcc7bafc31928ae8d6bb2f6f6809ce821c88a1088b"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_EDE25E4F_F300_4294_9CF0_619B2A34ED12"
+msgid_sha256 = "8a988df631d4850045273e1f346cf7b3f4774cc5746950f80cdfbcece0628772"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A0C1E0C8_8BCF_4FAB_87E1_B736837957FB"
+msgid_sha256 = "99cec36ba52497c02372f47eed8ef3c2fef3cfb593ba0c0c3c67b0fa013d6404"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4CA0E94D_56FF_427B_B9F2_D7377A28F7B0"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_6E065EB3_9E4B_4DEE_8054_E52D97C2A429"
+msgid_sha256 = "58c72f52e2d94d33127b1d99a6046b2b6df8926c60116b10d369e093baea01bd"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E4CA74EC_9E0B_489B_BA16_94748FDA7558"
+msgid_sha256 = "a6ca69c89ab5e180035347dff272963bc363517e763a0c5459625b2c509e548d"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "jinobun", "r", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B61750BD_3A1E_4E93_BC16_5A4290C43CE9"
+msgid_sha256 = "3c7146ea32404e7741ad87fc32cd07c548387158cbc799bb38926fb8452e3b26"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "hr" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0D2F587C_097B_4E05_8F29_1E3CB805D97A"
+msgid_sha256 = "0eee4fb7b3b722957337b168df587ae7b4362247935fc52a88fbaed9e418b34f"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18 ]
+control_kinds = [ "layopt", "trans", "wt", "jump", "s", "eval", "if", "choice_start", "image", "trans", "wt", "layopt", "position", "backlay", "layopt", "trans", "wt", "playse", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4A0CA568_3019_45CF_947A_1B02774B5AA4"
+msgid_sha256 = "a9900aeb36ba2f45fab517a73b2ed631f044550aabcb07d22895ba0da597bb20"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "if", "else", "endif", "hr" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B83BCD01_8750_4691_81AD_CEE27C4B6989"
+msgid_sha256 = "ea5d0e5bdc0cdeb693e6728f37b45eb1c975b6809fbcdda540e7e432ccfd1a49"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28 ]
+control_kinds = [ "layopt", "trans", "wt", "jump", "endif", "if", "layopt", "trans", "wt", "history", "qmenu", "delay", "image", "trans", "wt", "layopt", "position", "backlay", "layopt", "trans", "wt", "image", "trans", "wt", "wait", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_6BF3338F_1F1E_4F09_A3EF_46DA80229606"
+msgid_sha256 = "be888d33543aeef36ebeb5fec5ad1843e3bdc3902450081dfce8101b315e1046"
+controls = [ 0, 1 ]
+control_kinds = [ "playse", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_EF56B413_7029_40E1_A244_6A36C0D00FC6"
+msgid_sha256 = "6ec212e168ce2043f97ada2cea5da0618192eb8c9a1d542b69124aed814cb231"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "image", "image", "trans", "wt", "fadeoutbgm", "mytrans_normal_in", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_BEE2D4CC_BF7F_4A37_956B_983CF8C04FF5"
+msgid_sha256 = "bb1ca1451b55e09bbe73e7f16dcafd20bbd2b38994380f5a39bf20d518384a83"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "jinobun", "w", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A8BFF72A_81C3_46C3_A126_DC283ACFC5C2"
+msgid_sha256 = "e575ba7f2b2e4e2e0fdcc58f23467a1dbf2b31b0698ec98821fbf0402328ae64"
+controls = [ 0, 1 ]
+control_kinds = [ "unknown", "c" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7CAC7EE0_0C85_4E34_A3BC_DF471E43760F"
+msgid_sha256 = "2e534b0a558676e20e17310be8a489fac74d0e4b0ce40637b986f193686ef861"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_156B5CF8_4A36_4439_A78C_E65044656395"
+msgid_sha256 = "596c41ea6c313fbf7d1061e23b66831f410be9b5cf4234ca0dba948199e13cbb"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_268EB56F_C502_4727_A9B0_08807DC037BF"
+msgid_sha256 = "aec0b6715909990d325f9f30f4aa3f39afe4fc9d482e8cabd66ce47310a5e6c6"
+controls = [ 0, 1 ]
+control_kinds = [ "unknown", "c" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_D4E8178E_383F_4536_B5DA_0C558FF4FC60"
+msgid_sha256 = "4add2d534261b57d8637ff220e38fc01a889602871f482011944486fa146df52"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "mytrans_normal_out", "unknown", "c" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0F07E213_A9F5_460E_B8DB_3E996A23B7AC"
+msgid_sha256 = "d3f35fdcadf81e74fdb0cefe301d6bd7c1a1a0e0f9e6c4c766fc99231e305f6d"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "unknown", "center_pos", "hc", "w", "w", "/hc" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_CC74B988_4159_4771_81E4_DCB9524C84FA"
+msgid_sha256 = "b121c26d8a2a62f88a1d439c4ee6f7fdad8b6318fdf3aa7b0ccc7298652b02f1"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ]
+control_kinds = [ "layopt", "trans", "wt", "playbgm", "mytrans_normal_in", "mytrans_normal_in4", "char_setopt", "ジゼル", "layopt", "trans", "wt", "unknown", "l", "r", "accent", "/accent" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_BF6005A8_F8C2_4B45_A937_9F27BC64A387"
+msgid_sha256 = "dc44df460d03e4242fced0e028b9bd2873dab4ef3e57337a3693e53ed4bdeee1"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E86B97FF_577E_4EBC_AB97_3032AE541D05"
+msgid_sha256 = "fdae8c6a422050902c6c0146306000dc0f8da4f83a5dc6530a867d6181dec130"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7AC3D8B1_0259_448C_862A_9053FF988E4C"
+msgid_sha256 = "b0daa378b06a732f0f70d58ed4976e043a87e0f8fa7954644ac0f4a23dd030fd"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_41E90D77_978F_4B06_8934_C0342DC8C9BD"
+msgid_sha256 = "94a0ad93778c45c33096083196ab7602ffac8286c346c8c8815b9fe1a570b90e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_6A190497_F3F2_442D_A1E9_AFF0CC027739"
+msgid_sha256 = "bbf5deb88d8551df6a6a9781118c8dde0be0b74acec19fb09ea8d94f575f449c"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "endif", "unknown", "w", "w", "l", "r", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4BEDC039_6245_45C5_94ED_B1BC3803BDDA"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_83228298_6FF9_49DC_9BEF_0E5CE43B1EAE"
+msgid_sha256 = "30ef93f259420fe951304e0af5cc710c025519949cd4cba821a45fa733a922ce"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "char_setopt", "unknown", "ジゼル" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_57DDCB09_FB4E_4C9E_BBA6_DA5C6E3FE433"
+msgid_sha256 = "698cd84f02f0492c0a7c201d866c2bd2ae9bd903537efe650fbbd39e85fcfc72"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_83228298_6FF9_49DC_9BEF_0E5CE43B2EAE"
+msgid_sha256 = "eb5661ba6fb4fe22bbf3a97348f4cd897642cb5c2c46581a54523f9d596e2d1a"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "unknown", "ジゼル", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_AAE5F968_CF75_410D_9C23_0A09C75A6DF4"
+msgid_sha256 = "169bc81c3060788ac87b1a18f0aa374e47bf5afac2af8f08de386089ee11e168"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_810EA350_9CDB_42F2_8C0A_0A32AA9854BC"
+msgid_sha256 = "602591f63b59ffab83d8c7ef31010ff1ffed91e8f1dc1b6c8845bc37326b4dd8"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "unknown", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_FC137865_D751_4F20_AEA0_4F332172325C"
+msgid_sha256 = "524cc3212af334db4f84abb168c7beaa85193be621b62ce4cb57cf3ef00a1e8b"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_9496EFD9_F1B9_4D04_AC73_DD33C249625C"
+msgid_sha256 = "9344d7ca8bca31f9aea50a2e7c8d4d60d6eb4a05aad5afe683afdcb9be5440c6"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "unknown", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_29B87604_E382_45F2_BDFC_DA2E6FEDBD9F"
+msgid_sha256 = "ffe419aaac123ea7f92321b25ae333dd9b2782d069b022dca2a5ec3559721650"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_5EF258AD_9CC6_4212_8B5F_9C3E6597D3CB"
+msgid_sha256 = "5b8c90cdd48399ecc7f86092a9c6abc7ba8e55d2e77b0851d6dfa52a7f2d0530"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "unknown", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_97AF7D71_3A5E_4FC1_A0B5_D9A0CAEA2B27"
+msgid_sha256 = "61480e8721d486a5b17d0a62b6eee1498a04c2ec2c4e876dbb499ea61445dd0b"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_5F2CEFDD_9429_49DF_B3A8_CE8BCF6962AC"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8226895A_B185_4979_B213_7A551741A248"
+msgid_sha256 = "463f3fc753919c4e1e5b7f63315a6b8b44e6edaace2b6726a576b61e97139e64"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_6EA04BEC_2C0C_44B7_997E_6AE8B07BDCA7"
+msgid_sha256 = "cf8a5a1f540dde90038689e6170e20d4d25b1380efa60ae09fbe5f8474d4ee92"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_51AFA259_E776_40C8_B7B7_528BC10783EF"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_9CF710E0_6BF6_41BD_B164_841C105B4EF7"
+msgid_sha256 = "cb8947ac88234947c5a256ffea55f411c19f15062e0788ed2d9515c780467977"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_ACDE7710_881F_4E4B_AF1A_689A663EFCD8"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A93F4D84_7AE6_4CB0_A848_AB6AA9AB1216"
+msgid_sha256 = "c572919f3936073b8fbae7332bb490fdaaddfb6a9b63c0c7f916fa60e13eda3f"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C1104A9A_3F1C_4252_A6B6_17DA0347F9FC"
+msgid_sha256 = "1bef832f33147c7e2bb620def0b24469d2185cfc3c8fc52eb92d2e14cfe11d55"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "jinobun", "w", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_24E7F851_9893_4C46_8D92_15029FBE9098"
+msgid_sha256 = "c28d7a13e98413674c1476787c1790cba2a5bb2792309ce0dd2edb33097a4afb"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "unknown", "ジゼル", "w", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_93AD0638_6747_4522_8620_C19B3F746E20"
+msgid_sha256 = "b0ec5187fbdb4b536bdaa421ec91d0b1c7de4b3cd223bc3e82940d048147380c"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_F0481DD7_5177_4A6F_B12C_A5746DA5EA85"
+msgid_sha256 = "e89bb6d498e87fd51c3dce46616a24d37222dbea3626b0191692da13caaf19a6"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "unknown" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_73BEE3AA_178A_4E6B_9F1B_85B0E4D33DB4"
+msgid_sha256 = "c8584f8c45bdf8f9369a145185718f5ea4a673fd4c16d9f7a532329fa2ac4283"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_3D9BE2DE_FC4A_4381_A4DC_7A44F5DF305C"
+msgid_sha256 = "593d09c09f2b15e8c7601b6585f52536b2d743a86c37125d03c26a93802dcdfb"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "unknown", "ジゼル" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_6BE82234_D1AC_436F_9978_677EC1673EFA"
+msgid_sha256 = "98b82613caa97296ed029c980af6edab190a89ebf3ffaf89e836059d15ec503a"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_FE5782E9_A19C_4644_8634_AE23DA3D1C42"
+msgid_sha256 = "c1bbfeeea48f43d3eadef27f03a0a61984f61f844d6f0394063e811153c079b2"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "unknown" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_88316F85_D430_41FB_9A43_1496C17D9A06"
+msgid_sha256 = "34fd1e9bcb35c6156ab201c8b1c4272a49b2c89186a3a37a46b72e08b65e4e73"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7A4B81C1_02A6_42DD_9E47_79DDD67C055A"
+msgid_sha256 = "e41f94486da9d2c2a1f789d43c5e0f4170a3997e27cacb60c52e288bc4a8a684"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "unknown" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_18D5B695_FA07_46D9_9EF0_BB0E4D69E3A4"
+msgid_sha256 = "a5d68cce32ff3285e254598fcd958dfb3a9b9563ebb5aa64677dd6c5abdada9b"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_BD9CB171_834A_40B7_AED2_E075740DA4C9"
+msgid_sha256 = "e335a3ccb5e1ed9e09cec44b8326fe951d38ff68f074fb6eadabf7829c615200"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "unknown", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4F79081A_6E71_4ACE_85A5_E4BA0ACE95CC"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_9B786879_7DAE_49AB_9B21_45385F15E554"
+msgid_sha256 = "60dd35ed807c55975c022fda9a0787272d81578175b0ff37ab7d3df10787376c"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "unknown", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B8C05D34_F5B7_4E31_AE9F_78AE436659B2"
+msgid_sha256 = "6431ad75c06950d7da919c27b013440faf0e4ede74cc019b7cf11bbf01b0a20c"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_63B50FD0_663E_4B6D_BF21_C74C7E90CAF6"
+msgid_sha256 = "39e138dbef5f169050789e3de7409bc9bee368db583baba80343dfabe7ba4e71"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "unknown" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_88C0E13B_C8A2_440F_B821_382A8DF88370"
+msgid_sha256 = "2ef9a1af094e05c09f4a3f0b5a936852bae72f919962782d6c876c56661b1f8a"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8079DC16_1E18_40D0_A8A8_F2EAA0CF65BF"
+msgid_sha256 = "681f10111c00bcf04a68bce4950b92e89249d23f9006b2e343ea024c56ddb187"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "unknown" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_59B0A4E9_1B12_4DA6_B3C0_8AD6A5360609"
+msgid_sha256 = "ac666cb35bd6a258d2e4c007d4b41ff54f0234a1a80aac0e2a5b2a57d5ea3caf"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B0456B91_435D_4383_906B_CA0D75100204"
+msgid_sha256 = "b83c87d2e5b74cb6bac47bed878caf29f3cf05f0626b2d64f8f9575c2fdd740e"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "unknown" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_65037144_B74B_4547_9BBA_24374FC0F41C"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_F7B707CB_B26D_4163_8D18_AA29DAA04647"
+msgid_sha256 = "d115bbc70d31395c01fcc3531bbf0603c43c8412f32ab72aaf783735206b13e3"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "unknown", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_11A52EDD_6D6A_4889_B128_94A92F335CA6"
+msgid_sha256 = "6189288be7d0cc6586855e1b16661051017b43cedbb32995ea360dbc00e10599"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "unknown", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2DA02BD0_EF86_4699_90A3_992FA63B1A2E"
+msgid_sha256 = "24a58b8ff1d8f487a72a234a78a535c4fe4a33b4015389ffe4a282deb5148fbe"
+controls = [ 0 ]
+control_kinds = [ "unknown" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_92FE129D_49C4_4FD9_94EB_24EFE51077F6"
+msgid_sha256 = "07be638f51ba16f76f577edb9f2380993ca3c209ad05f962f52adaad86837fd7"
+controls = [ 0, 1 ]
+control_kinds = [ "unknown", "ジゼル" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_9234136C_488F_4D65_9670_6753E17C2EFF"
+msgid_sha256 = "055b729281b4eb6b1c9cd172148d27af84491cef24e6ece7fcb63f109541a786"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "unknown", "i", "/i", "r", "r", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_EF492D32_04AB_4201_B1BD_255F6EA9EC63"
+msgid_sha256 = "4c91ac3723316d2c13c48926ce7592585c89a1115517fb6acc689185f11644c4"
+controls = [ 0, 1 ]
+control_kinds = [ "unknown", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_1B8E4796_61E8_4206_A475_ECCA4C07A1D8"
+msgid_sha256 = "9cd703a9eeb61b8fda44e43c7e058c589ee333192a6a73b10a0121c07732b9ec"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "unknown", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_445C9E1D_D26D_409E_B18B_2211B25CC6BE"
+msgid_sha256 = "e8a952bb07832fd93eaee96d5df521a2cbd3dc4ddd7ca40406468a2698f4df7a"
+controls = [ 0 ]
+control_kinds = [ "unknown" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_5F9DEAB6_3385_4B15_A425_48A9C3E8ECF9"
+msgid_sha256 = "5971ad814b84b65541020bfee5650b954cfcec7a4772a3361f63fb396319e791"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "unknown", "ジゼル", "l", "r", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7BAB5385_A590_49DB_9A45_DE68BF53104D"
+msgid_sha256 = "74468a14e6260096403c438dbc35f008b28a4422346dc34d6a25f50307c405e2"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "unknown", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_862EF9B9_AC42_47C2_86C2_C6F3940BA372"
+msgid_sha256 = "df8b1ba4d51e9adcebd450a9e923a8c0133d0af9c2e9a09f82550afac84e983f"
+controls = [ 0, 1 ]
+control_kinds = [ "unknown", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8DBCC050_9FF7_4E7C_8FE1_742D11291089"
+msgid_sha256 = "a5e6673588f55c8d3cf1398e52259b4c47f57a528e92a3d3d72cb6cb9a1ca792"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "unknown", "l", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B0693DAD_DAF4_4BF1_8C89_C0F6C93D93CA"
+msgid_sha256 = "77c22d63b64bd07c83643f83a284ea23d12fad23264987f272e082ad210fabc9"
+controls = [ 0, 1 ]
+control_kinds = [ "unknown", "ジゼル" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C9312592_FBE4_4DC1_9003_028078577422"
+msgid_sha256 = "c71a4bdc3ba09bd7664795872d7c4d6a200ab00ec9b3dcb392bdf3b622558f58"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "mytrans_normal_out4", "mytrans_normal_in4", "layopt", "trans", "wt", "wait", "playbgm", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A4249931_5B45_48EC_A06D_3E79301D1531"
+msgid_sha256 = "e575ba7f2b2e4e2e0fdcc58f23467a1dbf2b31b0698ec98821fbf0402328ae64"
+controls = [ 0, 1 ]
+control_kinds = [ "unknown", "c" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_238DBCA9_80CD_46FE_86D0_952BFFCB168A"
+msgid_sha256 = "ca1ea98bfe6f7b810d2e83fbf696ee320765ab939edab0b48d63f4c5537cdcd9"
+controls = [ 0, 1 ]
+control_kinds = [ "unknown", "c" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7A19DE0B_BBCD_493D_84E8_07C7FE004D14"
+msgid_sha256 = "6847b8828a95aa0b4d6f83e2c085ee530f0c66287cbd1aecc68e2575ee1a2369"
+controls = [ 0, 1 ]
+control_kinds = [ "unknown", "c" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_143977B2_B2BE_4FC2_9D25_68A8F2E7F091"
+msgid_sha256 = "dd18342b14a53e733470ab9e7f6c4b8e236f8a0e4c1318ba69d24437b6880da3"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_D443EE2C_5B60_4A83_95D1_BE57A2DA7076"
+msgid_sha256 = "65d6174584327772ffec5d087a007bc4cf2d4d832ea1cb5aee8d65a6ae4f6e30"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2490176B_9EE5_4C9D_80AE_A59A54F51D6C"
+msgid_sha256 = "2014d476ff51359f8cea0ebc43f258f1f70f49ca3e18cb98882ad43cb12de784"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_09A17E20_6B73_4855_88E4_1A69B3F753D0"
+msgid_sha256 = "9d6da3c429d187d5ea9473faf8a080f30fa1397bbeef381170c4049b91ecd066"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B7CA8B60_72A6_4D3E_BD3F_1A2322B6ED00"
+msgid_sha256 = "25d5b335d60a8e7d484f10161595a9869ed993561815da58059b6b6015b007ae"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "mytrans_normal_out", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_67694E17_1359_47CD_B2A9_3EDF19851359"
+msgid_sha256 = "610bb94412f8316cc0b8ebde68f80a90a4bd332d17f4c799aa6017a21f3f3f8e"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "hr" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4379B40A_71C1_407D_965A_F06B248F2F4C"
+msgid_sha256 = "d6bce0b9fb480807df2b4edd97111c0bc1da1e05807381fd5604e1e74abc8f57"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ]
+control_kinds = [ "layopt", "trans", "wt", "jump", "endif", "s", "eval", "choice_start", "image", "trans", "wt", "layopt", "position", "backlay", "layopt", "trans", "wt", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_67D37F07_1AC9_43C6_93B8_1E1C81749AE3"
+msgid_sha256 = "3e8b1ec21fd8871ca43570c37bfe62b8eddb52b92882890bdc8027b3e040f65d"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2C5678DB_A7DD_4431_A0F3_B62AC308F898"
+msgid_sha256 = "72433e43e8de50eaa8e20cc940668f32cef30c42545e96c17ecd09304ec8b389"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2C5678DB_A7DD_4431_A0F4_B62AC308F898"
+msgid_sha256 = "e48da6abf2e07940c2cb20aa73ba914cfec69480d26d79beda2e9da698f7b44a"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "hr" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_10310D56_01A2_4249_B42A_E6753FD490A4"
+msgid_sha256 = "e35e5291e44f51199f2b7d36256c61effd87d5b0d1f7effbb445c59343a8f2e5"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32 ]
+control_kinds = [ "if", "eval", "endif", "eval", "if", "set_achievement", "endif", "mytrans_normal_out", "layopt", "trans", "wt", "jump", "s", "layopt", "trans", "wt", "history", "qmenu", "delay", "image", "trans", "wt", "mytrans_normal_in", "layopt", "position", "backlay", "layopt", "trans", "wt", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_64BDAC7A_DEA0_460E_9302_C0745FAAB01D"
+msgid_sha256 = "3e79c2eb73152aa920984d4c7e99ec88383565e45bd7f9dbb91d78f53c9bdd53"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_72D2A78E_6239_4480_ADEB_20931EEE57F3"
+msgid_sha256 = "4b613c93903478253e4aa8cf068a1818250d392914bdf0c2fd6fab482f7f2b48"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "if", "else", "endif", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_FAEE2DDE_1D9A_4D0A_93E2_629C7AF40697"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8A3F6CF4_4BE9_49D9_93A8_86AA57DA3B09"
+msgid_sha256 = "eebc7009368a760de618cb0975ca26d7779950cfb8d8494b4e1a717b9fe9fe99"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "if", "soul", "r", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_04B5DE65_CD44_4C93_9AE5_D6931A85CD3D"
+msgid_sha256 = "ff0d49f4c9bbe27b7cd798b7b5961ee9e4ec6f70ea401973115378afa7a10ac7"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_61F0D9C6_ABCF_40FB_92D8_57EB9288780B"
+msgid_sha256 = "b14bf625083b6548d3a1e556a9a27a76afac35898e9507350918049abf7f2c5d"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_42A5CC1D_DD1F_4073_A320_B8619F7923E3"
+msgid_sha256 = "94235874e22e2c14038c7368ea7a147f375db4b856a50b1f984ab5c87897cbfa"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8035F10D_C534_4044_ADBF_16369C653D6D"
+msgid_sha256 = "852d248b2cf876fcbad274566e253c7eb76f8df0104d083953c59a622b32281b"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_FAFC82E2_D4C7_48FA_9BE3_F02BD50F3F82"
+msgid_sha256 = "32447060b564bfc9e3df0ec2630c9fd450c6b03fdefea8cf1a1aeac19bda6e69"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_35D59D58_4305_4A8C_85FA_22A9A33B51EE"
+msgid_sha256 = "9234e3d98743f1fb1161ce3bd89252000a18555471762ee50443264605b7ad61"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_FDD4AD81_A4E3_4FCF_ACFC_743C491C794F"
+msgid_sha256 = "036e5937262015a5fdd6300fb1cfe2a828c04853b23831477ca8ad0d3a632d35"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_6BBA83AC_0E70_4A47_851B_1804C86A2A14"
+msgid_sha256 = "3a6787e7df5e86bb40cb5f4bbdfd4a5aecf73e3a43554e0d3c9f486edbcec5d2"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_888D2930_DCDB_4BA4_A21F_DE7F9284AC86"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:女中を呼んでみる取得後"
+msgid_sha256 = "cb12421838b78ac35dfa9592f42e7f8d3885a77b3947851242522d99c2d43bdf"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+control_kinds = [ "endif", "layopt", "trans", "wt", "choice", "r", "r", "r", "r", "r", "r", "wait", "locate", "button", "s" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C1637ADE_A100_4387_AA7E_F912F04B5298"
+msgid_sha256 = "49d80a805eed8022a591752bc0f8a276fc74b2f948de95160883febb5b908c74"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+control_kinds = [ "fadeoutbgm", "choice_start", "layopt", "position", "backlay", "layopt", "trans", "wt", "maid", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_D216F5A2_90FB_432B_8641_E77B5EBFC230"
+msgid_sha256 = "68840f98fb21b3d6db66893415564826f21ca9a16db0f18f3ddd5509222705ca"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "title", "playbgm", "maid", "char_setopt", "女中", "l", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_76472D0C_19F0_45BD_95FE_38AFC767ED36"
+msgid_sha256 = "ee90eae2dee5d634c96e5f878f0a500c0d994051968d235b2e19b2d6091bafb1"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "char_setopt", "if", "soul", "char_popdown_one", "wt", "r", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_3F44A27A_5E4B_498F_81C9_43A353E7CFEB"
+msgid_sha256 = "a895a7c10f9acdd42ff177d9926cc9b6001a5af4d7f047340dcab67036e797d7"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "endif", "maid", "女中", "w", "l", "r", "accent", "/accent" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E2712B82_695C_4D54_A63F_254D4F55FE9C"
+msgid_sha256 = "30c11fabff17bdaf5f29ae3e15d9645cfc95535d916fce90e7ee58db0de9fbce"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "maid", "女中", "l", "r", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_984DB043_1880_4220_B63F_8C140C1860F6"
+msgid_sha256 = "0a1a04d5d531c7068d3280018423a7b1a07b38669f8d64551e0f7cbd07752feb"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_913C6C5B_DE65_459D_8148_136B8DAAABE2"
+msgid_sha256 = "653829418171dbca66975d6a9070bdb7a21fd5fa0b5b34aeec146e5cef174859"
+controls = [ 0, 1 ]
+control_kinds = [ "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B320244E_8E13_4AA2_8770_DAFE48335C47"
+msgid_sha256 = "c94d4933a69ffd5e1031a04fcfeda28063a9576ce3c9ba3644c1f745e629a16f"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "maid", "女中", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_3559D7AC_CF00_3609_7196_1CA18989ADC0"
+msgid_sha256 = "2ffa4f78e7f15feecc6cebb991ed2bcf00772a6e00d5a9efb34e22ae428f0344"
+controls = [ 0 ]
+control_kinds = [ "maid" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_140202FB_9473_4BAF_BFD0_E32CA5DCC3E3"
+msgid_sha256 = "e26db080be5223180d3ee9d8d564561fdae85a837281137ca10433e709f78391"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_DAC8EDDB_1F01_4E99_AFD4_33E3259798C1"
+msgid_sha256 = "0b4f23512b5d5b1d6fe56e66cc0adfcc50d8b5eca1f473bfdaf82f2e2eaa8e90"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_642383A4_3370_4C0E_82CE_5649DEA9D49E"
+msgid_sha256 = "143f293615bb06b2b6be948be4d07fbc755ee174c32243a06ddac560c6b223e3"
+controls = [ 0, 1 ]
+control_kinds = [ "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_67ED44BC_7182_42C1_9862_18B5637A2D30"
+msgid_sha256 = "9965c3d016bc3af29549f9f347647d27e6b2c0270d59c5362ab8a09078eed567"
+controls = [ 0 ]
+control_kinds = [ "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4AF97D0F_49F7_4149_9CFE_8DAF7691063D"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_D3552295_8ED2_49C6_BCAB_F2721B0457FF"
+msgid_sha256 = "52a74fcf9bc7c37c219e44bd1fb92ca6d5bc33d2fc53d9c7d4579659e2d7b5b7"
+controls = [ 0 ]
+control_kinds = [ "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E72785FD_5854_43DD_B8DA_45D0F2A1512F"
+msgid_sha256 = "1007ed4469789feebabb30c465605ba81ad19442e7326c008658dfce7e020f79"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "endif", "maid", "女中", "w", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7860D620_E190_48D4_80A9_0805BEAEAB0E"
+msgid_sha256 = "76435fa7a3dc75517bc06780b1996e4461e4407e3b40c6db1e0d59d3e96a7aaa"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "l", "r", "w", "w", "w", "w", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_878F0081_8437_4841_BF7E_8563EAA5D849"
+msgid_sha256 = "bb9f2d44dac6d56fd50c84ae707b6a72bfc070cdac6465b9ce7c12bf3bca2542"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_48AD1506_DC35_4A5B_A899_B0176737D537"
+msgid_sha256 = "188f365e7425f51354c132147a541f38c9c6c7e37665a932493076d2f153516c"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A345CB21_107B_42AB_A6B9_316312D1F2B1"
+msgid_sha256 = "dc05515ebd4dfea01baad2f7769132afff846cebf0d2d73145671bf6f0291bb0"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "if", "soul", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_EBB3EA2C_FB0A_4A58_BB2A_C84DC8B99CB5"
+msgid_sha256 = "85b77e28806a14da6a11329dd52774b56c2b96b15607bf6b333d26e3d1f451bf"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_BE70A293_14BB_44D3_B717_34A0A7CB01F9"
+msgid_sha256 = "946f85f9aff820a083f9361bbcbd00395f017b40f273afe730f56b6bc080ee80"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif", "l", "r", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_BEAAC580_B175_4481_AE5D_63395807E2B0"
+msgid_sha256 = "9e6f3e820c932d08aad7ead2c9f89172d1dcb443044b7040179c6961c8099f09"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "女中", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_941FE887_F170_4A2B_B2C7_D979756D989E"
+msgid_sha256 = "188f365e7425f51354c132147a541f38c9c6c7e37665a932493076d2f153516c"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_CC47AC18_588C_46BE_AFC9_C288EFF64651"
+msgid_sha256 = "cda97c9cf7796427f71a52fe9565d914975b4befdcf3ffb645af6164a3cee654"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_3784042F_9D7B_4CE0_9C70_8140BD6B0EE6"
+msgid_sha256 = "f1cf97d1b5511d115f57ac9fdbee3b73609685effd8ca45baf03f75e35f1e17d"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_09EC7CC8_EB4C_4E07_AA96_11D3283A7612"
+msgid_sha256 = "1caa7618061426f313efcd01a2b6f9e1b2cdc1490ec606340766d004d4459584"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "女中", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_809CDC7D_E265_4FB3_B798_7D788EDA9553"
+msgid_sha256 = "b896bf0ff5d0264e89079b93cd31a3a86fad981af01f17f7a8e6a5691618a06a"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_CB2C12C6_019A_4F1B_871B_D2E44C65BD32"
+msgid_sha256 = "6789f967dbb3891f94a902e3e46e83b2f2f7b468e5e2cc73a48eb360c3c9c2cb"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_4908C6AF_DCF1_4347_8DD8_418BB5DC07B2"
+msgid_sha256 = "556c23b4b2246bfbe6d86289f6ac95034bb45fdd15f283f00c4f3227b9c50b0e"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt", "w", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8D3D0986_2665_4CC4_BC90_66871009E7A0"
+msgid_sha256 = "671d72200e831e0e329d2dfb4de14c022e5ff1ad4e9164ce9b749bcce4541abb"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "maid", "女中", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_49A32E51_AC0B_4F5C_B331_35E26EE7ACD0"
+msgid_sha256 = "80ea4ca6eb333af45f7fc0e434a78310f41810fc9804a594f3def883ef9b4186"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_CCA4A7B0_A5E4_468B_8AE4_DA21EF0A624D"
+msgid_sha256 = "309995eacbd3a5151c9c336650443c35e3b3ad391ac45b20100f1360913d1028"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "endif", "maid", "女中", "accent", "/accent", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_95E637B9_4DC9_4636_A5C8_010F3E8EB698"
+msgid_sha256 = "680f2f82e970393178309a0992196e5b82ccac2d70d831c5689cb91a28a84ac7"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "maid", "女中", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2964FEC8_EF22_4BE4_9951_A2AE342995C1"
+msgid_sha256 = "a525f481d8f9d3ef09828a549119e4de056638872f95bc7f96040bd253026dca"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "maid", "女中", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_AFD49CDA_2195_4BEE_AE11_612D9E2C2D38"
+msgid_sha256 = "188f365e7425f51354c132147a541f38c9c6c7e37665a932493076d2f153516c"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_F44FF046_9C3F_4AA1_97A3_24EECFD411AE"
+msgid_sha256 = "a2b68f2d236a2a6c94720728979700cb0cd832bd76571dbd1994bfde9e8387b6"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "maid", "女中", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_8CBC7E06_CAC1_482D_856A_5DFDDCA59C82"
+msgid_sha256 = "8ae90b0a4e793666b9edefc25bca58b36a405f9340da928548e81745b08dc2ef"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7FAD7AF9_B63A_421D_A755_A72A6FB35144"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "女中", "endif", "maid" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_6DE6D4E2_50EB_4611_9031_1E464CDEB192"
+msgid_sha256 = "642fbaab054532ebf86fa2a67d091874e0e7d8458aa7718c8f46266fde67b4b3"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "maid", "女中", "w", "l", "r", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A872CF55_AE12_4D36_8265_5E3F87A3DF06"
+msgid_sha256 = "7b09b2342e90e6eaa8ec3e7635bf297f8939cd0cebb1a0400f896b463c3fa663"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C2C847A0_FF4D_49AB_9624_3F34F7756AC3"
+msgid_sha256 = "ea348ad7970fe68a30d290b53eb743109c98f9133e1d51e490d6a9ea5a2085f9"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "maid", "女中", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_27318A71_7CC6_44F0_AE9B_591573C80D70"
+msgid_sha256 = "188f365e7425f51354c132147a541f38c9c6c7e37665a932493076d2f153516c"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A1C966E0_B9B7_4DEC_9878_A56DF71249FB"
+msgid_sha256 = "e6b99fb6c2b932ac2540bbfcefa60b34787a0074876077caa2323f747d3cd2a3"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F23DFB_5923_4168_8D42_6996402CAB6C"
+msgid_sha256 = "e3875719a2affa0d81e06cb479c2b17dc8a74e37fa85959379297b5e40efee26"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_779C91B2_42A7_445A_9608_D01A92E208E5"
+msgid_sha256 = "3021f957aa8124f96e139dc6fc0f1e53df58cef86ac128b4538130999b6cbc14"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F23DFB_5923_4168_8D43_6996402CAB6C"
+msgid_sha256 = "2dbc4f908a228a217da65cd9ff605ff14b645d64c3acbfb96a28e25d0e2eee93"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_FF257160_4921_4673_A0EC_EFCA3B19F3DF"
+msgid_sha256 = "c7417867b516a282d5e6910badb35437868c8ffe40981209888842810cc48b3f"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F23DFB_5923_4168_8D43_6996402CAB7C"
+msgid_sha256 = "51798511b13918cf349e739913636b33e4dd3f18ea142b8c7d6a142f872fb3d0"
+controls = [ 0, 1 ]
+control_kinds = [ "女中", "maid" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F23DFB_5923_4168_8D43_6996402CAB8C"
+msgid_sha256 = "8a11ce9ce68a5332e3f5be29e0e3246e858f0f69b16d5113c119d30c41937539"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "r", "wait", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_338C1AE0_5E10_4F2F_864F_8B990498581E"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C1A5FB77_D3BC_4264_90AC_295C3296DC4E"
+msgid_sha256 = "79a39715d2a8deeaa7e7489822606efc48659d3b19b9638802d32bc398a29a5c"
+controls = [ 0 ]
+control_kinds = [ "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F23DFB_5923_4168_8D43_6996502CAB8C"
+msgid_sha256 = "799d5424e2ec9ec3b482a27834720b09db3be5a3efa2706f4b529ebf426e8fbc"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "女中", "accent", "/accent" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A8F23DFB_5923_4168_8D43_6996502CAB8C"
+msgid_sha256 = "e7ab2dc912c2ebdc4d51ee6d2b5243b12e24d970e1e900862a746a1ae0f65b1b"
+controls = [ 0, 1 ]
+control_kinds = [ "jinobun", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F23DFB_6923_4168_8D43_6996502CAB8C"
+msgid_sha256 = "d8cd76d290f533170842c31db9488ab78cb143d8284994468c47d4f7aabb4adf"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F23DFB_6923_4168_8D43_6996512CAB8C"
+msgid_sha256 = "61983b0f3b9364e0617e9106d6ca8c13034e02395345542d818eb58b363975df"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "女中", "w", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_F21F919B_6C69_4BE1_9A2F_30DE7E649F61"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F26DFB_6923_4168_8D43_6996502CAB8C"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F26DFB_6923_4168_8D43_6996509CAB8C"
+msgid_sha256 = "0e90b091d67b9d1bebc93b663b1977a3252fd958f6669054ea7eadd9fc666049"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F26DFB_6903_5168_8D43_6996502CAB8C"
+msgid_sha256 = "6778a7b9109941341d2a387a3682739e9fb2ad9b077abe5248edadfe681ee233"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "maid", "女中", "l", "r", "l", "r", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F26DFB_6923_5168_8D43_6996502CAB8C"
+msgid_sha256 = "6cb0cc93d021b788aaba00617787e79d3ac3dcd48e5c3f6ea961f8a182aeba43"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "maid", "女中", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F23DFB_5923_4168_8D43_6996402CAB6C:2"
+msgid_sha256 = "2d1f4be670aa48812ab35969d0febcf71ddd681f018b2c658b1b6c6590646fce"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "if", "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F23DFB_5923_4168_8D43_6996402CAB7C:2"
+msgid_sha256 = "72871a9fc1c57ae63a07e67da27e80d0a8a23dbec50208d4b665bddf6becc892"
+controls = [ 0 ]
+control_kinds = [ "maid" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F23DFB_5923_4168_8D43_6996402CAB8C:2"
+msgid_sha256 = "8a11ce9ce68a5332e3f5be29e0e3246e858f0f69b16d5113c119d30c41937539"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "r", "wait", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F23DFB_5923_4168_8D43_6996502CAB8C:2"
+msgid_sha256 = "799d5424e2ec9ec3b482a27834720b09db3be5a3efa2706f4b529ebf426e8fbc"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "女中", "accent", "/accent" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A8F23DFB_5923_4168_8D43_6996502CAB8C:2"
+msgid_sha256 = "7feea51bd5795619b7fb010329cd65de4e58c31624afc76c91741b233ae5b786"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "jinobun", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F23DFB_6923_4168_8D43_6996502CAB8C:2"
+msgid_sha256 = "d8cd76d290f533170842c31db9488ab78cb143d8284994468c47d4f7aabb4adf"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F23DFB_6923_4168_8D43_6996512CAB8C:2"
+msgid_sha256 = "61983b0f3b9364e0617e9106d6ca8c13034e02395345542d818eb58b363975df"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "女中", "w", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F26DFB_6923_4168_8D43_6996502CAB8C:2"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F26DFB_6923_4168_8D43_6996509CAB8C:2"
+msgid_sha256 = "0e90b091d67b9d1bebc93b663b1977a3252fd958f6669054ea7eadd9fc666049"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F26DFB_6903_5168_8D43_6996502CAB8C:2"
+msgid_sha256 = "6778a7b9109941341d2a387a3682739e9fb2ad9b077abe5248edadfe681ee233"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "maid", "女中", "l", "r", "l", "r", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A7F26DFB_6923_5168_8D43_6996502CAB8C:2"
+msgid_sha256 = "6cb0cc93d021b788aaba00617787e79d3ac3dcd48e5c3f6ea961f8a182aeba43"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "maid", "女中", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_96DF1068_A039_4F9D_BE90_2404C931414C"
+msgid_sha256 = "9d79d94d62076bb14317f83ce778ccbe73d8c53b5eb0f4988db1f2821287779e"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "endif", "maid", "女中", "accent", "/accent", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_DBC77269_4D2D_436B_A479_B76C1EBD0429"
+msgid_sha256 = "0defc652e09566dfaa18bf78da26a6f5d334f28170491df1522686be56439a2f"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_A80D0A76_B41C_4F2B_8AF0_751B042ECD17"
+msgid_sha256 = "df7bc227a98f9477478955719e8a8f617710e239f6c43d908897a3f9fea43282"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "endif", "if", "soul", "char_popdown_one", "wt", "w", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0939A0F8_041A_4E35_8E1B_2A26ABC49AB7"
+msgid_sha256 = "652035e75317719c664ebfa3bb0b66be68612602f39531ab46e66cde6b334e59"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7D61B975_9FC3_4610_9A0B_4D99C575B779"
+msgid_sha256 = "188f365e7425f51354c132147a541f38c9c6c7e37665a932493076d2f153516c"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "if", "soul", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_25ADBEC6_1CB4_430A_8F1C_0DCFB436F1E8"
+msgid_sha256 = "0f0482a0869ada6b2cfe4d6db1f7dc0b66a6f23bc14609d9fcbef96ea5e1586a"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "endif", "女中", "maid", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_1CF54F10_78AC_407B_87FC_E3959E1479E9"
+msgid_sha256 = "788e66d44cfa693c5acbcccfe3f70a40b32469142ea219ddc3a1ccb4ac52b9d0"
+controls = [ 0 ]
+control_kinds = [ "maid" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_E64E36DC_70D0_4DAF_A552_60A029E34025"
+msgid_sha256 = "c1df3ad4fdfc0bef98ef4c5f1e43d20290dcfc7007830478203dcf8481c19b3a"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+control_kinds = [ "char_setopt", "char_erase", "char_clear_all", "playse", "jinobun", "if", "else", "endif", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B4643A8C_D6FA_4C2F_8E63_21DEADCAF8E0"
+msgid_sha256 = "241ec8f82f3f2305dbce8362f97c04c403350eeeffe94a90829e01328f954f73"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "mytrans_move1", "mytrans_move2", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_1CF54F10_78AC_407B_87FC_E3959E1489E9"
+msgid_sha256 = "b803bd0cdcfe9f3fd2e369944070e9870c889918e124b4871501dce12cf97a6e"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "maid", "l", "r", "accent", "/accent" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_08725E36_0D01_4A95_9CE2_9BECD54E6DB4"
+msgid_sha256 = "300e5ed5c5de1a413aa461f6c7299a3718548edb7f405dba5865a278763051a7"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_40B1E67D_360B_4032_A139_025C65C8DC3C"
+msgid_sha256 = "7e17d892e91db50b8693805c752832f1f4d70e86332940b0951dad2e6051a1cd"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_D4DBCCFD_1024_4FA7_AF9A_15AAAAF4DEC1"
+msgid_sha256 = "88c9d22db0dfdb829f6b8699f22bb29258fc67dbc1f8e1c018ef295478445842"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22 ]
+control_kinds = [ "mytrans_normal_out", "layopt", "trans", "wt", "image", "image", "trans", "wt", "image", "image", "trans", "wt", "image", "image", "trans", "wt", "mytrans_normal_in", "layopt", "trans", "wt", "maid", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_354B0A7D_63A2_4CE4_A81D_2F2123DF35F5"
+msgid_sha256 = "01f0c7efcbe64d1e37049fecebb63e0dd4d6cd1825e17fb1df07b8408caf19dd"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "playse", "wait", "maid" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_BDF62D85_6A8E_491E_842A_C2F21E34F1F2"
+msgid_sha256 = "e99a03982ddad6526ba4ceb5edb19f50989b7293e02644b2090750cb12dc23e1"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_859EF527_48F3_4230_BCEB_8BE21BB676D9"
+msgid_sha256 = "af73336fc67d99888b6467d29952d0881508339ba02129689fdcad02ed033b15"
+controls = [ 0 ]
+control_kinds = [ "maid" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_AEC488E9_7AEB_45AA_9D5D_205850A31FCF"
+msgid_sha256 = "b6e1c76605c5191e1ad1e9ff37d7960cca9f62a5dc28099a47f8162e22ef0d15"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0FF72436_8F59_43DC_8B63_119EC143257F"
+msgid_sha256 = "484a43aff21d9a11fd8cc08963d0654f761c3c6882af57d40a8cecbda24479e3"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_CB57E328_78EA_46B4_824D_F000ADD9AE1C"
+msgid_sha256 = "706e4d5fcef7afd7bebf56d9987eb76027837e392a8a6d517e75cf4676139120"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_FF0B3283_9D67_48AC_8FAC_0B34AA297770"
+msgid_sha256 = "dece952649c7d83b61f7eb964fe6f68aa66f128f1d01daf09ce8635f94abe50d"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_B0581689_4A71_41EE_A3CA_4CB3FF1E97D4"
+msgid_sha256 = "cd12e3843869dc7cf917928b608d4eff5f5d1265b8620f4f2b83e58731186e94"
+controls = [ 0, 1 ]
+control_kinds = [ "endif", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_EE5F5387_8269_470B_812A_21DC7710D04C"
+msgid_sha256 = "3bffb78084f071b686002e53f25037c629e709c31113ccd65f6b6ce7c52e8f9a"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "if", "else", "endif", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_81F262C4_A8F7_41F0_97A7_E05730BDE497"
+msgid_sha256 = "7f99c011083d3c909764ebae464b53c6247db917c059587f6d7eafffcab703fd"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_31219BE0_F77D_4C6C_8656_8F81B68C1246"
+msgid_sha256 = "c24f19ca0c33aec3ca8b5ec0b38d5ba4ced0565f6023dec4e65aa40b590f80de"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_5A93B984_CE37_444F_B739_C7155916D8CC"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_70D3E439_FCD6_4B45_9F5C_956409718CA8"
+msgid_sha256 = "d8c8ce2af2a2bae47ad57afe5e837f641d3b12d586b6a64741340ee618bab7cd"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_6ABEB63F_D3AF_4FC3_9695_9F38B6558AD6"
+msgid_sha256 = "5f5c277dcb56885a3778af9361be37a8497e7db7443eaea357b644e45ce69fa7"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_2437697D_7C7A_4CC9_A038_E1BB015193F8"
+msgid_sha256 = "be96b5da3cd6bd89805e3eb887ef8f3692b34940f1b6371f49c59f81facacc96"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "if", "soul", "w", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_CB219CC6_F7B5_42CF_B2D6_D37A8147D4BF"
+msgid_sha256 = "3d373186911c4d4664fe195d2cb83102cbc24da8d0f3c47166805cb6a0f80c52"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+control_kinds = [ "endif", "jinobun", "r", "l", "if", "else", "endif", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_01AE75B9_5DDF_43FB_9185_35C09E7D2835"
+msgid_sha256 = "842e6af2e33e94582539e9368d7b35e89b071f26ac6125853c0111859bac3e71"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "w", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_DC9B39D8_BF01_403E_ABF4_0986CC3FC678"
+msgid_sha256 = "4e3ea81d15ff7f21b0947fef2cd167e8a792aa6faf162f4590894d10a1bdba09"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "maid", "r", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_ABF815B8_BD1F_474B_8D1C_DD35C613CCB4"
+msgid_sha256 = "b38601f55349b1d1d22c99f6314bba414aed686bd6670e2dc74dcf3242c79d09"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "if", "soul", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_0CEFC1DC_AEAD_41FD_B1AE_0DC27579D1BC"
+msgid_sha256 = "b60608b79b24262417944408e01c5224352bf879a7be71d64a63e7926d0edbde"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "endif", "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_F185351A_3B6A_4589_A504_DEB04E208C7C"
+msgid_sha256 = "1c7954976fa6ef43f888d48f4cdee4fd592eff8c6569f0ceb81d3580ebd703df"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7E809D7C_1FBC_42E8_B99F_791C226C1C2E"
+msgid_sha256 = "7942e48befe4b44408ac58cf8e98223209d5b06264a4ea45e86acf1397993439"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7D625145_5C8C_4BB5_B767_7B8A3B22B0C4"
+msgid_sha256 = "179e0934ca2ea652cbe99005dcb515c08bf0b746d8cee7372c931afd8dfb7031"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_7E5DAF26_1F4C_4760_9B08_FA17300E5422"
+msgid_sha256 = "76163c05c18c9ff5933b04de6d1c1896342230a4b14ae80ccc935db3ebc6d10d"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "mytrans_normal_out", "jinobun", "r", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_DE3CC5C8_21F7_49BC_B77E_3BAA79944977"
+msgid_sha256 = "787b6bb41bdf420d29868a3cdbeca38a979a0d009474204cf2a2715d1caad54e"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "mytrans_normal_in", "jinobun", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_FDB4DC06_3946_4B76_ADAE_712110100A37"
+msgid_sha256 = "6c2628f68592e8c95ea80374fce5eaa1fc2e710285c0e6b40aab921074a010ee"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "jinobun", "if", "else", "endif", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_667F63EE_EF5E_4BC5_B4A8_2894DEA55010"
+msgid_sha256 = "99ede83450feba7d5e07dfaa8d673add97db79332e4948b8d73d0e09c88ce27e"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "jinobun", "i", "w", "w", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_667F83EE_EF5E_4BC5_B4A8_2894DEA55010"
+msgid_sha256 = "dfecce0523b917b46e0af1caf6da92d8030d6b95c9a1b0fe80b663fd3a9d91c1"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "jinobun", "i", "w", "w", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_066A194A_3B05_44AC_915E_A4CAA26D0915"
+msgid_sha256 = "dd0ba7a2d1b20e3e77cbeae229f019b06e5e90791ee972a139a03088bf8e3210"
+controls = [ 0, 1 ]
+control_kinds = [ "if", "soul" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_DC267AA4_0429_4178_B893_8887097301D0"
+msgid_sha256 = "715eefe70febee97f9398e70ee9e717993a2f23f7b01e035b09eaa432bbc4f62"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "endif", "jinobun", "if", "else", "endif", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_C347069A_C369_405B_8577_725D87C4BB00"
+msgid_sha256 = "6486a419be0b1ff23fa2369b9c8d6069b9b76ccfaf2c28f4c37ad496a8bad59d"
+controls = [ 0, 1 ]
+control_kinds = [ "playse", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "search:search_325C79FE_BA21_462E_A132_B983E824F4EC"
+msgid_sha256 = "b1270aedfa2fb64015369e9eca25fd6be078aefd03d341fe373a78215a4855f9"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "mytrans_normal_out", "jinobun", "if", "else", "endif" ]
+source_locale = "en"
+alignment = "stable-label"

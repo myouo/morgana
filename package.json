@@ -77,14 +77,18 @@
     "procedural:promote": "tsx tooling/promote-procedural.ts",
     "procedural:old-cuts": "tsx tooling/verify-frame-upgrades.ts",
     "door4:build": "tsx tooling/compile-fourth-door.ts",
-    "door4:verify": "tsx tooling/drive-fourth-door.ts",
+    "door4:verify": "tsx tooling/verify-fourth-complete.ts",
     "dev:door4": "FATA_CHAPTER=door4 vite --config tests/door3-app/vite.config.ts",
     "heartbeat:build": "tsx tooling/compile-heartbeat.ts",
     "test:heartbeat": "playwright test --config playwright.heartbeat.config.ts",
-    "test:door4": "playwright test --config playwright.fourth-door.config.ts"
+    "test:door4": "playwright test --config playwright.fourth-door.config.ts",
+    "door4:verify:main": "tsx tooling/drive-fourth-door.ts",
+    "door4:freeze": "tsx tooling/freeze-fourth-source.ts",
+    "door4:promote": "tsx tooling/promote-fourth.ts",
+    "test:door4:full": "FATA_FOURTH_ROOT=generated/door4-next FATA_FIT_LOCALES=en,fr,it,jp,ko,pt-br,ru,zh playwright test --config playwright.fourth-next.config.ts"
   },
   "dependencies": {
-    "galbox-sdk": "file:vendor/galbox-sdk-b2be6c7a07bb.tgz",
+    "galbox-sdk": "file:vendor/galbox-sdk-b4fd424ed3ed.tgz",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },

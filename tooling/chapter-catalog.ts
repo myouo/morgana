@@ -6,6 +6,9 @@ export const chapters = [
  {id:'memory1',file:'memory1.ks',start:'手を伸ばした'},
  ...[2,3,4].map(n=>({id:`door${n}`,file:`scenario${n}.ks`,start:'start'})),
  ...[5,6,7,8,9].map(n=>({id:`scenario${n}`,file:`scenario${n}.ks`,start:'start'})),
+ {id:'badend1',file:'badend.ks',start:'提案を受け入れる'},
+ {id:'badend2',file:'badend2.ks',start:'提案を拒否する'},
+ {id:'badend3',file:'badend3.ks',start:'無理強いはしない'},
  {id:'search',file:'search.ks',start:'start'},
  {id:'search2',file:'search2.ks',start:'start'},
 ] as const;

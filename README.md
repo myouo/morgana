@@ -53,7 +53,7 @@ PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的�
 
 ## 第四门本地入口
 
-第四门八语主体已接入独立命名空间，当前止于 `scenario4.ks:*select_maid` 前；中文9场景，中英已验证完整当前范围和保存恢复。运行 `pnpm door4:build zh`、`pnpm door4:verify zh`、`pnpm dev:door4`，访问 `http://127.0.0.1:4190/?lang=zh`，`&cut=start`重开。后段选择链和三门→search→四门正式接续仍待完成；[范围及验收](docs/evidence/FOURTH_DOOR.md)。SDK已补录史策略和原图RGB上限校正，未生成变色副本。
+第四门正文、后段选择及三种坏结局内容已在八语独立命名空间接通，止于原 `scenario5.ks` / `first.ks` 跳转边界。八语已验证记忆条件、分支、旧档和排版。运行 `pnpm door4:build all`、`pnpm door4:verify all`、`pnpm test:door4:full`、`pnpm door4:promote` 后 `pnpm dev:door4`，访问 `http://127.0.0.1:4190/?lang=zh`，`&cut=start`重开。正式三门→search→四门接续仍待完成；[范围及八语验收](docs/evidence/FOURTH_DOOR_FULL.md)。
 
 ## 仍未完成
 
