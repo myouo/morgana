@@ -1,0 +1,4 @@
+import {canonicalWireJSON} from 'galbox-sdk/protocol';import type {Snapshot,Program,DeepReadonly} from 'galbox-sdk/protocol';
+export type ImageFilterAlias={from:string;at:string};
+/** Explicit aliases recorded by the checked source upgrade, never guessed pixels. */
+export function applyImageFilterAliases(snapshot:Snapshot,target:DeepReadonly<Program>,aliases:readonly ImageFilterAlias[]):void{const mapping=new Map(aliases.map(a=>[a.from,a.at])),code=new Map(target.functions.flatMap(f=>f.code).map(i=>[i.at,i]));for(const object of snapshot.stage){const at=mapping.get(object.asset);if(!at)continue;const i=code.get(at);if(i?.op!=='stage.image.filtered')throw new Error('IMAGE_FILTER_MIGRATION_SOURCE');if(object.rasterRef||object.frame||object.layers||object.ruleTransition)throw new Error('IMAGE_FILTER_MIGRATION_STATE');object.asset=i.asset;object.imageFilter={at:i.at,signature:canonicalWireJSON(i),asset:i.asset,effect:{...i.effect}};}}

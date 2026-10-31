@@ -75,10 +75,16 @@
     "dev:procedural": "FATA_MODULES=1 FATA_PUBLICATION_ROOT=generated/procedural vite --host 127.0.0.1 --port 4188",
     "test:procedural": "playwright test --config playwright.procedural.config.ts",
     "procedural:promote": "tsx tooling/promote-procedural.ts",
-    "procedural:old-cuts": "tsx tooling/verify-frame-upgrades.ts"
+    "procedural:old-cuts": "tsx tooling/verify-frame-upgrades.ts",
+    "door4:build": "tsx tooling/compile-fourth-door.ts",
+    "door4:verify": "tsx tooling/drive-fourth-door.ts",
+    "dev:door4": "FATA_CHAPTER=door4 vite --config tests/door3-app/vite.config.ts",
+    "heartbeat:build": "tsx tooling/compile-heartbeat.ts",
+    "test:heartbeat": "playwright test --config playwright.heartbeat.config.ts",
+    "test:door4": "playwright test --config playwright.fourth-door.config.ts"
   },
   "dependencies": {
-    "galbox-sdk": "file:vendor/galbox-sdk-8feb22f5945f.tgz",
+    "galbox-sdk": "file:vendor/galbox-sdk-b2be6c7a07bb.tgz",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },

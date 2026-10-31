@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';import base from './playwright.third-door.config.js';
+export default defineConfig({...base,testDir:'tests/door4-browser',timeout:150000,reporter:[['list'],['json',{outputFile:'artifacts/door4/browser-results.json'}]],outputDir:'artifacts/door4/browser-results',use:{...base.use,baseURL:'http://127.0.0.1:4190',launchOptions:{args:['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']}},webServer:{command:'pnpm dev:door4',url:'http://127.0.0.1:4190',reuseExistingServer:process.env.FATA_REUSE_SERVER==='1'}});
