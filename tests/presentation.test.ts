@@ -9,3 +9,9 @@ test('all eight source openings preserve 44 transitions, original music and page
 test('title exits retain the original rule, two stage durations and asynchronous BGM fade',async()=>{
  for(const locale of languages){const p=readTitleExit(await readFile(`private/text/${locale}/scenario/title.ks`,'utf8'));assert.equal(p.rule,'左上から右下へ');assert.equal(p.ruleMs,4000);assert.equal(p.fadeMs,3000);assert.equal(p.musicFadeMs,5000);}
 });
+test('opening click-skip preserves an authored forced wait and rejects unknown permissions',async()=>{
+ const source=await readFile('private/text/en/scenario/scenario.ks','utf8'),forced=readOpeningPresentation(source.replace('[wt]','[wt canskip="false"]'),30);
+ assert.equal(forced.effects[0]?.kind,'transition');assert.equal(forced.effects[0]?.kind==='transition'&&forced.effects[0].skippable,false);
+ const original=readOpeningPresentation(source,30);assert.ok(original.effects.every(e=>e.kind==='music'||e.skippable));
+ assert.throws(()=>readOpeningPresentation(source.replace('[wt]','[wt canskip="sometimes"]'),30),/PRESENTATION_SKIP/);
+});

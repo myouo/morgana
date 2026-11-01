@@ -228,3 +228,31 @@ msgstr "Ignorer les confirmations intermédiaires"
 msgctxt "ui:readSkipInlineConfirmations"
 msgid "Ignore inline confirmations in seen text"
 msgstr "Ignorer les confirmations du texte déjà lu"
+
+msgctxt "ui:confirmSave"
+msgid "Save this memory?"
+msgstr "Sauvegarder ce souvenir ?"
+
+msgctxt "ui:confirmDelete"
+msgid "Delete this memory?"
+msgstr "Supprimer ce souvenir ?"
+
+msgctxt "ui:deleteSave"
+msgid "Delete"
+msgstr "Supprimer"
+
+msgctxt "ui:protectSave"
+msgid "Lock"
+msgstr "Verrouiller"
+
+msgctxt "ui:unprotectSave"
+msgid "Unlock"
+msgstr "Déverrouiller"
+
+msgctxt "ui:autoSaves"
+msgid "Auto saves"
+msgstr "Sauvegardes automatiques"
+
+msgctxt "ui:savePages"
+msgid "Save pages"
+msgstr "Pages de sauvegarde"

@@ -1,8 +1,9 @@
+import {SourceReplayMenu} from './source-replay.js';
 import {useEffect,useRef,useState,useSyncExternalStore} from 'react';import type {ReactNode,CSSProperties} from 'react';import type {Player} from 'galbox-sdk/player';import type {TitleData} from './artwork.js';import type {MenuWords} from './translations.js';
 const rect=(x:number,y:number,width:number,height:number):CSSProperties=>({left:`${x/8}%`,top:`${y/6}%`,width:`${width/8}%`,height:`${height/6}%`});
 /** The original chapter menu is a view. SDK owns gates, temporary playback and
  * the unchanged durable main head; this component never edits story snapshots. */
-export function ReplayMenu({player,title,words,onClose,renderPlayer}:{player:Player;title:TitleData;words:MenuWords;onClose():void;renderPlayer(player:Player,surface:HTMLElement):ReactNode}){
+function LegacyReplayMenu({player,title,words,onClose,renderPlayer}:{player:Player;title:TitleData;words:MenuWords;onClose():void;renderPlayer(player:Player,surface:HTMLElement,returnTitle?:()=>Promise<void>):ReactNode}){
  const view=useSyncExternalStore(player.subscribe,player.getSnapshot,player.getSnapshot),art=title.replay,mount=useRef<HTMLDivElement>(null),[mode,setMode]=useState<'index'|'chapters'|'replay'>('index'),[page,setPage]=useState<0|1|2>(0),[entry,setEntry]=useState<'prologue'|'door1'|'door2'|'door3'|'door4'>('prologue'),[child,setChild]=useState<Player|null>(null),[busy,setBusy]=useState(false),[error,setError]=useState(false);
  useEffect(()=>{let live=true,detach=()=>{},unsubscribe=()=>{};setChild(null);setError(false);if(mode==='index'){void player.closeExtra().catch(()=>{if(live)setError(true);});return()=>{live=false;};}setBusy(true);void(async()=>{try{await player.closeExtra();if(!live)return;if(mode==='chapters')await player.playMusic('chapter-menu');else{if(!mount.current)throw new Error('Replay mount absent');const p=await player.openSceneReplay(entry,mount.current);if(!live)return;detach=p.attachInput(mount.current.parentElement??mount.current);setChild(p);unsubscribe=p.subscribe(()=>{if(p.getSnapshot().core?.run.status==='ended'&&live)setMode('chapters');});}}catch(e){console.error(e);if(live)setError(true);}finally{if(live)setBusy(false);}})();return()=>{live=false;detach();unsubscribe();void player.closeExtra().catch(console.error);};},[player,mode,entry]);
  useEffect(()=>()=>{void player.closeExtra().catch(console.error);},[player]);
@@ -12,3 +13,5 @@ export function ReplayMenu({player,title,words,onClose,renderPlayer}:{player:Pla
   {error&&<div className="resource-error" role="alert"><p>{words.failed}</p><button onClick={()=>setMode('index')}>{words.back}</button></div>}
  </div>;
 }
+
+export function ReplayMenu(props:Parameters<typeof LegacyReplayMenu>[0]){return props.title.replay?.sourceMenu?<SourceReplayMenu {...props}/>:<LegacyReplayMenu {...props}/>;}

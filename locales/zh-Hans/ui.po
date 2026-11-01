@@ -228,3 +228,31 @@ msgstr "跳过行内确认"
 msgctxt "ui:readSkipInlineConfirmations"
 msgid "Ignore inline confirmations in seen text"
 msgstr "已读时跳过行内确认"
+
+msgctxt "ui:confirmSave"
+msgid "Save this memory?"
+msgstr "保存这段记忆？"
+
+msgctxt "ui:confirmDelete"
+msgid "Delete this memory?"
+msgstr "删除这段记忆？"
+
+msgctxt "ui:deleteSave"
+msgid "Delete"
+msgstr "删除"
+
+msgctxt "ui:protectSave"
+msgid "Lock"
+msgstr "保护"
+
+msgctxt "ui:unprotectSave"
+msgid "Unlock"
+msgstr "解除保护"
+
+msgctxt "ui:autoSaves"
+msgid "Auto saves"
+msgstr "自动存档"
+
+msgctxt "ui:savePages"
+msgid "Save pages"
+msgstr "存档分页"

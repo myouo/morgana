@@ -1,3 +1,5 @@
+本轮最新接续（2026-11-01）：八语过场交互、原存档与回放界面已更新，详见[专项验收与限制](evidence/INTERACTIVE_UI.md)。以下为早期实验记录，不代表当前完整范围。
+
 # 本轮最终实现（2026-10-28）
 
 贡献者直接编辑locales/<BCP47>/story.po或ui.po；locales.toml定义默认/名称/别名，controls.toml保护原作换行/点击控制。固定gettext-parser 10.0.0/类型9.0.0、smol-toml 1.9.1。外部输入先校验，再匹配稳定TextId与英文来源；重复/缺失/空/fuzzy/控制错误拒绝。转换器在字体子集前应用PO，修正页Revision改变，未改页面保持；build重新发布并拒绝新PO/旧Program混用。Core不解析PO或执行翻译中的脚本。

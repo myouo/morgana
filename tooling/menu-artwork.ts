@@ -1,13 +1,15 @@
-import {readFile,writeFile} from 'node:fs/promises';
+import {readFile,writeFile,rename} from 'node:fs/promises';
+import {randomUUID} from 'node:crypto';
 import {existsSync} from 'node:fs';
 import path from 'node:path';
 import {hash} from './locale.js';
 import type {Language} from './locale.js';
 import {requireValue,tokenize} from './kag.js';
 import {readQuickMenu} from './quick-menu.js';
+import {saveArtwork} from './save-artwork.js';
 /** Source UI definitions are read as data. Never execute the embedded TJS. */
 export async function menuArtwork(locale:Language){
- const asset=async(name:string,folders=['image','bgimage'])=>{for(const group of [locale,'shared'])for(const folder of folders){const file=`private/extracted/${group}/${folder}/${name}.png`;if(existsSync(file)){const bytes=await readFile(file),target=`assets/${hash(bytes).slice(0,20)}.png`;await writeFile('public/'+target,bytes);return target;}}throw new Error('MENU_ASSET '+name);};
+ const asset=async(name:string,folders=['image','bgimage'])=>{for(const group of [locale,'shared'])for(const folder of folders){const file=`private/extracted/${group}/${folder}/${name}.png`;if(existsSync(file)){const bytes=await readFile(file),target=`assets/${hash(bytes).slice(0,20)}.png`,temporary='public/'+target+'.'+randomUUID()+'.tmp';await writeFile(temporary,bytes);await rename(temporary,'public/'+target);return target;}}throw new Error('MENU_ASSET '+name);};
  const quickSource=readQuickMenu(await readFile(`private/text/${locale}/system/MainWindow.tjs`,'utf8'));
  const quick={zone:quickSource.zone,buttons:await Promise.all(quickSource.buttons.map(async b=>{const graphic=await asset(b.graphic),bytes=await readFile('public/'+graphic);requireValue(bytes.subarray(1,4).toString()==='PNG'&&bytes.readUInt32BE(16)%3===0,'QUICK_MENU_IMAGE');return {...b,graphic,width:bytes.readUInt32BE(16)/3,height:bytes.readUInt32BE(20)};}))};
  const config=await readFile(`private/text/${locale}/scenario/config.ks`,'utf8'),settings=config.split(/\r?\n\*config_ch_non_stop/u)[0]??'',tags=tokenize(settings,'config.ks').filter(t=>t.kind==='tag');
@@ -29,5 +31,5 @@ export async function menuArtwork(locale:Language){
  const historyLayer=await readFile(`private/text/${locale}/system/HistoryLayer.tjs`,'utf8'),controlHeight=Number(/var controlHeight\s*=\s*(\d+)/u.exec(historyLayer)?.[1]);requireValue(Number.isInteger(controlHeight)&&controlHeight>=0&&controlHeight<=64,'HISTORY_CONTROL_HEIGHT');
  const historyLayout={left:fixed(historyConfig,'marginL',200),right:fixed(historyConfig,'marginR',400),top:fixed(historyConfig,'marginT',200)+controlHeight,bottom:fixed(historyConfig,'marginB',200),fontSize:fixed(historyConfig,'fontHeight',40),lineHeight:fixed(historyConfig,'lineHeight',60),closeX:fixed(historySource,'closeButtonLeft',760),closeY:fixed(historySource,'closeButtonTop',567)};
  requireValue(assigned(historyConfig,'verticalView')==='false'&&assigned(historyConfig,'everypage')==='false','HISTORY_SOURCE_PROFILE');
- return {configLayout,quick,save:await asset('saveload_back_save'),history:await asset('massageback'),historyClose:await asset('reclose'),historyLayout,settings:await asset('opt_base'),load:await asset('saveload_back_load'),card:await asset('saveload_itembase'),back:await asset('saveload_menu00f'),reset:await asset('opt_bt_default'),resume:await asset('opt_bt_return'),title:await asset('opt_bt_title'),slider:await asset('opt_slider_base'),pin:await asset('opt_slider_pin'),website,defaults:{intervalMs:normal,autoDelayMs:auto}};
+ return {saveLayout:await saveArtwork(locale,asset),configLayout,quick,save:await asset('saveload_back_save'),history:await asset('massageback'),historyClose:await asset('reclose'),historyLayout,settings:await asset('opt_base'),load:await asset('saveload_back_load'),card:await asset('saveload_itembase'),back:await asset('saveload_menu00f'),reset:await asset('opt_bt_default'),resume:await asset('opt_bt_return'),title:await asset('opt_bt_title'),slider:await asset('opt_slider_base'),pin:await asset('opt_slider_pin'),website,defaults:{intervalMs:normal,autoDelayMs:auto}};
 }

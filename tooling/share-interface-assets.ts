@@ -1,0 +1,22 @@
+import {readFile,writeFile,mkdir,cp,copyFile} from 'node:fs/promises';
+import path from 'node:path';
+import {compileProgramModuleParts,createModuleProgram} from 'galbox-sdk/port-kit';
+import {canonicalWireJSON} from 'galbox-sdk/protocol';
+import type {JsonValue} from 'galbox-sdk/protocol';
+import {encodeWire,decodeWire} from 'galbox-sdk/wire';
+import {languages,hash} from './locale.js';
+import {requireValue} from './kag.js';
+
+const from='generated/interactions',to='generated/interfaces-shared',read=async(file:string)=>new Uint8Array(await readFile(file)),owners=new Map<string,Set<string>>();
+function paths(v:JsonValue):string[]{return typeof v==='string'&&v.startsWith('assets/')?[v]:Array.isArray(v)?v.flatMap(paths):v&&typeof v==='object'?Object.values(v).flatMap(paths):[];}
+const rows=await Promise.all(languages.map(async locale=>({locale,manifest:decodeWire('ModuleManifest',await read(`${from}/programs/${locale}.modules.pb`)),meta:decodeWire('JsonValue',await read(`${from}/programs/${locale}.title.pb`))})));
+for(const row of rows)for(const file of [...createModuleProgram(row.manifest).catalog().map(a=>a.path),...paths(row.meta)]){const id=path.basename(file),set=owners.get(id)??new Set();set.add(row.locale);owners.set(id,set);}
+function mapped(file:string){if(!file.startsWith('assets/')||owners.get(path.basename(file))?.size!==8)return file;const type=file.split('/').at(-2);requireValue(['images','audio','fonts'].includes(type??''),'INTERFACE_SHARED_TYPE');return 'assets/shared/'+type+'/'+path.basename(file);}
+function map(v:JsonValue):JsonValue{return typeof v==='string'?mapped(v):Array.isArray(v)?v.map(map):v&&typeof v==='object'?Object.fromEntries(Object.entries(v).map(([k,x])=>[k,map(x)])):v;}
+await mkdir(to,{recursive:true});for(const dir of ['programs','text','compat','assets'])await cp(from+'/'+dir,to+'/'+dir,{recursive:true,force:false,errorOnExist:false});
+const copied=new Set<string>();async function copy(file:string){const target=mapped(file);if(copied.has(target))return;const bytes=await read(from+'/'+file);requireValue(path.basename(file).startsWith(hash(bytes)),'INTERFACE_SHARED_DIGEST');await mkdir(path.dirname(to+'/'+target),{recursive:true});await writeFile(to+'/'+target,bytes);copied.add(target);}
+for(const {locale,manifest,meta}of rows){requireValue(meta&&typeof meta==='object'&&!Array.isArray(meta)&&Array.isArray(meta.moduleSources),'INTERFACE_SHARED_META');const raw=encodeWire('ModuleManifest',manifest),source=createModuleProgram(manifest),files=await Promise.all(manifest.modules.map(async m=>({uri:m.uri,body:decodeWire('ProgramModule',await read(from+'/'+m.uri))})));source.installAll(files.map(f=>f.body));for(const a of source.catalog())await copy(a.path);for(const file of paths(meta))await copy(file);
+ const header=manifest.header;for(const a of [...header.assets,...manifest.assetCatalogs?.flatMap(c=>c.assets)??[]])a.path=mapped(a.path);header.release='interfaces-'+locale+'-'+hash(canonicalWireJSON(header)+JSON.stringify(manifest.assetCatalogs??[])).slice(0,20);
+ const built=await compileProgramModuleParts({parts:{header,files,assetCatalogs:manifest.assetCatalogs?.map(c=>c.assets)??[]},resources:source.resources(),series:manifest.release.series,points:manifest.points?.map(p=>p.at)??[],packedDeclarations:true,inheritExtrasCompatibility:true,extrasSources:[source]});const target=createModuleProgram(built.manifest);target.installAll(built.files.map(f=>f.body));const view=map(meta);requireValue(view&&typeof view==='object'&&!Array.isArray(view)&&Array.isArray(view.moduleSources)&&view.moduleMigration&&typeof view.moduleMigration==='object'&&!Array.isArray(view.moduleMigration)&&view.moduleMigration.leafPlan,'INTERFACE_SHARED_VIEW');const sha=hash(raw);view.moduleSources.push({release:source.release,path:`compat/modules/${sha}.pb`,sha256:sha,requiredFunctions:source.describe().functionOrder,migration:'search',searchBase:'frames',leafPlan:view.moduleMigration.leafPlan});await mkdir(to+'/compat/modules',{recursive:true});await writeFile(to+`/compat/modules/${sha}.pb`,raw);
+ for(const file of built.files){await mkdir(path.dirname(to+'/'+file.uri),{recursive:true});await writeFile(to+'/'+file.uri,file.bytes);}await writeFile(`${to}/programs/${locale}.title.pb`,encodeWire('JsonValue',view));await writeFile(`${to}/programs/${locale}.modules.pb`,encodeWire('ModuleManifest',built.manifest));console.log({locale,release:target.release,sharedAcrossAllLanguages:true});
+}

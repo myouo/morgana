@@ -92,10 +92,18 @@
     "search:freeze": "tsx tooling/freeze-three-source.ts",
     "search:promote": "tsx tooling/promote-search.ts",
     "dev:search": "FATA_MODULES=1 FATA_PUBLICATION_ROOT=generated/search-connected vite --host 127.0.0.1 --port 4192",
-    "test:search": "playwright test --config playwright.search.config.ts"
+    "test:search": "playwright test --config playwright.search.config.ts",
+    "interfaces:build": "tsx tooling/compile-interactions.ts",
+    "interfaces:verify": "tsx tooling/verify-interactions.ts",
+    "dev:interfaces": "FATA_MODULES=1 FATA_PUBLICATION_ROOT=generated/interactions vite --host 127.0.0.1 --port 4194",
+    "test:interfaces": "playwright test --config playwright.interactions.config.ts",
+    "interfaces:share": "tsx tooling/share-interface-assets.ts",
+    "interfaces:menus": "tsx tooling/refresh-interface-menus.ts generated/interactions",
+    "interfaces:promote": "tsx tooling/promote-interfaces.ts",
+    "dev:interfaces:shared": "FATA_MODULES=1 FATA_PUBLICATION_ROOT=generated/interfaces-shared vite --host 127.0.0.1 --port 4194"
   },
   "dependencies": {
-    "galbox-sdk": "file:vendor/galbox-sdk-f0ac40cae565.tgz",
+    "galbox-sdk": "file:vendor/galbox-sdk-29120fb290e4.tgz",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },

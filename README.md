@@ -6,6 +6,8 @@
 
 用户本轮已授权恢复线上发布；[test.morgana.love](https://test.morgana.love) 为可玩预览，[testsdk.morgana.love](https://testsdk.morgana.love) 为鉴权网络回归站。发布进度与版本见[本轮记录](docs/evidence/ONLINE_DOORS4.md)。
 
+本轮已按八语源参数补齐OP/序章的点击、Enter与Ctrl演出跳过，存档保护/删除/原分页及章节、调查回放和结局列表。原素材界面由正式SDK运行，开发说明不进入游戏画面。日文存档为10页，其余为11页；原作逐像素与全通状态仍未认证。当前验收与发布状态见[过场、存档与回放记录](docs/evidence/INTERACTIVE_UI.md)。
+
 ## 文本与资源在哪里
 
 - 可编辑正文：`locales/<BCP47>/story.po`、`prologue.po`；章节为 `locales/<BCP47>/chapters/{door1,interlude1,door2,memory1,door3,search,door4}/*.po`。中文目录是 `locales/zh-Hans/chapters/door1/`。
@@ -60,8 +62,12 @@ PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的�
 
 ## 仍未完成
 
-调查章节及后续门、通关变体、结局鉴赏、原版 tft codec、原作逐帧和真实移动设备对照。当前SDK v2已支持富文/窗口/演出/源音频、鉴赏、剧本UI/流程图/视频/计时/RNG与注册operations的模块组合；正式本地主入口已接通三门，跨v2 manifest的Web槽迁移已验收。模块recipe/SaveBridge/历史回溯仍列W1-03B3，完整旧性能/真机矩阵没有沿用为本版重验。
+第五门以后、通关变体、全通结局奖励与隐藏序章、原版 tft codec、原作逐帧和真实移动设备对照。当前可达结局列表已接入。当前SDK v2已支持富文/窗口/演出/源音频、鉴赏、剧本UI/流程图/视频/计时/RNG与注册operations的模块组合；正式本地主入口已接通三门，跨v2 manifest的Web槽迁移已验收。模块recipe/SaveBridge/历史回溯仍列W1-03B3，完整旧性能/真机矩阵没有沿用为本版重验。
 
 当前事实和下一步见 [STATUS](STATUS.md)、[能力边界](docs/CAPABILITIES.md)、[部署说明](deployment/README.md)。游戏原包/解包/KS/TJS/素材/字体/日志/trace全部 ignore；Git 仅保存适配源码、允许提交的 PO 和短报告。SDK 包不含游戏、证据或日志。
 
 首次历史清理和删除LICENSE已完成；后续使用正常追加提交、快进推送，不反复重写已发布提交。
+
+## 本轮界面构建
+
+保留发布基线 `generated/release-public`（由已有四门发布流程重建），依次运行 `pnpm interfaces:build all`、`pnpm interfaces:menus`、`pnpm interfaces:share`。共享候选为 `generated/interfaces-shared`；先 `pnpm exec tsx tooling/prepare-interface-cuts.ts` 生成当前测试切点，`FATA_INTERACTION_OUTPUT=generated/interfaces-shared pnpm interfaces:verify all` 与 `FATA_INTERFACE_ROOT=generated/interfaces-shared FATA_INTERFACE_RUN=shared-final pnpm test:interfaces` 验收，`pnpm interfaces:promote` 只在记录通过后提升默认入口并保留旧文件。当前切点夹具由 `prepare-interface-cuts.ts` 从真实旧来源验证、迁移并重新验证生成，只在ignored目录。
