@@ -1,0 +1,33 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: morgana-chapters\n"
+"PO-Revision-Date: 2026-10-28 00:00+0000\n"
+"Last-Translator: Community contributors\n"
+"Language-Team: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: scenario5:fifth
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8f2695bbe24d3226e5c8cfa76f7c0fc177e0f4f537c57253d43670ca178ae8d4
+#. default-sha256: 85238181c9eddf4256745d915eae3e3848df32da0ee9833f8ae8004cd9834fa9
+msgctxt "scenario5:fifth"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫⟪k:15⟫⟪k:16⟫⟪k:17⟫"
+"⟪k:18⟫⟪k:19⟫⟪k:20⟫⟪k:21⟫⟪k:22⟫⟪k:23⟫⟪k:24⟫⟪k:25⟫⟪k:26⟫⟪k:27⟫⟪k:28⟫⟪k:29⟫⟪k:30⟫⟪k:31⟫⟪k:32⟫⟪k:33⟫"
+"⟪k:34⟫⟪k:35⟫⟪k:36⟫⟪k:37⟫⟪k:38⟫⟪k:39⟫⟪k:40⟫⟪k:41⟫\t⟪k:42⟫⟪k:43⟫⟪k:44⟫⟪k:45⟫⟪k:46⟫⟪k:47⟫⟪k:48⟫⟪k:49⟫"
+"⟪k:50⟫⟪k:51⟫⟪k:52⟫⟪k:53⟫⟪k:54⟫⟪k:55⟫⟪k:56⟫⟪k:57⟫⟪k:58⟫⟪k:59⟫⟪k:60⟫⟪k:61⟫\t⟪k:62⟫⟪k:63⟫⟪k:64⟫⟪k:65⟫"
+"⟪k:66⟫⟪k:67⟫⟪k:68⟫⟪k:69⟫⟪k:70⟫⟪k:71⟫⟪k:72⟫⟪k:73⟫⟪k:74⟫⟪k:75⟫\t⟪k:76⟫⟪k:77⟫⟪k:78⟫⟪k:79⟫⟪k:80⟫⟪k:81⟫"
+"⟪k:82⟫⟪k:83⟫⟪k:84⟫⟪k:85⟫⟪k:86⟫⟪k:87⟫⟪k:88⟫⟪k:89⟫⟪k:90⟫⟪k:91⟫⟪k:92⟫⟪k:93⟫⟪k:94⟫⟪k:95⟫⟪k:96⟫⟪k:97⟫"
+"⟪k:98⟫⟪k:99⟫⟪k:100⟫⟪k:101⟫⟪k:102⟫⟪k:103⟫⟪k:104⟫"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫⟪k:15⟫⟪k:16⟫⟪k:17⟫"
+"⟪k:18⟫⟪k:19⟫⟪k:20⟫⟪k:21⟫⟪k:22⟫⟪k:23⟫⟪k:24⟫⟪k:25⟫⟪k:26⟫⟪k:27⟫⟪k:28⟫⟪k:29⟫⟪k:30⟫⟪k:31⟫⟪k:32⟫⟪k:33⟫"
+"⟪k:34⟫⟪k:35⟫⟪k:36⟫⟪k:37⟫⟪k:38⟫⟪k:39⟫⟪k:40⟫⟪k:41⟫\t⟪k:42⟫⟪k:43⟫⟪k:44⟫⟪k:45⟫⟪k:46⟫⟪k:47⟫⟪k:48⟫⟪k:49⟫"
+"⟪k:50⟫⟪k:51⟫⟪k:52⟫⟪k:53⟫⟪k:54⟫⟪k:55⟫⟪k:56⟫⟪k:57⟫⟪k:58⟫⟪k:59⟫⟪k:60⟫⟪k:61⟫\t⟪k:62⟫⟪k:63⟫⟪k:64⟫⟪k:65⟫"
+"⟪k:66⟫⟪k:67⟫⟪k:68⟫⟪k:69⟫⟪k:70⟫⟪k:71⟫⟪k:72⟫⟪k:73⟫⟪k:74⟫⟪k:75⟫\t⟪k:76⟫⟪k:77⟫⟪k:78⟫⟪k:79⟫⟪k:80⟫⟪k:81⟫"
+"⟪k:82⟫⟪k:83⟫⟪k:84⟫⟪k:85⟫⟪k:86⟫⟪k:87⟫⟪k:88⟫⟪k:89⟫⟪k:90⟫⟪k:91⟫⟪k:92⟫⟪k:93⟫⟪k:94⟫⟪k:95⟫⟪k:96⟫⟪k:97⟫"
+"⟪k:98⟫⟪k:99⟫⟪k:100⟫⟪k:101⟫⟪k:102⟫⟪k:103⟫⟪k:104⟫"

@@ -1,0 +1,1922 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: morgana-chapters\n"
+"PO-Revision-Date: 2026-10-28 00:00+0000\n"
+"Last-Translator: Community contributors\n"
+"Language-Team: zh-Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-Hans\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: scenario5:scenario5_73865939_F219_4430_A7A9_203F1AD34BD1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1fa1cf7d8ba8ecdba177b0e25ed9c6a0c62ad1df61bfd46b1cf2ee39f3a26831
+#. default-sha256: 8e2894fca3e802fd0bc02ed497cbc2348a261d7881dc93b6a2fdc99dd054d224
+msgctxt "scenario5:scenario5_73865939_F219_4430_A7A9_203F1AD34BD1"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫⟪k:15⟫⟪k:16⟫⟪k:17⟫"
+"⟪k:18⟫⟪k:19⟫⟪k:20⟫⟪k:21⟫⟪k:22⟫⟪k:23⟫⟪k:24⟫⟪k:25⟫⟪k:26⟫⟪k:27⟫⟪k:28⟫⟪k:29⟫⟪k:30⟫⟪k:31⟫⟪k:32⟫⟪k:33⟫"
+"⟪k:34⟫⟪k:35⟫⟪k:36⟫⟪k:37⟫⟪k:38⟫⟪k:39⟫⟪k:40⟫⟪k:41⟫⟪k:42⟫⟪k:43⟫⟪k:44⟫⟪k:45⟫⟪k:46⟫⟪k:47⟫⟪k:48⟫⟪k:49⟫"
+"⟪k:50⟫⟪k:51⟫⟪k:52⟫⟪k:53⟫⟪k:54⟫⟪k:55⟫⟪k:56⟫⟪k:57⟫⟪k:58⟫⟪k:59⟫⟪k:60⟫⟪k:61⟫⟪k:62⟫⟪k:63⟫⟪k:64⟫⟪k:65⟫"
+"⟪k:66⟫⟪k:67⟫⟪k:68⟫⟪k:69⟫⟪k:70⟫⟪k:71⟫⟪k:72⟫⟪k:73⟫⟪k:74⟫⟪k:75⟫⟪k:76⟫⟪k:77⟫⟪k:78⟫⟪k:79⟫⟪k:80⟫⟪k:81⟫"
+"⟪k:82⟫⟪k:83⟫⟪k:84⟫⟪k:85⟫⟪k:86⟫⟪k:87⟫⟪k:88⟫⟪k:89⟫⟪k:90⟫⟪k:91⟫⟪k:92⟫⟪k:93⟫⟪k:94⟫⟪k:95⟫⟪k:96⟫⟪k:97⟫"
+"⟪k:98⟫It had been several days since I left the capital,"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫⟪k:15⟫⟪k:16⟫⟪k:17⟫"
+"⟪k:18⟫⟪k:19⟫⟪k:20⟫⟪k:21⟫⟪k:22⟫⟪k:23⟫⟪k:24⟫⟪k:25⟫⟪k:26⟫⟪k:27⟫⟪k:28⟫⟪k:29⟫⟪k:30⟫⟪k:31⟫⟪k:32⟫⟪k:33⟫"
+"⟪k:34⟫⟪k:35⟫⟪k:36⟫⟪k:37⟫⟪k:38⟫⟪k:39⟫⟪k:40⟫⟪k:41⟫⟪k:42⟫⟪k:43⟫⟪k:44⟫⟪k:45⟫⟪k:46⟫⟪k:47⟫⟪k:48⟫⟪k:49⟫"
+"⟪k:50⟫⟪k:51⟫⟪k:52⟫⟪k:53⟫⟪k:54⟫⟪k:55⟫⟪k:56⟫⟪k:57⟫⟪k:58⟫⟪k:59⟫⟪k:60⟫⟪k:61⟫⟪k:62⟫⟪k:63⟫⟪k:64⟫⟪k:65⟫"
+"⟪k:66⟫⟪k:67⟫⟪k:68⟫⟪k:69⟫⟪k:70⟫⟪k:71⟫⟪k:72⟫⟪k:73⟫⟪k:74⟫⟪k:75⟫⟪k:76⟫⟪k:77⟫⟪k:78⟫⟪k:79⟫⟪k:80⟫⟪k:81⟫"
+"⟪k:82⟫⟪k:83⟫⟪k:84⟫⟪k:85⟫⟪k:86⟫⟪k:87⟫⟪k:88⟫⟪k:89⟫⟪k:90⟫⟪k:91⟫⟪k:92⟫⟪k:93⟫⟪k:94⟫⟪k:95⟫⟪k:96⟫⟪k:97⟫自"
+"离开首都起，已过去数日。"
+
+#: scenario5:scenario5_33F331FB_3B9E_4EA0_8FAD_EE5D288F0047
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3be434667febc74c23b6a3a26c79ffb3760258a8977704d9b1d472752de2e125
+#. default-sha256: 773767b91911518fab6ded617e0158e1e8025bb9f1b17b7d64ae4edd65735016
+msgctxt "scenario5:scenario5_33F331FB_3B9E_4EA0_8FAD_EE5D288F0047"
+msgid ""
+"⟪k:0⟫and I could still see it when I closed my eyes—⟪k:1⟫⟪k:2⟫the people lined up on the Grand-"
+"Pont, awaiting entry, eager to start a new life there. Brimming with hope."
+msgstr ""
+"⟪k:0⟫就算闭上眼，也依旧能回忆起那里的景象——⟪k:1⟫川流不息的人群度过大桥<Grand pont>，⟪k:2⟫向着首都"
+"迁移。⟪k:3⟫所有人的脸上都洋溢着希望和憧憬。"
+
+#: scenario5:scenario5_C39F9F6A_183B_4DDB_A881_45B70456269D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7c870900577b7adda1a071619cca769d0567c11c84e2cdfeb18c54db51d71b95
+#. default-sha256: 91db4ca3e1992fe4df5f917c376eadbf50d8c8f1e4f4fd28c5130f923dd9c6f6
+msgctxt "scenario5:scenario5_C39F9F6A_183B_4DDB_A881_45B70456269D"
+msgid ""
+"⟪k:0⟫It was a city people were willing to pay high taxes to live in. ⟪k:1⟫If you were a "
+"performer, you could get some of those costs shaved down a bit by putting those skills to use."
+msgstr ""
+"⟪k:0⟫连高额的入城税也无法阻挡造访此处的人群。⟪k:1⟫如果是杂耍艺人，⟪k:2⟫表演几个把戏或许就可免受课"
+"税之苦……"
+
+#: scenario5:scenario5_26677462_ADE3_4BCD_9D74_5E3630194480
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b719a860d93649c95dac6d738230de503cda17bcacfe63f6eca494dbfb77f045
+#. default-sha256: fde8d5c435714612bf505c7e00a4ec8793f746922c11743b9b0e0e38480a9d53
+msgctxt "scenario5:scenario5_26677462_ADE3_4BCD_9D74_5E3630194480"
+msgid "⟪k:0⟫The capital was harsh on those who wanted in, and apathetic about all who left."
+msgstr "⟪k:0⟫每一个入城者都被严加盘查，⟪k:1⟫而离城者则无人问津。⟪k:2⟫⟪k:3⟫这，就是首都。"
+
+#: scenario5:scenario5_02C0E224_2F80_400F_9C6C_FAF317D2E77B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 356724290021a49400fe73b5870d7c1c593f5fc1a0368efa20da934c4817ca64
+#. default-sha256: 03c7dfc6344eae4636e1a570b63aef1b6e37c1949d5aba5bd267a573891cec41
+msgctxt "scenario5:scenario5_02C0E224_2F80_400F_9C6C_FAF317D2E77B"
+msgid ""
+"⟪k:0⟫It was composed of a powerful nobility and clergy,⟪k:1⟫wealthy merchants and bankers, and a "
+"large population of poor.⟪k:2⟫⟪k:3⟫And it was the city I had called home for a long time."
+msgstr ""
+"⟪k:0⟫这是座由贵族、⟪k:1⟫持有荣誉公民身份的市民、⟪k:2⟫商人、⟪k:3⟫以及占总人口绝大多数的贫民所构成的"
+"城市。⟪k:4⟫然而，⟪k:5⟫这里就是——⟪k:6⟫曾长期被我视为归宿的地方……"
+
+#: scenario5:scenario5_0D8680B1_13DD_4A05_BAC7_9E3F46D46FE1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 30f8e1db085802810d57fb44996f00244c1ed3cb5ca86f51ae846b5298f041e3
+#. default-sha256: 0bc1d56b1b35a76e2154f097b0bbe2ca645f887d853ff02f02e97a080534f277
+msgctxt "scenario5:scenario5_0D8680B1_13DD_4A05_BAC7_9E3F46D46FE1"
+msgid "⟪k:0⟫I didn’t know much about where I was heading."
+msgstr "⟪k:0⟫对于接下来即将前往的目的地，⟪k:1⟫我知之甚少。"
+
+#: scenario5:scenario5_243EDDDE_2A71_471E_9D8D_F337753DCE30
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0f7f1b1ee9d4e2e2f0dc0dcdd47e528d3d92d2cc0957bc28f0549b710234ea8c
+#. default-sha256: d06aac2a0d43cacff4085eb399ac7810b0885328e2a90f57deec3cec28a34bcb
+msgctxt "scenario5:scenario5_243EDDDE_2A71_471E_9D8D_F337753DCE30"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫It’s getting foggy.⟪k:3⟫⟪k:4⟫Looks like it might rain..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫起雾了……⟪k:3⟫似乎要下雨了呢……"
+
+#: scenario5:scenario5_F230F2D6_8532_49D3_A3DF_12B864EF04DC
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8e57b16a1368309612613aba217b8e38e732ddcca763d2807e64b0ae0d17bcea
+#. default-sha256: 79b5bf5e63f5fa5dcddd97f981d52b711581363cbe4a896db0a6a7182d33a47b
+msgctxt "scenario5:scenario5_F230F2D6_8532_49D3_A3DF_12B864EF04DC"
+msgid ""
+"⟪k:0⟫Maybe we should take a little break.⟪k:1⟫⟪k:2⟫You want to keep going? ⟪k:3⟫Oh... ⟪k:4⟫all "
+"right, then."
+msgstr "⟪k:0⟫您看要不要稍微休息一下呢？⟪k:1⟫⟪k:2⟫啊，⟪k:3⟫已经快到了？⟪k:4⟫这……这样啊。"
+
+#: scenario5:scenario5_C4A27F9D_E130_4C26_A5E3_DE9EB7EFA48A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fd4ca1fe5ecb533fdc2e265159f90bacf103a779dfd8d51f62e9dd10c7822015
+#. default-sha256: 95e71b1931c1b425c8fd692cfac0759afb3fd6d03909fa3728d4b5f8fe1f6335
+msgctxt "scenario5:scenario5_C4A27F9D_E130_4C26_A5E3_DE9EB7EFA48A"
+msgid ""
+"⟪k:0⟫The coachman was frustratingly taciturn.⟪k:1⟫⟪k:2⟫He acted as though he had gotten stuck "
+"transporting a prisoner."
+msgstr "⟪k:0⟫一路上，车夫都沉默不语。⟪k:1⟫就像负责押送犯人至监狱的狱卒般。"
+
+#: scenario5:scenario5_558A6AD7_0E76_4ACA_A939_D04D8B50B6CD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 774ecf1f6c9fb6fd817730f038521c47b7fd5d778118a061ca4b949afc0fe78a
+#. default-sha256: d4a0e310af0088f6057a70e2cfebf2d576ccf55c2c0938071e27c514fa0d03f5
+msgctxt "scenario5:scenario5_558A6AD7_0E76_4ACA_A939_D04D8B50B6CD"
+msgid ""
+"⟪k:0⟫Though that was hardly a stretch.⟪k:1⟫⟪k:2⟫From his point of view, I was nothing more than a "
+"criminal."
+msgstr "⟪k:0⟫事实也差不多如此。⟪k:1⟫在车夫看来，⟪k:2⟫我大概与犯人无异吧。"
+
+#: scenario5:scenario5_BB19F393_A642_451F_8F7D_F2176A9002B7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1545f349b4d579f7d7543a2ff61a0afbcea093a1b9a96241ba871b14544d045a
+#. default-sha256: 4df4fb1be06497e99d17ad9827cb5fceb70992522edf169cc762bd8cc5d35917
+msgctxt "scenario5:scenario5_BB19F393_A642_451F_8F7D_F2176A9002B7"
+msgid ""
+"⟪k:0⟫Even the times he ⟪k:1⟫would⟪k:2⟫ acknowledge I had said anything,⟪k:3⟫he made no effort to "
+"hide the scorn in his eyes—"
+msgstr ""
+"⟪k:0⟫偶尔，⟪k:1⟫他也会因为我的搭话而转过头。⟪k:2⟫但那双眼睛里，⟪k:3⟫赤裸裸地展现着轻蔑与不齿。"
+
+#: scenario5:scenario5_B8E68FA2_A545_4169_9059_9C36AD382CAC
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 170c477199453c68f1498e0cc81f931de121d37e6ab1777b296af28f26937e0c
+#. default-sha256: 3e19de3ab150270c5c0302d668b829008313351043c6cce96666b4b2840acad2
+msgctxt "scenario5:scenario5_B8E68FA2_A545_4169_9059_9C36AD382CAC"
+msgid "⟪k:0⟫And I would just fall silent again."
+msgstr "⟪k:0⟫「做这种讨厌的差事，真是活受罪」——那副神色如此诉说。⟪k:1⟫而我，⟪k:2⟫只能无言以对。"
+
+#: scenario5:scenario5_D22A8F79_4093_4ECA_A424_A935EA9A4C11
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c5fb6be4f4bc2cc7b46581fc0b62bfb94e15b29d62bc57dcbe1f500a146d7275
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario5:scenario5_D22A8F79_4093_4ECA_A424_A935EA9A4C11"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario5:scenario5_43D63C0F_8592_41D8_900A_AA88FCBA99B4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e836a66424e35226c07c955818267646d9144e6d836d41d05b16a1a1e5aae625
+#. default-sha256: 3f56991367366ca56d1097607eb24d5b602446c4e44a18b115bea5955910cd41
+msgctxt "scenario5:scenario5_43D63C0F_8592_41D8_900A_AA88FCBA99B4"
+msgid ""
+"⟪k:0⟫The road was gradually getting narrower. ⟪k:1⟫We had long since left the paved city roads "
+"behind, and were now traveling along a couple worn-down grooves in the forest."
+msgstr ""
+"⟪k:0⟫马路越行越窄。⟪k:1⟫石铺的街道早已消失。⟪k:2⟫现在马车所急驶的路面，⟪k:3⟫不过是在森林里开辟出"
+"的、⟪k:4⟫光秃秃的泥路罢了。"
+
+#: scenario5:scenario5_700D2A4A_0C2C_41DC_BD73_97D66A1EE5E4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 702e6478dacb99e71e6b7fc68c8c2cf06c3e991944f657b7b7548d342bfcc268
+#. default-sha256: b15e528e68111ad10ccb7e048bc4de4769f466f4054517cb062c7a2dcbd17bf5
+msgctxt "scenario5:scenario5_700D2A4A_0C2C_41DC_BD73_97D66A1EE5E4"
+msgid "⟪k:0⟫How did I end up here?"
+msgstr "⟪k:0⟫为何一切会发展成现在这样——"
+
+#: scenario5:scenario5_EC5CA542_9964_464C_8906_7088635DD6F9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 791b4b1d1360d639554ba3429324bd4daf8ee24366595d5289379fbb1db8da9b
+#. default-sha256: 6a5ce0a8dfc71fa5b20cb23f66e785fed4094b3f89dc2c9ad7768bc9f45de2c9
+msgctxt "scenario5:scenario5_EC5CA542_9964_464C_8906_7088635DD6F9"
+msgid "⟪k:0⟫Why was I being subjected to this?"
+msgstr "⟪k:0⟫为何我会落得如此下场——"
+
+#: scenario5:scenario5_F1EA44A1_5550_4484_8F5E_5BEED899409A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6734d518ea8c82739177ad91aff89439068eec838985bb95475264a066dd816c
+#. default-sha256: ce5f0bf768e43badd14289b11c002a16a402ff20328e6d8dfc1d4bef6e72eaa4
+msgctxt "scenario5:scenario5_F1EA44A1_5550_4484_8F5E_5BEED899409A"
+msgid "⟪k:0⟫I was done thinking about it."
+msgstr "⟪k:0⟫……连想都不愿再想。"
+
+#: scenario5:scenario5_949B46C1_BD03_4443_B59F_6A51F6E99047
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 99bba43d2f1a8162f21c9c7815442c1f3e15a8841fe2c7ea52f7aef5a1485b37
+#. default-sha256: 57bc1e853a1c2290664e8f6b6b0a58ff5589991f739b9353e2de9787f78df995
+msgctxt "scenario5:scenario5_949B46C1_BD03_4443_B59F_6A51F6E99047"
+msgid ""
+"⟪k:0⟫The more I thought on it, the less fair it seemed.⟪k:1⟫⟪k:2⟫The more I remembered, the worse "
+"it hurt."
+msgstr "⟪k:0⟫因为越想越觉得不合情理。⟪k:1⟫加以思索只会徒增痛苦。"
+
+#: scenario5:scenario5_D10A655E_0014_49DF_B57A_4464CB59EE1C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c43cb8a6c3e9b4e8855c2bd31cc48cddab859a2abf08ddfd7a0200e48bb89b67
+#. default-sha256: 92efc275e0e8a18da38e65aa9ba9bf7bc7441d7deee1d3c347193c2482aef9a9
+msgctxt "scenario5:scenario5_D10A655E_0014_49DF_B57A_4464CB59EE1C"
+msgid "⟪k:0⟫All I could do anymore was close my eyes and weather the storm."
+msgstr "⟪k:0⟫够了。⟪k:1⟫干脆合上双眼……⟪k:2⟫一切都随它去吧，再做什么都无能为力。"
+
+#: scenario5:scenario5_FC1D2D85_AF57_4F40_9F84_7C36761A027F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8c560ea0cfaabe242567cb303b5808413dea2d374071cbe41a4efe53e091c807
+#. default-sha256: d403867bf5b3276dbe2954734ac037e6752a1abe385b7b2919350cdabdc23cc4
+msgctxt "scenario5:scenario5_FC1D2D85_AF57_4F40_9F84_7C36761A027F"
+msgid ""
+"⟪k:0⟫Deep within the dense woods, a mansion appeared before us like the world fading into view "
+"after a dream."
+msgstr "⟪k:0⟫犹如海市蜃楼一般，⟪k:1⟫那座馆从葱郁而阴暗的森林中骤然出现在视野中。"
+
+#: scenario5:scenario5_A799B4C7_858A_400E_BCC4_6CAF6CD70413
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c547956cfa90c92848a9b2f2fa7dca3a74b90fb54906c6a1527dc28705406364
+#. default-sha256: 3dcc5354bb154f4285755e102e435ccb291ca4a134f2af834473d2a113a3770d
+msgctxt "scenario5:scenario5_A799B4C7_858A_400E_BCC4_6CAF6CD70413"
+msgid ""
+"⟪k:0⟫It didn’t seem to be an especially large house, but it had obviously been constructed with a "
+"great deal of care, and it was, thankfully, not standing in ruins."
+msgstr "⟪k:0⟫我虽从未见识过如此硕大的宅邸，⟪k:1⟫但从它精细的构造上不难看出——⟪k:2⟫这并非是一座废屋。"
+
+#: scenario5:scenario5_A3788015_73C0_4F3F_B586_E9C643EA713F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d4b61f33163de051431272e7c6a7d3fd3dea76349af06f837437076c4bcf8bd1
+#. default-sha256: cd347b954d47c70d739f6609521e7bdc2eff75bf480869c19dfcdc3b2582adc2
+msgctxt "scenario5:scenario5_A3788015_73C0_4F3F_B586_E9C643EA713F"
+msgid "⟪k:0⟫This deep in the forest?"
+msgstr "⟪k:0⟫竟然，会建立在森林的深处……？"
+
+#: scenario5:scenario5_C490A16F_85CA_4E34_9DE0_E0DD31A4FD62
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e65789b5995af1e2cacbc14d0f83853e9dd30d0938e2d07f32732f857761669f
+#. default-sha256: 7708331e54c009446ef3d3b9d311918f15a31ca747924d2e7324f0ef57c7bb01
+msgctxt "scenario5:scenario5_C490A16F_85CA_4E34_9DE0_E0DD31A4FD62"
+msgid ""
+"⟪k:0⟫⟪k:1⟫The carriage came to a stop, and the coachman climbed down, signaling with his chin for "
+"me to get out."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫不久，马车缓缓停下。⟪k:2⟫车夫虽先一步下了马车，⟪k:3⟫却只是朝我抬了抬下巴，⟪k:4⟫示意我自"
+"己下车。"
+
+#: scenario5:scenario5_A2CBB44E_DE6C_4EA0_989D_489BCD9DEE67
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 83951f738b5df902a4ea02e9c24d52591e5567ba22497616133e8dc7005e415b
+#. default-sha256: e485797d694d9a0d9c683b588775b6cbd403df7f26ccdb5af499e6c41c1841a2
+msgctxt "scenario5:scenario5_A2CBB44E_DE6C_4EA0_989D_489BCD9DEE67"
+msgid "⟪k:0⟫⟪k:1⟫Thank you... ⟪k:2⟫very much.⟪k:3⟫⟪k:4⟫You must be tired after such a long journey."
+msgstr "⟪k:0⟫⟪k:1⟫谢谢……⟪k:2⟫非常感谢。⟪k:3⟫赶了这么多路，⟪k:4⟫您应该很累了吧。"
+
+#: scenario5:scenario5_12067F99_3293_4F77_BE6F_22FD8AE30CD3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f56bc2cdd1d608fe9748283cf0a5febc4efb713b98c6079e6b96e17766e659c8
+#. default-sha256: 9f62d94b23a336049487f0a73dce44633f0bb891c5d7c397cc7570ea6d08d32b
+msgctxt "scenario5:scenario5_12067F99_3293_4F77_BE6F_22FD8AE30CD3"
+msgid "⟪k:0⟫This is... ⟪k:1⟫the mansion I am looking for, yes?"
+msgstr "⟪k:0⟫那么……我要去的那座宅邸，⟪k:1⟫就是这里吗？"
+
+#: scenario5:scenario5_2777F757_2702_479E_A043_4E6D9E9D802B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 69d086b6edf7606c2fb780da1ce1eac7ed9c59d7a0b94a6d99ac2e1f66f4a69e
+#. default-sha256: 6acd0ff8a216f6b9177e6ad878e4b3118cf11b596b1ee5db2e00e9d234551ad1
+msgctxt "scenario5:scenario5_2777F757_2702_479E_A043_4E6D9E9D802B"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………"
+
+#: scenario5:scenario5_486A044B_3F25_4FFA_87D2_B333912CED00
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: db48bed989d1946031a14a10220a15ff45511fa07ecd43daae55d3d3fd008bff
+#. default-sha256: 8831a66a2213c869e8d187543f726f9c983cf1e6e7292baa06155b4afcc3d8ae
+msgctxt "scenario5:scenario5_486A044B_3F25_4FFA_87D2_B333912CED00"
+msgid ""
+"⟪k:0⟫⟪k:1⟫But the driver didn’t even acknowledge me, getting back onto the carriage and setting "
+"off into the forest. ⟪k:2⟫He seemed to want to get as far away from here as quickly as possible."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫但是马车已扬长而去，⟪k:2⟫无人理会我的感谢之语。⟪k:3⟫就好像对于此处，⟪k:4⟫车夫一刻也不愿"
+"停留。"
+
+#: scenario5:scenario5_B0EB7448_EA84_49D4_B720_AB7239CE0533
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f62355f6a98ad416f4ece1fbe37d58dd6beaf19d35cea63efb12339d3aea5d23
+#. default-sha256: 06037d8247c042fab1248989cffadc4866210a97ae708494de09dc5bd4ab0921
+msgctxt "scenario5:scenario5_B0EB7448_EA84_49D4_B720_AB7239CE0533"
+msgid "⟪k:0⟫He could have said ⟪k:1⟫something⟪k:2⟫.⟪k:3⟫⟪k:4⟫...Oh well."
+msgstr "⟪k:0⟫我只是想要一句回应罢了。⟪k:1⟫……算了，这也是没办法的事。"
+
+#: scenario5:scenario5_827B93B2_F3C2_4AC9_A4BD_BE34EA2EEF42
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 312dc6c64c132b2c89886a866c141df7e6b46573806f378402ae521b73bda210
+#. default-sha256: 9870168149b04e8c95606feee021f3655d2753bea74d0ac7709559655ed253c6
+msgctxt "scenario5:scenario5_827B93B2_F3C2_4AC9_A4BD_BE34EA2EEF42"
+msgid "⟪k:0⟫That was about all I could say, anyway. ⟪k:1⟫Oh well."
+msgstr "⟪k:0⟫是的……⟪k:1⟫这是没办法的事。⟪k:2⟫我对一切都无能为力。"
+
+#: scenario5:scenario5_E6D58D3F_229A_41CD_97BE_845154F0A15F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4a005b1811e552605d06511132e22ba4cac0e6da3033d7fefef58228f7676e48
+#. default-sha256: 867f72d629111d7f285d8d1f7e9801bae847d67bf4db2b790390d772eaa2402b
+msgctxt "scenario5:scenario5_E6D58D3F_229A_41CD_97BE_845154F0A15F"
+msgid "⟪k:0⟫I couldn’t blame anyone for my being here—⟪k:1⟫⟪k:2⟫⟪k:3⟫or for his wanting to get out."
+msgstr "⟪k:0⟫……无能为力地身陷此境，⟪k:1⟫无能为力地被丢弃在这里。"
+
+#: scenario5:scenario5_7BFC55AC_FFAD_4E12_8710_D41919BCF157
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 67d4773d95c1356920ce37dea135473bc19ad32599e3a18091349e55b0acb9ab
+#. default-sha256: 4e3ad929264889991bfe84076a32bcb1b7c2e80f045e7f864df5d41d21f99552
+msgctxt "scenario5:scenario5_7BFC55AC_FFAD_4E12_8710_D41919BCF157"
+msgid "⟪k:0⟫I should get going, I guess."
+msgstr "⟪k:0⟫总之……⟪k:1⟫先进去吧。"
+
+#: scenario5:scenario5_1CA57776_7356_4025_A27B_329655EA4278
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c37d47e14a0614865aa4006c97a67243cda9228bc02651bd72f0a1fee2f51c90
+#. default-sha256: 606054dac94954bd08c207e0bd121ed2331c750154782f64a77961d19fd09286
+msgctxt "scenario5:scenario5_1CA57776_7356_4025_A27B_329655EA4278"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫Getting a better look at it, the house’s windows were, strangely enough, "
+"all shuttered. ⟪k:5⟫It was probably dark as pitch inside."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫宅邸的外观略显怪异。⟪k:5⟫所有的窗户都被挡板遮挡得严严实实。⟪k:6⟫室内……"
+"⟪k:7⟫想必也是漆黑一片。"
+
+#: scenario5:scenario5_1A724C40_ED30_4C78_B68C_EB6C84ABFD7A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f8e5d0d36ae191498712e9ce1b95b462683f7f958046140f61c584aaf1012e86
+#. default-sha256: fa8573c0e0c8c7978b0df9d330f4dfe953ce059ee8c7e5d40d369421b9118d93
+msgctxt "scenario5:scenario5_1A724C40_ED30_4C78_B68C_EB6C84ABFD7A"
+msgid "⟪k:0⟫Does no one live here?⟪k:1⟫⟪k:2⟫But if that’s the case... ⟪k:3⟫then why was I...?"
+msgstr "⟪k:0⟫没人住在这里吗……？⟪k:1⟫但如果是这样的话……⟪k:2⟫⟪k:3⟫那我到底是为何而来……"
+
+#: scenario5:scenario5_601A846D_32C6_4C82_BE18_670590283ECF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ea085d432bc450bfca59353552c441995ab9db7cdef0dd9031bd78b5113470a3
+#. default-sha256: 3416a483e41ff3254b3288316513b8699e7d7300861db61edc1655e54a229c2e
+msgctxt "scenario5:scenario5_601A846D_32C6_4C82_BE18_670590283ECF"
+msgid "⟪k:0⟫I placed my hand on the front door."
+msgstr "⟪k:0⟫探出手，搭上大门。"
+
+#: scenario5:scenario5_6AAF85C4_795E_4FAC_8A7A_7FD44D358D0D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c541d4399109d7655099c0b4c60216dea2136dbd6645314cb655f67f414df883
+#. default-sha256: 5d1309fe906c359aba956bb3aae1a61d4940db61d1ad8d1b58b72d10e0e307d3
+msgctxt "scenario5:scenario5_6AAF85C4_795E_4FAC_8A7A_7FD44D358D0D"
+msgid "⟪k:0⟫Such a big door..."
+msgstr "⟪k:0⟫………好大的门………"
+
+#: scenario5:scenario5_5A193E0A_ED9E_4AE9_8C65_A7543F1374C8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ee10e5a8b2f623aaa980914a169a666bac231537d9fb34b78e32af92a1308228
+#. default-sha256: 5cecff3195545a722dd0ea48030369681b32c63bc744a1d11c04a09e96e414bd
+msgctxt "scenario5:scenario5_5A193E0A_ED9E_4AE9_8C65_A7543F1374C8"
+msgid "⟪k:0⟫What if I couldn’t get in?⟪k:1⟫⟪k:2⟫I had no idea what else there was in the area."
+msgstr "⟪k:0⟫如果这扇门，⟪k:1⟫打不开该怎么办？⟪k:2⟫对这一带我根本一无所知。"
+
+#: scenario5:scenario5_ECC7D8A0_BC39_4C3F_BBEF_CB1E4B4EC2CD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 20cb3a9f1598033f08ea26f423a68a4378cd4e68dcb4ab9582fd3679f0ac7343
+#. default-sha256: a5d058c8a22286ed8df82d717698c350630e854301427ee25a1075de37b618a0
+msgctxt "scenario5:scenario5_ECC7D8A0_BC39_4C3F_BBEF_CB1E4B4EC2CD"
+msgid "⟪k:0⟫If the door didn’t open... ⟪k:1⟫then I would die out here in the forest."
+msgstr "⟪k:0⟫如果这扇门，⟪k:1⟫打不开的话……⟪k:2⟫那么身后的森林，就是我的葬身之地。"
+
+#: scenario5:scenario5_96CB48EE_70D3_4E0F_A6A9_9A4F60AF547B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2b0845714228cd5998f1e697d24515c2a0ee83ce41e960d8aa8118be2b71fb9b
+#. default-sha256: b8b2b1adddb2561dcc6b863c82fed1284eb65e8d57d478c3d3a91215a9d7b9d4
+msgctxt "scenario5:scenario5_96CB48EE_70D3_4E0F_A6A9_9A4F60AF547B"
+msgid "⟪k:0⟫I’ve come to accept much, but I was not ready to forfeit my life yet."
+msgstr ""
+"⟪k:0⟫……虽说至今的遭遇，⟪k:1⟫都是无可奈何之事……⟪k:2⟫⟪k:3⟫但唯独「活下去」的这个念头，我不想失去。"
+
+#: scenario5:scenario5_F16413DE_8287_43E5_9E57_A642085E1B85
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 06b8b69dbb362b71a08dd0c838e904118b9f1dbae4037546b8b2d9b72ed015d0
+#. default-sha256: 28c81b5a85aa10582826780618c6eccab80ea76ee01e2b9c16ca63dcb3ffa08a
+msgctxt "scenario5:scenario5_F16413DE_8287_43E5_9E57_A642085E1B85"
+msgid "⟪k:0⟫Please open..."
+msgstr "⟪k:0⟫拜托了……⟪k:1⟫请开门吧……"
+
+#: scenario5:scenario5_39BA9435_9986_4AD0_8BC2_AEFE7313AFA3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c5fb6be4f4bc2cc7b46581fc0b62bfb94e15b29d62bc57dcbe1f500a146d7275
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario5:scenario5_39BA9435_9986_4AD0_8BC2_AEFE7313AFA3"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario5:scenario5_BBA6D7C1_6290_4BF3_A500_ACCA18606922
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b030b4a668f69b0d22179faed5b331e4dfa9f74653a951385c9ba2b0ddab2e77
+#. default-sha256: 26bf57932db50d0b1dd46b11ee06861320305240e0d831b539a4b9e8fc271fc4
+msgctxt "scenario5:scenario5_BBA6D7C1_6290_4BF3_A500_ACCA18606922"
+msgid "⟪k:0⟫It’s not locked, I guess..."
+msgstr "⟪k:0⟫……门，⟪k:1⟫没有上锁……"
+
+#: scenario5:scenario5_7068D54F_ADBB_4B9F_AEC7_BD17DD1FE0D7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 81686b173357f3644cf680969c854692c499f9e82695f14fb02f406aefea513a
+#. default-sha256: 6c21222c20cee669a047c75398252cd9a7db39301aad374b2db05afea28d7633
+msgctxt "scenario5:scenario5_7068D54F_ADBB_4B9F_AEC7_BD17DD1FE0D7"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫The door was heavy, and though it seemed to protest my attempts to "
+"enter, it still opened much easier than I was expecting. ⟪k:5⟫I was worried over nothing."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫令人意外的是，⟪k:5⟫虽然沉重大门仿若诉说着拒绝之意，⟪k:6⟫但还是被我慢慢地"
+"推开了。⟪k:7⟫看来之前是我杞人忧天了。"
+
+#: scenario5:scenario5_5E96A4D5_B182_48CD_A393_D3FE2E56272F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4027c121f72a2c98a24416553d7eb201f89bed7af0f6bad8204fe3d989d6dbcc
+#. default-sha256: cf7425a33eb76038affecd131d7eaf4fcef91a28d19a94fb8824feabf3b87d71
+msgctxt "scenario5:scenario5_5E96A4D5_B182_48CD_A393_D3FE2E56272F"
+msgid ""
+"⟪k:0⟫Looking in, I got the strangest impression that light was being swallowed up into the "
+"mansion’s depths."
+msgstr ""
+"⟪k:0⟫光线被吸入屋内深处——⟪k:1⟫那是一幅奇妙的景象。⟪k:2⟫似乎迈步向前的话，⟪k:3⟫就能远离外面那个暗无"
+"天日的世界……"
+
+#: scenario5:scenario5_3F907F55_0D51_441D_A556_94B54A631800
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2104ff84a18e8f131ce684c5b4217426d138df6699d37bc3bda8c107bd0922c5
+#. default-sha256: 860e74d33fde90f5307fe61e805fc65e830b131f649ae8bc6b07582df4a43e61
+msgctxt "scenario5:scenario5_3F907F55_0D51_441D_A556_94B54A631800"
+msgid ""
+"⟪k:0⟫Rather than going ⟪k:1⟫inside⟪k:2⟫, it felt as though I was about to step outside the "
+"boundaries of this world."
+msgstr "⟪k:0⟫仅仅只是踏足于其中，⟪k:1⟫就好像来到了另一个世界。"
+
+#: scenario5:scenario5_25B6144A_65A8_4DD9_99AC_EB85CDC4080B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d7ac5761845a96c1d05863e1bcca3ee0004013f1aae23376dfa725688e8d4e82
+#. default-sha256: 43d588903a4f9867059ab1f597e2d63881fd7b3c77f3d21faec494c308401db9
+msgctxt "scenario5:scenario5_25B6144A_65A8_4DD9_99AC_EB85CDC4080B"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫When I closed the door, it "
+"was so dark I couldn’t even tell where I was walking."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫正门关上后，⟪k:13⟫黑暗再一次支"
+"配了整个空间，⟪k:14⟫似乎连行走都十分困难。"
+
+#: scenario5:scenario5_16AF63CF_68EA_4DDB_8B19_97AFC13E8226
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ce0cc03f7564aa24cddd11196af2fcd577d7afab9e439ed547cbcdb0f110ce26
+#. default-sha256: 130a01849b80f43fbff92e0ebe7192bb981b4b7b4b692bc325f677c9c16e6233
+msgctxt "scenario5:scenario5_16AF63CF_68EA_4DDB_8B19_97AFC13E8226"
+msgid "⟪k:0⟫⟪k:1⟫I wonder... ⟪k:2⟫if the windows open."
+msgstr "⟪k:0⟫⟪k:1⟫窗户……好像打不开……"
+
+#: scenario5:scenario5_AA15CF14_500D_4B38_AF57_947AC84E078C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 699ae26d1f4521e8c948d9b5eb420b97a73bdd86b7f76192bd35a6f8f88393f7
+#. default-sha256: 161208a761790ae83576f01f5f1c6d0d22efe612327c08405af46352c1ee77d9
+msgctxt "scenario5:scenario5_AA15CF14_500D_4B38_AF57_947AC84E078C"
+msgid ""
+"⟪k:0⟫Though I managed to fumble my way over to a window, it was tightly shuttered, and the "
+"shutters caked with rust.⟪k:1⟫⟪k:2⟫I was probably not getting it open without a fight."
+msgstr "⟪k:0⟫伸手探向窗边，⟪k:1⟫但紧闭的挡板已经全都生锈。⟪k:2⟫无法轻易地打开。"
+
+#: scenario5:scenario5_708F7434_8D11_4346_B7E3_BC379E0CC7CC
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 244a6e6cb9d93c7cc0464ded3e6855cb8339fc22c5489b54370e1c4612800e11
+#. default-sha256: 92ca82a36a80f44c329657e0b11760cb011117a690c4c26417333e60a4619e71
+msgctxt "scenario5:scenario5_708F7434_8D11_4346_B7E3_BC379E0CC7CC"
+msgid "⟪k:0⟫Darn... ⟪k:1⟫not a hint of light."
+msgstr "⟪k:0⟫真是的，⟪k:1⟫完全……⟪k:2⟫一片黑啊……"
+
+#: scenario5:scenario5_0839D5A2_76A3_4479_9250_FA63C9F2229C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6fd2e518e9027a649897b8fb061163ef45a00367bea847a3a56d691db7717956
+#. default-sha256: c936045954024afef36e741e227cecdd67b1a9c0cb9d7cd016753d44e727002b
+msgctxt "scenario5:scenario5_0839D5A2_76A3_4479_9250_FA63C9F2229C"
+msgid ""
+"⟪k:0⟫I couldn’t even see my hand waving in front of my face.⟪k:1⟫⟪k:2⟫It felt as though the floor "
+"would fall out from under me and I would sink into eternal darkness if I didn’t watch my step."
+msgstr ""
+"⟪k:0⟫指尖划过深不见底的黑暗。⟪k:1⟫⟪k:2⟫「如果一不留神，就可能坠下深渊——⟪k:3⟫继而，被吞没在这幽冥之"
+"处」"
+
+#: scenario5:scenario5_BF3C5408_3F37_4E00_9647_CAEEE588D2F1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 20360cf8003129728f8e6b716880cbad4ae8058b4fb343e8fdfda811736247bf
+#. default-sha256: 489fde3102cb40e418f00b3f3d8c390818096ebab4cd886297192f7826d95217
+msgctxt "scenario5:scenario5_BF3C5408_3F37_4E00_9647_CAEEE588D2F1"
+msgid "⟪k:0⟫Fighting back that fear, I slowly walked forward, tracing the wall with my hand."
+msgstr "⟪k:0⟫——怀着此种错觉，⟪k:1⟫一步一步，⟪k:2⟫慢慢扶着墙壁挪着步。"
+
+#: scenario5:scenario5_F5D7FD38_6FA8_4927_8806_A282F02466B2
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 08c00712920393ac96f5c3b3a3ca7c406ba1555bda89356a976f0b85aa8801e5
+#. default-sha256: 88ee57e2e2dac0901a5374e7575cbeba43927ca8a0541f87fc6eb2d51666627f
+msgctxt "scenario5:scenario5_F5D7FD38_6FA8_4927_8806_A282F02466B2"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫There was a door at the end of a long corridor. I pulled it open, and a wisp of "
+"bone-chilling air brushed past me."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫终于，穿过长长的暗廊，⟪k:3⟫推开尽头的门扉——⟪k:4⟫刹那间，彻骨的寒气迎面拂来。"
+
+#: scenario5:scenario5_48E48AA0_6569_4B21_A769_E3A46A9FC003
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cffec65e85b1b6f2f6cc2bc1d2f13f0043b4f4976909f530640de372768a27e9
+#. default-sha256: c6a0a46706f2fd0b0f4e0ea06fc2ea9552d2f971f565ad6de1b7b2417ea4470b
+msgctxt "scenario5:scenario5_48E48AA0_6569_4B21_A769_E3A46A9FC003"
+msgid ""
+"⟪k:0⟫It was too dark to see anything, but I could feel something ⟪k:1⟫different⟪k:2⟫ present in "
+"this area than the rest of the house."
+msgstr "⟪k:0⟫明明门的对面黑暗如故，⟪k:1⟫却不禁让人觉得这个的空间与先前完全不同。"
+
+#: scenario5:scenario5_5C7D8D1A_F976_4877_91A1_2CB164E9C884
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e38316939fccb66e5f5120394182460122cab240dbcf1ef6775095686e7a55df
+#. default-sha256: f16da9538d037f9e4819e5a09ce9e9eaa4b21275740c16e2d2c19fb42df607e8
+msgctxt "scenario5:scenario5_5C7D8D1A_F976_4877_91A1_2CB164E9C884"
+msgid "⟪k:0⟫Uneasiness gripped me."
+msgstr "⟪k:0⟫萦绕心头的，是一种奇妙的感觉。"
+
+#: scenario5:scenario5_F949FB49_0ED6_48BD_BA6D_AEC4B9AE13C3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c5eb8927634a6b96592637cd12e4036ae82e791f703fda0f31942c8f91aa9ca1
+#. default-sha256: a0797facf89e4d290606acf436dafe0d8211049efc2f535d1e7a6bc242a1a593
+msgctxt "scenario5:scenario5_F949FB49_0ED6_48BD_BA6D_AEC4B9AE13C3"
+msgid "⟪k:0⟫Hello...? ⟪k:1⟫Is anyone there?⟪k:2⟫⟪k:3⟫Please don’t tell me it’s actually abandoned."
+msgstr "⟪k:0⟫……请问有人在吗？⟪k:1⟫果然……⟪k:2⟫没有人吗？"
+
+#: scenario5:scenario5_0EB93F4A_791E_468A_8BB1_D407C05C9F9F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ebb0eeb2531f1d9ad38da5cc6db0870b848d29aa0f43ee704835b08bd2a39c54
+#. default-sha256: f9a9308ae75798bbecbd47062167c37561d8785400c1e6c197299de1aa0c2ff7
+msgctxt "scenario5:scenario5_0EB93F4A_791E_468A_8BB1_D407C05C9F9F"
+msgid "⟪k:0⟫........................"
+msgstr "⟪k:0⟫……………………"
+
+#: scenario5:scenario5_8ED803C1_49A5_4072_B478_EAD5F86D0606
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ca2d7064ce4bef784a2327bf42c705e490452a5ab56224247d68a4a74496c6e1
+#. default-sha256: 11a055fb3df40c594bd233b9277a2a2ff43062ad4138d1257db0b6dc46d361b6
+msgctxt "scenario5:scenario5_8ED803C1_49A5_4072_B478_EAD5F86D0606"
+msgid "⟪k:0⟫I suppose I can’t know without looking around a bit more."
+msgstr "⟪k:0⟫……再稍微找找看吧。"
+
+#: scenario5:scenario5_7459A744_504E_4A22_B2AB_FE1F3D665720
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 811829c4545cbc95b1082061b5552685bd9fa0cff6d4712526a4d227d624c7b6
+#. default-sha256: 9bff837e158d7363c324dcc513ee435bb972b61b7252d1720a02225b2933bc3d
+msgctxt "scenario5:scenario5_7459A744_504E_4A22_B2AB_FE1F3D665720"
+msgid "⟪k:0⟫My voice simply disappeared into the void.⟪k:1⟫⟪k:2⟫No response."
+msgstr "⟪k:0⟫但我的疑问，⟪k:1⟫却湮没在黑暗中。⟪k:2⟫没有任何答复。"
+
+#: scenario5:scenario5_B7FE4138_5A74_4965_A6EE_B0030387B0F5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 496cf72ea54341acebc7d246b047374710e897d39fa06001f512cea8409456b0
+#. default-sha256: 035d9188b2fc45b25d4639a59c06396958594b10ee7d76baa14183bdce2e228c
+msgctxt "scenario5:scenario5_B7FE4138_5A74_4965_A6EE_B0030387B0F5"
+msgid ""
+"⟪k:0⟫As I pushed forward through the freezing air,⟪k:1⟫for a split second, I spotted a shimmer of "
+"light."
+msgstr "⟪k:0⟫顶着刺骨的寒气，踏进这片不可思议的空间，突然间——⟪k:1⟫我眼角的余光闪过一道摇曳的光线。"
+
+#: scenario5:scenario5_0BC2FFE7_19E0_44DB_8429_50B92FACAC3E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b25808e3fa86d99cd279ef44e2a10041f1ad6fcb0f3940b60454c6b1d6878488
+#. default-sha256: e7c678f958dd2f9595b06e496014c24473df31a3cb77460fbfbbd769c8a11967
+msgctxt "scenario5:scenario5_0BC2FFE7_19E0_44DB_8429_50B92FACAC3E"
+msgid ""
+"⟪k:0⟫Squinting my eyes, I was able to make out a large window.⟪k:1⟫⟪k:2⟫Unlike the others, it "
+"wasn’t shuttered."
+msgstr ""
+"⟪k:0⟫直到视线凝视上了光源……⟪k:1⟫这才发现，那里有一扇巨大的窗。⟪k:2⟫而有别于其他盖着挡板的窗户，在"
+"那里——"
+
+#: scenario5:scenario5_2DA6D4A5_42A2_4C27_B961_7871B7674FAB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0799283e8427e880fa0f5df5029f98eaae5b33bc640e88d0d2cd3a1df21d6dab
+#. default-sha256: 4867fade57e6360bbcb34026e552b438e6273ea6b2b1c15a3bc7781e94c9e19d
+msgctxt "scenario5:scenario5_2DA6D4A5_42A2_4C27_B961_7871B7674FAB"
+msgid "⟪k:0⟫What do we have here?⟪k:1⟫⟪k:2⟫Drapes? ⟪k:3⟫I see a little light beyond—"
+msgstr "⟪k:0⟫……这是……⟪k:1⟫什么呢？⟪k:2⟫幕帘吗……？⟪k:3⟫从深处传来的光——"
+
+#: scenario5:scenario5_562B7D5B_F18A_40F6_863E_CF87BDFCCC01
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3cb4b8858e43651873ac892458d17747e8ed9c83c4ff361dc4655527d15f00de
+#. default-sha256: 7d3ff2a1c899766914ba1bc9c91596b8b9e156a246aa50aceb22c77e93abfd9b
+msgctxt "scenario5:scenario5_562B7D5B_F18A_40F6_863E_CF87BDFCCC01"
+msgid ""
+"⟪k:0⟫My chances were slim, I imagined, but if there was even a ⟪k:1⟫slight⟪k:2⟫ possibility of "
+"getting some light in here, it was worth a shot. ⟪k:3⟫So I pulled open the drapes."
+msgstr ""
+"⟪k:0⟫即便只有少许的可能，⟪k:1⟫但没准能让光线照进这里呢——⟪k:2⟫如此思索后，⟪k:3⟫我慢慢揭开了眼前的幕"
+"帘。"
+
+#: scenario5:scenario5_ADD5F002_4B0A_4E4D_B870_E80A7FC9BC68
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 039a06fd157dda4b55104f4e89041b1c52887f64d8ae8c2346d0f18e6087581a
+#. default-sha256: 268ba0be19d659dcb2178099d71d8e213b0c2290fe75afb9df65d5f40596758b
+msgctxt "scenario5:scenario5_ADD5F002_4B0A_4E4D_B870_E80A7FC9BC68"
+msgid "⟪k:0⟫...!"
+msgstr "⟪k:0⟫………！"
+
+#: scenario5:scenario5_4E3426A4_DA8C_4B61_8938_33DCD9A3A1DF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f824d337f924ab2f0a2fa354bdf765b34d62be7d4a715112991dfe936dc2e45d
+#. default-sha256: e801a11d4f3e0bd9c58f134006295b47536a00137a45bfa320793789bcd085c8
+msgctxt "scenario5:scenario5_4E3426A4_DA8C_4B61_8938_33DCD9A3A1DF"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫The next moment, faint but "
+"colorful light shone down on me.⟪k:13⟫⟪k:14⟫It was a stained-glass window."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫骤然间，⟪k:13⟫五彩斑斓的光，"
+"⟪k:14⟫洒遍我的全身。⟪k:15⟫原来在幕帘下面的是……彩绘玻璃。"
+
+#: scenario5:scenario5_CF0DBDF1_4A42_4E67_B2E9_56CF1C9D6DEF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: da66058f0c752e36acd09a875eb5d540deec478b9856a21f631bbb777152b99b
+#. default-sha256: bb069f5e50bc45e66a828e9ba4cd46d37b62ccd4622388e59653fa93889507e0
+msgctxt "scenario5:scenario5_CF0DBDF1_4A42_4E67_B2E9_56CF1C9D6DEF"
+msgid ""
+"⟪k:0⟫From beyond the glass, I could hear the subtle pitter-patter of rain.⟪k:1⟫⟪k:2⟫It had "
+"finally started, it seemed."
+msgstr ""
+"⟪k:0⟫在玻璃的外侧，⟪k:1⟫似乎下起了雨——⟪k:2⟫微弱的雨滴声回响在我的耳边。⟪k:3⟫纯洁的白光包围着我。"
+
+#: scenario5:scenario5_0BD7E9ED_3AC8_4F98_BC9B_8E4A52FE7EE4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 38c1c8675ccf66fd02261b7d5b734c4b0f9d518a37b22a8d9e560f814ad8b204
+#. default-sha256: 9319b84cb374525fec36795311f1150830566e31531b9c745774dbe0ba166020
+msgctxt "scenario5:scenario5_0BD7E9ED_3AC8_4F98_BC9B_8E4A52FE7EE4"
+msgid "⟪k:0⟫The different colors of light blended into a milky white—⟪k:1⟫⟪k:2⟫dim but wondrous."
+msgstr "⟪k:0⟫如此肃穆和庄严，⟪k:1⟫却又如此地……温柔。"
+
+#: scenario5:scenario5_177D9B11_1F96_4635_A010_1193C3615D29
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 87adbac2a5e6e524c5bb8d9042e42a0b6fcd651367a2ec8b4bf334f3461f7a88
+#. default-sha256: e08f6300f0d685f01bfd2d317e8edda3bad2fe5e94f1f3cf60d394060fe41d9e
+msgctxt "scenario5:scenario5_177D9B11_1F96_4635_A010_1193C3615D29"
+msgid "⟪k:0⟫It’s so pretty...⟪k:1⟫⟪k:2⟫It looks like an angel?"
+msgstr "⟪k:0⟫这是……⟪k:1⟫彩绘玻璃。⟪k:2⟫上面的是天使吧，⟪k:3⟫好美………"
+
+#: scenario5:scenario5_C7C82706_D850_4DDC_AF6D_96B537A46A2A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 292c9801b21f7f9162d108fbe17c7cc85b2ba8ef2b34ccdb92933c067ee70afb
+#. default-sha256: cbd6cd65da3709971a94d474345f04b7ee3545d051258c4b46df939b6f37fa89
+msgctxt "scenario5:scenario5_C7C82706_D850_4DDC_AF6D_96B537A46A2A"
+msgid ""
+"⟪k:0⟫Why would someone cover this up? It’s beautiful.⟪k:1⟫⟪k:2⟫With a little more light, it’d be—"
+msgstr ""
+"⟪k:0⟫真是的，⟪k:1⟫为什么把这么漂亮的东西遮挡起来？⟪k:2⟫⟪k:3⟫要是有更多光透进来的话，⟪k:4⟫一定会更"
+"美——"
+
+#: scenario5:scenario5_9485AF68_781D_418F_B49F_D30C7DAB73A6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 68871e1c434fd41894d0716254d65a36122310f1f96999161d4f2b840d49b2b6
+#. default-sha256: c1a9563f02e2e2419692d2dc724ded884d612b2dbf56bbbdf76a958b3a90d840
+msgctxt "scenario5:scenario5_9485AF68_781D_418F_B49F_D30C7DAB73A6"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫Please do not touch the drapes."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫请不要碰那块幕帘。"
+
+#: scenario5:scenario5_C1F7E9CF_BD82_44A7_A6E8_30A0E3E37A86
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 039a06fd157dda4b55104f4e89041b1c52887f64d8ae8c2346d0f18e6087581a
+#. default-sha256: 268ba0be19d659dcb2178099d71d8e213b0c2290fe75afb9df65d5f40596758b
+msgctxt "scenario5:scenario5_C1F7E9CF_BD82_44A7_A6E8_30A0E3E37A86"
+msgid "⟪k:0⟫...!"
+msgstr "⟪k:0⟫………！"
+
+#: scenario5:scenario5_0749D473_4A71_4A3F_B81D_3734D5D2ECE7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7816446b04841c65bcce2c136d3ed81cdf7406d3386cec882d4726a624a8b10e
+#. default-sha256: 03f62b449f29522284fcc2fda9cf00b44d2348cc49b30ed125c395e1e31ff437
+msgctxt "scenario5:scenario5_0749D473_4A71_4A3F_B81D_3734D5D2ECE7"
+msgid "⟪k:0⟫⟪k:1⟫Or⟪k:2⟫ the windows."
+msgstr "⟪k:0⟫……也别碰那扇窗。"
+
+#: scenario5:scenario5_ABC7108B_5CEF_427A_85D9_E2261981A91B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a1f731a1d326f7a576f13531661b0ae900ef74ce9bfe3f6aa68a7785c447fb48
+#. default-sha256: 5cc607d709a511dcb75d0af5d8d93c76ed4e7fcd06588851a6a7f958313380f3
+msgctxt "scenario5:scenario5_ABC7108B_5CEF_427A_85D9_E2261981A91B"
+msgid ""
+"⟪k:0⟫Suddenly, I heard a voice, and I could sense someone else in the room.⟪k:1⟫⟪k:2⟫The man’s "
+"voice was emotionless, neither deep nor high.⟪k:3⟫⟪k:4⟫Before long, he came into view, "
+"illuminated by dull orange candlelight."
+msgstr ""
+"⟪k:0⟫突然传来了人的声音，⟪k:1⟫与气息。⟪k:2⟫没有抑扬，⟪k:3⟫没有顿挫，⟪k:4⟫毫无感情波动的声音。⟪k:5⟫"
+"忽明忽暗的烛光，⟪k:6⟫逐渐照亮了说话人的面容。"
+
+#: scenario5:scenario5_A3DF5063_E545_4C67_8ED4_DADA261F7144
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9c48861fbf5ccb10460bf2f52916483365d997e952cc0234bcc00f65b9a4517c
+#. default-sha256: e63b64da1a0321a0936a609b6bdb547ea303656e1a5975cb1fccc7c63aa159d6
+msgctxt "scenario5:scenario5_A3DF5063_E545_4C67_8ED4_DADA261F7144"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫…………"
+
+#: scenario5:scenario5_D068D4B2_37A9_4B2E_9831_5A8F4FC676AB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0c54a876d7f99889f15a5e9daa68edb809bccbcc554953d49596042e55253e01
+#. default-sha256: 1fe13e925278bda33f51edc2e873a61ea97ce401f01b3d145a515bfaf5bf1f47
+msgctxt "scenario5:scenario5_D068D4B2_37A9_4B2E_9831_5A8F4FC676AB"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫U-⟪k:4⟫Um... ⟪k:5⟫I-⟪k:6⟫I’m sorry for coming in uninvited...⟪k:7⟫⟪k:8⟫But, "
+"⟪k:9⟫um, ⟪k:10⟫I did announce myself..."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫那……⟪k:4⟫那个……⟪k:5⟫十、⟪k:6⟫十分抱歉，⟪k:7⟫我随随便便就闯进了这里……⟪k:8⟫但、"
+"⟪k:9⟫但是，⟪k:10⟫我之前打过招呼了的……"
+
+#: scenario5:scenario5_5BE33B68_A7B2_46FB_B01A_3E6E0E0E7191
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c0dbd8ec7284d9cbd29135ab2954ed0f239ba9db735483b20841ff7bb55a28ff
+#. default-sha256: 6acd0ff8a216f6b9177e6ad878e4b3118cf11b596b1ee5db2e00e9d234551ad1
+msgctxt "scenario5:scenario5_5BE33B68_A7B2_46FB_B01A_3E6E0E0E7191"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………"
+
+#: scenario5:scenario5_4F86C17B_B056_47A0_A167_8AB4ADA0221C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ce687d22215210cf8626e3d0472eeb9f40846094a0df32bc369fe8f7107349ff
+#. default-sha256: 8feb053b6b346e87d5566438e57e44083994a5070f25ab591c8e4ab702e0f513
+msgctxt "scenario5:scenario5_4F86C17B_B056_47A0_A167_8AB4ADA0221C"
+msgid ""
+"⟪k:0⟫The man stood there, practically blending in with the darkness.⟪k:1⟫⟪k:2⟫Had he been there "
+"the whole time?"
+msgstr "⟪k:0⟫站在我眼前的男子，⟪k:1⟫仿若融身于黑暗之中。⟪k:2⟫我没有想到——这里还会有其他人。"
+
+#: scenario5:scenario5_1372BAFD_B492_4D48_BDB5_A3F6C607169A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1ff1cb8c2704f9091da2c9457ab639156b7fba613db2004bbaa83e340625f4a9
+#. default-sha256: 8b8a4754bfbcd24059ff8d23b8139604c55b9e8bc6c3a7d7d6d2ad29012b5717
+msgctxt "scenario5:scenario5_1372BAFD_B492_4D48_BDB5_A3F6C607169A"
+msgid ""
+"⟪k:0⟫He was staring straight at me. ⟪k:1⟫His gaze wavered slightly, but not enough for me to read "
+"anything in it."
+msgstr "⟪k:0⟫他一动不动地打量着我。⟪k:1⟫双眼的焦点有些摇晃，⟪k:2⟫看不出他在思考什么。"
+
+#: scenario5:scenario5_FF70033F_7C81_4DBE_B495_8CA429AFBFFE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a114614027260b00c72ec9f230025df8331c3e9baa685e0a66f6783631c10304
+#. default-sha256: cbfa78a445a8c88cde52e038eadc7ab0ced2ab62007cd13cef0a2d8c4dacfb82
+msgctxt "scenario5:scenario5_FF70033F_7C81_4DBE_B495_8CA429AFBFFE"
+msgid ""
+"⟪k:0⟫Then again, I could hardly make out any detail at all under the light of a single candle."
+msgstr "⟪k:0⟫说到底，⟪k:1⟫仅存的光源是他手中摇曳着的烛火。⟪k:2⟫所以根本看不清他的容貌。"
+
+#: scenario5:scenario5_9E7FE1D6_16AF_4942_B57B_9DF9F48B1F1B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7a9d419264c636c9ee38b5a30a6b6bf8bc63a57db389cd478b168d10e21064d8
+#. default-sha256: cfd4b19b776072843bc63af18169f1ec285c995b6f6cd8d3bd6ad5d2dab112fb
+msgctxt "scenario5:scenario5_9E7FE1D6_16AF_4942_B57B_9DF9F48B1F1B"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Is this, ⟪k:3⟫um... ⟪k:4⟫your mansion?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫那个……⟪k:3⟫您是……住在这里的人吗？"
+
+#: scenario5:scenario5_D6529010_A58C_4443_8EC5_B842052DDFCE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b14a8134eb92293f28b1fcd7d0f02b44b9f54f6c4281278f9242b4d946cadfb0
+#. default-sha256: ff6a6d559143ee7d70968d43d7b4970cb9f6e7ad9406a0c382e36992b0575018
+msgctxt "scenario5:scenario5_D6529010_A58C_4443_8EC5_B842052DDFCE"
+msgid "⟪k:0⟫⟪k:1⟫...It is."
+msgstr "⟪k:0⟫⟪k:1⟫…………是的。"
+
+#: scenario5:scenario5_A089F134_BECB_4FA1_900F_A8B0F1AC07E7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ddc93578cbc319ecd2b9fb71d92851e0272eabaef3f57abf45dbfe3c78b80210
+#. default-sha256: f4aaf7534ee089e1eeaf8c8253137a0c28ca5406c97dc6de048fb69579e00678
+msgctxt "scenario5:scenario5_A089F134_BECB_4FA1_900F_A8B0F1AC07E7"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Thank goodness... ⟪k:3⟫I was afraid it was deserted."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫太好了……⟪k:3⟫我以为没有人在呢……"
+
+#: scenario5:scenario5_10E6A286_AA33_4960_871C_04775FDD3C48
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cabdb7b8a3ebebcfccf2753e7d18d2e9d46ce367ec2e9efc5a646b2bd704fd2d
+#. default-sha256: 7612310148a8a4ac3b0d6bc029cc2ab381aa081ac6915e86db5351db7bfc121d
+msgctxt "scenario5:scenario5_10E6A286_AA33_4960_871C_04775FDD3C48"
+msgid "⟪k:0⟫⟪k:1⟫I suspect you would have preferred it if the house ⟪k:2⟫were⟪k:3⟫ abandoned."
+msgstr "⟪k:0⟫⟪k:1⟫……没有人在，⟪k:2⟫不是更合你意吗？"
+
+#: scenario5:scenario5_A81A269E_4F8D_453C_BB82_F72DF4A61ADC
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f22b70cc51cb9fa7df29581666c59f1c7065ca6d4449bc30c302dd9980b426dd
+#. default-sha256: 52b9598298c52c27bb666072be574f4e0cc221afff2c4262b5f91935109d333b
+msgctxt "scenario5:scenario5_A81A269E_4F8D_453C_BB82_F72DF4A61ADC"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫Oh, not at all.⟪k:3⟫⟪k:4⟫I would be scared to death staying in this dark mansion "
+"all by myself."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫怎么会呢。⟪k:3⟫要是只有我一个人在这座漆黑的房子里，⟪k:4⟫那才吓人呢。"
+
+#: scenario5:scenario5_EA735F9D_3C31_4086_8688_033958EEE9DD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c0dbd8ec7284d9cbd29135ab2954ed0f239ba9db735483b20841ff7bb55a28ff
+#. default-sha256: 6acd0ff8a216f6b9177e6ad878e4b3118cf11b596b1ee5db2e00e9d234551ad1
+msgctxt "scenario5:scenario5_EA735F9D_3C31_4086_8688_033958EEE9DD"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………"
+
+#: scenario5:scenario5_C03A5F29_EB2C_40DB_9865_CF74EF5F9343
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e482f950e0045a5991eef654bc6d10cd5da380d942145e8cc9cca2d72d8dbaf3
+#. default-sha256: 1c77c63dcff2c2390822c132c78997892eea89f16785c164099df68543744a91
+msgctxt "scenario5:scenario5_C03A5F29_EB2C_40DB_9865_CF74EF5F9343"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Ah... ⟪k:3⟫I’m sorry.⟪k:4⟫⟪k:5⟫No ill will intended."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫啊……⟪k:3⟫对不起，⟪k:4⟫我没有恶意……"
+
+#: scenario5:scenario5_38EB5F72_B32E_4680_BBEE_CFCD6A1AC6C7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 43871fd4fd546b9a6911fecc6b6e60d8effae409a275771ee50b60d78dd6ca69
+#. default-sha256: 032b12b15e88aeef2f0ec476a34ff02a3341ec5d754efc25d4c69071740d8db6
+msgctxt "scenario5:scenario5_38EB5F72_B32E_4680_BBEE_CFCD6A1AC6C7"
+msgid ""
+"⟪k:0⟫But I ⟪k:1⟫do⟪k:2⟫ think it could do with some light.⟪k:3⟫⟪k:4⟫That way, you could see where "
+"you were walking.⟪k:5⟫⟪k:6⟫And I’m sure this room would look splendid illuminated."
+msgstr ""
+"⟪k:0⟫但是，⟪k:1⟫把室内变亮些……⟪k:2⟫会比较好吧？⟪k:3⟫脚下可以看得更清楚些，⟪k:4⟫房间也肯定会显得更"
+"加漂亮。"
+
+#: scenario5:scenario5_FD7CA01D_FC83_46C4_8418_CD621B330CDD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 04ebd2cce44e44a15e8b21f7d1168456c0a33cc43b7eb36380198fbfa4b8d7f7
+#. default-sha256: b6a5c565308516ee4a8787815afe1bcee4e681bd388965ba9dbe578a9a9fa382
+msgctxt "scenario5:scenario5_FD7CA01D_FC83_46C4_8418_CD621B330CDD"
+msgid "⟪k:0⟫⟪k:1⟫Not necessary.⟪k:2⟫⟪k:3⟫I make do perfectly well as things are."
+msgstr "⟪k:0⟫⟪k:1⟫没有必要。⟪k:2⟫现在这样对生活也无碍。"
+
+#: scenario5:scenario5_6BE526E8_D0E6_45FB_9D64_10249F085F86
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 43bb19e3705dd4db1e6ca264600386cdc8f31e027f3958529e6838c0be048cf6
+#. default-sha256: 5cb3be1676ede36d117f2cb3df715eda5f264760158da4ac0c199cac505919b7
+msgctxt "scenario5:scenario5_6BE526E8_D0E6_45FB_9D64_10249F085F86"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫How can you see when it’s so dark?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫……这么暗的话，⟪k:3⟫不会看不太清楚吗……？"
+
+#: scenario5:scenario5_5FA2E9B0_C046_449E_9E1C_5DAF4B9F3348
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: eacd8fa51f45e83235036dd5cf5283b5e961dccf2ad76a883fc73a30971ab8b4
+#. default-sha256: f4597199837fa3342188c36a8ba5c94ec4cb459b25be4b9dec014b4121a4ddbe
+msgctxt "scenario5:scenario5_5FA2E9B0_C046_449E_9E1C_5DAF4B9F3348"
+msgid ""
+"⟪k:0⟫⟪k:1⟫I have an abundance of candles, and oil for lamps.⟪k:2⟫⟪k:3⟫I am not in want of means "
+"of creating light."
+msgstr "⟪k:0⟫⟪k:1⟫……这里有很多蜡烛。⟪k:2⟫灯油也足够。⟪k:3⟫⟪k:4⟫照明的话有这些绰绰有余。"
+
+#: scenario5:scenario5_C14DB1E2_E454_472A_BF3A_B29830331278
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5988230e769a40156003b4e5b8ffa93799d1a1296dfc1af424922d3a4bc89bd7
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario5:scenario5_C14DB1E2_E454_472A_BF3A_B29830331278"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario5:scenario5_33D3A22D_B4DC_4B80_8801_AB0802F659DC
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5f30c5309eb09401013c498aa6c142162cf8114dd7d15a31b85e29665710f860
+#. default-sha256: 2143b35fd1498ebbdab25153c715b5aed43f2bafec3e408cdca133e4ac198279
+msgctxt "scenario5:scenario5_33D3A22D_B4DC_4B80_8801_AB0802F659DC"
+msgid ""
+"⟪k:0⟫⟪k:1⟫It is not your place to criticize my lifestyle.⟪k:2⟫⟪k:3⟫If you need light, you are "
+"free to leave."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫所以，⟪k:2⟫不存在你所说的那种情况。⟪k:3⟫其次，如果需要光亮的话，⟪k:4⟫离开这里就是。"
+
+#: scenario5:scenario5_897E09FD_9AC5_4BA2_AF34_BB611EDFB7A7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5988230e769a40156003b4e5b8ffa93799d1a1296dfc1af424922d3a4bc89bd7
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario5:scenario5_897E09FD_9AC5_4BA2_AF34_BB611EDFB7A7"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario5:scenario5_D2A6802E_5706_4F44_8934_0ACB25669663
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ef1533671514108a8a1dc44e05d30a3aa83db6d6c501d13522854a0ee9785507
+#. default-sha256: 826325f0ab4664852e01df03fd696f01982f8ed762bcf523f4f48be3ad7fc045
+msgctxt "scenario5:scenario5_D2A6802E_5706_4F44_8934_0ACB25669663"
+msgid ""
+"⟪k:0⟫⟪k:1⟫If you are in need of money, help yourself to some of the furniture.⟪k:2⟫⟪k:3⟫There’s a "
+"village not far from here. ⟪k:4⟫Trade it for food,⟪k:5⟫then make your way to a larger town."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫如果是囊中羞涩，⟪k:2⟫将这里的摆设拿去换钱便可。⟪k:3⟫这附近就有村庄。⟪k:4⟫可以在那里兑换"
+"干粮，⟪k:5⟫去到更大的城镇。"
+
+#: scenario5:scenario5_27C43184_40EF_478B_B518_9268C03EBDF4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1bc64479ec22553aa37af221756b5df2d8b1114911bd180813e4c0eb00357069
+#. default-sha256: c6832496e228fe3a583a5b526a433d80d7d35cd711721fea081f756b7f1a120b
+msgctxt "scenario5:scenario5_27C43184_40EF_478B_B518_9268C03EBDF4"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫I am no longer able... ⟪k:3⟫to freely return to the city.⟪k:4⟫⟪k:5⟫I cannot go "
+"back there."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫我……⟪k:3⟫已经无法自由出入城街了。⟪k:4⟫⟪k:5⟫已经回不去了……"
+
+#: scenario5:scenario5_58AE72A2_36C9_4F03_B242_05107F289E5C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7077ab3fbd40676afaaacaa3dc9bc6cc672466e2a059fccdaeddf8a90f782996
+#. default-sha256: 3ff4f769f277f3ca7e9a737e43653954017c4ff6ce08b9dc9ad8216c69e5a6c9
+msgctxt "scenario5:scenario5_58AE72A2_36C9_4F03_B242_05107F289E5C"
+msgid "⟪k:0⟫Please... ⟪k:1⟫don’t chase me out."
+msgstr "⟪k:0⟫拜托了……⟪k:1⟫请不要赶我走。"
+
+#: scenario5:scenario5_781F5710_B119_4FB1_A6E4_C4B5783640E1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c0dbd8ec7284d9cbd29135ab2954ed0f239ba9db735483b20841ff7bb55a28ff
+#. default-sha256: 6acd0ff8a216f6b9177e6ad878e4b3118cf11b596b1ee5db2e00e9d234551ad1
+msgctxt "scenario5:scenario5_781F5710_B119_4FB1_A6E4_C4B5783640E1"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………"
+
+#: scenario5:scenario5_C583FD9D_B4EF_44DF_862B_555389A89ADC
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4f622ceecbc748d9235666bc0a49e84e521ba564686186012a6138b3874710e5
+#. default-sha256: 7ddb322d707c221b9edb9453b01cae5547482e3c4582dfe6d34a2aba04c353d6
+msgctxt "scenario5:scenario5_C583FD9D_B4EF_44DF_862B_555389A89ADC"
+msgid ""
+"⟪k:0⟫⟪k:1⟫I see...⟪k:2⟫⟪k:3⟫And do you ask this of me aware of how people refer to this mansion?"
+msgstr "⟪k:0⟫⟪k:1⟫是吗……⟪k:2⟫⟪k:3⟫……你是知道外人是怎么称呼这座馆，⟪k:4⟫才这么说的吗？"
+
+#: scenario5:scenario5_6251DD16_6A3D_40E8_BBA5_6413FCB19440
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c689f6b86ad0173c82bf1b3dbaf7b505fd286b140ca94261154f8b2e865477ca
+#. default-sha256: 8731d60c1000b1a2ac14cb4473a7293b4cb2c7d1be271a290d1e4ae77480ea6a
+msgctxt "scenario5:scenario5_6251DD16_6A3D_40E8_BBA5_6413FCB19440"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............⟪k:3⟫⟪k:4⟫They say... ⟪k:5⟫that a witch lives here."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………⟪k:3⟫⟪k:4⟫我听说，⟪k:5⟫这座馆里……⟪k:6⟫住着一位魔女。"
+
+#: scenario5:scenario5_38211F74_E243_4043_A447_1C1275ECFCE0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cd3e95f19ccda8f1a6ef2af4c2a88df43bc28d04ac4b66d55dbbaa76828cb013
+#. default-sha256: 159b1b906aed0fdfb0b69df5a875cea73d08d2f2fcab11ff1a0a637e6aac66c9
+msgctxt "scenario5:scenario5_38211F74_E243_4043_A447_1C1275ECFCE0"
+msgid "⟪k:0⟫⟪k:1⟫Not ⟪k:2⟫merely⟪k:3⟫ a witch."
+msgstr "⟪k:0⟫⟪k:1⟫并不只是魔女而已。⟪k:2⟫"
+
+#: scenario5:scenario5_6276AF2E_4913_4652_B2A8_E0BE4D694C87
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b29784a9a95eeafffeae9aceeedc69a0a5645ecae5d34fa648a4607ca5705bc0
+#. default-sha256: 00b69154a26ca4a77fa351cfccd6aa3793d9600fabe469df9b777ae56e26630a
+msgctxt "scenario5:scenario5_6276AF2E_4913_4652_B2A8_E0BE4D694C87"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫A cursed witch."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫……还是受到诅咒的魔女……"
+
+#: scenario5:scenario5_A4D55CEB_B8D0_4BEF_A3DB_97661C18930B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: bc0184fe34a82cdd747104e75c8a39fbfe5897772a4459363841456d4a7783c8
+#. default-sha256: e8e0078f57d30b04ee7d8c530696e850ecbfe762fe9c4eb82e7d5d8b6509dd90
+msgctxt "scenario5:scenario5_A4D55CEB_B8D0_4BEF_A3DB_97661C18930B"
+msgid "⟪k:0⟫⟪k:1⟫If you remain here, you too shall likely suffer your own destruction."
+msgstr "⟪k:0⟫⟪k:1⟫……留在这里的话，⟪k:2⟫⟪k:3⟫你也难逃灭顶之灾。"
+
+#: scenario5:scenario5_A4747988_5F37_4071_A77B_F4C3EDDC14F8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 078d370ff09918a0f582067fb2c91bd5d1f24e2d495f38bb54f37a78089fdf21
+#. default-sha256: 4d0ab49d399031ef7442766e23e5ed10518263df775596e0c4806a56f17f0576
+msgctxt "scenario5:scenario5_A4747988_5F37_4071_A77B_F4C3EDDC14F8"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫You’re worried for my well-being?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫……您是在担心我吗？"
+
+#: scenario5:scenario5_8D6B5A81_FFAF_4BD7_A5FE_9F6C62CC1E56
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c0dbd8ec7284d9cbd29135ab2954ed0f239ba9db735483b20841ff7bb55a28ff
+#. default-sha256: 6acd0ff8a216f6b9177e6ad878e4b3118cf11b596b1ee5db2e00e9d234551ad1
+msgctxt "scenario5:scenario5_8D6B5A81_FFAF_4BD7_A5FE_9F6C62CC1E56"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………"
+
+#: scenario5:scenario5_904FB1A6_AC81_4024_80C2_973FE6962C5F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a4f8cafc0b18e17ac7441ec9e492792c3654f85f8b080e7ef5de58727527e113
+#. default-sha256: 7f00e18657324aafc34c61506cee5bb8de96c903ba124eb3aa2a35b54f5753b3
+msgctxt "scenario5:scenario5_904FB1A6_AC81_4024_80C2_973FE6962C5F"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Witch or not, my mind is made up."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫……即使有魔女……我也绝不会改变主意。"
+
+#: scenario5:scenario5_2F0E589C_2B35_436C_9939_CEAA77226EBF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 53e2a3abb038fcef041f270bf151a95f1e3367167693616cd9c4c98aae9c6f48
+#. default-sha256: c31cba9ff5271ee68ed30f30b19520e69d194d71d777c2d5977a177a75ae879f
+msgctxt "scenario5:scenario5_2F0E589C_2B35_436C_9939_CEAA77226EBF"
+msgid ""
+"⟪k:0⟫I was sent to this cursed witch’s mansion to atone for my transgressions back in the city."
+msgstr "⟪k:0⟫「居住着魔女的诅咒之馆」——⟪k:1⟫我之所以会在这里，⟪k:2⟫是为了偿清我在城里所犯下的罪孽。"
+
+#: scenario5:scenario5_C0FC5164_76CF_4DCE_BEC8_B0423303972A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6ec3461c3e7860ae7388dee9cf45872c96b4f98c019a93aef31bf46ca517038e
+#. default-sha256: bcabdfb6851ebe2105b4aaa005ff95312d100c42eec0fbcb3c7236b54e05089a
+msgctxt "scenario5:scenario5_C0FC5164_76CF_4DCE_BEC8_B0423303972A"
+msgid "⟪k:0⟫It didn’t matter what lived here; ⟪k:1⟫I had no choice."
+msgstr "⟪k:0⟫除此之外，⟪k:1⟫我已别无选择。"
+
+#: scenario5:scenario5_E90A6154_FCF0_4E56_A0EB_118F5F23A02E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4a77a6989b7b01479c2bae96a9f36e139df1616caf6070e4faeccc2f15eb9080
+#. default-sha256: 02f7a3c2c9edc698de3431c2e01aa12a9880c4bd07185ca105ab9ddd0de05d28
+msgctxt "scenario5:scenario5_E90A6154_FCF0_4E56_A0EB_118F5F23A02E"
+msgid "⟪k:0⟫⟪k:1⟫Which will strike you first, I wonder—⟪k:2⟫⟪k:3⟫regret, or the curse?"
+msgstr "⟪k:0⟫⟪k:1⟫我看是你先后悔，⟪k:2⟫还是先被诅咒……"
+
+#: scenario5:scenario5_3A0283D8_AB1A_46B4_BA2A_F90826F09965
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c51c6edf26192ed1a7f7e276e87809972d7869b29cf3beefb489cc849a8ef082
+#. default-sha256: cd32627697a6a1f7e7b77d75b7d40db8a75360b346c5d5098a0f36a4cd127521
+msgctxt "scenario5:scenario5_3A0283D8_AB1A_46B4_BA2A_F90826F09965"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫You seem to be doing just fine.⟪k:3⟫⟪k:4⟫It’s only a tale..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫但是——⟪k:3⟫您不是也好好地活在这里吗？⟪k:4⟫⟪k:5⟫所以那一定是谣言吧……"
+
+#: scenario5:scenario5_686865BC_F584_41AF_BB00_20225D81ADE9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3c4574013495d466699d3a2a00d14647365611e6c518542a4b4ffdef1227fc79
+#. default-sha256: 192f34c841e23d8b4e17a58e460822e970607f17fcd2ebc5f5d67527d09b8085
+msgctxt "scenario5:scenario5_686865BC_F584_41AF_BB00_20225D81ADE9"
+msgid "⟪k:0⟫⟪k:1⟫The witch is real. Very much so.⟪k:2⟫⟪k:3⟫It is not a legend, nor a fairy tale."
+msgstr "⟪k:0⟫⟪k:1⟫魔女是存在的。⟪k:2⟫确实存在着。⟪k:3⟫既不是民间传说也不是童话。"
+
+#: scenario5:scenario5_DAC5EF52_914F_4D6C_943B_531E6ADE67B0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5988230e769a40156003b4e5b8ffa93799d1a1296dfc1af424922d3a4bc89bd7
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario5:scenario5_DAC5EF52_914F_4D6C_943B_531E6ADE67B0"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario5:scenario5_605587E5_489A_4B08_953A_4254219A8D56
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 51cc70112297f164c50b301d6fb303d26aa73d5645232b009fea8047d29da352
+#. default-sha256: cb8b5fc5af5730a0eecc58c6cf32303c1756eb9860de25aba5e4366870dd3780
+msgctxt "scenario5:scenario5_605587E5_489A_4B08_953A_4254219A8D56"
+msgid "⟪k:0⟫⟪k:1⟫The witch—"
+msgstr "⟪k:0⟫⟪k:1⟫那个魔女——"
+
+#: scenario5:scenario5_62288547_9019_4C22_BFF8_235F93B5D6F4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3e1e6751e3381d978d349779bfa01163ffcd20b146dd0b6ecc40b064a8c3fbf6
+#. default-sha256: 3e4595c9104d972d0e597e68652cc2b19828ac4b3cfec49f908733c6dcf0873e
+msgctxt "scenario5:scenario5_62288547_9019_4C22_BFF8_235F93B5D6F4"
+msgid "⟪k:0⟫The witch’s name was Morgana."
+msgstr "⟪k:0⟫那个魔女——名为莫尔加娜。"
+
+#: scenario5:scenario5_1A05B1B1_CB4C_4F07_B407_599DEDEDCFFE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f70fa8e3c045b96ee5b342f7f2177884db3a79f281323b5ecabb8aec36046467
+#. default-sha256: 884baa841f144cf14da8fab84e9394e901d522590b72adbd0314cb248b786bc2
+msgctxt "scenario5:scenario5_1A05B1B1_CB4C_4F07_B407_599DEDEDCFFE"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫—is me."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫就是我。"
+
+#: scenario5:scenario5_AB4E0F20_C04B_4672_9696_145FE7829F07
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0a939ef1622ee866a4a4fc7ba270dff793dcb8e6037083aa2db17bd59fc85b1f
+#. default-sha256: 723b1b63d6a1f8788f7c7a79318eedc4eb85b0e5be3e3f2cfab21fab4773bc6d
+msgctxt "scenario5:scenario5_AB4E0F20_C04B_4672_9696_145FE7829F07"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫Yes,"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫没错……"
+
+#: scenario5:scenario5_FC2142E6_014A_4935_A6C3_1ECAC8EA212D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a0f780ffe665ddc5c52473208daa34fd382f20ef37a95f95006d5696d8f08e37
+#. default-sha256: ed277f24b62dc4aa05f6ea7fe60ddae91b2f399c3e77741106fdb8999c93e44c
+msgctxt "scenario5:scenario5_FC2142E6_014A_4935_A6C3_1ECAC8EA212D"
+msgid "⟪k:0⟫⟪k:1⟫that was our first encounter."
+msgstr "⟪k:0⟫⟪k:1⟫这就是我们的初次相遇。"
+
+#: scenario5:scenario5_683BDF07_0156_4F38_BAB6_E37F87FB1196
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2e46d0f93835119304ab9a56b48882e02d12f981f473030e9a6f971dc3fc5ad8
+#. default-sha256: 90d061f0001ffe222fb7069378ca12fb7e38385ceab2964f51166b541b68da05
+msgctxt "scenario5:scenario5_683BDF07_0156_4F38_BAB6_E37F87FB1196"
+msgid "⟪k:0⟫⟪k:1⟫It was nothing flowery or dramatic;"
+msgstr "⟪k:0⟫⟪k:1⟫并没有什么戏剧性的展开——"
+
+#: scenario5:scenario5_1A7E7F8C_C5F3_47F6_8349_35F9EC992A9B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: bc38495b76fc1d472929af7799192a264350ad6372bb7eef1e1f3d0e8ddc2873
+#. default-sha256: a83af5a9b9119183746d9b71116569cd014d0dd7509fc43415a6b2f46f7f6c49
+msgctxt "scenario5:scenario5_1A7E7F8C_C5F3_47F6_8349_35F9EC992A9B"
+msgid "⟪k:0⟫⟪k:1⟫it was, rather, laced with suspicion and wariness."
+msgstr "⟪k:0⟫⟪k:1⟫反而，是充满了猜忌和怀疑的开始。"
+
+#: scenario5:scenario5_7B3B605D_9161_4427_92C6_609CF4DB8E1C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5a6340886ab9f859d70629b7fe3ea4f4711c7ff61d6ab1d86533b816e137eb50
+#. default-sha256: 57a9cddc55922e6d106e41a709e352cc4aea8ef9557ca50dc48bcccfc4a06357
+msgctxt "scenario5:scenario5_7B3B605D_9161_4427_92C6_609CF4DB8E1C"
+msgid "⟪k:0⟫⟪k:1⟫We knew nothing about one another,"
+msgstr "⟪k:0⟫⟪k:1⟫彼此之间心意不通，"
+
+#: scenario5:scenario5_03FFCC9D_E488_4CE8_96F6_29F99FD494B0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4a22f758008066d5727e40f3d62fca8be4147ce1cb6186a76ede58c1c02897a5
+#. default-sha256: 3fb51dbd5cfaf9053ce393c0e1dc08acd1d355c6a487cc010270ebe0ed668e8c
+msgctxt "scenario5:scenario5_03FFCC9D_E488_4CE8_96F6_29F99FD494B0"
+msgid "⟪k:0⟫⟪k:1⟫and I had no interest in changing that."
+msgstr "⟪k:0⟫⟪k:1⟫也没有互相接近的打算。"
+
+#: scenario5:scenario5_A66D31A5_14F2_4CCF_9210_729856744CDC
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 79e28adf1cf914912eaa23955b58fc0b3edfcfcc196f134d2b144295b664a11a
+#. default-sha256: a0533525aeeedf9ab0caaf2145b6032b833c6f9372941f763b14dc5aef2d4436
+msgctxt "scenario5:scenario5_A66D31A5_14F2_4CCF_9210_729856744CDC"
+msgid "⟪k:0⟫⟪k:1⟫But nonetheless,"
+msgstr "⟪k:0⟫⟪k:1⟫但，一切正是从这里……"
+
+#: scenario5:scenario5_B75B6AD8_DAA2_4E1C_B118_96481FB34AB2
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3b0ce197186d248261702d498c27a1bba6728ee710fc7391327bf006d418136f
+#. default-sha256: 5d6bcaa0512093e4084ec4e0f718e883b178b82c966be0f169cb23087c8fe9db
+msgctxt "scenario5:scenario5_B75B6AD8_DAA2_4E1C_B118_96481FB34AB2"
+msgid "⟪k:0⟫⟪k:1⟫that was where it all began."
+msgstr "⟪k:0⟫⟪k:1⟫拉开了序幕。"
+
+#: scenario5:scenario5_00FA3250_370A_4607_A93E_393B36A92986
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9ef2977175732293382f8e65c63d673c790cd161fa84660fcd290b06d5638669
+#. default-sha256: caebceb31e2f5ecf03547f4373ff3d1769b2f69dbe0d4d7170095bffc0d3024c
+msgctxt "scenario5:scenario5_00FA3250_370A_4607_A93E_393B36A92986"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Where my history with ⟪k:3⟫her⟪k:4⟫ commenced.⟪k:5⟫"
+msgstr "⟪k:0⟫⟪k:1⟫这就是——关于我，和「她」的真实。"
+
+#: scenario5:scenario5_CBD323DC_FB32_408B_BC92_F4D86CEB8F71
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1393b55e297d2f238c54ea64f21f1c818878b04e9dd663691f3921092d20021d
+#. default-sha256: 3260d4d37d6f9cb335def4950260c07d3f4d07ecd4433eccc19db4a492b04f2d
+msgctxt "scenario5:scenario5_CBD323DC_FB32_408B_BC92_F4D86CEB8F71"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫The woman had jade eyes."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫她，⟪k:5⟫有一双翡翠色的眼睛。"
+
+#: scenario5:scenario5_7469A69A_D94B_43AD_AF54_2D922F950942
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cd58d6ccd0aebc491d04c8f59706e77de3fe5d0f1671e97b89b8f118a691e725
+#. default-sha256: d0511e2be5cb848b689bd7e510356cd1b630732e3179a1b3c7a5a2ac5bd15b2c
+msgctxt "scenario5:scenario5_7469A69A_D94B_43AD_AF54_2D922F950942"
+msgid ""
+"⟪k:0⟫Open wide, they glimmered like jewels in the light shining through the stained-glass window."
+msgstr ""
+"⟪k:0⟫此刻，⟪k:1⟫光线透过彩色玻璃，⟪k:2⟫映照着她睁开的双眼——⟪k:3⟫⟪k:4⟫如同宝石般，⟪k:5⟫闪闪发亮。"
+
+#: scenario5:scenario5_29179B31_7FC1_4E91_AD7C_78FA0399E0F7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2122488e646b075dd58986164dec32490e3f3d4573e1b269a4a71b45f41c454d
+#. default-sha256: 294de623cbf0f3fdfe7bc9e73196553a806d3c7e3ce64dab86b7d43fc923888d
+msgctxt "scenario5:scenario5_29179B31_7FC1_4E91_AD7C_78FA0399E0F7"
+msgid "⟪k:0⟫She seemed to be at a loss for words."
+msgstr "⟪k:0⟫眼前的女性，⟪k:1⟫正因为我的话而哑口无言。"
+
+#: scenario5:scenario5_EE8F423E_5CCE_4341_9E56_70621A0830CE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 896653dad3e60554a36d21b9fc6fc43c4dd1b7c92c314b1da5949f4e85ebaaf2
+#. default-sha256: dbc648c3ef0d7c9ae45768da84af26b5f43d9c25935aa9b586998d97f9353bbc
+msgctxt "scenario5:scenario5_EE8F423E_5CCE_4341_9E56_70621A0830CE"
+msgid "⟪k:0⟫I wasn’t lying, per se."
+msgstr "⟪k:0⟫……但如我所言，⟪k:1⟫那并非是什么妄语。"
+
+#: scenario5:scenario5_440B61B2_68AE_44CE_ACF4_F6BBC8351F2E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0286c799b15cc89588a951f5319f7f0a9bd8100ed817aafc70500ad8534fad03
+#. default-sha256: ab648344648f0ca7acb8a3fd0854a1f15b79d6e11e635e779c21e272e7c4a550
+msgctxt "scenario5:scenario5_440B61B2_68AE_44CE_ACF4_F6BBC8351F2E"
+msgid "⟪k:0⟫The rumors said a witch lived in this house,"
+msgstr "⟪k:0⟫这座馆里本身就有魔女作祟的传闻。"
+
+#: scenario5:scenario5_228E8381_0F6B_41F1_B02D_9D6E82261DF0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1feef80e6b1af188f2fc94ca1d760dc324ced0fb281d945b65746d713e665524
+#. default-sha256: c62f98b4974ce297c4d828fe6666cfbf619a2be7190743330c6a8f7e484be493
+msgctxt "scenario5:scenario5_228E8381_0F6B_41F1_B02D_9D6E82261DF0"
+msgid ""
+"⟪k:0⟫and I was the only one who filled that criteria.⟪k:1⟫⟪k:2⟫Thus, said rumors could be "
+"interpreted to be talking about me."
+msgstr ""
+"⟪k:0⟫而目前居住在馆里的仅我一人——⟪k:1⟫⟪k:2⟫如此推断的话。⟪k:3⟫传闻中「魔女」的名号，自然就落在了我"
+"身上。"
+
+#: scenario5:scenario5_3F4A07D3_0FCC_4175_967A_E123305A792C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 34a0dc7f45d9b913f9d972fafd9ea983f39d8aadc0f1b9393af9b39a71f53126
+#. default-sha256: f7bcd52b0c121047027324b49ddefa0e28c8969fc05518b0fc44223283e45933
+msgctxt "scenario5:scenario5_3F4A07D3_0FCC_4175_967A_E123305A792C"
+msgid ""
+"⟪k:0⟫After staring at me dumbfounded for a few moments, the woman suddenly burst into laughter."
+msgstr "⟪k:0⟫她在原地发愣许久后——突然展颜而笑。"
+
+#: scenario5:scenario5_BBEA34F6_62DC_4875_8612_FC25775E8344
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 60b67acb47977154683ad8dde8bb19cc4d2063ab9344f73a11a387eb4d701f4c
+#. default-sha256: be5df919060994e41ddebadf8eb3cd087a906a058c633195362a107a7e6a88be
+msgctxt "scenario5:scenario5_BBEA34F6_62DC_4875_8612_FC25775E8344"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫Pffft, oh wow! Hahaha!⟪k:3⟫⟪k:4⟫Here I was thinking you were kind of scary,⟪k:5⟫"
+"and it turns out you’re actually quite funny."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫讨厌啦……呵呵……！⟪k:3⟫我还以为是什么可怕的人呢，⟪k:4⟫原来您这么风趣。"
+
+#: scenario5:scenario5_59F62F5F_0762_4D89_BD5D_698F22B36DC1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 521492e9fea1a8b79abaa9faa3467ff937a05385e207c297ce8679313d568df0
+#. default-sha256: ee0457f9b421df98ba105e8fd8af7f81e658cfc13473e27b36da704360a02979
+msgctxt "scenario5:scenario5_59F62F5F_0762_4D89_BD5D_698F22B36DC1"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫...What?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫什么………？"
+
+#: scenario5:scenario5_DDF3CA83_F2BE_424A_8E44_07C8BFDE5C3B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a2599c0630a6260caae4ab3ec32735a69ed90d810e58ad938ab27f3a0427791d
+#. default-sha256: 5680294d56c6208d175111ce913d01ac9a080c698eb17d65567b42179ed69b99
+msgctxt "scenario5:scenario5_DDF3CA83_F2BE_424A_8E44_07C8BFDE5C3B"
+msgid ""
+"⟪k:0⟫⟪k:1⟫I never would have guessed you were someone to tell such a ridiculous joke with a "
+"straight face."
+msgstr "⟪k:0⟫⟪k:1⟫还一本正经地开玩笑，⟪k:2⟫差一点就唬倒我了。"
+
+#: scenario5:scenario5_983FEFA4_73E6_4BC7_8BE5_0BFC310E13F5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5d530174fdff559c25b580542aa4926e8fc3adc0bf54dd715d1b8116f4128e2e
+#. default-sha256: 42a5f5955daa253eed6bca1d921f3fb1221e3538eabb613e567637cb6142b1a3
+msgctxt "scenario5:scenario5_983FEFA4_73E6_4BC7_8BE5_0BFC310E13F5"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫I wasn’t—"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫并不是开玩……"
+
+#: scenario5:scenario5_B62D35AD_764F_4BBA_AB7E_91F843EF40D3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3afe092e6b48ebf0d94bf23d756476fff215ef01a955f5bcc12ec956c8069e18
+#. default-sha256: b6181f91052d08ad6a6b0b39148d0e2035586a78aae0501558c767ec0a91ee00
+msgctxt "scenario5:scenario5_B62D35AD_764F_4BBA_AB7E_91F843EF40D3"
+msgid ""
+"⟪k:0⟫⟪k:1⟫You don’t look at all like a witch.⟪k:2⟫⟪k:3⟫I mean, it’s dark, and I can’t really "
+"see..."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫您怎么看，⟪k:2⟫也不可能是魔女。⟪k:3⟫虽说这里昏天黑地的，⟪k:4⟫看不太清——⟪k:5⟫不过——"
+
+#: scenario5:scenario5_D81A690E_8DC1_43BE_9331_193DEE159DAA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a3ad1a875e19b371a0fabf173ce91b8f46c5d11cc1a8b58dff0755cfde0f3dbb
+#. default-sha256: 5cf7811954d91e4abdcc01dc0f04e93a6cb3f3951d4ec837b7bce2ffe7f09100
+msgctxt "scenario5:scenario5_D81A690E_8DC1_43BE_9331_193DEE159DAA"
+msgid "⟪k:0⟫⟪k:1⟫but you seem to me like a rather handsome man."
+msgstr "⟪k:0⟫⟪k:1⟫您不管怎么看都是男性啊？"
+
+#: scenario5:scenario5_92A3BECD_A442_497A_AD0A_84B4DF8A89E8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ea13224e9961fc10769e58566580aa5b4bca5a2e0016af241668b7489cbe752e
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario5:scenario5_92A3BECD_A442_497A_AD0A_84B4DF8A89E8"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario5:scenario5_E86F7993_1B3C_4D79_AEAE_F79D77A70C3D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6268fe3fafe950457c7f001ac2e1f327efabf8d2bd20d9b7b3f1fd7c764c37c4
+#. default-sha256: 3e3ddf46f83a3ec72ed7a47aec2b3003a2d8329c66b0f186ae6e6e6497104831
+msgctxt "scenario5:scenario5_E86F7993_1B3C_4D79_AEAE_F79D77A70C3D"
+msgid "⟪k:0⟫The word “witch”..."
+msgstr "⟪k:0⟫魔女这一词是……"
+
+#: scenario5:scenario5_5845C7CD_BAAE_42D6_941C_9D715D43E8ED
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5c6da79d47ff2689d442283ca7fe8d8c129178e18c08847a96d28c987b848d8c
+#. default-sha256: f696193e91d3998eeb3ba8924c4588abcf6e365e79caf07f0ac8ad2996baf864
+msgctxt "scenario5:scenario5_5845C7CD_BAAE_42D6_941C_9D715D43E8ED"
+msgid "⟪k:0⟫The word “witch” has broader meaning than just a woman who practices magic."
+msgstr "⟪k:0⟫所谓「魔女」，⟪k:1⟫指代的是更广的范围。⟪k:2⟫不仅限于女性——"
+
+#: scenario5:scenario5_E4D0F72D_D74F_450D_B86D_D34A3E7ED4F5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d65a14859ba6aa2cfbd96ce1a1ce50e45e5b4e86684a95669f4e5f3bab54f7a7
+#. default-sha256: 7d6905d74b9ca19bbbb9d10c788b9fdae5a5c9a44ce2cd48eb547347fdca8112
+msgctxt "scenario5:scenario5_E4D0F72D_D74F_450D_B86D_D34A3E7ED4F5"
+msgid "⟪k:0⟫Any unholy person with cursed powers, man or woman, can be considered a witch."
+msgstr ""
+"⟪k:0⟫就算是男性，⟪k:1⟫只要拥有受诅咒之力的话，⟪k:2⟫也会被视作邪恶的存在而被冠以「魔女」之称。"
+
+#: scenario5:scenario5_6390C02F_3DCF_4ED9_B569_3650D3DC8358
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 769e7b3c2b44f2ca228ea541d5c24d95ef86d83d6a55b5e4bf999c7a1414b4c9
+#. default-sha256: 1723497cf6ba3eb6c4379f38c0594ffa51c91fafb8d9c31a9b61f76667f3dfab
+msgctxt "scenario5:scenario5_6390C02F_3DCF_4ED9_B569_3650D3DC8358"
+msgid ""
+"⟪k:0⟫⟪k:1⟫I think I get what you’re trying to say, but my mental image of a “witch” is definitely "
+"more a woman."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫我大概明白您想说什么。⟪k:2⟫但是——说到「魔女」的话，⟪k:3⟫果然还是比较偏向女性的词汇呢。"
+
+#: scenario5:scenario5_98D1C289_7B96_4922_930F_AC53DD668EA1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 174247dca28d2abcc0967e1d5ca1b0107ba1d34fd4563b577235d153a0918e31
+#. default-sha256: c68bd977187762c64443281a8021f2ae9515dec096db9c888a8f12c30d79de65
+msgctxt "scenario5:scenario5_98D1C289_7B96_4922_930F_AC53DD668EA1"
+msgid "⟪k:0⟫⟪k:1⟫So you’re not a witch!"
+msgstr "⟪k:0⟫⟪k:1⟫所以您肯定不是魔女啦！"
+
+#: scenario5:scenario5_3F118693_F701_4D54_9E9F_ADBC13D3759D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ea13224e9961fc10769e58566580aa5b4bca5a2e0016af241668b7489cbe752e
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario5:scenario5_3F118693_F701_4D54_9E9F_ADBC13D3759D"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario5:scenario5_8E3A03E9_3BEB_4043_BFD9_051133CE0B24
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 904eb5c9bc33324535b09ee35660565c2613a2ae69e408fced5d21333fe27cdd
+#. default-sha256: b98af01cacc2a518f4291f25521f953ac4e225f0ca8af42cb6f70dba10cb77b8
+msgctxt "scenario5:scenario5_8E3A03E9_3BEB_4043_BFD9_051133CE0B24"
+msgid ""
+"⟪k:0⟫⟪k:1⟫To tell you the truth, I didn’t know who might be here, which had me rather scared..."
+msgstr "⟪k:0⟫⟪k:1⟫虽说对您完全不了解，⟪k:2⟫⟪k:3⟫甚至还有些敬畏，但是……"
+
+#: scenario5:scenario5_FDD98E2D_1F9E_4C39_B960_69BC119A0708
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6e492b0c6814de03abd44b869594d2558dcb7d647d5db1221e76758fcf9a3429
+#. default-sha256: 924ac1fef4ed6f089fa566ccabf9007bb66214ce6bd6c5a8e5401428da7c41c6
+msgctxt "scenario5:scenario5_FDD98E2D_1F9E_4C39_B960_69BC119A0708"
+msgid "⟪k:0⟫⟪k:1⟫but I think I can make this work."
+msgstr "⟪k:0⟫⟪k:1⟫我现在开始觉得我能在这里生活下去了。"
+
+#: scenario5:scenario5_AFDA1EC9_10D9_4CB1_A206_CF749B6E56AF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 002790043810ab0203fcb22103019eef818b547d3e8334c83f6cac0225bb2205
+#. default-sha256: 2e9980fe7150ed3fe90d85a380ccc4b542f782d7b1d5aa705eb382eb61552de4
+msgctxt "scenario5:scenario5_AFDA1EC9_10D9_4CB1_A206_CF749B6E56AF"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫What do you—"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫你是说………"
+
+#: scenario5:scenario5_E110749A_4F05_4F5A_8C5D_08299C6195B3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1ab6608f17f077535b8b56755271ab7d0c38edbaee24614a0979e5593673710d
+#. default-sha256: 47eb4a10decf5724ec83749d535fd83c4a4e470404e0547891d04e7cd9891cb5
+msgctxt "scenario5:scenario5_E110749A_4F05_4F5A_8C5D_08299C6195B3"
+msgid "⟪k:0⟫⟪k:1⟫It’s a pleasure to meet you, Master."
+msgstr "⟪k:0⟫⟪k:1⟫从今往后——请多多关照，⟪k:2⟫老爷。"
+
+#: scenario5:scenario5_3BF45827_461E_4FA1_B7F6_EBEC3134702D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5b67d617e42f4804bd60be237bb2fc2ed81daaf397211b80236631a613f326f4
+#. default-sha256: 1e0fa934750b07b14a3010afd5996e6722d571dc83e420c8c83b531abc0220c4
+msgctxt "scenario5:scenario5_3BF45827_461E_4FA1_B7F6_EBEC3134702D"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Mas...⟪k:3⟫ter?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫老……爷……？"
+
+#: scenario5:scenario5_AB3DD814_BBA2_412A_8AE1_DD350587545E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a5d7a831ecae902decc95f809ac7430bbae8438ce8030d238df107c4033831a6
+#. default-sha256: 34043e3b8263b6d36676cfbedefacfa15e97ef1e320ca8ec8abb02b61d5be8ca
+msgctxt "scenario5:scenario5_AB3DD814_BBA2_412A_8AE1_DD350587545E"
+msgid ""
+"⟪k:0⟫⟪k:1⟫I was sent here from your old home.⟪k:2⟫⟪k:3⟫I was an abigail for your mother, but, "
+"⟪k:4⟫uh...⟪k:5⟫⟪k:6⟫⟪k:7⟫Well, I might have made a little goof."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫我是从您本家被送到这里的。⟪k:2⟫我过去曾是夫人的侍女，⟪k:3⟫然后嘛……⟪k:4⟫⟪k:5⟫哎呀，⟪k:6⟫"
+"做了许多不该做的事。"
+
+#: scenario5:scenario5_59CD045D_3C1F_4AE4_AE2C_745D7F325E0D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fdc7cb37ede687b06173e546969263f97531f38120e971ba5875428bd7512e11
+#. default-sha256: 8bd5a26386b587fafe3c62bc61ce76739a54d068ba64cfbdf0e4d3bfb72a3278
+msgctxt "scenario5:scenario5_59CD045D_3C1F_4AE4_AE2C_745D7F325E0D"
+msgid "⟪k:0⟫I froze the moment the word left her mouth."
+msgstr "⟪k:0⟫——听到她话语的瞬间，⟪k:1⟫我的身体几乎冻成坚冰。"
+
+#: scenario5:scenario5_FB9E0CE1_8F65_46AA_800B_53448C699A1B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6a863fc161811e77b8193c537f7a27f718e546bc90c4bbbca4498404be899c33
+#. default-sha256: ca91ef6401ab9d8e64489f81dcf29d298d4fd73e83ec8420441c8102841fa759
+msgctxt "scenario5:scenario5_FB9E0CE1_8F65_46AA_800B_53448C699A1B"
+msgid ""
+"⟪k:0⟫“Home.” ⟪k:1⟫It rattled around in my skull, shaking up terrible memories that almost brought "
+"me to my knees."
+msgstr ""
+"⟪k:0⟫「本家」——⟪k:1⟫这个词……⟪k:2⟫在我耳边回响。⟪k:3⟫脑海中不祥的回忆，⟪k:4⟫几乎夺去了我的意志。"
+
+#: scenario5:scenario5_E1A052D8_0CBC_4139_A86E_0ACEA8074F95
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: df3508b6a55880825314f1ff2a278ce9ea336efc739a686c64161477491407f7
+#. default-sha256: 7afeb8df41388124b85fd75df915e28a5de0414b3bf26ff3d2716dce2ff2c71c
+msgctxt "scenario5:scenario5_E1A052D8_0CBC_4139_A86E_0ACEA8074F95"
+msgid ""
+"⟪k:0⟫Why, after all these years, were they reaching out to me now? ⟪k:1⟫And not even sending "
+"someone to bring me back. Just sending someone."
+msgstr ""
+"⟪k:0⟫事到如今……又为何……⟪k:1⟫那个家，⟪k:2⟫还打算与我有所关联吗……⟪k:3⟫那么，把我接回去还说得过去——"
+"⟪k:4⟫但为何会遣人过来？"
+
+#: scenario5:scenario5_30274456_A5C3_4B13_A897_D01AE6D63772
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 11b5574807162b789b2cd24e38b9938c7a330aed6ddc8852c45be76642bc6998
+#. default-sha256: 20db6daf77e85408d0c33d2859f91cd3e8cf09da487ef67a31b02d4e65a3cf2f
+msgctxt "scenario5:scenario5_30274456_A5C3_4B13_A897_D01AE6D63772"
+msgid ""
+"⟪k:0⟫To what end? ⟪k:1⟫For what purpose had they shipped an abigail out to this remote mansion?"
+msgstr "⟪k:0⟫为何？⟪k:1⟫这么做的理由是什么？⟪k:2⟫为什么要送一个侍女到如此偏僻的宅邸？"
+
+#: scenario5:scenario5_2CE948B5_B26D_416E_A654_562B179A33F8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 46c02bcac4b5a0d72d7fb8dca908ece915cde0379ff6dcd470ca0e2ab75c026d
+#. default-sha256: 5d69d5b567e96755fd2594b972662b5581ebef67286b0622fc3041039f827cf1
+msgctxt "scenario5:scenario5_2CE948B5_B26D_416E_A654_562B179A33F8"
+msgid "⟪k:0⟫What was my mother thinking?"
+msgstr "⟪k:0⟫母亲——您在考虑什么？"
+
+#: scenario5:scenario5_6E153AD6_D277_4C8C_8470_F2C0C0DD20DD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ffa4f2a28c8ee0f51061e1fe01f1fa5c5605c3ed8b4388f81ac939b2b2843c47
+#. default-sha256: 6473695447775e11ddcb9370beacc9397250ccd849eacc17940b290c0dde9e1a
+msgctxt "scenario5:scenario5_6E153AD6_D277_4C8C_8470_F2C0C0DD20DD"
+msgid "⟪k:0⟫Was this another one of her attempts to break my curse?"
+msgstr "⟪k:0⟫这又是什么「消除诅咒」的对策吗？"
+
+#: scenario5:scenario5_E4033A77_1BCE_484C_A6B9_0FBF66514D11
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8f9b334e4fad29bf111573c89123c30ac7c4d64ca37d4a7b4dbb08dd9b8ef178
+#. default-sha256: 04caad1e94da347d6df1b8cb7770be4bcfe309f34a7bf8a2b972a1a793fb1db7
+msgctxt "scenario5:scenario5_E4033A77_1BCE_484C_A6B9_0FBF66514D11"
+msgid "⟪k:0⟫What do you mean you... ⟪k:1⟫“made a little goof”?"
+msgstr "⟪k:0⟫做了许多不该做的事……⟪k:1⟫是怎么一回事……"
+
+#: scenario5:scenario5_013F24C6_56DA_40BF_97D1_31C394EC8F0D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5ffe132aa1890ae67c7fec726f942edaf3549a1e99bc18b720145ff4a12c526f
+#. default-sha256: 7b796117bd756e9394a92199354f7c2b39cce7010fbb9598eb1127949d590549
+msgctxt "scenario5:scenario5_013F24C6_56DA_40BF_97D1_31C394EC8F0D"
+msgid "⟪k:0⟫My voice came out weak. ⟪k:1⟫I did my best not to let it show on my face."
+msgstr "⟪k:0⟫嗓子几乎发不出声音。⟪k:1⟫为了不露出破绽，⟪k:2⟫勉强装出镇定自若的样子。"
+
+#: scenario5:scenario5_445A35A1_6132_4D21_9FE8_2776BCCDF3DB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: af7ad18547b9606a88731ebc4406a10ba006220eda64c155aba9f7435f941a8b
+#. default-sha256: 13453a260ddf6600af6117d008bf121b7ad34b223beadc01c530fe43988b111d
+msgctxt "scenario5:scenario5_445A35A1_6132_4D21_9FE8_2776BCCDF3DB"
+msgid ""
+"⟪k:0⟫⟪k:1⟫Umm... ⟪k:2⟫it was a teeny-tiny mistake.⟪k:3⟫⟪k:4⟫Nothing you need to concern yourself "
+"with."
+msgstr "⟪k:0⟫⟪k:1⟫呃……⟪k:2⟫的确是稍微犯了点差错。⟪k:3⟫请不要在意这些细枝末节。"
+
+#: scenario5:scenario5_190787C8_2607_4D1A_9EF5_661631F2AB5E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fc3dee6516838d3b075f323d29536a1f920701c293cf4152eb6c231da3d02b89
+#. default-sha256: 6071358260733e6d2abea4244a225f21e1b6bce693a242f46d8549dc6a0fee0f
+msgctxt "scenario5:scenario5_190787C8_2607_4D1A_9EF5_661631F2AB5E"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫What did... ⟪k:3⟫Mother say about me...?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫母亲她……⟪k:3⟫有没有提及我的事……"
+
+#: scenario5:scenario5_44ED00F5_2E20_4063_A8C7_E632F6FC39C9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6e1b012811410aa1efbcb8c2eea2b1efb29772341d5c8e31763c923820b05046
+#. default-sha256: 3914ba687e1727581cb453cfd446df306fba432e2ab7398ad9ee02b6fc4f2d0a
+msgctxt "scenario5:scenario5_44ED00F5_2E20_4063_A8C7_E632F6FC39C9"
+msgid ""
+"⟪k:0⟫⟪k:1⟫Well... ⟪k:2⟫it was actually your father who told me to come here.⟪k:3⟫⟪k:4⟫I never "
+"really spoke to your mother much."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫这个嘛……⟪k:2⟫我会来这边，⟪k:3⟫其实是您父亲的意思。⟪k:4⟫⟪k:5⟫和您的母亲……⟪k:6⟫基本上……"
+"⟪k:7⟫没能搭上话。"
+
+#: scenario5:scenario5_A82DE394_8DE9_401B_B159_71255DC673A3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fbc46f486c2af93dbe4516c83a93ba307ab124858b5abbf17d4b77f180a78864
+#. default-sha256: 51037a16e16146cac644ce8690c9d8616a1fd3564d75a4e13f582aca5192ac81
+msgctxt "scenario5:scenario5_A82DE394_8DE9_401B_B159_71255DC673A3"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Father sent you?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫父亲他………？"
+
+#: scenario5:scenario5_722098D0_6B18_4783_A799_5FCF0544ACF9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0fff87bcfb400016ee86d030315e4384932de55b72c085ae7617c90a88638fca
+#. default-sha256: 9ef0408d19db5641386e8c203f9d408dfcc35ffaf422bb50d93236452b38b59b
+msgctxt "scenario5:scenario5_722098D0_6B18_4783_A799_5FCF0544ACF9"
+msgid ""
+"⟪k:0⟫That made even less sense. ⟪k:1⟫Why would ⟪k:2⟫he⟪k:3⟫ have...? ⟪k:4⟫Did Father even know I "
+"was here?"
+msgstr "⟪k:0⟫越来越叫人困惑了。⟪k:1⟫为何会是父亲？⟪k:2⟫父亲他……⟪k:3⟫已经知道我在这里了？"
+
+#: scenario5:scenario5_C74AB3B7_293D_47EA_8E42_48DAB24A2EE0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3c85ba66049f33253bb08edb8f86cff86dfea50c04377b9958eb9fb066f06c2d
+#. default-sha256: 5876b620eb59bd18f6d58b60ed13ede01918b0fb87ac5e4bb33b2669ca49f005
+msgctxt "scenario5:scenario5_C74AB3B7_293D_47EA_8E42_48DAB24A2EE0"
+msgid "⟪k:0⟫No, if he had known, I would have been..."
+msgstr "⟪k:0⟫不，⟪k:1⟫不可能。⟪k:2⟫如果他知道的话，⟪k:3⟫那我早就……"
+
+#: scenario5:scenario5_4210D874_15EA_4130_9275_C77ADF3ABCC3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 231acd914fd510a8b6166feff4d23f6802a7096de714274adb6f2d6b8469e639
+#. default-sha256: efefc79bc59ab4860d439fccd25939d32608ccd02649b8226793086ded79159d
+msgctxt "scenario5:scenario5_4210D874_15EA_4130_9275_C77ADF3ABCC3"
+msgid "⟪k:0⟫Who ⟪k:1⟫was⟪k:2⟫ this woman?"
+msgstr "⟪k:0⟫………这个女人到底是谁？"
+
+#: scenario5:scenario5_EEF9B9F7_F97A_4A25_ADFF_C349784C5ECB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c48453e843b1a60d1c12cd80a612b86ea0778cc827dc8f65f8433933b1de777c
+#. default-sha256: 81af1cbe148b56932187333de275bc511dd4ddb1f6ad6583d532c0fd237cec0f
+msgctxt "scenario5:scenario5_EEF9B9F7_F97A_4A25_ADFF_C349784C5ECB"
+msgid "⟪k:0⟫And what was her goal in asking to stay here?"
+msgstr "⟪k:0⟫究竟是出于何意，⟪k:1⟫才会要她留在这里？"
+
+#: scenario5:scenario5_5F161F56_6B84_4649_A649_99A28F5828F7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7e75525a40709ca415d7f3c6712194e212a82917613fe1539aa80bf81f3986a6
+#. default-sha256: 2220ee875a4e328d0c79fadd45d6f4a500dc3ee4f3ebea7e3f59c1a511b6a97e
+msgctxt "scenario5:scenario5_5F161F56_6B84_4649_A649_99A28F5828F7"
+msgid ""
+"⟪k:0⟫⟪k:1⟫Well, there you have it. I’ll be here for a while.⟪k:2⟫⟪k:3⟫If you need me for "
+"anything, do not hesitate to ask."
+msgstr "⟪k:0⟫⟪k:1⟫正因为如此，⟪k:2⟫暂时要给您添麻烦了。⟪k:3⟫无论什么事，⟪k:4⟫都请尽管吩咐。"
+
+#: scenario5:scenario5_A4B7C3E3_32CC_4185_8394_425C9D77F376
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: aeb6eeb0225a1ff54d450b7ea3477684d29139b87945597216c5b04e5b5f41b6
+#. default-sha256: 64a872d6fbd1b9bd97376d08de2dcdd86f63a1cd42fc23773cde5804ce35b5fc
+msgctxt "scenario5:scenario5_A4B7C3E3_32CC_4185_8394_425C9D77F376"
+msgid "⟪k:0⟫⟪k:1⟫I’m confident I can handle most everyday tasks."
+msgstr "⟪k:0⟫⟪k:1⟫一般的家务活我都能做。"
+
+#: scenario5:scenario5_9CB50DAA_8E55_4727_8ED7_E14E2CA2753E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 36c9b1714df2327e207e1e5e825641351c205d545f588e16c8c11da45736f48d
+#. default-sha256: aca9918e93f6b64e421361700408d227492f6c1c902001bc13419b17fadf72f5
+msgctxt "scenario5:scenario5_9CB50DAA_8E55_4727_8ED7_E14E2CA2753E"
+msgid ""
+"⟪k:0⟫⟪k:1⟫Now, where should I begin?⟪k:2⟫⟪k:3⟫Oh, I know! Are you hungry, Master? Food.⟪k:4⟫⟪k:5⟫"
+"I can’t imagine you eat much, being as skinny as you are."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫首先从哪里开始呢……？⟪k:2⟫啊！⟪k:3⟫老爷您肚子饿不饿？⟪k:4⟫⟪k:5⟫您看起来怎么这么瘦？⟪k:6⟫"
+"肯定是没好好吃饭吧？"
+
+#: scenario5:scenario5_4208EB36_FFB3_480F_9089_CEC595B3A928
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ea13224e9961fc10769e58566580aa5b4bca5a2e0016af241668b7489cbe752e
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario5:scenario5_4208EB36_FFB3_480F_9089_CEC595B3A928"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario5:scenario5_C7780C3E_9258_43F7_9782_4C396EAEDCDF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b4c04c1c512dcfa4cd8a9e232647b3e1242db02dbac822a04794e283cccd2d25
+#. default-sha256: 8720167d7622800f0073e87c41e8a7b3bfedc965d744d284e1172dcdfaeeedc5
+msgctxt "scenario5:scenario5_C7780C3E_9258_43F7_9782_4C396EAEDCDF"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫I turned my back on her without responding."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫我无视着她的话，⟪k:5⟫准备转身离开。"
+
+#: scenario5:scenario5_6089350A_FFCD_4F76_82CF_07787D59924F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cd077b24693154a858d347e48967210a211c351b38373abf81f492fa21c8f96d
+#. default-sha256: ae14c6107b6ccb634c76673a916232b0631ea74fca1d2cdadfa070ace9c9b365
+msgctxt "scenario5:scenario5_6089350A_FFCD_4F76_82CF_07787D59924F"
+msgid "⟪k:0⟫No matter what her goal was, she had been sent from that house."
+msgstr "⟪k:0⟫不管目的如何，这是从本家送过来的女人。"
+
+#: scenario5:scenario5_0D4C1B40_8F05_4BBC_997C_68D679026F83
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c675d95d4d07c4803e16f877e7710421947c211624594ac719ebe4f242bb60c2
+#. default-sha256: 563110e0739d800ee4ebfe3122de01c2f693bd7a2bd87001a0e7c6c47466b199
+msgctxt "scenario5:scenario5_0D4C1B40_8F05_4BBC_997C_68D679026F83"
+msgid ""
+"⟪k:0⟫There was no way anything good could come of that,⟪k:1⟫and there was no way I could live "
+"with someone who had ties to them."
+msgstr "⟪k:0⟫肯定动机不纯。⟪k:1⟫让我和与那个家有关联的她共处一隅之类的——想都别想。"
+
+#: scenario5:scenario5_56EFE8F9_F145_4ED9_88EB_F2FB65509BB8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c19cfb7b770e1c3512975732b9470fb591bff4824ce868da66a6fff401e219c3
+#. default-sha256: d13b0e2d3edd4a91eadeb9be8e8158a64e7271e60e0e644a552ee05b6e68eb35
+msgctxt "scenario5:scenario5_56EFE8F9_F145_4ED9_88EB_F2FB65509BB8"
+msgid "⟪k:0⟫I prayed she would take the hint, give up, and leave."
+msgstr "⟪k:0⟫真希望她能读懂我的态度，⟪k:1⟫早点死心离开这里。"
+
+#: scenario5:scenario5_F211A547_9B0D_4892_86BF_6671BD01710C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 510c9b40fcdcd6257a4273a16a2a5fa8a3b7f71615a26a3c99666528c9e1b4a7
+#. default-sha256: 3c6e3338b0b4cf1ccdd0deee63238a33626f321cd11077361dc08d3c80a2b07f
+msgctxt "scenario5:scenario5_F211A547_9B0D_4892_86BF_6671BD01710C"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫U-⟪k:3⟫Um, ⟪k:4⟫Master!"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫啊，⟪k:3⟫我说……⟪k:4⟫老爷！老爷！"
+
+#: scenario5:scenario5_05B78CCB_C62F_443C_9783_D46262B52354
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 17ff7313fb18ddd6cdaff343c8b3677a384d27f6cf74966811b70116f81b0a1c
+#. default-sha256: 7b124274da241404e8451233fd2123f494d95e93a535b2da93dfa5869d25e135
+msgctxt "scenario5:scenario5_05B78CCB_C62F_443C_9783_D46262B52354"
+msgid "⟪k:0⟫And so I kept ignoring her."
+msgstr "⟪k:0⟫因此，⟪k:1⟫必须无视她。"
+
+#: scenario5:scenario5_C10D26DF_ABD4_47B6_9B7E_2CE500D7C219
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e97a80a2bbf9f92ed355e599110b2ea592097418975f930182f587be8bcea09a
+#. default-sha256: b16ae9dd101b57af3e8ede888f464199fd85ad9fd08f6306b9ea423401bdebaf
+msgctxt "scenario5:scenario5_C10D26DF_ABD4_47B6_9B7E_2CE500D7C219"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Master! ⟪k:3⟫Master!"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫老爷，⟪k:3⟫老爷您等一下啊！"
+
+#: scenario5:scenario5_CDDDFCFD_EB0C_4F02_9B03_5332DEFCE414
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ae79d9e8e93d9f7822e74ccb2da50b16d8bf2968d611aa6763f7b46e9a9d9c0d
+#. default-sha256: 6c319fc4ba997e5d03fa90128f51bc9d11af329d817f07f04c5049598b4881f1
+msgctxt "scenario5:scenario5_CDDDFCFD_EB0C_4F02_9B03_5332DEFCE414"
+msgid "⟪k:0⟫I ignored—"
+msgstr "⟪k:0⟫无视——"
+
+#: scenario5:scenario5_AA2397ED_B96E_4F37_B3E2_09219C076DF0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d7cce2fa9a667c618170f637085b73e97e8ee8b01ccb96d92ae54b485983ad41
+#. default-sha256: 327ed85add2f80423d245fafd63ab122f05614beb984cd27a8c3c5dae0e2449e
+msgctxt "scenario5:scenario5_AA2397ED_B96E_4F37_B3E2_09219C076DF0"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Master!"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫老爷！"
+
+#: scenario5:scenario5_6F91EE22_D54E_497F_AA84_67CC3E3A210D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 515829890d3a7ba67ae303d4dbd349d25bcf55a8a90b053c22b5e588dd077bc4
+#. default-sha256: 6740ba5abb02b48f9369fdec2e9ec645f82338316c1c981b9d8d257feaa299b7
+msgctxt "scenario5:scenario5_6F91EE22_D54E_497F_AA84_67CC3E3A210D"
+msgid "⟪k:0⟫I ignored her—"
+msgstr "⟪k:0⟫只要保持无视，就——"
+
+#: scenario5:scenario5_8D768036_3F73_4FE2_AC89_943CB558E303
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8eae8ec9d4a440a9c5c4e664873acd1a58c4d6aa4279bcaf38e93ac1523a2439
+#. default-sha256: 81693440a33f385bd4ec93e4b36804d3a7769c991f1f0ab228933e016d104769
+msgctxt "scenario5:scenario5_8D768036_3F73_4FE2_AC89_943CB558E303"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Master! What would you like for supper?!"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫老爷，⟪k:3⟫晚餐的话！"
+
+#: scenario5:scenario5_2BDFDB22_FCAC_49FE_8B15_99FE443E6362
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fb0d0a819819ca3e3dc40e89d0b41c1330720b1b10bdce6e0a8c5db78d3c68d1
+#. default-sha256: 74806fab7a7c052593067400c8088e2780c80eb5cd31761cd16b307d146a467a
+msgctxt "scenario5:scenario5_2BDFDB22_FCAC_49FE_8B15_99FE443E6362"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Nothing!⟪k:4⟫"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫我不需要！"
+
+#: scenario5:scenario5_2DEB142C_F946_40E1_BE4F_A1BBDEB85030
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 63f6fc6b2790ad082069a826c22bf47afc47ca02a50c33d30b64bebdac637842
+#. default-sha256: ed92d62fa3c1d376d7c5c4b4050c42630f4019027db5f09899a0737e640d28d5
+msgctxt "scenario5:scenario5_2DEB142C_F946_40E1_BE4F_A1BBDEB85030"
+msgid "⟪k:0⟫—but failed, spinning back and shouting."
+msgstr "⟪k:0⟫我猛地回过头，⟪k:1⟫冲她如此吼道。⟪k:2⟫——虽然我决定要无视她，但还是失败了。"
+
+#: scenario5:scenario5_499F9B80_7E26_42D0_A3B1_58F914BAC675
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a2a271db068360872bfd2898f9ab34970587cd3e0c9025e595287e70b700cd48
+#. default-sha256: 2a315dbe095a52567ec14cb390dca3cdc938c70011159a166fff4928706be8f1
+msgctxt "scenario5:scenario5_499F9B80_7E26_42D0_A3B1_58F914BAC675"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫Her eyes went wide, and then she gave a sheepish giggle.⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫I "
+"glared at her as she fidgeted uncomfortably."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫她又一脸发愣的样子。⟪k:3⟫不知为何，⟪k:4⟫却略带羞涩地笑了起来。⟪k:5⟫⟪k:6⟫⟪k:7⟫看着她"
+"这扭扭捏捏的样子，⟪k:8⟫我愣住了。"
+
+#: scenario5:scenario5_9D15E559_472D_46F3_9309_F78DC3031C93
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6fe80de4d74c1afe20eee33329abd6778108e70cacd1be734048129048d42c92
+#. default-sha256: 88ef7d16a7ce065a1435633bdf4c97ebc70ecd9a690c49d7fd512ab4a51868d0
+msgctxt "scenario5:scenario5_9D15E559_472D_46F3_9309_F78DC3031C93"
+msgid ""
+"⟪k:0⟫⟪k:1⟫Eating is one of the most basic human needs,⟪k:2⟫so if you’re hungry, you should really "
+"eat!"
+msgstr "⟪k:0⟫⟪k:1⟫毕竟人都有三大欲求嘛，⟪k:2⟫太乱来的话可不好！"
+
+#: scenario5:scenario5_95F4AFA6_AE34_4066_80EC_E8C08A456573
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cff84681ca03f5890757ea717d995f0751eecef47b5296f9dd54aa9608baba1e
+#. default-sha256: f08e38247fa8f8422383aea882093e4435bd3f2113a6a2b8f22526e4e4c9cd5e
+msgctxt "scenario5:scenario5_95F4AFA6_AE34_4066_80EC_E8C08A456573"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫I said I didn’t want..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫所以我都说了不需………"
+
+#: scenario5:scenario5_DE6ED554_000E_4FFF_8432_B7BC9B541545
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 96785ad116bb6331fa2205d85874f5888f79b35c9f10ea23cc5eef55996c14e0
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario5:scenario5_DE6ED554_000E_4FFF_8432_B7BC9B541545"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario5:scenario5_7C7C80F5_39DE_4189_B225_4371F339D6C6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8d304e087b9797bb41e93756766101590ab7d05ff5e2b79b9b8624f7b2ebce91
+#. default-sha256: 595ac99346eb37f5b77b3b660dea951b3e9784813f2f29c09ba8c5c048add5b1
+msgctxt "scenario5:scenario5_7C7C80F5_39DE_4189_B225_4371F339D6C6"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫What was that sound?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫刚才那个声音是什么……"
+
+#: scenario5:scenario5_FD3B7417_9EF2_484F_8012_BAA64C340342
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: bda53c2bc6b569e52547be68e5899266f4a3d73b9c241f140ba8468df0f27fbe
+#. default-sha256: 0e6ed7c42148da4815ef752a020741f2c5f248d151cdd5efce3acfa0302a1f82
+msgctxt "scenario5:scenario5_FD3B7417_9EF2_484F_8012_BAA64C340342"
+msgid "⟪k:0⟫⟪k:1⟫Must you ask?⟪k:2⟫⟪k:3⟫That’s not a very polite thing to ask a lady, you know."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫讨厌！⟪k:2⟫您不会是听到了吧？⟪k:3⟫⟪k:4⟫对我这样的少女来说，⟪k:5⟫您这样也太缺乏绅士风度"
+"了……"
+
+#: scenario5:scenario5_B509B407_0C2A_4613_835B_D414DC3F1FB5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1361405e326a76c7888ef0b2fb0f2b2de55ca862bbc84a0e4dc145f1dc45e833
+#. default-sha256: c5096c8010a69641139fda3841dd69696365dfbe2e3b033c0da8a69682b40c06
+msgctxt "scenario5:scenario5_B509B407_0C2A_4613_835B_D414DC3F1FB5"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Huh?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫哈………？"
+
+#: scenario5:scenario5_A0FF434D_5928_4294_B0BD_6F72B26786D0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 51c5ee167bf648b4aed527cb76a2e6951e7ef340c9fa9540ea8806efc2186099
+#. default-sha256: eabb0631c87bc648276acf7aa415f2203f5635d1343cceb607160c3ccb079e7f
+msgctxt "scenario5:scenario5_A0FF434D_5928_4294_B0BD_6F72B26786D0"
+msgid ""
+"⟪k:0⟫⟪k:1⟫I, ⟪k:2⟫uh, ⟪k:3⟫you know...⟪k:4⟫⟪k:5⟫It was a long trip... ⟪k:6⟫and all I had to eat "
+"on the road was dried fruit."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫我的意思是……⟪k:2⟫那个……⟪k:3⟫您瞧，⟪k:4⟫我大老远风尘仆仆地来这里。⟪k:5⟫一路上用来垫饥的，"
+"⟪k:6⟫只有些干果而已。"
+
+#: scenario5:scenario5_333A47C7_7761_4C51_9923_1C799253D6B7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 15315828b038f1eb0d273193b21e2fdfce7bb0009b1d2566f2f9731760bdae09
+#. default-sha256: 84329337e6845d9e78c7ef74d613a49817611318f046d989ea12f5cc1cae7a4a
+msgctxt "scenario5:scenario5_333A47C7_7761_4C51_9923_1C799253D6B7"
+msgid "⟪k:0⟫I felt like I was some kind of animal."
+msgstr "⟪k:0⟫总觉得自己都快饿到脱离这个世界了。"
+
+#: scenario5:scenario5_A89EF1C8_4CD4_46C2_8373_4E87E8576333
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ea13224e9961fc10769e58566580aa5b4bca5a2e0016af241668b7489cbe752e
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario5:scenario5_A89EF1C8_4CD4_46C2_8373_4E87E8576333"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario5:scenario5_E2E7C17B_F1BC_4E4D_9172_5A92244404DB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d0cd8fdc94c5c7574502fba83724945a961016699e43eda3950e067802f79eaa
+#. default-sha256: d5deffe37cdee956cbcd8451accfaf16dcbd524dc918d92b50679b72782e8783
+msgctxt "scenario5:scenario5_E2E7C17B_F1BC_4E4D_9172_5A92244404DB"
+msgid ""
+"⟪k:0⟫⟪k:1⟫So, ⟪k:2⟫uh, ⟪k:3⟫what I’m trying to say...⟪k:4⟫⟪k:5⟫is that I’m, ⟪k:6⟫um, ⟪k:7⟫I’m "
+"hungry..."
+msgstr "⟪k:0⟫⟪k:1⟫也就是说啊……⟪k:2⟫呃，⟪k:3⟫我那个，⟪k:4⟫肚子有点饿了……"
+
+#: scenario5:scenario5_FC6BC218_6755_4958_A113_07F6BAE192AA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ea13224e9961fc10769e58566580aa5b4bca5a2e0016af241668b7489cbe752e
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario5:scenario5_FC6BC218_6755_4958_A113_07F6BAE192AA"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario5:scenario5_0D02D66E_6C95_404B_BDAA_E647D9393B0B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5550622abac31484cc38f96e2e394a789941597c2aae59f64b7ef96449065b7b
+#. default-sha256: 77613769014c03ecd1c547625750d0d9baee62dc93bfb213f7768deb94e91601
+msgctxt "scenario5:scenario5_0D02D66E_6C95_404B_BDAA_E647D9393B0B"
+msgid ""
+"⟪k:0⟫(That wasn’t the sound of her stomach growling, was it?⟪k:1⟫⟪k:2⟫I thought lightning had "
+"struck in the distance...)"
+msgstr "⟪k:0⟫（莫非，⟪k:1⟫刚才是她肚子发出的声音……？⟪k:2⟫⟪k:3⟫　我还以为是远处哪里在打雷……）"
+
+#: scenario5:scenario5_605F26BF_2D85_4E88_9C72_BD22A6EAD108
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ca5f5fef485592cdbbfaadf00de9da47b3513acb847a43eccf4d09efd81bec05
+#. default-sha256: ff909268530acd3d5aab2b95d060441ad7c1dfc6a34bf967c8688adfcf68ead2
+msgctxt "scenario5:scenario5_605F26BF_2D85_4E88_9C72_BD22A6EAD108"
+msgid "⟪k:0⟫⟪k:1⟫...and would like some supper..."
+msgstr "⟪k:0⟫⟪k:1⟫所以关于晚餐的事……"
+
+#: scenario5:scenario5_21297ED8_6DCC_454A_AC8E_199372593494
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0897d22e537ed143d4f4f9ec404d82359a25e7dc801b5e8e58b52493a3d98527
+#. default-sha256: f09f991b9574b49070e3b3f32f7a123f97cbbc50e3dac9ec6e2316d52051377e
+msgctxt "scenario5:scenario5_21297ED8_6DCC_454A_AC8E_199372593494"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫The kitchen is at the far end of the hall on the first floor.⟪k:3⟫⟪k:4⟫There’s "
+"food in the cellar."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫厨房的话……⟪k:3⟫穿过一楼走廊……⟪k:4⟫就能找到。⟪k:5⟫⟪k:6⟫仓库则是在地下……"
+
+#: scenario5:scenario5_B1B14062_849E_41B2_B698_5CFFB2026951
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: caf4fe9e42ec9c1c4c9b098603c380e4dd95450ca06c5b8259265b7850b7d2a6
+#. default-sha256: 096f4bebbebcc5bb8f571e21cc4e53570dd9df1429f9edd2e420c379c2390168
+msgctxt "scenario5:scenario5_B1B14062_849E_41B2_B698_5CFFB2026951"
+msgid "⟪k:0⟫Help yourself to any of it."
+msgstr "⟪k:0⟫请随意使用……"
+
+#: scenario5:scenario5_5C09D72F_8797_41FC_8E47_A817DD8E4B9E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 22468c7d0379d0aefc549fe8b2d73d08489b4a3535eb57b22ba77446929b4f09
+#. default-sha256: 0977fd9a914fd158b7c5a058d28286373e8254aab9d6bcf305f52c896fa7b9c1
+msgctxt "scenario5:scenario5_5C09D72F_8797_41FC_8E47_A817DD8E4B9E"
+msgid ""
+"⟪k:0⟫⟪k:1⟫Thank you so much!⟪k:2⟫⟪k:3⟫I honestly feel like I haven’t eaten in days and I’m about "
+"die of starvation."
+msgstr "⟪k:0⟫⟪k:1⟫十分感谢！⟪k:2⟫真的是，⟪k:3⟫都已经好几天没吃东西了……我还以为自己会饿死呢。"
+
+#: scenario5:scenario5_3167FC57_4B41_4E3F_A77B_5F34CFA1B88B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9ba8797ff81f0f6d1695d37c57a8ea729c2f80d74ab7490dcc3d06c29176fd2f
+#. default-sha256: e369e95e8f6397c6a8c7475eaad4cf9c4a1459571352f04bcfe9f67ea8c9f5a9
+msgctxt "scenario5:scenario5_3167FC57_4B41_4E3F_A77B_5F34CFA1B88B"
+msgid ""
+"⟪k:0⟫⟪k:1⟫Oh, and I shouldn’t need any help finding it.⟪k:2⟫⟪k:3⟫I plan on exploring the house "
+"anyway.⟪k:4⟫⟪k:5⟫It’s rather exciting, being in a new place, hehehe."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫啊，⟪k:2⟫具体地点的话就不用您带路啦。⟪k:3⟫我权当探险，一路逛过去就行。⟪k:4⟫⟪k:5⟫来到新的"
+"环境，⟪k:6⟫不知为何就兴奋起来了呢。⟪k:7⟫呵呵。"
+
+#: scenario5:scenario5_0928EE4E_0CAE_40BF_82BF_E1D5F90D7F36
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ea13224e9961fc10769e58566580aa5b4bca5a2e0016af241668b7489cbe752e
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario5:scenario5_0928EE4E_0CAE_40BF_82BF_E1D5F90D7F36"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario5:scenario5_AFA2AF3A_104B_4664_91C2_4395D57A7002
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2d20860cb1fdfe6f7a9ee1e9bb08a2841c67beb5967b6f439a5f45a3bad406b4
+#. default-sha256: 79d82941e478745cd7dc73bbb9cbff4576cc0ab015855f99a42894506d08bfc5
+msgctxt "scenario5:scenario5_AFA2AF3A_104B_4664_91C2_4395D57A7002"
+msgid "⟪k:0⟫(Urgh... ⟪k:1⟫Dammit. That did not go as planned.)"
+msgstr "⟪k:0⟫（…………唉。⟪k:1⟫⟪k:2⟫　真是头疼，⟪k:3⟫步调都被她打乱了……）"
+
+#: scenario5:scenario5_89761A31_BFD3_4284_AFFA_071CC4C1BE5C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 70df350924c230b38ee1d895fdf17f0b34af17bda6cecbfe8513c39c8639fb8c
+#. default-sha256: a0727bd61327a2ee5d81d052e133bcbcc878b50302f0885c5e09acc99400ddc1
+msgctxt "scenario5:scenario5_89761A31_BFD3_4284_AFFA_071CC4C1BE5C"
+msgid "⟪k:0⟫(Oh well. ⟪k:1⟫She can do as she pleases.⟪k:2⟫⟪k:3⟫I’ll have nothing to do with it.)"
+msgstr "⟪k:0⟫（也罢，⟪k:1⟫无妨。⟪k:2⟫就随她去好了。⟪k:3⟫……除此之外都和我无关）"
+
+#: scenario5:scenario5_2F800B55_D031_4244_A2E6_9FE86D31B775
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 82deb7585f7d58948cab397df6a178e6208dd69a93450004097ead2104c7ecf9
+#. default-sha256: 52d7c91c336b6d86c80049086b9e08b1465874354068b42abd26375955b339c3
+msgctxt "scenario5:scenario5_2F800B55_D031_4244_A2E6_9FE86D31B775"
+msgid "⟪k:0⟫⟪k:1⟫Oh, Master! Are you sure you don’t—"
+msgstr "⟪k:0⟫⟪k:1⟫啊，⟪k:2⟫老爷！⟪k:3⟫您的那一份晚餐真的——"
+
+#: scenario5:scenario5_1EE230BA_47A3_4943_9DC0_3F3C5DCCC367
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a7d64e760b428d781076127bb66a614fb3e65969fcac3d0af6d55583b7cf0e4e
+#. default-sha256: 53779640356629e3ae56ee332539faa6aa4bee355bc1824c41d375abc3f851ac
+msgctxt "scenario5:scenario5_1EE230BA_47A3_4943_9DC0_3F3C5DCCC367"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫No."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫不需要。"
+
+#: scenario5:scenario5_1E7DC576_F57B_450B_804D_5C1B82984030
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 897cfcf67b036253e68e44c3c45ed94cfde1af02a03b3d308ca7c5ec3d5ae4fb
+#. default-sha256: aac6f65432e3441036354ea9d9a296483ffe2f76853cf9b7614b7fea177b36b2
+msgctxt "scenario5:scenario5_1E7DC576_F57B_450B_804D_5C1B82984030"
+msgid "⟪k:0⟫⟪k:1⟫...Master. ⟪k:2⟫Master."
+msgstr "⟪k:0⟫⟪k:1⟫……老爷，⟪k:2⟫老爷。"
+
+#: scenario5:scenario5_001A44ED_3379_4810_9F9C_47CFAA17FDC7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: bb0320bde9cf09b791718f0cb422dc10c5b097733ab69c81ffea81f7b3c8d17c
+#. default-sha256: eae7f05652a031473220aefefb7ffd505a7a3ccc14c6336eb1460fb052045cfa
+msgctxt "scenario5:scenario5_001A44ED_3379_4810_9F9C_47CFAA17FDC7"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫What is it now?!"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫这次又怎么了！"
+
+#: scenario5:scenario5_CD7D46CD_E860_48BB_889B_AB806C944740
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 63f33e24426598736d9505ed93e5fe17410c5141ba1b0fc5aec0d21fc7eebcbe
+#. default-sha256: 2957b13e1311c887e1b66e33b5a247842523f0ea98d09d97d1677c9bc495862e
+msgctxt "scenario5:scenario5_CD7D46CD_E860_48BB_889B_AB806C944740"
+msgid "⟪k:0⟫⟪k:1⟫My name is Giselle.⟪k:2⟫⟪k:3⟫It’s a pleasure to meet you."
+msgstr "⟪k:0⟫⟪k:1⟫我的名字叫吉赛儿。⟪k:2⟫请多多关照了哦。"
+
+#: scenario5:scenario5_102CF8EC_0D45_4236_B02D_C75F8178E5CE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ea13224e9961fc10769e58566580aa5b4bca5a2e0016af241668b7489cbe752e
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario5:scenario5_102CF8EC_0D45_4236_B02D_C75F8178E5CE"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario5:scenario5_45B48B53_2114_4705_A64C_5DB6A8F63379
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 151acc4993249953a30949dc6d19b75dbe1fa7dfc88d21e4c432096790dafc35
+#. default-sha256: 09c9f6dfd44286ffdb25a7f3f9d4e96f076c3167b94b7320d2730031fe9ba753
+msgctxt "scenario5:scenario5_45B48B53_2114_4705_A64C_5DB6A8F63379"
+msgid "⟪k:0⟫⟪k:1⟫And your name, Mas—⟪k:2⟫⟪k:3⟫⟪k:4⟫Oh, Master, you!"
+msgstr "⟪k:0⟫⟪k:1⟫老爷您的名字——⟪k:2⟫⟪k:3⟫⟪k:4⟫啊！⟪k:5⟫老爷您等一下啊……！"
+
+#: scenario5:scenario5_D7DC210B_9C78_4C3A_A78B_DDBE012480A9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7c9913af1cd954c687fbcfa914c05c0ca595f6dc6dc96ec0d895c965897109a7
+#. default-sha256: 50e109974cc5fa7cc97ee245bceafd1305b834457e80c7830d2e9346c4b04579
+msgctxt "scenario5:scenario5_D7DC210B_9C78_4C3A_A78B_DDBE012480A9"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫I actually left the room that time, making my way back to my chambers."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫我抛下了她，⟪k:5⟫这一次铁了心地向卧室走去。"
+
+#: scenario5:scenario5_D8A2FCFE_9F32_4355_87CD_BA470FEA61D5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0a43b3937b96baf66580aa239c2d0cc878c5f003bc94355bbdfda757ab9c86ed
+#. default-sha256: ce6a08ea9e30d1867f1ec60dc9926bb0d1fbb282573f9805d0050cf88f7c72ff
+msgctxt "scenario5:scenario5_D8A2FCFE_9F32_4355_87CD_BA470FEA61D5"
+msgid "⟪k:0⟫At some point, I would ⟪k:1⟫seriously⟪k:2⟫ have to chase her out."
+msgstr "⟪k:0⟫……无论如何，⟪k:1⟫必须把她给撵出去。"
+
+#: scenario5:scenario5_BC8C6189_6A5C_442C_A94D_A3C8CBB62F30
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1a34a351ee81731533fd61064886840a089ad7086c079f647f9697e42df3eb2d
+#. default-sha256: e2b224c2ab13ec25bea0de4635e59027d309315fabb2cfd5a2eb73844a44c65b
+msgctxt "scenario5:scenario5_BC8C6189_6A5C_442C_A94D_A3C8CBB62F30"
+msgid "⟪k:0⟫Especially considering she had come from that house."
+msgstr "⟪k:0⟫更不用说她还是「那个家」的人……"
+
+#: scenario5:scenario5_1A13A8E5_8814_4385_8CA1_CB950968E6CD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2cc168bb27a8fb0b5c07b60091511fb8444507efdfb094984ed83a0d7956e7be
+#. default-sha256: 6857dd27cf12e3e5170c46a0ee750c148828bef07319c04ae0b5c97d5d183b5b
+msgctxt "scenario5:scenario5_1A13A8E5_8814_4385_8CA1_CB950968E6CD"
+msgid "⟪k:0⟫But regardless,"
+msgstr "⟪k:0⟫……虽说如此……"
+
+#: scenario5:scenario5_321D7E0F_AEBF_444E_B8E7_7965A1E2B3EA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4966b2df26c509d32234bd874eda17ee905f90edb443129ca92ef44931748cee
+#. default-sha256: 1498b914848d4f09cd927d7149e98fe699789d44a6aee0786a028776ab4036b1
+msgctxt "scenario5:scenario5_321D7E0F_AEBF_444E_B8E7_7965A1E2B3EA"
+msgid "⟪k:0⟫I was not terribly fond of her."
+msgstr "⟪k:0⟫还真是棘手的女人啊。"

@@ -1,6 +1,8 @@
 # 可玩预览与独立网络回归
 
-最新状态：过场点击/Enter/Ctrl、原存档分页/保护/删除、章节与调查回放及结局列表已验收并更新两站。新增资源仅进入已有专用私有R2；当前详情及百分百原作认证限制见[界面与交互记录](../docs/evidence/INTERACTIVE_UI.md)。
+最新存读档运行时修复、实测及版本见[响应记录](../docs/evidence/SAVE_LOAD_RESPONSIVENESS.md)。第五门尚未进入线上资源闭包。
+
+最新界面状态：过场点击/Enter/Ctrl、原存档分页/保护/删除、章节与调查回放及结局列表已验收并更新两站。新增资源仅进入已有专用私有R2；当前详情及百分百原作认证限制见[界面与交互记录](../docs/evidence/INTERACTIVE_UI.md)。
 
 独立工程通过实际SDK tarball运行。`test.morgana.love`是本地Vite build的可玩预览，`testsdk.morgana.love`是自动化回归。两者使用不同Worker与前端目录，均由静态前端/程序/文本与私有R2绑定组成，桶名`morgana-sdk-network-test`。`workers.dev`和preview URL关闭，桶r2.dev公开入口关闭。按用户要求，preview环境直接公开页面和媒体；regression环境仍先认证。登录资料只在本机ignored `private/cloudflare/access.md`，Worker只保存`TEST_AUTH` secret。
 

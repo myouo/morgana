@@ -1,9 +1,9 @@
-import {audioTrack,bgmTrack,sfxTrack,audioSourceFade,audioFadeOutAndStop,audioSourceStop,audioSourceGain,instruction} from 'galbox-sdk/port-kit';
+import {audioTrack,bgmTrack,sfxTrack,audioSourceFade,audioFadeOutAndStop,audioSourceStop,audioSourceGain,audioSourcePause,instruction} from 'galbox-sdk/port-kit';
 import type {ProgramBuilder,AssetRef,SfxBufferRef,BgmBufferRef} from 'galbox-sdk/port-kit';
 import type {Instruction} from 'galbox-sdk/protocol';
 import {strictArgs,literalArg,requireValue} from './kag.js';import type {Tag} from './kag.js';
 export type SourceAudioResolver=(storage:string,role:'bgm'|'sfx',loop:boolean)=>Promise<AssetRef<'audio'>|null>;
-export const sourceAudioTags=new Set(['playbgm','playse','fadeinbgm','fadeinse','stopbgm','stopse','fadeoutbgm','fadeoutse','xchgbgm','bgmopt','seopt','ws','fadese','wf']);
+export const sourceAudioTags=new Set(['pausebgm','resumebgm','playbgm','playse','fadeinbgm','fadeinse','stopbgm','stopse','fadeoutbgm','fadeoutse','xchgbgm','bgmopt','seopt','ws','fadese','wf']);
 interface Lane {task:string;loop:boolean;}
 const registeredBuffers=new WeakMap<ProgramBuilder,Map<number,SfxBufferRef>>(),registeredAlternate=new WeakMap<ProgramBuilder,BgmBufferRef>();
 /** Source-script state is compiled into ordinary SDK instructions. Runtime media
@@ -22,6 +22,7 @@ export class SourceAudioLowerer {
  private async one(tag:Tag,at:string):Promise<Instruction[]>{
   requireValue(sourceAudioTags.has(tag.name),'SOURCE_AUDIO_UNSUPPORTED '+tag.name);requireValue(tag.attributes.every(a=>a.mode==='literal'),'SOURCE_AUDIO_DYNAMIC');
   const bgm=tag.name.endsWith('bgm')||tag.name==='bgmopt',role=bgm?'bgm':'sfx',slot=tag.args.buf===undefined?0:Number(literalArg(tag,'buf'));requireValue(Number.isInteger(slot)&&slot>=0&&slot<=7&&(!bgm||slot===0),'SOURCE_AUDIO_BUFFER');const lane=bgm?this.bgmBank:`se-${slot}`,volumeKey=bgm?'bgm':lane;
+  if(tag.name==='pausebgm'||tag.name==='resumebgm'){strictArgs(tag,[]);return ['bgm','bgm-alt'].flatMap((lane,n)=>{const source=this.active.get(lane);return source?[audioSourcePause(at+':'+n,source.task,tag.name==='pausebgm',{inactive:'ignore'})]:[];});}
   if(tag.name==='seopt'||tag.name==='bgmopt'){strictArgs(tag,['volume','buf']);const volume=Number(literalArg(tag,'volume'));requireValue(Number.isFinite(volume)&&volume>=0&&volume<=200,'SOURCE_AUDIO_VOLUME');this.volumes.set(volumeKey,volume);const lanes=bgm?['bgm','bgm-alt']:[lane];return lanes.flatMap((id,n)=>{const source=this.active.get(id);return source?[audioSourceGain(at+':'+n,source.task,Math.min(1,volume/100),{inactive:'ignore'})]:[];});}
   if(tag.name==='wf'){strictArgs(tag,['buf']);const fade=this.fades.get(lane);return fade?[instruction('task.join',{at,group:at+'-group',members:[fade]})]:[];}
   if(tag.name==='fadese'){strictArgs(tag,['buf','volume','time']);const volume=Number(literalArg(tag,'volume')),time=tag.args.time===undefined?5000:Number(literalArg(tag,'time'));requireValue(Number.isFinite(volume)&&volume>=0&&volume<=200&&Number.isInteger(time)&&time>0&&time<=3600000,'SOURCE_AUDIO_FADE');this.volumes.set(volumeKey,volume);const source=this.active.get(lane);if(source)this.fades.set(lane,at+'-fade');return source?[audioSourceFade(at,at+'-fade',source.task,Math.min(1,volume/100),time,{policy:'replace',inactive:'ignore'})]:[];}

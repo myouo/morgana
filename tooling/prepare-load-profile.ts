@@ -1,0 +1,17 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {createCore} from 'galbox-sdk/core';
+import {createModuleProgram} from 'galbox-sdk/port-kit';
+import {MemoryStore} from 'galbox-sdk/testing';
+import {storageNamespace} from 'galbox-sdk/backups';
+import {decodeWire,encodeWire} from 'galbox-sdk/wire';
+import {migrateSearch} from '../src/search-migration.js';
+import {expandLeafPlan} from '../src/leaf-plan.js';
+import {requireValue} from './kag.js';
+const root='generated/integrated',oldRoot='generated/search-connected',read=async(file:string)=>new Uint8Array(await readFile(file)),locale='zh';
+const before=await read(`${oldRoot}/programs/${locale}.modules.pb`),after=await read(`${root}/programs/${locale}.modules.pb`),source=createModuleProgram(decodeWire('ModuleManifest',before)),target=createModuleProgram(decodeWire('ModuleManifest',after));
+for(const [s,r]of [[source,oldRoot],[target,root]]as const)s.installAll(await Promise.all(s.describe().modules.map(async m=>decodeWire('ProgramModule',await read(r+'/'+m.uri)))));
+const oldBytes=await read(`${oldRoot}/cuts/zh-remember-take-search-places.pb`),old=decodeWire('PortableBackup',oldBytes),slot=old.slots[0],profile=old.profiles[0]?.profile;requireValue(slot&&profile,'LOAD_PROFILE_SOURCE');createCore(source,profile,slot.snapshot);
+const meta=decodeWire('JsonValue',await read(root+'/programs/zh.title.pb'));requireValue(meta&&typeof meta==='object'&&!Array.isArray(meta),'LOAD_PROFILE_META');const m=meta.moduleMigration;requireValue(m&&typeof m==='object'&&!Array.isArray(m)&&m.leafPlan&&typeof m.leafPlan==='object'&&!Array.isArray(m.leafPlan)&&typeof m.leafPlan.path==='string','LOAD_PROFILE_PLAN');
+const mapped=migrateSearch(slot.snapshot,target.program(target.loaded()),target,'frames',expandLeafPlan(decodeWire('JsonValue',await read(root+'/'+m.leafPlan.path)))),core=createCore(target,profile,mapped),store=new MemoryStore(storageNamespace(target.describe().header.gameId,target.describe().release.series),core.view().profile);await store.save('cut',core.capture(),0,{profileId:'main',label:'load profile'});await mkdir('generated/load-profile',{recursive:true});
+await writeFile('generated/load-profile/old.modules.pb',before);await writeFile('generated/load-profile/current.modules.pb',after);await writeFile('generated/load-profile/old.pb',oldBytes);await writeFile('generated/load-profile/current.pb',encodeWire('PortableBackup',await store.backup(target.describe().header.gameId,target.describe().release.series,target.release)));
+console.log({source:source.release,target:target.release,at:core.capture().wait?.at,validated:true});

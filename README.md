@@ -8,9 +8,11 @@
 
 本轮已按八语源参数补齐OP/序章的点击、Enter与Ctrl演出跳过，存档保护/删除/原分页及章节、调查回放和结局列表。原素材界面由正式SDK运行，开发说明不进入游戏画面。日文存档为10页，其余为11页；原作逐像素与全通状态仍未认证。当前验收与发布状态见[过场、存档与回放记录](docs/evidence/INTERACTIVE_UI.md)。
 
+存读档卡顿已定位到重复代码校验/装载和保存画面的重复重绘，SDK修复与真实存档对比见[响应记录](docs/evidence/SAVE_LOAD_RESPONSIVENESS.md)。右键消息窗口与富文本共同隐藏。第五门中文全文及暂停中存档已在独立Core验证，英语编译通过，其余语言/发布接续仍在推进，见[第五门进度](docs/evidence/FIFTH_DOOR_PROGRESS.md)；通关态称呼按用户确认不调整。
+
 ## 文本与资源在哪里
 
-- 可编辑正文：`locales/<BCP47>/story.po`、`prologue.po`；章节为 `locales/<BCP47>/chapters/{door1,interlude1,door2,memory1,door3,search,door4}/*.po`。中文目录是 `locales/zh-Hans/chapters/door1/`。
+- 可编辑正文：`locales/<BCP47>/story.po`、`prologue.po`；章节为 `locales/<BCP47>/chapters/{door1,interlude1,door2,memory1,door3,search,door4,scenario5}/*.po`。中文目录是 `locales/zh-Hans/chapters/door1/`。
 - 系统文字：各语言 `ui.po`；选择文字：`choices.po`。
 - 浏览器从Worker静态资源读取 `/programs/zh.modules.pb`、按SHA命名的代码模块、标题与 `/text/zh.ui.pb`；旧单门的指令模板/文本目录仅用于兼容。这些pb **不在 R2**，也不进 Git。
 - 图片、音频、字体由专用 R2 桶按 SHA 内容地址提供。只有跨全部语言相同的字节共享，其余按语言隔离。

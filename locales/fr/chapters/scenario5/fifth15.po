@@ -1,0 +1,333 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: morgana-chapters\n"
+"PO-Revision-Date: 2026-10-28 00:00+0000\n"
+"Last-Translator: Community contributors\n"
+"Language-Team: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: scenario5:scenario5_08872575_4E61_405E_A479_995666D67FF9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 99e5c3529494f912bde15e045625a094337fdf362e60b267a6fe20637d73851a
+#. default-sha256: 8eeb9ad4c32e4cad91701ee263c2272f5c25cbcd2b5de7126c355003203447bb
+msgctxt "scenario5:scenario5_08872575_4E61_405E_A479_995666D67FF9"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫I remember..."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫Je me souviens..."
+
+#: scenario5:scenario5_320C9225_90BC_4C63_897A_B91A1AE1BC35
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f8a09f0576de4ea4179d7a714ca99f81960ca67af294b0c6a7c7aa3edb293012
+#. default-sha256: 986ae1993635345e23e982984a41f777d7de3e6509724eb99e57bb3d019a80f9
+msgctxt "scenario5:scenario5_320C9225_90BC_4C63_897A_B91A1AE1BC35"
+msgid "⟪k:0⟫⟪k:1⟫I remember everything now..."
+msgstr "⟪k:0⟫⟪k:1⟫Je me souviens de tout, à présent..."
+
+#: scenario5:scenario5_A84CE51C_F8D4_4C50_9E70_66E3E9E7C51F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 89615c3bb36bf970ab0fb0a639c3996bb6320fd301de75b98c8f23f1fb9b4f3a
+#. default-sha256: 432eb5b0ecc11bca70367507d984887c60ba3ed7aa6cc33fd2afb7fcbb639923
+msgctxt "scenario5:scenario5_A84CE51C_F8D4_4C50_9E70_66E3E9E7C51F"
+msgid "⟪k:0⟫⟪k:1⟫You died on that day..."
+msgstr "⟪k:0⟫⟪k:1⟫Vous êtes mort, ce jour-là..."
+
+#: scenario5:scenario5_AC8BC16C_2672_4C4C_8376_7607974D1731
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 68e5e5ebeb2d033906105314af5e886ca4fae46745d6d282aab0f3620cfaca65
+#. default-sha256: 827034e6df11dd5908bede482bfc6684f85e5a617c01ac9fcf7ecaf82d5cce77
+msgctxt "scenario5:scenario5_AC8BC16C_2672_4C4C_8376_7607974D1731"
+msgid "⟪k:0⟫⟪k:1⟫You were killed."
+msgstr "⟪k:0⟫⟪k:1⟫On vous a tué."
+
+#: scenario5:scenario5_A417404D_B7BE_46AE_A353_1967E346C127
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a65aeb97499788f9bdba35e0a2d4aac0552ab78f374452318aa6acc6fc219881
+#. default-sha256: 593302229e5a7cf763a57e1b64d20b33bc8cfcf20611568a9ec87dd533f3b454
+msgctxt "scenario5:scenario5_A417404D_B7BE_46AE_A353_1967E346C127"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫You disappeared from this world... ⟪k:3⟫and left me behind.⟪k:4⟫"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫Vous avez disparu de ce monde... ⟪k:3⟫et vous m’avez laissée derrière.⟪k:4⟫"
+
+#: scenario5:scenario5_80304E4B_7A14_4C29_85E5_2EC11D288AE5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 36d968cfdecf7a98310f5bf5c1b44dec7eff5bf4b7b2c1ae30b45fa0d7852843
+#. default-sha256: c15e5f1b0321a501f7b9039af1fba30db80ec6ec426c70208e31c01f9f6cae3b
+msgctxt "scenario5:scenario5_80304E4B_7A14_4C29_85E5_2EC11D288AE5"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫That’s right..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫C’est vrai, oui..."
+
+#: scenario5:scenario5_C7C74C33_2BCA_40E3_9D0D_2360BFB6B890
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f3d827cf35a5fdad7f15ca5863e28af80d3340649f324f7ae50069a71b0b3df8
+#. default-sha256: a6bb52dca83cce436cbd39e62e0f7f8c6592b7868a111a6b19b2b8c36e3a37f6
+msgctxt "scenario5:scenario5_C7C74C33_2BCA_40E3_9D0D_2360BFB6B890"
+msgid "⟪k:0⟫⟪k:1⟫I remember."
+msgstr "⟪k:0⟫⟪k:1⟫Je me souviens."
+
+#: scenario5:scenario5_AF73A7A3_8AE9_4A80_BE32_8304BE285646
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: afe0c7e6add5b582a16ae60e1d9db908e98ec8e3537c69d3ba589515db8c640f
+#. default-sha256: 36bef283e2765e13f277d5812d46836bbf6e46450e8844d4b709b78afafe3353
+msgctxt "scenario5:scenario5_AF73A7A3_8AE9_4A80_BE32_8304BE285646"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫I remember the pain... ⟪k:3⟫the agony of death...⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫and the fear."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫Je me souviens de la souffrance... ⟪k:3⟫de l’agonie de la mort...⟪k:4⟫⟪k:5⟫⟪k:6⟫"
+"⟪k:7⟫...et de ma peur."
+
+#: scenario5:scenario5_5352A3B5_8454_40DB_9065_6EEB5AAFE909
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b4b368d9745611eb5a9a8191d0b3fb3cdd42233b452c13baf494d7822804f34c
+#. default-sha256: 1170e348463ab69d045461124a92142c09f50f3ec40526c817c443b5711caae4
+msgctxt "scenario5:scenario5_5352A3B5_8454_40DB_9065_6EEB5AAFE909"
+msgid "⟪k:0⟫⟪k:1⟫I did, indeed,"
+msgstr "⟪k:0⟫⟪k:1⟫C’est cela, oui,"
+
+#: scenario5:scenario5_439D1ADD_414A_4945_9B58_6C31B9D33899
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 11e363e23f66cc7d7202992ed4b93bf1b42329829f5b642fbdc4d372fa38e4a2
+#. default-sha256: 441e3cb1877891a0170c5c2368c9c245e1feb7429065b6787c3c82878abdc329
+msgctxt "scenario5:scenario5_439D1ADD_414A_4945_9B58_6C31B9D33899"
+msgid "⟪k:0⟫⟪k:1⟫die that day."
+msgstr "⟪k:0⟫⟪k:1⟫je suis bien mort ce jour-là."
+
+#: scenario5:scenario5_73FEDEA0_0801_4756_BF21_4F578ED9242D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 03b2cb6d1f0ffc05254835d293955d51c204e24c5d0b762ab67c1102bb97bc23
+#. default-sha256: 90d9e63dae5f46d324f92ab08cc378c22716f8272081b1ed387964aa6e6b52b5
+msgctxt "scenario5:scenario5_73FEDEA0_0801_4756_BF21_4F578ED9242D"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫You refused to listen to me."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Vous avez refusé de m’écouter."
+
+#: scenario5:scenario5_EA7FC808_142E_472F_8172_7F903D4AAAB5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5baaa9a8f4a0b7da542fc1140aadbca71a9f21da35759698197fbc592b63bdfe
+#. default-sha256: e8f400d0206a43635b6fb91336cb71b0ee93ef05832d14ca65f94888f3e46197
+msgctxt "scenario5:scenario5_EA7FC808_142E_472F_8172_7F903D4AAAB5"
+msgid "⟪k:0⟫⟪k:1⟫Do you have any idea how it felt..."
+msgstr "⟪k:0⟫⟪k:1⟫Avez-vous la moindre idée de ce que j’ai souffert..."
+
+#: scenario5:scenario5_FEBE5211_83AF_408B_9FC1_FF55C694C333
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 499a21dbc8c8af379ba1a5ece4f87bc043fc508dfc869e548df4c16aa398bca4
+#. default-sha256: 45e5aa5d015c628fd09adab7c2a59f9c1b089efb017298ac6974cc8eb77146f0
+msgctxt "scenario5:scenario5_FEBE5211_83AF_408B_9FC1_FF55C694C333"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫to ⟪k:3⟫feel⟪k:4⟫ you dying...⟪k:5⟫"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫...à vous ⟪k:3⟫sentir⟪k:4⟫ mourir...⟪k:5⟫"
+
+#: scenario5:scenario5_BA8FD368_05B7_4B52_9C0B_AE32D46FD210
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b332885992d79b36a2773b97fa1009a55ff03a72fb117dbc12364e092cffc1b5
+#. default-sha256: dd047a3398f5732c4f97aabccbbce713f0c933bf92d5fb8fea4113f1ead8d1af
+msgctxt "scenario5:scenario5_BA8FD368_05B7_4B52_9C0B_AE32D46FD210"
+msgid "⟪k:0⟫⟪k:1⟫from the other side of that door?"
+msgstr "⟪k:0⟫⟪k:1⟫...de l’autre côté de cette porte ?"
+
+#: scenario5:scenario5_9B172DDD_64E0_45AF_A523_483E4DD542F2
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 180cafb62f90dffc9aa31bbc495e248389a14a86f31e44a1579bf18a123e0175
+#. default-sha256: cc737531399982076c755e13206a1e627bfe38b00c81f5bf1d5b722bb30858de
+msgctxt "scenario5:scenario5_9B172DDD_64E0_45AF_A523_483E4DD542F2"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Giselle..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Giselle..."
+
+#: scenario5:scenario5_2067B077_3E7D_4ACE_8CFE_49622D75B1FD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: de68606040c0c0c7ba0ccb34ed39a1dfa70561d6e2705d9f4ef5738f05181664
+#. default-sha256: 48b54766c9f584eb3bf0e2ce01c4c9490f9faba3e2ddcf716bca71619e842b64
+msgctxt "scenario5:scenario5_2067B077_3E7D_4ACE_8CFE_49622D75B1FD"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫I wanted you to take me with you..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Je voulais être à vos côtés..."
+
+#: scenario5:scenario5_628CE364_C815_48F9_ACB2_82200F10448B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 26abdfa8b36d907c31caf03b547e67ad8d93cd8fdf9fbb93f5f4016c285663f5
+#. default-sha256: 188f365e7425f51354c132147a541f38c9c6c7e37665a932493076d2f153516c
+msgctxt "scenario5:scenario5_628CE364_C815_48F9_ACB2_82200F10448B"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫............"
+
+#: scenario5:scenario5_7FF21D35_6B1C_48B3_872F_CC34953731D2
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ff66542c319cc673f8fe92409148a6dc966c47355fe08611447d2ea243bea94d
+#. default-sha256: 95d676c54b5a1a01e3284e653349bfb2f4df27cd79cf4b48d72f5a891bca3cfc
+msgctxt "scenario5:scenario5_7FF21D35_6B1C_48B3_872F_CC34953731D2"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Is this what you so wanted to see?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Est-ce là ce que vous vouliez tant voir ?"
+
+#: scenario5:scenario5_93F2F991_209D_4074_8024_75098191CA4D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 64d267fad183d9974f09c3c9f545dbf611000eb7f2ca25343cd429d32c648880
+#. default-sha256: 0fccbde555d4c4ab2142ec421552b3d08af340620f8135637381338a44b31618
+msgctxt "scenario5:scenario5_93F2F991_209D_4074_8024_75098191CA4D"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫My memories... ⟪k:5⟫the traces of my life on this earth...⟪k:6⟫"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫Mes souvenirs... ⟪k:5⟫les traces de ma vie sur cette terre...⟪k:6⟫"
+
+#: scenario5:scenario5_B786F6A9_65CE_403C_A043_241C17803E50
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a0ec233b0771c2929387a294f54878d7a0e838fd632b1f6bfdfbf57cacdd2fce
+#. default-sha256: 6de17a2bc50dfb75f8e16328d213c33c669d49078aec81d72afcf5f5a96cfb7b
+msgctxt "scenario5:scenario5_B786F6A9_65CE_403C_A043_241C17803E50"
+msgid "⟪k:0⟫⟪k:1⟫end there."
+msgstr "⟪k:0⟫⟪k:1⟫...prennent fin ici."
+
+#: scenario5:scenario5_42EFB804_A82E_4270_86C4_51781DACD373
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2808337d1ee5bc344bce131638bc3ce6d55501a5974de9b390fccf29a46027ba
+#. default-sha256: 5a819fca8465ef06ac4f23ea8d758fa56dbb7a531bebde073f9f9a43fd7d96f2
+msgctxt "scenario5:scenario5_42EFB804_A82E_4270_86C4_51781DACD373"
+msgid "⟪k:0⟫⟪k:1⟫In order to find your truth,"
+msgstr "⟪k:0⟫⟪k:1⟫Afin d’atteindre votre vérité,"
+
+#: scenario5:scenario5_9DED7B57_79A0_4CF7_9219_A7473BA9B87A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ab5f06534cf4df5962921257a583af9c68d1bb5e70ac093469f7ec90b59e28fd
+#. default-sha256: 2607088ad37338fb995e9cb320742227c4a22acdab6d22556560d8abb880fbf7
+msgctxt "scenario5:scenario5_9DED7B57_79A0_4CF7_9219_A7473BA9B87A"
+msgid "⟪k:0⟫⟪k:1⟫we need more of the story."
+msgstr "⟪k:0⟫⟪k:1⟫nous avons besoin d’en savoir plus."
+
+#: scenario5:scenario5_5F5D34C6_7059_43A3_A6E3_4406F03CF1E1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e628b0ebd84d903027fc2afd220c5bb4066074b69f5e1957976b037ef056b55f
+#. default-sha256: 188f365e7425f51354c132147a541f38c9c6c7e37665a932493076d2f153516c
+msgctxt "scenario5:scenario5_5F5D34C6_7059_43A3_A6E3_4406F03CF1E1"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫............"
+
+#: scenario5:scenario5_35676207_2733_42AD_81E6_AA863CDBB5B6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f90adc179a9c47e307a4d0888c34a26b9b848ff1166f15a5a5147971020021f7
+#. default-sha256: 91fcc824e30336a14faaabce677e542f0918d1ab6c634ab61216dd88734dbf36
+msgctxt "scenario5:scenario5_35676207_2733_42AD_81E6_AA863CDBB5B6"
+msgid "⟪k:0⟫⟪k:1⟫Very well, then..."
+msgstr "⟪k:0⟫⟪k:1⟫Très bien, dans ce cas..."
+
+#: scenario5:scenario5_B1A80F21_8847_4008_A50A_28A98716F080
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 60cab686793269703d4578fe8deeb2a7a921e9d82f70dca20b4a57e2bfe44466
+#. default-sha256: 1afdac5ca3edc839f9d55a0d6019020ca36b2366f65b28b9f24290df60c2b4f2
+msgctxt "scenario5:scenario5_B1A80F21_8847_4008_A50A_28A98716F080"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫If you want more story... ⟪k:3⟫I will tell you more.⟪k:4⟫"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫Si vous en voulez plus... ⟪k:3⟫je vous en conterai plus.⟪k:4⟫"
+
+#: scenario5:scenario5_6F773529_7965_4068_82E3_C1C75CAF111E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0f69e40afb911beba8ee564a12f618b18c3323eda90e2098024c2044d62ab9b5
+#. default-sha256: 7903a87f33b27597636e3cb3ea8da1f1993e7199d74c9ace90b52a16267e8332
+msgctxt "scenario5:scenario5_6F773529_7965_4068_82E3_C1C75CAF111E"
+msgid "⟪k:0⟫⟪k:1⟫What comes next is both a continuation...⟪k:2⟫⟪k:3⟫⟪k:4⟫and a brand new tale..."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫Ce qui suit est à la fois un prolongement...⟪k:2⟫⟪k:3⟫⟪k:4⟫et un tout nouveau conte..."
+
+#: scenario5:scenario5_3E4606C6_367F_4212_B1EE_B2D115FE6F26
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 50a2fd055569ad40e8d90ccd2af8e79cd8576557174d20f1d8a64249bdb5104a
+#. default-sha256: 898e0a6e41969c236234a3f1eb8d529cf0197917e4d69c431eccc561dd00c6b1
+msgctxt "scenario5:scenario5_3E4606C6_367F_4212_B1EE_B2D115FE6F26"
+msgid "⟪k:0⟫⟪k:1⟫The Maid’s tale."
+msgstr "⟪k:0⟫⟪k:1⟫Le conte de la Servante."
+
+#: scenario5:scenario5_8870CA93_515C_410A_B942_CF043B033F35
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 26abdfa8b36d907c31caf03b547e67ad8d93cd8fdf9fbb93f5f4016c285663f5
+#. default-sha256: 188f365e7425f51354c132147a541f38c9c6c7e37665a932493076d2f153516c
+msgctxt "scenario5:scenario5_8870CA93_515C_410A_B942_CF043B033F35"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫............"
+
+#: scenario5:scenario5_7994D945_9319_413D_BF64_5589A446599F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5b4156529bb33db766a89bbdc42bee639bda0c8c4201ab11f74297dd59831c44
+#. default-sha256: c44cc880600226a10c4de5224d9a8b2967b2f75766b58c6b5aeb428a78c50e19
+msgctxt "scenario5:scenario5_7994D945_9319_413D_BF64_5589A446599F"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫When you’ve heard it all,"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Quand vous aurez tout entendu,"
+
+#: scenario5:scenario5_F1CAC9CD_1929_460B_B761_9C00380DECBF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 90dd93728859bcbd7fe01d13ed8902dd0a8b41564d3519570b374616749af2e6
+#. default-sha256: a90803fbc0a0ca72e3ade53d7b3347a3639561c93e522cc37d2df67be6b4d133
+msgctxt "scenario5:scenario5_F1CAC9CD_1929_460B_B761_9C00380DECBF"
+msgid "⟪k:0⟫⟪k:1⟫I expect you to commend me"
+msgstr "⟪k:0⟫⟪k:1⟫je m’attends à ce que vous me félicitiez"
+
+#: scenario5:scenario5_7852F4B4_AA81_4B3F_9A44_4BCFE4DFDD35
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8bf8fae56b87f1efdaa9bf03b8407efa7ee1016125ed5102a6a9898e899afe36
+#. default-sha256: fd6d882325d3455c5297aebd1e519058c8442b54b80e76b080061af6ce7b2bca
+msgctxt "scenario5:scenario5_7852F4B4_AA81_4B3F_9A44_4BCFE4DFDD35"
+msgid "⟪k:0⟫⟪k:1⟫for not forgetting"
+msgstr "⟪k:0⟫⟪k:1⟫pour ne pas avoir oublié"
+
+#: scenario5:scenario5_8C318893_A45B_472E_925E_71BF3632C7F5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c40b84088d05873afbad0287fe8df89ecddba095ad4f64ef8842f994dc5b3f3b
+#. default-sha256: a5926aa75c20e6471c8f85ba03ee750aa088e80c87619963671adaf6a329a558
+msgctxt "scenario5:scenario5_8C318893_A45B_472E_925E_71BF3632C7F5"
+msgid "⟪k:0⟫⟪k:1⟫how to smile."
+msgstr "⟪k:0⟫⟪k:1⟫comment on fait pour sourire."
+
+#: scenario5:scenario5_38D21407_AF01_4236_B7DD_F18D66E53DAF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e43ca6892eec76dd57c6c368473b198b4ada4e88610e432820b15fab6398cfa6
+#. default-sha256: 993c77c5847e9ba5dd1973102d2cb151f85ad181933389e990441302c6c87235
+msgctxt "scenario5:scenario5_38D21407_AF01_4236_B7DD_F18D66E53DAF"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫We haven’t completely cut through the darkness yet."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Nous n’avons pas totalement traversé les ténèbres encore."
+
+#: scenario5:scenario5_B80D1560_EC82_414D_B400_9E4D9EC8C0D8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 55e510205ad0c10d59872fe7af2621dfc88a9567a07372bd7f579fbe201c7e8b
+#. default-sha256: a1e217f9b873ac774c43bd643557b56fcb0096238d6a432825a494d227eb35a2
+msgctxt "scenario5:scenario5_B80D1560_EC82_414D_B400_9E4D9EC8C0D8"
+msgid "⟪k:0⟫An arctic wind blows past me."
+msgstr "⟪k:0⟫Un vent polaire souffle près de moi."
+
+#: scenario5:scenario5_D66E179B_D478_45A1_98E5_9395886B3A69
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b86720cb6084aa48eac9a801a2cc1cfd51396f11c568a75c7f8a4f96573334ee
+#. default-sha256: 5d1771256541f52ab61e7c6122b4e67cc6cf5344f78fceb13e99f9280e4271bb
+msgctxt "scenario5:scenario5_D66E179B_D478_45A1_98E5_9395886B3A69"
+msgid "⟪k:0⟫At the same time, I’m gripped with an overwhelming urge to break down into tears."
+msgstr "⟪k:0⟫En même temps, je suis pris d’une envie irrépressible de fondre en larmes."
+
+#: scenario5:scenario5_446785DA_F842_439A_93CC_233CED6714EC
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6bfa24985c1e55410ba80f1550af20b00b1f9b8a23d08f1324272b016f26fd17
+#. default-sha256: 140dd84d711c3f0653ea90be49d306c7a57b51a29ab6b9b800d819d5c8c8a2d8
+msgctxt "scenario5:scenario5_446785DA_F842_439A_93CC_233CED6714EC"
+msgid "⟪k:0⟫Perhaps this..."
+msgstr "⟪k:0⟫Peut-être est-ce..."
+
+#: scenario5:scenario5_3E05EC3D_6448_49D8_8D78_8167B2663A55
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 14d620564a08533fd0321934415b137722f033a105e2517ead3857a1d698c441
+#. default-sha256: ce91cf7a6085572a983dd11b811d610fbc63d253f25190c85a2194ce6705e2c9
+msgctxt "scenario5:scenario5_3E05EC3D_6448_49D8_8D78_8167B2663A55"
+msgid "⟪k:0⟫is the solitude she felt for so long."
+msgstr "⟪k:0⟫...la solitude qu’elle a ressentie pendant si longtemps."
+
+#: scenario5:scenario5_20B85158_2E12_4E42_A797_9411049B6DD8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1647eedd067aaa0d9bb63b8e70a45b21aa30322e7dd57dc1853c21a6a366e752
+#. default-sha256: 2a60d7e6b5e35a859f9807eaaa5b5edae015171d34d30bb194a650141672f7b6
+msgctxt "scenario5:scenario5_20B85158_2E12_4E42_A797_9411049B6DD8"
+msgid "⟪k:0⟫I have to face this. ⟪k:1⟫I have a responsibility to her to do so."
+msgstr "⟪k:0⟫Je dois y faire face. ⟪k:1⟫J’ai une responsabilité envers elle."
+
+#: scenario5:scenario5_676494FB_1E2F_4AD6_9E7D_08FD756C0CD5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 046f441bc77b4f2a5d89147eeb389c5f712b767e6e3ef953247b2c88e72f431a
+#. default-sha256: 927dc216f167d8d5a19bd64c518ea036e52556ce9ff21c604e8ba9f57edbac99
+msgctxt "scenario5:scenario5_676494FB_1E2F_4AD6_9E7D_08FD756C0CD5"
+msgid ""
+"⟪k:0⟫And I have to atone for being such a misguided fool all those many years ago—⟪k:1⟫⟪k:2⟫"
+"convinced that I was doing what was best.⟪k:3⟫"
+msgstr ""
+"⟪k:0⟫Et je dois me repentir d’avoir été un pauvre idiot toutes ces années auparavant—⟪k:1⟫⟪k:2⟫ "
+"convaincu que j’agissais pour le mieux.⟪k:3⟫"
