@@ -68,4 +68,29 @@ SDK 在摘要、原始 ABI 与资源绑定验证后保留不可变代码，内�
 最终性能命令：
 `pnpm exec playwright test --config playwright.performance.config.ts -g 'auto profile|populated forty|logical and illustrated'`。
 
+最终来源 `bb00d770d74a45eb0e623e791ce6fd13d3c5755d` 上执行
+`pnpm sdk:build` 重现相同 e72d64250792 实包；此包再次通过八语127旧切点和
+`pnpm build`。新增公网刷新读档测试后又运行 `pnpm exec tsc --noEmit` 通过。
+
+## 发布与公网
+
+同一本地构建先部署回归 `5100a554-19bb-445f-b8a4-25e0537599df`，再部署预览
+`9f4391d1-c85b-4a80-999b-94c95ebf79a5`。两个目录/Worker继续隔离，只更新
+5个前端文件；没有新增媒体或重复上传R2游戏载荷。
+
+`FATA_INTERFACE_ORIGIN=https://testsdk.morgana.love FATA_INTERFACE_RUN=instant-final pnpm exec playwright test --config playwright.interactions.config.ts interface.spec.ts -g 'source load confirmation|source save pages|SDK chapter menu'`
+得到4项通过（3.0分钟）：实际界面确认读档、刷新后的保存切点与文字恢复、
+连续读取、保护/取消删除/删除，以及英中章节/结局/隔离调查回放。新用例不靠
+固定成功对象或延长产品时限，读取后确实比较 frames/textId/epoch。
+
+公网两次同页读取实测628ms与2093ms，有明显波动。媒体激活仍保留联网版本
+重检；不能将本机0.5秒样本称为所有公网操作稳定1秒，也不把该波动隐藏。
+预览只正常读取和字节核对；所有自动化交互均在testsdk，无站点/Worker/R2节流。
+
+最终 `pnpm preview:check` 通过：1953文件、780076631解码字节与本地dist
+逐文件相同，匿名访问/媒体Range通过，回归仍鉴权。实例实现731052c，SDK
+main为bb00d77；只对已授权main正常追加/快进，不强推或推旧分支/tag。实例
+可达历史和两库本轮发布差异路径检查没有真实KS/TJS/XP3、原包、解包素材、
+生成载荷、存档、tarball或日志；SDK旧历史中的原创合成fixture另行区分。
+
 第五门、原生存档兼容和原作逐像素/全通状态验收不因本轮性能结果扩大认证。
