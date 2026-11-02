@@ -106,7 +106,7 @@
     "test:save-performance": "playwright test --config playwright.performance.config.ts"
   },
   "dependencies": {
-    "galbox-sdk": "file:vendor/galbox-sdk-95ceefc8e7d5.tgz",
+    "galbox-sdk": "file:vendor/galbox-sdk-e72d64250792.tgz",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },
