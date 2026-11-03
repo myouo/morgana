@@ -103,10 +103,15 @@
     "dev:interfaces:shared": "FATA_MODULES=1 FATA_PUBLICATION_ROOT=generated/interfaces-shared vite --host 127.0.0.1 --port 4194",
     "door5:build": "tsx tooling/compile-fifth-door.ts",
     "door5:verify": "tsx tooling/drive-fifth-door.ts",
-    "test:save-performance": "playwright test --config playwright.performance.config.ts"
+    "test:save-performance": "playwright test --config playwright.performance.config.ts",
+    "door5:connect": "tsx tooling/compile-fifth-connected.ts",
+    "door5:verify:main": "tsx tooling/verify-fifth-connected.ts",
+    "test:door5": "playwright test --config playwright.fifth.config.ts",
+    "door5:stage": "tsx tooling/stage-fifth.ts",
+    "door5:promote": "tsx tooling/promote-fifth.ts"
   },
   "dependencies": {
-    "galbox-sdk": "file:vendor/galbox-sdk-e72d64250792.tgz",
+    "galbox-sdk": "file:vendor/galbox-sdk-888a7f175e3a.tgz",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },

@@ -1,6 +1,6 @@
 # 可玩预览与独立网络回归
 
-最新存读档运行时修复、实测及版本见[响应记录](../docs/evidence/SAVE_LOAD_RESPONSIVENESS.md)。第五门尚未进入线上资源闭包。
+第五门主线、八语章节回放、旧终点续接及发布验收状态见[第五门记录](../docs/evidence/FIFTH_MAINLINE.md)。存读档提速记录见[秒级响应](../docs/evidence/INSTANT_LOAD.md)；第五门整合后的独立复测仍保持本机约0.5–0.6秒连续读取。
 
 最新界面状态：过场点击/Enter/Ctrl、原存档分页/保护/删除、章节与调查回放及结局列表已验收并更新两站。新增资源仅进入已有专用私有R2；当前详情及百分百原作认证限制见[界面与交互记录](../docs/evidence/INTERACTIVE_UI.md)。
 
@@ -8,7 +8,7 @@
 
 `pnpm convert`先将原作准备到ignored public，再仅按8语言Program和标题/菜单资源闭包构建`generated/site.next`；全部摘要与文本绑定通过后原子提升为`generated/site`。Vite只服务该发布目录，旧public孤儿不会进入构建/上传。8语言字面剧情和UI分别为protobuf，模板摘要/文本身份验证后恢复标准Program，原图片里的文字继续作为本地化图片。
 
-资源为`assets/shared/{images,audio,fonts}/<sha256>.<ext>`或`assets/locales/<BCP47>/...`；只有全部语言引用的相同字节共享，其余保守归属所选语言。前端只请求当前语言目录。切换语言确认后回标题，字体/美术/正文/UI/locale偏好同步；存档按语言隔离，已登记旧32/93页SDK槽自动迁移并保留，未知release拒绝。
+资源为`assets/shared/{images,audio,fonts}/<sha256>.<ext>`或`assets/locales/<BCP47>/...`；按SHA复用相同字节，旧路径继续保留，所选语言的manifest决定实际闭包。切换语言确认后回标题，字体/美术/正文/UI/locale偏好同步；存档按语言隔离，已登记旧SDK槽自动迁移并保留，未知release拒绝。
 
 `pnpm cloudflare:prepare`只把前端和protobuf目录复制到`generated/edge-preview`（回归为`generated/edge-regression`），媒体只进R2。上传脚本从当前程序/展示资源引用闭包取文件，不再扫描所有历史文件。`pnpm r2:upload --oauth`使用已有Wrangler OAuth、4并发、完整摘要对象名校验与可续传标记；不删除既有对象。不要对其他桶执行该脚本。本机环境变量API Token缺R2权限，所以本次明确选择已登录的OAuth。
 
@@ -34,7 +34,7 @@ Worker对R2响应直接传递body流，支持HEAD、单范围/后缀Range、强�
 
 实例当前默认balanced、提前4页、64MiB估算驻留，设置提供0/2/4/8页；`?loading=demand`提供纯按需。长音乐和长音效使用versioned-url渐进传输。资源目录可以大于驻留集，实际加载仍受预算和引用约束。64MiB不是浏览器总内存硬上限。
 
-本轮是完整新周目序章和第一门；原版逐帧、原生存档、第二门以后及真实多机型仍另验。授权只覆盖两个test子域名和专桶，不扩展根域名或其他作品。
+当前主线包含新周目序章、前五门及其间探索，停在第六门入口。原版逐帧/逐像素、全通变体、原生存档codec与真实多机型仍另验。授权只覆盖两个test子域名和专桶，不扩展根域名或其他作品。测试用Snapshot/Profile和备份切点不进入发布目录。
 
 限速只存在tests/browser/network.spec.ts中的Chrome CDP模拟（180ms、750000B/s），不会写入构建、Worker或R2，也没有部署站点带宽限额。自动化配置与资源全量probe固定指向testsdk，预览只进行无时钟/无故障注入/无节流的构建一致性读取。`pnpm preview:check`逐文件确认预览与本地dist相同，并校验预览匿名访问及回归鉴权。
 

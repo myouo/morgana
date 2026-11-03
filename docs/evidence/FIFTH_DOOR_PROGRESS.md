@@ -1,5 +1,11 @@
 # 第五门源转换进度（2026-11-01）
 
+2026-11-03更新：八语全文、主线续接、第四页章节回放、原作书签与联合字体
+已完成本地整合。135旧切点、40个最终冷恢复切点、13项真实浏览器及
+119 Node/7 Python通过；法语缺失BGM按原系统停双缓冲后保持静音，不替换
+成其他音轨。本地正式目录已提升，素材与线上发布接续见
+[第五门主线记录](FIFTH_MAINLINE.md)。下文为11月1日的历史阶段记录。
+
 八语 scenario5 已整理为可维护 PO/catalog，KS/TJS 与素材保持 ignored。新增
 `pnpm door5:build [zh|all]`、`pnpm door5:verify [zh|all]`，仍输出标准 SDK
 ProgramModule/protobuf，没有第二套解释器。
