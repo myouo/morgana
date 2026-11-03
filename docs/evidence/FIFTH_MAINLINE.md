@@ -78,3 +78,37 @@ Snapshot/Profile protobuf，经公开ModuleProgram/Core验证，再通过正式S
 源原生确认glyph在部分西文语言中的动画仍未认证；原作逐像素、全通重开变体、
 原生存档codec、音轨seek精度和第六门正文未扩大认证。原包/KS/TJS/素材/
 存档/日志/trace保持ignore，测试切点不会进入正式前端或R2媒体闭包。
+
+## 发布接续
+
+实例实现提交6f2f529；SDK main已正常快进到2c588b3。正式 `pnpm build`
+通过，前端/程序/文本目录2188文件，R2闭包2569对象/578427880字节。
+新增上传308个SHA对象/103957591字节。批量音频两次fetch失败，改为逐对象
+续传后一个API 524再试成功；已完成标记保留，不重传已成功图片，不改站点限速。
+`pnpm r2:verify`仅核对当前发布闭包（排除磁盘孤儿），结果789个既有不可变复用、
+其余1780对象中1546本次抓取/234续验，失败0。只对传输/429/5xx重试，摘要或
+状态/权限错误不会作为成功吞掉。所有回归固定在testsdk，R2仍为专用私有桶。
+
+回归部署14ddeef6-fa98-4802-99b4-64c6b4ba61a6；通过公网验收后，同一构建
+部署到预览fdd10623-99cb-463f-885c-09b8fb2bc6d2。两个前端目录/Worker继续分开。
+
+同构建新增13项公网验收全部通过（13.2分钟，无跳过/意外/不稳定项）：
+`FATA_FIFTH_ORIGIN=https://testsdk.morgana.love FATA_FIFTH_RUN=remote-final PLAYWRIGHT_BLOB_OUTPUT_DIR=artifacts/fifth-connected/remote-blob pnpm test:door5 --fully-parallel --workers=2 --add-reporter=blob`。
+包括完整进度40槽/上一修订/刷新读回（13298已读，360–868ms并行样本）、
+英中旧终点续接、中法暂停源恢复、八语章节页进入第五门及关闭回放后主线不变。
+本轮没有在预览或Worker/R2加入限速/故障；实际设备整章逐轨及原生像素比较
+仍与这些切点验收分开。
+
+原有线上兼容用例4项已通过（4.7分钟）：刷新后确认读档、存档分页保护/
+取消删除/删除，以及英中章节、结局列表和隔离探索回放。旧测试最初在标题
+禁存状态调用capture来辨认release，按原SAVE_POLICY被拒绝；已改用只读
+getSnapshot检测版本，没有放宽标题存档策略。坏结局fixture先经公开Core校验
+迁到最终release，放在ignored artifacts中，不进入站点。
+该轮公网两次连续读取1269/1205ms，仍存在网络/并行负载波动，不当作本机
+独立467–609ms样本的等价延迟承诺。
+
+最终 `pnpm preview:check` 通过：2188文件、858652683解码字节与本地dist逐
+文件相同；匿名访问、媒体Range和回归鉴权隔离通过，无流量整形。两个仓库
+均只正常追加并快进推送明确main，不强推/推旧分支或tag。实例可达历史路径
+检查无原包、KS/TJS、提取素材、生成载荷、存档、tarball或日志；本轮SDK变更
+只有通用入口、合成测试与短文档，原有原创fixture与真实作品数据分别核对。
