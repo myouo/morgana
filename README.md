@@ -4,11 +4,11 @@
 
 当前本地已接通：原标题与OP、新周目完整序章、第一门→第一间章→第二门及memory1两路→第三门→调查四问/八地点循环→第四门正文与后段→第五门→第六门，八语言同步；正线止于 `search2.ks` 第二次调查入口。记忆由实际选择取得，第四门第三项按双记忆条件开放。正式旧第一至三门Web槽通过来源验证后接续，详见[调查与四门接续验收](docs/evidence/SEARCH_CONNECTION.md)。第四门鉴赏回放与坏结局返标题已接入。
 
-用户本轮已授权恢复线上发布；[test.morgana.love](https://test.morgana.love) 为可玩预览，[testsdk.morgana.love](https://testsdk.morgana.love) 为鉴权网络回归站。发布进度与版本见[本轮记录](docs/evidence/ONLINE_DOORS4.md)。
+用户本轮已授权恢复线上发布；[test.morgana.love](https://test.morgana.love) 为可玩预览，[testsdk.morgana.love](https://testsdk.morgana.love) 为鉴权网络回归站。发布进度与版本见[第六门记录](docs/evidence/SIXTH_MAINLINE.md)。
 
 本轮已按八语源参数补齐OP/序章的点击、Enter与Ctrl演出跳过，存档保护/删除/原分页及章节、调查回放和结局列表。原素材界面由正式SDK运行，开发说明不进入游戏画面。日文存档为10页，其余为11页；原作逐像素与全通状态仍未认证。当前验收与发布状态见[过场、存档与回放记录](docs/evidence/INTERACTIVE_UI.md)。
 
-存读档卡顿已定位到重复代码校验/装载和保存画面的重复重绘，SDK修复与真实存档对比见[响应记录](docs/evidence/SAVE_LOAD_RESPONSIVENESS.md)。右键消息窗口与富文本共同隐藏。第五门八语主线与回放已发布，见[第五门验收](docs/evidence/FIFTH_MAINLINE.md)。第六门及第四坏结局已接入候选，限时选择、旧档与章节回放验收见[第六门记录](docs/evidence/SIXTH_MAINLINE.md)；通关态称呼按用户确认不调整。
+存读档卡顿已定位到重复代码校验/装载和保存画面的重复重绘，SDK修复与真实存档对比见[响应记录](docs/evidence/SAVE_LOAD_RESPONSIVENESS.md)。右键消息窗口与富文本共同隐藏。第五门八语主线与回放已发布，见[第五门验收](docs/evidence/FIFTH_MAINLINE.md)。第六门及第四坏结局已发布，限时选择、旧档与章节回放验收见[第六门记录](docs/evidence/SIXTH_MAINLINE.md)；通关态称呼按用户确认不调整。
 
 ## 文本与资源在哪里
 
@@ -77,3 +77,5 @@ PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的�
 ## 第五、六门整合重建
 
 既有原资料与界面基线下，`pnpm door5:build all`、`pnpm door5:connect all`、`pnpm door5:verify:main all`，再运行第五门浏览器验收与stage/promote，保留 `generated/fifth-public` 作为不可变输入。第六门依次运行 `pnpm door6:build all`、`pnpm door6:verify all`、`pnpm door6:connect all`、`pnpm door6:verify:main all`；`pnpm test:door6 --fully-parallel --workers=2` 完整通过后才可 `pnpm door6:stage`、`pnpm door6:promote`。这不会删除旧代码/素材，也不会把测试存档放入站点。
+
+整作复刻持续目标与推进顺序见[计划](docs/REPLICA_PLAN.md)，非阻塞差异见[清单](docs/REPLICA_GAPS.md)。当前继续第二次调查→第七/八门→终章/通关内容。
