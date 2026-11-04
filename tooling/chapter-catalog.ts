@@ -13,5 +13,7 @@ export const chapters = [
  {id:'badend3',file:'badend3.ks',start:'無理強いはしない'},
  {id:'search',file:'search.ks',start:'start'},
  {id:'search2',file:'search2.ks',start:'start'},
+ {id:'complete-prologue',file:'prologue.ks',start:'start'},
+ {id:'omake',file:'omake.ks',start:'start'},
 ] as const;
 export interface ChapterSpec {readonly id:string;readonly file:string;readonly start:string;readonly end?:string;}

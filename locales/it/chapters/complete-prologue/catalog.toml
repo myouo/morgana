@@ -1,0 +1,1206 @@
+version = 1
+chapter = "complete-prologue"
+locale = "it"
+status = "extracted-not-compiled"
+source_sha256 = "c40685c92b37724ac966e7af3ff89ea4e74bab221a165e77bca0f423b3906e03"
+files = [ "start.po" ]
+
+[[messages]]
+context = "prologue:prologue_D4830CFA_A6EB_412D_B47C_96312B222C3B"
+msgid_sha256 = "8e6f2395f2a326024aa71a31d8d3ada30e46fa7efca17262d8dfbbd9b26fa696"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+control_kinds = [ "freeimage", "delay", "clickskip", "layopt", "position", "glyph", "backlay", "layopt", "trans", "wt", "current", "textfade", "qmenu", "unknown", "c" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_D6CCEF6C_1929_497C_A250_574781E95CC3"
+msgid_sha256 = "732605e083ef850cb0a1678a100f7df87a59b6e5285b0a82f45d74f8f5c8937a"
+controls = [ 0, 1 ]
+control_kinds = [ "unknown", "c" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_7D0E1091_7FB9_4B93_A239_A3A383BA05E0"
+msgid_sha256 = "d30187bb8cd1db8ece8ed5bc5ee5e8ef1cb4a88f55307c32eb724a7a1c41bff3"
+controls = [ 0, 1 ]
+control_kinds = [ "unknown", "c" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_1EB62C36_88AE_4696_8FA0_CF1CB598490F"
+msgid_sha256 = "4e6d3c5cc67c4dab0c493e74edf7c74bc26eb4e49d19b5fd0d4c56e6953bee10"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "mytrans_normal_in", "char_setopt", "女中", "playbgm", "maid", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_B69DEE9D_18C2_4F49_944C_D342A9737DE1"
+msgid_sha256 = "188f365e7425f51354c132147a541f38c9c6c7e37665a932493076d2f153516c"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "char_setopt", "morgana", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_9C5985A3_A450_4279_89AD_E4C9055CB369"
+msgid_sha256 = "564df7d482509c327ee0412613155d1a1b7254f03625bb8f101e036f4cd77c97"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_68962FD1_5789_4814_BF46_B3586D07440A"
+msgid_sha256 = "c2176a2652cd1c7d68ee61b2b81411293bfcf6d1ab8e5e8fc1c3e263bde92bd0"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "女中", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_CF9E89B3_32AE_40C3_9AFC_47CEAC6DA8C3"
+msgid_sha256 = "0f487a1d8bf5c086aa4e021852aebacebc42700ab5140a98857867ca01bd9e30"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt", "i", "/i", "w", "i", "/i", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_42F500E6_AADF_4523_B5D0_46846E73867B"
+msgid_sha256 = "177a244479d52541ce8f3e1e812520847f1820d9a1e966d45780e4ec0515f15f"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "maid", "女中", "l", "i", "/i", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_B351EC4B_885F_482C_B4CB_BCEFFF7E34F7"
+msgid_sha256 = "bbf2456eebd6683608f346023263abff0c1db7185ee06029c4d4bc53bbb8e664"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt", "w", "l", "r", "accent", "/accent" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_219F44A4_AECD_4C4F_AFBA_6559324490AB"
+msgid_sha256 = "2d4386fa715eb70b6007a8d139e2333b65a4843fa86a418f49f699e097173a3a"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "morgana", "accent", "/accent", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_3BF7FF21_91E5_45AA_8A70_93A97AE211F1"
+msgid_sha256 = "f400aab06c02861bba893eff471831cedf109c6399254acc45069aa81b78c0c1"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_2494829B_6EF8_4259_8A89_724BF8C2E9BE"
+msgid_sha256 = "4419612841c9ba180f7ef30e8cf2efcfadb9b6be8fdfe198d92d33c45ee61f7c"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "maid", "女中", "w", "l", "r", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_A3379ACC_2922_40DF_B93A_42D0249E6756"
+msgid_sha256 = "6d0c4c540d17ca5e0f6c8adddf6fc92ff0fa307c91742f0741fb317d6554ace5"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_2A7416EA_6EC3_4EC3_B482_0837EB84EE2E"
+msgid_sha256 = "ebe4c0aba4255b240423ef7f1dda2313b4a76fbe04d87bc0d05ee41fde9b18fd"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "女中", "accent", "/accent" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_8FC837AF_E40A_4C1D_94F4_77A8DB4EDBD0"
+msgid_sha256 = "9e6859bbe034a97bde29251e9f9532fdbe415d704616be310af5f083a74a25d7"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_403866E0_6E4F_493B_A27C_2C7EAFE6329E"
+msgid_sha256 = "b7af1f4892eef09bb2d34c2c9e570045c677a560ce73fb8aed98864b7e3f2194"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_0B05D229_DD6F_426C_BBE6_F3909259CA5D"
+msgid_sha256 = "14e7e2e72488ea812660a5651289199d1c5610de526e3c62e76d3b9f7f86f7ba"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "女中", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_4604B25A_659B_44D1_9FFC_0469BC280F95"
+msgid_sha256 = "7d7f77d6230e079974e37218a4840dc61417fa0fcddae5da5d49c7770db08f16"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_DB2E9551_BD10_4F5E_B19B_02E32600B333"
+msgid_sha256 = "3c44fbd99ae3cfc1b1f4e479edfc9c27effd1b1ae3e33c236ed22d04c1a6e906"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "maid", "女中", "l", "r", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_FE9551A9_E7B3_4525_AC83_90F29E5824B3"
+msgid_sha256 = "a2e831917094adcf7af658c2f5bdb9e0f3ffde2ffd492411c7f22135607ba80b"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt", "accent", "/accent" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_9A642A70_8B15_47C9_BD7B_BEB6E479AED8"
+msgid_sha256 = "24072293257a7efb243a6fe9f341c2099b3491253b3855841523b167d5162a93"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "morgana", "l", "r", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_37041A75_7016_4F96_B9C5_AD3F59AEC5F5"
+msgid_sha256 = "48fd4cbd7edce369d6f76891a3a821dc1d6d2e8fba0ae1458a608d93a94ec8e8"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_DDEDFAD1_E397_4B12_B05A_473A3CDE182C"
+msgid_sha256 = "f534847c05f51aab13f63251fc13d920673e19291dbcb025a201125631bfd8fa"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt", "w", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_30C3C1BA_1D3D_4D6D_A3C5_556EB160ED24"
+msgid_sha256 = "d993bdd5f1440a6a9224139d38d0806716f3575076ff66d9fab298f3eb4cd9ca"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_CEB236E7_F5B6_4895_ABD8_938AE76C38C5"
+msgid_sha256 = "854ec8e5b58b4033be1a21f4a952fae716cf31f2adbe4d2286edee29475d9b0c"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "maid", "女中", "accent", "/accent", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_574CD263_56B3_450E_9E3A_8C4E5B0D67D7"
+msgid_sha256 = "44e011b07079b9aff9cce355c653d2e7207f56eb576e680a5ffe81f26670d3ca"
+controls = [ 0 ]
+control_kinds = [ "maid" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_DB8BD778_E1A7_4B65_A647_0BB64F3853F0"
+msgid_sha256 = "d2cba04a65fe7ac6f83ea24ec22ac793e79a8d5dcc34fe5c8139982a43174e6b"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_66E3DABA_70BF_4E2E_9CB0_E10650F9D26A"
+msgid_sha256 = "a3796d0323461e70a7f3436cd0eedeba53754929f8f24a5c3e696b456c037fcf"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_6A815272_C2BA_45F9_B951_27A1B48C47A0"
+msgid_sha256 = "0269106805bb220927f5af903c0bd2ac92e1ca5cf3b9d3e9aa3d8ef6dd5abf55"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_30105BB8_F139_47A9_876C_84A7C013800E"
+msgid_sha256 = "3008a37fdf16338a98944cfbe4cf33fab9ed11cc07e2cfa7bd6f1d930cca0d4f"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "maid", "女中", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_AFC4E9B5_7FE5_4CDA_8CA6_5FD068EA5153"
+msgid_sha256 = "8ec60cb1c9cf66e1ef68d12e60640112bc988de45c552add051333fe75756147"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "女中", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_4F8B2E47_7E50_4835_89EF_75611D2D9DE5"
+msgid_sha256 = "3f6cfa413670a5b48e065be06a0e1bd99ab250841ac52e2eef9a279c88f1b84d"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt", "l", "l", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_5138CD01_3DDC_4B35_879E_FC13326E4152"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_42A4BB11_E7E3_402D_BED4_135A1C5F58E2"
+msgid_sha256 = "160ccbf05d18f850de3f4c579940a27c5ecdd69e898890ab25a083245b9b813d"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_028D6E05_48DC_43CA_9697_0612FB56B605"
+msgid_sha256 = "c1f6298e0e80721f6eed25624b39708df596c896ad46d2779a45662296b13850"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_151E5CB4_2070_4003_ACBC_31465A58F520"
+msgid_sha256 = "acfc12b47e8902b0405e65277cea7f8a5b5466eedf67aa86e9f94dc8695ed206"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_8355F304_A412_4188_BFFF_7C5AA881B1D6"
+msgid_sha256 = "4f9e8a5bfd3f60f8fa8de38ee433cd86ba51056e770892da74b92be24f2706f9"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_AD302013_5150_4038_AA33_83CFB33738C5"
+msgid_sha256 = "e8e14358d0a4ef2ab55550fbc180ba55288a8fcbdcb0750276fd52a0bf9f09de"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "maid", "女中", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_D3A7E8D5_674E_4B85_80C3_D482E5322605"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_E073C714_2594_4C6B_8881_29B60E9E6F80"
+msgid_sha256 = "c2c641a3ac9bf10a7c301af066b91c76c45b8e6e80f296afc5852b65ce71fe1d"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "maid", "女中", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_35588929_FDC9_4CD6_B99D_2BFC9C227D55"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_3151F414_7AC6_4063_A002_BF3243BD1BEC"
+msgid_sha256 = "7b6e5977f1b318749bfbd0a089a7cfb31b3d10622a9170b283173ecfa58c8ff5"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_6719605B_0F67_44A6_9D44_03AECDDA51E4"
+msgid_sha256 = "ad010283ddc186a2bf9224dbd36acac482dd795610fe03d22b3dbf95d1da3908"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "maid", "女中", "r", "r", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_01182529_3F49_4FDE_8878_C2BC7E8DEA52"
+msgid_sha256 = "898cc7aabc3ada148a7aaf3bf2a88dbac820c0bd8cc9eb6d11c34aa3866ea748"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "maid", "女中", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_4BF914E1_1C61_4169_B95E_D3F354C752B4"
+msgid_sha256 = "b3330482c4cee6d09d4f1a4edf4a30051f3d5a40b7a3dc4954b828df1754a2f8"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_9A132506_B14D_45AB_BA74_CA7F57A955AF"
+msgid_sha256 = "3f634d875ef903a571afc5bf5ec51582ac38513012b16c1bef0e26da362aef90"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_E2743EC2_0E40_4B26_AFF0_5D9B68874DE6"
+msgid_sha256 = "4593770480b1cf06559823de53548ca657c389410c8e0fa6cf18058d19e73991"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "w", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_A04842F3_DFD1_43BC_846B_A79B634F7E7C"
+msgid_sha256 = "bde1bbe2884c4674e12cbcb47996b19980f3ac7843a5ec2adab92b620d8386ca"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_3B977C83_9D59_4DBC_BCB5_52F79960A728"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_42DFBD62_FB8A_436C_A3A3_90D39B9C740F"
+msgid_sha256 = "0d53c9e6c6f3a7b67cebc99d2c5ff1f0a99fbe242504674e433c81aaae1b988a"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_2628829F_F9E0_49FD_BDDA_1E1945CD8DCC"
+msgid_sha256 = "5f72ed5a3d70bdc30a612ac7034cdbdd5d35eaa48b2bf74a02840d269ca83b27"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_14802E75_C9FF_46E7_9ABA_9A5132AF7481"
+msgid_sha256 = "8e85ecbda0c2d011dca38efc2d80f273ba18c4546ba773f4b4344369ecfd4543"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_43F50AFE_2DA4_4442_834B_C1EC9B6553BC"
+msgid_sha256 = "c9793817fb310db44837e9144b06f45121035f9d3e2fa61e76657445c2119e68"
+controls = [ 0, 1 ]
+control_kinds = [ "morgana", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_D937B116_CC88_4AB2_A7EA_094FB292E785"
+msgid_sha256 = "ff2b8815ece7e778c770a127156c3b009d61c19863e8a6c70f4b619568c81094"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "maid", "女中", "l", "r", "accent", "/accent" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_75E90515_8E4E_4D37_935A_426BFEA37DA7"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_0F6E2855_EDF9_4C19_A053_D42834EFF2A1"
+msgid_sha256 = "b330591b80e95528bb737648912db6a594ff6dc6246a1bef3f33ec00de359962"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "morgana", "l", "r", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_F9D5A076_ED14_41B1_B929_2D777AF41DFC"
+msgid_sha256 = "fbe507e67295257745ceb54d24f2ef57b8c0b06613132d88690f20067bb76990"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_4E1EF1BC_63D8_419E_B4FF_CB4874DB9FF3"
+msgid_sha256 = "062fb3b65c430c070ab0e479e7b39dd76061a34ac37675cb63abff19a5b6e74a"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+control_kinds = [ "char_setopt", "char_erase", "mytrans_normal_out", "mytrans_normal_in", "mytrans_normal_out", "mytrans_normal_in", "mytrans_normal_out", "mytrans_normal_in", "過去メル", "mell" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_DDFD500A_B089_48DB_876D_C689665935E5"
+msgid_sha256 = "d83b360e6f590eac181eadf9e54352261fe76ff1f867d9564d2f8687870cd383"
+controls = [ 0, 1 ]
+control_kinds = [ "mell", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_B554CAA8_4BA9_4F1C_8E8C_D3587415F792"
+msgid_sha256 = "7ce834655fc46fa78608e391e639d951a3b66139fd54c2391e89a92cc9ef6241"
+controls = [ 0 ]
+control_kinds = [ "mell" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_7B4BBEDA_EBFA_4572_A27C_9F216E4796FC"
+msgid_sha256 = "7ce60e17ad5fc4371253479bd51aef49ff29dd969c5ac53da03c1d8826e2844f"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "morgana", "l", "r", "w", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_67E255B9_3AFA_44F7_9D43_191D6314B375"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "mell" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_D049602A_974E_466A_BA06_81FE05B25E0B"
+msgid_sha256 = "12f40624aee282d78627dd27cbbe0706b418c2eb865e02a3d39b50a1850ef84e"
+controls = [ 0, 1 ]
+control_kinds = [ "mell", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_682EF1E8_C12A_42C7_86E6_4B66F85BEB1A"
+msgid_sha256 = "070157b0a558e7842cf41ea4ce25667a996876d651877ac15f6c3481e8b6de7a"
+controls = [ 0 ]
+control_kinds = [ "mell" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_ED56987E_ECFA_43A3_A89C_5F73933EEE41"
+msgid_sha256 = "577b319da4f51d538663adebf91aeaf83237f6afe5e88989597d6e559a97f01d"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "mell", "w", "l", "r", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_7F17D5F5_3D0D_4B4C_83DF_CB43A83114D5"
+msgid_sha256 = "fd88698d7f811fd25c49e3c55ad20d76cc7e2d9dac1a6e2686685c0a4c344502"
+controls = [ 0, 1 ]
+control_kinds = [ "mell", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_B673D0CF_9D5B_48EE_9849_F400107D55CF"
+msgid_sha256 = "22b74ab58c98e94beba6d602ea27aeb647163c2df73f80a242c9344b6d740b71"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "mell", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_D025F4C7_0E86_4FF1_9A66_DE8404101E6C"
+msgid_sha256 = "37d6d0ae2fd4ef2b6977d72b8eca994ed7b82a1b6cad968f756a4aa7b6ab208a"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "morgana", "w", "w", "w", "w", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_78EDDC95_1EB1_4B7D_B113_D076E5BCFEE4"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "mell" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_C6D611E3_7DC8_4A41_9A82_3A05C7D280B5"
+msgid_sha256 = "f86357c672eedfeb345cac9a887a0cf7f7240d7d85b07d25e0becb1e82ade945"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "mell", "l", "r", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_41A5FFE9_9441_434A_B6B6_0A9FDBB3EA75"
+msgid_sha256 = "5a25db92b51c6c0d6314fa9f45a2e8649350d65d6c8d0ed9a0b622f69ecaeaec"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_BFF5F180_A4D9_42BD_B6FD_C850F7113112"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "mell" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_F8E82680_D1FC_4AAD_B9B8_4D5352849887"
+msgid_sha256 = "5cd88320cad883c606e8c30814ccdf75954e09f4700db3b2d0f71517a9a237c6"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_C0152211_260D_4C13_8BA4_3D1F9F5E1BE0"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "mell" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_483EFD15_7D07_42DE_BAFA_4D20B3346F89"
+msgid_sha256 = "341ffc9ff50fe9309a9950a653980fa674920444b62920a4a0223485cee1f31e"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_8286AE00_0CCB_4A0D_8589_D61CF38B3DA7"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "mell" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_0BE83FE9_D24A_4C35_B1BF_A231524DD39B"
+msgid_sha256 = "f8d1f2341d244e53f7d721f3079883b0ab7eb2ef943a44f0d6853194530e1da5"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "w", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_08C0A688_A605_4C78_B568_9E496B4C23E0"
+msgid_sha256 = "b5a8f2cc077085e612c1eea6a01feb7a9237ae22eb1f6c0b71cd48155c8185b0"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_9593254C_833E_4552_8848_A2E00951173B"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "mell" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_C8FD21F7_0736_4E48_9E18_C2F3F3C07D93"
+msgid_sha256 = "64a4bd80160bcf5e7aeb016130ee939b994a0cd1e035a80eaec9a32d401041ca"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "morgana", "r", "l", "w", "w", "w", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_13D0682C_7ABA_431F_9F66_72EBFA7A052D"
+msgid_sha256 = "f6d98236a74c66c03a6265f8333104b6156f48b1f76436a63a65d539c792b4e8"
+controls = [ 0 ]
+control_kinds = [ "mell" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_C389DB21_6213_40D4_A88D_0BCA62186177"
+msgid_sha256 = "c38928bbe05a00e98c553cba2dde65a7db0b67fb0893b88c9515b7350d6d68e3"
+controls = [ 0, 1 ]
+control_kinds = [ "morgana", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_DFF2CB05_F4FF_4513_A714_AA3BDCC73187"
+msgid_sha256 = "dd4a48102c5193edbf5f0a55fb27ad3c1b38da060fc018a1551cb3c739e30fa5"
+controls = [ 0 ]
+control_kinds = [ "mell" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_F1E8C54F_A675_404B_892C_41E9DF04E45F"
+msgid_sha256 = "3fcab9f8a593f52ec9ac752c95b1d0fdcabc50c3d2e2f6e0d3f4a891ab9882c1"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_F8F2B84C_8C44_4CE8_9853_265BAB2D17F3"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "mell" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_BD6BBA19_5652_49F9_B2B3_D47D4E5B43A3"
+msgid_sha256 = "f18b5222cdce670b3c6cc2b41dab3d4fdf010299800580205d74604c191ec43f"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_B81E3655_8106_4CA1_AB9E_FCB304561E06"
+msgid_sha256 = "1dc46f96ef031c82d8e7549a99963c238db47634e53c8c05e1370193191aac25"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8 ]
+control_kinds = [ "char_setopt", "char_erase", "mytrans_normal_out", "mytrans_normal_in", "mytrans_normal_out", "mytrans_normal_in", "mytrans_normal_out", "mytrans_normal_in", "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_78F0642D_FC06_4B96_818C_3BB78AE5E32A"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "playse", "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_C75D8182_EB40_4A7A_BACF_847F1398E509"
+msgid_sha256 = "3e9655335f7eb9f0af1fa719dea51b2aef686e8729115d258408e28c3553ba3a"
+controls = [ 0, 1 ]
+control_kinds = [ "playse", "toyo" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_87A516CF_B030_48DD_8683_F988C0F3E5D8"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_579012B1_D00B_460D_A69D_79F337AFDB32"
+msgid_sha256 = "755ac3d1adab1c37340f2a4d360b7fb7daedce474ca0407899c804bfec56adc9"
+controls = [ 0, 1 ]
+control_kinds = [ "playse", "toyo" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_74E2E144_FBAF_4199_A183_4B054CA8BEAF"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_15CA82E6_3074_471B_91C0_C4A0D9341564"
+msgid_sha256 = "338bfb7b15f78b24b1737e738c3258a92513590dd747facf0d3d7854b9e1ea4c"
+controls = [ 0, 1 ]
+control_kinds = [ "playse", "toyo" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_5C1FA0F0_27F8_4F49_B51D_EF479532425A"
+msgid_sha256 = "e3b3e878804099ad1c03c54fa43df36d392c99adbfd2c487d16a393cf01ef281"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_5C1FA0F0_27F8_4F49_B51D_EF471532425A"
+msgid_sha256 = "148a7cca1a282ef642b47b5d736197f38849eb1bbeb810cc697e284b9f7c2739"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8 ]
+control_kinds = [ "mytrans_normal_out", "mytrans_normal_in", "mytrans_normal_out", "mytrans_normal_in", "picture", "w", "l", "r", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_5C1FA0F0_27F8_4F49_B51D_EF479533425A"
+msgid_sha256 = "8ac78ce5e6abb4b9ec2481766064449ac76fb7ff0a2bdf0755fca358720428d1"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_C4CDDDC9_42FA_481B_A276_5E549B57792A"
+msgid_sha256 = "5d4ab764f4114d8f06b4f63c2c34fe1c6ac9394ea1028a1a4c73dfc4f50eb580"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_E3BA7CB9_AC09_4B67_8864_57E31FE4B51C"
+msgid_sha256 = "c3558bf7fe04c411c14de92615635ac4702d3c5a13fdfaa3e5b5e54186a5af86"
+controls = [ 0, 1 ]
+control_kinds = [ "morgana", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_5234F0B9_35AF_4AA9_9596_CA1DC2677BC4"
+msgid_sha256 = "0dd46c5a0685c52ec284d79cbb83e37f51874eefeff36c7bf60814d0aa52bb27"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_CE0158B0_CE4A_49D7_B7F5_7590458A48DE"
+msgid_sha256 = "d739602955c227d1ed22cd9299e9734e35b56b2629dd8e4db7518d1668c605ea"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_F5C8261E_A28E_4200_AAB0_574D98D8A2EC"
+msgid_sha256 = "732d5316195e13a7d00aec199f43e5affe7e6ce2e517bc798950f0270b7ff1ec"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "w", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_FE5F6323_17FB_448B_BC80_99029B31C4C6"
+msgid_sha256 = "27d3aa250fee61852d4300980d9ce5977b0178b25b9ec8b09b70c5dd35ddd7ce"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_83CD5414_008E_41B5_8628_53040501DF0D"
+msgid_sha256 = "a8ab92eb5e40ed59b6baab92eeb8650fd7873792912760e012b9cb632659e73e"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "morgana", "w", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_4871CF0B_942F_4DE0_BD11_490A479025D9"
+msgid_sha256 = "20bc9237e51fa2af076cfedb0dd8dcda56f23df1b1df8521547a029236eb4390"
+controls = [ 0, 1 ]
+control_kinds = [ "morgana", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_DD6F458D_630C_4877_83DA_A870348F4198"
+msgid_sha256 = "c8696519582eb8afd0cefe31b96dd56d521c0cb6cd6f5314b0f4b90cf4a98381"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_EF99D58F_091C_4D94_8E79_84160999978A"
+msgid_sha256 = "62f45eba16b282e28967c35e0ea6531e9fc350f39f664ea5e896f9e4de8ee239"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_69452AEF_0942_495C_BC6E_A703B042ACFF"
+msgid_sha256 = "fadab7ebac4455337e20b2de500c50ab83395a0c208005175f21f6b9a5c901e4"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_747BF5C2_E368_4B73_B83A_0302AE7123A1"
+msgid_sha256 = "b702d921585e774e83bed71965f2e7e33ecea18c1737d7b1089b0b4f5c8c1eda"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_029B7F54_5C90_4B5F_8900_BF5039306822"
+msgid_sha256 = "4341eb1412b3445984b5603af750d6e49fc895b8b9dacf65a9f9b4e09550bf13"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18 ]
+control_kinds = [ "jacopo", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_F4FDF2C8_2103_4B22_9C85_EB046A2100FF"
+msgid_sha256 = "244d2def4ac701506d51d80b66f5a2f947f263acbcc773515d127d1b57f255e5"
+controls = [ 0, 1, 2, 3, 4, 5, 6 ]
+control_kinds = [ "char_setopt", "char_erase", "mytrans_normal_out", "mytrans_normal_in", "mytrans_normal_out", "mytrans_normal_in", "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_68A74695_57F2_485C_8ECA_DFF6ACBC363F"
+msgid_sha256 = "d3ae6203e9ddd80f22a90ad6055810e11ec2864874cbf1710f5c19a7587300f2"
+controls = [ 0, 1 ]
+control_kinds = [ "女中", "maid" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_BD484963_2056_8A27_67AF_47F7B83B8079"
+msgid_sha256 = "6a24e45d12875bf85b2309ec0f968f6b20792b48db1ff071f34c97a57505177a"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "char_setopt", "morgana", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_999B26E1_234F_47EB_83D2_ADAC09159C4C"
+msgid_sha256 = "f6601fe31ec3734ed2c196cdf4f6bd018969c32037907af562cc6a6141a87542"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_BA49FB62_4F22_45F7_9EFC_7A2E8A3584D1"
+msgid_sha256 = "292d352b044c9075b743473538ea496e65b7c3434b6cd7aff219cd25e2e7d33a"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "女中", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_FAF3A697_80C2_4453_BA82_4E0219AF7030"
+msgid_sha256 = "286313a43fdcfe8fa1b0f689e801f30e0f83ce350e5512fe043c9a1d76624b4a"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_DB8AF182_BD84_43BD_993D_AA9596C7847F"
+msgid_sha256 = "caac1967ddaad851769d6d9a52779662deab0b20a4d26d9bcf3bd440f2d9e25d"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "maid", "女中", "accent", "/accent", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_092705DA_08B5_4D9D_95FA_952A3E7F2528"
+msgid_sha256 = "c81782a032c72afa8115be4f94d70f97b1287dec518fda12f6f128036698084d"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "女中", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_FEA1CF4E_451E_48A7_9DC4_891CF3DD6C47"
+msgid_sha256 = "5a6b0e65eb85c896b0eb5a8ba41d20da06fcea869e52a7c3b06f8977318b4b78"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_6D7F0D48_E256_41FB_8ABF_67035966F310"
+msgid_sha256 = "121cc05dba9704a0807414d336f26980fb911cd5d2ba102371a819b9d33f555c"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "morgana", "l", "r", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_CFCE50A9_99B6_426C_8AF6_AA13A4411372"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_9236FE37_AD0B_413E_B1EE_573D94C5C8FA"
+msgid_sha256 = "4a840aa57dd42d27570e67723781d2fa4f2a18f9a2374edb0982a528de193464"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_BAA370EA_A8DD_4193_BEC4_954AF4CE30F3"
+msgid_sha256 = "60c0d3e5dd1dc6062eee571a79f5fac4eadd6202b146ea347245763c1698d1ef"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "女中", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_6276C8C6_4D64_4939_B080_8E7336A42AE1"
+msgid_sha256 = "401d2e44255adcb9ed837f58ad0b0811f2e4387adc0a8a5187c71ad54b22d941"
+controls = [ 0 ]
+control_kinds = [ "maid" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_1C3307B0_CA80_4AFC_954F_B2F478799085"
+msgid_sha256 = "fa99512e8bc575fe26436174fcf39db977e84bf14ed6bfc5e82de58a149b9512"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_EAE05CB6_9897_41A3_9C42_A69ECFE00E94"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_2FF4841E_7829_493B_B48D_92648811884D"
+msgid_sha256 = "e8bb8c49d24ae58955c3e435fc8c4b2d3e84285b8b738f291f52adc9e5b63f31"
+controls = [ 0, 1 ]
+control_kinds = [ "morgana", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_02798BCD_35B7_4E8B_841D_A2EC10EC204A"
+msgid_sha256 = "2da238b1f2a1409fabb2884020be6eef86b100cbc0a70710f06d5ce52b0f9981"
+controls = [ 0, 1 ]
+control_kinds = [ "morgana", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_15266CB4_6FB8_4854_8901_A8312B965673"
+msgid_sha256 = "044d0f42e6ab42895cc908079611a08a548982d63ee887014c610188bac501dc"
+controls = [ 0, 1 ]
+control_kinds = [ "morgana", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_EF274B56_A423_457B_A072_C40DC8FAD9C3"
+msgid_sha256 = "49e7c8fc02decb0d97a66296a13823cd1f141c6f196f6cddf7588a556edcc3ea"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "女中", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_6F67C5B0_C24A_4668_98BE_74004E34C9DA"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_20377C26_65DF_4C44_9742_66B2D727E3FB"
+msgid_sha256 = "a93c6df6d65b0e38cc3b9d3eb0e9151a6b46c265009b96bb037fcf2989a37260"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_83FF8678_1591_4CF0_9621_A0DAB2352DBC"
+msgid_sha256 = "2ba57264fac8f2e22ac491b845077c7017807a4aa91c4e092d57f702c701a3e9"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_AD6FAC1E_9B04_4DBD_B8A0_B27E28C2B2FC"
+msgid_sha256 = "91321b49370c4b7c541d7611ed12ccdd34c863fd6468eac90464fc602dc80d7e"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_49C176F1_BCE3_49F3_81BE_D5115D0BB47F"
+msgid_sha256 = "20a43ec53c0bf5f3583c3d950455e55f7dc65da48ec8418686820b2eac6cc862"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "女中", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_B1DFC283_1B48_4453_A7F7_5CE16E298A64"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_94C14E4E_7E3B_4581_9B62_049CF8D54A66"
+msgid_sha256 = "21dc34bcc88e7117148f153c6c321a569ee1e7526c6c0a8aee73c93b3430244e"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "maid", "女中", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_8AC6E217_CEE0_46F9_9EC8_9910422F192A"
+msgid_sha256 = "3d09c783274b47b7400d0b08ed15841d3ddfafc32d6f229224acc1c399e632a6"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_73CC72C6_6299_4149_BE04_328B53A863BD"
+msgid_sha256 = "77c22d63b64bd07c83643f83a284ea23d12fad23264987f272e082ad210fabc9"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_E2439061_DA6C_4A2C_A47D_54717BC07551"
+msgid_sha256 = "1c812955ab9bac78e3a90e06d812791e1961c834f796f1436b7f9a497f0f3238"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "char_setopt", "char_erase", "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_5A1DBDD4_1D9D_4E9D_863B_EA9842677F7C"
+msgid_sha256 = "d2b71a02549c0a4f2850f5fe6bef5cc717e20f64423568df988e554f262eeff7"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_870EAC40_3B58_494A_97A1_3A2F887100CA"
+msgid_sha256 = "22ceb99b353adba5994959f012babb2bec5606896f61d415d95d7b3f6d4c4764"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_77D33047_37CB_46A4_B8A9_6BD15A716439"
+msgid_sha256 = "8d5943b428694553b91c2102e4d9fe0b5b452db1fe4344bcc43804d2a47ac9bd"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_40871056_3225_4707_8689_7B664D20CA05"
+msgid_sha256 = "48f41697b22461c825c2f67ac00db3078091b23a05c42741f58ec0ffc02c435d"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_9C0483FF_FB9A_422D_92AC_4BC3B6857690"
+msgid_sha256 = "fe084f3d3b31480ed6bb4d4950aae15f378206a9de38ab6ba96559f822f8132e"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_FFC67470_53C4_4F21_AED6_2E1BD7744F9B"
+msgid_sha256 = "201b68cd7ecc11b4a0f8cb09a9f67f80ee0defc1d8cbd229a57f17f55cc2364a"
+controls = [ 0, 1 ]
+control_kinds = [ "morgana", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_BFD85E0F_4572_40BE_AE49_D635907642E3"
+msgid_sha256 = "b58fa57e10131595049ac7084b7fe1570d9905973168c053d410de88ee8095b1"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_7781309C_A3A6_46A3_83A0_2F63E3E00274"
+msgid_sha256 = "62815312dbea87667a650ac5c7b5448f49c438e01a4549bf7b0af5b0e188feaf"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "morgana", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_CB3C17BA_6183_425F_B39D_F6AC11B88010"
+msgid_sha256 = "44f4048fe50c66b929c38090f18167ad157dda9adbe05972f6304e5bd0b91269"
+controls = [ 0, 1 ]
+control_kinds = [ "morgana", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "prologue:prologue_1539A0C1_92F2_4044_A166_E002140A90A9"
+msgid_sha256 = "4168d7df33dea4649c0ef02f4721f8b8250eecf73a2c216168cd2224eb1b1ad1"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"

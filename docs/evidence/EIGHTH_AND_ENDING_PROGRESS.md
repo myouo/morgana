@@ -42,3 +42,29 @@ badend7/fataend两路、9切点、最大33对象/55任务。原五个选项页�
 当前混合字号栅格仍采用18px并显式报告CHOICE_INLINE_ACCENT_NOT_CERTIFIED（F-03）。
 中文终章整合候选doors9-zh-85bdd4ddb95ffd4040e1已编译，563函数/96模块/1894资产；
 实际八门进度尚待前一验证结束。
+
+## 中文完整主线与通关序章
+
+`pnpm door8:verify:main zh`、`pnpm door9:verify:main zh` 均完成：
+从实际前章的正常终点继续，分别覆盖5种/2种结果，全文8849/1976片段与16/9切点，
+并实际打开door8/door9回放而不改变主进度。八门主线最大45对象/26任务，
+终章44对象/57任务，均保持SDK原执行/快照限制。中文正常主线已到fataend；
+这是本地候选Core验收，不能替代发布、实机全媒体听验或原生存档互通验收。
+
+终章八语完整独立路线已全部通过；第八门八语全部编译，中英法意独立运行已通过，
+剩余语种批次在artifacts/eighth-drive-remaining.log继续。
+
+`chapters:convert complete-prologue`、`chapters:convert omake`已整理额外八语PO。
+原作通关序章是独立prologue.ks，保持与新游戏scenario.ks的prologue目录分开。
+`compile-bonus-prologue.ts`/`drive-bonus-prologue.ts`已在八语完整通过149–150片段、
+章首/中段/结束3切点；中文源有一处无正文[p]，按SDK空确认页保留；debugLabel
+只进报告。中日韩源返回title.ks，en/fr/it/pt-br/ru返回endinglist.ks:*ending_main，
+转换器检查各自真实末尾跳转，没有统一改写。此独立片段尚未连接原八结局解锁入口。
+
+实际测试驱动减少了成功路径上的重复Core.view()复制，不改任何SDK执行或源图；
+媒体回执、所有选项、源文本和冷恢复断言仍完整保留。其余主线整合脚本继续按每批最多64个
+已验证SDK模块安装，不放宽SDK批次或活动快照闭包限制。
+
+新增通关内容后的`pnpm check`通过：286689条八语PO/控制身份、三套类型及依赖边界。
+终章独立八语矩阵和通关序章独立八语矩阵均完整完成。附录的文字提取存在跨语对齐
+差异（部分源少33–34页、部分有3条源义务），保留各语自身身份，未静默补写或拼接。
