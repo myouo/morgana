@@ -54,7 +54,7 @@ export async function connectedRelease(from:string,to:string,locale:Language){
   for(const r of input.resources){requireValue(r&&typeof r==='object'&&!Array.isArray(r)&&typeof r.id==='string','CONNECTED_VISUAL_FACT');const previous=old.resources.find(v=>v&&typeof v==='object'&&!Array.isArray(v)&&v.id===r.id);requireValue(!previous||canonicalWireJSON(previous)===canonicalWireJSON(r),'CONNECTED_VISUAL_FACT_ID');if(!previous)old.resources.push(r);}
  }
  function mergeRules(input:JsonValue|undefined){if(!input)return;requireValue(typeof input==='object'&&!Array.isArray(input)&&Array.isArray(input.images),'CONNECTED_RULES');const old=meta.rulePresentation;requireValue(old&&typeof old==='object'&&!Array.isArray(old)&&Array.isArray(old.images),'CONNECTED_BASE_RULES');for(const row of input.images)if(!old.images.some(v=>canonicalWireJSON(v)===canonicalWireJSON(row)))old.images.push(row);}
- async function addFragment(root:string,prefix:string,kind?:'bitmap'|'omake'){
+ async function addFragment(root:string,prefix:string,kind?:'bitmap'|'omake',namespaceUI=false){
   const donorManifest=decodeWire('ModuleManifest',await read(`${root}/programs/${locale}.modules.pb`)),donor=createModuleProgram(donorManifest),donorFiles=await Promise.all(donorManifest.modules.map(async m=>({uri:m.uri,body:decodeWire('ProgramModule',await read(root+'/'+m.uri))})));installModuleFiles(donor,donorFiles.map(f=>f.body));const donorMeta:{[key:string]:JsonValue}=kind?{history:[],chapters:[],rulePresentation:decodeWire('JsonValue',await read(`${root}/programs/${locale}.rules.pb`))}:await title(root,locale);
   if(kind==='bitmap')requireValue(!donorManifest.header.textLayout&&donorFiles.every(f=>f.body.functions.every(fn=>fn.code.every(i=>i.op!=='text.rich'&&i.op!=='text.page'))),'CONNECTED_BITMAP_TEXT');
   if(kind==='omake'){
@@ -62,6 +62,7 @@ export async function connectedRelease(from:string,to:string,locale:Language){
    const names=ir.tokens.flatMap(t=>t.kind==='tag'&&t.name==='title'?[t.args.name??'']:[]);requireValue(names.length===1,'CONNECTED_OMAKE_TITLE');const addresses=donorFiles.flatMap(f=>f.body.functions.flatMap(fn=>fn.code.flatMap(i=>i.op==='text.rich'?[i.at]:[])));donorMeta.chapters=Array.from({length:Math.ceil(addresses.length/256)},(_,n)=>({title:names[0]!,addresses:addresses.slice(n*256,n*256+256)}));
   }
   const expanded=expandModuleLeaves({header:donorManifest.header,files:donorFiles,assetCatalogs:donorManifest.assetCatalogs?.map(c=>c.assets)??[]},{compositionVersion:3}),linked=namespaceFragment(expanded.parts.files.flatMap(f=>f.body.functions),prefix);
+  if(namespaceUI&&donorManifest.header.ui){const screens=new Set(donorManifest.header.ui.screens.map(s=>s.id));for(const fn of linked.functions)for(const i of fn.code)if('screen'in i&&typeof i.screen==='string'&&screens.has(i.screen))i.screen=prefix+i.screen;for(const s of donorManifest.header.ui.screens)s.id=prefix+s.id;}
   const known=new Set(functions().map(f=>f.id));for(const f of linked.functions)requireValue(!known.has(f.id),'CONNECTED_FUNCTION '+f.id);
   for(const file of expanded.parts.files){const ids=new Set(file.body.functions.map(f=>prefix+f.id));files.push({uri:'pending.pb',body:{...file.body,id:prefix.replace(/\//gu,'-')+file.body.id,functions:many(linked.functions.filter(f=>ids.has(f.id)))}});}
   mergeHeader(donorManifest.header);
