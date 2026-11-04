@@ -1,0 +1,12 @@
+import {useEffect,useState} from 'react';
+import type {Player,PlayerView} from 'galbox-sdk/player';
+import type {TitleData} from './artwork.js';
+import type {MenuWords} from './translations.js';
+/** Source artwork with SDK-owned activation, deadline and branch identity. */
+export function SourceTimedChoice({player,view,title,words}:{player:Player;view:PlayerView;title:TitleData;words:MenuWords}){
+ const wait=view.core?.run.wait,w=wait?.kind==='interaction'?wait:null,layout=w?title.choices.find(c=>c.at===w.at):undefined,[ready,setReady]=useState(false),[failed,setFailed]=useState(false),[retry,setRetry]=useState(0);
+ useEffect(()=>{let live=true,frame=0;setReady(false);setFailed(false);if(!w||!layout)return;void Promise.all(layout.options.map(async o=>{const image=new Image();image.src=o.graphic;await image.decode();})).then(()=>{if(live)frame=requestAnimationFrame(()=>{if(live)setReady(true);});}).catch(()=>{if(live)setFailed(true);});return()=>{live=false;cancelAnimationFrame(frame);};},[view.epoch,w?.prompt,w?.attempt,layout,retry]);
+ useEffect(()=>{if(ready&&w?.phase==='prepared'&&view.lifecycle==='playing'&&!view.paused&&!view.menu&&view.loading.phase==='idle')void player.activateInteraction(w.prompt,w.attempt,view.epoch).catch(console.error);},[ready,player,view.epoch,view.lifecycle,view.paused,view.menu,view.loading.phase,w?.prompt,w?.attempt,w?.phase]);
+ if(!w||view.menu||view.paused)return null;if(!layout||failed)return <div className="resource-error" role="alert"><p>{words.failed}</p><button onClick={()=>setRetry(n=>n+1)}>{words.retry}</button></div>;
+ return <div className="source-choice" data-source-timed-choice>{w.options.map((o,n)=>{const art=layout.options[n];if(!art)return null;return <button key={o.id} className="source-choice-option" aria-label={o.label} data-timed-option={o.id} disabled={!ready||w.phase!=='active'||!o.enabled} style={{left:`${art.x/800*100}%`,top:`${art.y/600*100}%`,width:`${art.width/800*100}%`,height:`${art.height/600*100}%`,backgroundImage:`url(${art.graphic})`}} onPointerEnter={()=>{if(ready&&w.phase==='active')void player.playUISound(art.enterSound).catch(console.error);}} onFocus={()=>{if(ready&&w.phase==='active')void player.playUISound(art.enterSound).catch(console.error);}} onClick={e=>{e.preventDefault();e.stopPropagation();void player.playUISound(art.clickSound).catch(console.error);void player.chooseInteraction(o.id,w.prompt,w.attempt,view.epoch).catch(console.error);}}/>;})}</div>;
+}

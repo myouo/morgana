@@ -1,0 +1,366 @@
+version = 1
+chapter = "badend4"
+locale = "it"
+status = "extracted-not-compiled"
+source_sha256 = "88783cb73b329ab3fe80be97694c4751f76303e638fb29e0739892d2c0ccda0f"
+files = [ "badend4.po" ]
+
+[[messages]]
+context = "badend4:badend4_D864E876_6908_4DFD_8C59_9960C551FBD0"
+msgid_sha256 = "dddd1266d341ade519079b629bec95e25d7a75694b565c884f726a39027f5424"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ]
+control_kinds = [ "loadplugin", "layopt", "trans", "wt", "title", "qmenu", "delay", "layopt", "position", "glyph", "backlay", "layopt", "trans", "wt", "jinobun", "i", "/i" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_43C57723_0AE5_4E6A_91A1_50A7736B839E"
+msgid_sha256 = "2ec59b82bf679a67d204512b943ca33159a0390223d83db65150c487e9578523"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "jinobun", "w", "w", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_9C2EAC76_A8D9_419D_81C0_982690FB038E"
+msgid_sha256 = "001e62c5d1084be2e0c724629c535eddcada4e8c00ada2b3293a9b03eea19486"
+controls = [ 0, 1 ]
+control_kinds = [ "jinobun", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_851B3478_1274_403C_8DEA_5A643985E0D4"
+msgid_sha256 = "7304c634f72863db4568083fb634fb332e4bd000078a9bcef7e4ab9fb4dcb943"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "jinobun", "r", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_2D2BD374_E3CE_430E_A7A5_A76BBE55101A"
+msgid_sha256 = "0dd2d65616f1575055a8e3ad1f3266ddb95b6a3119211744ef2a17d9e62ed9aa"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_455C04DF_3FC9_44B9_A371_3FCBD45D2299"
+msgid_sha256 = "a995b930c97d5a40911bc9a1f5b900e08fb5e954cbfeee5797309b69c513aa05"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_E0D52035_C1FD_40D0_9118_D14ECC478C99"
+msgid_sha256 = "0a37b351be9c89e71a8247d5fd5f8ac28ba456fb6fa2b40ca5174d1df9e4a47e"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "char_setopt", "女中", "maid" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_DEDD2D2D_E3D0_4446_8DB8_75FE39F1FEEE"
+msgid_sha256 = "24c2a05166faa5128de6f1238c50b29649d6ab7c77576ac1de67646c830269ad"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "char_setopt", "char_erase", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_AEC8519C_D043_4752_AF22_B69A6199D5D6"
+msgid_sha256 = "1969bcad72bb477b915b838bc818d6b662cb8109de624339cdbdb45799238619"
+controls = [ 0, 1 ]
+control_kinds = [ "michel", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_44A31671_A439_46D8_82FF_255B41B70C64"
+msgid_sha256 = "0ec5f595a8393bcb1d25adb5b5baef3e48530dc9f4b7e2e1b92695532ff0a95f"
+controls = [ 0, 1 ]
+control_kinds = [ "mytrans_normal_out2", "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_B165DF92_E53D_47AA_BECF_198964743FFF"
+msgid_sha256 = "e0d1478e29447f55f032e5751bbaa1149cd0b66a8602a69f88ce75dbd3fe2757"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_9E3B30D7_BD5E_48D5_89AA_0E599A990788"
+msgid_sha256 = "5c300f997a33f85efe132602976e74fdb069ee467ef98cfb6e59cc07d43aeb05"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+control_kinds = [ "jinobun", "l", "r", "w", "w", "w", "w", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_ED24E8C2_97DA_4BC6_A2E8_6FD2942EF79E"
+msgid_sha256 = "928eb0e145c29dac0fe08eab8584073b964657f1d1915dfab35828ed0275465c"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "jinobun", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_E4AC1FC8_4D3A_4AC0_A5B4_BCB978B1B26F"
+msgid_sha256 = "197e9703efda829e236560c33fa5f6974e942354ee445a06af9032702a5af2cf"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_B166DCAC_D82E_4EAA_9D61_F421F9DFE6F5"
+msgid_sha256 = "b5b4021e27a2a4913fa69f14fd22db44a2645e8bdefcbe410b701dc48df7e386"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_3BDCA0F2_76D9_4C27_AC71_1CBFDEAF3F22"
+msgid_sha256 = "7e010e467d01a86e5b297f44fb8097dd4c2f827385567e5508ad1f557d592062"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_016BD7A2_04E1_497B_A66B_E34C427F0DAB"
+msgid_sha256 = "54d2bb90867142670fabdc385dd6aa03648dfeadd736a09d23914ec44e12f9d4"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "jinobun", "l", "r", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_3EC6C99D_EE3D_43B7_857D_F76FCB16D6F3"
+msgid_sha256 = "833def0b429a20cd0a877bc58da22d2c6d840c7b4c2edcced7f67884923d675a"
+controls = [ 0 ]
+control_kinds = [ "jinobun" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_4BB83685_4EEE_4D06_A4A7_FF100EF80A3E"
+msgid_sha256 = "5c3d5a1c835e27485841fa900488310d73e534b08e620bff9267e32d0d602433"
+controls = [ 0, 1 ]
+control_kinds = [ "jinobun", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_4573C6E4_08A0_442D_A272_144DCFE30DF5"
+msgid_sha256 = "a1c4981f0bf607c322948f7fa12f9b67ed74938b9a5be503cfdc0fd72ad9d248"
+controls = [ 0, 1 ]
+control_kinds = [ "jinobun", "c" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_AD69E162_683D_4F33_A670_7397540CDD89"
+msgid_sha256 = "6f9f2e53a4ee7d04c1805a9a84345daf83051bbb29a08b31ae555c567984dc9f"
+controls = [ 0, 1 ]
+control_kinds = [ "jinobun", "c" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_93160489_3279_46C0_8446_8B1D1067F774"
+msgid_sha256 = "553dc427e0344d17b466697843b24be005f2e7e2215e074c6e235edc8f74a2d1"
+controls = [ 0, 1 ]
+control_kinds = [ "jinobun", "c" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_FD985EAB_410D_4D76_A790_D23E466CF827"
+msgid_sha256 = "3ef59a5e1c86997ff189aaf26cf4b9373cb18b48cd13734656c7afc1504db9bc"
+controls = [ 0, 1 ]
+control_kinds = [ "jinobun", "c" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_E2C7E698_2A8E_4780_811B_B12B3887B506"
+msgid_sha256 = "a60ff503f8d5eac1282f4e4769c932a2ff2dfc704d83a538a6951b2dcfc97277"
+controls = [ 0, 1 ]
+control_kinds = [ "jinobun", "c" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_FC8CA861_0EA9_4ACB_BFCC_7E8AC5B643BF"
+msgid_sha256 = "155fecbd63056de42de4ea54d5c50fded489e41f1988bac6a28a1d1421ac0d31"
+controls = [ 0, 1 ]
+control_kinds = [ "jinobun", "c" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_A54E4CBB_4271_4823_BAC3_40524D4D52B1"
+msgid_sha256 = "00faeffa007e9293bfa7f704329692c09937d2303cde155b7e08ef51b5d7eb86"
+controls = [ 0, 1 ]
+control_kinds = [ "jinobun", "c" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_A5917A7A_1514_452D_A968_31D6B6D0F574"
+msgid_sha256 = "a3b8382595ca1be1b90f432fe0a0d03363ebab2338d577351cde33ef0e10a1c4"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
+control_kinds = [ "fadeoutbgm", "layopt", "trans", "wt", "wait", "playbgm", "layopt", "trans", "wt", "mytrans_normal_in", "char_setopt", "女中", "maid" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_C2010BBA_364C_4B99_B028_B226F34AE006"
+msgid_sha256 = "479bc0c01237c78be2a00ef4289ce678b334985f1e4f3058ce733f6828fcd15f"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "char_setopt", "morgana", "char_popdown_one", "wt" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_12E047A7_7258_4BEB_8A11_ED99FDD65A12"
+msgid_sha256 = "6e27afcbdc031116dff59629ae034536b9ee4fee17bfc4069b36945ed8b03f9c"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_2571AA63_1D62_4B76_ACC5_21667D667360"
+msgid_sha256 = "dc6bcd8a8bed2c7029ef9b3f024f4bd1e49a07fd320b171d2a1405e52e96bc49"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt", "l", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_A9D5DF02_49C9_4F29_A4AC_E2FB94BF1CB9"
+msgid_sha256 = "7b795260406a1b3ff13e89a147cab87e3be962fafe5ed7384c004cf35fb7897a"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_E61D1801_1BBC_4D42_828B_F9CD61609A20"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_BB926BFE_5346_4256_B294_BB40E3DCE61A"
+msgid_sha256 = "838a2ab19ccfc3cd078774b20fbde472cf4b4fb69da53b426aacbd6f67ee850e"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "maid", "女中", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_32305A98_FC52_45A3_B025_9356B19B1602"
+msgid_sha256 = "13a3b2eb877f031a1b4d491f9dfbf1e0860e2fb92bfe75260936506ff6476a7f"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_639D2763_B577_45EA_8227_E0DD81CB29B1"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_470520D7_9C79_47D2_A2A3_0CA75EF8189F"
+msgid_sha256 = "ba67a1dd2a6f9e2b17e7fb919fa148a044d686562529f9ebe67b6f163e172967"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "maid", "女中", "w", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_E97B79AA_DFE6_4E90_BDA2_60FBBFD94FB6"
+msgid_sha256 = "a7a7f014189b24382edd9ba33a8ad8f98d4b0dcdd8983ee03bb0317fd0a1927d"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt", "l" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_28A6B1AA_8920_4357_B690_869E1F90DC27"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_A4327DFE_1C7A_486A_A024_F6DF67C3B548"
+msgid_sha256 = "7393e7869fef524548e88d802af0b7b395ce5bee4905e2f9585fcfd2aacaae64"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_6CA3AA2D_6C48_4894_B9C4_994DA94C00A5"
+msgid_sha256 = "e3be4d5864430d017e3de3ad370eeb505eb9bd5de0604b4260cf07a1fbca0c4d"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_49057563_DD44_49B4_8B62_A3241E0250A7"
+msgid_sha256 = "1185a0ed42cfebaa68b89e6a9092e67cfaa48edb7ef3887a602a5972ec43cf37"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "morgana", "l", "r", "l", "r" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_1D794E6B_8D82_42C9_A929_B442B57DB5CC"
+msgid_sha256 = "3444d61b0604fbdcd1478ab69c2873d0f898e3ecfc55315df350e97a3405bb83"
+controls = [ 0 ]
+control_kinds = [ "morgana" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_734945E7_B71C_4B0C_981E_35F359A253C0"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_88E8ADC6_4B6D_4D1C_B228_68A38B9440C7"
+msgid_sha256 = "bf8e82545daed640b401739dd6b5eb6d134d9719ec5cd5bedc1c9c560572ccec"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "morgana", "char_popdown_one", "wt", "w" ]
+source_locale = "en"
+alignment = "stable-label"
+
+[[messages]]
+context = "badend4:badend4_B7D3CC0F_83F8_4DAB_8995_10F4637C5D7C"
+msgid_sha256 = "b10d82a68a4d62c3150b0936b91ec0a6453ec8e4e51fd231ecb20cc3c4dfeb9e"
+controls = [ 0, 1 ]
+control_kinds = [ "maid", "女中" ]
+source_locale = "en"
+alignment = "stable-label"

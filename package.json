@@ -108,10 +108,17 @@
     "door5:verify:main": "tsx tooling/verify-fifth-connected.ts",
     "test:door5": "playwright test --config playwright.fifth.config.ts",
     "door5:stage": "tsx tooling/stage-fifth.ts",
-    "door5:promote": "tsx tooling/promote-fifth.ts"
+    "door5:promote": "tsx tooling/promote-fifth.ts",
+    "door6:build": "tsx tooling/compile-sixth-door.ts",
+    "door6:verify": "tsx tooling/drive-sixth-door.ts",
+    "door6:connect": "tsx tooling/compile-sixth-connected.ts",
+    "door6:verify:main": "tsx tooling/verify-sixth-connected.ts",
+    "test:door6": "playwright test --config playwright.sixth.config.ts",
+    "door6:stage": "tsx tooling/stage-sixth.ts",
+    "door6:promote": "tsx tooling/promote-sixth.ts"
   },
   "dependencies": {
-    "galbox-sdk": "file:vendor/galbox-sdk-888a7f175e3a.tgz",
+    "galbox-sdk": "file:vendor/galbox-sdk-7bcf2efa0a7f.tgz",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },

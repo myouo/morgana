@@ -1,0 +1,382 @@
+version = 1
+chapter = "badend4"
+locale = "zh-Hans"
+status = "extracted-not-compiled"
+source_sha256 = "e19776f2a791a9e09a8d23e84cb1fa80741081a8b04cfe67098be8aa96020e96"
+files = [ "badend4.po" ]
+
+[[messages]]
+context = "badend4:unlabelled:badend4:1"
+msgid_sha256 = "ff35b8330001694f8f3eba73fc13045d9330712c16aaad7a529317b07437febe"
+controls = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ]
+control_kinds = [ "loadplugin", "layopt", "trans", "wt", "title", "qmenu", "delay", "layopt", "position", "backlay", "layopt", "trans", "wt", "jinobun", "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:2"
+msgid_sha256 = "b3daf7af2a695babcd861211c132726d26e0176908639db6a013c6c62f5d2b75"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "w", "w", "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:3"
+msgid_sha256 = "4850c2004006a484f60946f08a350fdb9648f550263c4dfd9b0e2ba3606d80ed"
+controls = []
+control_kinds = []
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:4"
+msgid_sha256 = "1fef4427044055eeae8045e45126f4e0ca5f4b9c5b92ded555f568b35e6e61cd"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "jinobun", "w", "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:5"
+msgid_sha256 = "3695769133f630269e92eb6e2c1de41f707874176e936dcfa5f372efbe1b4bc2"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "w", "l", "r", "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:6"
+msgid_sha256 = "36cfbb929bb5ef50e5cb3e013559c4e2555f0925b92898378d4ab610a20fdc37"
+controls = [ 0, 1 ]
+control_kinds = [ "w", "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:7"
+msgid_sha256 = "c1f2cce57749158349e0193199da43abf9ae35a07bf54e35877a11051833aa14"
+controls = []
+control_kinds = []
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:8"
+msgid_sha256 = "1540df27a7df70a12205b708b1641fa26f363bb1000df84be02a345dd6029956"
+controls = [ 0 ]
+control_kinds = [ "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:9"
+msgid_sha256 = "8f4b0fb27faf920611f5f5d31b6432730e4f7dc921e48d2238e6d888aea1208e"
+controls = [ 0, 1 ]
+control_kinds = [ "w", "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:10"
+msgid_sha256 = "7859d017f18c0fe83f4761f99fa053596b363ed338d3cae37a95d6b273f5c9df"
+controls = [ 0 ]
+control_kinds = [ "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:11"
+msgid_sha256 = "e5b7a0e41917565699e4a935c4c3bc63693e6193598af2ee6a989994bcc614cb"
+controls = []
+control_kinds = []
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:12"
+msgid_sha256 = "f6e09f695067685a834dccef1da55facce3c7aa11ef8984e07bf6e9cf870b5bd"
+controls = [ 0 ]
+control_kinds = [ "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:13"
+msgid_sha256 = "8f4de4559fbc285fcc91a74e65cedf54831ed80de2e10c8cd359b44fe821df81"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "w", "l", "r", "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:14"
+msgid_sha256 = "64bbd6e65662371b98093561ddea15a45ca285f73e13e5285a63b4e4551d825f"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "w", "l", "r", "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:15"
+msgid_sha256 = "0bbaa3cbba2e078f7ad66322684c7333eacda6b472c96eff03653dee04d448ae"
+controls = []
+control_kinds = []
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:16"
+msgid_sha256 = "53b4fa0aef958da6d5c913671af53e1d167bec52443cd7f9875260c74409f742"
+controls = []
+control_kinds = []
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:17"
+msgid_sha256 = "e23ebcccba95579d5e7e83959fe6d72eaee5ed0ebccb6bcb067c59fdfc649504"
+controls = []
+control_kinds = []
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:18"
+msgid_sha256 = "96829123f6f9ce864d507ead7bbc4287059823599b8db7b2935c62a847071c11"
+controls = [ 0, 1, 2, 3, 4, 5 ]
+control_kinds = [ "w", "l", "r", "w", "w", "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:19"
+msgid_sha256 = "514f91738a9a75a84cecb5685f9f1264e3cd39044878a5d6fcf1dcdfb8b223fd"
+controls = [ 0 ]
+control_kinds = [ "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:20"
+msgid_sha256 = "665dab08b6e5653b868994c84879e2492d5e1821553f46faaee6da07bf3cf608"
+controls = [ 0 ]
+control_kinds = [ "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:21"
+msgid_sha256 = "3e2533871cafb3f62c02fbd87bd0f011eedf57cb91d7c91a85a3891e3c55389b"
+controls = [ 0 ]
+control_kinds = [ "c" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:22"
+msgid_sha256 = "e3dd45847461e7e67fa6201eb8a44ad1ac1b3c0fdbef6ad76e28bdf12e70ea58"
+controls = [ 0 ]
+control_kinds = [ "c" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:23"
+msgid_sha256 = "9fbb4bff7a0473f95ef273b74ac0a4198ab6636a79de7c7d7cf9ec84b884e13c"
+controls = [ 0 ]
+control_kinds = [ "c" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:24"
+msgid_sha256 = "002316d59277cabca42719f66d9d749dd3e4ead86fc44bb315a53b4ea72e3cbc"
+controls = [ 0 ]
+control_kinds = [ "c" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:25"
+msgid_sha256 = "68aab576e82b33889b6bf7550fc7030eb9b73ea8462839a6256e7c4bfbdfabcd"
+controls = [ 0 ]
+control_kinds = [ "c" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:26"
+msgid_sha256 = "a34657ef2ab6988ac80104d092088ef6b38698dd08352a0ff0fa3ba62a20874e"
+controls = [ 0 ]
+control_kinds = [ "c" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:27"
+msgid_sha256 = "87857d133b16320efc42cc800eb5d4cfeb7adc6d7d64d3811fda5cba80d6d33d"
+controls = [ 0 ]
+control_kinds = [ "c" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:28"
+msgid_sha256 = "63cacb29d783a4d815a1cf2c7db8fba078b732b5eca74b52a9bb26a7e901ffcd"
+controls = [ 0 ]
+control_kinds = [ "c" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:29"
+msgid_sha256 = "b5999fb8c439aedc310fc22e9b23faada72dc7422a48e55a6526491f7b19cc31"
+controls = []
+control_kinds = []
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:30"
+msgid_sha256 = "16d2ed0fded01b5624ef5ce923e719f1da40a2dd31a40b4673609f2830e6129e"
+controls = [ 0 ]
+control_kinds = [ "l" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:31"
+msgid_sha256 = "2c67f1f3bb6e83f6e153d2080167c0924b510e9a859aff58b408fcd8376559bb"
+controls = []
+control_kinds = []
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:32"
+msgid_sha256 = "b6d899570f355e68157516863d0bef289bf5a74b7bb4fb9d06dcdd7857aa2b2d"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "l", "l", "r", "w", "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:33"
+msgid_sha256 = "2166599c2ba82926ad3522dffe4c9c75d2660879ea403238dab28d8cfcaa16ef"
+controls = [ 0 ]
+control_kinds = [ "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:34"
+msgid_sha256 = "b5999fb8c439aedc310fc22e9b23faada72dc7422a48e55a6526491f7b19cc31"
+controls = []
+control_kinds = []
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:35"
+msgid_sha256 = "d57fe66d5c8e98f4e3e9c32f9cf3f3f825f150106324d762e08be109d8d1fae0"
+controls = [ 0 ]
+control_kinds = [ "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:36"
+msgid_sha256 = "f6873a3d8d906e4c855db973692d4dc0f4693e889e2d3175797366846490e94d"
+controls = [ 0, 1, 2, 3 ]
+control_kinds = [ "w", "l", "w", "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:37"
+msgid_sha256 = "b5999fb8c439aedc310fc22e9b23faada72dc7422a48e55a6526491f7b19cc31"
+controls = []
+control_kinds = []
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:38"
+msgid_sha256 = "90611b6b37a71934be5d948e2dd079862336e6a704470d0c97b489db75232a94"
+controls = [ 0, 1, 2, 3, 4 ]
+control_kinds = [ "w", "l", "r", "w", "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:39"
+msgid_sha256 = "335e94861e43e5b6911f8a98be655c8191bd347ee02b9e773630ac75ad4212d6"
+controls = [ 0, 1 ]
+control_kinds = [ "w", "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:40"
+msgid_sha256 = "b5999fb8c439aedc310fc22e9b23faada72dc7422a48e55a6526491f7b19cc31"
+controls = []
+control_kinds = []
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:41"
+msgid_sha256 = "ae2d589e0a8550ff6733a95bef04ed296004aeb50c0fc685d7733c777f6bd283"
+controls = [ 0 ]
+control_kinds = [ "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:42"
+msgid_sha256 = "a5cb85f816d7a003a19bc52e8ba8535e57142e79662ef979461c0422f56e9944"
+controls = [ 0, 1 ]
+control_kinds = [ "w", "l" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:43"
+msgid_sha256 = "61ec648609a15e2c21ca69b5c8a2360ab1d5a23f7ab90d8f99eee6e07d9dfaaf"
+controls = [ 0, 1, 2 ]
+control_kinds = [ "w", "l", "r" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:44"
+msgid_sha256 = "62badb47674b7c64c49c1d503037ff22c5b002499e733b01585c14c2f9b7c127"
+controls = [ 0 ]
+control_kinds = [ "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:45"
+msgid_sha256 = "b5999fb8c439aedc310fc22e9b23faada72dc7422a48e55a6526491f7b19cc31"
+controls = []
+control_kinds = []
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:46"
+msgid_sha256 = "c222f24a84902eda09dc0cfd3ee75d629d556bfa84d4d3f967ebaf89fcf62f81"
+controls = [ 0 ]
+control_kinds = [ "w" ]
+source_locale = "zh-Hans"
+alignment = "needs-review"
+
+[[messages]]
+context = "badend4:unlabelled:badend4:47"
+msgid_sha256 = "b5999fb8c439aedc310fc22e9b23faada72dc7422a48e55a6526491f7b19cc31"
+controls = []
+control_kinds = []
+source_locale = "zh-Hans"
+alignment = "needs-review"

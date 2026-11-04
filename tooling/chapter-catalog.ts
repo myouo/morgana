@@ -8,6 +8,7 @@ export const chapters = [
  ...[5,6,7,8,9].map(n=>({id:`scenario${n}`,file:`scenario${n}.ks`,start:'start'})),
  {id:'badend1',file:'badend.ks',start:'提案を受け入れる'},
  {id:'badend2',file:'badend2.ks',start:'提案を拒否する'},
+ {id:'badend4',file:'badend4.ks',start:'否定できずに'},
  {id:'badend3',file:'badend3.ks',start:'無理強いはしない'},
  {id:'search',file:'search.ks',start:'start'},
  {id:'search2',file:'search2.ks',start:'start'},

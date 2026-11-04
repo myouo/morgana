@@ -2,17 +2,17 @@
 
 用户提供的 Steam KRKR2 版本（app303310/build21523397），通过 `galbox/` 子模块的实际 tarball 和公开 exports 使用 SDK。原安装只读；根据 KS/TJS、宏、资源和原配置生成标准 Program，不逆向 exe，不运行另一套 KAG VM。
 
-当前本地已接通：原标题与OP、新周目完整序章、第一门→第一间章→第二门及memory1两路→第三门→调查四问/八地点循环→第四门正文与后段，八语言同步；正线止于 `scenario5.ks:*start`。记忆由实际选择取得，第四门第三项按双记忆条件开放。正式旧第一至三门Web槽通过来源验证后接续，详见[调查与四门接续验收](docs/evidence/SEARCH_CONNECTION.md)。第四门鉴赏回放与坏结局返标题已接入。
+当前本地已接通：原标题与OP、新周目完整序章、第一门→第一间章→第二门及memory1两路→第三门→调查四问/八地点循环→第四门正文与后段→第五门→第六门，八语言同步；正线止于 `search2.ks` 第二次调查入口。记忆由实际选择取得，第四门第三项按双记忆条件开放。正式旧第一至三门Web槽通过来源验证后接续，详见[调查与四门接续验收](docs/evidence/SEARCH_CONNECTION.md)。第四门鉴赏回放与坏结局返标题已接入。
 
 用户本轮已授权恢复线上发布；[test.morgana.love](https://test.morgana.love) 为可玩预览，[testsdk.morgana.love](https://testsdk.morgana.love) 为鉴权网络回归站。发布进度与版本见[本轮记录](docs/evidence/ONLINE_DOORS4.md)。
 
 本轮已按八语源参数补齐OP/序章的点击、Enter与Ctrl演出跳过，存档保护/删除/原分页及章节、调查回放和结局列表。原素材界面由正式SDK运行，开发说明不进入游戏画面。日文存档为10页，其余为11页；原作逐像素与全通状态仍未认证。当前验收与发布状态见[过场、存档与回放记录](docs/evidence/INTERACTIVE_UI.md)。
 
-存读档卡顿已定位到重复代码校验/装载和保存画面的重复重绘，SDK修复与真实存档对比见[响应记录](docs/evidence/SAVE_LOAD_RESPONSIVENESS.md)。右键消息窗口与富文本共同隐藏。第五门中文全文及暂停中存档已在独立Core验证，英语编译通过，其余语言/发布接续仍在推进，见[第五门进度](docs/evidence/FIFTH_DOOR_PROGRESS.md)；通关态称呼按用户确认不调整。
+存读档卡顿已定位到重复代码校验/装载和保存画面的重复重绘，SDK修复与真实存档对比见[响应记录](docs/evidence/SAVE_LOAD_RESPONSIVENESS.md)。右键消息窗口与富文本共同隐藏。第五门八语主线与回放已发布，见[第五门验收](docs/evidence/FIFTH_MAINLINE.md)。第六门及第四坏结局已接入候选，限时选择、旧档与章节回放验收见[第六门记录](docs/evidence/SIXTH_MAINLINE.md)；通关态称呼按用户确认不调整。
 
 ## 文本与资源在哪里
 
-- 可编辑正文：`locales/<BCP47>/story.po`、`prologue.po`；章节为 `locales/<BCP47>/chapters/{door1,interlude1,door2,memory1,door3,search,door4,scenario5}/*.po`。中文目录是 `locales/zh-Hans/chapters/door1/`。
+- 可编辑正文：`locales/<BCP47>/story.po`、`prologue.po`；章节为 `locales/<BCP47>/chapters/{door1,interlude1,door2,memory1,door3,search,door4,scenario5,scenario6,badend4}/*.po`。中文目录是 `locales/zh-Hans/chapters/door1/`。
 - 系统文字：各语言 `ui.po`；选择文字：`choices.po`。
 - 浏览器从Worker静态资源读取 `/programs/zh.modules.pb`、按SHA命名的代码模块、标题与 `/text/zh.ui.pb`；旧单门的指令模板/文本目录仅用于兼容。这些pb **不在 R2**，也不进 Git。
 - 图片、音频、字体由专用 R2 桶按 SHA 内容地址提供。只有跨全部语言相同的字节共享，其余按语言隔离。
@@ -56,15 +56,15 @@ PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的�
 
 第三门以独立命名空间接通 21 个场景，终止于原脚本的 `search.ks` 调查章节入口。已有原资料与第一门基线的环境中运行 `pnpm chapters:convert door3`、`pnpm door3:build all`、`pnpm door3:verify all`、`pnpm dev:door3`，访问 `http://127.0.0.1:4185/?lang=zh`。之后直接继续本地存档，`&cut=start`重新从第三门章头开始。`pnpm test:door3`验证图文刷新、效果交接、滚轮与全文无滚动；构建完毕后冻结生成目录再测试。详见[第三门验收](docs/evidence/THIRD_DOOR.md)。
 
-4185仍保留为独立测试入口；4184现为正式一至四门接续。旧两门清单和原代码按摘要保留，经SDK W1-03B3A显式验证来源后升级；新版本保留旧槽。公开域名仍是此前两门发布，按用户要求停止上传，本轮未重新部署。正式实时残像每32ms累积，原作逐像素与通关变体仍未认证。
+4185仍保留为独立测试入口；4184为当前整合主线。旧两门清单和原代码按摘要保留，经SDK W1-03B3A显式验证来源后升级；新版本保留旧槽。公开域名的当前发布范围见[STATUS](STATUS.md)。正式实时残像每32ms累积，原作逐像素与通关变体仍未认证。
 
 ## 第四门本地入口
 
-第四门正文、后段选择及三种坏结局内容已在八语独立命名空间接通，止于原 `scenario5.ks` / `first.ks` 跳转边界。八语已验证记忆条件、分支、旧档和排版。运行 `pnpm door4:build all`、`pnpm door4:verify all`、`pnpm test:door4:full`、`pnpm door4:promote` 后 `pnpm dev:door4`，访问 `http://127.0.0.1:4190/?lang=zh`，`&cut=start`重开。正式三门→search→四门接续仍待完成；[范围及八语验收](docs/evidence/FOURTH_DOOR_FULL.md)。
+第四门正文、后段选择及三种坏结局内容已在八语独立命名空间接通，止于原 `scenario5.ks` / `first.ks` 跳转边界。八语已验证记忆条件、分支、旧档和排版。运行 `pnpm door4:build all`、`pnpm door4:verify all`、`pnpm test:door4:full`、`pnpm door4:promote` 后 `pnpm dev:door4`，访问 `http://127.0.0.1:4190/?lang=zh`，`&cut=start`重开。正式三门→search→四门接续已验收；[范围及八语验收](docs/evidence/FOURTH_DOOR_FULL.md)。
 
 ## 仍未完成
 
-第五门以后、通关变体、全通结局奖励与隐藏序章、原版 tft codec、原作逐帧和真实移动设备对照。当前可达结局列表已接入。当前SDK v2已支持富文/窗口/演出/源音频、鉴赏、剧本UI/流程图/视频/计时/RNG与注册operations的模块组合；正式本地主入口已接通三门，跨v2 manifest的Web槽迁移已验收。模块recipe/SaveBridge/历史回溯仍列W1-03B3，完整旧性能/真机矩阵没有沿用为本版重验。
+第二次调查及后续剧情、通关变体、全通结局奖励与隐藏序章、原版 tft codec、原作逐帧和真实移动设备对照。当前可达结局列表已接入。当前SDK v2已支持富文/窗口/演出/源音频、鉴赏、剧本UI/流程图/视频/计时/RNG与注册operations的模块组合；正式主入口的当前章节和部署验收见[STATUS](STATUS.md)，跨v2 manifest的Web槽迁移已验收。模块recipe/SaveBridge/历史回溯仍列W1-03B3，完整旧性能/真机矩阵没有沿用为本版重验。
 
 当前事实和下一步见 [STATUS](STATUS.md)、[能力边界](docs/CAPABILITIES.md)、[部署说明](deployment/README.md)。游戏原包/解包/KS/TJS/素材/字体/日志/trace全部 ignore；Git 仅保存适配源码、允许提交的 PO 和短报告。SDK 包不含游戏、证据或日志。
 
@@ -73,3 +73,7 @@ PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的�
 ## 本轮界面构建
 
 保留发布基线 `generated/release-public`（由已有四门发布流程重建），依次运行 `pnpm interfaces:build all`、`pnpm interfaces:menus`、`pnpm interfaces:share`。共享候选为 `generated/interfaces-shared`；先 `pnpm exec tsx tooling/prepare-interface-cuts.ts` 生成当前测试切点，`FATA_INTERACTION_OUTPUT=generated/interfaces-shared pnpm interfaces:verify all` 与 `FATA_INTERFACE_ROOT=generated/interfaces-shared FATA_INTERFACE_RUN=shared-final pnpm test:interfaces` 验收，`pnpm interfaces:promote` 只在记录通过后提升默认入口并保留旧文件。当前切点夹具由 `prepare-interface-cuts.ts` 从真实旧来源验证、迁移并重新验证生成，只在ignored目录。
+
+## 第五、六门整合重建
+
+既有原资料与界面基线下，`pnpm door5:build all`、`pnpm door5:connect all`、`pnpm door5:verify:main all`，再运行第五门浏览器验收与stage/promote，保留 `generated/fifth-public` 作为不可变输入。第六门依次运行 `pnpm door6:build all`、`pnpm door6:verify all`、`pnpm door6:connect all`、`pnpm door6:verify:main all`；`pnpm test:door6 --fully-parallel --workers=2` 完整通过后才可 `pnpm door6:stage`、`pnpm door6:promote`。这不会删除旧代码/素材，也不会把测试存档放入站点。
