@@ -9,8 +9,8 @@ import {readOpening} from './opening.js';
 import {readPrologue} from './prologue.js';
 
 /** KAG currentPageName changes only on a nonempty literal label caption. */
-export async function saveBookmarkParts(locale:Language,root:string,through=6){
- const names=new Map<string,string>(),files=new Map<string,{raw:string;labels:{line:number;name:string}[]}>(),specs=chapters.filter(c=>['door1','interlude1','memory1','door2','door3','search','door4','search2','badend4','badend1','badend2','badend3'].includes(c.id)||/^scenario[5-9]$/u.test(c.id)&&Number(c.id.slice(-1))<=through||c.id==='badend5'&&through>=7);
+export async function saveBookmarkParts(locale:Language,root:string,through=6,extra:readonly string[]=[]){
+ const names=new Map<string,string>(),files=new Map<string,{raw:string;labels:{line:number;name:string}[]}>(),specs=chapters.filter(c=>extra.includes(c.id)||['door1','interlude1','memory1','door2','door3','search','door4','search2','badend4','badend1','badend2','badend3'].includes(c.id)||/^scenario[5-9]$/u.test(c.id)&&Number(c.id.slice(-1))<=through||c.id==='badend5'&&through>=7);
  for(const file of new Set(specs.map(c=>c.file))){const raw=await readFile(`private/text/${locale}/scenario/${file}`,'utf8'),labels=tokenize(raw,file).flatMap(t=>t.kind==='label'&&t.title?[{line:t.source.line,name:t.title}]:[]);requireValue(labels.every(l=>!l.name.startsWith('&')),'SAVE_BOOKMARK_EXPRESSION');files.set(file,{raw,labels});}
  const nameAt=(file:string,line:number)=>{const data=files.get(file);requireValue(data,'SAVE_BOOKMARK_FILE');let name='';for(const l of data.labels){if(l.line>line)break;name=l.name;}return name;},add=(id:string,name:string)=>{const old=names.get(id);requireValue(old===undefined||old===name,'SAVE_BOOKMARK_ID '+id);names.set(id,name);};
  for(const spec of specs)for(const page of extractChapter(files.get(spec.file)!.raw,spec).pages)add(hash(page.context).slice(0,24),nameAt(spec.file,page.source.line));

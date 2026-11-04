@@ -142,7 +142,10 @@
     "native:verify": "tsx tooling/verify-native-menus.ts",
     "test:native": "playwright test --config playwright.native.config.ts",
     "native:stage": "tsx tooling/stage-native.ts",
-    "native:promote": "tsx tooling/stage-native.ts --promote"
+    "native:promote": "tsx tooling/stage-native.ts --promote",
+    "bonus:connect": "tsx tooling/compile-bonus-connected.ts",
+    "bonus:verify:main": "tsx tooling/verify-bonus-connected.ts",
+    "test:bonus": "playwright test --config playwright.bonus.config.ts"
   },
   "dependencies": {
     "galbox-sdk": "file:vendor/galbox-sdk-7dfa602398c7.tgz",

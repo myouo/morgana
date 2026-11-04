@@ -27,14 +27,20 @@ F-11（第七门）：背景独立转场期间允许正文继续；随后开始�
 仍未完成，会先等待剩余部分。普通阅读通常已自然结束，但极快输入时的原生
 转场重入顺序仍需对照。转换报告SOURCE_BACKGROUND_TRANSITION_JOIN保留此差异。
 
-- **F-12 终章章节书返回页（候选已修复）**：chapter.ks的chapter8在未通关时
+- **F-12 终章章节书返回页（已发布修复）**：chapter.ks的chapter8在未通关时
   返回`*search`，通关后的ending页返回`*scenario7`。native-connected 已按
-  fataend 分支，八语两种状态均通过。随新候选发布，旧在线版本仍为旧行为。
+  fataend 分支，八语两种状态均通过。已随 2026-11-05 终章预览发布。
 
-- **F-15 原章节选择的主线连续性（候选已修复）**：chapter.ks选择第七门跳至
+- **F-15 原章节选择的主线连续性（已发布修复）**：chapter.ks选择第七门跳至
   search2:*fromchapter7，随后进入scenario7；scenario7正常尾部直接跳scenario8，
   没有按“只回放一章”返回章节书的条件。native-connected 已把原生菜单和十二
   入口接到同一主Program，保留源前导、正常后继和持久已读/解锁；八语入口/冷恢复、
   完整序章接第一门、中英真实旧终点接续及中文三项浏览器通过。原全通变体和
   全奖励菜单仍归 F-06，不因 F-15 修复而视为完成。详见
   [原章节菜单报告](NATIVE_CHAPTER_REPORT.md)。
+
+- **F-16 无新标题标签时的书签继承**：MainWindow.onConductorLabel 仅在非空
+  page 时更新 currentPageName；奖励序章全部为空标题标签，原书签保留进入前
+  的名称。当前 save-bookmarks 按文件生成静态映射，且返回标题重建 Core，未保留
+  这一跨文件名称。正文/位置/完整进度保存已通过；名称继承随 F-06 原全通标题
+  的状态保留一起处理，不把空静态名称当作已完成原作书签对照。
