@@ -31,7 +31,7 @@ test('native chapter selection stays in the main player and saves across refresh
  await page.locator('.game').click({button:'right'});await page.keyboard.press('Escape');
  await expect(page.locator('[data-ui-control=menu-door9]')).toBeVisible();
  await page.locator('[data-ui-control=menu-door9]').click();await until(page,'ninth');
- const before=await page.evaluate(async()=>{const p=window.__fataTest!.player()!,v=p.getSnapshot();if(v.extraSession||v.core!.run.replayScene)throw new Error('Native selection opened a temporary replay');await p.setAuto(false);await p.showSystemScreen('save');return {frames:p.capture().frames,textId:p.capture().text!.textId};});
+ const before=await page.evaluate(async()=>{const p=window.__fataTest!.player()!,v=p.getSnapshot();if(v.extraSession||v.core!.run.replayScene)throw new Error('Native selection opened a temporary replay');if(v.core!.run.audioState?.gains.bgm!==1)throw new Error('Native chapter BGM muted');await p.setAuto(false);await p.showSystemScreen('save');return {frames:p.capture().frames,textId:p.capture().text!.textId};});
  await page.locator('[data-save-slot="memory:1"] .save-card-hit').click();await page.getByRole('button',{name:words.yes,exact:true}).click();
  await expect.poll(()=>page.evaluate(()=>window.__fataTest!.player()!.getSnapshot().slots.find(s=>s.slot.endsWith('memory:1'))?.revision)).toBe(1);
  const saved=await page.evaluate(()=>window.__fataTest!.player()!.getSnapshot().slots.find(s=>s.slot.endsWith('memory:1'))!);expect(saved.capture?.textId).toBe(before.textId);
@@ -45,7 +45,7 @@ test('native book and extras index return to the title',async({page})=>{
  await page.locator('[data-ui-control=menu-title-0]').click();await until(page,'title');
  await page.locator('[data-title-action=extra]').click();await until(page,'ui');
  await page.locator('[data-ui-control=menu-titleback]').click();await until(page,'title');
- expect(await page.evaluate(()=>window.__fataTest!.player()!.getSnapshot().core!.run.globals['original.native-menu-active']?.value)).toBe(false);
+ expect(await page.evaluate(()=>window.__fataTest!.player()!.getSnapshot().core!.run.globals['original.native-menu-active']?.value)).toBe(false);expect(await page.evaluate(()=>window.__fataTest!.player()!.getSnapshot().core!.run.audioState?.gains.bgm)).toBe(1);
 });
 test('recorded eighth endpoint still enters ninth in the main player',async({page})=>{
  await oldEndpoint(page,'generated/eighth-connected');await until(page,'ninth');

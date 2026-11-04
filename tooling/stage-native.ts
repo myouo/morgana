@@ -13,7 +13,7 @@ const releases=new Map<string,string>();
 for(const locale of languages){
  const manifest=decodeWire('ModuleManifest',await read(`${source}/programs/${locale}.modules.pb`)),report=await json(`artifacts/native-connected/${locale}-verified.json`),compiled=await json(`artifacts/native-connected/${locale}-compile.json`);
  requireValue(report.release===manifest.header.release&&compiled.release===report.release&&report.completed===true&&report.authority==='single-main-program','NATIVE_STAGE_CORE '+locale);
- requireValue(report.rows?.length===12&&report.rows.every((r:{cold?:boolean})=>r.cold===true)&&report.rows.find((r:{id:string})=>r.id==='prologue')?.continued===true&&report.previousPages?.length===2&&report.titleCutMigration===true,'NATIVE_STAGE_ENTRIES '+locale);
+ requireValue(report.rows?.length===12&&report.rows.every((r:{cold?:boolean;bgmGain?:number})=>r.cold===true&&r.bgmGain===1)&&report.rows.find((r:{id:string})=>r.id==='prologue')?.continued===true&&report.previousPages?.length===2&&report.titleCutMigration===true,'NATIVE_STAGE_ENTRIES '+locale);
  if(['zh','en'].includes(locale))requireValue(report.endpointHandoffs?.length===2,'NATIVE_STAGE_HANDOFFS '+locale);
  const prior=decodeWire('ModuleManifest',await read(`generated/ninth-connected/programs/${locale}.modules.pb`));requireValue(compiled.source===prior.header.release,'NATIVE_STAGE_SOURCE '+locale);
  // Native entry checks augment the existing whole-chapter route checks.

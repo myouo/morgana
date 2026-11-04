@@ -6,6 +6,7 @@ import os
 from pathlib import Path
 import subprocess
 import sys
+import time
 
 ROOT = Path(os.environ.get('FATA_PUBLICATION_ROOT', 'generated/site'))
 if ROOT not in (Path('generated/site'), Path('generated/integrated'), Path('generated/release-next')):
@@ -53,16 +54,27 @@ if '--bulk' in sys.argv:
             continue
         groups.setdefault(file.suffix, []).append((file, key, marker, sha))
     for suffix, entries in sorted(groups.items(), key=lambda item: -len(item[1])):
-        manifest = logs/('bulk-'+suffix[1:]+'.json')
-        manifest.write_text(json.dumps([{'key': key, 'file': str(file)} for file, key, _, _ in entries]))
-        log = logs/('bulk-'+suffix[1:]+'.log')
         print(f'R2 bulk: {len(entries)} immutable {suffix} objects', flush=True)
-        with log.open('w') as output:
-            result = subprocess.run(['pnpm', 'exec', 'wrangler', 'r2', 'bulk', 'put', BUCKET, '--filename', str(manifest), '--remote', '--content-type', MIME[suffix], '--cache-control', 'public, max-age=31536000, immutable', '--concurrency', '8'], env=env, stdin=subprocess.DEVNULL, stdout=output, stderr=subprocess.STDOUT)
-        if result.returncode:
-            raise RuntimeError('Bulk upload failed; see '+str(log))
-        for _, _, marker, sha in entries:
-            marker.write_text(sha)
+        # Retain confirmed chunks when a later request fails. Retrying a partial
+        # chunk is safe because every key has already been checked against SHA.
+        for start in range(0, len(entries), 128):
+            chunk = entries[start:start+128]
+            name = f'bulk-{suffix[1:]}-{start//128+1:05d}'
+            manifest = logs/(name+'.json')
+            manifest.write_text(json.dumps([{'key': key, 'file': str(file)} for file, key, _, _ in chunk]))
+            for attempt in range(3):
+                log = logs/(name+f'-attempt{attempt+1}.log')
+                with log.open('w') as output:
+                    result = subprocess.run(['pnpm', 'exec', 'wrangler', 'r2', 'bulk', 'put', BUCKET, '--filename', str(manifest), '--remote', '--content-type', MIME[suffix], '--cache-control', 'public, max-age=31536000, immutable', '--concurrency', '4'], env=env, stdin=subprocess.DEVNULL, stdout=output, stderr=subprocess.STDOUT)
+                if not result.returncode:
+                    break
+                if attempt == 2:
+                    raise RuntimeError('Bulk upload failed; see '+str(log))
+                print(f'R2 bulk: retry {name}; see {log}', flush=True)
+                time.sleep(attempt+1)
+            for _, _, marker, sha in chunk:
+                marker.write_text(sha)
+            print(f'R2 bulk: confirmed {min(start+128,len(entries))}/{len(entries)} {suffix} objects', flush=True)
         print(f'R2 bulk: verified {len(entries)} completed {suffix} objects', flush=True)
     print(f'R2 publication complete: {len(files)} SHA-addressed objects', flush=True)
     sys.exit(0)
