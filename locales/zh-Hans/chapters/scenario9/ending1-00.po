@@ -1,0 +1,3074 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: morgana-chapters\n"
+"PO-Revision-Date: 2026-10-28 00:00+0000\n"
+"Last-Translator: Community contributors\n"
+"Language-Team: zh-Hans\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh-Hans\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: scenario9:scenario9_77F351A8_5786_4A02_A36E_96D1D8E4BB1C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f1a2dbfab22be161580bbb5c94f44f7fcdff006b5908739aa97d162ab6ab2051
+#. default-sha256: e3cc17376c75bf883627433b60556fe5671e7dc973c26ab132d573dc3fb402ae
+msgctxt "scenario9:scenario9_77F351A8_5786_4A02_A36E_96D1D8E4BB1C"
+msgid "⟪k:0⟫⟪k:1⟫Open your eyes, Michel..."
+msgstr "⟪k:0⟫⟪k:1⟫……请睁开双眼……"
+
+#: scenario9:scenario9_48E6AEA3_0DED_43F0_B258_194591F5F3CE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: aaba99fb8f61b15b1bb78a50050be88237b14498235dc75515ae9eb74cbb18be
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_48E6AEA3_0DED_43F0_B258_194591F5F3CE"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_BFFABA15_63BD_40FC_B8ED_40BF543856FA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ddab5c7fde953e45d446bd5e7c83e87804e111e1422d54deb7393718a036fa3f
+#. default-sha256: 790b64f334073a60aca688a6e1d75d3f786d2a62c673c500e972d8429e835cc0
+msgctxt "scenario9:scenario9_BFFABA15_63BD_40FC_B8ED_40BF543856FA"
+msgid "⟪k:0⟫Do you know who I am?"
+msgstr "⟪k:0⟫你是否……⟪k:1⟫了解我的事情呢……？"
+
+#: scenario9:scenario9_1E9F04AC_24CD_462E_9AC3_D4184EABDCD7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5671e0cde3f7717d4539156514936a88033c80420b463e65539ea6b6898eafb3
+#. default-sha256: 08a0c53cef03af991ba8bb252615f6b0f7cd42c72576e8fa27d087a1497115f3
+msgctxt "scenario9:scenario9_1E9F04AC_24CD_462E_9AC3_D4184EABDCD7"
+msgid "⟪k:0⟫And why... ⟪k:1⟫can I not speak?"
+msgstr "⟪k:0⟫为什么……⟪k:1⟫我明明想说话……⟪k:2⟫却发不出声音……？"
+
+#: scenario9:scenario9_FDA1CBD3_AAFE_4D07_AB73_5CB3BF3EE90A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6c2240d48e056dce1d975dea71dfdf64aa42f366eeeb6cf56fc6daf4355642d7
+#. default-sha256: d81b8c2645ad63e3b198913b86627d19cda882a15785764e98eb4ad3d857c55a
+msgctxt "scenario9:scenario9_FDA1CBD3_AAFE_4D07_AB73_5CB3BF3EE90A"
+msgid "⟪k:0⟫I was able to return to this gathering place of souls thanks to your efforts."
+msgstr "⟪k:0⟫你揭露了莫尔加娜死亡的真相……⟪k:1⟫所以我也能回到这灵魂聚集之所。"
+
+#: scenario9:scenario9_D024F237_3183_4E5B_BE81_82AD558E0E75
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a77c8fd5f0aebc53e942f0f2167cb7a3bcc6d4f4c8eef4557dfcc2538f10bdb7
+#. default-sha256: e7346218dfc029aa6b47cbdce33b9564f4fb4fca7c566532b1615512050d0eab
+msgctxt "scenario9:scenario9_D024F237_3183_4E5B_BE81_82AD558E0E75"
+msgid "⟪k:0⟫But my heart told me I had to do this now."
+msgstr "⟪k:0⟫但是……⟪k:1⟫只有你准备回去的这一瞬，⟪k:2⟫我才能与你接触。"
+
+#: scenario9:scenario9_74D6CBEA_B305_4027_B19E_4D301A77EACC
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 955bb0cd82b6cc95a63ece97858a161471a7a6277378b49df3891baacc5d3cb5
+#. default-sha256: 284585f8f39bf8c732bd0342c2726fa9d8c7f5597a2dc26d58ddce068b19efdf
+msgctxt "scenario9:scenario9_74D6CBEA_B305_4027_B19E_4D301A77EACC"
+msgid "⟪k:0⟫I have brought you here to ask for your assistance."
+msgstr "⟪k:0⟫我有一事相求，⟪k:1⟫所以将你呼唤至此处。"
+
+#: scenario9:scenario9_6BA1FB6E_E41D_48FA_90FD_50C8BA4E5933
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2551aa6626a5b86729fa07af7dcbb94921b7cb5423a2f6d19f44bb31b75bccd7
+#. default-sha256: b5e4c83999192c33984058caf2c2f078c667b7175d21839a87b54aff92a1c2c3
+msgctxt "scenario9:scenario9_6BA1FB6E_E41D_48FA_90FD_50C8BA4E5933"
+msgid "⟪k:0⟫take this blade, and with it, extinguish my soul."
+msgstr "⟪k:0⟫请用这把剑，⟪k:1⟫彻底消灭我的灵魂。"
+
+#: scenario9:scenario9_46C9FD96_4824_4A8E_B09A_005FD2D06FB3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7b2051c8c5ba2f92a89f22ef28611b0b3636b851586f9bedd92c4b5170afd49e
+#. default-sha256: 3c92a38311e16a256c3106e1e3b6b76399ac7ca0d8fa63fbf2051af0b97264ba
+msgctxt "scenario9:scenario9_46C9FD96_4824_4A8E_B09A_005FD2D06FB3"
+msgid "⟪k:0⟫Because I wanted to save every last person caught in this tragic quagmire."
+msgstr "⟪k:0⟫把大家从这个不幸的漩涡中拯救出来……⟪k:1⟫才努力至此的……"
+
+#: scenario9:scenario9_EB0AB613_6210_4CB4_B8ED_D5CAAEC5535D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d47da2af1460bc64520017b17ceb5d79b70fe1e0b846bfdf7f759929e743f7b7
+#. default-sha256: 5c218e4f58bc22aa85d2e46be7832810ab179bf813c760e4d40d7873ea11b519
+msgctxt "scenario9:scenario9_EB0AB613_6210_4CB4_B8ED_D5CAAEC5535D"
+msgid ""
+"⟪k:0⟫You can’t tell me that after everything you’ve seen...⟪k:1⟫⟪k:2⟫you haven’t realized that I "
+"have no place in their lives."
+msgstr "⟪k:0⟫看到过去他们之间的关系……⟪k:1⟫你应该明白我是个特异存在……不是吗？"
+
+#: scenario9:scenario9_B62E9CEB_A857_4BDC_8BC4_DE2D0B129191
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: aaba99fb8f61b15b1bb78a50050be88237b14498235dc75515ae9eb74cbb18be
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_B62E9CEB_A857_4BDC_8BC4_DE2D0B129191"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_EEB2D58B_2A68_4E9C_8379_91E1270DF884
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 47820999b4651b79751df9230a5a9649e2ac0283938e0a26ccc75f371dda6374
+#. default-sha256: f0d1759707b8e74aa9dc6a6b7f619b3285986b31601faa24f1b8110f55bbbe78
+msgctxt "scenario9:scenario9_EEB2D58B_2A68_4E9C_8379_91E1270DF884"
+msgid "⟪k:0⟫Why are you acting... ⟪k:1⟫like it’s all your fault?"
+msgstr "⟪k:0⟫为什么……⟪k:1⟫要这么说……"
+
+#: scenario9:scenario9_DF5DEAFE_AB08_4F9A_BCBA_1DA2539EC800
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e48516430e849cacaf7db2a3f36356b97a4bad4811f604b7a551eef79abbb3b0
+#. default-sha256: 487e347b19cab09438826405267954ee5e5aea1df498471713d6fc14d610c412
+msgctxt "scenario9:scenario9_DF5DEAFE_AB08_4F9A_BCBA_1DA2539EC800"
+msgid "⟪k:0⟫Are you trying to say everyone would be better off without you?"
+msgstr "⟪k:0⟫你是想说……⟪k:1⟫自己不存在才好是吗……？"
+
+#: scenario9:scenario9_924BB831_2A65_4066_B6DF_6B5AF8268651
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 958cabedd7fbd6171e7a9f4c91d47bfb3814da06c1f2203b8b548ca1cc80f3d8
+#. default-sha256: 7d415274b78a6ef6a625579858c1086705a7471f2351d4a4a5e3f72146209959
+msgctxt "scenario9:scenario9_924BB831_2A65_4066_B6DF_6B5AF8268651"
+msgid "⟪k:0⟫Like hell you were."
+msgstr "⟪k:0⟫简直……⟪k:1⟫荒谬之极……"
+
+#: scenario9:scenario9_B139A233_E70D_4F3B_8565_A51B4A55377C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ca328134f98552bcaa25518f3ff1fc3d5f7a0c0ffe665e1786afa29a35e7093b
+#. default-sha256: 94818fa84f5699ad67180821b16c9b6f6587f594a04e94baeef7424a1e8b3883
+msgctxt "scenario9:scenario9_B139A233_E70D_4F3B_8565_A51B4A55377C"
+msgid "⟪k:0⟫I was born to be a receptacle for her pain, to ease her suffering."
+msgstr "⟪k:0⟫我作为承担她的伤痛、⟪k:1⟫缓解她的痛苦的存在，⟪k:2⟫而被创造出来。"
+
+#: scenario9:scenario9_8EC6D6CB_F486_41D7_BCDE_441BCF502863
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e4a6cc328bc056add9c88a32c2c38772ab76db47cf12aeb05e0db3ccb7a2202c
+#. default-sha256: 09ebc50a037732ce68874a3168dd0ec6c2c3af9aa816513afb646e66682e1532
+msgctxt "scenario9:scenario9_8EC6D6CB_F486_41D7_BCDE_441BCF502863"
+msgid ""
+"⟪k:0⟫That was not how she felt deep down, though.⟪k:1⟫⟪k:2⟫She was not a saint out of the "
+"goodness of her heart."
+msgstr "⟪k:0⟫可这些事情——⟪k:1⟫并非出自她本身的善良，⟪k:2⟫甚至并非出自她的本心。"
+
+#: scenario9:scenario9_27B4F3AD_B200_46E0_9E39_760FA23116D6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: da6a77c850aa0d836446177fbc516b5f0b233eb48add868e1bc4820f7b5aba0a
+#. default-sha256: 685a53869d4c79b0ab1b5448bdf8a32d27e2e20771332135afcaee39bb308f66
+msgctxt "scenario9:scenario9_27B4F3AD_B200_46E0_9E39_760FA23116D6"
+msgid ""
+"⟪k:0⟫So she took all her “saintly” characteristics and gave them to me—⟪k:1⟫⟪k:2⟫caring for "
+"others, putting herself second, being forgiving—"
+msgstr ""
+"⟪k:0⟫所以……⟪k:1⟫她将那些为他人着想的温柔、⟪k:2⟫牺牲精神，⟪k:3⟫⟪k:4⟫还有对他人的宽容……一切圣女所应"
+"有的品质……"
+
+#: scenario9:scenario9_300588D5_5543_4925_9C59_B86D0CDF8E42
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: aaba99fb8f61b15b1bb78a50050be88237b14498235dc75515ae9eb74cbb18be
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_300588D5_5543_4925_9C59_B86D0CDF8E42"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_AA49492A_FB24_4BEB_8A11_1B6DE71754A6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: dc800bfd7725db9e8ca74224a7ed31c219dbb30d3aa2804d5ea122f15068697d
+#. default-sha256: 70db45bba9798ef5b7a4d86255ad5b815db69b6a220e00c34b83795ea46af69f
+msgctxt "scenario9:scenario9_AA49492A_FB24_4BEB_8A11_1B6DE71754A6"
+msgid "⟪k:0⟫In a world where I was never meant to exist."
+msgstr "⟪k:0⟫这是……⟪k:1⟫不该有的事情。"
+
+#: scenario9:scenario9_82D5CD06_EFF9_4E8C_BF26_7855E821AEAB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: bf98cb7c3c5e0bb8824b039b1f804a9305c10c5829fd0edfe6f9d6edd192422b
+#. default-sha256: a22cf26ef70a1248986151722211a9cb196c258b8d9bbb1353f21ed87d46857b
+msgctxt "scenario9:scenario9_82D5CD06_EFF9_4E8C_BF26_7855E821AEAB"
+msgid "⟪k:0⟫and Morgana wished to curse the three men’s souls."
+msgstr "⟪k:0⟫而莫尔加娜的愿望是，⟪k:1⟫诅咒那三位男性的灵魂。"
+
+#: scenario9:scenario9_D3FF89B2_C0DD_42E7_9E15_DDDEC5A0FD03
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 958a68c2b82c9b6a9d52f2bb87f5187344004df67059a0b57c6c8668b358d5c9
+#. default-sha256: a9a6fd352bf6a898bac586684f0f9a5b2ad05a5de3898441debdf3b44a10e3c5
+msgctxt "scenario9:scenario9_D3FF89B2_C0DD_42E7_9E15_DDDEC5A0FD03"
+msgid ""
+"⟪k:0⟫In order for an incomplete soul like mine to survive, it needs something to bind itself to "
+"the world—⟪k:1⟫⟪k:2⟫something strong enough to prevent the universe from “correcting” the anomaly."
+msgstr ""
+"⟪k:0⟫我作为灵魂是不完整的存在。⟪k:1⟫如果像我这样的异物想存在下去，⟪k:2⟫就需要拥有强大力量之物把我"
+"与这个世界连结起来。"
+
+#: scenario9:scenario9_26C22C6F_3835_4C3F_BA35_F932EDDE9DE7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 23736d21ccd282964e682e0cb39994b9fb55c8fb4ad745043dac8b2e31c06170
+#. default-sha256: 59b12a1c1bb91596f0764eba9de51ab17136f6890a3f766df58f229db12e9ba4
+msgctxt "scenario9:scenario9_26C22C6F_3835_4C3F_BA35_F932EDDE9DE7"
+msgid "⟪k:0⟫And so the wish of that anomaly... ⟪k:1⟫gave birth to yet another anomaly—"
+msgstr "⟪k:0⟫我偏离了世界常理，⟪k:1⟫我的愿望果不其然催生了偏离世界常理之物。"
+
+#: scenario9:scenario9_D21274E5_3971_4179_BCFE_1CCDE07DEAD6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 26072ba5b2a26ea31c7e28b0d9ee5af22edd1ff6e37e5d863dbf89c751e96053
+#. default-sha256: 0b8186756abb7502b3c8ea38dcdf8afc0c65fb26e0df6c88f8bf9b70c604e5d9
+msgctxt "scenario9:scenario9_D21274E5_3971_4179_BCFE_1CCDE07DEAD6"
+msgid ""
+"⟪k:0⟫a house that sat outside the currents of time.⟪k:1⟫⟪k:2⟫One that could descend into the "
+"mortal realm at various times and places."
+msgstr "⟪k:0⟫超越了时间与空间，⟪k:1⟫出现在现实中，⟪k:2⟫无视时间流逝的馆……"
+
+#: scenario9:scenario9_7B0EB139_01EE_4014_9911_2C1CB1F186DD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2ef0525a68ae72f6cd1197b2b7542d0fec61e81263c64746e44a065b1220ad36
+#. default-sha256: 62300af082ca38ef2f70bdbc0554f6aa7cda3a71c56b62e89d0384cef81f608f
+msgctxt "scenario9:scenario9_7B0EB139_01EE_4014_9911_2C1CB1F186DD"
+msgid "⟪k:0⟫And why did it have to be that house that bound me to the world?"
+msgstr "⟪k:0⟫为何只有馆才能将我与这个世界连结呢……"
+
+#: scenario9:scenario9_A9956F34_AC58_4FD8_AAB2_17ADFA21C0EF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: aaba99fb8f61b15b1bb78a50050be88237b14498235dc75515ae9eb74cbb18be
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_A9956F34_AC58_4FD8_AAB2_17ADFA21C0EF"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_3D76D3F0_B785_4847_BC7D_4F8DC241C59C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 68d4bd019240c16dea57897d7f40189817c775333ab5fa6200b5f6b482202acb
+#. default-sha256: 9461307d22271cacf51c7f1abaf87a8206b3be8742d568033fe24fa9512d0667
+msgctxt "scenario9:scenario9_3D76D3F0_B785_4847_BC7D_4F8DC241C59C"
+msgid "⟪k:0⟫My very presence malevolent."
+msgstr "⟪k:0⟫我的存在本身……⟪k:1⟫就是罪孽。"
+
+#: scenario9:scenario9_77583269_3E0D_416C_A4DD_9CEC53949443
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9d4d7eed5f22299f64904840a5f881c2ca0777580aefd0df96030acb5bc5064c
+#. default-sha256: 39c2284f81988ecd006112d7f2b79afc0d9bc279b7a5ca2c55cee998891ecf8c
+msgctxt "scenario9:scenario9_77583269_3E0D_416C_A4DD_9CEC53949443"
+msgid "⟪k:0⟫Please, stop..."
+msgstr "⟪k:0⟫……请别再说了……"
+
+#: scenario9:scenario9_4FA002B7_F14F_45BB_A19E_6A99E0CF9FDA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ce2e87564ca9ffc8342515f759a4a20c8ba3b324c6ac6dc663ca212424b90d65
+#. default-sha256: e1c0be10f70d4fc5ad4f8f5e8596ea9f1b186faa8280930ba534828fe0878051
+msgctxt "scenario9:scenario9_4FA002B7_F14F_45BB_A19E_6A99E0CF9FDA"
+msgid "⟪k:0⟫The universe must be returned to its proper state, Michel."
+msgstr "⟪k:0⟫所以，⟪k:1⟫米歇尔……⟪k:2⟫必须要让世界之理回归正常。"
+
+#: scenario9:scenario9_4DECEAE2_970C_4CD6_BDDF_DE47457B4E9A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2a5d059013f06716aa809a196a8aa519706b2ed739f3a0ef4db693669f9c80b0
+#. default-sha256: 95136d90fff49345ec2d384353a5be3e96cab662e7d4d864fe273298d81b9baf
+msgctxt "scenario9:scenario9_4DECEAE2_970C_4CD6_BDDF_DE47457B4E9A"
+msgid "⟪k:0⟫Don’t talk about yourself like that..."
+msgstr "⟪k:0⟫……不要……⟪k:1⟫再用这样的语气……⟪k:2⟫说下去了……"
+
+#: scenario9:scenario9_A9F321DC_32EA_49D0_A6B0_F157BEECC80C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a84920df8b92aaaba3474344fcc59fca0ff763603442cb4714405fef7fbf0485
+#. default-sha256: b38e6ed9e8bfbc57b5ba3e74fad8f371778f0c9e07644f4fffe4f3ba632c474a
+msgctxt "scenario9:scenario9_A9F321DC_32EA_49D0_A6B0_F157BEECC80C"
+msgid ""
+"⟪k:0⟫Perhaps she will be a butterfly resting upon the lip of a flower.⟪k:1⟫⟪k:2⟫Perhaps she will "
+"be that flower.⟪k:3⟫⟪k:4⟫Perhaps she will be the breeze in which that flower sways."
+msgstr "⟪k:0⟫可能是在花上翩翩起舞的蝴蝶，⟪k:1⟫可能是那绽放着的花朵，⟪k:2⟫也可能是游荡世界的清风。"
+
+#: scenario9:scenario9_1C6A17CD_B342_4017_A559_92CCFEA5C536
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 54789bacaafb0fac1a3dfc162fd7a784c4087e61f241c2aeda15ca8ca36d121c
+#. default-sha256: 989b65ceba5d22d802c0945e11152c5f29f5c35f7b80d6929d6a7950149f6b53
+msgctxt "scenario9:scenario9_1C6A17CD_B342_4017_A559_92CCFEA5C536"
+msgid "⟪k:0⟫But whatever form she takes, it will be her, whole and complete."
+msgstr "⟪k:0⟫但是，⟪k:1⟫无论是什么形式——那才是真正的她。⟪k:2⟫⟪k:3⟫灵魂完整无缺的……她。"
+
+#: scenario9:scenario9_C9A2B2AB_E2F1_4B73_837E_6D64A46834DE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: aaba99fb8f61b15b1bb78a50050be88237b14498235dc75515ae9eb74cbb18be
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_C9A2B2AB_E2F1_4B73_837E_6D64A46834DE"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_310178B2_0BE3_425D_A71F_72AE96F997C4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7d5aa8d7baca190b4b3fee9fc2464436f26f84e833840581ec469aed7aaec88f
+#. default-sha256: 171a9b1cdd5d7d0b558ff79b9a709127c1ddbc47d78f6b294119451591e17973
+msgctxt "scenario9:scenario9_310178B2_0BE3_425D_A71F_72AE96F997C4"
+msgid "⟪k:0⟫I want you to be the one who does it."
+msgstr "⟪k:0⟫我希望……⟪k:1⟫你能这么做。"
+
+#: scenario9:scenario9_3B532917_F120_4537_81FE_AEBCA9F07275
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: aaba99fb8f61b15b1bb78a50050be88237b14498235dc75515ae9eb74cbb18be
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_3B532917_F120_4537_81FE_AEBCA9F07275"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_5C1B7E7D_2138_4523_B353_466E69E76C22
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: aaba99fb8f61b15b1bb78a50050be88237b14498235dc75515ae9eb74cbb18be
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_5C1B7E7D_2138_4523_B353_466E69E76C22"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_CE23F994_CD70_4735_9E91_79A13AF2E8AF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a052f65735370cbea9a21bd1ab8b8c755af87b1afdb3fd97c98e907c0ec19af7
+#. default-sha256: 18a32f3c4ae83122bd38fa7f6e9a4bb385fd1cfc7182f248b1c5ed9179d85972
+msgctxt "scenario9:scenario9_CE23F994_CD70_4735_9E91_79A13AF2E8AF"
+msgid "⟪k:0⟫Is there not some other way?"
+msgstr "⟪k:0⟫就没有其他的办法了吗……"
+
+#: scenario9:scenario9_F7A59939_19C6_4797_B571_BE3BD3890D53
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f04f8e4f89710922426f5032827ad4f20642b7368df45590b2b46612f7d8c69a
+#. default-sha256: a4521ab7ceace3d6040188c4c4d86a6c64da603dbd46c8af47692865e62cdeea
+msgctxt "scenario9:scenario9_F7A59939_19C6_4797_B571_BE3BD3890D53"
+msgid "⟪k:0⟫Won’t you do this for me?"
+msgstr "⟪k:0⟫请拿起这把剑……"
+
+#: scenario9:scenario9_53CCAE86_8E72_4FDF_8E1F_0166105FB688
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e55efd33c935318d3b0cfcade6319f002eb13487f0a375220a8c76e5bd12c025
+#. default-sha256: a2a3a953c79892402524747d62daadb43e88aeb47583934e06815853416a2d68
+msgctxt "scenario9:scenario9_53CCAE86_8E72_4FDF_8E1F_0166105FB688"
+msgid "⟪k:0⟫I cannot."
+msgstr "⟪k:0⟫……做不到……"
+
+#: scenario9:scenario9_B04E7DD2_0921_400B_9692_E8CD48EA623D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 939b033a9c2e90c8e19f613e69db4aff99b6c84405e5c38c24f565bd4e4a94ca
+#. default-sha256: 50944a418b5d3039800eef0026b03fb5e559cc8c13493f6ac955143efe05d3de
+msgctxt "scenario9:scenario9_B04E7DD2_0921_400B_9692_E8CD48EA623D"
+msgid "⟪k:0⟫I could never take that sword!"
+msgstr "⟪k:0⟫要我……⟪k:1⟫拿起这把剑……⟪k:2⟫我做不到……！"
+
+#: scenario9:scenario9_D3EE8508_22B3_4702_915E_BD9133CBD1C5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ec2c3ff0a6f06318b0c5d55a6bf18aa54e50484f10633fef4b66137df6dbe88e
+#. default-sha256: 37055da51f8879e1e164d38f7aa414613d23406903171c6ffa75f2a882181028
+msgctxt "scenario9:scenario9_D3EE8508_22B3_4702_915E_BD9133CBD1C5"
+msgid "⟪k:0⟫As selfish a request as it may be,⟪k:1⟫I want the curtain drawn on this ersatz life..."
+msgstr "⟪k:0⟫但是，⟪k:1⟫希望你能这么做……⟪k:2⟫⟪k:3⟫我知道这是自己的任性……⟪k:4⟫但还是想让——"
+
+#: scenario9:scenario9_5DA798A0_BB8B_4B1B_B933_33CEEC71F1EB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7dfc9a3a824b8f7c38e735141822e5baacb04db410c8c540b299ef778eef1209
+#. default-sha256: 38fc69d9f3d9e991e2a35f0b9785dafbbca66828cd9b87cecf54cf977116a9e8
+msgctxt "scenario9:scenario9_5DA798A0_BB8B_4B1B_B933_33CEEC71F1EB"
+msgid "⟪k:0⟫You... ⟪k:1⟫admired me?"
+msgstr "⟪k:0⟫……憧憬的人……？"
+
+#: scenario9:scenario9_A4D1C560_1B76_4577_8DD5_D38AD4090B59
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: aaba99fb8f61b15b1bb78a50050be88237b14498235dc75515ae9eb74cbb18be
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_A4D1C560_1B76_4577_8DD5_D38AD4090B59"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_B0CF63D0_7FEA_4857_89B9_B832AABD6562
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3f60e631b9d48d429790ff676bd58baab15024d0f8de4b4ea38dcae9fdd090e7
+#. default-sha256: 3cc25465d65b701937511065beb3433aa2eceabb27a924bb890181f8fa4405e5
+msgctxt "scenario9:scenario9_B0CF63D0_7FEA_4857_89B9_B832AABD6562"
+msgid "⟪k:0⟫But while Morgana sought vengeance..."
+msgstr "⟪k:0⟫你被钉死在十字架上的时候——⟪k:1⟫我曾注视着你的遗体与灵魂。"
+
+#: scenario9:scenario9_4304A9BF_33B5_46AC_B9F3_7CB9E88DAB5B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c45c13e27b5b57bb288966e3f00620954850639e237cea9765eea3b58d326c80
+#. default-sha256: 213451e74ce411c2f7295308a1be895b578fdd62c601417d3a235638005cb05c
+msgctxt "scenario9:scenario9_4304A9BF_33B5_46AC_B9F3_7CB9E88DAB5B"
+msgid "⟪k:0⟫I had just... ⟪k:1⟫lost all hope for myself..."
+msgstr "⟪k:0⟫我只是……⟪k:1⟫对自己……⟪k:2⟫绝望了而已……"
+
+#: scenario9:scenario9_572180F0_8F4E_4A37_B460_59EF4F053C09
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 25a0fa36bb8d3ac041baf2388532a6811fb1e2481737086856d8db6f3b34f010
+#. default-sha256: 950da8b4f9f18d6de57a974aff40d0f7d2f4e0b8fb9ef7ed3cb36eb561d5d89c
+msgctxt "scenario9:scenario9_572180F0_8F4E_4A37_B460_59EF4F053C09"
+msgid "⟪k:0⟫I expect you’ll disagree with me, say that it was a sign of your weakness,"
+msgstr "⟪k:0⟫……当然，⟪k:1⟫你可能会否认我的想法。⟪k:2⟫觉得那只是懦弱。"
+
+#: scenario9:scenario9_643AFFA7_558F_4195_8FDA_38C04DE48C2B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 600b000f148175274868d40d8b65051cf539ef737f285ecc1850af42dd469e37
+#. default-sha256: dfec30992c1206d8f2ea1fe3d7806f476609d8906bc161e8e6fe70d31a53a688
+msgctxt "scenario9:scenario9_643AFFA7_558F_4195_8FDA_38C04DE48C2B"
+msgid ""
+"⟪k:0⟫Self-sacrifice being one of the core characteristics Morgana gave to me, I was deeply moved."
+msgstr "⟪k:0⟫我原本就被灌输了牺牲精神……⟪k:1⟫所以，你的行为给了我极大的震撼。"
+
+#: scenario9:scenario9_602EA2DE_D7C7_4607_8248_8A789A2C46B7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 64b9952c9d3778b4e7f1d73852acb3a7f8d20f322cca330e7d939e236100badb
+#. default-sha256: 79ed72f060ffbd0468659b7a5f5c94750e97a97b22a0ce7b6e860a9416990e17
+msgctxt "scenario9:scenario9_602EA2DE_D7C7_4607_8248_8A789A2C46B7"
+msgid "⟪k:0⟫I’m not..."
+msgstr "⟪k:0⟫怎么会…………"
+
+#: scenario9:scenario9_882969D6_F02F_449F_A6FC_A19D1C8B8784
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4bef12a593c2279a6735c0f4608f7280bf46c010f187dc35381000432e713b11
+#. default-sha256: e5d8183bf202bedd1a8fe125eda101bec235160eaeef2d5e622698320bd353ab
+msgctxt "scenario9:scenario9_882969D6_F02F_449F_A6FC_A19D1C8B8784"
+msgid "⟪k:0⟫to consider this a great favor... ⟪k:1⟫for a starry-eyed little girl."
+msgstr "⟪k:0⟫作为一名少女的愿望……⟪k:1⟫而接受的话……我会很开心的。"
+
+#: scenario9:scenario9_C9B581C8_270B_4BA8_B2C1_57C1ED5031F3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b66114cc3c3863045de9451855422f71ae05e381e6c66c846564bfe3c2db49ad
+#. default-sha256: 0506716e60f8ca8a90d221caea976590bfa86d92ec3eae74d0f259a468ddbd11
+msgctxt "scenario9:scenario9_C9B581C8_270B_4BA8_B2C1_57C1ED5031F3"
+msgid "⟪k:0⟫I couldn’t ask for a greater honor..."
+msgstr "⟪k:0⟫如果能被你亲手消灭的话……"
+
+#: scenario9:できない2
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5870b4496d7cd7df1f7f8b9f85cf4e8a645594660f8539ff1d002e36e6251f50
+#. default-sha256: e10a3643617eca3aeabfbb29dd558fcc64717fb54fe899b251405e467e86f61f
+msgctxt "scenario9:できない2"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫I can’t do it.⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫我做不到⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫"
+
+#: scenario9:scenario9_FB7A997A_B306_4F70_9B60_F1C85877ACD3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c16a4b07acf795847814c3d6555d4774310836c5d74380aa4956b63dbeede0f8
+#. default-sha256: 80c53f37abc5b949507a1eca01c0ec16443aeb7cde7f13f44c71ab0bda530156
+msgctxt "scenario9:scenario9_FB7A997A_B306_4F70_9B60_F1C85877ACD3"
+msgid "⟪k:0⟫I can’t kill someone who’s told me they wanted to live..."
+msgstr "⟪k:0⟫亲手杀死……⟪k:1⟫这种事无论如何……⟪k:2⟫都做不到……"
+
+#: scenario9:scenario9_9116384D_356E_4BA8_8E31_23547D078E4A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c8443efeda3fd5c6f39951c9924dd1028df77a89b1a8b4a060e47b131bd180fb
+#. default-sha256: 32d48fae00d09753e9c99419edd2730b786ce9500bb9215cc0de51c72f49bd64
+msgctxt "scenario9:scenario9_9116384D_356E_4BA8_8E31_23547D078E4A"
+msgid "⟪k:0⟫but this is the first time we’ve actually met."
+msgstr "⟪k:0⟫这是……第一次。"
+
+#: scenario9:scenario9_79255B30_80A0_41B6_967C_178BA002B941
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: aaba99fb8f61b15b1bb78a50050be88237b14498235dc75515ae9eb74cbb18be
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_79255B30_80A0_41B6_967C_178BA002B941"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_183634A6_7C23_412D_98C5_7D125285A016
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0550d975032b06578e6bd02506a467259382aa21cbeae24250ddbf3102ded572
+#. default-sha256: aaa194eb9e2906d47eefd6858f3fb2fa7a220a65fbb4d48293c99d2026d8eeb8
+msgctxt "scenario9:scenario9_183634A6_7C23_412D_98C5_7D125285A016"
+msgid ""
+"⟪k:0⟫Which means that, until now, we’ve never been in the same place while both aware of the "
+"other’s presence."
+msgstr "⟪k:0⟫在此之前……从未以认识彼此的状态见过面。"
+
+#: scenario9:scenario9_19107240_B462_44A8_8239_B5F7120B0D55
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d54d10b29d25f96f405c99fc4f0211d1698d0e259adc34c15ebd2ab06a46ba43
+#. default-sha256: 9c8ba54dc049fa1f8350c52f1aa431d7e85fb3dd8a3b40236f5f01be92094333
+msgctxt "scenario9:scenario9_19107240_B462_44A8_8239_B5F7120B0D55"
+msgid "⟪k:0⟫Indeed, this is the first time we’ve formally “met”..."
+msgstr "⟪k:0⟫确实……⟪k:1⟫我和你这样见面……⟪k:2⟫还是第一次……"
+
+#: scenario9:scenario9_E7625914_743A_4CAB_A52C_7F24F429D28E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e0faea49c2c1db193bdaabe148b9685ad776a82fac1602bef69403a5ae357009
+#. default-sha256: c34acc41edc05a8e2a3a834a9bfbc7803aa24d3fee90708513b9b0b16240b028
+msgctxt "scenario9:scenario9_E7625914_743A_4CAB_A52C_7F24F429D28E"
+msgid ""
+"⟪k:0⟫I’ve seen you live three different lives...⟪k:1⟫⟪k:2⟫I’ve seen the impact you had on the "
+"people behind all three of those doors..."
+msgstr "⟪k:0⟫门内发生的故事……⟪k:1⟫以及你生活的痕迹……"
+
+#: scenario9:scenario9_0C1BA12A_9CBA_4642_94D4_74DA3735DE04
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4ed5eb788df2f5ce4f44713ac1e32d7d964c1c6adebcfd5ebe32fbbe31ba85b5
+#. default-sha256: ca8e5a4a34382a5d77bc21c615cd8e46ca7a971a7507d90dbd3405b5a74550a6
+msgctxt "scenario9:scenario9_0C1BA12A_9CBA_4642_94D4_74DA3735DE04"
+msgid "⟪k:0⟫When I am gone, everything will return to its rightful place."
+msgstr "⟪k:0⟫如果我消失的话……⟪k:1⟫一切将会回归正轨。"
+
+#: scenario9:scenario9_C6C18E2E_E889_4D3F_9946_7E5A4AB1D235
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: abe3394a0793730be3997cecf654cbda2c77a2c01392a3bfa9d015226d8e16ad
+#. default-sha256: 4e2cff2cc3518df0ce96f9feccfface2d19dc537cb8e0dc9fa19e4af6d7a821a
+msgctxt "scenario9:scenario9_C6C18E2E_E889_4D3F_9946_7E5A4AB1D235"
+msgid "⟪k:0⟫Are there really no other options?"
+msgstr "⟪k:0⟫真的……⟪k:1⟫就没有别的方法了吗……"
+
+#: scenario9:scenario9_6A11B427_3B56_4E04_A592_7A587DD5917F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 06c29262c31dcbb1ac5294ad80d9df9cc815f7bf5fc668b9d35ee26b202d7ecf
+#. default-sha256: d6c6c8e4aa8f9f009ddfc4773f3b49296b5c55b523bdbe1905a2110615bd8e05
+msgctxt "scenario9:scenario9_6A11B427_3B56_4E04_A592_7A587DD5917F"
+msgid "⟪k:0⟫the man after whom I modeled myself."
+msgstr "⟪k:0⟫这个瞬间……⟪k:1⟫于我而言，无比珍贵美好。"
+
+#: scenario9:scenario9_C511D01F_68A4_44B8_9AEC_9FC01B999E0B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: aaba99fb8f61b15b1bb78a50050be88237b14498235dc75515ae9eb74cbb18be
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_C511D01F_68A4_44B8_9AEC_9FC01B999E0B"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_98CA6C52_F717_4F15_860C_0772B31DDA04
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7632a72971b328d9d901acbfbf2b1e13f30e0070845831699ba3d94ff7d11252
+#. default-sha256: eb7d33d0f9d590eff4424c0602df1dcf4223cda614c7b407bf91d2979e6e7057
+msgctxt "scenario9:scenario9_98CA6C52_F717_4F15_860C_0772B31DDA04"
+msgid "⟪k:0⟫That there would be no more tragedies!"
+msgstr "⟪k:0⟫我是能够拯救他们的……！"
+
+#: scenario9:scenario9_B883A31E_C2FA_47E2_B1A3_D13111FE6D68
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 24eac64bca9841c7ece01e2d19c2be566d97252981d0006f0b64c3db02bcc4bb
+#. default-sha256: 2cbac61980686e0460e88d219db357a88a4f24ee900eb9afa0ccf16b38a2da9b
+msgctxt "scenario9:scenario9_B883A31E_C2FA_47E2_B1A3_D13111FE6D68"
+msgid "⟪k:0⟫Michel..."
+msgstr "⟪k:0⟫……米歇尔……"
+
+#: scenario9:scenario9_6E547E02_20E1_4180_96A6_B23D6EAAD09E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 99a535bfd8aef77aa0ce80212d40c2e576fe25df95967df2ee5c59b4b2070915
+#. default-sha256: d792fc63eedb64f4e720005d8237b6685a3d93c47b2d5ed2606049537771a45a
+msgctxt "scenario9:scenario9_6E547E02_20E1_4180_96A6_B23D6EAAD09E"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫Worry not, Michel..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫没关系的，⟪k:8⟫米歇尔……"
+
+#: scenario9:scenario9_860A3402_BA72_47D5_A119_7660E78B2F71
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: aaba99fb8f61b15b1bb78a50050be88237b14498235dc75515ae9eb74cbb18be
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_860A3402_BA72_47D5_A119_7660E78B2F71"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_EB56BC1E_7D33_44FD_99ED_96BA338D02F9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: aaba99fb8f61b15b1bb78a50050be88237b14498235dc75515ae9eb74cbb18be
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_EB56BC1E_7D33_44FD_99ED_96BA338D02F9"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_35D7C45A_395C_4AB4_BF4C_721D615478D6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a3fd7aa1db84db7906f5dc03672414f185582765a358c8cddbd04a7661b3f65b
+#. default-sha256: b096f2fcd7936a61f242bdc5af19ae9d052090dbaf6555dcce31065e413f4bc9
+msgctxt "scenario9:scenario9_35D7C45A_395C_4AB4_BF4C_721D615478D6"
+msgid "⟪k:0⟫I had well beyond my share of happiness."
+msgstr "⟪k:0⟫可是……⟪k:1⟫我却能体会到生而为人的喜悦。"
+
+#: scenario9:scenario9_305BE20D_DFFB_4E1E_A5A4_70ABE47F5324
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: aaba99fb8f61b15b1bb78a50050be88237b14498235dc75515ae9eb74cbb18be
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_305BE20D_DFFB_4E1E_A5A4_70ABE47F5324"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_B3571D46_4E03_4E63_B202_83A8082C4B18
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8792f6b4b72303cbf8e46add435f88ee093ad0206d10c97edd262a8c5f7cd772
+#. default-sha256: 56c6f5ace547079cbe3a19e32b87d255b732503ad3c4335152cbbcb54dbccf4d
+msgctxt "scenario9:scenario9_B3571D46_4E03_4E63_B202_83A8082C4B18"
+msgid "⟪k:0⟫O Michel, namesake of the great archangel Michael and man of tremendous virtue—"
+msgstr "⟪k:0⟫米歇尔……⟪k:1⟫有着天使之名的高尚之人啊……"
+
+#: scenario9:scenario9_2BAC8D15_954A_488F_B821_2BE0581F560F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: aaba99fb8f61b15b1bb78a50050be88237b14498235dc75515ae9eb74cbb18be
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_2BAC8D15_954A_488F_B821_2BE0581F560F"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_1693D4A5_105D_4C09_BF89_D1A5B47BEE4E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: aaba99fb8f61b15b1bb78a50050be88237b14498235dc75515ae9eb74cbb18be
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_1693D4A5_105D_4C09_BF89_D1A5B47BEE4E"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_FB03D206_5CE9_4D2C_BF23_32F1D257D58B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8d417492a25368f0b347789998e28ca0e2cbf8540563da11cb2259f64020913a
+#. default-sha256: edb786566bb84d5dac7a88f191c3ee4d788f8ccb0e18c876c67d06bcae52d356
+msgctxt "scenario9:scenario9_FB03D206_5CE9_4D2C_BF23_32F1D257D58B"
+msgid "⟪k:0⟫You must be the one to do this."
+msgstr "⟪k:0⟫只有你才能做到的事情……"
+
+#: scenario9:scenario9_6132E4FC_5EF4_43DC_B405_59651FBAFAED
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: aaba99fb8f61b15b1bb78a50050be88237b14498235dc75515ae9eb74cbb18be
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_6132E4FC_5EF4_43DC_B405_59651FBAFAED"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_9ED0EDEB_CA67_406A_9901_C032354C3218
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b5db843bbb1f37e5196ad9ace255e0fac22b2d7c0923ce7169a61cb75157e05d
+#. default-sha256: 3daacca81b3ba46e568470a4e2a527189e543debb8de240c86b8f434cc04318d
+msgctxt "scenario9:scenario9_9ED0EDEB_CA67_406A_9901_C032354C3218"
+msgid "⟪k:0⟫.................."
+msgstr "⟪k:0⟫………………"
+
+#: scenario9:scenario9_892A26F6_2003_47F1_9A82_1775B356645C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4094e7155af7d24dc7293f68318aa9562c39ee0c7c9a5e6b5a20b1b6e26228a6
+#. default-sha256: 0c61398a1e54b1d661e669b47c90e5b349943649c010a4836e6b143a158c1f7a
+msgctxt "scenario9:scenario9_892A26F6_2003_47F1_9A82_1775B356645C"
+msgid "⟪k:0⟫Gh..."
+msgstr "⟪k:0⟫…………呜。"
+
+#: scenario9:scenario9_64075C87_DEBF_442E_B23A_67F7D4D5CE73
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b6a74d5381781f695fe79717236b0b6f622e3fe4ed05e19a3bcb2ecc62723f5a
+#. default-sha256: d1d780ac975b5edfdea5da828c2a3823fe861870b0b00a5013b1b20835c0292a
+msgctxt "scenario9:scenario9_64075C87_DEBF_442E_B23A_67F7D4D5CE73"
+msgid "⟪k:0⟫(There are things I need to take care of first...)"
+msgstr "⟪k:0⟫（现在必须要完成……）"
+
+#: scenario9:scenario9_AF0992E8_EECB_4D26_B264_822A549E53AA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cf274c7d67e0bbf8354fb19724d93d398c0b6286f4684a612e094874ec8a3395
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_AF0992E8_EECB_4D26_B264_822A549E53AA"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_747C9A65_CF17_423E_93EB_A4D2241525B1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c6c3b6286990309c1f1910e849df893fee273186986e8f9423cecefba22ffdcf
+#. default-sha256: a93a355cefee7a78a8ed7d7a7053b99894ab679921ccacb90940b269499320cf
+msgctxt "scenario9:scenario9_747C9A65_CF17_423E_93EB_A4D2241525B1"
+msgid "⟪k:0⟫Morgana..."
+msgstr "⟪k:0⟫……莫尔加娜……"
+
+#: scenario9:scenario9_AB4FF7BD_87CB_4C06_900D_BDFCCB53C896
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1e903a1c33b3af8f4f68da84e757eba934f8e1cfbdcb85c416bb3919fb7c5176
+#. default-sha256: 1b80dd7da9632b1b06ef56111ee994f75ffb1669581e4ce6d718c2fd99abdb51
+msgctxt "scenario9:scenario9_AB4FF7BD_87CB_4C06_900D_BDFCCB53C896"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫…………"
+
+#: scenario9:scenario9_6FB82793_87D0_48C6_9C01_BCC51F81FC71
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ee5289507876299275b9f7c95f29b0878a87d9e7d2dd5345fe2ad108b602085c
+#. default-sha256: 53360224860f785f10692ab31b2e836f64edc2c1d5828cb66bf83c3064286bb7
+msgctxt "scenario9:scenario9_6FB82793_87D0_48C6_9C01_BCC51F81FC71"
+msgid "⟪k:0⟫What, ⟪k:1⟫exactly, ⟪k:2⟫was all that about...?"
+msgstr "⟪k:0⟫……这到底，⟪k:1⟫是怎么回事……"
+
+#: scenario9:scenario9_C50AD177_5E76_4809_9B8D_E337D6DF4E7B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 04f4058893e843202edd06d50b93205a705e92d8549481e517a6c2b59a4f31b9
+#. default-sha256: a0c1215c0f19d16e4906715bf71c50eeae7e4bdf71948624c8fd2893ff92011d
+msgctxt "scenario9:scenario9_C50AD177_5E76_4809_9B8D_E337D6DF4E7B"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫There were two different lords.⟪k:3⟫⟪k:4⟫The one at the estate, and the one who "
+"locked you in the tower."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫最开始虐待你的领主……⟪k:3⟫和之后又将你抓起来的领主并不是同一人……"
+
+#: scenario9:scenario9_E94DE3EF_8A76_44CE_B651_00173EC22F79
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 538c121114ad39c17758bba42d7967c72f2f1cf6fd81ff3345529acd01e5cced
+#. default-sha256: 974e868f33436d744d9128af773c086665ef14c58f152167693646e628771e14
+msgctxt "scenario9:scenario9_E94DE3EF_8A76_44CE_B651_00173EC22F79"
+msgid "⟪k:0⟫You can’t assume everything you saw in that state of mind to be true."
+msgstr "⟪k:0⟫你那时候的所见所感，⟪k:1⟫可能已经不太正常了……"
+
+#: scenario9:scenario9_D0EFDBF0_A778_4C7F_892B_52D3A37A9AE0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cfe0faddc13b908e047c1e8b982cef070e820c73960c90fc4976332abf11dbd1
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_D0EFDBF0_A778_4C7F_892B_52D3A37A9AE0"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_28AC8448_86A7_40A3_96C7_C285D349FC22
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5af83f7f280489883df998ca88d505af7bc90356e6bdff375de7482ab962c93f
+#. default-sha256: e0f3659cce83d452e9b6c8abd5789c69689aba4a9a4ffd3f86aff7861e68bf98
+msgctxt "scenario9:scenario9_28AC8448_86A7_40A3_96C7_C285D349FC22"
+msgid "⟪k:0⟫He said... ⟪k:1⟫He said he would show me the world!"
+msgstr "⟪k:0⟫他明明说过的啊……⟪k:1⟫要带我去见识更广阔的世界……！"
+
+#: scenario9:scenario9_C30FA7F2_B6B7_4FBE_8EDE_FA4EFCDD7090
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 08c1ca96a63b060b4a13218aad11cdf1e17bad7d6a941a9b0ca24570cd89cc45
+#. default-sha256: 6072c0d20183855c7a36bc7ac3ae17fd5e82593880ba2bca27203c8d7ab4f76b
+msgctxt "scenario9:scenario9_C30FA7F2_B6B7_4FBE_8EDE_FA4EFCDD7090"
+msgid "⟪k:0⟫I can understand how that would have hurt."
+msgstr "⟪k:0⟫他的心灵也出现了裂痕。"
+
+#: scenario9:scenario9_D810BCA8_B2B7_4CDB_A1E7_3A075CC43D35
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b10285fd485b9609c197ee8942487894894d13ea3c15f5869169ac33270d61ed
+#. default-sha256: d9451d7a5fafccf777cd57e43a3533f3bedc3d6ecb19e17cea07f70acece702a
+msgctxt "scenario9:scenario9_D810BCA8_B2B7_4CDB_A1E7_3A075CC43D35"
+msgid "⟪k:0⟫What does it matter if he had his “reasons”?!"
+msgstr "⟪k:0⟫就算这背后有什么隐情……⟪k:1⟫也没有用……！"
+
+#: scenario9:scenario9_07AFF209_D5E8_4E47_9B0F_EDA2F3A5CEBA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6d907bac9216d80948352c0f3915a167f9a8ed718282754940ee03dec2027be7
+#. default-sha256: 6acd0ff8a216f6b9177e6ad878e4b3118cf11b596b1ee5db2e00e9d234551ad1
+msgctxt "scenario9:scenario9_07AFF209_D5E8_4E47_9B0F_EDA2F3A5CEBA"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………"
+
+#: scenario9:scenario9_D7B867E3_6A14_44FC_8F6F_082E9EB19AE5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ec64ebdf0d87f09d243b5edd52a77cecbe436afd4f2c107a50ef8018d8340086
+#. default-sha256: aa5876e69786c78859d493c36a76335d895321ac58b0cd51c0015640a5470de8
+msgctxt "scenario9:scenario9_D7B867E3_6A14_44FC_8F6F_082E9EB19AE5"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫You murdered yourself."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫不断地……杀害你自己……"
+
+#: scenario9:scenario9_F0899251_5A2E_43A2_9936_C55734D3936D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d13eb448c6c4eca70cacdc62dc5bc9d3a3ac3404e1d811a818a29ff52b0c2aa1
+#. default-sha256: 1e35f6832482ef47e304a2fbc42c87668b6d7324564f7c8f5cc0cdd7d78f91c9
+msgctxt "scenario9:scenario9_F0899251_5A2E_43A2_9936_C55734D3936D"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Morgana..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫……莫尔加娜……"
+
+#: scenario9:scenario9_534A969F_398C_4C6C_87EF_547A11E04A2B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cfe0faddc13b908e047c1e8b982cef070e820c73960c90fc4976332abf11dbd1
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_534A969F_398C_4C6C_87EF_547A11E04A2B"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_E5807F1E_57D8_49C2_89E9_21AF0A9ED3E1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c7d67da5605ca3cce7344a95020d1b1317db832396ac9700887d28f52a1c654c
+#. default-sha256: 2881262119fa4d73da949d2f3bf8cb1adac52c170598ebd49d481ea621e70e7c
+msgctxt "scenario9:scenario9_E5807F1E_57D8_49C2_89E9_21AF0A9ED3E1"
+msgid "⟪k:0⟫I can almost hear trembling in her voice as she says,"
+msgstr "⟪k:0⟫发出的声音，⟪k:1⟫带着些许颤抖……"
+
+#: scenario9:scenario9_799BE18E_540F_4E00_AC23_D7581859A260
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5ca8485a14ccaa13b20956c165332ac189139e56566a41468bd22944f4fb1f52
+#. default-sha256: 0150d3f4807b10e19ce2388786e7e9421979edac80a3249c015d492b894e02f5
+msgctxt "scenario9:scenario9_799BE18E_540F_4E00_AC23_D7581859A260"
+msgid "⟪k:0⟫⟪k:1⟫You... ⟪k:2⟫stay away from me..."
+msgstr "⟪k:0⟫⟪k:1⟫……不要……⟪k:2⟫靠近我……"
+
+#: scenario9:scenario9_74473E8E_E366_45C2_93F2_E360BF34BA2B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d13eb448c6c4eca70cacdc62dc5bc9d3a3ac3404e1d811a818a29ff52b0c2aa1
+#. default-sha256: 1e35f6832482ef47e304a2fbc42c87668b6d7324564f7c8f5cc0cdd7d78f91c9
+msgctxt "scenario9:scenario9_74473E8E_E366_45C2_93F2_E360BF34BA2B"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Morgana."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫……莫尔加娜……"
+
+#: scenario9:scenario9_FA4388B3_374A_40BB_BE7E_5BA52FEBFE3B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d7c2f3dd0a1837ba5fb525c369a5e218dde18d9f3422b1205dd90dcd4bf26bb9
+#. default-sha256: 4d9b9673bf19ef3a06934b9049435a8427a7f8984862a0968a190a29ad180e14
+msgctxt "scenario9:scenario9_FA4388B3_374A_40BB_BE7E_5BA52FEBFE3B"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫I’m not going to ⟪k:3⟫laugh⟪k:4⟫ about your pain, Morgana."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫这哪里愚蠢……⟪k:3⟫⟪k:4⟫面对这种心灵上的痛楚……⟪k:5⟫我怎么可能笑得出来……"
+
+#: scenario9:scenario9_BCA95E97_BFD7_4A90_A0CA_D1F229CE8735
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: decc3a075d6928f842a481627e478fdada5b45f2bed26a0fa2351a55b72bafed
+#. default-sha256: ac27bd02d8930591bd77e2e73666f2a3942cdfcc38debbd483cf48cc1853ff4e
+msgctxt "scenario9:scenario9_BCA95E97_BFD7_4A90_A0CA_D1F229CE8735"
+msgid "⟪k:0⟫I embrace her, and all the pain and loneliness she holds inside."
+msgstr "⟪k:0⟫而是连带着她的那份痛苦，⟪k:1⟫那份孤独一起——"
+
+#: scenario9:scenario9_D22F532B_E62B_455C_9523_F5F9D6B2B780
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 510c47f31de567e859f036a0704b0be421bccf669f0784e5a7d8d04d19ef6712
+#. default-sha256: e133a7c4d4298861ef8002005666caf883f017c45d9fd831cd13904cebe69b32
+msgctxt "scenario9:scenario9_D22F532B_E62B_455C_9523_F5F9D6B2B780"
+msgid "⟪k:0⟫She, like me, lost so much in life,"
+msgstr "⟪k:0⟫她也是，⟪k:1⟫失去了一切的人。"
+
+#: scenario9:scenario9_117B1975_55DC_4699_B673_60208BAE01AD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0be08e1686c4909760ebb18b1e65870d2a0a4e67e1d1a00a5969d8061d5032bb
+#. default-sha256: 1be694febb510fe1dc61e777e4ac97903bb424230eef5113d7ab87d7e6b678f6
+msgctxt "scenario9:scenario9_117B1975_55DC_4699_B673_60208BAE01AD"
+msgid "⟪k:0⟫Knowing the inseverable link between her and the White-Haired Girl,"
+msgstr ""
+"⟪k:0⟫如果，⟪k:1⟫白发少女和莫尔加娜有着紧密的联系的话——⟪k:2⟫⟪k:3⟫那时候，⟪k:4⟫白发少女所想的事情"
+"里……"
+
+#: scenario9:scenario9_2302DA76_7894_4547_9EC9_442D50DA94A2
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 684f894266932798edfb2b78e63dd4b7c8839af8ac00efdcc2ef869b9a9c4a1d
+#. default-sha256: 6005904bebb3f5930c68a5cd8fde7943269a798ada54edfe1d9345154048b485
+msgctxt "scenario9:scenario9_2302DA76_7894_4547_9EC9_442D50DA94A2"
+msgid "⟪k:0⟫that’s where I’ll find what I’m looking for."
+msgstr "⟪k:0⟫一定有……莫尔加娜想要的答案。"
+
+#: scenario9:scenario9_319CBF9C_0E7D_46A2_99AF_20D4CB48DF44
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 921df9bb799eba26fda59f12304bc3fb045098f045dd3d168ce63f508de105bc
+#. default-sha256: aae2c334e9690ddf258249b917444871773492c7d817807a7bbfce470c9b6f25
+msgctxt "scenario9:scenario9_319CBF9C_0E7D_46A2_99AF_20D4CB48DF44"
+msgid "⟪k:0⟫I’m here for you."
+msgstr "⟪k:0⟫……我就在你身边……"
+
+#: scenario9:scenario9_DCE756F3_C68B_4307_B662_8A54BC9F7665
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a8da0bfc3573401badb45e41affa1e148f15799c99f0292e53b96a0eaaf140d1
+#. default-sha256: 2e32dea5d05cb96a822abdc87d94b5c2f77d864c69f4c09d474933069c4b427a
+msgctxt "scenario9:scenario9_DCE756F3_C68B_4307_B662_8A54BC9F7665"
+msgid "⟪k:0⟫We can end all this suffering, together."
+msgstr "⟪k:0⟫所以……⟪k:1⟫不要再做令自己痛苦的事情了……"
+
+#: scenario9:scenario9_8829EF9F_2E4F_49CE_AE75_FAC38C0E4F44
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f3980c4a0c2019a8bc52c32d9bac7037d552c912caf43cef5b90730df51013d8
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_8829EF9F_2E4F_49CE_AE75_FAC38C0E4F44"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_BBB180EA_51AA_47F8_AB04_8960EA31DA21
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 33b8fe8db77f81b67c4218dd763fb4718da8929aae1909824ea9bd73d45e48c6
+#. default-sha256: b9554767632d3db83459f3bac52c3c053d9cf405b5144edb0168d03d1c39aa7e
+msgctxt "scenario9:scenario9_BBB180EA_51AA_47F8_AB04_8960EA31DA21"
+msgid "⟪k:0⟫No reminders necessary.⟪k:1⟫⟪k:2⟫You did quite a number on me indeed."
+msgstr "⟪k:0⟫是啊……⟪k:1⟫那可真是场灾难。"
+
+#: scenario9:scenario9_81E68041_F81D_4027_94A0_E74608117262
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1541a9637539be74d0c485ad87185c5da39ced2c503abe3a4e60ea1d133d76ff
+#. default-sha256: 99c8e592baaa7562e3ff70e324c35f53fd245135d84435f8d77791afdc6a1ce0
+msgctxt "scenario9:scenario9_81E68041_F81D_4027_94A0_E74608117262"
+msgid "⟪k:0⟫Of that much... ⟪k:1⟫I was always certain."
+msgstr "⟪k:0⟫我……⟪k:1⟫知道的。"
+
+#: scenario9:scenario9_4B83D2AD_79E8_473B_BE94_E050E3095C5A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cf274c7d67e0bbf8354fb19724d93d398c0b6286f4684a612e094874ec8a3395
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_4B83D2AD_79E8_473B_BE94_E050E3095C5A"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_B9F13208_36DD_4770_97A5_8D24E8435D62
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 800be3c18e6ea5c830dff4b10628ca6cf7bdf9a9b336779a2c43f5a9b8d373ef
+#. default-sha256: a549431104eeb1dc02b942267f18ef735b60abd9dd48bde0862bf8278afde614
+msgctxt "scenario9:scenario9_B9F13208_36DD_4770_97A5_8D24E8435D62"
+msgid ""
+"⟪k:0⟫She quickly averts her eyes, but doesn’t knock my hands away as I reach them into her hood, "
+"gently setting them against her cheeks."
+msgstr "⟪k:0⟫然而，⟪k:1⟫她却没有拒绝我的举动。"
+
+#: scenario9:scenario9_A87EEE55_961E_49FE_9040_F1852B6766C7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d2165176372df2bafd54f9736af5d603e0c4685c48e541b38be3a754edbf1fba
+#. default-sha256: 2f854c476eb6f9a60ed96ee18a998e2f1a6c27a656ef39336dad1ec084711338
+msgctxt "scenario9:scenario9_A87EEE55_961E_49FE_9040_F1852B6766C7"
+msgid "⟪k:0⟫I run my fingers across the exposed flesh,"
+msgstr "⟪k:0⟫我用手掌，⟪k:1⟫轻轻擦拭着她脸部溃烂的地方——"
+
+#: scenario9:scenario9_5A1B8BDB_2AFD_4385_9A0F_A2E57321FCA9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 495ac8583ef0c8203203f7c77817b241872e6919a3cac630be5b0717805e7d6b
+#. default-sha256: a04e78a4c4d420fd84334ca39cfd7652c139cd7b8db2b26fbeedec298c79546c
+msgctxt "scenario9:scenario9_5A1B8BDB_2AFD_4385_9A0F_A2E57321FCA9"
+msgid "⟪k:0⟫I assure you, I’m not.⟪k:1⟫⟪k:2⟫Go on, touch your cheeks."
+msgstr "⟪k:0⟫才不是客套话……⟪k:1⟫你不信的话，⟪k:2⟫自己摸一下试试……"
+
+#: scenario9:scenario9_6812BA23_BD4D_4770_A149_B6EE23CE4197
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d628858763c4ffe1e621d3bfa4ea199a4053037ee89498429905b230146c3ecf
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_6812BA23_BD4D_4770_A149_B6EE23CE4197"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_B2250C10_BC60_46E8_8A07_0D2CDCDFF9AE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d8fa4e90bb2d5b1494451c5bc674ba50701adb6868dad3bce20f5fa7221ece1c
+#. default-sha256: 501bd50530842cb5282f775dc6ade3d5fff55ccab01a3d40775ab71714d00e9e
+msgctxt "scenario9:scenario9_B2250C10_BC60_46E8_8A07_0D2CDCDFF9AE"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫.................."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫………………"
+
+#: scenario9:scenario9_2BCE2F56_481E_4D84_B244_15FFC736161D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3b70164166b4d33762335eced97a7675de01654f69c39e88552fba9007daf25c
+#. default-sha256: 82d09a6406ad0a709e39cc427cd3ebb689003ce8625effd1eef841eb7974f5a8
+msgctxt "scenario9:scenario9_2BCE2F56_481E_4D84_B244_15FFC736161D"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Now this... ⟪k:4⟫this is the girl you were always meant to be."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫这才是……⟪k:4⟫你……原本的样子……"
+
+#: scenario9:scenario9_0717ACD3_35C4_4760_91A3_23B8BD0DB0A6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a002c54f837a21f3ca268bac932bcccd27fdd8e6847adeba669cb64d8d48bdb4
+#. default-sha256: 6acd0ff8a216f6b9177e6ad878e4b3118cf11b596b1ee5db2e00e9d234551ad1
+msgctxt "scenario9:scenario9_0717ACD3_35C4_4760_91A3_23B8BD0DB0A6"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………"
+
+#: scenario9:scenario9_8423DFCA_FAEC_4CD1_B2BB_E5E464B3E92B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0b7d5fa7188d84287e4617e12551b5a659f5d6be03d6259a9ad8eecdbe494fe0
+#. default-sha256: 83d134f5c90e8c2161880f3d049db36eeae7e5602df1062be09e2369e66c8768
+msgctxt "scenario9:scenario9_8423DFCA_FAEC_4CD1_B2BB_E5E464B3E92B"
+msgid "⟪k:0⟫this is probably what she would have looked like at sixteen."
+msgstr "⟪k:0⟫应该会是这副模样吧……"
+
+#: scenario9:scenario9_9214CEDB_46BA_4411_B368_E69E25B32AEB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d628858763c4ffe1e621d3bfa4ea199a4053037ee89498429905b230146c3ecf
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_9214CEDB_46BA_4411_B368_E69E25B32AEB"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_E9269E45_7351_45BB_B371_0131D82B27A0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 61ee47645f72c5fb1eb08d328f5488dff2e69a1c7d37f6b35766bf4075265244
+#. default-sha256: 675b6bd4fd1f9e00d83b79500e3ed7baa41ff47bf7a77496acecc721bc602202
+msgctxt "scenario9:scenario9_E9269E45_7351_45BB_B371_0131D82B27A0"
+msgid ""
+"⟪k:0⟫⟪k:1⟫We look nothing alike—⟪k:2⟫⟪k:3⟫I can assure you of that...⟪k:4⟫⟪k:5⟫She was the very "
+"antithesis of me..."
+msgstr "⟪k:0⟫⟪k:1⟫才不会……⟪k:2⟫和她相似呢……⟪k:3⟫⟪k:4⟫那家伙……⟪k:5⟫和我正相反……"
+
+#: scenario9:scenario9_508433D8_7B93_4FFB_BF8B_14858E07FCB3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5dda93a417bed2960e1b62ca0d64b80138696b1a6d6c854a49692c658f948abe
+#. default-sha256: abfdb14cfcb65cc8ae6b5c0008325c91ac46799ee83b833ddff1aca864380746
+msgctxt "scenario9:scenario9_508433D8_7B93_4FFB_BF8B_14858E07FCB3"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫And why is that?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫……为什么……"
+
+#: scenario9:scenario9_33712AF2_DBEF_4408_A5BD_3D10E1954A6C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cfe0faddc13b908e047c1e8b982cef070e820c73960c90fc4976332abf11dbd1
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_33712AF2_DBEF_4408_A5BD_3D10E1954A6C"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_C690894E_AE98_45BF_91E8_705B5DDF1FE8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: bbceeb07affda72da162efdcaf26721e91de5f11a59dbb0fbec5c7d13195f7c2
+#. default-sha256: 976c01879de18f48edd867deb01fbc188352c88d99d02198b7481c4c98154053
+msgctxt "scenario9:scenario9_C690894E_AE98_45BF_91E8_705B5DDF1FE8"
+msgid "⟪k:0⟫⟪k:1⟫I’m not even sure what I’m doing anymore.⟪k:2⟫⟪k:3⟫And it’s all your fault."
+msgstr "⟪k:0⟫⟪k:1⟫你好像……⟪k:2⟫还不明白你都做了些什么呢。⟪k:3⟫⟪k:4⟫……都是因为你啊。"
+
+#: scenario9:scenario9_4DD2A458_06A6_4E40_B32A_75502671726D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ec6975effc2a973aa3d0a1f4b76da06ceb59b78276e0d47cf8e1779a8b6effb1
+#. default-sha256: 67b8dea76278f6ae6badfd2d65f53957509762b3e009c3501cab26fa4ec997fc
+msgctxt "scenario9:scenario9_4DD2A458_06A6_4E40_B32A_75502671726D"
+msgid "⟪k:0⟫⟪k:1⟫So, sure. I’ll release their souls."
+msgstr "⟪k:0⟫⟪k:1⟫解放……他们的灵魂吧。"
+
+#: scenario9:scenario9_3193FEFD_CD25_4A16_9CDA_26F1B2930333
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 33770676f6f09f2a1172d62ac71aff4a47838e369c9c74956d47e06d920224da
+#. default-sha256: 8479cade5d337bfd9dada71a1929128dc523ac4d12abcfef68c0862f5d5983d6
+msgctxt "scenario9:scenario9_3193FEFD_CD25_4A16_9CDA_26F1B2930333"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫That won’t be a problem.⟪k:3⟫⟪k:4⟫I’ll go with you."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫这样的话……⟪k:3⟫没关系。⟪k:4⟫我也和你一起去。"
+
+#: scenario9:scenario9_6D7238B7_29CC_4EE3_80B1_73061A26F787
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 528363c2c6140bb37ed9e3b056f574e2c3bbee8fe3bd9b56b05a47bd4708ea22
+#. default-sha256: 23c27dd632769c928f7825f0f2e2892edbcd39b719fce063c9ddd37616eda28f
+msgctxt "scenario9:scenario9_6D7238B7_29CC_4EE3_80B1_73061A26F787"
+msgid ""
+"⟪k:0⟫⟪k:1⟫You get to be my guide this time, then...⟪k:2⟫⟪k:3⟫get to take up Giselle’s old mantle."
+msgstr "⟪k:0⟫⟪k:1⟫这样啊……⟪k:2⟫这次是……你像吉赛儿一样……引领着我呢。"
+
+#: scenario9:scenario9_3ED0867D_94DC_4462_8B79_4354B0466345
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ea660bb92609c19efad587858f3f70aaddc77487f2035871d23779b230f9cb62
+#. default-sha256: e7ef98e34f08a347faef5a142a4fff883554e044fab46f032edc0c38e36ad0da
+msgctxt "scenario9:scenario9_3ED0867D_94DC_4462_8B79_4354B0466345"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫That I do."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫……是的。"
+
+#: scenario9:scenario9_CEAC2468_2165_446F_996A_B4297203AB1C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2ca80977ce396b28054270a61199fa3c0890aa3bbeeffad354db3b85d7608a23
+#. default-sha256: bf59d6473668d1d1e62a45e985f54a02ba198201ed87216a07bd48917c7a0d17
+msgctxt "scenario9:scenario9_CEAC2468_2165_446F_996A_B4297203AB1C"
+msgid "⟪k:0⟫⟪k:1⟫Even if it means taking ⟪k:2⟫this⟪k:3⟫ hand?"
+msgstr "⟪k:0⟫⟪k:1⟫……即使这样的一只手……⟪k:2⟫你也愿意牵吗。"
+
+#: scenario9:scenario9_772B4CD8_CCE7_40A9_8C43_CB790926E2E3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: adcea8a0e7878422292551e510cd52e9fa767dc25fed8bdd0701f731fbfa98aa
+#. default-sha256: 62ca1871991c17c81d50dac4d43bf0b6f75b9449d67ea7c786a3152cdddcf227
+msgctxt "scenario9:scenario9_772B4CD8_CCE7_40A9_8C43_CB790926E2E3"
+msgid "⟪k:0⟫Nothing that happens could possibly make things worse than they already are."
+msgstr "⟪k:0⟫已经——⟪k:1⟫不会有在这之上的不幸之事了。⟪k:2⟫⟪k:3⟫之后就是……"
+
+#: scenario9:scenario9_790C209F_A957_4577_9B44_AAA1A0DA1CAD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0c1a0a0a231eb2cbe57f0ce4901c0f70012b6323d9f64fb23baa8a259e50b841
+#. default-sha256: b9560dbc1afbb167d1a2728861e4c49b6bb01b37fbb81815a85ca265a7fbad54
+msgctxt "scenario9:scenario9_790C209F_A957_4577_9B44_AAA1A0DA1CAD"
+msgid "⟪k:0⟫⟪k:1⟫...Let’s go, then, I suppose..."
+msgstr "⟪k:0⟫⟪k:1⟫……走吧……"
+
+#: scenario9:scenario9_C9F18F6F_631C_43DA_818D_723D8149FEEF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7e26c863647e3ef82b41a7d7bde294f8c33df35d34e827b780fd430f9f97cf05
+#. default-sha256: 6167e5b3e6fc4afe87366345a0be70e4072e7cb98e8f8f671e9577d4150211bc
+msgctxt "scenario9:scenario9_C9F18F6F_631C_43DA_818D_723D8149FEEF"
+msgid "⟪k:0⟫It gradually starts looking more and more like the young man it once was."
+msgstr "⟪k:0⟫渐渐地，⟪k:1⟫凝聚成人型……"
+
+#: scenario9:scenario9_82A34732_8007_497B_A476_7BC433ACED14
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b0b6612a51d6630a8de2f5f556da58d82c9facced90882faaaed7f77e074457c
+#. default-sha256: 6eb920cd67f12b9a0943b45323f4228f9cfd8ec903c99c1df2c019f7cb083789
+msgctxt "scenario9:scenario9_82A34732_8007_497B_A476_7BC433ACED14"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Morgana...?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫……莫尔加娜……？"
+
+#: scenario9:scenario9_260DC34F_B159_4C32_A1D5_0E972AB32A41
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8a56ebc9c285aeaa2f90f2616dfe6f8036381a005b5768ceab9001d6c3c02dae
+#. default-sha256: 7637a84e209158f020e66d0948f96bc6e0c48128164fd8d7e3dea1a894f0a464
+msgctxt "scenario9:scenario9_260DC34F_B159_4C32_A1D5_0E972AB32A41"
+msgid "⟪k:0⟫⟪k:1⟫Ah..."
+msgstr "⟪k:0⟫⟪k:1⟫……这样啊……"
+
+#: scenario9:scenario9_ACB4E0DA_2043_4A89_AE29_C30B99419369
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f6d1dbec46cb3adaf295f37cb5d0500ecfaafa4b449e7494bdfe1185b4a58c89
+#. default-sha256: 950bc881b1f0fab0899d027d2012d2411d1b364fb945ad75ed1a88b3ff05ca9c
+msgctxt "scenario9:scenario9_ACB4E0DA_2043_4A89_AE29_C30B99419369"
+msgid ""
+"⟪k:0⟫I deserve to be cursed, after everything I’ve done to you.⟪k:1⟫⟪k:2⟫It can’t have been easy, "
+"that’s for sure."
+msgstr ""
+"⟪k:0⟫我曾对你做出那样过分的事……⟪k:1⟫被诅咒也是理所应当的。⟪k:2⟫所以，我知道……这个决定对你来说有多"
+"么重要。"
+
+#: scenario9:scenario9_A1E248AA_3154_4596_9EEE_CB1DB04BE559
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fac1f49e71e2eb535d8326b69bd8aebd8d4fc511b33cc1cc7650fb28b549b04c
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_A1E248AA_3154_4596_9EEE_CB1DB04BE559"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_AF8CD4BB_9307_4368_9C88_1907D08C9E3B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: bc7bf13b192a5a9a710bb3fc67fff2b090ac3e756b37d60d527d99fc29b6dd80
+#. default-sha256: 6dde94ba95462c473443860086a71a00ad50efbcbf69541e6ffe1366dc1385e1
+msgctxt "scenario9:scenario9_AF8CD4BB_9307_4368_9C88_1907D08C9E3B"
+msgid "⟪k:0⟫⟪k:1⟫I guess...⟪k:2⟫⟪k:3⟫Still, I wasn’t lying when I said I wanted to be friends."
+msgstr "⟪k:0⟫⟪k:1⟫嗯……⟪k:2⟫但是……⟪k:3⟫我是真的想和你更加亲近。"
+
+#: scenario9:scenario9_FC68B5D0_BE38_4E62_AF25_C2589401BA4D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fac1f49e71e2eb535d8326b69bd8aebd8d4fc511b33cc1cc7650fb28b549b04c
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_FC68B5D0_BE38_4E62_AF25_C2589401BA4D"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_BE7A34A8_8289_49F1_8306_87F0FE99ED08
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cf5778e37eb1c0e036a52d5e676753a3ea6d5d769ef29fa1dd8f851b8b3ce0ec
+#. default-sha256: 214f3365c49aeb01f1b034076871baddfbcade850440d2d3e4a7818ad127b18f
+msgctxt "scenario9:scenario9_BE7A34A8_8289_49F1_8306_87F0FE99ED08"
+msgid "⟪k:0⟫⟪k:1⟫I meant it—⟪k:2⟫⟪k:3⟫I really did."
+msgstr "⟪k:0⟫⟪k:1⟫想和你成为朋友……"
+
+#: scenario9:scenario9_1E8070B6_5AFA_4390_AACD_325A82F41B67
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 28937f56a8d384db992bddb8cc84bcd98c56ab3f40916f8e271b22bff45f81e9
+#. default-sha256: c7817e938f5431c9cad268fb998510862faa6bfcd63651a1592f7181f54eccf7
+msgctxt "scenario9:scenario9_1E8070B6_5AFA_4390_AACD_325A82F41B67"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫I presume you’re now able to recall everything—⟪k:3⟫⟪k:4⟫both your first life, and "
+"the second one I subjected you to, when the house was called Rose Manor?"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫现在的你，⟪k:3⟫不仅记得我那个时代——⟪k:4⟫⟪k:5⟫应该也记得你转世后的蔷薇时代吧。"
+
+#: scenario9:scenario9_5FAFEE82_BF18_4F73_A97E_3650BB59E863
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7ba84884d1fc1f274bccfeb8b955a4cb89adeae261abca1554a511954ddc076b
+#. default-sha256: 6acd0ff8a216f6b9177e6ad878e4b3118cf11b596b1ee5db2e00e9d234551ad1
+msgctxt "scenario9:scenario9_5FAFEE82_BF18_4F73_A97E_3650BB59E863"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………"
+
+#: scenario9:scenario9_09C6B191_BCB8_47FA_970C_F49D31B97B82
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d7279956e8d76eb772e0315543d30ee790ac9bfbd3225aa3bec6a5ea4ef82472
+#. default-sha256: 6acd0ff8a216f6b9177e6ad878e4b3118cf11b596b1ee5db2e00e9d234551ad1
+msgctxt "scenario9:scenario9_09C6B191_BCB8_47FA_970C_F49D31B97B82"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………"
+
+#: scenario9:scenario9_EABCFD04_C8A2_4535_B89D_3A018B84A792
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 76920cc4eff39e1afa065201454e0e36ab93bd19e6f5f887664e4bc71b81e47a
+#. default-sha256: d9a1fe1dca4afdd42cbe7c8d5c25b894dd09ef269f44578414b8af8de9d8760f
+msgctxt "scenario9:scenario9_EABCFD04_C8A2_4535_B89D_3A018B84A792"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫So I disagree. My curse ⟪k:3⟫did⟪k:4⟫ play a significant role in your fate."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫若不是因为我的愿望，⟪k:3⟫你的命运也会不一样吧。"
+
+#: scenario9:scenario9_999A1736_316F_4AA2_9E5B_D2840C268CFF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ccbb7c7b5e75099e2a0a9a6a147eb09b0579c96650f82899046307670803edae
+#. default-sha256: e3911a2355061eca75eda8da3bbda3694989627aef73f352f3f09921f73dc9d0
+msgctxt "scenario9:scenario9_999A1736_316F_4AA2_9E5B_D2840C268CFF"
+msgid "⟪k:0⟫⟪k:1⟫because I was weak and ran from the problem instead of facing it."
+msgstr "⟪k:0⟫⟪k:1⟫应该会迎来不一样的未来……"
+
+#: scenario9:scenario9_98E58062_0529_4B0F_8E68_26FA08AAD8FD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fac1f49e71e2eb535d8326b69bd8aebd8d4fc511b33cc1cc7650fb28b549b04c
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_98E58062_0529_4B0F_8E68_26FA08AAD8FD"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_FD5ED7BB_DE62_4F11_9EE2_7B36700768A8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1ea4d95bb5e0f029e1963e4130887d59c866429edcd5b78ccba8198bb8f0c9d7
+#. default-sha256: b8b1cc7ebdb182dd096f3c1bccacfed1e1563132630b2061d7e17bf8719856a5
+msgctxt "scenario9:scenario9_FD5ED7BB_DE62_4F11_9EE2_7B36700768A8"
+msgid "⟪k:0⟫⟪k:1⟫How ⟪k:2⟫should⟪k:3⟫ I refer to her, then?⟪k:4⟫⟪k:5⟫Girl-Michelle, maybe?"
+msgstr "⟪k:0⟫⟪k:1⟫那该怎么称呼她呢……⟪k:2⟫小白怎么样？"
+
+#: scenario9:scenario9_B4D33664_9F5B_4E3C_A3BA_60D3178CCE3E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: eb08444f873736ac5b1530ed4269641dd04802527a1518f25333104b6392dc0a
+#. default-sha256: 56ef34920c722aa6590b2d2cfa6daa77a8dde8671ec4b5adf3f30af9016144ea
+msgctxt "scenario9:scenario9_B4D33664_9F5B_4E3C_A3BA_60D3178CCE3E"
+msgid "⟪k:0⟫⟪k:1⟫A-⟪k:2⟫Ahahaha..."
+msgstr "⟪k:0⟫⟪k:1⟫……啊、⟪k:2⟫啊哈哈……"
+
+#: scenario9:scenario9_1682F0EC_26DE_44E2_A97A_6954E04DE1C5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d1a22803e1a21558699cdad5ef05fd6d4427d521437ea62480377880f6db079f
+#. default-sha256: 12bf481fa1b55bc5d155c93e4a5dbf4eb9865c0719b12d99d7ab7753125b80d2
+msgctxt "scenario9:scenario9_1682F0EC_26DE_44E2_A97A_6954E04DE1C5"
+msgid ""
+"⟪k:0⟫Not that she would hold it against you if you ⟪k:1⟫didn’t⟪k:2⟫ apologize.⟪k:3⟫⟪k:4⟫That’s "
+"simply her nature..."
+msgstr "⟪k:0⟫而且，⟪k:1⟫不道歉也没事的，⟪k:2⟫因为那家伙不会去恨别人。⟪k:3⟫⟪k:4⟫她就是那样的性格呢……"
+
+#: scenario9:scenario9_B73E9728_BD4E_4992_9F19_623F371183B8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7dd2b01e40abc1e086349fb3d47bf9041c2b6d0ff2afe27a2cb630be6117b5b2
+#. default-sha256: af0cd41c076af88c7c10aa224b5c316bbf7e4f371cf7919167c2809d3ea6bc1d
+msgctxt "scenario9:scenario9_B73E9728_BD4E_4992_9F19_623F371183B8"
+msgid ""
+"⟪k:0⟫⟪k:1⟫If you hadn’t done what you did for me—⟪k:2⟫⟪k:3⟫for Nellie, for Morgana, for everyone—"
+"⟪k:4⟫⟪k:5⟫I’m not sure I would’ve been able to work up the guts to apologize."
+msgstr "⟪k:0⟫⟪k:1⟫如果不是你，⟪k:2⟫就算现在，⟪k:3⟫我也……开不了口道歉。"
+
+#: scenario9:scenario9_D78D35FC_2C5F_416A_A3FF_03E06A33FED9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e4fb22f972c3870fcedf7d2f089007e46bc91cb1badd69eae1fe51ec7d5a6287
+#. default-sha256: 3cafa6bbb052ff724ace6f9de9d7b12b9d18b3b565ff1eaab68ae869ad7410f2
+msgctxt "scenario9:scenario9_D78D35FC_2C5F_416A_A3FF_03E06A33FED9"
+msgid ""
+"⟪k:0⟫Farewell, Mell.⟪k:1⟫⟪k:2⟫Until our souls cross paths once more⟪k:3⟫in the boundless sphere "
+"of fate."
+msgstr "⟪k:0⟫——永别了。⟪k:1⟫⟪k:2⟫我与你的灵魂，⟪k:3⟫再也不会相遇了吧。"
+
+#: scenario9:scenario9_0CEEBBC1_6D96_4665_A5E6_39AC835BDD5F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e9bf188c85483d6024e1f164b38fef2ffe4df5348fd198094731b9bf7d5e9c64
+#. default-sha256: ccaf7e83dc44682227d1cf1290ed52fa43f51a938a60b5e45e2f5432a20a3c9f
+msgctxt "scenario9:scenario9_0CEEBBC1_6D96_4665_A5E6_39AC835BDD5F"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫…………"
+
+#: scenario9:scenario9_097BFC39_8FC0_4876_8F65_56FD76ADFFA6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 97016b3447ba0546641a96cffc874b3e99f1b4f16fbc532bf631f8de63cea53e
+#. default-sha256: 917fde6ccffa510d32a2020ee79ee65fcc6343f2e05bb960f2413e7f375fd396
+msgctxt "scenario9:scenario9_097BFC39_8FC0_4876_8F65_56FD76ADFFA6"
+msgid ""
+"⟪k:0⟫But having a conscience... ⟪k:1⟫can be a double-edged sword.⟪k:2⟫⟪k:3⟫The regret so "
+"overwhelming you don’t want to believe you could do something so awful—⟪k:4⟫⟪k:5⟫that some "
+"outside force must be to blame."
+msgstr ""
+"⟪k:0⟫不过……正因如此，⟪k:1⟫他才无法承受良心上的苛责，⟪k:2⟫安慰自己这不是自己的错——选择了逃避。"
+
+#: scenario9:scenario9_C208EBBD_6D6F_419C_A765_55DD44CDE63E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 69b357c1e6bc8f84af9a95708824fe5458cbc8eb0a04c3394b779710f937ae06
+#. default-sha256: ff8b61a056f6167b5b272be7062184fcb7b7469edee7fc543842bd77b33701f2
+msgctxt "scenario9:scenario9_C208EBBD_6D6F_419C_A765_55DD44CDE63E"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫I’m going to have to ask you to go in first this time."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫不好意思，⟪k:3⟫这扇门还是你先进吧。"
+
+#: scenario9:scenario9_5558812B_22CF_47E6_9533_A649D0110ABA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3077821fa0c738f6997e37f62ee021f49715785f6ee1d80adb5c432ccc12a437
+#. default-sha256: ef8aaa5794772bda02d1447cdd0dc6b72bd7760ba1812f8410ed7191475b1a49
+msgctxt "scenario9:scenario9_5558812B_22CF_47E6_9533_A649D0110ABA"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫I don’t mind... ⟪k:3⟫But why?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫我倒是无所谓……⟪k:3⟫为什么？"
+
+#: scenario9:scenario9_E1C45188_06E6_44FC_8440_59B470FD0639
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 76d9b6ed5443046f74ffa900c12a50e82433c8c37c0ce16092825d24c1a26fef
+#. default-sha256: 4e944915d6cd384dab96e91cb7535b3bb1fab2adc3483ffce96c54292d18ea8e
+msgctxt "scenario9:scenario9_E1C45188_06E6_44FC_8440_59B470FD0639"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫It’ll be fine, I’m sure. I doubt he’ll attack."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫我觉得现在的他……⟪k:3⟫应该不会再那样了……"
+
+#: scenario9:scenario9_41BBC304_888D_4692_9F13_C6F3E1C0CD4B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 230ec594b5a32f697eba4e740df175878681a71c94468b9845a0b5113fb9da92
+#. default-sha256: d392a64807f38b0167cc9a09896ff1a0b97d05016ae9e853639f67f1b157da7e
+msgctxt "scenario9:scenario9_41BBC304_888D_4692_9F13_C6F3E1C0CD4B"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫(Ah, so ⟪k:3⟫that’s⟪k:4⟫ what I am to her...)"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫（……拿我挡刀啊……）"
+
+#: scenario9:scenario9_C3379985_3A5C_4A33_A6A9_B7AA25EAD14A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b91efb3c6f978cef9c72321678044a0ca47af70b9e57d3b5fae2d424f827df83
+#. default-sha256: 2e7d0dd63446e8ff33c94ed1463d365f4e18b65492ff5fd55e1402a6c68270d8
+msgctxt "scenario9:scenario9_C3379985_3A5C_4A33_A6A9_B7AA25EAD14A"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫You don’t have to remind me..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫这件事……⟪k:3⟫我很清楚。"
+
+#: scenario9:scenario9_DB31BB69_631E_40DF_B9D3_EE59AEAA315E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: dd454db539b7978aa251e8ca836fc84c7e4913b8ab990c0b30a94d2d3ac74697
+#. default-sha256: db879ab09443e670c140e719b71349eaf802852beac333e5b7284b8eecd31924
+msgctxt "scenario9:scenario9_DB31BB69_631E_40DF_B9D3_EE59AEAA315E"
+msgid "⟪k:0⟫⟪k:1⟫you would be erased for all eternity."
+msgstr "⟪k:0⟫⟪k:1⟫你的灵魂，⟪k:2⟫会完全消散掉。"
+
+#: scenario9:scenario9_FC9F901B_A406_41FA_B0DA_C32356CCA1FF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 963e3f4667380eb28c13e690cf7f5f189533294ecb0a55e4e10e8ce4e74539c5
+#. default-sha256: b189fa786a7bf9cb9f6faf975afb54d8429928917c93117e0878e09249e7b4d6
+msgctxt "scenario9:scenario9_FC9F901B_A406_41FA_B0DA_C32356CCA1FF"
+msgid "⟪k:0⟫⟪k:1⟫...Just something to keep in mind."
+msgstr "⟪k:0⟫⟪k:1⟫……要小心。"
+
+#: scenario9:scenario9_BDDCB548_8237_400F_B3C3_6F45EA087CC2
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f5ff34a1bfe080e28a90c24c7d2f3593106d906d33b1221e0a5f472e15e1253e
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_BDDCB548_8237_400F_B3C3_6F45EA087CC2"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_A81AC194_85FB_48A2_939D_8E1E489CA1EC
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f5ff34a1bfe080e28a90c24c7d2f3593106d906d33b1221e0a5f472e15e1253e
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_A81AC194_85FB_48A2_939D_8E1E489CA1EC"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_C18C066D_581E_480A_B6F8_43E14D5FD6F6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8d43109323907fe0390ef696ae329a27bacc1b27723dc2a75eb79abc0a8959f8
+#. default-sha256: ebe958d9a1fbbd8b1aeff3a77a1292d5e41c50d5430b12e3fd923c5382115b13
+msgctxt "scenario9:scenario9_C18C066D_581E_480A_B6F8_43E14D5FD6F6"
+msgid "⟪k:0⟫⟪k:1⟫Your face, it’s... ⟪k:2⟫not how I remember."
+msgstr "⟪k:0⟫⟪k:1⟫长得不一样。"
+
+#: scenario9:scenario9_FF36BA22_FB2F_4100_B6E4_9632E5FDBE54
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f1b1a86a1a8ed5c5c72051a11d0fe9111d8e1734278da71295c85dabfe88240d
+#. default-sha256: b316d2c4e9b7163698662cecb3c27c425038c69cc6470c2cd2ae7765e44f590a
+msgctxt "scenario9:scenario9_FF36BA22_FB2F_4100_B6E4_9632E5FDBE54"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫It’s back to normal."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫……这是我本来的样子……"
+
+#: scenario9:scenario9_5CA6964A_4850_45C9_B8D2_AD2290127C0C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4f1ba7792db979bc137474b3fcf5e3fa3a7e91e59534ccb45ed276b9a94cfe8c
+#. default-sha256: 331467f9d4e38d0154b0c9a4ca08dfa8a4f2a3ea0918ff2eaa95569cb5ebd431
+msgctxt "scenario9:scenario9_5CA6964A_4850_45C9_B8D2_AD2290127C0C"
+msgid "⟪k:0⟫⟪k:1⟫I see."
+msgstr "⟪k:0⟫⟪k:1⟫是吗。"
+
+#: scenario9:scenario9_07F384DD_A120_471B_9C4B_8DDABC44455C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5cace5e2db23b02f986b906b2847b2637eb39660386c5f0ba55de6fb4eefd759
+#. default-sha256: 81e87dd2457884cfc6e5f7013225664364a8e02299e6425eb9d01741504ff35a
+msgctxt "scenario9:scenario9_07F384DD_A120_471B_9C4B_8DDABC44455C"
+msgid "⟪k:0⟫Was that ⟪k:1⟫really⟪k:2⟫ necessary, Morgana?"
+msgstr "⟪k:0⟫莫尔加娜……⟪k:1⟫现在说这个吗……"
+
+#: scenario9:scenario9_46686FA6_3595_435B_81F0_1BE743745148
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 78350ee010a0413f3dbc89f8e22f003ef2c084dc1cf6555ba14cbdd1b6551faa
+#. default-sha256: 714bc712dad2f64d754cd59ab83a1b833de65261b89931ecd166d144c91dab84
+msgctxt "scenario9:scenario9_46686FA6_3595_435B_81F0_1BE743745148"
+msgid "⟪k:0⟫⟪k:1⟫He ⟪k:2⟫is⟪k:3⟫ a man."
+msgstr "⟪k:0⟫⟪k:1⟫是男的吧。"
+
+#: scenario9:scenario9_597F99F8_106C_4D99_9FC3_112AE435DE63
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e350dc78de2570cfea64ae4f68e4aae88f472e371f5f9831d27572301960378f
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_597F99F8_106C_4D99_9FC3_112AE435DE63"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_B15E61E4_586A_42B7_85D0_BFDD7AF811ED
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 61103c32e7e86e11a84dd06166a58bb07fc8b6ed5186fec33227e076f2e5f4bb
+#. default-sha256: 4b5cdc82af64eb21c4ac1252f76c30e7de3ad7f602568fd76d72adbb6eb6a78e
+msgctxt "scenario9:scenario9_B15E61E4_586A_42B7_85D0_BFDD7AF811ED"
+msgid "⟪k:0⟫⟪k:1⟫He’s indisputably a man—⟪k:2⟫no matter what reason you have to claim otherwise."
+msgstr "⟪k:0⟫⟪k:1⟫……怎么看都是男的。⟪k:2⟫不管发生过什么……"
+
+#: scenario9:scenario9_518D722B_17D9_439B_9DBD_2650C710C532
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e350dc78de2570cfea64ae4f68e4aae88f472e371f5f9831d27572301960378f
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_518D722B_17D9_439B_9DBD_2650C710C532"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_47C81706_3140_44B8_9A45_E6CD19FE8C40
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3ebeca98b464290ef7883d4f0d39c3d1a41c3052c3d43471a768328fa9193bae
+#. default-sha256: 97886ba88c09221b8805873bc7d51ca3e68d3d3caddb3b6f9792a3952975b5d6
+msgctxt "scenario9:scenario9_47C81706_3140_44B8_9A45_E6CD19FE8C40"
+msgid "⟪k:0⟫⟪k:1⟫So. ⟪k:2⟫What brings you two down here?"
+msgstr "⟪k:0⟫⟪k:1⟫……话说回来……⟪k:2⟫你们为什么会来这里？"
+
+#: scenario9:scenario9_332DDF3D_76B6_4A8A_9400_6EEB7678F96D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3bdb72ad460266240fe82ff55e7ff1b25ea54a347b8fcb7ebbe836d416448d1b
+#. default-sha256: b600e171668b2aab1881d19c85593c6c35d7b02966798bf198401b7deaffbd50
+msgctxt "scenario9:scenario9_332DDF3D_76B6_4A8A_9400_6EEB7678F96D"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫We’re here... ⟪k:3⟫to free your soul."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫是为了解放你的灵魂。"
+
+#: scenario9:scenario9_DCF0E7E6_3B75_4C82_A715_15E67C2F56D7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9f26f10c9a31eef71edfac47c4f42236cc143c6074e48d652fe57b5150d167fe
+#. default-sha256: f72fd3f6eb84526a3293cc55f2978baf254049d85d1ce4ad771f377185e6b9af
+msgctxt "scenario9:scenario9_DCF0E7E6_3B75_4C82_A715_15E67C2F56D7"
+msgid "⟪k:0⟫Instead of letting your soul return, I can erase it."
+msgstr "⟪k:0⟫不是让你的灵魂回到原来的地方……⟪k:1⟫而是让你的存在本身消失。"
+
+#: scenario9:scenario9_7D0154FB_C23C_41AE_B76F_681BC877649B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f5ff34a1bfe080e28a90c24c7d2f3593106d906d33b1221e0a5f472e15e1253e
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_7D0154FB_C23C_41AE_B76F_681BC877649B"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_32039B2E_D5CB_4E3A_B847_3C70613DB4FA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9da9a30dad2d0a7eb45e107f3858cbeb5a9a0a50bb6533ba60b4a5236d12290c
+#. default-sha256: 0f4f1856705a1713b0994d2760409310dd5412e347a6f5e3957dc6fa50ff0f7c
+msgctxt "scenario9:scenario9_32039B2E_D5CB_4E3A_B847_3C70613DB4FA"
+msgid "⟪k:0⟫⟪k:1⟫So in my next life... ⟪k:2⟫I won’t be a killer."
+msgstr "⟪k:0⟫⟪k:1⟫下一次……⟪k:2⟫不会再……成为杀人魔了。"
+
+#: scenario9:scenario9_D1269063_C3A0_4BFD_830D_E5102FDFB3D4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 64469e04d9f5a5d062f1b031393310a98fa1a469fe3b6cc1a111ff75454cf849
+#. default-sha256: a8f53e9ad886ad44663d6a7a8681670f4827e460be75b83bf84859d17d0cb09c
+msgctxt "scenario9:scenario9_D1269063_C3A0_4BFD_830D_E5102FDFB3D4"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫I suppose it’s worth trying. Do your best."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫……是吗……⟪k:3⟫那你努力吧……"
+
+#: scenario9:scenario9_AA9CA040_D0AF_47AB_9790_89A949AD0296
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: af568ddf43618af0be3892dc754ca1708c081b0c04fd3984e66abd8caece646a
+#. default-sha256: a7478254b96527aa04877e54c4d6c54fc3df73792e868fb2c8cae6ee4b09939e
+msgctxt "scenario9:scenario9_AA9CA040_D0AF_47AB_9790_89A949AD0296"
+msgid "⟪k:0⟫⟪k:1⟫I will."
+msgstr "⟪k:0⟫⟪k:1⟫啊啊……"
+
+#: scenario9:scenario9_0A5DBE08_373D_4B2F_9930_6E9BAA0B1219
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 098e48d95c139203481aa0f8b98f7cc7fca467b1382663023de888a71fff65e1
+#. default-sha256: 447efbf756b589b4c142adf6cc5386524cbf55a9ec731b28803bc4b6abbfa49d
+msgctxt "scenario9:scenario9_0A5DBE08_373D_4B2F_9930_6E9BAA0B1219"
+msgid "⟪k:0⟫⟪k:1⟫Farewell, Morgana."
+msgstr "⟪k:0⟫⟪k:1⟫……嗯⟪k:2⟫……永别了。"
+
+#: scenario9:scenario9_04B62A10_22C9_4872_8369_DB6F2A35B0FC
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e9bf188c85483d6024e1f164b38fef2ffe4df5348fd198094731b9bf7d5e9c64
+#. default-sha256: ccaf7e83dc44682227d1cf1290ed52fa43f51a938a60b5e45e2f5432a20a3c9f
+msgctxt "scenario9:scenario9_04B62A10_22C9_4872_8369_DB6F2A35B0FC"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫…………"
+
+#: scenario9:scenario9_2EA7F95E_9322_44F8_817D_32F3E94EF99F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d10396cabff175945af7465fdc22d4c838094b572c0cb2f8d2e5b2df67b134b0
+#. default-sha256: 614665e0132eb5f63835c6ed8064cdd472ae7ec947a5ca99e725ca3bb76c4385
+msgctxt "scenario9:scenario9_2EA7F95E_9322_44F8_817D_32F3E94EF99F"
+msgid "⟪k:0⟫⟪k:1⟫It’s strange. Setting them free, I both feel like a weight’s been lifted—"
+msgstr "⟪k:0⟫⟪k:1⟫真是不可思议呢，⟪k:2⟫将他们解放后……感觉稍微轻松了些——"
+
+#: scenario9:scenario9_B2EACE99_1E61_4055_8622_D4A79351E98C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b5a49a03fa5eee1a2e70050413172b06aefdb1ea397aea6f2e8fe289f3072658
+#. default-sha256: fffe6be3e8dde048a5965b2c16f796c3d2cd75603597d3bd1f72e4f824590f2f
+msgctxt "scenario9:scenario9_B2EACE99_1E61_4055_8622_D4A79351E98C"
+msgid "⟪k:0⟫The first step... ⟪k:1⟫toward moving on."
+msgstr "⟪k:0⟫这都是为了迈出崭新的一步……⟪k:1⟫不是吗？"
+
+#: scenario9:scenario9_E900B446_CDC9_4D3E_A325_33E751D94C7D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b7fd4deb08b9327fd315582cf5785f89484a9ff192b541636c9a089a883c760e
+#. default-sha256: 4ce63e7e525a5cba1596e2ccfbe2f22385eb2c430e90609c820c7b01e325c6b2
+msgctxt "scenario9:scenario9_E900B446_CDC9_4D3E_A325_33E751D94C7D"
+msgid ""
+"⟪k:0⟫The woman who tormented you. ⟪k:1⟫Your brother, who made a mockery of you. ⟪k:2⟫Your eldest "
+"brother, who took your life. ⟪k:3⟫Your mother, so unwilling to accept you she burned you at the "
+"stake."
+msgstr ""
+"⟪k:0⟫虐待你的那个女人，⟪k:1⟫否决你的二哥，⟪k:2⟫杀害你的大哥，⟪k:3⟫不承认你、⟪k:4⟫烧掉你的尸体的母"
+"亲。"
+
+#: scenario9:scenario9_50FF8892_446C_4070_B7FA_40DC781D2A87
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 81fe56e4eefcebea3441bc860de3f9631e6839135ee72a54161b8a008b990685
+#. default-sha256: 6a8166fe9502bdfe2caf602c6fa094f8a4ffab19a085a03af8e7c8abd61c3d06
+msgctxt "scenario9:scenario9_50FF8892_446C_4070_B7FA_40DC781D2A87"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫...?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫………？"
+
+#: scenario9:scenario9_9B17AAC3_EA85_4473_8D88_00126E51822A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cfe0faddc13b908e047c1e8b982cef070e820c73960c90fc4976332abf11dbd1
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_9B17AAC3_EA85_4473_8D88_00126E51822A"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_CD412679_02AA_45A7_8845_51ED53F85D4B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 481d9e5b42e1aeef1e013bb6cf4d972081751d68ef90ee18084ee804183344ca
+#. default-sha256: 48c609780b5379ab292c743307eba80e591519ded6657d1045b3a1685f5caf31
+msgctxt "scenario9:scenario9_CD412679_02AA_45A7_8845_51ED53F85D4B"
+msgid "⟪k:0⟫⟪k:1⟫Because I can’t sense her at all."
+msgstr "⟪k:0⟫⟪k:1⟫我感觉不到她的存在。"
+
+#: scenario9:scenario9_ED5B140D_9AC8_460F_BDD6_3126E4945F99
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cbb366d3ea3645c4febc366112612bfe5bbfba101bb1334a0475fcdfa995ea14
+#. default-sha256: d5c2f75da142a04dabad1b92d8aa63e8e201a29829884919a85586cccf61cafe
+msgctxt "scenario9:scenario9_ED5B140D_9AC8_460F_BDD6_3126E4945F99"
+msgid "⟪k:0⟫⟪k:1⟫Are you sure... ⟪k:2⟫her soul hasn’t extinguished?"
+msgstr "⟪k:0⟫⟪k:1⟫她……会不会已经消失了……"
+
+#: scenario9:scenario9_A7B8B8CA_5FA4_4C6C_9A9B_46F61E25BF9B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cfe0faddc13b908e047c1e8b982cef070e820c73960c90fc4976332abf11dbd1
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_A7B8B8CA_5FA4_4C6C_9A9B_46F61E25BF9B"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_99915C86_9683_4E5B_B684_064E8536FB88
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 44af8702afa1ce02e0ebf1cd1b5b4349860f5d4d586e394dd80d0ea21a3cc00c
+#. default-sha256: 5ccc8c1cbebd66a12e4aa98d25b528ad958246a935a44b2cfc05d06da7263cde
+msgctxt "scenario9:scenario9_99915C86_9683_4E5B_B684_064E8536FB88"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Once we’ve purged that darkness, she should be free to return."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫如果馆内的黑暗消失的话——⟪k:3⟫她一定，⟪k:4⟫会回来的。"
+
+#: scenario9:scenario9_3DE40631_F5E7_47BB_87FD_8437422EBAD4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 31dc96ec21f8d9b6c6eaf8717db0122dd3b4689fea4a1a5a2ed72cc04e613af7
+#. default-sha256: 46095211f0c92be5c79217cc307aee0df1622ceeb2dc4acf05269cb9726c751a
+msgctxt "scenario9:scenario9_3DE40631_F5E7_47BB_87FD_8437422EBAD4"
+msgid ""
+"⟪k:0⟫⟪k:1⟫Although, I suppose it’s hard not to get a little... ⟪k:2⟫attached to someone you’ve "
+"spent several hundred years with."
+msgstr "⟪k:0⟫⟪k:1⟫毕竟……⟪k:2⟫一起度过了数百年的时光……⟪k:3⟫⟪k:4⟫也会产生依恋的。"
+
+#: scenario9:scenario9_D9C0A2A1_A879_41D1_8147_1FE9D38AE531
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5044bb29c738c1cb24df1fc085a648567c34baaa84d6c637eb8663ba618107ba
+#. default-sha256: 6acd0ff8a216f6b9177e6ad878e4b3118cf11b596b1ee5db2e00e9d234551ad1
+msgctxt "scenario9:scenario9_D9C0A2A1_A879_41D1_8147_1FE9D38AE531"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………"
+
+#: scenario9:scenario9_8AE233C0_6FFE_4370_94E3_4BAA7EAE60D0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4f3756ab96c641a96681edc212ed8a91a9150ca32ea3436c8cd21addd5619338
+#. default-sha256: 684b17f2e8f06db51283c91ff0df4e01c628150a0badf16cc852750de6d88d05
+msgctxt "scenario9:scenario9_8AE233C0_6FFE_4370_94E3_4BAA7EAE60D0"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Shall we?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫………走吧。"
+
+#: scenario9:scenario9_5F8CE974_E756_45D3_AE78_6E97AF267135
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 185a7c36d4bd28976432062ef5905148d4c175f00390a8bd1d5bb498529bd40d
+#. default-sha256: b997eeb3ca57ae06303e65a837d202ef7943b66895875951520cc86bf5607423
+msgctxt "scenario9:scenario9_5F8CE974_E756_45D3_AE78_6E97AF267135"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Her hand in mine,"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫我牵起她的手——"
+
+#: scenario9:scenario9_A3B17B82_4AFA_4235_8E47_59A7FD8A8E80
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5a5908e663a0a88c57e0c9e7470f201a72861c2e7a6cd3c36a2df399b7fdd6bf
+#. default-sha256: 0893a676f307f97266f961813d47c788e640344229db9736d4c83267f6ad10dc
+msgctxt "scenario9:scenario9_A3B17B82_4AFA_4235_8E47_59A7FD8A8E80"
+msgid "⟪k:0⟫The shadows dissolve, revealing the man."
+msgstr "⟪k:0⟫他的身影，⟪k:1⟫变得清晰了起来。"
+
+#: scenario9:scenario9_8A004288_D85E_4A62_89BD_0A288072E9B1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 122bde5af14e6c8610da74125a2235c9c617b2c9405bbabe78c61b3b3a0b5699
+#. default-sha256: 6c603282108ce8761e0b6e4f56f539fdf5ea6a5e33207001f0f60898c6b72d87
+msgctxt "scenario9:scenario9_8A004288_D85E_4A62_89BD_0A288072E9B1"
+msgid "⟪k:0⟫⟪k:1⟫Was it him that healed you?"
+msgstr "⟪k:0⟫⟪k:1⟫……是这家伙……⟪k:2⟫治好的吧。"
+
+#: scenario9:scenario9_EB0D0BDD_1BAD_497C_82D3_0D2413016FCA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5536346a7ed2e9dc1c890de718722f09a68317578ce915d25bebd7dc77d6fd72
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_EB0D0BDD_1BAD_497C_82D3_0D2413016FCA"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_F4EAB190_CB68_42E8_96B2_7834A064D622
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 68520f2ecafa13aae662351ea619b70641c9c2c0227934155b077fc486bb165e
+#. default-sha256: 476e5ec4a37ba28be35132f304024eb540032a4d40377a913bbff3d91162f397
+msgctxt "scenario9:scenario9_F4EAB190_CB68_42E8_96B2_7834A064D622"
+msgid "⟪k:0⟫Nothing..."
+msgstr "⟪k:0⟫……我都不会去做。"
+
+#: scenario9:scenario9_C431B441_C8C2_4940_8B81_56F3051DEE84
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5479fe65f91c9a28b9eb3cb4db10e3c02f982e81a51140e3628f6f6d28889f2a
+#. default-sha256: 6acd0ff8a216f6b9177e6ad878e4b3118cf11b596b1ee5db2e00e9d234551ad1
+msgctxt "scenario9:scenario9_C431B441_C8C2_4940_8B81_56F3051DEE84"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………"
+
+#: scenario9:scenario9_AA2BF7D9_0083_4733_A721_00B835B87E19
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: eee8c2a4715e3ff4eeab76ee651fc912796921557126146b1c8a535a9aaa4eda
+#. default-sha256: 556cd5e20950258bb7a04f270228324aaf456bfc2e497b035fa81ca34185009f
+msgctxt "scenario9:scenario9_AA2BF7D9_0083_4733_A721_00B835B87E19"
+msgid "⟪k:0⟫⟪k:1⟫Huh..."
+msgstr "⟪k:0⟫⟪k:1⟫……是吗……"
+
+#: scenario9:scenario9_C8F8AF52_91FC_470B_BC98_0C000296C729
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 964d0d85eb51d46b1660d641641991bc74ebc0b9cfff6278f5e36c2a7cea07a6
+#. default-sha256: 38a8aeec7600acac9b8758aaeac52dce35d00fb4b53b5575e1d708c0e63bb86c
+msgctxt "scenario9:scenario9_C8F8AF52_91FC_470B_BC98_0C000296C729"
+msgid "⟪k:0⟫Damn..."
+msgstr "⟪k:0⟫是吗……"
+
+#: scenario9:scenario9_4E07909F_D1FB_4D49_BB8A_070035FEEDC9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4ab923a4243aa1d7b4af903003d0efd28bc303aa80e40f8334eb2f5273b80776
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_4E07909F_D1FB_4D49_BB8A_070035FEEDC9"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_28A60755_DC5E_472E_ADED_BFE7C220FB36
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5479fe65f91c9a28b9eb3cb4db10e3c02f982e81a51140e3628f6f6d28889f2a
+#. default-sha256: 6acd0ff8a216f6b9177e6ad878e4b3118cf11b596b1ee5db2e00e9d234551ad1
+msgctxt "scenario9:scenario9_28A60755_DC5E_472E_ADED_BFE7C220FB36"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………"
+
+#: scenario9:scenario9_3E1AD706_3452_4AE6_8946_EFD0322544B8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7f9788972de2f6d1d3811811f03d3c7168b7ffd6976634e9a3c7547ec1c8fbf0
+#. default-sha256: 62796e0ae39d8adb9103bb673a53d9f26f475f8b8d723f96cd4d025198777c0b
+msgctxt "scenario9:scenario9_3E1AD706_3452_4AE6_8946_EFD0322544B8"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫But that ship... ⟪k:3⟫sailed long ago..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫不过，⟪k:3⟫已经太迟了……"
+
+#: scenario9:scenario9_246E39ED_57F4_4505_88CD_69B53588A15B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5479fe65f91c9a28b9eb3cb4db10e3c02f982e81a51140e3628f6f6d28889f2a
+#. default-sha256: 6acd0ff8a216f6b9177e6ad878e4b3118cf11b596b1ee5db2e00e9d234551ad1
+msgctxt "scenario9:scenario9_246E39ED_57F4_4505_88CD_69B53588A15B"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………"
+
+#: scenario9:scenario9_53DFC317_6F34_4AAC_9B1C_37AE6EF41FFD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4ab923a4243aa1d7b4af903003d0efd28bc303aa80e40f8334eb2f5273b80776
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_53DFC317_6F34_4AAC_9B1C_37AE6EF41FFD"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_8F77DAAA_E5C7_433A_867A_47DB65EE6822
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7939595bd7171f970b79de4ec83a3d9e6b34c49def5a3fd7051fc99f62430ca3
+#. default-sha256: 97693fca0302e866584908e41ecca227acbd2b026653217e936a512e291a1fd0
+msgctxt "scenario9:scenario9_8F77DAAA_E5C7_433A_867A_47DB65EE6822"
+msgid "⟪k:0⟫I’m going to release your soul now."
+msgstr "⟪k:0⟫那么，⟪k:1⟫现在就解放你的灵魂。"
+
+#: scenario9:scenario9_8769E0F1_5DE2_4EF2_B275_2F953766C529
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c93262f23b0af21cd013e0870acf7a515d1dcf351901bc8b0cc0ac698176070d
+#. default-sha256: f83ff3f096df3122d35761a94bbdc5630ea86559f356f84f948ce17eee8b92ef
+msgctxt "scenario9:scenario9_8769E0F1_5DE2_4EF2_B275_2F953766C529"
+msgid "⟪k:0⟫⟪k:1⟫I don’t expect you to reciprocate—⟪k:2⟫⟪k:3⟫or even accept—"
+msgstr "⟪k:0⟫⟪k:1⟫我从未想过……让你接受。⟪k:2⟫⟪k:3⟫只是……"
+
+#: scenario9:scenario9_04694348_96C8_47F9_93D8_FD2E6325CFD6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4ab923a4243aa1d7b4af903003d0efd28bc303aa80e40f8334eb2f5273b80776
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_04694348_96C8_47F9_93D8_FD2E6325CFD6"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_09C2346D_8E75_4551_9E46_147FA1CA401A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4ab923a4243aa1d7b4af903003d0efd28bc303aa80e40f8334eb2f5273b80776
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_09C2346D_8E75_4551_9E46_147FA1CA401A"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_374940C7_06B7_419B_8401_73350D85029A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 76d5ec416fa0877af2e4fb8d64736ee8e13184d9ce15b072435489125789dbbc
+#. default-sha256: 3daacca81b3ba46e568470a4e2a527189e543debb8de240c86b8f434cc04318d
+msgctxt "scenario9:scenario9_374940C7_06B7_419B_8401_73350D85029A"
+msgid "⟪k:0⟫.................."
+msgstr "⟪k:0⟫………………"
+
+#: scenario9:scenario9_70AA05BA_613B_4090_A64A_128F61C59832
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7bed779e5e2a2106e0ed433df1424d3026246c5e8b78e40ef6393824fd3ac323
+#. default-sha256: dd08349b112b4c9f664a856e3dd7fca85ae4a27f21ebde4d5be3e1ac1b6bba11
+msgctxt "scenario9:scenario9_70AA05BA_613B_4090_A64A_128F61C59832"
+msgid ""
+"⟪k:0⟫You should know better than anyone that we’re nothing alike. ⟪k:1⟫That girl wouldn’t say "
+"anything remotely impolite even if you held a knife to her throat."
+msgstr "⟪k:0⟫我们完全不像。⟪k:1⟫你也明白的吧，⟪k:2⟫我是个只会恶言相向的女人……"
+
+#: scenario9:scenario9_3E6CCD3E_F286_4847_ABA8_93C34F85D3FB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d0cfa10987fd26e05f5fc53d4238b0c7f4d52c3f2401cc6de600a68720ff3b30
+#. default-sha256: 4d36f1982d6e0695d26d4f803c4c6de4f3b7127fb09193266ded65113569e01e
+msgctxt "scenario9:scenario9_3E6CCD3E_F286_4847_ABA8_93C34F85D3FB"
+msgid "⟪k:0⟫But you’ve both got this... ⟪k:1⟫this aura about you that drew me in."
+msgstr "⟪k:0⟫但是……⟪k:1⟫她身上的某处……和你很相似……因此吸引了我。"
+
+#: scenario9:scenario9_059857B8_1B39_4933_8F59_55DCC952045F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e2e65ba4b20856c70cc7d7edfb50d69c989c7a66a751f79871f6c8feb18191c8
+#. default-sha256: 18b8f7710ad9768aec94a4401766745d758a4d42ebc304c6f3c1f98ffbd1b49a
+msgctxt "scenario9:scenario9_059857B8_1B39_4933_8F59_55DCC952045F"
+msgid "⟪k:0⟫Your soul’s aura."
+msgstr "⟪k:0⟫我感受到了……⟪k:1⟫你的灵魂。"
+
+#: scenario9:scenario9_DC08AA5B_A8BA_4E68_A8E9_2384A412FECA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a753825c46fe7911d5059204632eaae7f3cfc1d4d2ac449d38249d78c6562828
+#. default-sha256: 49d1b041c96ba76513a2f2f7302ba570ad9991e30e5ae7e47d8f0966cc392b29
+msgctxt "scenario9:scenario9_DC08AA5B_A8BA_4E68_A8E9_2384A412FECA"
+msgid "⟪k:0⟫⟪k:1⟫I’ve got no right to ask anything of you, I know..."
+msgstr "⟪k:0⟫⟪k:1⟫……我知道没有请求你的资格……但是……"
+
+#: scenario9:scenario9_18271AE8_E4BF_470A_8F1B_979809777201
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 886bc94b7aedd98384b640cfddab317a2bc9bf9db65b1a3fba0d5b89d7d3ce58
+#. default-sha256: 50344940bcba4104b19e371dd0cc8519632af43c5716dfc33a9390f653d1a4c7
+msgctxt "scenario9:scenario9_18271AE8_E4BF_470A_8F1B_979809777201"
+msgid "⟪k:0⟫⟪k:1⟫Goodbye, Morgana..."
+msgstr "⟪k:0⟫⟪k:1⟫永别了，⟪k:2⟫莫尔加娜……"
+
+#: scenario9:scenario9_0C6D0AEB_29EE_47B7_A839_9DB3E07E804D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e9bf188c85483d6024e1f164b38fef2ffe4df5348fd198094731b9bf7d5e9c64
+#. default-sha256: ccaf7e83dc44682227d1cf1290ed52fa43f51a938a60b5e45e2f5432a20a3c9f
+msgctxt "scenario9:scenario9_0C6D0AEB_29EE_47B7_A839_9DB3E07E804D"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫…………"
+
+#: scenario9:scenario9_779598DC_8D38_4CA5_B02B_7B17F9A76ED0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cfe0faddc13b908e047c1e8b982cef070e820c73960c90fc4976332abf11dbd1
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_779598DC_8D38_4CA5_B02B_7B17F9A76ED0"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_3A816723_0249_4D0A_934E_D5B8F411D2A9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5c9cdc8a5ac8b9023906e60b1c08ef06cdcd58d819cc5f78b506df724cac4a36
+#. default-sha256: 024bb71bd25820547ce539dcf4033a13a2211a5074736dd6990eb81dd5ae5ba7
+msgctxt "scenario9:scenario9_3A816723_0249_4D0A_934E_D5B8F411D2A9"
+msgid ""
+"⟪k:0⟫⟪k:1⟫Merely learning the truth, hearing how he felt...⟪k:2⟫⟪k:3⟫is nowhere near enough to "
+"erase that."
+msgstr "⟪k:0⟫⟪k:1⟫即使知道了他真正的情感……也不是那么容易就能改观的。"
+
+#: scenario9:scenario9_5F16AB7E_C678_4CAB_962C_FCC53C8DF023
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9c29df38204e7c6f1b0258f044f0ac589c4885f23add6614ab1dc554f229af5e
+#. default-sha256: a8d323e8639831598082e6fece58905eac1d9c9bed5ab10c25d0735614833315
+msgctxt "scenario9:scenario9_5F16AB7E_C678_4CAB_962C_FCC53C8DF023"
+msgid "⟪k:0⟫⟪k:1⟫I suppose..."
+msgstr "⟪k:0⟫⟪k:1⟫……是啊……"
+
+#: scenario9:scenario9_A1F77F28_CFED_44D8_834F_6E025B9F02FD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7398e852d3069d008fc636c0aff8fd4031d582eee01452810ea4455bcf5deadc
+#. default-sha256: fa468a4552c5522dc586e9bdf84ac8dbbf326befc8b35f1efcd86c993dab67e6
+msgctxt "scenario9:scenario9_A1F77F28_CFED_44D8_834F_6E025B9F02FD"
+msgid "⟪k:0⟫Learning the truth is only partly why I decided to release their souls..."
+msgstr "⟪k:0⟫我……之所以会产生解放他们的念头……⟪k:1⟫⟪k:2⟫一方面是因为知道了他们背后的真相，可是……"
+
+#: scenario9:外に出よう
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1cbce049c8f3e69304fe0a55c3bc4561d655a4a9598e150481e675ce3974501a
+#. default-sha256: 9540c2f12c646c83461e3bc676f8d48b0857586bc4238142473d0f11231eaefc
+msgctxt "scenario9:外に出よう"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫Let’s go⟪k:9⟫There’s one more stop to make⟪k:10⟫"
+"⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫⟪k:15⟫⟪k:16⟫"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫去外面吧⟪k:9⟫还有要去的地方⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫"
+"⟪k:14⟫⟪k:15⟫⟪k:16⟫⟪k:17⟫"
+
+#: scenario9:scenario9_13D5F0DF_F720_461C_89F2_020CE58C3E3C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fd81c9920fc501a3886a61b92ef9cfb2438eae919826ccaf49f219ea9d418a29
+#. default-sha256: 341f4ed654f6aeb8093b7f3e5545ab3c07f2068d3413b241fa86974e7872477f
+msgctxt "scenario9:scenario9_13D5F0DF_F720_461C_89F2_020CE58C3E3C"
+msgid "⟪k:0⟫The door ready to be opened."
+msgstr "⟪k:0⟫一切就都……结束了。"
+
+#: scenario9:scenario9_F6DB1C12_183E_4CE8_9CB9_2B913E26A448
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fbb99021d23f55bbfb454cd85bf7ea07383e3e56958d926343903e7bf2cfe9b3
+#. default-sha256: 99f624d32d0d241d0b51dd7bc8264106f1483997e2f8c134348abfa466b6f07b
+msgctxt "scenario9:scenario9_F6DB1C12_183E_4CE8_9CB9_2B913E26A448"
+msgid "⟪k:0⟫⟪k:1⟫Light... ⟪k:2⟫Hardly a friend to me."
+msgstr "⟪k:0⟫⟪k:1⟫光……⟪k:2⟫吗。⟪k:3⟫我不怎么喜欢呢。"
+
+#: scenario9:scenario9_8DE64D95_D4D1_42D9_85B5_25BBD45FFB23
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ed3dcfba48473c320e646e5c2eaed4f4596a73a89858f4062b03b4d53521997f
+#. default-sha256: a380e7ac3e762a29da55e6aed3955979e199566ea74efd6eefef3a033630f6b6
+msgctxt "scenario9:scenario9_8DE64D95_D4D1_42D9_85B5_25BBD45FFB23"
+msgid "⟪k:0⟫Our present forms may cease to exist, ⟪k:1⟫but our souls will live on,"
+msgstr "⟪k:0⟫现在的我们或许会就此消失——⟪k:1⟫⟪k:2⟫但是，只要灵魂还存在……"
+
+#: scenario9:scenario9_C19A412C_773A_4EF3_A041_BB2A49E5B88D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4e96ef2e28d420cb5ceb7bb45317cbcf31b5cb01a04d8c39f41e3b2480068652
+#. default-sha256: c97e0e8077d64972ff4d5a944574d56e3bb753413fcbf50c03bfd4ecdd6f900b
+msgctxt "scenario9:scenario9_C19A412C_773A_4EF3_A041_BB2A49E5B88D"
+msgid ""
+"⟪k:0⟫We step up to the large door, standing side by side,⟪k:1⟫each placing a hand on its hard "
+"surface."
+msgstr "⟪k:0⟫走近玄关前——⟪k:1⟫肩并肩站着……⟪k:2⟫⟪k:3⟫将手放在门上。"
+
+#: scenario9:scenario9_025C2FAB_3FD3_485A_8851_CD35262DFE8D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 633e01ec1355f4b30e17aaea4285281b2c7dc684b7d99c81e4f8014a4638ce52
+#. default-sha256: 4a39bda15e3deee9a9ec0120a51af90fd48b81de7c628e479399a369f9238fe2
+msgctxt "scenario9:scenario9_025C2FAB_3FD3_485A_8851_CD35262DFE8D"
+msgid "⟪k:0⟫I take in a deep breath,"
+msgstr "⟪k:0⟫深呼吸。"
+
+#: scenario9:scenario9_876113F7_D166_47BD_A8F5_647CA695CA95
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 14a31f896f237624917d7ab021b7edcb3735f41871a7a060f8be40b8192df82e
+#. default-sha256: b71b46a60831256c8198a5a9e4d3376cf20b98582200808c49d4156879325ece
+msgctxt "scenario9:scenario9_876113F7_D166_47BD_A8F5_647CA695CA95"
+msgid "⟪k:0⟫welcoming the future it holds."
+msgstr "⟪k:0⟫推开。"
+
+#: scenario9:scenario9_6A1EF950_D9D7_4094_A1EF_44681939E534
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1c31bdcb14977b32de3ae7ba1f2c583ddf4a5cf490c1e582bdd3d2a2d55ca8f5
+#. default-sha256: 401f73f9fa4a32a31ec9b2519b4daf952722ddf5f76d56501ccac139ecc10355
+msgctxt "scenario9:scenario9_6A1EF950_D9D7_4094_A1EF_44681939E534"
+msgid "⟪k:0⟫骑士……"
+msgstr "⟪k:0⟫骑士……"
+
+#: scenario9:scenario9_889656AC_8125_4A18_9706_E0959866BC9D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 341c2e07d9177b737566c0501e355b4622e3bec9b29aaf4b885b0992f8ec2611
+#. default-sha256: 690ea82b3e2cc81b6a754422fcb0149cdda7abed6b0e4818e84cddb5751a0fcd
+msgctxt "scenario9:scenario9_889656AC_8125_4A18_9706_E0959866BC9D"
+msgid "⟪k:0⟫purified by the fires of Heaven..."
+msgstr "⟪k:0⟫必以——⟪k:1⟫天之炎净化之……"
+
+#: scenario9:scenario9_D61FBDB2_527D_4F72_A054_FA94C9247EB4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 93f6fbb79c3a04652635ecc03fb0535fdc687655143015d60dccbd5bedc74f06
+#. default-sha256: a2661eaaae9c88f21c4e1d89c5e70fd600a2c3bb561eb38703c3170f968ec405
+msgctxt "scenario9:scenario9_D61FBDB2_527D_4F72_A054_FA94C9247EB4"
+msgid "⟪k:0⟫It is our holy duty... ⟪k:1⟫as knights of the Church..."
+msgstr "⟪k:0⟫将心卖给恶魔之人……⟪k:1⟫我等骑士团……"
+
+#: scenario9:scenario9_2BAF492D_1DB8_4303_AD38_0B788981AD03
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3585f40fe8810460d39436512e7af1b630014f71dbfbb96125d686481f1909e1
+#. default-sha256: 263ed2ea74feec0ffb625eb9431794a3122f6b1917a23449a20cc75974e6c8ec
+msgctxt "scenario9:scenario9_2BAF492D_1DB8_4303_AD38_0B788981AD03"
+msgid "⟪k:0⟫The knight draws nearer and nearer...⟪k:1⟫⟪k:2⟫its movements sluggish but constant."
+msgstr "⟪k:0⟫骑士的脚步丝毫没有停歇，⟪k:1⟫一步又一步地……⟪k:2⟫⟪k:3⟫向我们这里逼近。"
+
+#: scenario9:scenario9_C651736D_CB0F_4AF8_B768_9D8DA31EEFC4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2820cc9a6dd90c1bc1dd71156265651bb7652e2c9da0b92479a04fd7ca83c4e3
+#. default-sha256: 1dcdc3383657f9d3b9f1ea100dba6d27f358814198e8bc1383c15e88d1010cfb
+msgctxt "scenario9:scenario9_C651736D_CB0F_4AF8_B768_9D8DA31EEFC4"
+msgid "⟪k:0⟫Didier..."
+msgstr "⟪k:0⟫……哥哥……"
+
+#: scenario9:scenario9_E0CC22E2_5C0F_4AC8_A85C_00F4A2759B5B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fc687dae7b31bf00a74120cbac470e976cb960e6d6800aacdbdea36911391e08
+#. default-sha256: 9eb4121c3dfe421b0c09123891358c1cb194a4773be02315df2af403566d2462
+msgctxt "scenario9:scenario9_E0CC22E2_5C0F_4AC8_A85C_00F4A2759B5B"
+msgid "⟪k:0⟫Aah... ⟪k:1⟫aaaah..."
+msgstr "⟪k:0⟫……啊⟪k:1⟫……啊啊……"
+
+#: scenario9:scenario9_35C1C3C5_5219_4F3B_A08C_D381276CB037
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 69a646b8389e34e464107e56859edfe449ae114b66b28de3ab384edfafe94475
+#. default-sha256: 7f3716c648f1c3c3c0ead656f283f888d31bfb9aaa505a2a19101db45f935aef
+msgctxt "scenario9:scenario9_35C1C3C5_5219_4F3B_A08C_D381276CB037"
+msgid "⟪k:0⟫I know it’s you!"
+msgstr "⟪k:0⟫……哥哥，是你吧……！！"
+
+#: scenario9:scenario9_C5B95F3C_0804_4C8A_9F76_82DDF5E356A1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3123f3de58d7f1a55117f5bb4aadbee0d3c9e6a7bc70385b23bfbfb8dd915b7b
+#. default-sha256: bf99a392bf505c1b828aedc90c920b6de09fdfbf2ceebb9c0f2129cef6f6f1ce
+msgctxt "scenario9:scenario9_C5B95F3C_0804_4C8A_9F76_82DDF5E356A1"
+msgid "⟪k:0⟫Judgment... ⟪k:1⟫crucifixion... ⟪k:2⟫execution..."
+msgstr "⟪k:0⟫制裁……⟪k:1⟫将魔女处刑……⟪k:2⟫十字架……"
+
+#: scenario9:scenario9_66BAE905_E222_44F4_9DDA_42085050765B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 98d2bd30ab652ec9248b9331dc278ac511735d9fb12238df56a27e07b918722f
+#. default-sha256: 061ed7bc4ae97f06bfb0ed6c2d9cd4c92137205b5a4249cc7c2afcd496a51157
+msgctxt "scenario9:scenario9_66BAE905_E222_44F4_9DDA_42085050765B"
+msgid "⟪k:0⟫Didier...!"
+msgstr "⟪k:0⟫哥哥………！！"
+
+#: scenario9:scenario9_565AFAD0_730E_49F8_A44F_57123185671D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d628858763c4ffe1e621d3bfa4ea199a4053037ee89498429905b230146c3ecf
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_565AFAD0_730E_49F8_A44F_57123185671D"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_712A39B9_0BAB_4C4F_A107_1358F026596D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 203a0c9e058aa9e247e080fd4c30a3db7d305602eb58e4d8bcd52d6d612d7598
+#. default-sha256: dfec301a1cf3b6483861ea0ad2558a3861fd3032719609277613bf9ed4750576
+msgctxt "scenario9:scenario9_712A39B9_0BAB_4C4F_A107_1358F026596D"
+msgid "⟪k:0⟫and as he raises his blade,"
+msgstr "⟪k:0⟫我——"
+
+#: scenario9:scenario9_8B8B7CCD_1484_404E_BEAB_B40202ECFA08
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2051da2e4bd471a0f355e0ac978b788d22546d7290a82e9226e6a4c3e12d4518
+#. default-sha256: b2d9f4255aa4a1fb4da034cf7959a95334a3d8ff9ab33c461438c708fa8a2f24
+msgctxt "scenario9:scenario9_8B8B7CCD_1484_404E_BEAB_B40202ECFA08"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫Ngh! ⟪k:14⟫Rgh... ⟪k:15⟫"
+"aaaagh!"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫——呜，⟪k:14⟫呃……⟪k:15⟫"
+"啊……！！"
+
+#: scenario9:scenario9_F5BA0ECF_0CB2_4187_8663_70AB85FA4F01
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 22e9c112cbc7608e0937a1854a7a204e7290860f9af469f2161db907b015319b
+#. default-sha256: 390cbd87182d3a429959e884e756bb26a2246d556911fd4ffbbc968e146c6702
+msgctxt "scenario9:scenario9_F5BA0ECF_0CB2_4187_8663_70AB85FA4F01"
+msgid ""
+"⟪k:0⟫—the knight’s blade pierces my breast,⟪k:1⟫in the very same place it did at my life’s end."
+msgstr "⟪k:0⟫骑士的长剑，⟪k:1⟫同我死去时一样——⟪k:2⟫⟪k:3⟫将我的胸膛，⟪k:4⟫贯穿。"
+
+#: scenario9:scenario9_B67D3175_DD44_434B_BA08_8494BC5C65AC
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3d52224f3a9e5a23953f4eed2c2424b68a34e5e8fbafb317ab0d9e82521a19ed
+#. default-sha256: 3f000e466451aa03b3b3488f3bdac437d107c48eebfcd9960583dc20e2f0553e
+msgctxt "scenario9:scenario9_B67D3175_DD44_434B_BA08_8494BC5C65AC"
+msgid "⟪k:0⟫staining my clothes red and dripping down my chest to form a puddle beneath me."
+msgstr "⟪k:0⟫在地板上，⟪k:1⟫慢慢扩散开来……"
+
+#: scenario9:scenario9_CEE1FD69_7B1A_479A_B74E_F5A286E992A6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1aeb87b42cf2eee3d5fb4be8cca8394121e13d859ff40d8f33b8a2596db1e7e1
+#. default-sha256: 600ef65ae916e17f85cc725531e4d3fda65c1ad2cb07928bfd30b0614961cc13
+msgctxt "scenario9:scenario9_CEE1FD69_7B1A_479A_B74E_F5A286E992A6"
+msgid "⟪k:0⟫trapped by your own curse..."
+msgstr "⟪k:0⟫你也……⟪k:1⟫被囚禁在这里了啊……⟪k:2⟫⟪k:3⟫被……⟪k:4⟫自己对自己的诅咒……"
+
+#: scenario9:scenario9_2DDE55C4_0A85_42D2_AE34_CEE56F12BA8C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 332196d504f79fd005072da8cb70ece18b04ac40cf09004987176e32369b186c
+#. default-sha256: 3cdfa931afa20e55fe25176192dc9fb358b2647e805e5981816af4f54dc6cbd8
+msgctxt "scenario9:scenario9_2DDE55C4_0A85_42D2_AE34_CEE56F12BA8C"
+msgid ""
+"⟪k:0⟫shackled by the weight of all your responsibilities...⟪k:1⟫⟪k:2⟫as a knight... ⟪k:3⟫and as "
+"the firstborn son..."
+msgstr "⟪k:0⟫被骑士……⟪k:1⟫和长子的身份……⟪k:2⟫⟪k:3⟫所束缚着……"
+
+#: scenario9:scenario9_C0198DB5_B77D_495E_ADA8_697C72158555
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e11fb0c1ca78d344038d1678d6eb9946e29a1033af647383cc70aa974a8006f1
+#. default-sha256: 57b8113e159fd77c422dc2e55832ffd168de7a6f9507f5fe5a888e5928f71c89
+msgctxt "scenario9:scenario9_C0198DB5_B77D_495E_ADA8_697C72158555"
+msgid "⟪k:0⟫Didier..."
+msgstr "⟪k:0⟫哥哥……"
+
+#: scenario9:scenario9_CBD457F1_A084_4102_A6E1_3805DC1B9711
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0ef720b1181e54e5ddc24e088aeaefc12f6613c05d7f513f299e4e2724608b7f
+#. default-sha256: 955e53e2cc352a55f8bc2fac4d609bee6be5dd25a6ccfb1ddfcb4c15808665ac
+msgctxt "scenario9:scenario9_CBD457F1_A084_4102_A6E1_3805DC1B9711"
+msgid "⟪k:0⟫I’ll save you, Didier..."
+msgstr "⟪k:0⟫……迪迪尔哥哥……⟪k:1⟫我会……⟪k:2⟫救出你的……"
+
+#: scenario9:scenario9_B1BE71C8_D3C4_483D_8FED_A45A0C6A912B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d5954940bbad920e0753f806f70d8deaffd272412e23d1be38e45ea22c6ea191
+#. default-sha256: 17f8213994aed54165c29db764ab8005e5f9683736130caf601643724cdccec5
+msgctxt "scenario9:scenario9_B1BE71C8_D3C4_483D_8FED_A45A0C6A912B"
+msgid "⟪k:0⟫I always wanted to join you... ⟪k:1⟫but I never did get the chance."
+msgstr "⟪k:0⟫我虽然一次都没有碰过剑。⟪k:1⟫⟪k:2⟫但是，⟪k:3⟫我一直都……想和你们一起。"
+
+#: scenario9:scenario9_8E763112_A271_40EA_BD51_81732A989DBD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8ef5e5cf767bc04e4fe05b446a6294a95e7ee33f16807453d89f0796ba741954
+#. default-sha256: 2589bc1511a2673d8405371752439403d2c172580629608793918f9a2b5e9203
+msgctxt "scenario9:scenario9_8E763112_A271_40EA_BD51_81732A989DBD"
+msgid "⟪k:0⟫This, though... ⟪k:1⟫This is ⟪k:2⟫not⟪k:3⟫ how I was hoping our first match would go."
+msgstr "⟪k:0⟫……用这种方式拿过剑，⟪k:1⟫然后，⟪k:2⟫将它指向你……⟪k:3⟫我本不想这样的。"
+
+#: scenario9:scenario9_F32DD05A_3C22_4494_91DE_C59A7B46FBD5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1bdc2ac37be1a0d11f5eb73201cf29cf9c1406602fe201408b3fdda9c20b4c86
+#. default-sha256: d5fd5c79273e496d77f21390494482af463cc0d08f1b636ea98a535effd28082
+msgctxt "scenario9:scenario9_F32DD05A_3C22_4494_91DE_C59A7B46FBD5"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫⟪k:14⟫Didieeeeeeeer!"
+"⟪k:15⟫"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫⟪k:9⟫⟪k:10⟫⟪k:11⟫⟪k:12⟫⟪k:13⟫——哥哥！！"
+
+#: scenario9:scenario9_F25CB532_8A9F_4D58_BE81_98DEB1EBF4CC
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: bf9bee67d4822eae6fa493cb617f5d9a396c686cf10d49e69efb38e5d8f05e9d
+#. default-sha256: 60e1bcf108873ff49f91cc3371a75d36680a0c86b38b768890496fc7be12b4aa
+msgctxt "scenario9:scenario9_F25CB532_8A9F_4D58_BE81_98DEB1EBF4CC"
+msgid "⟪k:0⟫It doesn’t look like we’ll be seeing each other again..."
+msgstr "⟪k:0⟫想再见到你……⟪k:1⟫想牵起你的手……"
+
+#: scenario9:scenario9_BDF176F6_10BD_4259_9DEE_57BF4A9BCA5C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 30cef3b707a37b35b1d1cd07a32a283c92e23ea16a614f43cf61a423e694d3cb
+#. default-sha256: f7bd0d6fed4bc10f647c72c65b4f5f4ebbc6055359f1888c7a05cfe658d52a3e
+msgctxt "scenario9:scenario9_BDF176F6_10BD_4259_9DEE_57BF4A9BCA5C"
+msgid "⟪k:0⟫Never will I have the chance..."
+msgstr "⟪k:0⟫无论以什么形式……⟪k:1⟫都没法回到……"
+
+#: scenario9:scenario9_1A27FFFE_CCD4_42B9_B87A_5FF25ADAAAD4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 91b87df024ff3b4182f3ec664d974782642841bfcba9914b3feb536db7bebac0
+#. default-sha256: 6442d8c013a084bd8a92f48c26c81e213624e97128fb2d998352d4894d0fad94
+msgctxt "scenario9:scenario9_1A27FFFE_CCD4_42B9_B87A_5FF25ADAAAD4"
+msgid ""
+"⟪k:0⟫I beg of you to please forgive me...⟪k:1⟫⟪k:2⟫for being incapable of making any other "
+"choice..."
+msgstr "⟪k:0⟫请原谅……⟪k:1⟫我的无奈之举。"
+
+#: scenario9:scenario9_067BDC1B_72E9_48EC_8A0A_A03EBDF711A1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 04d3226b5cecfd94b5b48836a32cec911f9fd91fb555e7455414ae57ca880be9
+#. default-sha256: b453d2947f489afef2953a215aabbb803a57e1bd5aa845c33df1105a8ef84b14
+msgctxt "scenario9:scenario9_067BDC1B_72E9_48EC_8A0A_A03EBDF711A1"
+msgid "⟪k:0⟫and I pray, Giselle..."
+msgstr "⟪k:0⟫……吉赛儿……⟪k:1⟫……我会祈祷——"
+
+#: scenario9:scenario9_9B245009_89F9_4A23_9E77_B46F7A1CE5E4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0f55e6947c96815254584e49cd931142f8ea7e5a6595ae85ebb6974cc59478a5
+#. default-sha256: 7e01ce38164cb2b87c427532aba35270c5db90eb951fa5ac72ca7674b24f153f
+msgctxt "scenario9:scenario9_9B245009_89F9_4A23_9E77_B46F7A1CE5E4"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫Still holding Morgana’s hand, I make my way to the wall—"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫我牵起莫尔加娜的手，⟪k:5⟫向着墙边走去。⟪k:6⟫⟪k:7⟫在那里——"
+
+#: scenario9:scenario9_CD505A49_CD3C_444C_9B5F_6FDABF1AFF0C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: eee54f29cc2c1e50caeb9b68fd44c7e5aca742d2d9545f7e89dd3ed43024e7d8
+#. default-sha256: c81539db41f42954b39a575ea35ca6aefb27150332e69f69815a25db2b02f07a
+msgctxt "scenario9:scenario9_CD505A49_CD3C_444C_9B5F_6FDABF1AFF0C"
+msgid "⟪k:0⟫where the landscape painting hangs."
+msgstr "⟪k:0⟫……有一幅，⟪k:1⟫风景画。"
+
+#: scenario9:scenario9_A7ED924E_1EB8_4196_9EA6_0FD86B056209
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d5b445577f4377f12ee28cae7ee880feb1cfd5b1d48132d9d147445225123fb2
+#. default-sha256: ccaf7e83dc44682227d1cf1290ed52fa43f51a938a60b5e45e2f5432a20a3c9f
+msgctxt "scenario9:scenario9_A7ED924E_1EB8_4196_9EA6_0FD86B056209"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫…………"
+
+#: scenario9:scenario9_E84DFAD3_10F2_4EB9_9BDB_ED060667031A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c1c0e16341ece52d8fdb86834a5573435bfccf7dce593df6000885f4b34ac430
+#. default-sha256: fcd81af7d8048ad735e84c66370f2de10a7720efa5e03be45873db3c0663d0b3
+msgctxt "scenario9:scenario9_E84DFAD3_10F2_4EB9_9BDB_ED060667031A"
+msgid "⟪k:0⟫Heya, Michel..."
+msgstr "⟪k:0⟫哟，⟪k:1⟫米歇尔……"
+
+#: scenario9:scenario9_22A7EC82_69F0_48A9_B738_9B6471CCDFA6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 203e6f9d59d6d7245d075c3bc9a30144608aed144323cd995b5ae402348c8df3
+#. default-sha256: 00b96483d21ea92204d447c374d4054bfb428d956abe87f376efec3c8f91453e
+msgctxt "scenario9:scenario9_22A7EC82_69F0_48A9_B738_9B6471CCDFA6"
+msgid "⟪k:0⟫You two are brothers?"
+msgstr "⟪k:0⟫你们两人，原来是兄弟吗……？"
+
+#: scenario9:scenario9_21A7EC82_69F0_48A9_B738_9B6471CCDFA6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d628858763c4ffe1e621d3bfa4ea199a4053037ee89498429905b230146c3ecf
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_21A7EC82_69F0_48A9_B738_9B6471CCDFA6"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_B0C004FC_999A_4F0B_9C49_1E5235B878F8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d8a83f9a9f486459452d373129664bb903ddf9d972fed823ca22f7c6d6b18aaf
+#. default-sha256: 99c8d6af72c2859d9db7a673bfeefc8f5f75b865aa4e849f481e265a99947069
+msgctxt "scenario9:scenario9_B0C004FC_999A_4F0B_9C49_1E5235B878F8"
+msgid ""
+"⟪k:0⟫You act like I just told you what I’m having for supper.⟪k:1⟫⟪k:2⟫This place is going to "
+"disappear. Forever."
+msgstr "⟪k:0⟫口气真轻松呢……⟪k:1⟫这可是很重要的事情。"
+
+#: scenario9:scenario9_E67B59E9_B897_4D58_A7AE_8C812E55A1EA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: df18480bd8cbf56a3aace01d744ce61529d4709b5d869d36222d956f8cd02374
+#. default-sha256: 015ab59c8bb4e0b67c2c5f36d2afb63dbed9558bcc9cc725283a0aa0bc233604
+msgctxt "scenario9:scenario9_E67B59E9_B897_4D58_A7AE_8C812E55A1EA"
+msgid "⟪k:0⟫Well, yeah, sure, but... ⟪k:1⟫what brought about this?"
+msgstr "⟪k:0⟫话是这么说，⟪k:1⟫不过啊，⟪k:2⟫怎么就下了这个决心呢？"
+
+#: scenario9:scenario9_9F61C17E_27D6_4B4F_A606_ECED7A6421FA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6df52b9916517025e579160d97e014c0dffc3900938f31f8a142f594150ac395
+#. default-sha256: a6109320fbf4e49704a4de0d5fe467a813501e0c44b589161cac0c6d45f19daf
+msgctxt "scenario9:scenario9_9F61C17E_27D6_4B4F_A606_ECED7A6421FA"
+msgid "⟪k:0⟫The only thing you’re good for is tossing rubbish into."
+msgstr "⟪k:0⟫毕竟你真的很烦人。⟪k:1⟫⟪k:2⟫用处也就是当个垃圾桶……"
+
+#: scenario9:scenario9_583667CA_0C1A_4DF8_8BF1_FA1AAF7EE4DF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d628858763c4ffe1e621d3bfa4ea199a4053037ee89498429905b230146c3ecf
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_583667CA_0C1A_4DF8_8BF1_FA1AAF7EE4DF"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_901389C8_DF24_44AD_9621_A6C2B695E475
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5616060c3618bf37d03b84e6b1964c852920806ec0cb1b7dbe0e8588e4b13dd0
+#. default-sha256: 55d71df1152b6ed74c53ffed60cc8409b00b474a2e019ce15aee91b180f86b16
+msgctxt "scenario9:scenario9_901389C8_DF24_44AD_9621_A6C2B695E475"
+msgid ""
+"⟪k:0⟫I had no use for it.⟪k:1⟫⟪k:2⟫And being in that room... ⟪k:3⟫always made me uncomfortable."
+msgstr "⟪k:0⟫没什么……不需要了而已。⟪k:1⟫⟪k:2⟫那个地方……有种不舒服的感觉。"
+
+#: scenario9:scenario9_986AACAD_4E12_4C25_8EBB_FC9AF16A890A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a1f13b46335ff25400f8540028d2efa901c6302be0d1fbf406a8fb79111465d2
+#. default-sha256: 87a6fda4c8b7c2ba05cf6cfe731634cc0e45c08da5707fa65c64fc0401377dda
+msgctxt "scenario9:scenario9_986AACAD_4E12_4C25_8EBB_FC9AF16A890A"
+msgid "⟪k:0⟫I didn’t see the need."
+msgstr "⟪k:0⟫因为没必要那么做。"
+
+#: scenario9:scenario9_CE42A556_4453_467C_B877_35EF4D3C4C90
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b0ee33d118f69b7c59b3ae27bca464840d6f2661d27cb36473a1dd93a5c26833
+#. default-sha256: 1ea6f4c15c9d272ed98928648f4cc55fc136ceefc28f014ad1d7028a805d7f82
+msgctxt "scenario9:scenario9_CE42A556_4453_467C_B877_35EF4D3C4C90"
+msgid "⟪k:0⟫(So she ignored him for hundreds of years?)"
+msgstr "⟪k:0⟫（哥哥……⟪k:1⟫被无视掉了吗……）"
+
+#: scenario9:scenario9_7084A554_9F5A_4644_83B2_1B36FCB78CD8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e60829dae8191cb0bfb38dc2ee9320fe2835f73bf2eb479e108d5ebf332cf671
+#. default-sha256: 8d77bf7fd8eb9cece0b066a73e0f084b3a84f663b4b91af5e3ae624acacb1002
+msgctxt "scenario9:scenario9_7084A554_9F5A_4644_83B2_1B36FCB78CD8"
+msgid "⟪k:0⟫Would you be so kind as to let me apologize?"
+msgstr "⟪k:0⟫能让我道歉吗……？"
+
+#: scenario9:scenario9_DE6B39BE_D327_4AE8_B304_9B1EC46A3B65
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ad4b44aba8f86eb169874c0c99195f1f09e872c73fb75ceb6a9b2a0ad4d4f1e1
+#. default-sha256: 7fe439f8ea9fabed1d2ad517c6afa6738e415b92035d2b6b4558ff13dd06e138
+msgctxt "scenario9:scenario9_DE6B39BE_D327_4AE8_B304_9B1EC46A3B65"
+msgid ""
+"⟪k:0⟫Nope. ⟪k:1⟫Honestly, I had no idea ⟪k:2⟫what⟪k:3⟫ I was doing.⟪k:4⟫⟪k:5⟫Mom said paint it, "
+"so I painted it."
+msgstr "⟪k:0⟫……嗯。⟪k:1⟫我也什么都不了解啊。⟪k:2⟫⟪k:3⟫只是因为母亲让我去画，⟪k:4⟫我就去画了。"
+
+#: scenario9:scenario9_A40A9F83_B8A4_4F87_B897_8740FC0A633D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d9acac985854ec3d4623b981874a3db267be5e4a1af7bddc7ca3319726c40cea
+#. default-sha256: 09b4d71dc730a0fb00f34d6751e26765dbeea4fc29a41596b9eca6f4d55e6fce
+msgctxt "scenario9:scenario9_A40A9F83_B8A4_4F87_B897_8740FC0A633D"
+msgid ""
+"⟪k:0⟫And when she told me she’d sent it off to you,⟪k:1⟫I didn’t really think anything of it."
+msgstr "⟪k:0⟫即使知道了那幅画被送到你那里，⟪k:1⟫也没有多想。"
+
+#: scenario9:scenario9_AD5567D1_E38A_4662_BBB0_2ED65C7D1D9D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ca6566a03a473f00210051d12f3babc88a56d9b1fe186912bfb132c4c56c0b3b
+#. default-sha256: 9e79fdba89ea23f00bd6a0e695af598438587de378a8c11a5c48e691b9a0faa0
+msgctxt "scenario9:scenario9_AD5567D1_E38A_4662_BBB0_2ED65C7D1D9D"
+msgid "⟪k:0⟫It never even crossed my mind to think about how you felt out there, all alone,"
+msgstr "⟪k:0⟫你因为身体上的原因遭受了多少痛苦——⟪k:1⟫⟪k:2⟫孤身一人的生活是何等艰辛——"
+
+#: scenario9:scenario9_2313A16C_9E81_4031_80EF_C995C57CCC36
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fb7682bacb922aa85c997445a9c94580be71d731c5592a19888ba904bc2a9554
+#. default-sha256: 2fbb584b731857c3b8d185607e872b2520abc733e579820df5fab37760586cb3
+msgctxt "scenario9:scenario9_2313A16C_9E81_4031_80EF_C995C57CCC36"
+msgid ""
+"⟪k:0⟫And y’know, at the time, I thought,⟪k:1⟫“What’s it matter if you’re a guy or a girl? You’re "
+"still you.”"
+msgstr "⟪k:0⟫我觉得，⟪k:1⟫身体的性别，⟪k:2⟫无论是男是女都无所谓的啊。"
+
+#: scenario9:scenario9_2D1D8E31_B0D2_4DF9_9AAA_03D44DCBA1E3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 75a7cfd176eeed4c8876265597b0e76e1e2894224f429cb1ee61502e8bd59aa4
+#. default-sha256: 983407665a412c3391e6d0c9ed33fbfca46275e3b8f4876467e390da27557ac0
+msgctxt "scenario9:scenario9_2D1D8E31_B0D2_4DF9_9AAA_03D44DCBA1E3"
+msgid "⟪k:0⟫M-⟪k:1⟫Mrnph!"
+msgstr "⟪k:0⟫呜、呜呜……！"
+
+#: scenario9:scenario9_E296F739_8387_41E5_8CB1_DA9E8B0ED8B0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 06d83ece303191a1c1efdf113965cb719730c7d2c3f6f4db09e1853f200b0086
+#. default-sha256: f77b2262b9c8990c6500e005f7bafc28cc8f4d65afb9899a4b7d34a0bb3ae94a
+msgctxt "scenario9:scenario9_E296F739_8387_41E5_8CB1_DA9E8B0ED8B0"
+msgid "⟪k:0⟫Honestly... ⟪k:1⟫I’m relieved to see you’re still the same Georges I always knew."
+msgstr "⟪k:0⟫……怎么说……⟪k:1⟫哥哥还是老样子啊，⟪k:2⟫我也放心了。"
+
+#: scenario9:scenario9_58661305_090B_433E_9A5A_F254AFC786B9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cc1f7fd9589663ab8adfe0b724ce8a8ad1534b0543f5d1c5e55c26517ebf0cf1
+#. default-sha256: e33b91da485522adfc0f303a49675d47fb4f06fffca4f1599c8c51a550b26141
+msgctxt "scenario9:scenario9_58661305_090B_433E_9A5A_F254AFC786B9"
+msgid "⟪k:0⟫I’m... ⟪k:1⟫This doesn’t sit right with me."
+msgstr "⟪k:0⟫……我……⟪k:1⟫有点不能接受呢。"
+
+#: scenario9:scenario9_9DD0582B_44E7_4E79_8EA4_4516CD3EC974
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 14b0df12372f6ce101c9f5d11146819d5ec0d67e9128ac897052e6f62fec888e
+#. default-sha256: 6297b1a31374727e80f1382c5325de2112d1df884602bd777580f1bfd5696543
+msgctxt "scenario9:scenario9_9DD0582B_44E7_4E79_8EA4_4516CD3EC974"
+msgid "⟪k:0⟫I’ve moved past that, though..."
+msgstr "⟪k:0⟫……可是，那已经……"
+
+#: scenario9:scenario9_6E658C9E_CEA4_4464_94F9_71586EC87986
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cf274c7d67e0bbf8354fb19724d93d398c0b6286f4684a612e094874ec8a3395
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_6E658C9E_CEA4_4464_94F9_71586EC87986"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_B661F89E_4B97_40DB_97A9_CC37267DAD2A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 488c80aa911c57c2710a0d89f58739b15b6ce85e2a7abdbabcf3ce414e9fe7d5
+#. default-sha256: 58d7328eac219ab53044f6d66ce547d144f1aa1eeab9998e920fa97bc3c07a2f
+msgctxt "scenario9:scenario9_B661F89E_4B97_40DB_97A9_CC37267DAD2A"
+msgid "⟪k:0⟫Scrawl your anger all over that ridiculous painting."
+msgstr "⟪k:0⟫对这个混账画，⟪k:1⟫随心所欲地发泄怒火吧。"
+
+#: scenario9:scenario9_92A0875A_A9ED_4DA5_BB4F_DF46CEA48326
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 62e40f83bd6c12c6918e1b1ec3919a526a307e6825c4a53dbb60482e5dbb3dd0
+#. default-sha256: 702f1c7f57988823e52455e3c6fe422fddcf6739bba867e555076ce3a706f78a
+msgctxt "scenario9:scenario9_92A0875A_A9ED_4DA5_BB4F_DF46CEA48326"
+msgid "⟪k:0⟫Ohhh, I can just ⟪k:1⟫feel⟪k:2⟫ your burning rancor, Michel!"
+msgstr "⟪k:0⟫着实体现了米歇尔的愤怒……！"
+
+#: scenario9:scenario9_5B106871_2518_4B8A_9F46_0BADD4A41078
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e6351c9f993fe1d74a53d725f264db935c15f4255a36bcb509659c14261bd392
+#. default-sha256: 616001365e2b80aecd10d314f724349e2e6015747bf206b624e0115536c01e41
+msgctxt "scenario9:scenario9_5B106871_2518_4B8A_9F46_0BADD4A41078"
+msgid "⟪k:0⟫That’s... ⟪k:1⟫not what I drew at all..."
+msgstr "⟪k:0⟫那个……⟪k:1⟫这不是你说的那种东西……"
+
+#: scenario9:scenario9_2D57C97A_BA12_47AA_AAF8_427C03E8AB22
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 650981ef0e19b0b1e35619b77cff9b61534c31c07e87ac9d6f7efbf1d34192c5
+#. default-sha256: 7e87072a0cfad017c2dbaa031aa0294a2800721b8266a75d623449679ee5dc96
+msgctxt "scenario9:scenario9_2D57C97A_BA12_47AA_AAF8_427C03E8AB22"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫…………"
+
+#: scenario9:scenario9_1C3BD70F_7E96_4C19_AD40_8B6BFF289455
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2820cc9a6dd90c1bc1dd71156265651bb7652e2c9da0b92479a04fd7ca83c4e3
+#. default-sha256: 1dcdc3383657f9d3b9f1ea100dba6d27f358814198e8bc1383c15e88d1010cfb
+msgctxt "scenario9:scenario9_1C3BD70F_7E96_4C19_AD40_8B6BFF289455"
+msgid "⟪k:0⟫Georges..."
+msgstr "⟪k:0⟫……哥哥……"
+
+#: scenario9:scenario9_721CAD5A_DDF7_49DA_B91C_4095F5BB1E7E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b49499147da6ce2e2a61946dd20f893f7c04f8aa35dcd80e357c6b8fcaa3cbbb
+#. default-sha256: caed0af089c50a300032b14d605e25890a81450e2038c751137cdec4c957231e
+msgctxt "scenario9:scenario9_721CAD5A_DDF7_49DA_B91C_4095F5BB1E7E"
+msgid ""
+"⟪k:0⟫Whoa, whoa, don’t you start questioning it too, Michel!⟪k:1⟫⟪k:2⟫We are absolutely "
+"positively one-hundred-percent brothers!"
+msgstr "⟪k:0⟫喂喂，⟪k:1⟫不要用这种疑问的口气！⟪k:2⟫当然有血缘关系了，⟪k:3⟫的的确确是兄弟啊！"
+
+#: scenario9:scenario9_2E7FD978_6EE3_4006_94F0_1DF363750D38
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a002c54f837a21f3ca268bac932bcccd27fdd8e6847adeba669cb64d8d48bdb4
+#. default-sha256: 6acd0ff8a216f6b9177e6ad878e4b3118cf11b596b1ee5db2e00e9d234551ad1
+msgctxt "scenario9:scenario9_2E7FD978_6EE3_4006_94F0_1DF363750D38"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………"
+
+#: scenario9:scenario9_06DCE49C_6374_4AAB_A5EF_E6F0A166A152
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: eadc6726ba1594f76aa353425bb76c6ed0799bd4829799605bdab10b06d04332
+#. default-sha256: 43a398ac13a470c9ea4428d49cd6e74e549eb46dce96e8153a37c119b6267d3b
+msgctxt "scenario9:scenario9_06DCE49C_6374_4AAB_A5EF_E6F0A166A152"
+msgid "⟪k:0⟫⟪k:1⟫Oh my god... ⟪k:2⟫you just laughed."
+msgstr "⟪k:0⟫⟪k:1⟫米歇尔你……⟪k:2⟫笑了啊……"
+
+#: scenario9:scenario9_B1BA6394_1A84_4D41_8372_278DCE572205
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 07ea0685aae06ae476644254e6cbed654894d67fc921550904d708c50ea54d8e
+#. default-sha256: 17500736849bce83d3d7fadfb0002e2a9755f980e8baa70cb56b04491f66c619
+msgctxt "scenario9:scenario9_B1BA6394_1A84_4D41_8372_278DCE572205"
+msgid "⟪k:0⟫Whaaaaaaaat? I didn’t get to see it!⟪k:1⟫⟪k:2⟫What was it like?! Gimme all the details!"
+msgstr "⟪k:0⟫哎哎！⟪k:1⟫我看不到啊！⟪k:2⟫是怎样的笑容呢？"
+
+#: scenario9:scenario9_4517B6CD_B355_4500_8670_E94B54677A10
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cfe0faddc13b908e047c1e8b982cef070e820c73960c90fc4976332abf11dbd1
+#. default-sha256: f936bce13f82773c0ea58fb2496a5d34db99b0ef1661f312f19380767e14ae85
+msgctxt "scenario9:scenario9_4517B6CD_B355_4500_8670_E94B54677A10"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………"
+
+#: scenario9:scenario9_A32B7249_83A3_4F54_852C_ED2A97B2B6B3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 09109b9e83e469789f1ab1a70da8999db94b98c6994b21b14f85826d7f44642d
+#. default-sha256: 3b801d33efb6add372c487ac3bd7f50874ada0a7139eb820aa318b5679f46cc0
+msgctxt "scenario9:scenario9_A32B7249_83A3_4F54_852C_ED2A97B2B6B3"
+msgid "⟪k:0⟫It’s not ⟪k:1⟫that⟪k:2⟫ big a deal...⟪k:3⟫⟪k:4⟫I laugh just like everyone else..."
+msgstr "⟪k:0⟫不，⟪k:1⟫我也会很普通地笑的……"
+
+#: scenario9:scenario9_D36D8987_4E18_4374_B907_2F13A4746274
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a36f4afae8dbc7065252d83f82fb8e89f8da24e69cfeac3f5616f73c4a71adf7
+#. default-sha256: 129d0e4a5910f0aba9460379e9637f4aef7b3fb89589e3a7da6234bfccd3d6a9
+msgctxt "scenario9:scenario9_D36D8987_4E18_4374_B907_2F13A4746274"
+msgid ""
+"⟪k:0⟫Anyway, since we’re breakin’ character here, how ’bout one from our favorite witch too? ⟪k:1⟫"
+"And no cackling. That doesn’t count."
+msgstr ""
+"⟪k:0⟫话说，⟪k:1⟫机会难得，不如由魔女小姐代替米歇尔来笑给我看吧？⟪k:2⟫⟪k:3⟫虽说是笑，⟪k:4⟫也不能随"
+"便抿嘴一笑就敷衍了事哦？"
+
+#: scenario9:scenario9_2DD717E1_593E_47BB_A37F_BAD9B2CBB429
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9124261638c3486ce1acadf49e9e5ee59102a9717a7347ac8f3aa9f853baf56d
+#. default-sha256: 7b0115a22472a9b0e7bae2b50d476ee001ba0438808620f9e23a2e5194d164c5
+msgctxt "scenario9:scenario9_2DD717E1_593E_47BB_A37F_BAD9B2CBB429"
+msgid "⟪k:0⟫⟪k:1⟫Excuse me? Why would you want me to...?"
+msgstr "⟪k:0⟫⟪k:1⟫哈……？⟪k:2⟫为什么是我……"
+
+#: scenario9:scenario9_07FBFFD6_C760_417A_867B_D0888A941F57
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a1d6cfb722b2ea5c4272dc1d574256929934e3c0ff5a9fd0b2f38e0a7f202ddd
+#. default-sha256: 93798af385469c78a18e8ff853c0a0f71b74fdee59881c631f9a3c3b7b49b106
+msgctxt "scenario9:scenario9_07FBFFD6_C760_417A_867B_D0888A941F57"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫’Cause every time I’ve seen you smile, it’s never been about anything good. ⟪k:3⟫"
+"Plus, now that you got your face back, you’re actually quite the looker."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫因为我都没看过魔女小姐温柔微笑的样子嘛。⟪k:3⟫"
+
+#: scenario9:scenario9_93180F8B_9F10_4CC7_9F3E_9BBED0D05494
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5044bb29c738c1cb24df1fc085a648567c34baaa84d6c637eb8663ba618107ba
+#. default-sha256: 6acd0ff8a216f6b9177e6ad878e4b3118cf11b596b1ee5db2e00e9d234551ad1
+msgctxt "scenario9:scenario9_93180F8B_9F10_4CC7_9F3E_9BBED0D05494"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………"
+
+#: scenario9:scenario9_E605BF22_EF82_428C_B51B_A4B664267527
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d806680852a9972bda5fbc27a98ec917ff7bda8fadfcfa660686370f7152ddb0
+#. default-sha256: 9ed2a8338821c63e3467913b717c655992b79b934a9d679b7a06ed33c67ee038
+msgctxt "scenario9:scenario9_E605BF22_EF82_428C_B51B_A4B664267527"
+msgid "⟪k:0⟫（虽然也不阳光就是了……）"
+msgstr "⟪k:0⟫（虽然也不阳光就是了……）"
+
+#: scenario9:scenario9_BD3C3078_6A8A_41B0_A1FD_F538A9321453
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a95cf352bedf751f439ffe1f1267aa206ee2dccf2df0b74c18338eb57841e078
+#. default-sha256: ad046c771ea2da314a15315b300ff7305cf28e48ef6469b5d866b5dcae65965e
+msgctxt "scenario9:scenario9_BD3C3078_6A8A_41B0_A1FD_F538A9321453"
+msgid "⟪k:0⟫(and then I’ll await your return—⟪k:1⟫⟪k:2⟫no matter how long it takes...)"
+msgstr "⟪k:0⟫（……我一定会，⟪k:1⟫等待着你……）"
+
+#: scenario9:scenario9_2297EA55_5526_45FB_9586_343F75513C48
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6090282077406bbe49f2ae5fc16d46c02b0a60847a2e8c3072469f2f4966f4cc
+#. default-sha256: 78f27e2850a5c9c2eb45b9faba176fe083555a049d71b5e305ec57d058c2bbec
+msgctxt "scenario9:scenario9_2297EA55_5526_45FB_9586_343F75513C48"
+msgid ""
+"⟪k:0⟫The large door stands there, firmly shut,⟪k:1⟫holding in the darkness as it has for "
+"countless generations."
+msgstr "⟪k:0⟫将馆内的黑暗牢牢封印的大门……⟪k:1⟫⟪k:2⟫如今，⟪k:3⟫就在我们的眼前。"
+
+#: scenario9:scenario9_B4545500_BA74_440D_8D36_26B1E540CF28
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2623f24bac5d0743970adc3d47e7a7a18a17bc36045d9f68d9afd3b84842f3dd
+#. default-sha256: 9fa7074d6ed00f54185fe8f117ee8135108f0b7e836930feeb74b615b97d077f
+msgctxt "scenario9:scenario9_B4545500_BA74_440D_8D36_26B1E540CF28"
+msgid ""
+"⟪k:0⟫Bein’ a painting for all these years,⟪k:1⟫I never realized just how big a place this was."
+msgstr "⟪k:0⟫话说回来，⟪k:1⟫这座馆还挺宽敞的。⟪k:2⟫⟪k:3⟫你看，⟪k:4⟫我一直都以画的形态待在这里呀。"
+
+#: scenario9:scenario9_A569D845_3421_4DCC_B300_FD65CB720768
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ac3834425d3f3246b67d0fa1fc3f85019943062930deb98db0ab437ac3e0cc4e
+#. default-sha256: 6acd0ff8a216f6b9177e6ad878e4b3118cf11b596b1ee5db2e00e9d234551ad1
+msgctxt "scenario9:scenario9_A569D845_3421_4DCC_B300_FD65CB720768"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………"
+
+#: scenario9:scenario9_E6A16822_73D6_47A9_AAC7_3F0BA424CE6D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7a9e57475a435f7ea132515bbc6c59849d6dcf7eabd2b1f43686755cc5a84e8e
+#. default-sha256: b277f0164b4da201c4df4b030ee93c65dc629b014490c0bbf72568cf2d509a01
+msgctxt "scenario9:scenario9_E6A16822_73D6_47A9_AAC7_3F0BA424CE6D"
+msgid "⟪k:0⟫Can you blame me for being talkative?!⟪k:1⟫⟪k:2⟫It was a lonely life!"
+msgstr "⟪k:0⟫我很想说话嘛~！⟪k:1⟫之前都太寂寞啦！"
+
+#: scenario9:scenario9_D7A285A5_B60E_4D38_9C1E_F4D35BD48631
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7a85c5ce86b8348b1e8ec46df0d983deb4145f43780048dba2c088f121d740ce
+#. default-sha256: 02e0e0989a0b6acb022cbebcb71e8e2cc48b0bd1f33fd7c4d3ce0b8ecd542193
+msgctxt "scenario9:scenario9_D7A285A5_B60E_4D38_9C1E_F4D35BD48631"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫The entrance, by the looks o’ things."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫这是在大门口哦。"
+
+#: scenario9:scenario9_B2424963_EC5D_4B01_B66C_168A03CD3DB8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7858dfd2b89bd5ec79aacce07fd7175052c99db291344aeab0a2c8a91dab042b
+#. default-sha256: 897df70f0829b1eda21526dabbcbaddaff5ea8252b27013e88ce32386139e822
+msgctxt "scenario9:scenario9_B2424963_EC5D_4B01_B66C_168A03CD3DB8"
+msgid ""
+"⟪k:0⟫⟪k:1⟫Precisely! The end to a centuries-long act of vengeance is but a few feet beyond that "
+"door! ⟪k:2⟫And you’re chatting away like it’s another day at the court!"
+msgstr "⟪k:0⟫⟪k:1⟫现在正是，⟪k:2⟫一切都将迎来终结的时刻啊！⟪k:3⟫⟪k:4⟫为什么你还在这样轻松地聊着天！"
+
+#: scenario9:scenario9_3020DE6C_4AE6_4738_9E71_0217ECB2F345
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 28818638c406a6067a3647327498afd015c3de78b3ed7df5533e304cf034cfc4
+#. default-sha256: 5f0968e5e7733048114b40e90e5cc6b15dab63b7b9af04decb46b7e90224e734
+msgctxt "scenario9:scenario9_3020DE6C_4AE6_4738_9E71_0217ECB2F345"
+msgid "⟪k:0⟫⟪k:1⟫Are you not at all worried?"
+msgstr "⟪k:0⟫⟪k:1⟫……你们不会感到不安吗。"
+
+#: scenario9:scenario9_9BCC1A6E_8F8A_4BC1_9D3D_AD6E20CA1A4A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ed3dcfba48473c320e646e5c2eaed4f4596a73a89858f4062b03b4d53521997f
+#. default-sha256: a380e7ac3e762a29da55e6aed3955979e199566ea74efd6eefef3a033630f6b6
+msgctxt "scenario9:scenario9_9BCC1A6E_8F8A_4BC1_9D3D_AD6E20CA1A4A"
+msgid "⟪k:0⟫Our present forms may cease to exist, ⟪k:1⟫but our souls will live on,"
+msgstr "⟪k:0⟫现在的我们或许会就此消失——⟪k:1⟫⟪k:2⟫但是，只要灵魂还存在……"
+
+#: scenario9:scenario9_EE108F64_CF53_4C25_AF76_F2E50026A7F0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 542187b10771eae37df6a56f369439fbe776150e84ea9bba1f4c5bf9c8b86bc8
+#. default-sha256: 1dd959e8a124cd330304b03be190c73b75eafa082380ad2d423275dbe34b52bd
+msgctxt "scenario9:scenario9_EE108F64_CF53_4C25_AF76_F2E50026A7F0"
+msgid "⟪k:0⟫Let us press onward, not fearing a temporary end."
+msgstr "⟪k:0⟫所以……⟪k:1⟫不必害怕消失……打开门吧。"
+
+#: scenario9:scenario9_C825D18A_10B6_4078_95FF_D2669CD542A7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6ab570770d6fdd4180d910f211825527becc3eff38f6d9611802a1b6d818e767
+#. default-sha256: ee945d70bcfbca5a19f1eaec848175dd7979b8349539771b2e83ed124537b393
+msgctxt "scenario9:scenario9_C825D18A_10B6_4078_95FF_D2669CD542A7"
+msgid "⟪k:0⟫Now, now, let’s not do anything hasty!"
+msgstr "⟪k:0⟫哎哎，⟪k:1⟫别说这么可怕的话嘛~！"
+
+#: scenario9:scenario9_C2EE87CB_D64F_472D_A41B_5532AED2A3E5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 963aa06295054a5b6a281cf1c32186a695dab251d1ce587b9d140823edef7e10
+#. default-sha256: 64b01ade5025f103ebbb3e22b9e157dda6ffb5719078a51cb4226e99d405211e
+msgctxt "scenario9:scenario9_C2EE87CB_D64F_472D_A41B_5532AED2A3E5"
+msgid ""
+"⟪k:0⟫His ever-playful interactions bring me back to when I was alive.⟪k:1⟫⟪k:2⟫To when it was me "
+"and my two brothers."
+msgstr ""
+"⟪k:0⟫他一如既往的诙谐，⟪k:1⟫使我回忆起生前的时光。⟪k:2⟫生前的……⟪k:3⟫和哥哥们一起度过的每一天。"
+
+#: scenario9:scenario9_62DE343E_4F47_406B_A9C9_AF1E22447B88
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2a1b0e507e70d6924db743bfdebd331b2ed2c928d774c3afd23b20ea80c8dab8
+#. default-sha256: eb386010274b02e579dd3eab8926c20568de650aa6be6202465db0a4299d3aba
+msgctxt "scenario9:scenario9_62DE343E_4F47_406B_A9C9_AF1E22447B88"
+msgid ""
+"⟪k:0⟫Fond memories of the times we had together, of the admiration I had for them, of me chasing "
+"after them."
+msgstr "⟪k:0⟫在打开门扉之前，⟪k:1⟫能想起憧憬哥哥们的那些日子，⟪k:2⟫太好了。"
+
+#: scenario9:scenario9_0785CC36_8441_4E1C_973C_BBC83ED86D18
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: bc96955af44bb10ca920e15edf68f8ba55f09cb808ce509160c4d8f6d57ae62c
+#. default-sha256: 870f79d2a87dbfbb83a9ef97a893e94c7fa4d42353411672d47c60cb89096f22
+msgctxt "scenario9:scenario9_0785CC36_8441_4E1C_973C_BBC83ED86D18"
+msgid ""
+"⟪k:0⟫I envision the light that lies beyond it—⟪k:1⟫⟪k:2⟫radiant and white, waiting to rip through "
+"the darkness."
+msgstr ""
+"⟪k:0⟫在这扇门外，⟪k:1⟫一定……充满了光芒吧。⟪k:2⟫⟪k:3⟫足以将馆内的黑暗彻底劈裂般的，⟪k:4⟫炫目的光"
+"芒。"
+
+#: scenario9:scenario9_443B6F7F_F5F3_4BEF_9127_E7C6DF6B39DB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fa2af1af9141b36c713258b7437e5639e422c8265dd66259b3f854dd50020422
+#. default-sha256: 89e579d82dc5de6e66e9c029f2e428f82cc0720cccd2924188049c8e4fa36e4e
+msgctxt "scenario9:scenario9_443B6F7F_F5F3_4BEF_9127_E7C6DF6B39DB"
+msgid "⟪k:0⟫That we’ve long sought."
+msgstr "⟪k:0⟫所以——"
+
+#: scenario9:scenario9_28907927_CD0B_4E4E_8251_057FA384A312
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 633e01ec1355f4b30e17aaea4285281b2c7dc684b7d99c81e4f8014a4638ce52
+#. default-sha256: 4a39bda15e3deee9a9ec0120a51af90fd48b81de7c628e479399a369f9238fe2
+msgctxt "scenario9:scenario9_28907927_CD0B_4E4E_8251_057FA384A312"
+msgid "⟪k:0⟫I take in a deep breath,"
+msgstr "⟪k:0⟫深呼吸。"
+
+#: scenario9:scenario9_C61BF852_9580_4C0C_96D0_F0B9A0C6F587
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 75ea6037677ee5b36d2088519cc0c9e3a4a23e43d95971ee334e271916601031
+#. default-sha256: 162311a9e1aed940ed6117759f8dc9d61eb8a1a37695852f0785779e266f11d1
+msgctxt "scenario9:scenario9_C61BF852_9580_4C0C_96D0_F0B9A0C6F587"
+msgid "⟪k:0⟫welcoming the future it holds."
+msgstr "⟪k:0⟫将最后的门扉……推开。"
+
+#: scenario9:scenario9_F117924B_3AE3_4572_B032_C2B2C50C2DD1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 94d86c4ff478f5dc55caaf83d58cda188b4b64afe1821eb522899de6fa6e1768
+#. default-sha256: d7aecfb04d52d9a35ba5b7473d0f7969c1b3a5631a7413d452622a7509899601
+msgctxt "scenario9:scenario9_F117924B_3AE3_4572_B032_C2B2C50C2DD1"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫...Burn the witch..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫……将魔女处刑……"
+
+#: scenario9:scenario9_053AD6E2_A4FA_4B7C_AE1F_265E457B11A1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6f67a70696ae97de24dbea9e09c84ce4e9ff9e393aa552e5b3d23b60dbd983e0
+#. default-sha256: 798787ba18bf45f80ed41718594783dc34d1823d179df6dac43fcc51ca9e56dc
+msgctxt "scenario9:scenario9_053AD6E2_A4FA_4B7C_AE1F_265E457B11A1"
+msgid "⟪k:0⟫growing louder with each heavy footstep..."
+msgstr "⟪k:0⟫正向着我们……"
+
+#: scenario9:scenario9_EFA21E4F_9F9A_4DE5_996B_40C2FEE7D6C7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: edbac52426b9c69b5c4e5aca3325ecfbb1288be8d16838b1fe5cb1871a12f49a
+#. default-sha256: c722ca892899deb03b3c086fa1281bddccaee688b89a43a3d838cf5faf7527c0
+msgctxt "scenario9:scenario9_EFA21E4F_9F9A_4DE5_996B_40C2FEE7D6C7"
+msgid "⟪k:0⟫Three days and three nights... ⟪k:1⟫hanged upon the cross..."
+msgstr "⟪k:0⟫施以磔刑……⟪k:1⟫弃之三日三夜……"
+
+#: scenario9:scenario9_8CF0451D_09D0_4D7C_BD40_E21DA75465B5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 341c2e07d9177b737566c0501e355b4622e3bec9b29aaf4b885b0992f8ec2611
+#. default-sha256: 690ea82b3e2cc81b6a754422fcb0149cdda7abed6b0e4818e84cddb5751a0fcd
+msgctxt "scenario9:scenario9_8CF0451D_09D0_4D7C_BD40_E21DA75465B5"
+msgid "⟪k:0⟫purified by the fires of Heaven..."
+msgstr "⟪k:0⟫必以——⟪k:1⟫天之炎净化之……"
+
+#: scenario9:scenario9_BC70BAE7_5F02_461F_BCCD_0DC5BD97DF3F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8b92acc9b11149f250222bdb4c1972e678bb27734be1e7ac2c6b9dea19e858c3
+#. default-sha256: ce88cc99a42df38ec6667ff9c602735f82f57e6b5eee1002f6434a8bc0cc304b
+msgctxt "scenario9:scenario9_BC70BAE7_5F02_461F_BCCD_0DC5BD97DF3F"
+msgid "⟪k:0⟫I never summoned this thing!"
+msgstr "⟪k:0⟫我没有，⟪k:1⟫叫来过这种东西啊……！！"
+
+#: scenario9:scenario9_3B4FCDB5_075D_4306_BCE3_B993E6470BF9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d34dc48ef6d4c77f0d8b0e1883665f375372c6ce8b1f9e33d2501559ed9c70e7
+#. default-sha256: 7f9b1f6918713bc9941e07eb831dfcc7219730688763db4fbd75beeeba12bfb2
+msgctxt "scenario9:scenario9_3B4FCDB5_075D_4306_BCE3_B993E6470BF9"
+msgid "⟪k:0⟫I stare, half-dumbfounded, at the knight..."
+msgstr "⟪k:0⟫愣在原地，⟪k:1⟫注视着那位骑士的身影……"
+
+#: scenario9:scenario9_E52274D5_EF4D_42A0_8E64_1BEDCA99CFB8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5e6c063ea11022f8e7a2013b4311adc4d5e906c35926e94fb5f667613b5a5674
+#. default-sha256: 90d3efb9d50293573816774cf550318bc8ef7830263d7d3bf5d726d497f7ebd1
+msgctxt "scenario9:scenario9_E52274D5_EF4D_42A0_8E64_1BEDCA99CFB8"
+msgid "⟪k:0⟫It is our holy duty... ⟪k:1⟫as knights of the Church..."
+msgstr "⟪k:0⟫将心卖给恶魔者……⟪k:1⟫我等骑士团……"
+
+#: scenario9:scenario9_CB8F36B8_96F0_40A9_BD34_89EEC6B5207B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4eee77cadc9b639fb2f690a4f7f6c16ae574ae51e3e611df5d3f6d693e3a24d7
+#. default-sha256: 6426ecf54a4b7903c870ab8962a9916cd4a8e25893133a07e210402c8fc14e66
+msgctxt "scenario9:scenario9_CB8F36B8_96F0_40A9_BD34_89EEC6B5207B"
+msgid "⟪k:0⟫Wait, for real...?"
+msgstr "⟪k:0⟫………真的假的……？"
+
+#: scenario9:scenario9_9CCDE74B_B38F_4685_848A_7619ADB1005A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 69a646b8389e34e464107e56859edfe449ae114b66b28de3ab384edfafe94475
+#. default-sha256: 7f3716c648f1c3c3c0ead656f283f888d31bfb9aaa505a2a19101db45f935aef
+msgctxt "scenario9:scenario9_9CCDE74B_B38F_4685_848A_7619ADB1005A"
+msgid "⟪k:0⟫I know it’s you!"
+msgstr "⟪k:0⟫……哥哥，是你吧……！！"
+
+#: scenario9:scenario9_98F2381E_759E_48C8_A9A6_768381BD229B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f7227c96e57edcd767e0b440359941f2711db8ba78b6e1d253f44a6e5f6f3868
+#. default-sha256: 02559ba38b15928983deceb3ac5ea81c038e0f1a40c32aafb5de4ec2c5dacacf
+msgctxt "scenario9:scenario9_98F2381E_759E_48C8_A9A6_768381BD229B"
+msgid "⟪k:0⟫N-⟪k:1⟫No... ⟪k:2⟫No... ⟪k:3⟫I’m— ⟪k:4⟫⟪k:5⟫I’m not—⟪k:6⟫⟪k:7⟫I’m not a witch..."
+msgstr "⟪k:0⟫不……⟪k:1⟫不要……⟪k:2⟫我……⟪k:3⟫我——⟪k:4⟫⟪k:5⟫我……⟪k:6⟫不是魔女…………"
+
+#: scenario9:scenario9_C9A813D2_8D2B_47E6_842F_6DBEFFB5D773
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e95d35f2c4e7442ece2b865e63713169ed1e32253d81cc39dd9aa79073167831
+#. default-sha256: ecd7093304e445ac1f812e2b7a2158bc797fefe24d8e79ff8fe45f57790a2f11
+msgctxt "scenario9:scenario9_C9A813D2_8D2B_47E6_842F_6DBEFFB5D773"
+msgid "⟪k:0⟫Is this my fault?⟪k:1⟫⟪k:2⟫Is he here because I wished to be reunited with my brothers?"
+msgstr ""
+"⟪k:0⟫要是我……⟪k:1⟫没有期盼着再会的话……⟪k:2⟫事情也不会演变成这样吧。⟪k:3⟫⟪k:4⟫那时我的愿望——⟪k:5⟫居"
+"然以这种形式……"
+
+#: scenario9:scenario9_EA9E2B0C_3D8D_4153_B763_1FDA5E47E24C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cf274c7d67e0bbf8354fb19724d93d398c0b6286f4684a612e094874ec8a3395
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_EA9E2B0C_3D8D_4153_B763_1FDA5E47E24C"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_FA163ACA_1A0A_4AF1_A6FA_E28C4AD1DE76
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cf274c7d67e0bbf8354fb19724d93d398c0b6286f4684a612e094874ec8a3395
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_FA163ACA_1A0A_4AF1_A6FA_E28C4AD1DE76"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_CF88AEE6_0B18_4176_A256_0DF72D559F6D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 619b34ac6dd94839cae219d7b2ed616ab94752db3fd9ed778d59164a47bc86ec
+#. default-sha256: 4e4ef89ffc952b60e40b75299afe43579405a459548b3f342c621f2156e39864
+msgctxt "scenario9:scenario9_CF88AEE6_0B18_4176_A256_0DF72D559F6D"
+msgid "⟪k:0⟫I must... ⟪k:1⟫uphold the honor... ⟪k:2⟫of the family name..."
+msgstr "⟪k:0⟫……我……⟪k:1⟫必须守卫……⟪k:2⟫这份名誉……"
+
+#: scenario9:scenario9_84C44337_1845_4CE6_B3FF_FADE1410FC7D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fd3614ebc91e16967e3d872b9299a5bce2f17624e7759ae4a7d7883cf3b0b33f
+#. default-sha256: 0a91454e13b3f2f15a3eaa74e9802a0492d3972be7b4a697109b303c01cb8e06
+msgctxt "scenario9:scenario9_84C44337_1845_4CE6_B3FF_FADE1410FC7D"
+msgid ""
+"⟪k:0⟫And then, when it was all over, I blamed you...⟪k:1⟫⟪k:2⟫for killing our little brother."
+msgstr "⟪k:0⟫直至最后……⟪k:1⟫还在责怪你……⟪k:2⟫⟪k:3⟫为什么……⟪k:4⟫杀了我们的弟弟。"
+
+#: scenario9:scenario9_10BBCF49_AB9D_406E_8BE4_EAA5031E8AC7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8dc8e1dfb529ebf722948887bda437ddef32843ea6399bed31aa05573a2227ba
+#. default-sha256: 97287c25ea85fe3a60a73e59d37dc9f8da12c2058064665346f4fc1e760bd361
+msgctxt "scenario9:scenario9_10BBCF49_AB9D_406E_8BE4_EAA5031E8AC7"
+msgid "⟪k:0⟫I’m sorry, Dee..."
+msgstr "⟪k:0⟫……抱歉啊……"
+
+#: scenario9:scenario9_E1F6A8BF_E660_43E0_9F8B_072B5DBD8D90
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8c57d4c8dde0a7ead78536a379bec3a89a850bfd87a889acab2dc13a93798807
+#. default-sha256: 1be564c2f3623d405a9026e0c4a6a2d9ea0721977818b9fbefd84bf11d50df23
+msgctxt "scenario9:scenario9_E1F6A8BF_E660_43E0_9F8B_072B5DBD8D90"
+msgid "⟪k:0⟫but we’re backed up against the wall..."
+msgstr "⟪k:0⟫就在触手可及的地方……"
+
+#: scenario9:scenario9_A809C314_906D_467A_B933_0A4A9FF94E18
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1378a9cae8577f60c6f25b677ce1bcef24e11d27912ae24c3ecdc06f814c6b16
+#. default-sha256: 47a27eaee94ac456c10fb8c5c01d56104d6c7a7a068f84bbca92b45c67e89ee6
+msgctxt "scenario9:scenario9_A809C314_906D_467A_B933_0A4A9FF94E18"
+msgid "⟪k:0⟫The end was almost within our grasp..."
+msgstr "⟪k:0⟫眼看一切都要结束……"
+
+#: scenario9:scenario9_0ADA07E4_6412_4905_BB2C_ED48DC77C4ED
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ddc1e0d5a0ea7da826ef16ba828827e81f2e27e2af79d218e3b830ab70f4314e
+#. default-sha256: 6450683bf526cd6f20cf787ce70a4f843f68812c8aa092f4a06d4c5f804beb1e
+msgctxt "scenario9:scenario9_0ADA07E4_6412_4905_BB2C_ED48DC77C4ED"
+msgid "⟪k:0⟫The knight raises his sword,"
+msgstr "⟪k:0⟫骑士高举起手中的剑——"
+
+#: scenario9:scenario9_B8A1F0CB_E1F8_43BF_94ED_36588F5E5EFA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7df15bfcd15d4231baf281b3d6c7290b781ffe657c88d722efe629c1ee56bf05
+#. default-sha256: d0953a0620105e92caf2752ef30d328394d5144ecd7cfb92152fa8dc3d9dca7f
+msgctxt "scenario9:scenario9_B8A1F0CB_E1F8_43BF_94ED_36588F5E5EFA"
+msgid "⟪k:0⟫Georges! ⟪k:1⟫Georges!⟪k:2⟫"
+msgstr "⟪k:0⟫……乔治斯⟪k:1⟫……乔治斯……！！"
+
+#: scenario9:scenario9_D6923D72_816A_46ED_B0C6_F8C294F901B3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e6e1bafc0d615ed813ddc67aa3f88465bf525e535f167cabede018be43560092
+#. default-sha256: a0386c6b0a7afefa7d870fa175d9fb4342b38306262597e8a37ced19e8353102
+msgctxt "scenario9:scenario9_D6923D72_816A_46ED_B0C6_F8C294F901B3"
+msgid ""
+"⟪k:0⟫His form wavers momentarily... ⟪k:1⟫before fading into the darkness...⟪k:2⟫⟪k:3⟫his voice "
+"lingering behind..."
+msgstr "⟪k:0⟫乔治斯的身影开始扭曲……⟪k:1⟫即将消失在黑暗中的瞬间，⟪k:2⟫他的声音传来……"
+
+#: scenario9:scenario9_26607DD5_A813_41A4_B343_B2DDE09E9022
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4a81c985378d949d18909d5231559c28a6715ed1c1cf5c8362790c373ce30db5
+#. default-sha256: 895d7eb0628f1d407ecbbaff8c1c2173ba7be67490238379c79f916e101b4d47
+msgctxt "scenario9:scenario9_26607DD5_A813_41A4_B343_B2DDE09E9022"
+msgid "⟪k:0⟫⟪k:1⟫Don’t worry ’bout me, Michel..."
+msgstr "⟪k:0⟫⟪k:1⟫没关系的，米歇尔……"
+
+#: scenario9:scenario9_33697D04_9D7D_4143_A2C5_7920684B6254
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cd6216907bca788f4e3bf369bd0048123416a30043fde290f39d84be95aa5675
+#. default-sha256: 75613c376070e139622fea0317d2d1b0c73e86ef3d965a6db8638462ba8df0fe
+msgctxt "scenario9:scenario9_33697D04_9D7D_4143_A2C5_7920684B6254"
+msgid "⟪k:0⟫G-⟪k:1⟫Georges...!"
+msgstr "⟪k:0⟫……乔、⟪k:1⟫治斯……！"
+
+#: scenario9:scenario9_5A4ECDCF_CC2A_43E7_9F27_081D9CA3255E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 68cd1e4d8291fe6c572343eb6c60120e31f782412fb9ba83d6330570a3d7afbe
+#. default-sha256: 80e76dd95e91845f1d6e2a3d75d4a0eaa0ab41187603255147c6a9f5ee96127a
+msgctxt "scenario9:scenario9_5A4ECDCF_CC2A_43E7_9F27_081D9CA3255E"
+msgid "⟪k:0⟫Despite having already stabbed Georges,⟪k:1⟫the knight continues his march—"
+msgstr "⟪k:0⟫将乔治斯刺穿之后，⟪k:1⟫骑士即以迅雷之势——"
+
+#: scenario9:scenario9_E2196918_8285_42F6_9AD8_871C2423D80B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f2ed7f5e25cb2ce35f15a587266c5d33108639da39494dfaeb8b34fbcf0796d0
+#. default-sha256: 9668b6faa0b6ed23a3d9cf3d6947169dc6eea42cd1049a72c3a88458b441b41b
+msgctxt "scenario9:scenario9_E2196918_8285_42F6_9AD8_871C2423D80B"
+msgid "⟪k:0⟫It is my duty... ⟪k:1⟫as the eldest son!"
+msgstr "⟪k:0⟫作为长兄……⟪k:1⟫必须守护……！"
+
+#: scenario9:scenario9_5C726045_6381_4B21_A7B0_A7C468F28032
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 03d5b19c757cd3c4e3d9b8a282235ee23a743ed28cd47b5603f147358ecf1976
+#. default-sha256: 7c516321f8cd82f823440f0b6d83b9b3ab7547f084fde767c5823e128f3908bb
+msgctxt "scenario9:scenario9_5C726045_6381_4B21_A7B0_A7C468F28032"
+msgid "⟪k:0⟫You deserve to be freed from your bonds as well!"
+msgstr "⟪k:0⟫你也应该得到解放……！"
+
+#: scenario9:scenario9_1D1FAFDC_B55F_40D5_BF92_C39BEB29CC63
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 36b128864ec3bf114e11049052d13c85f05714b115ecfb0aaec1a10ba2b6509c
+#. default-sha256: 272661207ce139daae17d6cdbf21e86da62c19825c6c2795996aed28ef572995
+msgctxt "scenario9:scenario9_1D1FAFDC_B55F_40D5_BF92_C39BEB29CC63"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫Didier!⟪k:6⟫"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫——迪迪尔——！！"
+
+#: scenario9:scenario9_7FB8BB0F_D98A_4B1B_879E_7DE9B0D1FC57
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b07883bbfea49a2ffbc4bab59fd114ba5aed3deac96fd20fbba995dc232e6a27
+#. default-sha256: d887c2306fadd65336291690d2852b6fa78d43bd8b97cf0f2fa956d30130f71a
+msgctxt "scenario9:scenario9_7FB8BB0F_D98A_4B1B_879E_7DE9B0D1FC57"
+msgid "⟪k:0⟫His eyes go wide, ⟪k:1⟫and his blade swerves off course—"
+msgstr "⟪k:0⟫迪迪尔的双瞳中，⟪k:1⟫浮现出狼狈的神色。⟪k:2⟫⟪k:3⟫长剑偏离了原先的轨迹——"
+
+#: scenario9:scenario9_A0DA2876_EAA6_4522_B3C4_9EEE2CA23778
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 498872c71b47c35d47b9a3b25165e9c34de892732f65727076ade3f837dc0b91
+#. default-sha256: e1cd882313b748301e31c39b5bb8c06a4f017418ee04b5ceaa12f39c786a8318
+msgctxt "scenario9:scenario9_A0DA2876_EAA6_4522_B3C4_9EEE2CA23778"
+msgid "⟪k:0⟫missing my heart—"
+msgstr "⟪k:0⟫本应贯穿我心脏的利刃——"
+
+#: scenario9:scenario9_7E634B51_62AD_42BC_AADE_65D5CB19499D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 67e721a75b887766b2d7bb80d794ff3b55c430f270825e73f4bc2d742831011e
+#. default-sha256: a14c8530f1c83f4e86df82b7135f8bb9f53a00de180874f37b7fb0ce0f7568d1
+msgctxt "scenario9:scenario9_7E634B51_62AD_42BC_AADE_65D5CB19499D"
+msgid "⟪k:0⟫Didier... ⟪k:1⟫it’s okay... ⟪k:2⟫you can let go now!"
+msgstr "⟪k:0⟫迪迪尔哥哥……⟪k:1⟫已经……⟪k:2⟫够了……"
+
+#: scenario9:scenario9_8A2C5FE4_C066_4D5F_8C53_B9F0710655DF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b6d7652f5ee8c6969196e4453bac77803deb851f61afa421eb84a23722287942
+#. default-sha256: 070d5f2b4ea8668cb5ea03e7adfb25d3e105cc3f4e0818889cefac33f73bc4b4
+msgctxt "scenario9:scenario9_8A2C5FE4_C066_4D5F_8C53_B9F0710655DF"
+msgid "⟪k:0⟫and I can feel something hot rising in my throat."
+msgstr "⟪k:0⟫有什么热热的东西涌上喉咙。"
+
+#: scenario9:scenario9_02E379E3_14AC_4FFC_AED2_7BA286518942
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ef74ca1ac9fbd4611b51641d23e8d60591e34706cc4fbbee35eacb66fac84bd8
+#. default-sha256: 30502d04a75f1f482aa088d49805c595be067470b952c481aa98645b215b711d
+msgctxt "scenario9:scenario9_02E379E3_14AC_4FFC_AED2_7BA286518942"
+msgid "⟪k:0⟫Didier... ⟪k:1⟫there’s nothing here..."
+msgstr "⟪k:0⟫迪迪尔……⟪k:1⟫这里已经……⟪k:2⟫没有什么——"
+
+#: scenario9:scenario9_08E4B772_D40B_4441_4AD7_15C8E0E2EC49
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0cd45a3108537e28a23b0becde9c2188893b48c8c47b45ce138dda2d3dbc6226
+#. default-sha256: f12774b6c138ecc8a9bf274eb6c6d2e7f1c24dc907b447404cc892dc16e1bd9b
+msgctxt "scenario9:scenario9_08E4B772_D40B_4441_4AD7_15C8E0E2EC49"
+msgid ""
+"⟪k:0⟫It’s time... ⟪k:1⟫for you to break free...⟪k:2⟫⟪k:3⟫for all three of us to be free...⟪k:4⟫"
+"⟪k:5⟫of the curses we placed on ourselves!"
+msgstr "⟪k:0⟫我们……⟪k:1⟫兄弟三人……⟪k:2⟫也该放下心结……⟪k:3⟫从对自身的诅咒中脱身吧……！"
+
+#: scenario9:scenario9_08E49772_D40B_4441_4AD7_15C8E0E3EC49
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0990ef94049f22d60b489582402ee6d7cbc73a2cc74d1a4980dd9f6562889b8d
+#. default-sha256: e3a1e9df5b6a87dc1299f3ca52499e9cc69d62a4b33d8f056d4b78ced2d9667b
+msgctxt "scenario9:scenario9_08E49772_D40B_4441_4AD7_15C8E0E3EC49"
+msgid "⟪k:0⟫I hear a sound that’s somewhere between a grunt and a gasp."
+msgstr "⟪k:0⟫突然——⟪k:1⟫⟪k:2⟫我察觉到了，⟪k:3⟫那一声无言的叹息。"
+
+#: scenario9:scenario9_08E4B772_D40B_4441_4AD7_16C8E0E3EC49
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0ac7dba72c6139f65f4ed5a1a5d94f7f7a65f7400d12f98f25c2a099712e312f
+#. default-sha256: c8585f558ed42a1683dd0577684323503f77f1aca926ed4c5faf045efa43b298
+msgctxt "scenario9:scenario9_08E4B772_D40B_4441_4AD7_16C8E0E3EC49"
+msgid ""
+"⟪k:0⟫My vision’s gone blurry, so I blink hard several times, clearing my eyes to get a better "
+"look at him..."
+msgstr "⟪k:0⟫我猛地眨了眨眼，⟪k:1⟫让模糊的视线清晰起来——⟪k:2⟫⟪k:3⟫近距离地凝视着那副面庞……"
+
+#: scenario9:scenario9_D138DB36_9C36_43CC_B88E_873E604F509F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 750b2e083d74f907ff8acedda8d7330b6bbe6048f72f72a82c24dd8d758fd387
+#. default-sha256: 86a0995b13d5092db089b9c24e9049e20ed8037abab9d793167a5b09082ce8ca
+msgctxt "scenario9:scenario9_D138DB36_9C36_43CC_B88E_873E604F509F"
+msgid "⟪k:0⟫...Michel..."
+msgstr "⟪k:0⟫………米歇尔………"
+
+#: scenario9:scenario9_3B8B96EF_365F_485B_B764_0DBAC04101D3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: bfeb891b03178d6ced7ea4da4f732ffe819add6ae67b7a713c342ae83ffa6793
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_3B8B96EF_365F_485B_B764_0DBAC04101D3"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_B6695325_C226_4F1E_A9A5_0770AE2E158C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 54fa00bc2b80c8d98215d01d2311013d6201718a27927cb2b674a8f565454cfa
+#. default-sha256: 8e35367e22f6c2742c223e7cf94e5ceae38539188d3177d70099bc37c621f3da
+msgctxt "scenario9:scenario9_B6695325_C226_4F1E_A9A5_0770AE2E158C"
+msgid "⟪k:0⟫It’s nothing..."
+msgstr "⟪k:0⟫……没事的，⟪k:1⟫哥哥……"
+
+#: scenario9:scenario9_02E287BF_6F6D_4117_AFE2_4F0649312FD1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 30baa163bc4ec9eedde3a4cea36b451f1e1dba970a3fb341f1b2f7343e9da978
+#. default-sha256: 79da41d3f9a52d7431b326f18aaa5aaf9a03d06fbdd39478dfdd3350a769c328
+msgctxt "scenario9:scenario9_02E287BF_6F6D_4117_AFE2_4F0649312FD1"
+msgid "⟪k:0⟫I’ve made... ⟪k:1⟫the same terrible mistake once more..."
+msgstr "⟪k:0⟫我……⟪k:1⟫又犯错了吗……？"
+
+#: scenario9:scenario9_9181B769_6208_448A_82C9_EF20C9FFC767
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 795b72c6703364ed4bb3a8c7993b8816ee37da8a685d2070423be9ec5c5bbdee
+#. default-sha256: 9440133f9c33c4ffdb7e35665c2080b9751157a37c34d7f53e0cdfade7e3a8c3
+msgctxt "scenario9:scenario9_9181B769_6208_448A_82C9_EF20C9FFC767"
+msgid "⟪k:0⟫It’s all right, Didier..."
+msgstr "⟪k:0⟫……已经，⟪k:1⟫没事了……"
+
+#: scenario9:scenario9_28714D78_C1E0_4906_97F3_0935E38A2D86
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d9137691087d53a78544249075775e0629b51733af0a03666c78b30695cb2243
+#. default-sha256: 21866637ea47858a4636a5bf143bb2936ea8c3dcf3059de1eac566c417867725
+msgctxt "scenario9:scenario9_28714D78_C1E0_4906_97F3_0935E38A2D86"
+msgid "⟪k:0⟫Cast judgment upon me!"
+msgstr "⟪k:0⟫请……⟪k:1⟫给我制裁吧……！"
+
+#: scenario9:scenario9_F154E5C1_6451_46A6_B8A6_C12A691C16FD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 406ff162351a4b8ae973e17d49cc24fbe24de6a12d7a3b5f78d56d7d3def276d
+#. default-sha256: 38bd55a5ccab03478d5489a660fcf51086f774a048a337043540d6c2544f4f57
+msgctxt "scenario9:scenario9_F154E5C1_6451_46A6_B8A6_C12A691C16FD"
+msgid "⟪k:0⟫It’s all... ⟪k:1⟫all in the past...⟪k:2⟫⟪k:3⟫Judgment is not necessary, for anyone..."
+msgstr "⟪k:0⟫已经……⟪k:1⟫没有必要去制裁谁了……"
+
+#: scenario9:scenario9_5CF2CD48_E310_4FAD_B499_37C21D4ADB22
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 56be35e222e3ace18129027c194de57da4a9d4b670bf146cf8fb99d84eabfb40
+#. default-sha256: 2cbac61980686e0460e88d219db357a88a4f24ee900eb9afa0ccf16b38a2da9b
+msgctxt "scenario9:scenario9_5CF2CD48_E310_4FAD_B499_37C21D4ADB22"
+msgid "⟪k:0⟫Michel..."
+msgstr "⟪k:0⟫……米歇尔……"
+
+#: scenario9:scenario9_B09E8AD9_4A69_481E_86D3_AEAB3AE6E314
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 280dd34377181f21301f7bfc7916c3519ea0fa6d1d68eda59573f1a624d5bab5
+#. default-sha256: 57f8eecc85e0e0c09b5a6694cd10d184a867024ce3bb23ec00d0823745715dbe
+msgctxt "scenario9:scenario9_B09E8AD9_4A69_481E_86D3_AEAB3AE6E314"
+msgid "⟪k:0⟫You were crying, weren’t you?"
+msgstr "⟪k:0⟫……你当时，⟪k:1⟫在哭吧……"
+
+#: scenario9:scenario9_CEED195B_07E7_45FB_B167_85DC9BEB0FF1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4a1ed7e52317c9b59627c5101c0a0ea8088a1780ba4d29e007e9797ff2ffe602
+#. default-sha256: 5fce72d7cb3a2b36c5a4308d30c29dc6e807320e0d98fdfda2df8bc139defe5d
+msgctxt "scenario9:scenario9_CEED195B_07E7_45FB_B167_85DC9BEB0FF1"
+msgid ""
+"⟪k:0⟫You bore a great deal of responsibility in life.⟪k:1⟫⟪k:2⟫As the Bollingers’ firstborn, you "
+"were obligated to protect the family’s honor..."
+msgstr ""
+"⟪k:0⟫你承担了……⟪k:1⟫许多的责任……⟪k:2⟫⟪k:3⟫作为长子，⟪k:4⟫作为骑士，⟪k:5⟫不得不捍卫家族的名誉……"
+
+#: scenario9:scenario9_6BAD0FFB_D14E_4AB5_B6E6_E6CC16BE07B0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 77cf8a833d4aed84ce7b05775918625c85e46c2ff018185d9f6b2e301136c9dc
+#. default-sha256: 5f5d03de9df7fad09ae7fcdae04a7b8d08400c0faa0762edb7771ac75f942d2a
+msgctxt "scenario9:scenario9_6BAD0FFB_D14E_4AB5_B6E6_E6CC16BE07B0"
+msgid ""
+"⟪k:0⟫and as a knight of the Church...⟪k:1⟫⟪k:2⟫you were tasked with the duty of my execution..."
+msgstr "⟪k:0⟫因为背负了沉重的责任……⟪k:1⟫所以才……处死我的吧……？"
+
+#: scenario9:scenario9_185FFB47_8CCA_402E_A827_C27B3F0CBFD6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f06abb70d08a17d52da30056f609e6da6c52d48aab72d9ad4e53b4b05a93138a
+#. default-sha256: 2596a7aab9c30725fd74457411738d88ee02aee2833c8bd3e9c89f3c7c86cdd5
+msgctxt "scenario9:scenario9_185FFB47_8CCA_402E_A827_C27B3F0CBFD6"
+msgid "⟪k:0⟫You trusted me... ⟪k:1⟫You believed in me to the very end... ⟪k:2⟫and I killed you!"
+msgstr "⟪k:0⟫你直到最后……⟪k:1⟫都信任着我……⟪k:2⟫⟪k:3⟫我……怎么能亲手杀掉你……！"
+
+#: scenario9:scenario9_B55FF1CF_F8A8_4CC9_853C_6C29FC129E97
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cf274c7d67e0bbf8354fb19724d93d398c0b6286f4684a612e094874ec8a3395
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_B55FF1CF_F8A8_4CC9_853C_6C29FC129E97"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_5F61DABD_4FDF_40C6_9AE1_1456EB8054A4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e756a8384bfe1e0dc20705810e6136f1f1f5b93a189dacba72c733ccd4522439
+#. default-sha256: 7cc189b6613829a8d71b8dd7e8e7b398708ec4a7b01db1aec0f9ac0fa2fec87e
+msgctxt "scenario9:scenario9_5F61DABD_4FDF_40C6_9AE1_1456EB8054A4"
+msgid "⟪k:0⟫And I robbed you of your life!"
+msgstr "⟪k:0⟫我居然杀了你……！"
+
+#: scenario9:scenario9_946D6C26_A76E_4A08_806B_F0E3CF389F4D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: bfeb891b03178d6ced7ea4da4f732ffe819add6ae67b7a713c342ae83ffa6793
+#. default-sha256: d02989f0a4281aaba62e649af9c739240e481475646ac17d289b90b0d401df39
+msgctxt "scenario9:scenario9_946D6C26_A76E_4A08_806B_F0E3CF389F4D"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………"
+
+#: scenario9:scenario9_E705A201_66EF_45E6_BE7E_29B4CFBA0413
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8c446254bbd756f6aac9d8d2969ce0a50e7e08d4a191cdc4acb110cc1c7b4160
+#. default-sha256: 3e336d966a20b4e37be7582a76f5e4389cbb40e767970d704f8d06632641760e
+msgctxt "scenario9:scenario9_E705A201_66EF_45E6_BE7E_29B4CFBA0413"
+msgid "⟪k:0⟫Mnh...!"
+msgstr "⟪k:0⟫……呜……！"
+
+#: scenario9:scenario9_048FC5AE_3FCA_498E_9A4E_EB199A65A4E5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f224965f8a6ba2683d1d21ea8d59ac4a62bea10f7bc2fa1b432527bbc3082ddd
+#. default-sha256: 2e913c906bdd1dd4e2e34627a2b58e2f16fd3dd868743679b0be18ee0fcd34c0
+msgctxt "scenario9:scenario9_048FC5AE_3FCA_498E_9A4E_EB199A65A4E5"
+msgid "⟪k:0⟫There’s something... ⟪k:1⟫I never had the chance to tell you, Didier."
+msgstr "⟪k:0⟫……哥哥……⟪k:1⟫有句话我没能说出口。"
+
+#: scenario9:scenario9_380465CD_1096_4149_9948_EA725D371744
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ee5565fa9d15bd02c680c887d733a14aabb02acc55eb1bb4e87c299d19dcfb6f
+#. default-sha256: f5c63ee8d9e0e2f18546f99bf5422f5be1efb62804c77559ae51beca10ee22b5
+msgctxt "scenario9:scenario9_380465CD_1096_4149_9948_EA725D371744"
+msgid "⟪k:0⟫And I hope... ⟪k:1⟫you’ll allow me to wish for the same...!"
+msgstr "⟪k:0⟫请允许我也……⟪k:1⟫有此愿望……！"
+
+#: scenario9:scenario9_0333ADAC_D37F_44EC_ADA6_618F066C7FDE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 56be35e222e3ace18129027c194de57da4a9d4b670bf146cf8fb99d84eabfb40
+#. default-sha256: 2cbac61980686e0460e88d219db357a88a4f24ee900eb9afa0ccf16b38a2da9b
+msgctxt "scenario9:scenario9_0333ADAC_D37F_44EC_ADA6_618F066C7FDE"
+msgid "⟪k:0⟫I love you, Michel..."
+msgstr "⟪k:0⟫……米歇尔……"
+
+#: scenario9:scenario9_AA1B94ED_5378_439A_8D49_80C7A33DFD63
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: eecd07292b471d88a09e2a27a63a4c994a6e395c62fab19c8f3770b7af77bbc0
+#. default-sha256: 4c38e4e8730ef0e5c60159aaa093f90851b45228e06b30b5f1393e1c6c59a615
+msgctxt "scenario9:scenario9_AA1B94ED_5378_439A_8D49_80C7A33DFD63"
+msgid "⟪k:0⟫但笑得是否自然，⟪k:1⟫我也不清楚。"
+msgstr "⟪k:0⟫但笑得是否自然，⟪k:1⟫我也不清楚。"
+
+#: scenario9:scenario9_7EF83789_5263_45F3_B3E1_7116D98C39DF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 844c15bf36643d86f1378653bcf65db65aac01b727a45f65a729b14cec7a6aba
+#. default-sha256: ca8b2795f98f9f8f1b7d1aa18a5d5c483c344dd5b7c3084d1e7e09be26bf82d9
+msgctxt "scenario9:scenario9_7EF83789_5263_45F3_B3E1_7116D98C39DF"
+msgid "⟪k:0⟫be it ten or a thousand years from now..."
+msgstr "⟪k:0⟫我祈愿，⟪k:1⟫我们三人……"
+
+#: scenario9:scenario9_CF7B098F_C32F_41C7_84FA_E15B11473BDC
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b02599bec55ed9eb271c4b5b12d92200b12cfd6d93077d3ebc23bd96cc6ec197
+#. default-sha256: 1866b8d417a209ffc5a732acaa4c2cebcb1c11795fedc148ad8a1a8697aacd5e
+msgctxt "scenario9:scenario9_CF7B098F_C32F_41C7_84FA_E15B11473BDC"
+msgid "⟪k:0⟫the three of us can be reunited..."
+msgstr "⟪k:0⟫能够重聚……"
+
+#: scenario9:scenario9_0839CA75_53A1_4CB5_8A24_74BC237EC670
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d13eb448c6c4eca70cacdc62dc5bc9d3a3ac3404e1d811a818a29ff52b0c2aa1
+#. default-sha256: 1e35f6832482ef47e304a2fbc42c87668b6d7324564f7c8f5cc0cdd7d78f91c9
+msgctxt "scenario9:scenario9_0839CA75_53A1_4CB5_8A24_74BC237EC670"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Morgana..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫……莫尔加娜……"
+
+#: scenario9:scenario9_C4AD0DB2_5552_4F09_8E0C_223EBFF6D04D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2492afd8d708a1bdb3b5b5bc022217c2e5c89724f6e150dc57871ee7b9f90f56
+#. default-sha256: 042245e05a8d557e10612e010ff846f47f9f06e6661fe7653b0022705e67a825
+msgctxt "scenario9:scenario9_C4AD0DB2_5552_4F09_8E0C_223EBFF6D04D"
+msgid "⟪k:0⟫No, I won’t cry."
+msgstr "⟪k:0⟫我不会……⟪k:1⟫哭泣的……"
+
+#: scenario9:scenario9_3FC864FF_F03F_494D_B478_A20BFBE9B9F6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 870794f5a0c8341f7452b78f00cf350a0ce0c1940874f58775055dbbcef7c471
+#. default-sha256: 6bd6590349a2e1f6a1512d3cf5753440579f3af8848ddccb348c5afd800b804f
+msgctxt "scenario9:scenario9_3FC864FF_F03F_494D_B478_A20BFBE9B9F6"
+msgid "⟪k:0⟫I’ll save my tears for our reunion."
+msgstr "⟪k:0⟫直到再会之时……⟪k:1⟫我都会将泪水深藏于心……"
+
+#: scenario9:scenario9_6C3783D7_A7FD_4537_86EA_13DC082C72A9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ff64da5b07e0a3c7ab18dfe86b963c413001b1947bdf04851b1c701f5ca563a3
+#. default-sha256: 6dc5b960e55639d3a4fdb8cfc889984115cff758dd44f718ca1e8006e77b0ae0
+msgctxt "scenario9:scenario9_6C3783D7_A7FD_4537_86EA_13DC082C72A9"
+msgid "⟪k:0⟫That painting... ⟪k:1⟫It didn’t have to get itself destroyed."
+msgstr "⟪k:0⟫……那幅画……⟪k:1⟫要是没有坏掉……就好了呢。"
+
+#: scenario9:scenario9_317680E7_F321_4248_9590_B8ABD580DB81
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 627bafa5641d6b38d974ecd766d013a64f2b56e5f53487e5a67de2b76028cc01
+#. default-sha256: 371ae450d795bcc856e5fbda8a7e2289bb30b283fa068b7047396c472ede9956
+msgctxt "scenario9:scenario9_317680E7_F321_4248_9590_B8ABD580DB81"
+msgid "⟪k:0⟫⟪k:1⟫.................."
+msgstr "⟪k:0⟫⟪k:1⟫………………"
+
+#: scenario9:scenario9_0E1FD46F_0F30_4CDF_A6AF_7119FB4893DF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 531e06db52df527004d31f60b628aae8bf900ee64958d50a48ca31b00cbdfdc0
+#. default-sha256: ea247dfab86d8338f0fffa5c009d5c2145a97502dc70a4d2ba4a9183de2f889b
+msgctxt "scenario9:scenario9_0E1FD46F_0F30_4CDF_A6AF_7119FB4893DF"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Would you mind... ⟪k:3⟫giving me a hand, Morgana?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫莫尔加娜……⟪k:3⟫能稍微……扶我一把吗……"
+
+#: scenario9:scenario9_2E48F41C_1F3D_4D39_AE3E_0C503DCD39D8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1bf90ee1f575f60fa7797253c8ed7b90e14826a741b9fbde20f404895928cef7
+#. default-sha256: a67a75dea131bb7eae93bc81c75283db831af57bddc6ac52f8c5b747f8739852
+msgctxt "scenario9:scenario9_2E48F41C_1F3D_4D39_AE3E_0C503DCD39D8"
+msgid "⟪k:0⟫There’s not much in the way of pain, strangely...⟪k:1⟫⟪k:2⟫only creeping exhaustion."
+msgstr "⟪k:0⟫不可思议的是并不觉得疼痛……⟪k:1⟫⟪k:2⟫只有强烈的疲劳感侵蚀着我。"
+
+#: scenario9:scenario9_7178EAD1_7DA7_44D9_A7FF_206F47F7509E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ce8e970fca78ed0ed85c28caee12c8a2c9caa602ed0e5e683219829dc85c7ea3
+#. default-sha256: 266b04703ed2922c4aeaf9c4030183452b9c0e3fd5acaa1144a52d21eaf67ba7
+msgctxt "scenario9:scenario9_7178EAD1_7DA7_44D9_A7FF_206F47F7509E"
+msgid "⟪k:0⟫Leaning on Morgana, we make our way back to the entrance."
+msgstr "⟪k:0⟫只要精神稍不集中，⟪k:1⟫就会倒在地上——⟪k:2⟫⟪k:3⟫我借助她的搀扶，⟪k:4⟫再次站于门扉之前。"
+
+#: scenario9:scenario9_00C1E2AD_DFC1_42CC_B5C9_8A4292123B11
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: dec9c84142b6da8a74984e6449b8a0b650ec42f734d91bb2ab26b0af61e8a480
+#. default-sha256: 6acd0ff8a216f6b9177e6ad878e4b3118cf11b596b1ee5db2e00e9d234551ad1
+msgctxt "scenario9:scenario9_00C1E2AD_DFC1_42CC_B5C9_8A4292123B11"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………"
+
+#: scenario9:scenario9_D860A4FD_49D0_490D_8989_BA2861D1BF62
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c622cfdb33835dabf2b7c635c0132adb541e8d08a855229f368c24b1ffe5fe11
+#. default-sha256: 36c8e26defbf581f97f1dd1c7aef02c6092e3bda48a4b24b165574146a78fd88
+msgctxt "scenario9:scenario9_D860A4FD_49D0_490D_8989_BA2861D1BF62"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Let’s open the door... ⟪k:3⟫together..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫把门……⟪k:3⟫打开吧。⟪k:4⟫用我们的手……"
+
+#: scenario9:scenario9_6E63D789_D498_4779_A36C_726BD685A0C7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0386653df1628d4dbbc01993922922cc926efc733797d00e2e41990f176a28fa
+#. default-sha256: cf54210950645a83777fbc078096e369efcc2d1ac0c1c3cb5a2e10814726cc5a
+msgctxt "scenario9:scenario9_6E63D789_D498_4779_A36C_726BD685A0C7"
+msgid "⟪k:0⟫Start anew... ⟪k:1⟫brighter..."
+msgstr "⟪k:0⟫开始……⟪k:1⟫我们的……新生……"
+
+#: scenario9:scenario9_1C52C966_1F13_4C99_A3DB_8374617437DA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 64fb3330c7071fefa8811c922752b5ae003712ffd0ed150549f6821ee44c78ff
+#. default-sha256: 4a4e9f21a68e07051750f4457662adc249bec48f904b40e8208376778bde969d
+msgctxt "scenario9:scenario9_1C52C966_1F13_4C99_A3DB_8374617437DA"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫I take in a deep breath..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫深呼吸……"
+
+#: scenario9:scenario9_6CE93532_9941_41A7_B348_B7701A4A8DF1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8ff8cb839999bd3514a417fdd6272b1b1a885ad48dca688cf30c044faca7c79a
+#. default-sha256: a6717f6b5a1a839056d684d8a42196295a8e1cae5ebf5621c47e2a07c42c23a2
+msgctxt "scenario9:scenario9_6CE93532_9941_41A7_B348_B7701A4A8DF1"
+msgid "⟪k:0⟫to a new beginning."
+msgstr "⟪k:0⟫而是为了重新开始……"

@@ -1,0 +1,18 @@
+import {readFile,writeFile,mkdir,copyFile} from 'node:fs/promises';
+import path from 'node:path';
+import {decodeWire,encodeWire} from 'galbox-sdk/wire';
+import {createModuleProgram} from 'galbox-sdk/port-kit';
+import {inspectResource} from 'galbox-sdk/release';
+import {parseJsonValue} from 'galbox-sdk/protocol';
+import type {Asset} from 'galbox-sdk/protocol';
+import {readDoorIR} from './door-ir.js';
+import {readDoorText} from './door-text.js';
+import {sourceChoices} from './door-segments.js';
+import {chapters} from './chapter-catalog.js';
+import {languages,hash} from './locale.js';
+import {localeInfo} from '../src/locales.js';
+import {requireValue} from './kag.js';
+const root='generated/search2-full',read=async(p:string)=>new Uint8Array(await readFile(p));
+for(const locale of languages.filter(l=>process.argv[2]==='all'||l===(process.argv[2]??'zh'))){const manifest=decodeWire('ModuleManifest',await read(`${root}/programs/${locale}.modules.pb`)),source=createModuleProgram(manifest),files=await Promise.all(manifest.modules.map(async m=>decodeWire('ProgramModule',await read(root+'/'+m.uri))));source.installAll(files);const raw=await readFile(`private/text/${locale}/scenario/search2.ks`,'utf8'),macro=await readFile(`private/text/${locale}/scenario/macro.ks`,'utf8'),ir=await readDoorIR(raw,localeInfo[locale].html,{chapter:chapters.find(c=>c.id==='search2')!,catalogRoot:'locales'}),menus=sourceChoices(ir);ir.tokens=ir.tokens.filter((_,n)=>!menus.some(m=>n>=m.start&&n<m.end));const story=readDoorText(ir,macro,['jp','zh','ko'].includes(locale)?22:18,{namespace:'search2',extended:true,historyPolicy:true}),history=[...new Map(story.nodes.flatMap(n=>n.kind==='text'?[[n.paragraph.id,{id:n.paragraph.id,key:n.speaker.key,centered:n.historyCentered}]as const]:[])).values()],rules=decodeWire('JsonValue',await read(`${root}/programs/${locale}.rules.pb`));requireValue(rules&&typeof rules==='object'&&!Array.isArray(rules)&&Array.isArray(rules.images),'SEARCH2_RULES');const assets:Asset[]=[],resources=[];
+ for(const row of rules.images){requireValue(row&&typeof row==='object'&&!Array.isArray(row)&&typeof row.mask==='string','SEARCH2_MASK');if(source.catalog().some(a=>a.id===row.mask)||assets.some(a=>a.id===row.mask))continue;const match=/^rule-mask-([a-f0-9]{20})$/u.exec(row.mask);requireValue(match,'SEARCH2_MASK_ID');const bytes=await read('public/assets/'+match[1]+'.png'),sha256=hash(bytes);requireValue(sha256.startsWith(match[1]!), 'SEARCH2_MASK_SHA');const asset:Asset={id:row.mask,kind:'image',path:`assets/locales/${localeInfo[locale].html}/images/${sha256}.png`,sha256,mime:'image/png'};assets.push(asset);resources.push(inspectResource(asset,bytes,b=>new TextDecoder().decode(b)));await mkdir(path.dirname(root+'/'+asset.path),{recursive:true});await copyFile('public/assets/'+match[1]+'.png',root+'/'+asset.path);}
+ const at=files.flatMap(f=>f.functions).flatMap(f=>f.code).filter(i=>i.op==='text.rich'&&i.textId.startsWith('search2:')).map(i=>i.at),title=ir.tokens.flatMap(t=>t.kind==='label'&&t.title?[t.title]:[])[0]??manifest.header.title,meta=parseJsonValue({history:Array.from({length:Math.ceil(history.length/256)},(_,n)=>history.slice(n*256,(n+1)*256)),chapters:Array.from({length:Math.ceil(at.length/256)},(_,n)=>({title:title??' ',addresses:at.slice(n*256,(n+1)*256)})),autoAt:manifest.points?.map(p=>p.at)??[],uiAutoAt:manifest.points?.filter(p=>p.kind==='ui').map(p=>p.at)??[],textAutoAt:manifest.points?.filter(p=>p.kind==='text').map(p=>p.at)??[],rulePresentation:rules,presentationAssets:{version:1,assets,resources}});await writeFile(`${root}/programs/${locale}.title.pb`,encodeWire('JsonValue',meta));console.log({locale,history:history.length,visualAssets:assets.length});}

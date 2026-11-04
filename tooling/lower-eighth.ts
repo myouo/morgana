@@ -1,0 +1,42 @@
+import {instruction,branchExpression,expr,variable,literal} from 'galbox-sdk/port-kit';
+import type {ProgramBuilder} from 'galbox-sdk/port-kit';
+import {bool,string} from 'galbox-sdk/protocol';
+import type {Instruction} from 'galbox-sdk/protocol';
+import {lowerDoor} from './lower-door.js';
+import type {DoorContext} from './lower-door.js';
+import {forkDoor,prepareDoorChoice} from './door-routes.js';
+import {readDoorIR} from './door-ir.js';
+import type {DoorIR} from './door-ir.js';
+import {sourceChoices,doorSegment,menuIR} from './door-segments.js';
+import {chapters} from './chapter-catalog.js';
+import {localeInfo} from '../src/locales.js';
+import type {Language} from './locale.js';
+import type {Content} from './content.js';
+import {requireValue,literalArg,strictArgs} from './kag.js';
+/** The finite ninth-choice chapter graph. Control flow is emitted as SDK data. */
+export async function lowerEighth(b:ProgramBuilder,content:Content,locale:Language,source:string,macro:string,fontSize:number){
+ const spec=chapters.find(c=>c.id==='scenario8')!,ir=await readDoorIR(source,localeInfo[locale].html,{chapter:spec,catalogRoot:'locales'}),choices=sourceChoices(ir),bodies:Awaited<ReturnType<typeof lowerDoor>>[]=[],menus:{at:string;value:Awaited<ReturnType<typeof prepareDoorChoice>>}[]=[],used=new Set(ir.tokens.filter(t=>['page-start','page-end','label'].includes(t.kind))),code:Instruction[]=[];
+ requireValue(choices.length===9,'EIGHTH_CHOICE_COUNT');b.global({id:'original.eighth-choice',kind:'string',initial:string('')}).global({id:'original.return-title',kind:'bool',initial:bool(false)}).global({id:'original.kinoue',kind:'bool',initial:bool(false)});
+ const label=(name:string)=>{const n=ir.tokens.findIndex(t=>t.kind==='label'&&t.name===name);requireValue(n>=0,'EIGHTH_LABEL '+name);return n;},part=(a:number,z:number)=>doorSegment(ir,a,z),ret=(at:string)=>instruction('control.return',{at}),jump=(at:string,target:string)=>instruction('control.jump',{at,target});
+ const unknown=(c:DoorContext)=>{const out=forkDoor(c);out.stage.markUnknownAssets();return out;};
+ async function lower(input:DoorIR,id:string,c?:DoorContext){input.tokens.forEach(t=>used.add(t));const out=await lowerDoor(b,content,locale,source,macro,fontSize,{chapter:spec,catalogRoot:'locales',namespace:'door8',functionNamespace:id,instructionNamespace:id,ir:input,specializedIR:true,segmentAtLabels:true,compactTiming:true,dynamicGeometry:true,proceduralEffects:true,proceduralHeartbeat:true,opacityObject:'text-opacity',...(c?{context:c}:{})});bodies.push(out);out.context.stage.canonicalizePages();return {out,end:out.context.stage.take()};}
+ const opening=await lower(part(0,choices[0]!.start),'eighth-opening');code.push(...opening.out.code,...opening.end);let context:DoorContext=opening.out.context;
+ function loopJump(a:number,target:string){const z=ir.tokens.findIndex((t,n)=>n>a&&t.kind==='tag'&&t.name==='jump'&&t.args.target==='*'+target&&t.args.storage===undefined);requireValue(z>a,'EIGHTH_MERGE '+target);return z;}
+ function titleJump(a:number){const z=ir.tokens.findIndex((t,n)=>n>a&&t.kind==='tag'&&t.name==='jump'&&t.args.storage==='first.ks');requireValue(z>a,'EIGHTH_BAD_END');return z;}
+ async function menu(n:number){const choice=choices[n]!;choice.tokens.forEach(t=>used.add(t));const value=await prepareDoorChoice(menuIR(ir,choice.tokens),unknown(context),content,locale,fontSize,{minimum:[2,2,3,3,3,2,5,2,2][n]!,maximum:[2,2,3,3,3,2,5,2,2][n]!}),at='door8:choice'+n;menus.push({at,value});code.push(...value.code,instruction('choice',{at,dest:'original.eighth-choice',options:value.options.map((o,k)=>({id:o.id,text:o.text,target:'eighth:branch'+n+'-'+k}))}));return value;}
+ async function merged(n:number,names:string[],common:string,nextChoice:number){const value=await menu(n);requireValue(value.destinations.every((d,k)=>d.target===names[k]&&!d.storage),'EIGHTH_CHOICE_TARGETS '+n);const base=unknown(value.context);for(const [k,name]of names.entries()){const a=label(name),r=await lower(part(a,loopJump(a,common)),'eighth-option-'+n+'-'+k,unknown(base));code.push(...r.out.code.map((i,j)=>j?i:{...i,at:'eighth:branch'+n+'-'+k}),...r.end,jump('eighth:merge'+n+'-'+k,'eighth:common'+n));}context=base;return async()=>{const r=await lower(part(label(common),choices[nextChoice]!.start),'eighth-common-'+n,unknown(context));code.push(...r.out.code.map((i,k)=>k?i:{...i,at:'eighth:common'+n}),...r.end);context=r.out.context;};}
+ const value0=await menu(0),names0=['木の上で寝てた','私は神だ'];requireValue(value0.destinations.every((d,n)=>d.target===names0[n]&&!d.storage),'EIGHTH_FIRST_TARGETS');const base0=unknown(value0.context);for(const [n,name]of names0.entries()){const a=label(name),r=await lower(part(a,loopJump(a,'メル共通')),'eighth-first-'+n,unknown(base0));code.push(...r.out.code.map((i,k)=>k?i:{...i,at:'eighth:branch0-'+n}),...r.end,jump('eighth:first-merge'+n,'eighth:mel-common'));}
+ const condition=ir.tokens.findIndex((t,n)=>n>label('メル共通')&&t.kind==='tag'&&t.name==='if'&&t.args.exp?.replace(/\s/gu,'')==='f.kinoue==true'),conditionEnd=ir.tokens.findIndex((t,n)=>n>condition&&t.kind==='tag'&&t.name==='endif');requireValue(condition>0&&conditionEnd>condition,'EIGHTH_KINOUE_CONDITION');const before=await lower(part(label('メル共通'),condition),'eighth-mel-before',unknown(base0)),inside=await lower(part(condition+1,conditionEnd),'eighth-mel-tree',unknown(before.out.context)),after=await lower(part(conditionEnd+1,choices[1]!.start),'eighth-mel-after',unknown(before.out.context));code.push(...before.out.code.map((i,k)=>k?i:{...i,at:'eighth:mel-common'}),...before.end,branchExpression('eighth:kinoue',expr.variable(variable('original.kinoue','bool')),'eighth:tree','eighth:after-tree'),...inside.out.code.map((i,k)=>k?i:{...i,at:'eighth:tree'}),...inside.end,...after.out.code.map((i,k)=>k?i:{...i,at:'eighth:after-tree'}),...after.end);context=after.out.context;
+ async function endingChoice(n:number,bad:string,good:string,nextChoice?:number){const value=await menu(n),base=unknown(value.context),last=nextChoice===undefined?ir.tokens.findIndex(t=>t.kind==='tag'&&t.name==='jump'&&t.args.storage==='scenario9.ks'):choices[nextChoice]!.start;requireValue(last>0,'EIGHTH_NEXT_BOUNDARY');for(const [k,d]of value.destinations.entries()){requireValue(!d.storage&&[bad,good].includes(d.target),'EIGHTH_END_CHOICE '+n);const a=label(d.target),r=await lower(part(a,d.target===bad?titleJump(a):last),'eighth-ending-'+n+'-'+k,unknown(base));code.push(...r.out.code.map((i,j)=>j?i:{...i,at:'eighth:branch'+n+'-'+k}),...r.end);if(d.target===bad)code.push(instruction('value.set',{at:'eighth:failed'+n,dest:'original.return-title',value:literal(bool(true))}),ret('eighth:bad-return'+n));else{code.push(jump('eighth:next'+n,'eighth:continue'+n));context=r.out.context;}}code.push(jump('eighth:continue'+n,'pending'));}
+ await endingChoice(1,'すべてを告げる','今は様子を見る',2);
+ await(await merged(2,['昼寝','ネリー','演劇'],'ネリーと会話共通',3))();
+ await(await merged(3,['優しい','八方美人','へたれ'],'ネリーと会話共通2',4))();
+ await(await merged(4,['男の顔をじろじろ見たくない','まあ、美形かな……','私の方がイケメン'],'ネリーと会話共通3',5))();
+ await endingChoice(5,'ここに留まる','ネリーを追う',6);
+ await(await merged(6,['マリーア','ネリーがいい','ポーリーン','心に決めた人がいる','女に興味はない'],'恋バナ共通',7))();
+ await endingChoice(7,'それでも送る','ここで別れる',8);
+ await endingChoice(8,'領主を突き飛ばした','暗闇に手を伸ばした');code.push(ret('eighth:return'));
+ for(let n=0;n<code.length;n++){const i=code[n];if(i?.op==='control.jump'&&i.target==='pending'){const next=code[n+1];requireValue(next,'EIGHTH_LABEL_BODY');i.target=next.at;}}
+ for(const [n,t]of ir.tokens.entries()){if(used.has(t)||t.kind==='text'&&!t.text.trim())continue;requireValue(t.kind==='tag','EIGHTH_UNCONSUMED');if(t.name==='jump'){strictArgs(t,['storage','target']);requireValue(t.args.storage==='first.ks'||t.args.storage==='scenario9.ks'||['*メル共通','*ネリーと会話共通','*ネリーと会話共通2','*ネリーと会話共通3','*恋バナ共通'].includes(t.args.target??''),'EIGHTH_UNKNOWN_JUMP');}else if(t.name==='s')strictArgs(t,[]);else if(t.name==='if'){strictArgs(t,['exp']);requireValue(n===condition&&literalArg(t,'exp').replace(/\s/gu,'')==='f.kinoue==true','EIGHTH_UNKNOWN_IF');}else if(t.name==='endif'){strictArgs(t,[]);requireValue(n===conditionEnd,'EIGHTH_UNKNOWN_ENDIF');}else throw new Error('EIGHTH_UNCONSUMED_TAG '+t.name+':'+t.source.line);}
+ b.function({id:'eighth-route',entry:code[0]!.at,layout:1,params:[],locals:[],returns:'void',code});return {opening:opening.out,bodies,menus,code:[instruction('control.call',{at:'eighth:enter',function:'eighth-route',args:[]})]};
+}

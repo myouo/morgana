@@ -1,0 +1,11 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {seventhStructure} from '../tooling/lower-seventh.js';
+import {readDoorIR} from '../tooling/door-ir.js';
+import {chapters} from '../tooling/chapter-catalog.js';
+import {languages} from '../tooling/locale.js';
+import {localeInfo} from '../src/locales.js';
+import {sourceMotions} from '../tooling/source-motion.js';
+test('all source seventh-door timers continue after three seconds and reject a changed callback',async()=>{for(const locale of languages){const raw=await readFile(`private/text/${locale}/scenario/scenario7.ks`,'utf8'),ir=await readDoorIR(raw,localeInfo[locale].html,{chapter:chapters.find(c=>c.id==='scenario7')!,catalogRoot:'locales'});assert.equal(seventhStructure(ir).deadlineMs,3000);const changed={...ir,tokens:ir.tokens.map(t=>t.kind==='script'?{...t,text:t.text.replace('*諦めない','*諦める')}:t)};assert.throws(()=>seventhStructure(changed),/TIMER_PROFILE/);}});
+test('a source zero-time duplicate motion endpoint is a no-op while an instant jump is refused',()=>{const motion=sourceMotions(['[motion_define name="slide" locatex="(-800,1800,-2),(-800,0,1)"]'],true)('slide');assert.deepEqual(motion.tracks,[{axis:'x',from:0,segments:[{to:-1280,duration:1800,easing:'ease-out'}]}]);assert.equal(motion.loop,false);assert.throws(()=>sourceMotions(['[motion_define name="jump" locatex="(-800,1800,-2),(0,0,1)"]'],true)('jump'),/MOTION_ZERO_TIME_CHANGE/);});

@@ -1,0 +1,2097 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: morgana-chapters\n"
+"PO-Revision-Date: 2026-10-28 00:00+0000\n"
+"Last-Translator: Community contributors\n"
+"Language-Team: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: scenario8:scenario8_76FBBA23_2D93_438D_B240_ED852C25C9D9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2b037a3df7bb27f8971396ed35cf2e727b029647545183994121a46e64937b31
+#. default-sha256: 38b0ee7a93f1cdeded9976146cdcb6c8fa5268e906123b6041093d2f3439566c
+msgctxt "scenario8:scenario8_76FBBA23_2D93_438D_B240_ED852C25C9D9"
+msgid "⟪k:0⟫But..."
+msgstr "⟪k:0⟫……でも……。"
+
+#: scenario8:scenario8_7F082944_FB5E_460D_A319_A9F61281D8E1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 35d56c5977a19e6488c011622d244642b98246008c40d03ab963471af7fede78
+#. default-sha256: ebb8dbe630102fe29ffc8cfa496d48a45ac16b09ec227bb87d16f6d95a2eafa9
+msgctxt "scenario8:scenario8_7F082944_FB5E_460D_A319_A9F61281D8E1"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………。"
+
+#: scenario8:scenario8_2D5AFC92_BF4D_4BB3_A8CF_FF032771CBB8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 444b5d0406922b3d64cf45f446d0faa752b8bc71161b4893387c19b49fadd7e0
+#. default-sha256: a2a73e1515ecebe644b67f8e3a58433a5c42f9824e0456f1b613ac3223e1d336
+msgctxt "scenario8:scenario8_2D5AFC92_BF4D_4BB3_A8CF_FF032771CBB8"
+msgid "⟪k:0⟫The boy has a point.⟪k:1⟫⟪k:2⟫If she won’t eat, we lose our supply of blood."
+msgstr "⟪k:0⟫そうだな――、⟪k:1⟫食ってもらわんと血がなくなるかもしれんからな？"
+
+#: scenario8:scenario8_A9BA40EB_A7F7_4952_81E6_A8C15D1880B3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f431039a7e1249369ea716d11858b07202a43e1c580e8eefb45b65200860fbbe
+#. default-sha256: db2f100744199afaa4318551745c7d6df81d2773e0eca5b7a85b5b0c8b93303e
+msgctxt "scenario8:scenario8_A9BA40EB_A7F7_4952_81E6_A8C15D1880B3"
+msgid "⟪k:0⟫That’s not what I meant!"
+msgstr "⟪k:0⟫……そういう意味じゃ……！"
+
+#: scenario8:scenario8_9CEE4C22_963F_429F_8953_F8A905EFCF13
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 70a004e290129c6407997d797c2a3f02c4084694658e0f94550b80463e70994f
+#. default-sha256: e99781c4b8952068f0c3d3f141c65108c13a307dd40484b1a6d9383148ed82e1
+msgctxt "scenario8:scenario8_9CEE4C22_963F_429F_8953_F8A905EFCF13"
+msgid "⟪k:0⟫⟪k:1⟫And when do you suppose you’ll be back?"
+msgstr "⟪k:0⟫⟪k:1⟫次はいつ会いに来てくれるの？"
+
+#: scenario8:scenario8_F3B826CD_CB44_4540_8A55_763FC072D455
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ce79453c724f45d5508ed1d9dc876ba927bac765b24920a0ec623e14413b68b9
+#. default-sha256: 9dd3cbdafeb86e46212886c675c55fb308e3233b9dcac477cdfaad01540a2c99
+msgctxt "scenario8:scenario8_F3B826CD_CB44_4540_8A55_763FC072D455"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………。"
+
+#: scenario8:scenario8_F33AE894_1AAC_4D33_8D5E_ADAE6D40E578
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 901aef8bec70dda2022387b60975250d1106ec982d3b7fe9aed9e582245de28b
+#. default-sha256: 52beb55024ebb833d3cdaa6f8c41ab6391a9ddcee48f24dab0493693bcc8f999
+msgctxt "scenario8:scenario8_F33AE894_1AAC_4D33_8D5E_ADAE6D40E578"
+msgid "⟪k:0⟫⟪k:1⟫Will you...?"
+msgstr "⟪k:0⟫⟪k:1⟫お兄さま……。"
+
+#: scenario8:scenario8_FD5865BD_63A2_414B_B735_CC0D9392F053
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5a31211267912cae3944f1df1beb7b80fe770611dceca47988f2a0f76f684a37
+#. default-sha256: 6ac2ff598410d07fb20087c16b99eb021280713e1fa59d4cd5f09ef6a78ee843
+msgctxt "scenario8:scenario8_FD5865BD_63A2_414B_B735_CC0D9392F053"
+msgid "⟪k:0⟫⟪k:1⟫You’re not... ⟪k:2⟫You’re not yourself, though."
+msgstr "⟪k:0⟫⟪k:1⟫でも、⟪k:2⟫お兄さま……。⟪k:3⟫いつものお兄さまらしくないわ。"
+
+#: scenario8:scenario8_8C8DB716_E33F_415D_8DCD_25F64B9086BB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1094218a7b212ac3866b3301fe75f1e9cc0052881711e91afe4305b5e7e51c23
+#. default-sha256: d570a87ac64e27792617c330700d19bc580c3aa6d1be9206c4e9ce93bf46452a
+msgctxt "scenario8:scenario8_8C8DB716_E33F_415D_8DCD_25F64B9086BB"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………。"
+
+#: scenario8:scenario8_022A98F1_0181_4ED4_8F5D_B31614ACE21F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 35929e7df48a827587475ec4bbea2c9a98e99a934d7f3e2dc896e01b968d697d
+#. default-sha256: e3e7a00bcb24f9bafbaffe521cbd309e3e93a06c66853b83c54d78b2f7181628
+msgctxt "scenario8:scenario8_022A98F1_0181_4ED4_8F5D_B31614ACE21F"
+msgid "⟪k:0⟫(O God... ⟪k:1⟫I’m begging you...)"
+msgstr "⟪k:0⟫（神様、⟪k:1⟫どうか……）"
+
+#: scenario8:scenario8_85C9C571_DB69_4DA2_89D5_51E275B206D4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a59f23e26b17e61ebf481bcd4cd4eba6cb861fd336d4f7e4f2f9ae26e0500bbb
+#. default-sha256: 881a2c7757d2be9b761613b1fad30621125dd57d9f5a6df4cf05e1c43aa87e4b
+msgctxt "scenario8:scenario8_85C9C571_DB69_4DA2_89D5_51E275B206D4"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Everyone’s long gone."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫……この時間なら誰もこないさ。"
+
+#: scenario8:scenario8_808C4E8A_FA51_4820_9961_FA207EE9E35A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9fb1b3277b5e56cbc3b626e87034d10b82f25c7cd5259c1ac15f3eb1b90e67eb
+#. default-sha256: ad99c21e2294e195bccf4ad908659a7725f666ef3ff02d1f078c5986994acc39
+msgctxt "scenario8:scenario8_808C4E8A_FA51_4820_9961_FA207EE9E35A"
+msgid ""
+"⟪k:0⟫⟪k:1⟫You can’t just ⟪k:2⟫stop⟪k:3⟫ being a nun, you know.⟪k:4⟫⟪k:5⟫It’s not that simple. "
+"⟪k:6⟫I’ve made vows—⟪k:7⟫⟪k:8⟫sworn my life to the service of God."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫ふふ、⟪k:2⟫簡単にやめられるものじゃないんだよ？⟪k:3⟫⟪k:4⟫もうすべてを捧げた身なんだか"
+"ら。"
+
+#: scenario8:scenario8_80B64DDA_46E4_44DE_A3B5_368A6DDD7FD6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 43a266256229870b064f60c6fc8401f20f4438007dd56f1004a44773b23e3773
+#. default-sha256: d570a87ac64e27792617c330700d19bc580c3aa6d1be9206c4e9ce93bf46452a
+msgctxt "scenario8:scenario8_80B64DDA_46E4_44DE_A3B5_368A6DDD7FD6"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………。"
+
+#: scenario8:scenario8_642E5A45_9511_496E_AF33_D1D65B3F9980
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: dc8798902463c30fd8834e946bd48037cfa6e0883335ae7e08173023d4ee471d
+#. default-sha256: 2922b3945ef8e07876f2c91bade67d5fd9169d51636e56ca02473311bb07cba6
+msgctxt "scenario8:scenario8_642E5A45_9511_496E_AF33_D1D65B3F9980"
+msgid "⟪k:0⟫⟪k:1⟫I’d like to be a normal girl, lead a normal life."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫その時には、⟪k:2⟫普通の女の子でいたいな。⟪k:3⟫⟪k:4⟫普通に生きて、⟪k:5⟫普通に結婚して……。"
+
+#: scenario8:scenario8_10922980_F623_4538_9B8C_7A4D21DA517F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c4520df59468b4035ed71246bea4f1d2a7dd0278dcafd9f67e71f7c9c691da7b
+#. default-sha256: cb59ece053a90cc9e3f3becb1b959a75f9f403c7b6ec2b18fd856dc940e3872f
+msgctxt "scenario8:scenario8_10922980_F623_4538_9B8C_7A4D21DA517F"
+msgid "⟪k:0⟫That’s my dream."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫何事もない人生だったなあ、⟪k:2⟫でも最高だったなあって、⟪k:3⟫そう言って終わるの。⟪k:4⟫そ"
+"れが私の夢……。"
+
+#: scenario8:scenario8_0E6CBA9C_8560_4A28_8E81_5A84B165E583
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9d8d485a2021455151a842ace67e24ce2bf03635d4e35d4ee7db32896197e0d8
+#. default-sha256: be858e0616ea381c51bfdd0e0ed291fc75ead2b81cc1f1e3d1d870d63ed8a045
+msgctxt "scenario8:scenario8_0E6CBA9C_8560_4A28_8E81_5A84B165E583"
+msgid "⟪k:0⟫⟪k:1⟫the blue sky spreading as far as the eye can see..."
+msgstr "⟪k:0⟫⟪k:1⟫どこまでも続く青空が私たちを見守っている……。"
+
+#: scenario8:scenario8_31040557_4AEC_4D16_8A54_FA3766D007B7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b49e9fff1eb344e9ce33d895ce7485e14b075846c5ad1cd234841c362983f759
+#. default-sha256: 3cb74902cdba073f43a61869e09241925715156ac60edb13aebfcee9117f33eb
+msgctxt "scenario8:scenario8_31040557_4AEC_4D16_8A54_FA3766D007B7"
+msgid "⟪k:0⟫The harvest festival..."
+msgstr "⟪k:0⟫祝祭の日だ……。"
+
+#: scenario8:scenario8_B5E0691E_AEBB_464B_8AE9_1EE5206A9098
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 247def2e6b14a1f75b24f2f4d4bfa55f7d1610f5e4473d24e9c62bfebc74bca0
+#. default-sha256: 499554746a40a43754a9314db915e774713287a246b89ef92b68011fa89b9614
+msgctxt "scenario8:scenario8_B5E0691E_AEBB_464B_8AE9_1EE5206A9098"
+msgid "⟪k:0⟫On the day of the festival..."
+msgstr "⟪k:0⟫……祝祭の日に……。"
+
+#: scenario8:scenario8_46F91674_9364_4479_981B_29E49EDA850F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 69be3637db8e18b00671d5bc603ec463b5f941c45c9b93498bb5f2786c1ed48d
+#. default-sha256: d5ccb2010de1ae42b33b9d7e6e39bdc3cfd0925d5fc1a295b69ff09044379dc6
+msgctxt "scenario8:scenario8_46F91674_9364_4479_981B_29E49EDA850F"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Come on..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫……ねえ……"
+
+#: scenario8:scenario8_5DBC3709_4D2D_4E39_BE0A_06F8480C8718
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 33e05485b509d6eedf05a77b664fd9bd1362f056e954f28accff234855f551f4
+#. default-sha256: 9ff0902783897af57a4c193bb35fce838cf782005083c64b58179b1169929a32
+msgctxt "scenario8:scenario8_5DBC3709_4D2D_4E39_BE0A_06F8480C8718"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Michel..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫……ミシェル……"
+
+#: scenario8:scenario8_D1AD2B85_A743_4759_9E99_D16E9FF553C6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a6749be9fea7717748c9c76bff496daa2bdf0075621dad358d04f82004767c97
+#. default-sha256: 42bb4684b4a46ce74f154dba763a6113b46c700b5e9b58dbfbe4c40bb4e42ffc
+msgctxt "scenario8:scenario8_D1AD2B85_A743_4759_9E99_D16E9FF553C6"
+msgid "⟪k:0⟫⟪k:1⟫So bright..."
+msgstr "⟪k:0⟫⟪k:1⟫………まぶしい………。"
+
+#: scenario8:scenario8_CC9250D0_A039_4418_8B32_781437CDC82B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b3aa6f48372fc9bdbc202aa7074bafd7fb15fbb23dd62b9f119caa8e6952c410
+#. default-sha256: 8da3e6fb626307c684913b26fab4f7328bce117215730dda2199677f9c8b234f
+msgctxt "scenario8:scenario8_CC9250D0_A039_4418_8B32_781437CDC82B"
+msgid "⟪k:0⟫The sun glares mercilessly overhead."
+msgstr "⟪k:0⟫目に痛いほどの太陽の日差しが、⟪k:1⟫私の頭上できらめいている。"
+
+#: scenario8:scenario8_A34C33DC_654D_49E3_A435_52F18CD54C17
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ad685cecbe4c4604ff9c5246b8a9a07e296b302db6cbb4d5a506eff950fd4220
+#. default-sha256: d570a87ac64e27792617c330700d19bc580c3aa6d1be9206c4e9ce93bf46452a
+msgctxt "scenario8:scenario8_A34C33DC_654D_49E3_A435_52F18CD54C17"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………。"
+
+#: scenario8:scenario8_FDE5EF3D_6FEB_4272_8A4D_5DE3BCE21241
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c9f6b1e0ad2a371260de38f3b44d9b8fd9c4208cd48364c3e74190e0a45ffd04
+#. default-sha256: c65d3f305abdde8ded2069b47bd8b3a2cd4cee5706b2f7bdcca1e3ebc3458634
+msgctxt "scenario8:scenario8_FDE5EF3D_6FEB_4272_8A4D_5DE3BCE21241"
+msgid "⟪k:0⟫(So much time has passed since I’ve been in the light...)"
+msgstr "⟪k:0⟫（とても……、⟪k:1⟫久しぶりに……光を感じた気がする……）"
+
+#: scenario8:scenario8_00A00A81_0CE9_4228_8329_95D91E91AE26
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5379e7a060508652db7c0d4ae5f36e4e959a74cb9d34803871a74ade228a5841
+#. default-sha256: 4594fc3e5e0ca6cf7584ede920fa4bf8f35244b1740be41ff4359fa201988eb1
+msgctxt "scenario8:scenario8_00A00A81_0CE9_4228_8329_95D91E91AE26"
+msgid "⟪k:0⟫Is this... ⟪k:1⟫the era Morgana lived?"
+msgstr "⟪k:0⟫ここが……、⟪k:1⟫モルガーナの時代……なのか？"
+
+#: scenario8:scenario8_308F7312_77A6_4E5B_978B_38BC058826E4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3813e0048dcb716dd7a13a0fb810aedca02eff3de7a2851aab6ebc5df071331a
+#. default-sha256: ebb8dbe630102fe29ffc8cfa496d48a45ac16b09ec227bb87d16f6d95a2eafa9
+msgctxt "scenario8:scenario8_308F7312_77A6_4E5B_978B_38BC058826E4"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………。"
+
+#: scenario8:scenario8_FF4F0952_4D40_4E10_BF71_676E03070AD5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 043770c555e3db64e51ec9efcd83cef4900b696d09615aead9475d6055a0bef2
+#. default-sha256: 3704280fb4f2fa563f0a5ae722cccafc734313a81df0ffbf938382d7a1bd8939
+msgctxt "scenario8:scenario8_FF4F0952_4D40_4E10_BF71_676E03070AD5"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Oh, thank goodness! You can hear me!"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫ああ、⟪k:4⟫良かった！　⟪k:5⟫気付いてくれたんですね。"
+
+#: scenario8:scenario8_C88B130B_AA97_43B9_8776_7F13AB133EA8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d0b59d0afbe85e961e1fe4ada90e3e9c10ae7e74cf8f3a4f0cda6ee2dc4b59b8
+#. default-sha256: 111031c7e150e0ebf7df621fd04c9484cbfed2bf1da064f32acff018825bc86a
+msgctxt "scenario8:scenario8_C88B130B_AA97_43B9_8776_7F13AB133EA8"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Good morning, Master.⟪k:3⟫⟪k:4⟫I hope you slept well. ⟪k:5⟫...Hehe."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫おはようございます、⟪k:3⟫旦那さま。⟪k:4⟫⟪k:5⟫お目覚めの気分はいかがですか？　"
+"⟪k:6⟫……なんちゃって。"
+
+#: scenario8:scenario8_0722FD16_C13B_4EFC_B9FF_EF43B53BA691
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 34ad4b79c3f931e3e7244ad8c39db9d0cb8ed8087b1f387c979fda815bf98741
+#. default-sha256: b129672af4ddba05811f73df6cb5545a56c17703942fd8a9319a2fc0b30bffde
+msgctxt "scenario8:scenario8_0722FD16_C13B_4EFC_B9FF_EF43B53BA691"
+msgid "⟪k:0⟫⟪k:1⟫Giselle..."
+msgstr "⟪k:0⟫⟪k:1⟫……ジゼル……。"
+
+#: scenario8:scenario8_D151678B_25A2_4E87_B3F9_D86FF2327C5C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c6c1a2bf0087666180c5350924ac2afbc691314f833567345027f051f95c4c44
+#. default-sha256: c14548224f064f99b44df066b109a637e536bfbcc9d11b482c9e76b3b7769edf
+msgctxt "scenario8:scenario8_D151678B_25A2_4E87_B3F9_D86FF2327C5C"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫I swear it’s me, one hundred percent!⟪k:3⟫⟪k:4⟫Not that mean old phony!"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫大丈夫ですよ、⟪k:3⟫ちゃんと本物中の本物ですから！⟪k:4⟫⟪k:5⟫ひどいこと言ったりしませ"
+"ん！"
+
+#: scenario8:scenario8_9765338C_3074_4768_A2F8_E2938877135B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f317c510001961afaf2534b0ed3d1dc0623654d307c5c146ee0581fa8329944e
+#. default-sha256: 0898ed6c9c74b2f486de082b3f63ec6223b725611f1ddd7a0b3a3ae81b7c4e0a
+msgctxt "scenario8:scenario8_9765338C_3074_4768_A2F8_E2938877135B"
+msgid "⟪k:0⟫⟪k:1⟫But where ⟪k:2⟫are⟪k:3⟫ you, Giselle...?⟪k:4⟫⟪k:5⟫I can’t see you anywhere..."
+msgstr "⟪k:0⟫⟪k:1⟫でも、⟪k:2⟫ジゼル、⟪k:3⟫君は一体どこに……？　⟪k:4⟫姿が見えない……。"
+
+#: scenario8:scenario8_A4EEBD97_354A_47E5_8ED4_2EC7F67E7FB7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5bd9ad94c4d6ce0badfe83281efbe30e3ac327314e07c9338db388a76900dd15
+#. default-sha256: b460306146ef85bb73bba6ad6023bd015808c0bfc7e0b9c2949ad0e0655108c0
+msgctxt "scenario8:scenario8_A4EEBD97_354A_47E5_8ED4_2EC7F67E7FB7"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫I don’t know how to describe it...⟪k:3⟫⟪k:4⟫It’s pitch dark all around me."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫うまく説明できないんですけど……、⟪k:3⟫⟪k:4⟫わたしの周りは真っ暗なんです。"
+
+#: scenario8:scenario8_394568F0_8DCD_4E83_B73B_DFB5013ED9C6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 66cb2969597f63e9416ad2fcc9775ca4b11e405c177ae8102d4c3674c5fc48d7
+#. default-sha256: 5fc5a716f8e2aa068ad401d1028047f34d71d76809c7efc9abe19ee6eacfeddd
+msgctxt "scenario8:scenario8_394568F0_8DCD_4E83_B73B_DFB5013ED9C6"
+msgid "⟪k:0⟫⟪k:1⟫Like a black smoke, churning in the darkness..."
+msgstr "⟪k:0⟫⟪k:1⟫黒い霧が渦巻いているような感じで……"
+
+#: scenario8:scenario8_BD8AE63D_1F17_4F04_83E4_D7A015918DE0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d06ec3e2cb0b8d4622e4bf71702417bae9cdb5b60771cda9b50c3a4644c70e07
+#. default-sha256: 593ec7b6336a6f258930de1b05c4da478671ae403a0222c12730594efdef2544
+msgctxt "scenario8:scenario8_BD8AE63D_1F17_4F04_83E4_D7A015918DE0"
+msgid "⟪k:0⟫⟪k:1⟫But I don’t think I’m actually ⟪k:2⟫in⟪k:3⟫ the mansion."
+msgstr "⟪k:0⟫⟪k:1⟫でも、⟪k:2⟫館のどこかの部屋……というわけではないみたい。"
+
+#: scenario8:scenario8_435796C6_587B_466F_9C4F_503C9D944C7F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 528163b49e7d418d0fe1c0850be8904c0c6caacb19ee7071e7a6e65bad725a81
+#. default-sha256: 60903efb578d9e0a156171fe3b389ffd874168761a771c013d8edaa46d51d6c6
+msgctxt "scenario8:scenario8_435796C6_587B_466F_9C4F_503C9D944C7F"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫and I thought I’d try getting your attention."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫だから、⟪k:3⟫声をかけてみたんです。"
+
+#: scenario8:scenario8_0A3370B8_141C_469A_86CE_E7BBC686902B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c092999cbd9ccbf4aaac85af373a3e30b522d1ade8a0eafba6d4eada9f332031
+#. default-sha256: 3e4ad83c9758f1f0f023b7f0d1121667f4e0e8f27e1c0826532566c5d42d3490
+msgctxt "scenario8:scenario8_0A3370B8_141C_469A_86CE_E7BBC686902B"
+msgid ""
+"⟪k:0⟫it was strictly in the capacity of an observer.⟪k:1⟫⟪k:2⟫We were merely watching, not "
+"actually present in the tales."
+msgstr ""
+"⟪k:0⟫それはあくまで、⟪k:1⟫傍観という形だった。⟪k:2⟫⟪k:3⟫私たちの肉体はそこになく、⟪k:4⟫出来事を見"
+"守っていただけだ。"
+
+#: scenario8:scenario8_3EA96104_6425_4225_A54F_ED4F91853F23
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e809529abd06bc45ffd5ceb2fc6039f5ac684e8eb0aa56d4b9c77fd1db745bd8
+#. default-sha256: 5d0842097c54314b79d1bce2b5294cd9b90adf94dfd96a3f0647f88ae6fd0e84
+msgctxt "scenario8:scenario8_3EA96104_6425_4225_A54F_ED4F91853F23"
+msgid "⟪k:0⟫It’s all so... ⟪k:1⟫vivid."
+msgstr "⟪k:0⟫すべての自然を、⟪k:1⟫この身で感じている。"
+
+#: scenario8:scenario8_3BC59F71_C2F2_4D71_9942_2D07F4AC57A4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1bcbc6cc666167cb3d48ba4793008eea08fc147feba6a82ea15a9399469b9f46
+#. default-sha256: 5f5108f7000851d7039cbb2c1d17eccb306f4e400d4ada58e39e1d2ac4337eed
+msgctxt "scenario8:scenario8_3BC59F71_C2F2_4D71_9942_2D07F4AC57A4"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............⟪k:3⟫⟪k:4⟫It’s okay, Michel."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………。⟪k:3⟫⟪k:4⟫大丈夫です、⟪k:5⟫ミシェル。⟪k:6⟫だって――"
+
+#: scenario8:scenario8_10D403E1_FA09_47D8_A233_9BBDCDC97E56
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d6e36f5a9862204de1fed2e67f3c02ee0628682f778e5f9c771de670b0b37020
+#. default-sha256: d570a87ac64e27792617c330700d19bc580c3aa6d1be9206c4e9ce93bf46452a
+msgctxt "scenario8:scenario8_10D403E1_FA09_47D8_A233_9BBDCDC97E56"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………。"
+
+#: scenario8:scenario8_F1568224_8CBC_4F5A_B49E_AFE04050BA21
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4f832f22d77abf8e49571dd474e0d288b2e8b49d681cfb23bd5fd3910396a29b
+#. default-sha256: c3709102659039c04f68eb147eb78485e98c14cc1d06aaba2a2f8fd7dd5b6739
+msgctxt "scenario8:scenario8_F1568224_8CBC_4F5A_B49E_AFE04050BA21"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫I’m more than happy just being able to hear your voice.⟪k:3⟫⟪k:4⟫And being able to "
+"see what you see..."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫それに、⟪k:3⟫今はあなたの声が聞けるだけで、⟪k:4⟫十分だわ。⟪k:5⟫⟪k:6⟫あなたが見てい"
+"るものを、⟪k:7⟫わたしも目に出来るなんて……"
+
+#: scenario8:scenario8_FABEEF28_24BB_48E5_8D09_7C3B24824021
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f797dc78bda2a184d63b9418661c9ddbc5eaca8025c6d808ba4f9b30963eb682
+#. default-sha256: 1fb1ceb9cfbcee4e418a66a6e582c4b76f2aee670539860a7b6b21ca1d804b3b
+msgctxt "scenario8:scenario8_FABEEF28_24BB_48E5_8D09_7C3B24824021"
+msgid "⟪k:0⟫⟪k:1⟫I too... ⟪k:2⟫am glad to know you’re there."
+msgstr "⟪k:0⟫⟪k:1⟫私も……君の存在を感じ取れて良かった。"
+
+#: scenario8:scenario8_1F5C4B89_A433_4771_B74B_3158E73FAE2D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 592c9b9bf9a96e15ee1612be9ba5a6afb1cccdffbf2f185cbe26270f4507ca82
+#. default-sha256: c9aad1a3a8a5742df8100dc78cbb6d39517675a31fef2c996809db71cb22570e
+msgctxt "scenario8:scenario8_1F5C4B89_A433_4771_B74B_3158E73FAE2D"
+msgid "⟪k:0⟫To have the chance to hear your voice again."
+msgstr "⟪k:0⟫その声を……もう一度聞くことが出来て良かった。"
+
+#: scenario8:scenario8_57607121_A618_4155_B32D_66E43F4E5E88
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d066572dabf42597cbcaf2df233a8d34ad89ae6091925631d4c0f000b896e00a
+#. default-sha256: 9dd3cbdafeb86e46212886c675c55fb308e3233b9dcac477cdfaad01540a2c99
+msgctxt "scenario8:scenario8_57607121_A618_4155_B32D_66E43F4E5E88"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………。"
+
+#: scenario8:scenario8_E54196F3_6786_40E7_8A57_3A26DB8C9C91
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a5c75b76f57646653bc9d21bb48f1bf0a76429958cb3e5556561e936afd84232
+#. default-sha256: 71c3ca23ef8b5f8f7c569ce64f060d590b3f430e0d77b683463c33ec5dc06e63
+msgctxt "scenario8:scenario8_E54196F3_6786_40E7_8A57_3A26DB8C9C91"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫You’re not even trying, are you?!"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫ちょっとなんですかそれぇっ！？"
+
+#: scenario8:scenario8_17A8E545_7571_476F_831A_807D1D7EA47A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7047f6e4c0ad998f0b538cdfdb218cb570efdf9aad46e51118ddfcc00f0e08c6
+#. default-sha256: 225655003913e5a5759b4e0f2749ae243704136450cdf322021c12ced1d69f54
+msgctxt "scenario8:scenario8_17A8E545_7571_476F_831A_807D1D7EA47A"
+msgid "⟪k:0⟫⟪k:1⟫...Yes, we will."
+msgstr "⟪k:0⟫⟪k:1⟫………はい。"
+
+#: scenario8:scenario8_7DEDA4EF_131C_4176_830A_E6F1BB06CD52
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 052b0ba27f134124a9800ccee63d2a97921ecd1343a78617492b09b6b853eadf
+#. default-sha256: f6e2a7a6bd9d4072af6e0f8a9f4a45b3f82c80f69430912b4b0734d75674ebe8
+msgctxt "scenario8:scenario8_7DEDA4EF_131C_4176_830A_E6F1BB06CD52"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫Where to begin...⟪k:3⟫⟪k:4⟫What do you say we get our bearings,⟪k:5⟫list out "
+"exactly what we need to take care of?"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫まずはどうしようかしら。⟪k:3⟫⟪k:4⟫これからやるべきことを、⟪k:5⟫いったん整理してみま"
+"すか？"
+
+#: scenario8:scenario8_926F9616_5FC6_4EE0_AB64_862D789CFE04
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5e091337529d56669d20f7cd60a1eebdbb5d15c643a16f4618ee11c439576a70
+#. default-sha256: feb57c21c29e51d451dafc0063dfcca76619f8a7d890a9f9ed5cc1fd3f35ecb2
+msgctxt "scenario8:scenario8_926F9616_5FC6_4EE0_AB64_862D789CFE04"
+msgid "⟪k:0⟫⟪k:1⟫...That’s not a bad idea."
+msgstr "⟪k:0⟫⟪k:1⟫……そうですね……。"
+
+#: scenario8:scenario8_3702D95F_B4C3_4BC3_98E5_CDA68BA8934E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f5c10e2979754d1bec2bb04e851737b0512d566d030a7b19aa7bc42866c632bf
+#. default-sha256: 3598e873f897fe05c98cdb91112f8d4daf093049573746f9a9fc5e8bcdfa6d80
+msgctxt "scenario8:scenario8_3702D95F_B4C3_4BC3_98E5_CDA68BA8934E"
+msgid ""
+"⟪k:0⟫But we won’t be ⟪k:1⟫talking⟪k:2⟫ her out of it, that’s for sure.⟪k:3⟫⟪k:4⟫Words won’t break "
+"through that kind of animosity..."
+msgstr ""
+"⟪k:0⟫けれど彼女の強固な憎しみを覆すには、⟪k:1⟫私の言葉では駄目だ。⟪k:2⟫⟪k:3⟫人の言葉ではなく、"
+"⟪k:4⟫もっと大きなもの……"
+
+#: scenario8:scenario8_B9475B79_6C21_41BC_ACE9_0C9C24387EA1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ef579fba1a7534e79bef108862ed3bae6541ee9738276058f257a91dd47aa534
+#. default-sha256: 718b9f9caaa28f4bd51d526d80429b6844f9d06016defacfc9645565bda3e563
+msgctxt "scenario8:scenario8_B9475B79_6C21_41BC_ACE9_0C9C24387EA1"
+msgid ""
+"⟪k:0⟫We need something bigger...⟪k:1⟫⟪k:2⟫something she could never have imagined...⟪k:3⟫⟪k:4⟫"
+"something that will turn her entire worldview on its head."
+msgstr ""
+"⟪k:0⟫それこそ、⟪k:1⟫自分自身の認識を覆すような――⟪k:2⟫想像すらしていなかった事実を突きつける必要が"
+"ある……。"
+
+#: scenario8:scenario8_657604EE_0990_4325_82E7_724929D357BA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 90e705c4661c8f1445d79e8a429e17d4b57564cf627e35b4cd662f388812cbea
+#. default-sha256: ee69ef4f974d13f593187b313503e3c2eb365d71b22f0f6e28cac327dcc54879
+msgctxt "scenario8:scenario8_657604EE_0990_4325_82E7_724929D357BA"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫There ⟪k:3⟫must⟪k:4⟫ be something.⟪k:5⟫⟪k:6⟫Some secret we haven’t figured out yet "
+"that we can use."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫……きっと、⟪k:3⟫あるはずです。⟪k:4⟫⟪k:5⟫私たちの知らない真相や、⟪k:6⟫彼女の思いを覆"
+"すものが。"
+
+#: scenario8:scenario8_25A59446_9D80_40A4_AA13_887E684165F1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c7980ce2d1f27788caa8f42dc04058657cbf6be2652778253f9fea3ba522697f
+#. default-sha256: 860554d6740ceec0f9417e8229a70b8b28c2285d6bc257b8826164221bd305bf
+msgctxt "scenario8:scenario8_25A59446_9D80_40A4_AA13_887E684165F1"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫If we ⟪k:3⟫are⟪k:4⟫ in the past, though...⟪k:5⟫⟪k:6⟫I wonder, maybe we could "
+"change it?"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫それに、⟪k:3⟫もしもわたしたちが過去にいるなら――⟪k:4⟫⟪k:5⟫覆すことも出来ると思いませ"
+"んか？"
+
+#: scenario8:scenario8_4559CABC_643C_4ED2_8B47_879F30CC3F97
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 45c79675a74cdf13154ac58d4f06fbdfcd67937ad05a5da7c4276f7f6433e5bc
+#. default-sha256: fe6313e0371d66c15f36ca5d04efd5d0e40a4960395d0fc1dea19119973fe68e
+msgctxt "scenario8:scenario8_4559CABC_643C_4ED2_8B47_879F30CC3F97"
+msgid "⟪k:0⟫⟪k:1⟫This could be a huge chance for us!"
+msgstr "⟪k:0⟫⟪k:1⟫これって、⟪k:2⟫すごくチャンスなのかもしれません！"
+
+#: scenario8:scenario8_D83C60CF_33AC_4D24_9E8C_72AAF51413C6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7a1b3854d947c0da34d46953d066281f9a6702e7d8824b63d1d00a5282a6b8e7
+#. default-sha256: b7687ff2babdcdaeaa7f0de8fe531aa193f3805e65559a59a48787678734f788
+msgctxt "scenario8:scenario8_D83C60CF_33AC_4D24_9E8C_72AAF51413C6"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫Now I’m getting kinda pumped!⟪k:3⟫⟪k:4⟫I’ve got my game face on and I’m ready to "
+"⟪k:5⟫do⟪k:6⟫ this!"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫そう考えると、⟪k:3⟫すごくやる気出てきましたねっ！⟪k:4⟫⟪k:5⟫よおおし、⟪k:6⟫腕により"
+"をかけていきましょう！"
+
+#: scenario8:scenario8_13B61BFA_BF55_410E_A964_85C7F86E3EEB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1df0a20962cd95970a341968a101668c1b21e27b6360d048910f3c1364d6845a
+#. default-sha256: 3ced408f35ae153023907e09a88d77c827c0e0c45c84fc845102403fdbd1a000
+msgctxt "scenario8:scenario8_13B61BFA_BF55_410E_A964_85C7F86E3EEB"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Hmm...⟪k:3⟫⟪k:4⟫Give me a little spin, would you?"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫そうですねえ……、⟪k:3⟫⟪k:4⟫ちょっと、⟪k:5⟫ぐるっとあたりを見てもらってもいいですか？"
+
+#: scenario8:scenario8_44CF1A42_814F_41B2_B53B_DDFD9FB791AD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 11697d2924da0be4293963047dce319e3db65b9692ccdf8c8e33c7f3179a33b3
+#. default-sha256: 38b3678c0ec86b5a8ad0eb1782d188046d3377f948b63b74297d6329a120781a
+msgctxt "scenario8:scenario8_44CF1A42_814F_41B2_B53B_DDFD9FB791AD"
+msgid "⟪k:0⟫⟪k:1⟫It’s a bit big for a village..."
+msgstr "⟪k:0⟫⟪k:1⟫村にしては規模が大きいが……。"
+
+#: scenario8:scenario8_FFACE372_1091_45C0_B102_350838E93F73
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e0fc3e7ab70431f2c73b70372860f2242383cfd2286829b8de3ac8e779e1835e
+#. default-sha256: 71d8be7d704c2ba79d798a1878708d10a2ec7aca9b3f16639cf02d56094bf178
+msgctxt "scenario8:scenario8_FFACE372_1091_45C0_B102_350838E93F73"
+msgid "⟪k:0⟫⟪k:1⟫Wouldn’t dream of it."
+msgstr "⟪k:0⟫⟪k:1⟫気の所為です。"
+
+#: scenario8:scenario8_75CE02F5_515D_47B4_BCFE_A7A4B3D122FF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 03ccb7caff88fdca31c66691e6107e547e8fcf3731b682da10ba29f5b8ba37bb
+#. default-sha256: 68e293d1ed359f9911719d99b6782d6c4c0b9c56a302389dfe0629eb3f408fda
+msgctxt "scenario8:scenario8_75CE02F5_515D_47B4_BCFE_A7A4B3D122FF"
+msgid "⟪k:0⟫⟪k:1⟫No, that’s not what’s bothering me, it’s..."
+msgstr "⟪k:0⟫⟪k:1⟫そういうわけじゃないんだ、⟪k:2⟫ただ……。"
+
+#: scenario8:scenario8_8028200B_D5C7_4148_96BA_19C5C5B6464D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 48779160cb39ab7af714c07b35905924d071371e9d351066a96a675abe5192b7
+#. default-sha256: 520da72959f228f5fa8a1f5d878b17c4cefb0a2893d94e965671adfee230c691
+msgctxt "scenario8:scenario8_8028200B_D5C7_4148_96BA_19C5C5B6464D"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫...?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫………？"
+
+#: scenario8:scenario8_66909B7D_F2B2_4ED6_881D_65A5C4FF37B9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c05b8b2c1df18b729a579918b45e9059d7375a09d41c675bddf254d292e6da58
+#. default-sha256: e15f126174471f7e354ff705efe8c3381bacc7cf1f0ea3a29acb7effefda2502
+msgctxt "scenario8:scenario8_66909B7D_F2B2_4ED6_881D_65A5C4FF37B9"
+msgid ""
+"⟪k:0⟫⟪k:1⟫Never mind. ⟪k:2⟫I’m probably overthinking things.⟪k:3⟫⟪k:4⟫But now’s not the time for "
+"that. ⟪k:5⟫We need to get moving."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫いや……、⟪k:2⟫恐らくは、⟪k:3⟫私の考えすぎです。⟪k:4⟫⟪k:5⟫今は考えるよりも……行動を起こすし"
+"かないと分かっている。"
+
+#: scenario8:scenario8_6430D141_270E_466C_A8B1_F034AB587045
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c17cea5aa982808491cb3c24b3c4ed803bff68f2b6ea9d1fe04d8f4eb56dc8fc
+#. default-sha256: 16621f945784012d33d7cfdfe1986a8870a8c7eb5b275a6c7067e82f39e6d610
+msgctxt "scenario8:scenario8_6430D141_270E_466C_A8B1_F034AB587045"
+msgid "⟪k:0⟫Everything else comes after that."
+msgstr "⟪k:0⟫そうでないと、⟪k:1⟫何も始まらないのだ。"
+
+#: scenario8:scenario8_B64ED742_1E06_47AA_98C7_715D2A62C58D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 199fea2700200c9ebb23a636d7fd49366e410fd783ca55316ffdbf6507a09a18
+#. default-sha256: a1f2b1547b25ef39222220d709860d47419728713d3f5c961f508f4878dca27d
+msgctxt "scenario8:scenario8_B64ED742_1E06_47AA_98C7_715D2A62C58D"
+msgid ""
+"⟪k:0⟫With each step, I can feel the earth compressing beneath my feet, the grass flattening. ⟪k:1⟫"
+"As I weave my way through the trees toward the city,"
+msgstr ""
+"⟪k:0⟫――一歩踏み出す度に、⟪k:1⟫私の足が土と草を踏む。⟪k:2⟫⟪k:3⟫生者の感覚を取り戻しながら、⟪k:4⟫"
+"木々の間を進み、"
+
+#: scenario8:scenario8_C92A74CE_C3F4_4A50_AB49_A559CCD0D403
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 818c8c8138b5766973fd10374736f20e8294dd70c4b919b58016f255583dd3ea
+#. default-sha256: e2e1b5f67c1d3ef8a6ff3cdd00f9dfa31e28d68d221163f06187b8b54217ea48
+msgctxt "scenario8:scenario8_C92A74CE_C3F4_4A50_AB49_A559CCD0D403"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Uh..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫あ………。"
+
+#: scenario8:scenario8_B0BE2990_0D90_4356_8A78_4123076EEA15
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 048cd2cec4aa16a0c1cb61a58967df7e996dd7c3023adf9551f922f3513dda4b
+#. default-sha256: f9edc11fefbe6a0e9aee4f2eae97cbea43a3614d48b503388c0886f365468ac5
+msgctxt "scenario8:scenario8_B0BE2990_0D90_4356_8A78_4123076EEA15"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫A?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫い………？"
+
+#: scenario8:scenario8_9211B3DB_DEEE_487A_A916_786B20987B3C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fa6e92306f647dda1bcb5357726a1315fba85121fe5319decab368d846ee8e7d
+#. default-sha256: 03b23dffa05c3a093ce2197cdbab8558d1f2fa51c59da75a6d851c225da212ed
+msgctxt "scenario8:scenario8_9211B3DB_DEEE_487A_A916_786B20987B3C"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫H— ⟪k:3⟫⟪k:4⟫How do you know my name?!"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫な……、⟪k:3⟫なんで僕の名前知ってるの……！？"
+
+#: scenario8:scenario8_EDB20F87_02C9_4D8C_B6B4_164BC2282B20
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b446b29e04e58308c87a764c44aac942b73213c63f92980c3bf058173f535b4a
+#. default-sha256: dbbc3194e0b0f27a525e0b777b36866644ebd2fceb867dd250d4ab7a556d8ad8
+msgctxt "scenario8:scenario8_EDB20F87_02C9_4D8C_B6B4_164BC2282B20"
+msgid "⟪k:0⟫Who are you?⟪k:1⟫⟪k:2⟫And where did you come from?"
+msgstr "⟪k:0⟫君……何者なの？　⟪k:1⟫どっから出てきたの……？"
+
+#: scenario8:scenario8_DB7CE1DB_5755_4A94_A085_FF8FB47778FA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d0f9c3ecf686fabd2b59539f4a21b5fd4fc4ad5058378c110a390ae0e3a774ca
+#. default-sha256: d9ccf2053cf9ed3e52c680bdbbf14a815091c682573e91efd2e7d8c15148269f
+msgctxt "scenario8:scenario8_DB7CE1DB_5755_4A94_A085_FF8FB47778FA"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫S-⟪k:3⟫Say something, Michel!⟪k:4⟫⟪k:5⟫He’s not getting any less suspicious of you!"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫ちょ、⟪k:3⟫ちょっとミシェル！　⟪k:4⟫黙っている場合じゃないです！⟪k:5⟫⟪k:6⟫なんだか"
+"とっても疑われてます！"
+
+#: scenario8:scenario8_90299FD9_8DB3_4D70_BAE8_4A0DE2DBBA2A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 524175b988a072bcf7d250d8ffce4a7a98a2692ea015ace90ddbed46f681691e
+#. default-sha256: 9dd3cbdafeb86e46212886c675c55fb308e3233b9dcac477cdfaad01540a2c99
+msgctxt "scenario8:scenario8_90299FD9_8DB3_4D70_BAE8_4A0DE2DBBA2A"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………。"
+
+#: scenario8:scenario8_D3054E16_09F4_45CD_8618_C52AE903C041
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 343b20f76cc386b82efd7e7b0bad6a4f328fd54833a19e2131f3eaa7e0bcb57b
+#. default-sha256: 9c5cf78b28b4ab4d2f2b58e3c93470f88110b09b8979cf57644299ed6be34284
+msgctxt "scenario8:scenario8_D3054E16_09F4_45CD_8618_C52AE903C041"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫Yeah... ⟪k:3⟫you’re right.⟪k:4⟫⟪k:5⟫I must have been seeing things.⟪k:6⟫⟪k:7⟫"
+"People can’t just appear out of thin air."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫うん……、⟪k:3⟫そうだよね。⟪k:4⟫うん、⟪k:5⟫そんなことあり得るはずがないし……、⟪k:6⟫確"
+"かに目の錯覚だったのかも。"
+
+#: scenario8:scenario8_CDCD58CC_AE15_4490_B67A_529819932125
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: faa0532b13b8cbb2e778c6473101fe3c8608251c1d7dc3c954c837b4c9c64ada
+#. default-sha256: 6a5ca6ce5f480947c7702870bf08c83f008efdaff3ffff362ce277304825e905
+msgctxt "scenario8:scenario8_CDCD58CC_AE15_4490_B67A_529819932125"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫Michel, napping in a tree.⟪k:5⟫⟪k:6⟫I can’t even imagine it!"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫ミシェルが木の上で寝てるところとか、⟪k:5⟫⟪k:6⟫まったく想像できませんね！"
+
+#: scenario8:scenario8_05EF907F_0FD2_4813_A51D_F00F47215FE4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 41ed2ac7044ae7e271ae7b0e493b5e50a7db9878dcc9fcdcca0890e814ad569b
+#. default-sha256: e3e81fa7f4293c9132a3e4e86d857c1bc2f163a8e3fb11567f8aa6fe4b98c876
+msgctxt "scenario8:scenario8_05EF907F_0FD2_4813_A51D_F00F47215FE4"
+msgid "⟪k:0⟫⟪k:1⟫(Me neither...)"
+msgstr "⟪k:0⟫⟪k:1⟫（……私もだ……）"
+
+#: scenario8:scenario8_475BE5F3_7FE6_4791_90FA_78579EA34992
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3c22ef56f5d8705916067387645a47e071568069f79483c8665ddd1f53cca4fe
+#. default-sha256: f18cc457c4bf8ce0800fd71d0ca13d7de67c4f7cd2d1493eb2bc7400c9474d50
+msgctxt "scenario8:scenario8_475BE5F3_7FE6_4791_90FA_78579EA34992"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫But that doesn’t explain how you know my name."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫でも、⟪k:3⟫僕の名前を知ってたのはなんで……？"
+
+#: scenario8:scenario8_C7194E8A_6083_437A_8C4A_D346FB916680
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fa7607c90a11507b1b86399a67a30926003c935b1a7a1935ffe35d98c306b77b
+#. default-sha256: c2436d683323e5fe8c1d4c8df53517a464667e425b4347a84f0c2ccd52d523dd
+msgctxt "scenario8:scenario8_C7194E8A_6083_437A_8C4A_D346FB916680"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫(Th-⟪k:4⟫That’s definitely pushing it...)"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫（く、⟪k:4⟫苦しい言い訳だったか……？）"
+
+#: scenario8:scenario8_5440F592_DF7D_4545_8B38_EDA3B17FEC09
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0ab07553e7592492a9630cd487b72b25f90c4561f57d51db4df07d46a06de7e4
+#. default-sha256: e59199e77feabce4cd28eda9030b5dd40a2a4181e6a9a8f1921dcd661d226eb2
+msgctxt "scenario8:scenario8_5440F592_DF7D_4545_8B38_EDA3B17FEC09"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫Oh. Yeah, that happens to me every now and then too.⟪k:3⟫⟪k:4⟫Jeez, you had me "
+"spooked for a second there!"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫そっか！　⟪k:3⟫そういう時もあるよね。⟪k:4⟫もう、⟪k:5⟫本当にびっくりしちゃったよ！"
+
+#: scenario8:scenario8_B0936846_CE17_4DFE_8213_A70AB5F7B039
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: eb56654f3bf9418a6e7b914ec3c5b5c6dc9279b562ad7f88884f1433afadfa34
+#. default-sha256: bccdb68228fddaa80d5eac13be9a9483ca1bbb8378fa150b72e61ac849182255
+msgctxt "scenario8:scenario8_B0936846_CE17_4DFE_8213_A70AB5F7B039"
+msgid "⟪k:0⟫⟪k:1⟫(Not the most... ⟪k:2⟫admirable of traits, but we’re in the clear.)"
+msgstr "⟪k:0⟫⟪k:1⟫（それもなんだかなぁ……。⟪k:2⟫……ま、⟪k:3⟫まあいい）"
+
+#: scenario8:scenario8_9C12A3DA_DA84_4E71_84CF_178D97C47521
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ab63bef8c4cd67f02dcb8b940a45e628c8f54320d7ec897aa7ae4b1105e32b65
+#. default-sha256: fc655dfd1f1abb7c4e8e1d52ad59dbcdac8de2261e23f7007fb3b9dde4913ea0
+msgctxt "scenario8:scenario8_9C12A3DA_DA84_4E71_84CF_178D97C47521"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Actually, no... ⟪k:4⟫I’m, ⟪k:5⟫um, ⟪k:6⟫a wanderer of sorts."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫いや、⟪k:4⟫私は……、⟪k:5⟫なんというか、⟪k:6⟫旅人みたいなものです。"
+
+#: scenario8:scenario8_90535262_00AC_4113_B954_ECA0B98D2E73
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3541ecdddaace2bd216ba420db885ff26b187fb0b5385eeb1c3fb413f0aac9ca
+#. default-sha256: db115e0c9d8ba4873508944c8e7a4c296a7b0b142c4c0eb509de9a5bb6e0ec8e
+msgctxt "scenario8:scenario8_90535262_00AC_4113_B954_ECA0B98D2E73"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Harvest festival...?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫祝祭………。"
+
+#: scenario8:scenario8_62880F2C_D3A0_41A3_84DE_168883537D4D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: dde481b995b63ea4df8ba1b8badf598107b711bc5eebaabd9a8a95dc464046c7
+#. default-sha256: fe0cb2a3e25153f3e686a099fe1f9b45a681abab6bded6f1fb9a400b0bf398d3
+msgctxt "scenario8:scenario8_62880F2C_D3A0_41A3_84DE_168883537D4D"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫You don’t know about it, then?⟪k:3⟫⟪k:4⟫Three days from now, we’re holding a "
+"festival at the church to celebrate the spring harvest."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫あれ、⟪k:3⟫違うの？　⟪k:4⟫三日後にさ、⟪k:5⟫教会を中心にしてお祭りを開くんだよ。"
+"⟪k:6⟫春の実りを祝ってね。"
+
+#: scenario8:scenario8_B9659573_8954_4E9E_8E34_B8B73F166089
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cc5fae80422c18e4634f56e02c82c8573beac44d62fb79964d3f6681f35abc1e
+#. default-sha256: da813698f8cc756f714a9510e6e8da90a23fffc49cd750c17b3ee66208f23a15
+msgctxt "scenario8:scenario8_B9659573_8954_4E9E_8E34_B8B73F166089"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Three days..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫三日後に祝祭を………。"
+
+#: scenario8:scenario8_70AC6FC4_7AAC_4623_8CA8_A65AE6D871DB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ce5f1c9669139d93bfe810a1869554fabf3ec410b90b6a409cf2018ee36fee9b
+#. default-sha256: 09b2b04e3d64cf19341bb99a8fd226c3fdb51b4ff76ddf96268ddf11514cb8ce
+msgctxt "scenario8:scenario8_70AC6FC4_7AAC_4623_8CA8_A65AE6D871DB"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫This will be the first time we’ve held the festival,⟪k:3⟫so we’re hoping to make "
+"it into a big event—⟪k:4⟫⟪k:5⟫⟪k:6⟫something really memorable."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫今回が初めてなんだ。⟪k:3⟫だから記念になるような大きなものにしようって、⟪k:4⟫みんな"
+"で準備をしているんだよ。"
+
+#: scenario8:scenario8_DDE8D03E_A4E7_4944_8285_3D47BC8E242D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7630e70698fcd89905e1af0ea4780eb2a9d2896b0fded52d957c031e16f0f0c3
+#. default-sha256: 9c067a995db57022771ad7a0e244be287104b6d66718df5082c687dab1386de6
+msgctxt "scenario8:scenario8_DDE8D03E_A4E7_4944_8285_3D47BC8E242D"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫…………。"
+
+#: scenario8:scenario8_43708FB0_0BFF_4548_80C7_493FF1225FE7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d58bad25eb6d3c9f0e96f48f37cce02cbdae53a2d28939986aaf7254ac1bcc96
+#. default-sha256: 309da1ba7799acabe1677829389b0dde44b2490a84dd5cacc57ca3194bc6dd70
+msgctxt "scenario8:scenario8_43708FB0_0BFF_4548_80C7_493FF1225FE7"
+msgid ""
+"⟪k:0⟫⟪k:1⟫Could I ask you to show me the way to the church?⟪k:2⟫⟪k:3⟫I would like to join in on "
+"the festivities."
+msgstr "⟪k:0⟫⟪k:1⟫……その教会に案内してもらうことは出来ますか。⟪k:2⟫⟪k:3⟫私も祝祭に関わりたい。"
+
+#: scenario8:scenario8_1DB35543_2C28_4414_9251_4CAE5A1CDE23
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 54d25984bb4473a9be9dac866f5227dfb0b408a76d57d4adc41ca5106d89d45f
+#. default-sha256: 91d39a98d5e04a85e327c05c6cbb94a5014bcff100419059246a7ad2e41409d4
+msgctxt "scenario8:scenario8_1DB35543_2C28_4414_9251_4CAE5A1CDE23"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫(And now he thinks I’m loony...)"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫（余計ヒかれている気がする……）"
+
+#: scenario8:scenario8_9B80D279_382B_4CEE_9BFA_81CF4C54B509
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2197fdd0b18f9002d24476f64c515e4bc61859eb44e66b12493b42346bdae209
+#. default-sha256: a0dc73f0b64a83e2f5c5d869c81fb528160abe96c1849341c2eab31a5bed40b0
+msgctxt "scenario8:scenario8_9B80D279_382B_4CEE_9BFA_81CF4C54B509"
+msgid "⟪k:0⟫⟪k:1⟫I was joking! I didn’t ⟪k:2⟫actually⟪k:3⟫ mean I was God!"
+msgstr "⟪k:0⟫⟪k:1⟫さっきのは冗談です！　⟪k:2⟫本気で言ったわけじゃない！"
+
+#: scenario8:scenario8_4078CB9D_DE09_48CF_A019_6080D5F8A9E0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 07b7f5d430176139ba1cf43678d59063e5295ebe3e556813c3d7192ec571fe31
+#. default-sha256: bae67cbc8f5b6d876b159413fa493fab8485ba0ceb2d0d51e73c8a7b882ef20c
+msgctxt "scenario8:scenario8_4078CB9D_DE09_48CF_A019_6080D5F8A9E0"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫Th-⟪k:3⟫That still doesn’t explain how you knew my name...⟪k:4⟫⟪k:5⟫Have... ⟪k:6⟫"
+"Have you been stalking me?"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫だ、⟪k:3⟫だって僕の名前もなんか勝手に知ってるし……。⟪k:4⟫⟪k:5⟫まさか……僕のストーカー"
+"とかじゃないよね……？"
+
+#: scenario8:scenario8_F61D9980_A7E3_4F06_BACA_BBCBE3183642
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1f5e30f558132bd6f48b19d6e00f44901145afe806f126b9f0ef8d7638ab1b68
+#. default-sha256: 9bef56d13f613f4fddf096252397c33fe923a36553c300966a3c3b0909d25787
+msgctxt "scenario8:scenario8_F61D9980_A7E3_4F06_BACA_BBCBE3183642"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫(He would probably trust a bear before me at this point...)"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫（完全に危険人物扱いだ……）"
+
+#: scenario8:scenario8_B44102EF_4199_4447_AE11_CFB948C36445
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8b6039598aa8bfc639aec43a782c17f08b839048b943baf749bee9fa405d1ce7
+#. default-sha256: 4d562d0dc7a9b7c4a6ad10af35907b93da2dbbbafc97efc811888367c4c8b16b
+msgctxt "scenario8:scenario8_B44102EF_4199_4447_AE11_CFB948C36445"
+msgid ""
+"⟪k:0⟫(Anyway, it would seem that, like Morgana’s, I’m the only one who can hear Giselle’s voice.)"
+msgstr ""
+"⟪k:0⟫（……やっぱり、⟪k:1⟫ジゼルの声はモルガーナの時のように、⟪k:2⟫⟪k:3⟫　私にしか聞こえないようだ"
+"な……）"
+
+#: scenario8:scenario8_BF0B8BD6_03C3_45AD_8E32_E8F2295461C7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2fd5bd5327be66b44485f10aa446ff2b63e69fc24e3f8ea0b7bef21ab8163ca4
+#. default-sha256: 1a0afa1ae5969c8619e3ff1437d84f6403cfdb27b4f2da134b8b550fb30310cf
+msgctxt "scenario8:scenario8_BF0B8BD6_03C3_45AD_8E32_E8F2295461C7"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Regardless... ⟪k:3⟫you wouldn’t have any luck converting anyone here anyway."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫でも……、⟪k:3⟫まあ、⟪k:4⟫宣教するのはどっちにしても無理だと思うよ。"
+
+#: scenario8:scenario8_63BAF3ED_C37E_458F_BD3C_62F538A17898
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 92fba0e7fd304b434c5a5b658c6f2b5a1e55362d780d14da93ef885394cb5bbc
+#. default-sha256: fc3197502b5f8f6ff71f0877feb5784c28e66bbe1688a11ee872a0a6e79d1ad6
+msgctxt "scenario8:scenario8_63BAF3ED_C37E_458F_BD3C_62F538A17898"
+msgid "⟪k:0⟫⟪k:1⟫She’s practically her own religious figure."
+msgstr "⟪k:0⟫⟪k:1⟫あれは一種の宗教だよね。"
+
+#: scenario8:scenario8_0FA8EB7D_288A_46A9_8E46_5E09D65CECD8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e5ab2dbc4249804cbbdc11370dfc19a71ba384539cb37a657ce61ff7c23a0a33
+#. default-sha256: 542c230dbd50c6c5f5fcb3ccc64bc54724302c2ac6cc77c7bad9164c2654b0aa
+msgctxt "scenario8:scenario8_0FA8EB7D_288A_46A9_8E46_5E09D65CECD8"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫The Saintess...?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫聖女………。"
+
+#: scenario8:scenario8_9D3512B0_9D2E_49AF_9396_90AA8B066BF3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b02f4c2e07e365aa5d50e7515d3ce2972ba09b5e965b978239706554deabb194
+#. default-sha256: 569799c932ec05d54014812ef9688be2a8689026c8f0275f890a7e2940353196
+msgctxt "scenario8:scenario8_9D3512B0_9D2E_49AF_9396_90AA8B066BF3"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫I would be surprised if you hadn’t.⟪k:3⟫⟪k:4⟫Anyway, in a few days, we’re going to "
+"hold a festival at the church to celebrate the spring harvest."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫そっか、⟪k:3⟫有名だものね。⟪k:4⟫今はさ、⟪k:5⟫春の実りを祝う祝祭の準備をしているん"
+"だ。⟪k:6⟫教会を中心にね。"
+
+#: scenario8:scenario8_BD09C724_75E7_48B7_88BD_1F6ECEF7F900
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2f6feeb6ffaca422cce32b891e2cafb5304a8b67ec873069ed26efb8b1200860
+#. default-sha256: 5b99efe0f2f0bb3c62d0fb41d782315b47c89a70a34cc7bee903237ae62f9d9b
+msgctxt "scenario8:scenario8_BD09C724_75E7_48B7_88BD_1F6ECEF7F900"
+msgid "⟪k:0⟫⟪k:1⟫When, exactly, is this harvest festival?"
+msgstr "⟪k:0⟫⟪k:1⟫その祝祭は……いつ開かれるのですか。"
+
+#: scenario8:scenario8_0260C6F3_E087_46E7_8155_E1A226923E54
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fa1d856d88f1ba34e128ce28d8f7bd65065038ee6be2a98bc4305035169ed601
+#. default-sha256: 84ef10af286d9880242432b5578aeef43c960e7d80032f5a3ae85edfe2da28e8
+msgctxt "scenario8:scenario8_0260C6F3_E087_46E7_8155_E1A226923E54"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Three days..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫三日後に………。"
+
+#: scenario8:scenario8_9D6877BA_9594_4D7A_840A_47177113DE81
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 75c2f5fd38346e5660ec63455e1304716a1e468a030acdadd8217f3072da0ed4
+#. default-sha256: 58a3e409cb60a50b5bd46492f46171200f06427b69146433b09bff36cf972e43
+msgctxt "scenario8:scenario8_9D6877BA_9594_4D7A_840A_47177113DE81"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫This will be the first time we’ve held the festival,⟪k:3⟫so everyone’s excited to "
+"make it into a big event—⟪k:4⟫⟪k:5⟫⟪k:6⟫something really memorable."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫今回が初めてなんだ。⟪k:3⟫だから記念になるような大きなものにしようって、⟪k:4⟫みんな"
+"ではりきっているんだよ。"
+
+#: scenario8:scenario8_64A7B688_A9FF_4863_B060_F2F1276FCD50
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d58bad25eb6d3c9f0e96f48f37cce02cbdae53a2d28939986aaf7254ac1bcc96
+#. default-sha256: 309da1ba7799acabe1677829389b0dde44b2490a84dd5cacc57ca3194bc6dd70
+msgctxt "scenario8:scenario8_64A7B688_A9FF_4863_B060_F2F1276FCD50"
+msgid ""
+"⟪k:0⟫⟪k:1⟫Could I ask you to show me the way to the church?⟪k:2⟫⟪k:3⟫I would like to join in on "
+"the festivities."
+msgstr "⟪k:0⟫⟪k:1⟫……その教会に案内してもらうことは出来ますか。⟪k:2⟫⟪k:3⟫私も祝祭に関わりたい。"
+
+#: scenario8:scenario8_3E782671_C462_49AE_A23A_3FF17F97108E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d043f6f0486b016cc482bd0741615733e5a52cca0836b05e7263dd633738ff6a
+#. default-sha256: c26dbda5fda53dee6ef5b39e4e6ae5afb2e55e401c301c62d5c754752a6bb974
+msgctxt "scenario8:scenario8_3E782671_C462_49AE_A23A_3FF17F97108E"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫…………。"
+
+#: scenario8:scenario8_3A773EC9_3ACC_4B52_93B2_7FFBF10BDBE5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 45b11470fe79360094599849fe863c0e1e1109830b9ec2957b98820358a93c05
+#. default-sha256: cbf487581e3919e1db2d5b87a15c215df8950a7da5bde1a7df805d8636be8e4a
+msgctxt "scenario8:scenario8_3A773EC9_3ACC_4B52_93B2_7FFBF10BDBE5"
+msgid ""
+"⟪k:0⟫(This Mell doesn’t seem like any different a person than the one I observed through the "
+"first door.)"
+msgstr "⟪k:0⟫（今の彼は……人柄も性質も、⟪k:1⟫⟪k:2⟫　あの時と同一人物であるように見える）"
+
+#: scenario8:scenario8_D187C846_D79E_4387_8941_45F93B752629
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3813e0048dcb716dd7a13a0fb810aedca02eff3de7a2851aab6ebc5df071331a
+#. default-sha256: ebb8dbe630102fe29ffc8cfa496d48a45ac16b09ec227bb87d16f6d95a2eafa9
+msgctxt "scenario8:scenario8_D187C846_D79E_4387_8941_45F93B752629"
+msgid "⟪k:0⟫............"
+msgstr "⟪k:0⟫…………。"
+
+#: scenario8:scenario8_154CA88D_D505_4A7F_9F9E_67EF47944A00
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 176b35256d70151c50f5e3a041d2359d9596aac3377811942c1a811c18132a13
+#. default-sha256: ee4227e3dd2b9aaaee252923a84f934b21466bae5752dc06eb3926a9d5e51fa3
+msgctxt "scenario8:scenario8_154CA88D_D505_4A7F_9F9E_67EF47944A00"
+msgid "⟪k:0⟫⟪k:1⟫(Yet he... ⟪k:2⟫played a part in Morgana’s imprisonment...)"
+msgstr "⟪k:0⟫⟪k:1⟫（彼も……、⟪k:2⟫幽閉に関わっている人物なんだな……）"
+
+#: scenario8:scenario8_F23A44CE_A17E_47BF_96CD_75CC7FDE7653
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4e74f95f744b9211d0a3fef511ddec58d6fac2da1329dc59d05137e074a4c136
+#. default-sha256: 71843859b0b52b3f4a01ce84850ded2c4c92b45ea81d3b7f8717c3774f4a688d
+msgctxt "scenario8:scenario8_F23A44CE_A17E_47BF_96CD_75CC7FDE7653"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫I was scared for a minute there! ⟪k:4⟫That could have gone a lot worse. ⟪k:5⟫"
+"Plus, we managed to make contact with Mell in record time!"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫一時はどうなるかと思っちゃいましたけど、⟪k:4⟫なんとかなりましたね！⟪k:5⟫⟪k:6⟫"
+"それに、⟪k:7⟫早速メルくんとも関われましたし！"
+
+#: scenario8:scenario8_425152CB_5F5D_416C_8E3A_45586D2AD470
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 66db7343511434922bd439773872c3788933554a4c73fae7c6f7300cd7376339
+#. default-sha256: d570a87ac64e27792617c330700d19bc580c3aa6d1be9206c4e9ce93bf46452a
+msgctxt "scenario8:scenario8_425152CB_5F5D_416C_8E3A_45586D2AD470"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………。"
+
+#: scenario8:scenario8_1DFD07AA_7991_4C4A_B063_D6B9C4DEE80F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 21f1a91619c68f110a12f4056a4810c78ecebffc162ddf8267a2761a3000120d
+#. default-sha256: c8cf851d9e331add286f3e583f3f57bbdf169e062af98c146de9cb2198b037d1
+msgctxt "scenario8:scenario8_1DFD07AA_7991_4C4A_B063_D6B9C4DEE80F"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Were you not in similar circumstances when it was you and Morgana together?"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫……君だって、⟪k:3⟫モルガーナと過ごしていた時は⟪k:4⟫⟪k:5⟫似たようなものだったので"
+"は……。"
+
+#: scenario8:scenario8_6DE37D34_A50C_457E_BD8D_5BAECCFDA60F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 991d1d5297479f11439706b4d0d7ca137618dc3b7053f7f5ea9dacba328944b7
+#. default-sha256: d570a87ac64e27792617c330700d19bc580c3aa6d1be9206c4e9ce93bf46452a
+msgctxt "scenario8:scenario8_6DE37D34_A50C_457E_BD8D_5BAECCFDA60F"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………。"
+
+#: scenario8:scenario8_94CB34EC_4E31_4147_A731_06A29A321B2D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 836aaa67925f5344f17ffb737e18f29fad46690a5e3147a3faf85ae19b45d6af
+#. default-sha256: 29d1e986595dad17421dddba7f07aa6632f4181ece499d6e20c779aa7fb2c746
+msgctxt "scenario8:scenario8_94CB34EC_4E31_4147_A731_06A29A321B2D"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫but he doesn’t seem like the kind of person who would enthusiastically do "
+"something so malicious."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫進んで悪事を行うような人間には思えない。"
+
+#: scenario8:scenario8_A0F5B1B3_6305_480F_AF40_9ACCC8B3D1A9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 09ca1b8265b0e6d02b91e278f2d2dcf6f211ce7c0bcb7b7156fa0c91e2a38b1f
+#. default-sha256: 27e9b7a15ca0469f4bb2d4cda49b00b6352fbbea98309f69f61b004ba8765779
+msgctxt "scenario8:scenario8_A0F5B1B3_6305_480F_AF40_9ACCC8B3D1A9"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Oh, that reminds me..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫あ、⟪k:3⟫そういえば……。"
+
+#: scenario8:scenario8_E0887063_C758_4707_8A71_AF068BDCF4DB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e319345681f31725e11f5f0852050b29b358dc2ad0eb9139b01ed9801e3f1f04
+#. default-sha256: 5556271d274f81327463348ac4fcacff3976f7f66f1e316ebe1d2cd9485897fa
+msgctxt "scenario8:scenario8_E0887063_C758_4707_8A71_AF068BDCF4DB"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Wh-⟪k:3⟫Whenever?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫ど、⟪k:3⟫どんな時も……ですよね？"
+
+#: scenario8:scenario8_172D48F9_75A5_4191_872B_6C9DB3D82205
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 659711bf753fd924505c40415ba3808ba21c7455b7a9b0c7ef50b75309a907d0
+#. default-sha256: 9b66ae37a7829816d7de5d79836fbe793ca6983c8d519fb81e7010ae09dcd711
+msgctxt "scenario8:scenario8_172D48F9_75A5_4191_872B_6C9DB3D82205"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫Um, ⟪k:3⟫y-⟪k:4⟫you don’t have to worry about that with me!⟪k:5⟫⟪k:6⟫I know when "
+"to keep my mouth shut, promise!"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫あのっ、⟪k:3⟫わ、⟪k:4⟫わたし、⟪k:5⟫大丈夫ですから！　⟪k:6⟫⟪k:7⟫空気読む女ですか"
+"ら！　⟪k:8⟫だから安心してくださいねっ！"
+
+#: scenario8:scenario8_350A0E84_99FF_4E64_89B7_39E2D821C22C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 957c241a7c15c75dbff4d84c420a53a7c3f4f7983508f46db7851ab4d2776396
+#. default-sha256: 2160b1d3c6d51aa52cdc60874b9d84e4bef8bfe42361418e2c755f2ed254f67e
+msgctxt "scenario8:scenario8_350A0E84_99FF_4E64_89B7_39E2D821C22C"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫I’ll be polite and close my eyes and plug my ears while you’re doing it!"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫わたし、⟪k:3⟫空気読んで耳も目も塞ぎますからっ！！"
+
+#: scenario8:scenario8_E7602E8D_F867_4D96_9203_53C680089D42
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4b0d59c749eb4efc04185efc0572ff12dc3ce0f919507652b8c31b199a9606e4
+#. default-sha256: 8b672bcbc0f55f05a537d16a8d01627aad16234584477f81493bc5c722e8fa7a
+msgctxt "scenario8:scenario8_E7602E8D_F867_4D96_9203_53C680089D42"
+msgid ""
+"⟪k:0⟫⟪k:1⟫(What would possess her to bring ⟪k:2⟫that⟪k:3⟫ up?⟪k:4⟫⟪k:5⟫Does she even realize what "
+"she’s saying?)"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫（なんで今、⟪k:2⟫トイレの話なんかするんだろう……。⟪k:3⟫⟪k:4⟫　この人は天然なのだろう"
+"か……）"
+
+#: scenario8:scenario8_CBB81811_891C_4F7A_8D67_98DCC520DB69
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 00a1e9246ab5af5407fb4ebb684cca2b67bd3995ae7a77291ed92b8574ed2d99
+#. default-sha256: 848fd8f1a78451fa4ab12efc21f9769f419b604d29f5c7fce9e630364ce81374
+msgctxt "scenario8:scenario8_CBB81811_891C_4F7A_8D67_98DCC520DB69"
+msgid "⟪k:0⟫⟪k:1⟫(That answers that.)"
+msgstr "⟪k:0⟫⟪k:1⟫（天然なんだろうな……）"
+
+#: scenario8:scenario8_8CFB51C2_55A7_4F89_9221_E232E965F48E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 63b49d7a7d5f36aad69794e51231cde84f198ffa41654765f85b07e3b07dce42
+#. default-sha256: b08a19ee785e9075b394300b699c666fd781bd04891ebba330bb4116eb99a548
+msgctxt "scenario8:scenario8_8CFB51C2_55A7_4F89_9221_E232E965F48E"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫Moving right along...⟪k:3⟫⟪k:4⟫We need to discuss how we’re going to go about this."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫ともかくも……、⟪k:3⟫トイレの話は置いて……、⟪k:4⟫⟪k:5⟫これからのことです。"
+
+#: scenario8:scenario8_74CDA111_E358_46F4_87EE_B8BC1306ECC6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5c59827729ce5ef5762306930509091d93855cd34cb2d624befcb7c56e667673
+#. default-sha256: 25c39aa63830fdbf60e2a7567f74d503f964269cdc8ed20b295204eecb58b7e2
+msgctxt "scenario8:scenario8_74CDA111_E358_46F4_87EE_B8BC1306ECC6"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫R-⟪k:3⟫Right, that!"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫は、⟪k:3⟫はいっ！"
+
+#: scenario8:scenario8_EFA67A45_D29C_4F61_8AC2_E59703B4841B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9612b7f80438dab7c3a9fbef432ce8f7a76dd8ffeaa26051cbc48c0a75518b81
+#. default-sha256: 83113f9b177825e2a5aef1f211b85267a574ae345ea06d546791ccc7f7053f5d
+msgctxt "scenario8:scenario8_EFA67A45_D29C_4F61_8AC2_E59703B4841B"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫The harvest festival is our deadline,⟪k:3⟫which doesn't give us very much time."
+"⟪k:4⟫⟪k:5⟫We need a plan for when we arrive at the mansion."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫館にたどり着いたら、⟪k:3⟫身の振り方を考えなければいけない。⟪k:4⟫⟪k:5⟫祝祭の日がタイ"
+"ムリミットだから……私たちに時間はあまりない。"
+
+#: scenario8:scenario8_D303D560_A53E_4CBB_A4E3_3FAA559C218F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3ce7fcfe9c3ab68de71ab5d070cdb2752afac21e4bdd0d8703b3fa1a70747bd3
+#. default-sha256: 099019d18962e13b0f6fbc3e3313cfbf6371bdfd487a71b1a0f3375734cbf562
+msgctxt "scenario8:scenario8_D303D560_A53E_4CBB_A4E3_3FAA559C218F"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫would anyone actually buy that?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫それを告げて、⟪k:3⟫すんなりと信じる人間がいるだろうか。"
+
+#: scenario8:scenario8_F958D740_0A61_4239_BB44_D7928D6649E4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d02e145ce0021c7e2df86e0bdff9d0316129d5a207dacec107b832222d12bb47
+#. default-sha256: 5b0c4f25439f4f43342d6b41a391fb1fa62accd1158cb2af31985195ae7723f0
+msgctxt "scenario8:scenario8_F958D740_0A61_4239_BB44_D7928D6649E4"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫S-⟪k:3⟫Sure, with enough convincing..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫で、⟪k:3⟫でも、⟪k:4⟫がんばって説得すれば……。"
+
+#: scenario8:scenario8_B1033B16_7427_4BB9_833E_A5A68D7169FE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 00ec27088655d4d533f14b39e9975555f7de79935d6028fc6a6222efdfdd05e4
+#. default-sha256: c2eaf55b5d206cd47c311711750c5200dca05b958033c4cf360613a4b7a93edb
+msgctxt "scenario8:scenario8_B1033B16_7427_4BB9_833E_A5A68D7169FE"
+msgid "⟪k:0⟫⟪k:1⟫(If Giselle is right and we ⟪k:2⟫can⟪k:3⟫ save Morgana and change the future...)"
+msgstr "⟪k:0⟫⟪k:1⟫（それに……、⟪k:2⟫本当にジゼルが言った通りに……）"
+
+#: scenario8:scenario8_79B40757_F8FB_4911_9F0F_52A4BE58B557
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8a1d46b054fc5385eb66e1dd81e0720e4c61c2e709a48861744f3a24ac19ff5c
+#. default-sha256: a9f6f376e44bd08584328d026173f618acf524304e925b48309a315f261abcde
+msgctxt "scenario8:scenario8_79B40757_F8FB_4911_9F0F_52A4BE58B557"
+msgid "⟪k:0⟫(then that would, indeed, solve everything.)"
+msgstr ""
+"⟪k:0⟫（モルガーナを救って未来を変えることが⟪k:1⟫⟪k:2⟫　出来るのならすべて解決すると思うが――）"
+
+#: scenario8:scenario8_07EE76A2_8C5E_4461_9B39_9DEB1AE74526
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8310983e7f5b0538e0e2482d2767a5a520ba43c814bc8ead8636b8be2ecaedda
+#. default-sha256: 5e5cf1460e90df0312b8c3bebe84689ed76f36384dc96cbb92f500f278820d96
+msgctxt "scenario8:scenario8_07EE76A2_8C5E_4461_9B39_9DEB1AE74526"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫(It ⟪k:5⟫is⟪k:6⟫ the same mansion, as I suspected...)"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫（やはり、⟪k:5⟫私が暮らした館と同じか……）"
+
+#: scenario8:scenario8_29793C26_FD31_4274_9502_77162C9CE8A8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9deab4f0e544dd3e726c720f65ef10926f5599270f53f2b259a97285dee8dffa
+#. default-sha256: cbf05ebbf7db99fbb34167e0d5cf687efcd73eb25ae5b2f544364a4f29870fa6
+msgctxt "scenario8:scenario8_29793C26_FD31_4274_9502_77162C9CE8A8"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Seeing it now, knowing what horrible things happened there..."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫分かってはいましたけど、⟪k:3⟫やるせない気持ちにさせられますね。⟪k:4⟫⟪k:5⟫あの場所で"
+"――"
+
+#: scenario8:scenario8_32CBA72A_5607_4A9A_9CF9_F923F14E0EF9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4c769ba40c9272df7e775f6c4472437a782239da78f68a16bf06d5dab49a74e1
+#. default-sha256: fbe26b7938bbb19e1a459a8b107571e6c3f7014c7be1b9c9b5f8f92278d2d027
+msgctxt "scenario8:scenario8_32CBA72A_5607_4A9A_9CF9_F923F14E0EF9"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫(But the other two, that almost certainly wouldn’t work for...)"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫（しかし他の二人を力技でどうにかするのは、⟪k:4⟫⟪k:5⟫　どちらにしても無理そう"
+"だ……）"
+
+#: scenario8:scenario8_C0DCE365_A456_4794_AA8F_3FA6111F13E4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7cf425388019c0dffdd6ae763910d7fc9df25e0d9b76605d55ae88dcfb489a2d
+#. default-sha256: 01c5c04fc95e332d644d97ba61e1f8135d54164c4eb464483b497014e46a061e
+msgctxt "scenario8:scenario8_C0DCE365_A456_4794_AA8F_3FA6111F13E4"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫...What does?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫……え……？"
+
+#: scenario8:scenario8_B0223298_D3FD_4121_8428_8A2A98D7220C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3ce7cbedab3038fecb0b905ece9e1efcd751bb7ac99bb5dd666d04d0b5138ed2
+#. default-sha256: 270f085dee759b0e6a2e52bc21961f468a91c79635f0a7e20bde25c1eee4de7b
+msgctxt "scenario8:scenario8_B0223298_D3FD_4121_8428_8A2A98D7220C"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫I mean, it doesn’t ⟪k:3⟫look⟪k:4⟫ much like a church.⟪k:5⟫⟪k:6⟫At a glance, you’d "
+"think it was some noble’s estate."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫だって、⟪k:3⟫教会とは程遠いだろ？　⟪k:4⟫どっちかっていうと、⟪k:5⟫立派なお屋敷って感"
+"じでさ。"
+
+#: scenario8:scenario8_0E1624C2_71ED_449C_9525_26ABBBB9F032
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 650576243cdec927d05dd17b115c659af3bde0c6d00f965e83ba9091e59495f0
+#. default-sha256: 388f5e7b8a355d890dc74946dc46bd1165a58b35185593c9bd06ad872c040ab5
+msgctxt "scenario8:scenario8_0E1624C2_71ED_449C_9525_26ABBBB9F032"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫A-⟪k:4⟫Ah, so it does."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫あ、⟪k:4⟫ああ……そういえばそうですね。"
+
+#: scenario8:scenario8_58C46266_48E4_4E69_90C4_6C4B666F9F39
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7da13a858118b1b7fc69a3e949b279afacfa255570ddb42fc4203cc0d3fea768
+#. default-sha256: 082bf9332b8595fdf84828d2d67ec8503d040d895346bc209d5a76d12a7cd53a
+msgctxt "scenario8:scenario8_58C46266_48E4_4E69_90C4_6C4B666F9F39"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Do you know why it was built like that?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫なぜ、⟪k:4⟫そのような構造に？"
+
+#: scenario8:scenario8_F8E8C9BF_2D3C_4AB5_9354_5837D1EDD9F3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ade82f9aa7cac219a7fa087eb1bc7d277791ead147168e15bba18ef50312c035
+#. default-sha256: b829ae42b0aef60524415ff5cd4a005de24616e621f1d83dcc768bd98112db8a
+msgctxt "scenario8:scenario8_F8E8C9BF_2D3C_4AB5_9354_5837D1EDD9F3"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫(Oh, he’s not talking about Morgana...)"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫（そうか、⟪k:4⟫モルガーナのことじゃないんだな……）"
+
+#: scenario8:scenario8_1B658D1C_CB5D_4624_9AE6_8C97A6A81DE0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 52dbcc628159fd210cef30481fcff46dc469c74668ed9efed92cf02c477b45c4
+#. default-sha256: c2f2c1c72ca9c33757165fbc9a45206cc781b04564152cce13045268e054bd94
+msgctxt "scenario8:scenario8_1B658D1C_CB5D_4624_9AE6_8C97A6A81DE0"
+msgid "⟪k:0⟫Following Mell’s lead, we head through the chapel entrance."
+msgstr "⟪k:0⟫私たちの足は、⟪k:1⟫そのまま玄関へと向かった。"
+
+#: scenario8:scenario8_BA4C1DE8_2B2C_4357_AC79_522FDBF47F54
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 64a7ce1ce18a29af8467c33b074314197179f063826f887094e781c5ede5da8d
+#. default-sha256: 4fed372a9e514607879ab35b7f0109cdb811eabf32a6a45c052eb0db8562e671
+msgctxt "scenario8:scenario8_BA4C1DE8_2B2C_4357_AC79_522FDBF47F54"
+msgid "⟪k:0⟫the room I’m looking at now is unequivocally a chapel."
+msgstr "⟪k:0⟫そこには確かに、⟪k:1⟫教会だと誰の目に見ても分かるように、⟪k:2⟫存在した。"
+
+#: scenario8:scenario8_C543C06A_4880_4EE9_BE5B_36F630A3A4BA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c296d008c9cb44b557287316fee2392a7ee6b3b1bccf3014ea8ddf9811efb6c9
+#. default-sha256: b9d90e748807b1268ca2e0bcea6364a1ee6957095959bf7969999a88c9213c7e
+msgctxt "scenario8:scenario8_C543C06A_4880_4EE9_BE5B_36F630A3A4BA"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫The stained-glass window is behind the pulpit,⟪k:3⟫I’m guessing, though we can’t "
+"see it from here."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫……大天使のステンドグラスは、⟪k:3⟫⟪k:4⟫あの説教台の奥にありそうですね。⟪k:5⟫ここから"
+"だと見えないわ。"
+
+#: scenario8:scenario8_F51F390E_75B8_477B_A591_20B3F7B7AA43
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 089e81fd0112b5123a8727b6151572e2482beebc4ea23764af525863a4f247db
+#. default-sha256: c047e7e559f82ee35510f759c38e040097c8fde43b13be3a8488a1c58a021429
+msgctxt "scenario8:scenario8_F51F390E_75B8_477B_A591_20B3F7B7AA43"
+msgid "⟪k:0⟫⟪k:1⟫(And right next to it... ⟪k:2⟫is the door to the observation tower.)"
+msgstr "⟪k:0⟫⟪k:1⟫（ステンドグラスか……。⟪k:2⟫⟪k:3⟫　そのすぐ傍に、⟪k:4⟫物見の塔の入り口がある……）"
+
+#: scenario8:scenario8_1F0F4EC7_0B7E_485B_85BB_03B0CAEE3942
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2ebbf11bed02fa2b836d85421b3db8cbf2a95703e6f94249b800c9cf9e83a60e
+#. default-sha256: fbab486abe2255679773ca51d97bfcc1199c64ac3e512a8436e8f7ba5ebd93a9
+msgctxt "scenario8:scenario8_1F0F4EC7_0B7E_485B_85BB_03B0CAEE3942"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Ahh, there she is.⟪k:3⟫⟪k:4⟫There’s no priest here; ⟪k:5⟫she runs the church."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫ああ、⟪k:3⟫いたいた。⟪k:4⟫この教会の持ち主はあの人だよ。⟪k:5⟫神父様はいないんだ。"
+
+#: scenario8:scenario8_CD066BBF_CFCD_4268_9A94_1C4A3AFC1F24
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4de25bcf81d138e1e393134c81598a2e66f4339701014fffd477dc55dbe98e09
+#. default-sha256: fb4771c801059f6f5e506647db2bf4c51c649c2f571ffe6465f8019781c58848
+msgctxt "scenario8:scenario8_CD066BBF_CFCD_4268_9A94_1C4A3AFC1F24"
+msgid ""
+"⟪k:0⟫returning with a nun in tow.⟪k:1⟫⟪k:2⟫When I see her, my face twists for a brief moment."
+msgstr "⟪k:0⟫そして、⟪k:1⟫向こう側から現れた修道女の姿に、⟪k:2⟫眉根を寄せた。"
+
+#: scenario8:scenario8_E847FEE5_CE15_47AD_AE31_4DD3C4361B8E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 991d1d5297479f11439706b4d0d7ca137618dc3b7053f7f5ea9dacba328944b7
+#. default-sha256: d570a87ac64e27792617c330700d19bc580c3aa6d1be9206c4e9ce93bf46452a
+msgctxt "scenario8:scenario8_E847FEE5_CE15_47AD_AE31_4DD3C4361B8E"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………。"
+
+#: scenario8:scenario8_DB245FE6_D3F9_4D5B_A46B_0D6673823CE1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 184af80a6f4dac08386265b114724645984da3f0e120967bf640a025a0ce8dee
+#. default-sha256: 2bf8dd47bc2f66e645b7756d5c563d22d53e05b0db35ee37fcf79f1313e7c607
+msgctxt "scenario8:scenario8_DB245FE6_D3F9_4D5B_A46B_0D6673823CE1"
+msgid "⟪k:0⟫but also the women who were important parts of their lives."
+msgstr "⟪k:0⟫彼らと関わりの深い女性たちも……。"
+
+#: scenario8:scenario8_4D807F0C_A250_4A65_9B54_3469B504C2C7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 991d1d5297479f11439706b4d0d7ca137618dc3b7053f7f5ea9dacba328944b7
+#. default-sha256: d570a87ac64e27792617c330700d19bc580c3aa6d1be9206c4e9ce93bf46452a
+msgctxt "scenario8:scenario8_4D807F0C_A250_4A65_9B54_3469B504C2C7"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………。"
+
+#: scenario8:scenario8_169D2E44_4E98_4D08_A3C1_11C4C3C62C9F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4a7e5d4596d4c79d98b554eb146e6b1faac85c7a025f1a4363a486cd5519b15f
+#. default-sha256: 29af22f04b74aa158c399e8d9207f275775ecef608bb20fffb569af9c326dade
+msgctxt "scenario8:scenario8_169D2E44_4E98_4D08_A3C1_11C4C3C62C9F"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫...? ⟪k:3⟫Is there something the matter?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫………？　⟪k:3⟫私の顔に、⟪k:4⟫何かついてたかな？"
+
+#: scenario8:scenario8_F11CB51E_D402_4E41_9414_26AB5715D2FE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a5740860bcdd09aa93d4bbb29539ebb1936098af9f1adf6191c3b0575de49a4d
+#. default-sha256: 8980a64a0239902e2d9f2fb68aacffebf45c7610951ffc5e56d41b37d81fe9aa
+msgctxt "scenario8:scenario8_F11CB51E_D402_4E41_9414_26AB5715D2FE"
+msgid ""
+"⟪k:0⟫⟪k:1⟫But the lord of the land ordered me to transfer to a new, larger church he was opening, "
+"⟪k:2⟫so here I am."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫でも、⟪k:2⟫新たに大きな教会を開くからって、⟪k:3⟫領主様に命を受けたから。⟪k:4⟫⟪k:5⟫だか"
+"ら、⟪k:6⟫今こうしているの。"
+
+#: scenario8:scenario8_5707F7FB_ACFB_4A54_8C5F_0AB824B52FFD
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7724bc2524448d041abacb369d677ef38545d8f9e991b428de90ffa59a734fd8
+#. default-sha256: de624455fd5d91c739e18bf84df745b88e7520a3e9be1859a14bdae195452b21
+msgctxt "scenario8:scenario8_5707F7FB_ACFB_4A54_8C5F_0AB824B52FFD"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫The lord..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫領主………。"
+
+#: scenario8:scenario8_737DA801_6A7B_4622_B4BF_FCED3438F5AB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8f761ce7fc50f76e67b050ed2a30acc077c43767934f22e76872786a71ffb188
+#. default-sha256: 864604ab0a5dacd23d361db6020fe60a506a3b4ff8bcb8b5871e1e9ee42ec63a
+msgctxt "scenario8:scenario8_737DA801_6A7B_4622_B4BF_FCED3438F5AB"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫I-⟪k:3⟫Is something troubling you?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫え、⟪k:3⟫えっと……どうかした？"
+
+#: scenario8:scenario8_1EB5FA53_2A6B_43BC_ACED_2C658A503DB7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 213e56ca759e7fef0c473ecc1f127a5c6ac8734a2638a1e056f62ffed4aeb0e3
+#. default-sha256: 10bf27b7d277cffc54026a622072e49d23dad70be871b0cf8cebcb5c575cb670
+msgctxt "scenario8:scenario8_1EB5FA53_2A6B_43BC_ACED_2C658A503DB7"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫(Daydreamer...?)"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫（……ぼんやり屋……）"
+
+#: scenario8:scenario8_B4FCDC6A_31FA_46B6_A694_A335FB854A59
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3d6c4c7afd00a3579540416439af1c7373d46b21ab48beee5eb1c15fcef10677
+#. default-sha256: 9e0dbf9e05c8e4fc3497903ab44ac3526fbb594a5c85796774e9defc205929c2
+msgctxt "scenario8:scenario8_B4FCDC6A_31FA_46B6_A694_A335FB854A59"
+msgid "⟪k:0⟫⟪k:1⟫...Mell would fit that description much better."
+msgstr "⟪k:0⟫⟪k:1⟫……それはメルに与えたい称号ですね。"
+
+#: scenario8:scenario8_694870DD_44BB_4994_8C87_814851CD8569
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b099c05d19c210be84e9e1c776ed6c0382f09754d166377be2fb5f24638c1a4e
+#. default-sha256: 55fc08fdc95f7a219aa312b8e117f9caf03d20f817b67299664b63bd42e53268
+msgctxt "scenario8:scenario8_694870DD_44BB_4994_8C87_814851CD8569"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫What?! Why?! Do I really look like that much of an "
+"airhead?"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫⟪k:8⟫えっ！？　⟪k:9⟫なんで僕！？　⟪k:10⟫僕ってそんな風に思"
+"われてるの！？"
+
+#: scenario8:scenario8_FFDA3751_3759_46DF_8580_0F2C28584D7D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3c2cd80027f19462439d96d5e153bab1e4a1e01d33fc3e3cdbbc818303fd81b3
+#. default-sha256: c13f9be4a7607dd8bc65cea653026c6342ca37254e090613451a812d71af7f93
+msgctxt "scenario8:scenario8_FFDA3751_3759_46DF_8580_0F2C28584D7D"
+msgid ""
+"⟪k:0⟫⟪k:1⟫Ooh, I can see that!⟪k:2⟫⟪k:3⟫Someone has to watch out for him,⟪k:4⟫or he’s likely to "
+"lose his head in the clouds."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫あ、⟪k:2⟫分かるかも！　⟪k:3⟫メルって放っておくと、⟪k:4⟫ふらふらってどこかに行っちゃいそ"
+"うだよね。"
+
+#: scenario8:scenario8_3504947F_A917_4304_AD78_0F4E1B0D1B38
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c00a28add426727d295d8a85d8bbf68d17b488adedbadd9709f724c9c9e4d15a
+#. default-sha256: 2c7ac729a53f6bd58ed074a8b80208034a66e61ac4c2c8cc977856ec9f458804
+msgctxt "scenario8:scenario8_3504947F_A917_4304_AD78_0F4E1B0D1B38"
+msgid ""
+"⟪k:0⟫⟪k:1⟫What’s the big deal? You don’t want a big sister?⟪k:2⟫⟪k:3⟫Well, I want you to be my "
+"little brother!"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫いいじゃない。⟪k:2⟫私のことをおねえちゃんって呼んでもいいんだよー！　⟪k:3⟫むしろそう呼ば"
+"れたいかも！"
+
+#: scenario8:scenario8_25738EFB_8672_4F9B_A313_D58E977C19C4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 61e07de2796044ff1315e4f68414394865d5cc1dafd179281e826c26ebcaa001
+#. default-sha256: 3a9f53ef3231e3b35100a8814fdc7cadf55d5f389bac3d77d37ec37183e09746
+msgctxt "scenario8:scenario8_25738EFB_8672_4F9B_A313_D58E977C19C4"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫(They’re quite friendly with one another, it would seem...)"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫（……仲いいな……）"
+
+#: scenario8:scenario8_B9AD529E_DCE2_4266_B35B_A3289DB707F6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8e5b32aa5971d326b2fdf0897b4df9e6d56f9451c28d35b7bb78b51fe3e539d7
+#. default-sha256: 9dd3cbdafeb86e46212886c675c55fb308e3233b9dcac477cdfaad01540a2c99
+msgctxt "scenario8:scenario8_B9AD529E_DCE2_4266_B35B_A3289DB707F6"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………。"
+
+#: scenario8:scenario8_B9057EBE_93F8_46E4_9C21_CF9206ACF8BE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8774c3df0630b8ffaa5946929ed9f00c36408d83f10f42680d44a4396b0c41c2
+#. default-sha256: a9f682773358f957bbb1541f30ee6816a285b190dbe104fcfd26a2777b2e49c8
+msgctxt "scenario8:scenario8_B9057EBE_93F8_46E4_9C21_CF9206ACF8BE"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫I have ⟪k:4⟫at least⟪k:5⟫ ten years on you!"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫お前と十は違うはずだぞ……！！"
+
+#: scenario8:scenario8_ADA372B2_14E3_450F_8A9F_09777D80A17A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3889dd7530c75bd881fec480a72b843aabccbfb5699881abca38397d43296442
+#. default-sha256: 2f582796e5c75a0e4f5aa95d936ca082c1ed4037842ec19d3fe225728fad369c
+msgctxt "scenario8:scenario8_ADA372B2_14E3_450F_8A9F_09777D80A17A"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Could I perhaps borrow a room until the day of the harvest festival?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫祝祭の日まで、⟪k:4⟫私もこの館に置いて欲しい。"
+
+#: scenario8:scenario8_D2EF9AEB_97E5_4307_82BB_2D332E6DBF96
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9a01a34d93489de265e9b92f9716f4f7e85550ae213db052986bca5cca3efcd6
+#. default-sha256: 20ea99933805e00b1506a59937fc021d65eaa1732c79c21aa586dd2cf107e104
+msgctxt "scenario8:scenario8_D2EF9AEB_97E5_4307_82BB_2D332E6DBF96"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫I, ⟪k:4⟫uh... ⟪k:5⟫I don’t have anywhere to stay,⟪k:6⟫⟪k:7⟫or a source of "
+"income for that matter."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫ああ……、⟪k:4⟫ええと……、⟪k:5⟫泊まるところに困っていて。⟪k:6⟫⟪k:7⟫その、⟪k:8⟫日"
+"銭もないのです。"
+
+#: scenario8:scenario8_34C3B45E_4229_4E8F_A334_B6DBC0E4FF97
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e570cb3c37ecfd8036972ff784e2b093388860ece4f864a0ccb71bb6f9af97e1
+#. default-sha256: aa8c6c6805bf3415f6a7f42b4a5ffef5dbaf7ffd8eccf2c814ed6670ee53081d
+msgctxt "scenario8:scenario8_34C3B45E_4229_4E8F_A334_B6DBC0E4FF97"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫I would be more than happy to offer you a place to stay...⟪k:3⟫⟪k:4⟫at any other "
+"time..."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫もちろん……、⟪k:3⟫と言いたいところなんだけど……。⟪k:4⟫⟪k:5⟫ちょっと、⟪k:6⟫今はむずか"
+"しくて……。"
+
+#: scenario8:scenario8_1E2DEB67_B17D_4C0E_977C_CBD7085AC0F4
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 60f67a9ca38d0067384ee823b6ca5747aafa8661232e987d4c1e8b78ba173af2
+#. default-sha256: 9c067a995db57022771ad7a0e244be287104b6d66718df5082c687dab1386de6
+msgctxt "scenario8:scenario8_1E2DEB67_B17D_4C0E_977C_CBD7085AC0F4"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫…………。"
+
+#: scenario8:scenario8_C43ED2F9_C31C_49A6_AED1_F5933D351B1C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2b0d3608e87fd8260e7af7457103b541a2d40aaca4040da0189842b6d8445d03
+#. default-sha256: c4cac97f9148bbfbc130f0d0660881fa15bda605cdfef0f867f84a8f5e4439f2
+msgctxt "scenario8:scenario8_C43ED2F9_C31C_49A6_AED1_F5933D351B1C"
+msgid "⟪k:0⟫⟪k:1⟫(Well, damn. So much for that...)"
+msgstr "⟪k:0⟫⟪k:1⟫（どうしよう、⟪k:2⟫早速断られてしまった……）"
+
+#: scenario8:scenario8_B2B88DE6_7B56_4EDA_B84A_807F8353C05A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ab10b97b85a83ad6e89d9ebfc62bbf87ac055d528e214c14b3174d3ad8cf2dfb
+#. default-sha256: 367aee60579383c66b4811598eb5d6380825afa7b4b57afcb68218b8bfe6bf0d
+msgctxt "scenario8:scenario8_B2B88DE6_7B56_4EDA_B84A_807F8353C05A"
+msgid "⟪k:0⟫⟪k:1⟫(P-⟪k:2⟫Put on a show? You expect me to act?)"
+msgstr "⟪k:0⟫⟪k:1⟫（え、⟪k:2⟫演技と言われても）"
+
+#: scenario8:scenario8_8FC468D1_FF63_4782_B51A_B5AD2302C725
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: c0da573024eb9a001c4f25aa5fc99bd911c04dd1f7757a5c77f7cabcfbf92bab
+#. default-sha256: 6359b523a0d8d7f8f0d5b63152d0895a8a1c0ecd417175d1061b266d6fe94d75
+msgctxt "scenario8:scenario8_8FC468D1_FF63_4782_B51A_B5AD2302C725"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫He was perfectly fine on our walk here."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫この人、⟪k:8⟫さっきまでピンピンして外あるいてたよ。"
+
+#: scenario8:scenario8_62BB5D71_7DC7_444F_A651_A1CDBDF02E6B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 681a969b04a82fd9b1b9a2ea50b78652cd1bbdd945b18e6a3b7449a2a4b7e3e9
+#. default-sha256: e2285064f3a12571512de477c9664d22e326c58283241d8a83d1394c76e0e8f4
+msgctxt "scenario8:scenario8_62BB5D71_7DC7_444F_A651_A1CDBDF02E6B"
+msgid "⟪k:0⟫⟪k:1⟫...No... ⟪k:2⟫that’s not true..."
+msgstr "⟪k:0⟫⟪k:1⟫………違う………。"
+
+#: scenario8:scenario8_E1D73EE2_5F58_4026_B686_90B5D764F8CC
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 339aadd0b542aff5717651c0c26bd7022e236a1c92c45545c88370a45f603034
+#. default-sha256: 20d0fbb1075431151dbb8b1cd41f741ac9c19c9cfbe7f87d9ba1959b681c4c91
+msgctxt "scenario8:scenario8_E1D73EE2_5F58_4026_B686_90B5D764F8CC"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫It ⟪k:4⟫is⟪k:5⟫... ⟪k:6⟫real blood..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫それは……、⟪k:4⟫本物の血だ……。"
+
+#: scenario8:scenario8_A4F59E71_F0B1_405F_AE15_B61293266FFE
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3b4fee05827f9cb6058c86664d4b3faf20b5240db0319a5c24583cc4ad0f04e6
+#. default-sha256: 2cf3838526a16394598938a77e8acbc77081633eead41e46f86a9b8053e65f6b
+msgctxt "scenario8:scenario8_A4F59E71_F0B1_405F_AE15_B61293266FFE"
+msgid "⟪k:0⟫⟪k:1⟫Wh— ⟪k:2⟫⟪k:3⟫What do you—"
+msgstr "⟪k:0⟫⟪k:1⟫え、⟪k:2⟫それってどういう―――"
+
+#: scenario8:scenario8_CE36EA94_01FE_45CB_9B81_EA47D72EC6E3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9827323498d243809306a11131f1dcc4ad7d7601f6ad91f1701b766e1c365e09
+#. default-sha256: 79d049f4baa5e7f10496ede2e3cc0979e3821bed242b6cff208cb7ecf326d8a7
+msgctxt "scenario8:scenario8_CE36EA94_01FE_45CB_9B81_EA47D72EC6E3"
+msgid "⟪k:0⟫⟪k:1⟫A-⟪k:2⟫All right..."
+msgstr "⟪k:0⟫⟪k:1⟫う、⟪k:2⟫うん………。"
+
+#: scenario8:scenario8_33AE55AB_6E25_41D8_BBAB_9030A055BEC8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7630e70698fcd89905e1af0ea4780eb2a9d2896b0fded52d957c031e16f0f0c3
+#. default-sha256: 9c067a995db57022771ad7a0e244be287104b6d66718df5082c687dab1386de6
+msgctxt "scenario8:scenario8_33AE55AB_6E25_41D8_BBAB_9030A055BEC8"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫…………。"
+
+#: scenario8:scenario8_677D13C3_969D_42B6_AF87_A0B5BE2AB171
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cb0dc7ddb4e3abc5f539a8380fefe050bcbc5869257db3f753ed3e8403d2fe26
+#. default-sha256: 3ee4049addfe47e499f8e8494dd04274ab7a59211031fdfff37f6b1cab375a2b
+msgctxt "scenario8:scenario8_677D13C3_969D_42B6_AF87_A0B5BE2AB171"
+msgid "⟪k:0⟫(I probably should have kept my mouth shut, though.)"
+msgstr "⟪k:0⟫（……言うべきではなかったかもしれない）"
+
+#: scenario8:scenario8_A932E520_9527_430B_BE99_17DD1BF429C7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3fc5f2a353a5bf943d685a038292f454575c6b334e1f059766a3a853b3268ca2
+#. default-sha256: 2a84add0448fe8c330e71532fea705c91671476a8379b763fa5d9aaff5ed9b66
+msgctxt "scenario8:scenario8_A932E520_9527_430B_BE99_17DD1BF429C7"
+msgid "⟪k:0⟫⟪k:1⟫who exactly ⟪k:2⟫are⟪k:3⟫ you?"
+msgstr "⟪k:0⟫⟪k:1⟫君って本当に何者なの……？"
+
+#: scenario8:scenario8_952BD44C_9F68_43B6_BC41_CB1B83F79613
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 044233aa436ba4499ce789cebe905eddb103fc9fb722721638ed2216e002eb8b
+#. default-sha256: 9c067a995db57022771ad7a0e244be287104b6d66718df5082c687dab1386de6
+msgctxt "scenario8:scenario8_952BD44C_9F68_43B6_BC41_CB1B83F79613"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫…………。"
+
+#: scenario8:scenario8_BCCD7997_E5ED_419B_9352_A6AA5DF3CF27
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6502a6c5551f7722caaee38489b901ed69909093441212863ef6ee0d20f44eb6
+#. default-sha256: 2f7121dd761950f584042b584c2a5cb2c9f60e0c8c39dcb5cbe275d4495a7dbe
+msgctxt "scenario8:scenario8_BCCD7997_E5ED_419B_9352_A6AA5DF3CF27"
+msgid ""
+"⟪k:0⟫His shade in the mansion begged for me to save him.⟪k:1⟫⟪k:2⟫If he knows what I know, maybe "
+"this Mell will seek my help as well."
+msgstr ""
+"⟪k:0⟫館で出会った彼は、⟪k:1⟫救いを求めていた。⟪k:2⟫⟪k:3⟫それならば――真相を告げた上で、⟪k:4⟫協力を"
+"求められるかもしれない。"
+
+#: scenario8:scenario8_9884162B_55B0_4E1E_8DDC_F80DB5C0EDF8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 5c3478d50d38ef6fd52fcbe5538ab6477a3933c9ced89d6c3a9ac1e28fa9bf91
+#. default-sha256: e33d90cd6b19d66c7f12200d6f35e6290b366233c8962e821630d23285e80ba8
+msgctxt "scenario8:scenario8_9884162B_55B0_4E1E_8DDC_F80DB5C0EDF8"
+msgid "⟪k:0⟫⟪k:1⟫I am not from this time."
+msgstr "⟪k:0⟫⟪k:1⟫私はこの時代の人間ではありません。"
+
+#: scenario8:scenario8_7FB441B9_CFC2_49C1_B9EF_C2BDC7B96580
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6a069bb35c8bcd0d3d760928de8e19084da97e83989d137417c6c693cd9880f2
+#. default-sha256: fd54c1a68892d11fbdfdf968d9cecd61fd3c09232a5351ab06dee7c14617c743
+msgctxt "scenario8:scenario8_7FB441B9_CFC2_49C1_B9EF_C2BDC7B96580"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Every word of it is true."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫けれど、⟪k:4⟫すべて事実です。"
+
+#: scenario8:scenario8_E1F62BF7_B507_48F6_9DD2_04050BBBD52D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4b9859304f9ec6cb882ceb8d72c4d549ec6a43de1f82f342eb749c4fabe6eff3
+#. default-sha256: 54ce5322deb9db0b35ffbffbd2091e3261104d403cc46f25937296857f168be0
+msgctxt "scenario8:scenario8_E1F62BF7_B507_48F6_9DD2_04050BBBD52D"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫.................."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫………………。"
+
+#: scenario8:scenario8_E6046ED0_EBC4_460A_B500_F9C7760C23CA
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4b9859304f9ec6cb882ceb8d72c4d549ec6a43de1f82f342eb749c4fabe6eff3
+#. default-sha256: 54ce5322deb9db0b35ffbffbd2091e3261104d403cc46f25937296857f168be0
+msgctxt "scenario8:scenario8_E6046ED0_EBC4_460A_B500_F9C7760C23CA"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫.................."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫………………。"
+
+#: scenario8:scenario8_0DE79761_34D4_4218_90EF_7D9CC15963D5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8caadb7fbd333f64bbcb64fd8bed871da2a84a3bd040dcc285ce9b938420b3ef
+#. default-sha256: 8bdb045c2b101dc356b474b705964a15be734b28f9f456cbc3600321162b0ab0
+msgctxt "scenario8:scenario8_0DE79761_34D4_4218_90EF_7D9CC15963D5"
+msgid "⟪k:0⟫I only want what’s best for you."
+msgstr "⟪k:0⟫私は貴方の味方だ。"
+
+#: scenario8:scenario8_DBFE412A_A5B1_480A_ADE3_412F0A4EFB2F
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 885d440c74eedf809cacf1dd13eebba159cd144b1ee8bf0c26a678f6905e3284
+#. default-sha256: 9c067a995db57022771ad7a0e244be287104b6d66718df5082c687dab1386de6
+msgctxt "scenario8:scenario8_DBFE412A_A5B1_480A_ADE3_412F0A4EFB2F"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫…………。"
+
+#: scenario8:scenario8_6D773667_E5DA_440B_A43E_77668802B3A0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d2635e2515f23f0910ef08709302e1ed88b17d14f0906875d8cffc91a468e37f
+#. default-sha256: 431da2014456744f87becdc71eaac6e8829d4e3a74fa1fb51d7568031286ccbd
+msgctxt "scenario8:scenario8_6D773667_E5DA_440B_A43E_77668802B3A0"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Please...⟪k:3⟫⟪k:4⟫I’ll make the right decision."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫お願いだよ……。⟪k:3⟫悪い決断は……しないから。"
+
+#: scenario8:scenario8_F1DB28B9_15C5_4974_B580_4A146D8DCA61
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e250e917aca9d6a13d5a5182eb71ae34acd714ca11e324b88171588e0873515b
+#. default-sha256: b8039b8d73131030462d6e1cc7984708f87045cf0e2d6056a1a23c8238826ea0
+msgctxt "scenario8:scenario8_F1DB28B9_15C5_4974_B580_4A146D8DCA61"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫Wait here until I come back, would you?⟪k:3⟫⟪k:4⟫It’s almost sundown... ⟪k:5⟫so it "
+"shouldn’t be long."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫夜になるまで、⟪k:3⟫ここで待っていてもらえるかな。⟪k:4⟫⟪k:5⟫そろそろ日は落ちるし、"
+"⟪k:6⟫時間は……かからないと思うから。"
+
+#: scenario8:scenario8_B30C36F9_B3C9_4E67_AE9A_C5B1C3A0CC29
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: db6cf5b025f7298f15466227d5f403cf3a2d6220ea71a3aa9870e731dfb85567
+#. default-sha256: 71c38099ee634f05f0cda16c33700deb8309f05053547797eb40acd74d1eb884
+msgctxt "scenario8:scenario8_B30C36F9_B3C9_4E67_AE9A_C5B1C3A0CC29"
+msgid "⟪k:0⟫...I’ll be waiting."
+msgstr "⟪k:0⟫………分かりました。"
+
+#: scenario8:scenario8_3F9CB0E4_97FC_4818_85B9_A4ADCF685FC1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 17bc7b4db0d11849f2cd848a9407099958b780aeb2edeb5533e8888859d5249c
+#. default-sha256: 9c067a995db57022771ad7a0e244be287104b6d66718df5082c687dab1386de6
+msgctxt "scenario8:scenario8_3F9CB0E4_97FC_4818_85B9_A4ADCF685FC1"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫…………。"
+
+#: scenario8:scenario8_660B6F00_B95C_4565_BF49_F12CB7468F64
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9ec1ebeac2b3c390acac8df5b3ca301fc73808d2fdb83896de9c3bc18f5e9297
+#. default-sha256: 1b61979852865620e3310a96fa6f03d0dc70be4d31cc3664537d493b3e2de41f
+msgctxt "scenario8:scenario8_660B6F00_B95C_4565_BF49_F12CB7468F64"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Well, he seemed to believe it."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫信じて……もらえたみたいですね。⟪k:3⟫わたしたちのこと。"
+
+#: scenario8:scenario8_526F0A96_8391_4B97_AB49_51F5ADED1A60
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7e14e588e775c833a860a78efd8953e2ebfe8e0bddc62283ffb56ea31dec134e
+#. default-sha256: d570a87ac64e27792617c330700d19bc580c3aa6d1be9206c4e9ce93bf46452a
+msgctxt "scenario8:scenario8_526F0A96_8391_4B97_AB49_51F5ADED1A60"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………。"
+
+#: scenario8:scenario8_B7F93DD0_43B6_4F84_9B59_108385F46D2A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7e14e588e775c833a860a78efd8953e2ebfe8e0bddc62283ffb56ea31dec134e
+#. default-sha256: d570a87ac64e27792617c330700d19bc580c3aa6d1be9206c4e9ce93bf46452a
+msgctxt "scenario8:scenario8_B7F93DD0_43B6_4F84_9B59_108385F46D2A"
+msgid "⟪k:0⟫⟪k:1⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫…………。"
+
+#: scenario8:scenario8_271A9328_B611_492C_A457_9DD9C16C4047
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f34ebc9b6fe945003c66de97e59cd98d0c38da23e558472a57ca6c935b04ecee
+#. default-sha256: b413cc13cb721b5e81b65d63ecdecda5ceb32e7893bd794547c35aa8f783526c
+msgctxt "scenario8:scenario8_271A9328_B611_492C_A457_9DD9C16C4047"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Not at all. You did say it would be night— ⟪k:4⟫⟪k:5⟫when—"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫いえ、⟪k:4⟫夜になると聞いていましたか、⟪k:5⟫ら―――"
+
+#: scenario8:scenario8_F252F786_C4B1_45DD_99AE_D28B810A3074
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1a1672347ada2ca307958d513648a2c9a57d7fb5fe962372a37c58bb06fd30c9
+#. default-sha256: c173d6daa0e497f1cde71cccce2166035c9ba7a04e5b84c705a6941212f060df
+msgctxt "scenario8:scenario8_F252F786_C4B1_45DD_99AE_D28B810A3074"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Wha—"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫え………。"
+
+#: scenario8:scenario8_B954F0C4_8A87_4BBC_929A_FE25811F7F1D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 552b2a0e6ce03d50b272e07720325e53d2a0538537f25766ab3fdcc1d766eaab
+#. default-sha256: fc6d0398a33993248769775f6464663f7f6da18f1300a16ca042466869b4a497
+msgctxt "scenario8:scenario8_B954F0C4_8A87_4BBC_929A_FE25811F7F1D"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫Is this the man?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫………この男か。"
+
+#: scenario8:scenario8_03E6726B_0BF0_4544_ADEF_DE7520A29353
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 155b9f8f10cfdd92338ebc0581b876b9ad9101382163dd13d32c90ca42a917b6
+#. default-sha256: 823adedfba2e206bc4aebbef2c5a854273a6072e7ba53f4542cd9ef5e9bed06a
+msgctxt "scenario8:scenario8_03E6726B_0BF0_4544_ADEF_DE7520A29353"
+msgid "⟪k:0⟫⟪k:1⟫Never seen him before."
+msgstr "⟪k:0⟫⟪k:1⟫見たこともない奴だな。"
+
+#: scenario8:scenario8_ECEDA563_26C7_4EDE_A706_96E4166905A7
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2f847a05179f423f5658658185107157f85d558da59dd3ed09ee7d6ccb24638f
+#. default-sha256: 1ae0fdbd68eed364745c6535d4d0ca462b229d176b1e8c1de2f80060687525f5
+msgctxt "scenario8:scenario8_ECEDA563_26C7_4EDE_A706_96E4166905A7"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫You..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫……これは……。"
+
+#: scenario8:scenario8_2B2BCAF3_9F47_4085_83B6_C56424408DA8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a9f48f42095fef9c5da5372c3ba9bb2556063d987351df6b71864199fcb0c54c
+#. default-sha256: 9c067a995db57022771ad7a0e244be287104b6d66718df5082c687dab1386de6
+msgctxt "scenario8:scenario8_2B2BCAF3_9F47_4085_83B6_C56424408DA8"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫…………。"
+
+#: scenario8:scenario8_38550BEC_EC8D_40C0_84B0_C45C27B5A2F9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b6b5264b9b00c36d5512939bcb42446df64f77d85c36d8adf7a5cacb2bc8142f
+#. default-sha256: 6853f24831d8e753b269f42f916861db79647f412371db47a10ecefe8b265fe4
+msgctxt "scenario8:scenario8_38550BEC_EC8D_40C0_84B0_C45C27B5A2F9"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫M-⟪k:3⟫Michel..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫ミ、⟪k:3⟫ミシェル………。"
+
+#: scenario8:scenario8_250040A6_6903_4A4D_90EA_BF1BBD53626D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 65ab073d3146cd0e4d5ae516d61446a73374405c7fa4db41c92610be6f152060
+#. default-sha256: d697f042f6005259601b50768090b3c19239e24c1d7694fdda70045d6ca62aa5
+msgctxt "scenario8:scenario8_250040A6_6903_4A4D_90EA_BF1BBD53626D"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫No, I didn’t! Why do you think I told you about him?⟪k:7⟫So "
+"you’d know it didn’t come from me!"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫違うよ……！　⟪k:7⟫僕じゃないって証明するために、⟪k:8⟫⟪k:9⟫この人"
+"のことをあなたたちに言ったんだ！"
+
+#: scenario8:scenario8_C25BD6D5_9C31_44F9_867C_C4B71D658500
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: a76e6df3184ac1daaf8bb353d79e76a4d23d7b2926cb65238f23297b8259f8ed
+#. default-sha256: 8b0f6e1d9dddcee14c4006003e01feeca41defd9e562432b39f85ec1c929e3b2
+msgctxt "scenario8:scenario8_C25BD6D5_9C31_44F9_867C_C4B71D658500"
+msgid ""
+"⟪k:0⟫What happened to everything you said earlier?!⟪k:1⟫⟪k:2⟫That you would make the right "
+"decision!⟪k:3⟫⟪k:4⟫That you would help!"
+msgstr ""
+"⟪k:0⟫さっきの言葉は何だったんだ……！⟪k:1⟫⟪k:2⟫悪い判断はしないと――、⟪k:3⟫協力をすると言った言葉は！"
+
+#: scenario8:scenario8_319877DB_2F9C_4834_A91B_B94B3E30B163
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 32d70cd916a2968354bc4f90928bc9b0d3942ca523c8e2405da13f4c4b9c1a9f
+#. default-sha256: b1024b04a781f737c68420ca9ebb6ac9b9636e6d83fbb38ed946081c304acd43
+msgctxt "scenario8:scenario8_319877DB_2F9C_4834_A91B_B94B3E30B163"
+msgid "⟪k:0⟫Souls turning into witches, the next life...⟪k:1⟫⟪k:2⟫He’s mad, I tell you."
+msgstr "⟪k:0⟫さっきも、⟪k:1⟫魂がどうとか来世がどうとか言ってて……。⟪k:2⟫⟪k:3⟫変な奴なんだ。"
+
+#: scenario8:scenario8_34FDFB0B_8A66_4639_AD2C_06637C036824
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1fd3aca0b7d46fd8d90eb3c44b15e5b3b325fa4fd4bb6f9fb7ed3546bdff00ff
+#. default-sha256: 1ea96158993c68ed645d7ba4e2e3074ab8010d683dd04a186c41afd73261d19b
+msgctxt "scenario8:scenario8_34FDFB0B_8A66_4639_AD2C_06637C036824"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫I thought... ⟪k:5⟫I thought he believed us?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫なんで……、⟪k:5⟫信じてくれたんじゃなかったの……？"
+
+#: scenario8:scenario8_3E786C33_D947_4C2D_B609_6E20BDE5508D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f512fc431373f06f9c42702329dad37a6a46929351a710a07e93f8cf3782554a
+#. default-sha256: 89a96438b5f4270fa2f10a91dce9c487b64627fa1a2515ee71da7273466de4a1
+msgctxt "scenario8:scenario8_3E786C33_D947_4C2D_B609_6E20BDE5508D"
+msgid "⟪k:0⟫No, you should be doing what you know is right and let Morgana go!"
+msgstr "⟪k:0⟫モルガーナの解放を、⟪k:1⟫決断することだろう……！"
+
+#: scenario8:scenario8_0C70D649_CB23_47E0_831B_5B8AF7721E5A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7864948a16750f3162e34430ad91d4a9c6d3e7fb7b859935eb11c81d4b805d49
+#. default-sha256: 4c080c85d4c2731e08f535ddbdc9692995b59c642d75114399b2d7fe4544263e
+msgctxt "scenario8:scenario8_0C70D649_CB23_47E0_831B_5B8AF7721E5A"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫...Are you sure you’re not friends?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫……本当に知り合いではないのか……？"
+
+#: scenario8:scenario8_4BFF7545_93E0_4953_9402_F4950D67FD21
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d2678a4f361008b0513e60bc2adaed875b9027dade76b2acfb302243b2dbeb6a
+#. default-sha256: 9dd3cbdafeb86e46212886c675c55fb308e3233b9dcac477cdfaad01540a2c99
+msgctxt "scenario8:scenario8_4BFF7545_93E0_4953_9402_F4950D67FD21"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………。"
+
+#: scenario8:scenario8_28128684_54B3_4D9B_A6AD_7D174C6B6F0C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 9e8b66bfdd4474c36099276693aaa7c29ebf0d0765c9c4873b711df65ead661d
+#. default-sha256: 960768a0a7c64b6ba9aab24225811f1e4f15f88843127a11c96313b28dfbf1d7
+msgctxt "scenario8:scenario8_28128684_54B3_4D9B_A6AD_7D174C6B6F0C"
+msgid ""
+"⟪k:0⟫Maybe you’ll come to your senses... ⟪k:1⟫if you know exactly how what you’re doing now will "
+"affect your next lives!"
+msgstr ""
+"⟪k:0⟫それなら……、⟪k:1⟫お前たちにも事実を告げてやる……。⟪k:2⟫⟪k:3⟫この時代で引き起こしたことが、"
+"⟪k:4⟫来世にどう響くのか……！"
+
+#: scenario8:scenario8_13DC04AF_2489_419A_8CDF_B6B2A517BCBB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 073addc28c8cc225279cfc0f69d9ed2d5e9bdbcb05ca9979d0d046148e9a8da2
+#. default-sha256: 818ddab9396691f0cc50804ab1d123ed2b9ae27e5242243f446bb763f4101c85
+msgctxt "scenario8:scenario8_13DC04AF_2489_419A_8CDF_B6B2A517BCBB"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫You were right. He’s out of his mind."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫どうやら本当に、⟪k:3⟫頭のおかしい男のようだな。"
+
+#: scenario8:scenario8_CC66BCB9_4CAB_4592_ABF6_05CA6214E984
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cd85b71752562d37f6db44d6297a9deb3536457c6a670ae303c5296fae5613ee
+#. default-sha256: df928b133f5446aa204a457285145c6a48e2691bc31f6394485e60ecb5ffa7da
+msgctxt "scenario8:scenario8_CC66BCB9_4CAB_4592_ABF6_05CA6214E984"
+msgid "⟪k:0⟫(How can I get them to release Morgana?!)"
+msgstr "⟪k:0⟫（どうすれば……、⟪k:1⟫モルガーナを救いだせる……！）"
+
+#: scenario8:scenario8_20864648_52C2_4401_B185_70FD7B17AA74
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 74f5def7b57ee8ea3cc76574ddbc1d3977becdf273d72b7a2acfb784ce458efd
+#. default-sha256: 5fb8a581a7e313441f0ec13fa4729f56bd3ca861b79dab2c8dabe003eb72c726
+msgctxt "scenario8:scenario8_20864648_52C2_4401_B185_70FD7B17AA74"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫M-⟪k:3⟫Michel... ⟪k:4⟫Please... ⟪k:5⟫you have to run.⟪k:6⟫⟪k:7⟫You’re in danger "
+"here!"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫ミ……、⟪k:3⟫ミシェル……。⟪k:4⟫お願い、⟪k:5⟫どうにかして……逃げ出して。⟪k:6⟫⟪k:7⟫このま"
+"まだと、⟪k:8⟫危険だわ……！"
+
+#: scenario8:scenario8_6CE3CFD0_48B8_4E26_B662_D3E091AFC9E9
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 82dde3261e90e3dc3bafc0e973adc13df532b859d3c8bd0413bb0af3998df095
+#. default-sha256: 9dd3cbdafeb86e46212886c675c55fb308e3233b9dcac477cdfaad01540a2c99
+msgctxt "scenario8:scenario8_6CE3CFD0_48B8_4E26_B662_D3E091AFC9E9"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………。"
+
+#: scenario8:scenario8_21EEB2AB_FE1E_4D06_9FD8_53610C42D5B5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 121c176e3a4b9bcdaf41b6a2c74929f82f2e1b16a93b1729a601ec6dd194ad82
+#. default-sha256: dbc9a9579efb085b3f0b4669be125c2c9530797918b3f8e96298f6e4e56e1e71
+msgctxt "scenario8:scenario8_21EEB2AB_FE1E_4D06_9FD8_53610C42D5B5"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫Can I play with him first?"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫⟪k:5⟫⟪k:6⟫⟪k:7⟫いたぶり殺すのか。"
+
+#: scenario8:scenario8_234216EC_B37B_415F_B6F6_BC1C268EDA39
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: e8d17d32461b133105ef8a01d5e49fd247911264c19eb7f1bb49d5f13fdf09da
+#. default-sha256: bf8ab468429a9b4160d3049eb17c07b0cb74fd6dc286c7330fe0dcf7b956390b
+msgctxt "scenario8:scenario8_234216EC_B37B_415F_B6F6_BC1C268EDA39"
+msgid ""
+"⟪k:0⟫⟪k:1⟫You may be able to avoid that if you set her free!⟪k:2⟫⟪k:3⟫And also change your own "
+"fates as well!"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫彼女を解放すれば、⟪k:2⟫その未来も変わるかもしれない！⟪k:3⟫⟪k:4⟫それがお前たち自身の運命"
+"も救うのだと――分かってくれ！"
+
+#: scenario8:scenario8_F0396DE0_18C3_49C4_8D68_75B9A7D064E2
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0250263e1a5ac1797e527d57fe58af5c5cb7ea445546462896a1583ba81205b4
+#. default-sha256: d88747dd03b9e2cd1aa5f7016632b17a6a5411d87f398226185b65e9900f1922
+msgctxt "scenario8:scenario8_F0396DE0_18C3_49C4_8D68_75B9A7D064E2"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫Don’t... ⟪k:5⟫Don’t, please!⟪k:6⟫⟪k:7⟫I’m begging you, don’t—!"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫⟪k:4⟫やめて……、⟪k:5⟫やめてください！⟪k:6⟫⟪k:7⟫お願い、⟪k:8⟫やめて―――ッ！！"
+
+#: scenario8:scenario8_D5617ABE_17B5_4814_A4A3_5ACBE8024491
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: f1c38e7175dcd38acd05542f98f784c9e8c08e25b6a3226218654eb511f53467
+#. default-sha256: 7ecce82c5464c2aea4e25d03f23a5bbb8142352f274e685255ed6372370a6d78
+msgctxt "scenario8:scenario8_D5617ABE_17B5_4814_A4A3_5ACBE8024491"
+msgid "⟪k:0⟫I’m toppling backward..."
+msgstr "⟪k:0⟫視界が……、⟪k:1⟫大きく……、⟪k:2⟫傾いていた……。"
+
+#: scenario8:scenario8_B7A63DBE_244F_451A_994F_0F99F7DBD4AB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 648ff7ccab39a688815cc8ac07bbb76879f5e5096287ce52848961200119cf65
+#. default-sha256: d392049209345f89da07e98590312c90348990f9de19516491b32f8dcd0b33e4
+msgctxt "scenario8:scenario8_B7A63DBE_244F_451A_994F_0F99F7DBD4AB"
+msgid "⟪k:0⟫⟪k:1⟫Michel... ⟪k:2⟫Michel!⟪k:3⟫⟪k:4⟫No... ⟪k:5⟫Michel, no... ⟪k:6⟫Why?!"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫ミシェルッ……、⟪k:2⟫ミシェル……！！　⟪k:3⟫⟪k:4⟫やだ……、⟪k:5⟫いやよ……、⟪k:6⟫なんで……ッ！"
+
+#: scenario8:scenario8_22820D69_8457_439A_974D_954F40B43177
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b5d634a0102e5ab2316feb354eadbfcd77d3f10adc5e185af27274c9fb8f554b
+#. default-sha256: 45b6a4f7a1a1da7991198edaeec8a2a4e3aa870e8f267f03ad39ff7768654149
+msgctxt "scenario8:scenario8_22820D69_8457_439A_974D_954F40B43177"
+msgid "⟪k:0⟫As the three men watch,"
+msgstr "⟪k:0⟫男たちの視線を受ける中……"
+
+#: scenario8:scenario8_72CE86ED_9D94_4795_9E5E_C2EBFB978270
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 90d07a3ecec7af0a16f4a7e664d07ae88079e5eeec9a152bd1987d187cf4eb14
+#. default-sha256: db18ed4d58b19702a1e89804fc357ba01cf111fe7564554b245d36af60f071c7
+msgctxt "scenario8:scenario8_72CE86ED_9D94_4795_9E5E_C2EBFB978270"
+msgid ""
+"⟪k:0⟫You clean up the mess, Mell.⟪k:1⟫⟪k:2⟫The last thing I want is that damned nun suspecting "
+"anything."
+msgstr ""
+"⟪k:0⟫おい、⟪k:1⟫メル。⟪k:2⟫掃除はキサマがしておけよ。⟪k:3⟫⟪k:4⟫明日の朝……修道女が訝しんだら厄介だ"
+"からな。"
+
+#: scenario8:scenario8_0B516A6C_FCC7_4595_82BC_4A5F96B89D6A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1d245765ba94bd6b330e138c8149222120d87a6e96ecbb31dfbb3df9186a6a55
+#. default-sha256: 0cd75a46b4067daac50473a9eb38d6906c4daf4254e721af09fd8811112f3f05
+msgctxt "scenario8:scenario8_0B516A6C_FCC7_4595_82BC_4A5F96B89D6A"
+msgid "⟪k:0⟫Don’t you vomit, boy.⟪k:1⟫⟪k:2⟫Make any more of a mess and you’ll be joining him."
+msgstr ""
+"⟪k:0⟫吐くなよ？　⟪k:1⟫キサマが吐いて更に汚したら――⟪k:2⟫⟪k:3⟫……同じ末路を辿らせてやるからな。"
+
+#: scenario8:scenario8_94825FF0_7A36_4AC3_84E3_6AD84ED2A23E
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 096de6fe30b789926c2fcfb4ced0c026a7b759daf5bb7f03e541b2978c508a03
+#. default-sha256: 94e701dccb941486f4594500b0adcc3f685efacff5f30f9875775cb405d0ac14
+msgctxt "scenario8:scenario8_94825FF0_7A36_4AC3_84E3_6AD84ED2A23E"
+msgid "⟪k:0⟫All three of their voices are growing muted now."
+msgstr "⟪k:0⟫すべての……、⟪k:1⟫声が……、⟪k:2⟫遠ざかっていく。"
+
+#: scenario8:scenario8_95FA0A66_94BE_4ADA_94D1_86383E8083D8
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 06a45fca27554f2e9f87932ea5a3767362cfe881082152d4ac0a158ccc349dd5
+#. default-sha256: 2e171fa97c7b14245def1314a59435ddc4c5f047a8d83863ee50ee79dfa20d0c
+msgctxt "scenario8:scenario8_95FA0A66_94BE_4ADA_94D1_86383E8083D8"
+msgid "⟪k:0⟫I realize I can see my own body off in the distance."
+msgstr "⟪k:0⟫私は……、⟪k:1⟫自分の身体が……離れた場所にあることに、⟪k:2⟫気づいた。"
+
+#: scenario8:scenario8_31DF660C_632F_4473_8950_D7B591E63330
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: cc8322cf2baabf88a5d492b56fc57df3a6b088b13dd7d1789881d8bec060fa87
+#. default-sha256: 1944e9ef01f44c23b81ff400ed1e2e7422cf36af59c60f9eaf735499ec618ffd
+msgctxt "scenario8:scenario8_31DF660C_632F_4473_8950_D7B591E63330"
+msgid "⟪k:0⟫is that Giselle had to witness that too..."
+msgstr "⟪k:0⟫ジゼルにも……、⟪k:1⟫見せてしまったということが――"
+
+#: scenario8:scenario8_1EF3AD9A_2A0B_4789_A167_FBCAE21856B2
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 8cfbae07b45c2c0ad62e42d70516ec2eaa40d597acc22496c58f062a69661f60
+#. default-sha256: 2f02647146808312a232369dc47cce3fe3d022346eb775cf6ea53892c67592e2
+msgctxt "scenario8:scenario8_1EF3AD9A_2A0B_4789_A167_FBCAE21856B2"
+msgid "⟪k:0⟫But everything’s slipping away from me so quickly,"
+msgstr "⟪k:0⟫けれど、⟪k:1⟫彼女に何かを告げようとしても、⟪k:2⟫⟪k:3⟫言葉を紡ぐ思考すらままならず……"
+
+#: scenario8:scenario8_81C33301_F6F1_4974_A3F5_B6F5D2313BAB
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4296f91b8e5a144fb586f53ada469d076e31977d070895946429680984bbbe7c
+#. default-sha256: 46a9f196746af962733e886a714ce268b7783c407b9293993144d7399939c0d8
+msgctxt "scenario8:scenario8_81C33301_F6F1_4974_A3F5_B6F5D2313BAB"
+msgid "⟪k:0⟫It would not be wise to make a rash decision."
+msgstr "⟪k:0⟫今、⟪k:1⟫急いた判断をするのは得策ではないだろう。"
+
+#: scenario8:scenario8_02D50BD2_C330_43AC_BFC5_5132A0AE4CE1
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: bc3f7f887d56ec950b6e60a21677dd5bdb6342a60d5e643ed412ce01b1a1e6c1
+#. default-sha256: 5e9ce15dc9fc76aee4dfb09437c7087231fef3ac2efa2beadb3fc9fbda43a3c2
+msgctxt "scenario8:scenario8_02D50BD2_C330_43AC_BFC5_5132A0AE4CE1"
+msgid ""
+"⟪k:0⟫⟪k:1⟫(Regardless, being cautious isn’t going to mean much if I can’t get them to let us stay "
+"in the mansion. ⟪k:2⟫We need to be nearby to keep an eye on things, gather information.)"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫（しかし、⟪k:2⟫今は様子を見るにしても……⟪k:3⟫⟪k:4⟫　この館に残れるように、⟪k:5⟫しておかな"
+"ければならない）"
+
+#: scenario8:scenario8_3197D766_607A_4E38_90C3_8E8B7374B671
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 1929dfeab08e389d67a5688fb91422f51a2eba426dbfe4380c131014925bd6dc
+#. default-sha256: 75159d16e947e4a9199dbdfe624bd49fd05ee7e46ed2e73b42deeab54424fe44
+msgctxt "scenario8:scenario8_3197D766_607A_4E38_90C3_8E8B7374B671"
+msgid "⟪k:0⟫(How to go about that, though...)"
+msgstr "⟪k:0⟫（さて、⟪k:1⟫どうするか……）"
+
+#: scenario8:scenario8_F040416B_BD25_42D8_826F_2F66ED01D568
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 408416b0d9ce88b30aca5125502c1a1c31e5b385cd4f6441fcd7e90078d57c42
+#. default-sha256: 0fe9a1f1b166f857c8223285f90303944aaadad8163406c664a8b6a36f8c6f1b
+msgctxt "scenario8:scenario8_F040416B_BD25_42D8_826F_2F66ED01D568"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫Assuming he’s not voluntarily involved...⟪k:3⟫⟪k:4⟫maybe all we have to do is ask "
+"for his help in setting Morgana free and he’ll work with us?"
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫もし彼が、⟪k:3⟫望んでここにいるわけじゃないのなら……⟪k:4⟫⟪k:5⟫協力を申し出ることで、"
+"⟪k:6⟫うまくいったりしないでしょうか？"
+
+#: scenario8:scenario8_A9F2B1C3_6E85_489D_A9BA_4A7ACC705230
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 524175b988a072bcf7d250d8ffce4a7a98a2692ea015ace90ddbed46f681691e
+#. default-sha256: 9dd3cbdafeb86e46212886c675c55fb308e3233b9dcac477cdfaad01540a2c99
+msgctxt "scenario8:scenario8_A9F2B1C3_6E85_489D_A9BA_4A7ACC705230"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………。"
+
+#: scenario8:scenario8_3D64B523_76E0_4029_B581_953835268DF0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0d166ce518914dbcbf94737d36e4a7ffa4627d090f6fc018ab0958a0d9dab0d1
+#. default-sha256: 45f5fab89f5600be47304556339f22ca503abc0c168b59aa97dd07b130cafc3b
+msgctxt "scenario8:scenario8_3D64B523_76E0_4029_B581_953835268DF0"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫(I didn’t hide it very well, I guess...)"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫（……顔に出ていたか……）"
+
+#: scenario8:scenario8_9D36CA3E_1239_405F_800A_F23B390D3643
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 736528ec1420521b89a574c419caf2ae593d689c32756f2d60f41be5a7d90fdc
+#. default-sha256: fac91c7afd6c15959362b57e564f0916abb03f809ed2d9a498fa8a07bd215683
+msgctxt "scenario8:scenario8_9D36CA3E_1239_405F_800A_F23B390D3643"
+msgid "⟪k:0⟫⟪k:1⟫Maybe it appeared that way to you,⟪k:2⟫but I’ve never had a very friendly face."
+msgstr "⟪k:0⟫⟪k:1⟫……勘違いでしょう。⟪k:2⟫⟪k:3⟫元々、⟪k:4⟫優しい顔ではありませんから。"
+
+#: scenario8:scenario8_CF414B9C_D083_4001_99C1_13F1789E5A19
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 2ad443dbc53bc2a1bfcb4dd554e2ec1d66329acc6914ff938efd96baf9d242b0
+#. default-sha256: 42153c75c6b7e54be5359dbaa6785bbd7eecc1836803e6642f330b97422a7fdb
+msgctxt "scenario8:scenario8_CF414B9C_D083_4001_99C1_13F1789E5A19"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫...As you say."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫……そうですか。"
+
+#: scenario8:scenario8_46C27327_33B6_4665_B2A2_E4BE185708E0
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 283ec454cc1325da6c05eaecebd6d60dcde2afc1de3489e1b7cd0a437460bb08
+#. default-sha256: fe7ab3359b02b7baa2f61fcbd4fecd0beda71432b1aeddfebd8c5b06d334edda
+msgctxt "scenario8:scenario8_46C27327_33B6_4665_B2A2_E4BE185708E0"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫...To change the subject,"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫……ところで……。"
+
+#: scenario8:scenario8_3EFDEAB2_C015_44C9_82D7_0CA4FB7842A6
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: acfdd8a2221f8bd81705140f2085717fcab0fa3bec16928faecb7f49da346956
+#. default-sha256: 8eed9c22f018d81b3bd21d5557dacd44f84178250f74201310e9cf79bd24323d
+msgctxt "scenario8:scenario8_3EFDEAB2_C015_44C9_82D7_0CA4FB7842A6"
+msgid "⟪k:0⟫⟪k:1⟫could I ask you to convince the nun to allow me to stay here?"
+msgstr "⟪k:0⟫⟪k:1⟫私をこの館に置いてもらうように、⟪k:2⟫⟪k:3⟫修道女に口添えしていただけませんか。"
+
+#: scenario8:scenario8_A969AF49_2A73_439F_91CF_B666A7C4B281
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 09fd198ef676e7a7e2269cc62a1a17573237761169f99f87c5800d4040a74c1d
+#. default-sha256: ae911d420b57baad68f9f14be9bf7e28aaf3a51627ba2fbe07e69c7d7dfc29b1
+msgctxt "scenario8:scenario8_A969AF49_2A73_439F_91CF_B666A7C4B281"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫Huh? Weren’t you listening? We can’t take anyone in right now."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫は……？　⟪k:3⟫それはさ、⟪k:4⟫無理だって、⟪k:5⟫さっき話をされたばっかりだろ？"
+
+#: scenario8:scenario8_5D9E8B63_A5B0_4143_A381_A9E3C604C0ED
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d2674102466da84e48fe0302c8b5f907c7a9b4f4b755118a0c34cf68b3764e37
+#. default-sha256: 738863c8c6985c9e47e5367d5eaab6734a8a2a987700a8fd1600df3d3b74b767
+msgctxt "scenario8:scenario8_5D9E8B63_A5B0_4143_A381_A9E3C604C0ED"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫I’m more... ⟪k:3⟫a supervisor of sorts."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫住んでいる……っていうか、⟪k:3⟫管理を一部……任されているっていうか。"
+
+#: scenario8:scenario8_3C420758_BADD_4DF6_88B7_3673F812614D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: d6326c95babc5888db0846143d2babcda11b6903b1da47b2de83f40dd6aacc97
+#. default-sha256: c19445f08d4cdb38764c4e6cd99a9ea408c9d5e1f94d64e7c6361c2cb59b9a46
+msgctxt "scenario8:scenario8_3C420758_BADD_4DF6_88B7_3673F812614D"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫Then you should have some say in the matter."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫それなら、⟪k:4⟫貴方の権限でどうにかできませんか。"
+
+#: scenario8:scenario8_75AF3883_30FC_4B0A_ADAE_AEB7C56D85E5
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b561bcb706d16f7b593f92a496b285030cb8d1ad1a879fe3f2ac6a5ea08911d2
+#. default-sha256: bd4aedb3f5335d5b54fb8a1a8412d54e9bf918ed0b40db7e7e4ada3c206f252b
+msgctxt "scenario8:scenario8_75AF3883_30FC_4B0A_ADAE_AEB7C56D85E5"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫Why not get a room at an inn?⟪k:3⟫⟪k:4⟫If you need money, I’ll spare you some "
+"coin..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫別に、⟪k:3⟫外で宿を借りればいいだろ、⟪k:4⟫金なんか恵んでやるよ……。"
+
+#: scenario8:scenario8_89CE4B92_F456_4988_9148_9BC938156C25
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: b65d51f2f4d28e92d1ad484f4e7c7e8db371efcd4a6a810ac68c5e78561f424f
+#. default-sha256: 0a71a264ef300a8620077a95ef3f6c91d4d5fd28b5a75a52ef0f6c8f071f3035
+msgctxt "scenario8:scenario8_89CE4B92_F456_4988_9148_9BC938156C25"
+msgid "⟪k:0⟫⟪k:1⟫The angel came to me in a vision, instructing me to watch over the festival here."
+msgstr "⟪k:0⟫⟪k:1⟫祝祭を見守るよう啓示を受けたのです。"
+
+#: scenario8:scenario8_85466E93_B576_4438_855A_E243D1AAA39C
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 524175b988a072bcf7d250d8ffce4a7a98a2692ea015ace90ddbed46f681691e
+#. default-sha256: 9dd3cbdafeb86e46212886c675c55fb308e3233b9dcac477cdfaad01540a2c99
+msgctxt "scenario8:scenario8_85466E93_B576_4438_855A_E243D1AAA39C"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………。"
+
+#: scenario8:scenario8_CE0E76C9_996A_41B4_937A_92B619A047F3
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 4f28a9e746e4273a1c661b85de7ee44f1d76c1d3a4496481c9663b5af0565117
+#. default-sha256: ddf87cbfaa7fb2b2f102005acf5648448dbe6362dece0d3759e759d7911c1216
+msgctxt "scenario8:scenario8_CE0E76C9_996A_41B4_937A_92B619A047F3"
+msgid ""
+"⟪k:0⟫⟪k:1⟫From where you were standing... ⟪k:2⟫you couldn’t possibly have seen the window in that "
+"much detail..."
+msgstr "⟪k:0⟫⟪k:1⟫君の居たところから……、⟪k:2⟫ステンドグラスの柄までは……見えなかったはずだよね……。"
+
+#: scenario8:scenario8_B01229CC_2A76_4D22_B3F5_98D9C547FB4D
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 48b55b368030b67a0107005fcc54b59ff62709a4c37909df0a420749d2dd61c0
+#. default-sha256: b56098ec678b1dd5b079a317d454608e0b889aa447b651d1a828d968e9933a21
+msgctxt "scenario8:scenario8_B01229CC_2A76_4D22_B3F5_98D9C547FB4D"
+msgid ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫I am not here to cause you any trouble.⟪k:4⟫⟪k:5⟫In fact, I am on your side."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫……貴方の迷惑になるようなことはしない。⟪k:4⟫⟪k:5⟫むしろ、⟪k:6⟫私は貴方の味方"
+"だ。"
+
+#: scenario8:scenario8_3DF51026_CB07_46D6_B4C9_B0440CC6AE3B
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 524175b988a072bcf7d250d8ffce4a7a98a2692ea015ace90ddbed46f681691e
+#. default-sha256: 9dd3cbdafeb86e46212886c675c55fb308e3233b9dcac477cdfaad01540a2c99
+msgctxt "scenario8:scenario8_3DF51026_CB07_46D6_B4C9_B0440CC6AE3B"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………。"
+
+#: scenario8:scenario8_530BB22C_3C08_44E3_B76E_DADE9FC423C2
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: ff412742842a9a3e8e87087c6181bc11c3d2aeeecca413791db7cc0525e01612
+#. default-sha256: 15caeb8826ff9802ad6bd3fbff76a140f55d0d077e3fe64d98cbdabd2faa4e66
+msgctxt "scenario8:scenario8_530BB22C_3C08_44E3_B76E_DADE9FC423C2"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫If you want to call it that... ⟪k:4⟫then you can."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫そのようなものだと……思ってもらって構わない。"
+
+#: scenario8:scenario8_FB5B5BD4_1059_434F_8D74_376547A87642
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0264aac5c7e9dd1c221b9d852c3bc9b5815c3904d2d2d3f8dc7c4c561bc99026
+#. default-sha256: 9dd3cbdafeb86e46212886c675c55fb308e3233b9dcac477cdfaad01540a2c99
+msgctxt "scenario8:scenario8_FB5B5BD4_1059_434F_8D74_376547A87642"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………。"
+
+#: scenario8:scenario8_1A904119_F897_4465_B00D_24272C1512FF
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7630e70698fcd89905e1af0ea4780eb2a9d2896b0fded52d957c031e16f0f0c3
+#. default-sha256: 9c067a995db57022771ad7a0e244be287104b6d66718df5082c687dab1386de6
+msgctxt "scenario8:scenario8_1A904119_F897_4465_B00D_24272C1512FF"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫…………。"
+
+#: scenario8:scenario8_C0F6B679_C4C9_45EA_B62C_4FB00D6F4773
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 0264aac5c7e9dd1c221b9d852c3bc9b5815c3904d2d2d3f8dc7c4c561bc99026
+#. default-sha256: 9dd3cbdafeb86e46212886c675c55fb308e3233b9dcac477cdfaad01540a2c99
+msgctxt "scenario8:scenario8_C0F6B679_C4C9_45EA_B62C_4FB00D6F4773"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫............"
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫…………。"
+
+#: scenario8:scenario8_B6DA7262_3854_4B2C_AFFB_713D8890BF2A
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 90d659efe8466baf6dc6f0fc8b297c74e7b5e5cc4af6260283bb6016910e822c
+#. default-sha256: 20b260b6df14e755fda93bd1a3b4c6b21e6fd5e19fcbf467c46ffc39967688e1
+msgctxt "scenario8:scenario8_B6DA7262_3854_4B2C_AFFB_713D8890BF2A"
+msgid "⟪k:0⟫⟪k:1⟫...You know, I never did get your name."
+msgstr "⟪k:0⟫⟪k:1⟫………ねえ、⟪k:2⟫君の名前、⟪k:3⟫まだ聞いてないんだけど。"
+
+#: scenario8:scenario8_B0BD24EA_5537_481E_AEE8_3DCB5C250024
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 6a1389b839a7c26caaca0cb0851d0101e6e49c4d3e24b8908e664fef95a6ce8e
+#. default-sha256: 332e6d2ddffef4740f4da83c08b6c4102b42a89dc760c5f0830d5225e5b6e0d0
+msgctxt "scenario8:scenario8_B0BD24EA_5537_481E_AEE8_3DCB5C250024"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫It’s Michel."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫……ミシェルです。"
+
+#: scenario8:scenario8_25FF4AA4_E0C6_4E1B_B0EE_E3A2D9808935
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 3e96f2cb9a0ef94c7d4c672672bd2eb8fc394f53f6ea196edf8ccd905d922068
+#. default-sha256: c9643f99fd69f8c0068429b18f45ab6be6537073c64a2be7dbe19f4cf60b82ed
+msgctxt "scenario8:scenario8_25FF4AA4_E0C6_4E1B_B0EE_E3A2D9808935"
+msgid "⟪k:0⟫I’ve never really cared much for Michael, to be honest."
+msgstr ""
+"⟪k:0⟫ミカエルはさ……、⟪k:1⟫あんまり好きじゃないんだよ。⟪k:2⟫⟪k:3⟫だって、⟪k:4⟫天秤と剣を持っている"
+"だろ。"
+
+#: scenario8:scenario8_0D1DD12D_63CB_44AE_B63D_B97B638D5123
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 7fd23a42819fb30d8e9017a761c17824d8caef03b5de9461f8d052d6743cbbb7
+#. default-sha256: e081bc1587ebb6c835cc24a60c41bfac47683a525a8933801d3f80c010129d46
+msgctxt "scenario8:scenario8_0D1DD12D_63CB_44AE_B63D_B97B638D5123"
+msgid ""
+"⟪k:0⟫⟪k:1⟫He weighs your soul in one hand on his perfectly balanced scales,⟪k:2⟫then delivers its "
+"punishment with the sword in his other.⟪k:3⟫⟪k:4⟫He’s not an angel of salvation."
+msgstr ""
+"⟪k:0⟫⟪k:1⟫片手で魂の重さを裁量して――片手で魂を罰するのさ。⟪k:2⟫⟪k:3⟫……人を救う天使じゃない。"
+
+#: scenario8:scenario8_F34C0F23_06B3_4F58_95CD_00A529C04981
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 93b8b705696624238e656e5e054c2e92506d8c23e3cf2a04c6fa09ba62e4c61c
+#. default-sha256: ed1f6347238edb1f2dbcf3423384955c1ffe02bb4c3d496dec0a0821a4c556ef
+msgctxt "scenario8:scenario8_F34C0F23_06B3_4F58_95CD_00A529C04981"
+msgid "⟪k:0⟫⟪k:1⟫...No, never mind."
+msgstr "⟪k:0⟫⟪k:1⟫……いや……、⟪k:2⟫なんでもない。"
+
+#: scenario8:scenario8_FAADADA7_7FF8_40FC_A418_470786272995
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: 573aaf9a3bca8ef4f681729feef0470813ddeb0c3113efb400f0b7f7e1b5b8fd
+#. default-sha256: fc5744c0f88b71216aebd3ddca65d1f757ac5fcf8472058cef71b8856dad117b
+msgctxt "scenario8:scenario8_FAADADA7_7FF8_40FC_A418_470786272995"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫I appreciate your courtesy."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫⟪k:3⟫感謝します。"
+
+#: scenario8:scenario8_B2F7B006_EDAB_452A_97A4_1CAF4F65E935
+#. Edit msgstr; keep protected ⟪k:N⟫ markers in source order.
+#. native-sha256: fba6cc05a04d89efc1d5e236fe1f6c29274c7ef40dd88cd2446f88d24488c3ac
+#. default-sha256: b5610d7777fc72cc7bb1d2f85f7709fd6064d216a830abb9509be58b61b1e417
+msgctxt "scenario8:scenario8_B2F7B006_EDAB_452A_97A4_1CAF4F65E935"
+msgid "⟪k:0⟫⟪k:1⟫⟪k:2⟫If you say so..."
+msgstr "⟪k:0⟫⟪k:1⟫⟪k:2⟫そう………。"
