@@ -137,7 +137,12 @@
     "door9:verify:main": "tsx tooling/verify-late-connected.ts 9",
     "omake:build": "tsx tooling/compile-omake-fragment.ts",
     "omake:verify": "tsx tooling/drive-omake-fragment.ts",
-    "test:door9": "playwright test --config playwright.ninth.config.ts"
+    "test:door9": "playwright test --config playwright.ninth.config.ts",
+    "native:build": "tsx tooling/compile-native-connected.ts",
+    "native:verify": "tsx tooling/verify-native-menus.ts",
+    "test:native": "playwright test --config playwright.native.config.ts",
+    "native:stage": "tsx tooling/stage-native.ts",
+    "native:promote": "tsx tooling/stage-native.ts --promote"
   },
   "dependencies": {
     "galbox-sdk": "file:vendor/galbox-sdk-7dfa602398c7.tgz",
