@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'tests/cleared-browser',workers:1,timeout:300000,reporter:[['list'],['json',{outputFile:'artifacts/cleared-connected/browser.json'}]],outputDir:'artifacts/cleared-connected/traces',use:{baseURL:'http://127.0.0.1:4212',headless:true,viewport:{width:1280,height:960},trace:'retain-on-failure'},webServer:{command:'FATA_MODULES=1 FATA_PUBLICATION_ROOT=generated/cleared-connected pnpm exec vite --host 127.0.0.1 --port 4212',url:'http://127.0.0.1:4212',reuseExistingServer:false}});

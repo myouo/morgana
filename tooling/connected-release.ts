@@ -17,6 +17,11 @@ import {requireValue} from './kag.js';
 import {writeTitleParts} from './split-title-views.js';
 import {saveBookmarkParts} from './save-bookmarks.js';
 import {copySearchFonts} from './copy-search-fonts.js';
+import {poolBitmapUI} from './pool-bitmap-ui.js';
+import {readDoorIR} from './door-ir.js';
+import {readDoorText} from './door-text.js';
+import {specializeOmake} from './omake-constants.js';
+import {chapters} from './chapter-catalog.js';
 
 const exec=promisify(execFile),read=async(p:string)=>new Uint8Array(await readFile(p));
 function many<T>(values:readonly T[]):[T,...T[]]{const[first,...rest]=values;requireValue(first!==undefined,'CONNECTED_NONEMPTY');return [first,...rest];}
@@ -49,8 +54,14 @@ export async function connectedRelease(from:string,to:string,locale:Language){
   for(const r of input.resources){requireValue(r&&typeof r==='object'&&!Array.isArray(r)&&typeof r.id==='string','CONNECTED_VISUAL_FACT');const previous=old.resources.find(v=>v&&typeof v==='object'&&!Array.isArray(v)&&v.id===r.id);requireValue(!previous||canonicalWireJSON(previous)===canonicalWireJSON(r),'CONNECTED_VISUAL_FACT_ID');if(!previous)old.resources.push(r);}
  }
  function mergeRules(input:JsonValue|undefined){if(!input)return;requireValue(typeof input==='object'&&!Array.isArray(input)&&Array.isArray(input.images),'CONNECTED_RULES');const old=meta.rulePresentation;requireValue(old&&typeof old==='object'&&!Array.isArray(old)&&Array.isArray(old.images),'CONNECTED_BASE_RULES');for(const row of input.images)if(!old.images.some(v=>canonicalWireJSON(v)===canonicalWireJSON(row)))old.images.push(row);}
- async function addFragment(root:string,prefix:string){
-  const donorManifest=decodeWire('ModuleManifest',await read(`${root}/programs/${locale}.modules.pb`)),donor=createModuleProgram(donorManifest),donorFiles=await Promise.all(donorManifest.modules.map(async m=>({uri:m.uri,body:decodeWire('ProgramModule',await read(root+'/'+m.uri))})));installModuleFiles(donor,donorFiles.map(f=>f.body));const donorMeta=await title(root,locale),expanded=expandModuleLeaves({header:donorManifest.header,files:donorFiles,assetCatalogs:donorManifest.assetCatalogs?.map(c=>c.assets)??[]},{compositionVersion:3}),linked=namespaceFragment(expanded.parts.files.flatMap(f=>f.body.functions),prefix);
+ async function addFragment(root:string,prefix:string,kind?:'bitmap'|'omake'){
+  const donorManifest=decodeWire('ModuleManifest',await read(`${root}/programs/${locale}.modules.pb`)),donor=createModuleProgram(donorManifest),donorFiles=await Promise.all(donorManifest.modules.map(async m=>({uri:m.uri,body:decodeWire('ProgramModule',await read(root+'/'+m.uri))})));installModuleFiles(donor,donorFiles.map(f=>f.body));const donorMeta:{[key:string]:JsonValue}=kind?{history:[],chapters:[],rulePresentation:decodeWire('JsonValue',await read(`${root}/programs/${locale}.rules.pb`))}:await title(root,locale);
+  if(kind==='bitmap')requireValue(!donorManifest.header.textLayout&&donorFiles.every(f=>f.body.functions.every(fn=>fn.code.every(i=>i.op!=='text.rich'&&i.op!=='text.page'))),'CONNECTED_BITMAP_TEXT');
+  if(kind==='omake'){
+   const raw=await readFile(`private/text/${locale}/scenario/omake.ks`,'utf8'),macro=await readFile(`private/text/${locale}/scenario/macro.ks`,'utf8'),ir=specializeOmake(await readDoorIR(raw,localeInfo[locale].html,{chapter:chapters.find(c=>c.id==='omake')!,catalogRoot:'locales'})).ir,story=readDoorText(ir,macro,['jp','zh','ko'].includes(locale)?22:18,{namespace:'omake',extended:true,historyPolicy:true}),history=new Map(story.nodes.flatMap(n=>n.kind==='text'?[[n.paragraph.id,{id:n.paragraph.id,key:n.speaker.key,centered:n.historyCentered}]as const]:[]));donorMeta.history=Array.from({length:Math.ceil(history.size/256)},(_,n)=>[...history.values()].slice(n*256,n*256+256));
+   const names=ir.tokens.flatMap(t=>t.kind==='tag'&&t.name==='title'?[t.args.name??'']:[]);requireValue(names.length===1,'CONNECTED_OMAKE_TITLE');const addresses=donorFiles.flatMap(f=>f.body.functions.flatMap(fn=>fn.code.flatMap(i=>i.op==='text.rich'?[i.at]:[])));donorMeta.chapters=Array.from({length:Math.ceil(addresses.length/256)},(_,n)=>({title:names[0]!,addresses:addresses.slice(n*256,n*256+256)}));
+  }
+  const expanded=expandModuleLeaves({header:donorManifest.header,files:donorFiles,assetCatalogs:donorManifest.assetCatalogs?.map(c=>c.assets)??[]},{compositionVersion:3}),linked=namespaceFragment(expanded.parts.files.flatMap(f=>f.body.functions),prefix);
   const known=new Set(functions().map(f=>f.id));for(const f of linked.functions)requireValue(!known.has(f.id),'CONNECTED_FUNCTION '+f.id);
   for(const file of expanded.parts.files){const ids=new Set(file.body.functions.map(f=>prefix+f.id));files.push({uri:'pending.pb',body:{...file.body,id:prefix.replace(/\//gu,'-')+file.body.id,functions:many(linked.functions.filter(f=>ids.has(f.id)))}});}
   mergeHeader(donorManifest.header);
@@ -62,11 +73,12 @@ export async function connectedRelease(from:string,to:string,locale:Language){
   await mergePresentation(donorMeta.presentationAssets,root);mergeRules(donorMeta.rulePresentation);
   return {linked,release:donor.release};
  }
- async function finish(name:string,bonusSaveSpecs:readonly string[]=[]){
+ async function finish(name:string,bonusSaveSpecs:readonly string[]=[],pool=false){
   const parts=b.parts({compositionVersion:3}),known=new Map(functions().map(f=>[f.id,f]));
   for(const file of parts.files){const added=[];for(const f of file.body.functions){const old=known.get(f.id);requireValue(!old||canonicalWireJSON(old)===canonicalWireJSON(f),'CONNECTED_BUILDER_FUNCTION '+f.id);if(!old){added.push(f);known.set(f.id,f);}}if(added.length)files.push({uri:'pending.pb',body:{...file.body,id:name+'-support-'+file.body.id,functions:many(added)}});}
   requireValue(new Set(files.map(f=>f.body.id)).size===files.length,'CONNECTED_MODULE_IDS');
   mergeHeader(parts.header);
+  if(pool)poolBitmapUI(header,files,[{id:'native-menu-pooled',prefix:'source-menu-'},{id:'native-gallery-pooled',prefix:'gallery-'},{id:'native-omake-pooled',prefix:'omake-menu'}]);
   for(const a of [...parts.header.assets,...parts.assetCatalogs.flat()]){const old=assets.get(a.id);requireValue(!old||old.sha256===a.sha256&&old.kind===a.kind&&old.playback===a.playback,'CONNECTED_BUILDER_ASSET '+a.id);if(!old){const file='public/'+a.path,bytes=await read(file);a.path=`assets/shared/${a.kind==='audio'?'audio':'images'}/${a.sha256}${path.extname(a.path)}`;assets.set(a.id,a);sources.set(a.id,file);facts.set(a.id,inspectResource(a,bytes,v=>new TextDecoder('utf8',{fatal:true}).decode(v)));}}
   const chars=functions().flatMap(f=>f.code.flatMap(i=>i.op==='text.rich'?[...(i.speaker.op==='literal'?[i.speaker.value]:[]),...i.runs.flatMap(r=>(r.kind==='text'||r.kind==='ruby')&&r.content.op==='literal'?[r.content.value,...(r.kind==='ruby'&&r.reading.op==='literal'?[r.reading.value]:[])]:[])]:i.op==='text.page'?[i.speaker,i.content]:[])).join('\n'),charFile=`private/generated/${name}-${locale}-chars.txt`,fontFile=`private/generated/${name}-${locale}.ttf`,fontName=locale==='ko'?'NotoSerifCJKkr-SemiBold.ttf':['jp','zh'].includes(locale)?'NotoSansCJKsc-Medium.ttf':locale==='ru'?'Merriweather-Regular.ttf':'LibreBaskerville-Regular.ttf';
   await writeFile(charFile,chars);await exec('private/.venv/bin/python',['-m','fontTools.subset',path.join(process.env.FATA_SOURCE??'/home/myo/.steam/steam/steamapps/common/The House in Fata Morgana','fonts',fontName),`--text-file=${charFile}`,`--output-file=${fontFile}`,'--layout-features=*','--notdef-glyph','--notdef-outline']);await exec('private/.venv/bin/python',['tooling/check-font.py',fontFile,charFile]);const font=await read(fontFile),fontAsset:Asset={id:'opening-font',kind:'font',path:`assets/locales/${localeInfo[locale].html}/fonts/${hash(font)}.ttf`,mime:'font/ttf',sha256:hash(font)};assets.set(fontAsset.id,fontAsset);sources.set(fontAsset.id,fontFile);facts.set(fontAsset.id,inspectResource(fontAsset,font,v=>new TextDecoder('utf8',{fatal:true}).decode(v)));

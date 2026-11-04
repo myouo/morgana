@@ -145,7 +145,15 @@
     "native:promote": "tsx tooling/stage-native.ts --promote",
     "bonus:connect": "tsx tooling/compile-bonus-connected.ts",
     "bonus:verify:main": "tsx tooling/verify-bonus-connected.ts",
-    "test:bonus": "playwright test --config playwright.bonus.config.ts"
+    "test:bonus": "playwright test --config playwright.bonus.config.ts",
+    "gallery:build": "tsx tooling/compile-gallery.ts",
+    "gallery:verify": "tsx tooling/drive-gallery.ts",
+    "test:gallery": "playwright test --config playwright.gallery.config.ts",
+    "music:build": "tsx tooling/compile-music.ts",
+    "music:verify": "tsx tooling/drive-music.ts",
+    "test:music": "playwright test --config playwright.music.config.ts",
+    "cleared:build": "tsx tooling/compile-cleared-connected.ts",
+    "cleared:verify": "tsx tooling/verify-cleared-connected.ts"
   },
   "dependencies": {
     "galbox-sdk": "file:vendor/galbox-sdk-7dfa602398c7.tgz",
