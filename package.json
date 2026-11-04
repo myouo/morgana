@@ -134,10 +134,13 @@
     "door8:connect": "tsx tooling/compile-eighth-connected.ts",
     "door8:verify:main": "tsx tooling/verify-late-connected.ts 8",
     "door9:connect": "tsx tooling/compile-ninth-connected.ts",
-    "door9:verify:main": "tsx tooling/verify-late-connected.ts 9"
+    "door9:verify:main": "tsx tooling/verify-late-connected.ts 9",
+    "omake:build": "tsx tooling/compile-omake-fragment.ts",
+    "omake:verify": "tsx tooling/drive-omake-fragment.ts",
+    "test:door9": "playwright test --config playwright.ninth.config.ts"
   },
   "dependencies": {
-    "galbox-sdk": "file:vendor/galbox-sdk-681c1ee4a58c.tgz",
+    "galbox-sdk": "file:vendor/galbox-sdk-5d978400fa39.tgz",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },

@@ -33,9 +33,19 @@ release doors7-zh-7c0f88765d1ed6c1ef8e。正式SDK v3目录容纳整作函数/�
 运动；零时长且终点重复的无效运动点剔除，改变位置仍拒绝；选项qmenu显隐与恢复。
 背景独立转场期间继续文字，再启动转场前等待剩余旧转场，差异F-11。
 源debugLabel只入报告。原章节第五页使用原图和真实flag，新增search2/door7回放入口。
-八语资源已stage（3288个对象，不含测试cuts），正在发布候选；其余非阻塞差异与后续全线验收见REPLICA_GAPS.md。
+八语资源已发布（3288个对象，不含测试cuts），发布核验见后文；其余非阻塞差异与后续全线验收见REPLICA_GAPS.md。
 
 补充验收：`pnpm test`全125 Node及7 Python通过；`pnpm build`的类型、
 八语277515条PO/控制和独立依赖边界通过。保存书签按发布章范围补到scenario7/badend5，
 `refresh-save-bookmarks.ts generated/seventh-connected 7 --copy-to-public`只在模块manifest
 完全相同的候选/public/integrated目录更新有SHA的元数据片段；不重编已验证故事。
+
+## 发布验收完成
+
+`pnpm test:door7`的testsdk公网4关键用例全部通过（旧六门继续/保存刷新、限时两路、
+原第五页回放返回）；完整媒体R2 3288对象字节验证通过。实际上传新增479PNG/26OGG/14TTF，
+其余原有对象复用。回归部署baa2d9a8-c4f4-418e-a07c-190f5da25fc6，预览部署
+1ac00c3a-aaff-43fb-8e0d-2d2dcc85750d。`pnpm preview:check`只读验证2812文件、
+1102095839解码字节与本地dist完全一致，媒体Range、匿名可玩与回归鉴权隔离通过。
+源码489ca24已推main；后续通关序章a644a9c的正常推送曾遭GitHub commit_refs/500
+服务端错误，两次均未强推；当前新提交保留该追加历史继续正常推送。

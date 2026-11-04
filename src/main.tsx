@@ -20,7 +20,7 @@ import type {TitleButton,TitleData} from './artwork.js';
 import {SystemMenus} from './menus.js';
 import {ReplayMenu} from './replay.js';
 import {QuickMenu} from './quick-menu.js';
-declare global {interface Window {__fataTest?:{player:()=>Player|null;replay?:()=>Player|null;locale:string;fixture:(program:number[],release:number[],mount:HTMLElement,database:string)=>Promise<Player>;snapshot:(player:Player)=>number[];seedCut:(manifest:number[],snapshot:number[],profile:number[])=>Promise<string>};}}
+declare global {interface Window {__fataTest?:{player:()=>Player|null;replay?:()=>Player|null;locale:string;fixture:(program:number[],release:number[],mount:HTMLElement,database:string)=>Promise<Player>;snapshot:(player:Player)=>number[];seedCut:(manifest:number[]|string,snapshot:number[]|string,profile:number[]|string)=>Promise<string>};}}
 const query=new URLSearchParams(location.search),requestedLocale=query.get('lang')??localStorage.getItem('fata-opening:language');
 const modular=import.meta.env.VITE_FATA_MODULES==='1';
 const loadingMode=query.get('loading')==='demand'?'demand':'balanced';
