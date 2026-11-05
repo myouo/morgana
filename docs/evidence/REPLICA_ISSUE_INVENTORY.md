@@ -26,3 +26,18 @@ motionblur采样；不能把普通三门已接实时accumulate的证据推广到
 源拼写强制转换等。它们不是自动需要“修正”的作品错误；应保留源结果及报告。
 随机序列/像素舍入/快速输入转场重入也仍需原作对照，不能凭SDK可播放认证。
 F-16跨文件书签继承未由本次组件报告覆盖，继续列在REPLICA_GAPS。
+
+
+通关第三门独立修补候选：新增显式procedural选项，旧默认产物不改变；
+compile-realtime-cleared-third.ts写generated/postclear-third-realtime，报告写
+artifacts/realtime-postclear-door3，不覆盖当前已冻结发布树/旧组件证据。
+中文编译2885文本片段保持，资源614→219；原TRAIL_RASTERIZATION_NOT_PIXEL_CERTIFIED
+改为实时film/accumulate参数说明。完整Core走5494回合/2875段落/2885片段通过，
+8个冷点含137ms的raster-film与raster-accumulate，信件/卷动/字体几何也通过；
+最大35对象/51任务。媒体回调为虚拟Host，不称原作逐像素认证。
+
+实际命令：pnpm exec tsx tooling/compile-realtime-cleared-third.ts zh；
+调用driveChapterDoor('zh','door3',{root:'generated/postclear-third-realtime',
+cleared:true,reportPrefix:'realtime-'})；pnpm exec tsc --noEmit。该候选尚未接入
+主Program，仍待八语生成、旧通关第三门保存来源映射及真实Canvas/WebGL中途
+残像恢复/无派生帧请求验证，再进入后续发布。当前preview部署字节未改变。
