@@ -56,3 +56,10 @@ IndexedDB累计耐久认证。中英旧回忆档迁移及完整菜单各两实�
 八语补正生成/精确差异验证正在收尾。stage-postclear --fixed使用明确父版本
 未变路径证据+五函数精确差异+当前子版本中英累计/浏览器证据，门槛仍先于
 发布树和integrated变更；后续需要更新regression并对最终版跑网络回归。
+
+
+补正版已通过全部八语差异门槛并实际promote到integrated，本地build和regression
+准备目录均为补正版。中英旧调查四状态迁移/冷恢复/继续也按当前补正版release
+再次通过，共8个真实旧交互档。最终regression正在上传64个差异文件；旧前一
+测试版本为4a474946-be8e-4915-bc8f-397f96f1eb53，不作为补正版发布结果。
+只有当前补正版公网回归通过后才切preview，preview仍124af5e5。
