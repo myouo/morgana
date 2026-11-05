@@ -74,6 +74,14 @@ export async function connectedRelease(from:string,to:string,locale:Language){
   await mergePresentation(donorMeta.presentationAssets,root);mergeRules(donorMeta.rulePresentation);
   return {linked,release:donor.release};
  }
+ async function replaceFragment(root:string,prefix:string){
+  const previous=functions().filter(f=>f.id.startsWith(prefix));requireValue(previous.length>0,'CONNECTED_REPLACE_EMPTY');
+  for(let n=files.length-1;n>=0;n--){const file=files[n]!,kept=file.body.functions.filter(f=>!f.id.startsWith(prefix));if(!kept.length)files.splice(n,1);else file.body.functions=many(kept);}
+  if(Array.isArray(meta.chapters))meta.chapters=meta.chapters.flatMap(row=>{requireValue(row&&typeof row==='object'&&!Array.isArray(row)&&Array.isArray(row.addresses),'CONNECTED_REPLACE_CHAPTER');const addresses=row.addresses.filter(at=>{requireValue(typeof at==='string','CONNECTED_REPLACE_ADDRESS');return !at.startsWith(prefix);});return addresses.length?[{...row,addresses}]:[];});
+  // The replacement must keep authored addresses; caller verifies the exact
+  // supported code substitutions before finishing this candidate.
+  const linked=await addFragment(root,prefix);return {...linked,previous};
+ }
  async function finish(name:string,bonusSaveSpecs:readonly string[]=[],pool=false){
   const parts=b.parts({compositionVersion:3}),known=new Map(functions().map(f=>[f.id,f]));
   for(const file of parts.files){const added=[];for(const f of file.body.functions){const old=known.get(f.id);requireValue(!old||canonicalWireJSON(old)===canonicalWireJSON(f),'CONNECTED_BUILDER_FUNCTION '+f.id);if(!old){added.push(f);known.set(f.id,f);}}if(added.length)files.push({uri:'pending.pb',body:{...file.body,id:name+'-support-'+file.body.id,functions:many(added)}});}
@@ -93,5 +101,5 @@ export async function connectedRelease(from:string,to:string,locale:Language){
   for(const file of [`text/${locale}.ui.pb`,'text/locales.pb'])await copyFile(from+'/'+file,to+'/'+file);await copySearchFonts(to,from,locale);
   return {release:header.release,source:prior.release,functions:built.manifest.functionOrder.length,modules:built.files.length,assets:all.length};
  }
- return {manifest,header,meta,b,content,files,functions,addFragment,finish};
+ return {manifest,header,meta,b,content,files,functions,addFragment,replaceFragment,finish};
 }
