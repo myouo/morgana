@@ -1,0 +1,15 @@
+import {readFile,mkdir,writeFile} from 'node:fs/promises';
+import {decodeWire} from 'galbox-sdk/wire';
+import {canonicalWireJSON} from 'galbox-sdk/protocol';
+import {createModuleProgram} from 'galbox-sdk/port-kit';
+import {requireValue} from './kag.js';
+import {languages} from './locale.js';
+const read=async(p:string)=>new Uint8Array(await readFile(p));
+for(const locale of languages.filter(l=>(process.argv[2]??'zh').split(',').includes(l))){
+ async function load(root:string){const manifest=decodeWire('ModuleManifest',await read(`${root}/programs/${locale}.modules.pb`)),source=createModuleProgram(manifest),functions=(await Promise.all(manifest.modules.map(async m=>decodeWire('ProgramModule',await read(root+'/'+m.uri))))).flatMap(m=>m.functions);return {manifest,source,functions};}
+ const old=await load('generated/integrated'),next=await load('generated/history-main'),byId=new Map(next.functions.map(f=>[f.id,f]));let notes=0,changed=0;
+ requireValue(old.functions.length===next.functions.length,'HISTORY_MAIN_FUNCTION_COUNT');for(const f of old.functions){const n=byId.get(f.id);requireValue(n,'HISTORY_MAIN_FUNCTION');const filtered=n.code.filter(i=>i.op!=='text.rich'||i.completion!=='history'),{code:oldCode,entry:oldEntry,...oldABI}=f,{code:newCode,entry:newEntry,...newABI}=n;requireValue(canonicalWireJSON(oldABI)===canonicalWireJSON(newABI)&&canonicalWireJSON(oldCode)===canonicalWireJSON(filtered),'HISTORY_MAIN_UNCHANGED_CODE '+f.id);if(oldEntry!==newEntry){const index=n.code.findIndex(i=>i.at===oldEntry);requireValue(index>0&&n.code[0]?.at===newEntry&&n.code.slice(0,index).every(i=>i.op==='text.rich'&&i.completion==='history'),'HISTORY_MAIN_ENTRY '+f.id);}const additions=n.code.length-filtered.length;if(additions){requireValue(f.id.startsWith('fourth/')||f.id.startsWith('postclear-fourth/'),'HISTORY_MAIN_NOTE_SCOPE');changed++;notes+=additions;}}
+ for(const key of ['globals','ui','extras','textLayout','bgmBuffers','sfxBuffers']as const)requireValue(canonicalWireJSON(old.manifest.header[key]??null)===canonicalWireJSON(next.manifest.header[key]??null),'HISTORY_MAIN_HEADER '+key);for(const style of old.manifest.header.textStyles??[])requireValue(canonicalWireJSON(style)===canonicalWireJSON(next.manifest.header.textStyles?.find(s=>s.id===style.id)),'HISTORY_MAIN_OLD_STYLE');
+ const assets=new Map(next.source.catalog().map(a=>[a.id,a]));for(const a of old.source.catalog())if(a.id!=='opening-font')requireValue(canonicalWireJSON(a)===canonicalWireJSON(assets.get(a.id)),'HISTORY_MAIN_OLD_ASSET '+a.id);
+ const result={locale,source:old.source.release,release:next.source.release,functions:old.functions.length,changedFunctions:changed,notes,allOldInstructionsAndOrderUnchanged:true,globalsUiLayoutAudioUnchanged:true,oldStylesUnchanged:true,oldResourcesExceptGlobalFontUnchanged:true,completed:true};await mkdir('artifacts/history-main',{recursive:true});await writeFile(`artifacts/history-main/${locale}-delta.json`,JSON.stringify(result,null,2));console.log(result);
+}
