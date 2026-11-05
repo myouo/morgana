@@ -41,3 +41,16 @@ artifacts/realtime-postclear-door3，不覆盖当前已冻结发布树/旧组件
 cleared:true,reportPrefix:'realtime-'})；pnpm exec tsc --noEmit。该候选尚未接入
 主Program，仍待八语生成、旧通关第三门保存来源映射及真实Canvas/WebGL中途
 残像恢复/无派生帧请求验证，再进入后续发布。当前preview部署字节未改变。
+
+
+独立候选已增加真实浏览器专项playwright.realtime-cleared-third.config.ts：
+Canvas/WebGL各film、accumulate共4例通过（25.3秒）。效果137ms阶段图文保存与
+刷新后同stage/frames/text/raster任务严格相同，且未请求新旧目录差分中已移除
+的图像SHA。实看Canvas残像与WebGL旧电影截图，无额外诊断界面；此检查不等于
+原作同帧像素比较。首次检查发现旧generated/site界面文字缺confirmSave，生成器
+新增显式uiRoot，独立候选消费当前已验证integrated界面文字；旧默认保持不变，
+没有补空翻译或跳过失败。已用当前完整UI文字重跑4例并通过。
+
+八语独立全文/两个raster中途冷点现全部通过（每语8个冷点，文本片段数按各自
+源脚本变化）。仍未合并到主Program，下一步是正式来源迁移与组合回归，不能
+把独立候选称为线上已修复。

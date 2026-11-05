@@ -76,3 +76,19 @@ MORGANA_RUN=postclear-fixed-slots pnpm exec playwright test --config
 playwright.integrated.remote.config.ts实际3项通过（0跳过/0失败）：中英原交互档
 恢复/回忆继续、中文CDP慢网、损坏代码拒绝及标题重试。无生产/Worker/R2限速。
 随后已准备preview目录并开始部署；最终线上版本与全文件字节核验待写入。
+
+
+补正版preview已实际部署为850349c2-5147-49ce-849d-80fb3badc103，regression为
+fe9d6fee-6cad-4564-846b-1c073db0f19f。预览静态上传1000文件完成，自动全文件
+解码字节比较已按这个实际版本启动，最终结果仍待收齐。未对preview施加CDP
+慢网或生产限速。本版不包含之后独立开发的通关第三门实时效果候选。
+
+
+最终preview:check通过：4736文件/2214316899解码字节逐文件等于当前本地dist；
+匿名preview200、媒体Range206及regression匿名401隔离通过，无traffic shaping。
+实际版本850349c2-5147-49ce-849d-80fb3badc103。对应日志为
+artifacts/postclear-fixed-preview-check-auto.log，远端3项结果为
+artifacts/remote/postclear-fixed-slots-results.json。素材独立闭包5132对象/
+1176627017字节已验证（860新拉取、3483收据复用、789原不可变复用，0失败）。
+这是已声明内容/功能的增量发布，不等于原作逐像素、原档互通或全部剩余差异
+完成；整作goal继续active。
