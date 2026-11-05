@@ -18,11 +18,17 @@ fe9d6fee-6cad-4564-846b-1c073db0f19f。包括原通关标题/六按钮奖励菜�
 1176627017字节闭包0失败。SDK来源29e46ec，实包2eb4cb91afd3。
 详见[发布验收](docs/evidence/POSTCLEAR_RELEASE.md)。
 
-后续候选隔离开发：通关第三门实时film/accumulate八语全文及8冷点均通过，
-中文Canvas/WebGL4实际保存刷新也通过，无旧派生帧SHA请求。资源614→219
-（中文引用159430965→74161178字节）；尚未合并/发布，需旧通关档映射与组合
-接续。使用current integrated UI文字，旧默认生成路径不变。120份同版组件
-报告清点及剩余项见[差异清点](docs/evidence/REPLICA_ISSUE_INVENTORY.md)。
+主包新批次：通关第三门实时film/accumulate已组合，八语全文/8冷点和32个旧
+主包切点迁移通过；中英完整第三门→调查及入口冷恢复通过，法语额外通过。
+其余剧情1022–1032函数与旧素材精确保留，沿用未改路径的明确父版验收。
+Canvas/WebGL六项实际旧槽迁移/图文保存/刷新通过。历史文本滑块已按八语
+源皮肤实现，随这批交付；正常播放进入菜单会自动暂停，正补线上输入检查。
+已通过stage门槛，正在提升发布目录，尚未切换线上预览。素材闭包与父版
+5132对象/1176627017字节完全相同，无需重新上传原素材；保留旧素材供历史
+快照校验，不将独立第三门85MB引用减少冒充整包减少。见
+[主包批次](docs/evidence/REALTIME_MAIN_COMPOSITION.md)、
+[历史滑块](docs/evidence/HISTORY_SCROLLBAR.md)。120份同版组件报告清点及剩余项
+见[差异清点](docs/evidence/REPLICA_ISSUE_INVENTORY.md)。
 F-16名称继承、glyph等仍未完成，整作goal保持active。
 
 已发布：test.morgana.love 已更新至终章，包含两次调查、正常主线及 badend1–7。

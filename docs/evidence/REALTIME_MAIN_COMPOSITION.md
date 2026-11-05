@@ -18,17 +18,24 @@ short/long六项浏览器保存/刷新通过，SDK驻留预算维持64MiB。
 
 - pnpm exec tsx tooling/verify-realtime-third-evidence.ts
 - pnpm exec tsx tooling/verify-realtime-cleared-delta.ts all
-- pnpm exec tsx tooling/verify-realtime-cleared-upgrades.ts en,fr,it,jp,ko,pt-br,ru,zh
+- pnpm exec tsx tooling/verify-realtime-cleared-upgrades.ts <locale>（八语逐语）
 - pnpm exec playwright test --config playwright.realtime-cleared-main.config.ts
-- FATA_NATIVE_ROOT=generated/realtime-cleared-connected pnpm exec tsx tooling/verify-native-menus.ts all --third-handoff
+- FATA_NATIVE_ROOT=generated/realtime-cleared-connected pnpm exec tsx tooling/verify-native-menus.ts zh --third-handoff
 - pnpm exec tsx --test tests/raster-upgrade-guard.test.ts tests/history-scrollbar-source.test.ts
 - pnpm check
 
-最后一项主Program衔接正在执行：十二原章节入口/冷恢复、完整序章→第一门、
-完整第三门→第一次调查及其冷恢复；中英另含两个真实旧终点接下一章。
-stage-realtime-cleared先核对父版验收、当前精确差异、独立全文、主包衔接、
+主Program衔接以中英为重点：十二原章节入口/冷恢复、完整序章→第一门、
+完整第三门→第一次调查及其冷恢复，另含两个真实旧终点接下一章。最初执行
+all --third-handoff，英文/法文完整通过后主动终止其余循环，改跑中文重点，
+避免重复八语独立全文；其他六语的未改菜单/后继使用明确父版验收及当前精确
+差异证明，不将父报告重标为新版本实跑。中英均已完整通过，英文3793、中文
+3948次正文等待后进入调查；保存调查入口并冷恢复相同调用栈/正文通过。
+stage-realtime-cleared先核对父版验收、当前精确差异、独立全文、中英主包衔接、
 旧档和实际浏览器的release/SDK身份，再复制发布目录；cuts永不入发布树。
 
 本批同时交付[历史滑块](HISTORY_SCROLLBAR.md)。线上更新以本报告后续记录的
 实际版本与网络检查为准；当前候选未发布。原作随机噪点像素一致性、F-16
 书签继承、glyph/音轨seek及原档codec继续留档，整作goal仍active。
+
+素材闭包与已发布父版一致：5132对象/1176627017字节，全部key/SHA256/bytes
+逐项相等，无新增/删除；可复用此前不可变R2验收，不重新上传原音画资源。
