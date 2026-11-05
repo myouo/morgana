@@ -156,7 +156,7 @@
     "cleared:verify": "tsx tooling/verify-cleared-connected.ts"
   },
   "dependencies": {
-    "galbox-sdk": "file:vendor/galbox-sdk-9d74a79d211c.tgz",
+    "galbox-sdk": "file:vendor/galbox-sdk-d222adf212da.tgz",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },

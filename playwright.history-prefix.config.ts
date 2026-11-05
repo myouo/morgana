@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'tests/history-prefix-browser',timeout:180000,workers:1,reporter:[['list'],['json',{outputFile:'artifacts/history-prefix/browser.json'}]],outputDir:'artifacts/history-prefix/traces',use:{baseURL:'http://127.0.0.1:4240',headless:true,viewport:{width:1280,height:960},trace:'retain-on-failure'},webServer:{command:'FATA_MODULES=1 pnpm exec vite --force --host 127.0.0.1 --port 4240',url:'http://127.0.0.1:4240',reuseExistingServer:false}});
