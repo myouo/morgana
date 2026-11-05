@@ -63,3 +63,16 @@ IndexedDB累计耐久认证。中英旧回忆档迁移及完整菜单各两实�
 再次通过，共8个真实旧交互档。最终regression正在上传64个差异文件；旧前一
 测试版本为4a474946-be8e-4915-bc8f-397f96f1eb53，不作为补正版发布结果。
 只有当前补正版公网回归通过后才切preview，preview仍124af5e5。
+
+
+最终补正版regression已部署为fe9d6fee-6cad-4564-846b-1c073db0f19f。
+公网回归最初两项旧备份恢复失败：脚本错误地将旧清单PortableBackup直接交给
+当前ModuleProgram，SDK正确拒绝原始manifest不匹配。未放宽引擎验证；现在
+先断言该导入拒绝且不改变当前状态，再校验原manifest SHA/快照/进度，通过
+SDK Store植入旧槽并走正式已注册saved-slot迁移。通用跨清单PortableBackup
+导入本身仍需要独立ContentMigration，不在此声称已支持。
+
+MORGANA_RUN=postclear-fixed-slots pnpm exec playwright test --config
+playwright.integrated.remote.config.ts实际3项通过（0跳过/0失败）：中英原交互档
+恢复/回忆继续、中文CDP慢网、损坏代码拒绝及标题重试。无生产/Worker/R2限速。
+随后已准备preview目录并开始部署；最终线上版本与全文件字节核验待写入。
