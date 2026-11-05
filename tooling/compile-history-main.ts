@@ -6,7 +6,7 @@ import {languages} from './locale.js';
 import {sdkProvenance} from './sdk-provenance.js';
 const sdk=await sdkProvenance();
 for(const locale of languages.filter(l=>(process.argv[2]??'zh').split(',').includes(l))){
- const project=await connectedRelease('generated/integrated','generated/history-main',locale),rows=[];
+ const project=await connectedRelease('generated/realtime-cleared-connected','generated/history-main',locale),rows=[];
  for(const [root,prefix]of [['generated/history-fourth','fourth/'],['generated/history-postclear-fourth','postclear-fourth/']]as const){
   const replaced=await project.replaceFragment(root,prefix),merged=mergeHistoryInstructions(replaced.previous,replaced.linked.functions,project.manifest.header,project.header),byId=new Map(merged.functions.map(f=>[f.id,f]));for(const file of project.files)file.body.functions=file.body.functions.map(f=>byId.get(f.id)??f)as typeof file.body.functions;rows.push({prefix,donor:replaced.release,notes:merged.added});
  }
