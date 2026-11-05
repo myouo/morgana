@@ -15,8 +15,11 @@
 应第一项；源发奖仅终章检查，验收器均已按源修正。中英/法语正在从真实八门
 切点续到终章；当前app结束→start返回标题，F-16名称继承仍待。
 
-发布门槛stage-postclear.ts已写入，首次预检因最终终章报告缺失停止，未改
-integrated/线上。其他表现差异与全结局累计验证继续记录；goal保持active。
+中英/法语真实八门冷点已续到终章并获得Departed，按当前app结束→start返回
+通关标题，旧已读保留；报告公开分段范围。stage-postclear所有门槛通过，已
+本地追加到integrated并构建，当前dist为新通关候选。R2新增素材及regression
+静态文件正在上传；preview仍124af5e5，尚未切换。发布/远端逐字节与剩余表现
+差异、全结局累计验证继续；goal保持active。
 详见[通关正文进度](docs/evidence/POSTCLEAR_STORY_PROGRESS.md)。
 
 已发布：test.morgana.love 已更新至终章，包含两次调查、正常主线及 badend1–7。
