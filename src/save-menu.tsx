@@ -29,7 +29,7 @@ export function SourceSaveMenu({player,view,artwork,words,page,setPage,mode,busy
    <button className="save-card-hit" aria-label={mode==='save'?`${words.save} ${n}`:row?`${words.load} ${row.label}`:words.empty} disabled={busy||(mode==='save'?!view.core?.canSave||!!row?.protected:!row)} onClick={()=>{if(mode==='save')save(row,i);else if(row)confirm(words.confirmLoad,()=>load(row));}}/>
    <img className="save-thumbnail" src={row?.capture?.thumbnail?.dataURL??art.dummy} alt="" draggable={false}/>
    {art.numberPosition&&<span className="save-number" style={pos(art.numberPosition.x,art.numberPosition.y,15,16)}>{auto?101+i:n}</span>}
-   <span className="save-caption" title={row?.label} style={pos(200,10,190,20)}>{row&&row.label!==row.slot?row.label:'No Data'}</span>
+   <span className="save-caption" title={row?.label} style={pos(200,10,190,20)}>{row&&row.label!==row.slot?row.label:art.emptyCaption??'No Data'}</span>
    <time className="save-date" style={pos(200,35,198,18)}>{row?.capture?stamp(row.capture.createdAt):art.emptyDate}</time>
    {mark&&<span className="save-recent" style={pos(mark.x,mark.y,400-mark.x,18)}>{mark.text}</span>}
    {row&&!auto&&<><SheetButton sheet={row.protected?art.locked:art.lock} x={art.lockPosition.x} y={art.lockPosition.y} label={row.protected?words.unprotectSave:words.protectSave} disabled={busy} onClick={()=>run(()=>player.protectSave(row.slot,row.revision,!row.protected))}/><SheetButton sheet={art.delete} x={art.deletePosition.x} y={art.deletePosition.y} label={words.deleteSave} disabled={busy||row.protected} onClick={()=>confirm(words.confirmDelete,async()=>{await player.deleteSave(row.slot,row.revision);if(localStorage.getItem(latestKey)===row.slot)localStorage.setItem(latestKey,'none');})}/></>}

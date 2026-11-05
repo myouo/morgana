@@ -2,24 +2,24 @@
 
 用户提供的 Steam KRKR2 版本（app303310/build21523397），通过 `galbox/` 子模块的实际 tarball 和公开 exports 使用 SDK。原安装只读；根据 KS/TJS、宏、资源和原配置生成标准 Program，不逆向 exe，不运行另一套 KAG VM。
 
-当前本地已接通：原标题与OP、新周目完整序章、第一门→第一间章→第二门及memory1两路→第三门→调查四问/八地点循环→第四门正文与后段→第五门→第六门，八语言同步；正线止于 `search2.ks` 第二次调查入口。记忆由实际选择取得，第四门第三项按双记忆条件开放。正式旧第一至三门Web槽通过来源验证后接续，详见[调查与四门接续验收](docs/evidence/SEARCH_CONNECTION.md)。第四门鉴赏回放与坏结局返标题已接入。
+当前已发布八语完整序章、第一至八门、终章、两次调查及badend1–7。原章节书十二入口接同一主Program；通关后前四门/调查变体、原通关标题、画廊、音乐室、后台和隐藏序章已接入。中英实际累计七结局解锁隐藏序章通过；其他语言完整累计、原作逐像素和原档互通仍分别验收。最新范围与限制见[STATUS](STATUS.md)。
 
-用户本轮已授权恢复线上发布；[test.morgana.love](https://test.morgana.love) 为可玩预览，[testsdk.morgana.love](https://testsdk.morgana.love) 为鉴权网络回归站。发布进度与版本见[第六门记录](docs/evidence/SIXTH_MAINLINE.md)。
+用户已授权线上发布；[test.morgana.love](https://test.morgana.love) 为可玩预览，[testsdk.morgana.love](https://testsdk.morgana.love) 为鉴权网络回归站。当前发布版本与验收见[历史注释整合发布](docs/evidence/HISTORY_RELEASE.md)，后续本地优化另行记录，不冒充已经上线。
 
-本轮已按八语源参数补齐OP/序章的点击、Enter与Ctrl演出跳过，存档保护/删除/原分页及章节、调查回放和结局列表。原素材界面由正式SDK运行，开发说明不进入游戏画面。日文存档为10页，其余为11页；原作逐像素与全通状态仍未认证。当前验收与发布状态见[过场、存档与回放记录](docs/evidence/INTERACTIVE_UI.md)。
+本轮已按八语源参数补齐OP/序章的点击、Enter与Ctrl演出跳过，存档保护/删除/原分页及章节、调查回放和结局列表。原素材界面由正式SDK运行，开发说明不进入游戏画面。日文存档为10页，其余为11页；原作逐像素和全部累计/真机矩阵仍未认证。当前验收与发布状态见[过场、存档与回放记录](docs/evidence/INTERACTIVE_UI.md)。
 
 存读档卡顿已定位到重复代码校验/装载和保存画面的重复重绘，SDK修复与真实存档对比见[响应记录](docs/evidence/SAVE_LOAD_RESPONSIVENESS.md)。右键消息窗口与富文本共同隐藏。第五门八语主线与回放已发布，见[第五门验收](docs/evidence/FIFTH_MAINLINE.md)。第六门及第四坏结局已发布，限时选择、旧档与章节回放验收见[第六门记录](docs/evidence/SIXTH_MAINLINE.md)；通关态称呼按用户确认不调整。
 
 ## 文本与资源在哪里
 
-- 可编辑正文：`locales/<BCP47>/story.po`、`prologue.po`；章节为 `locales/<BCP47>/chapters/{door1,interlude1,door2,memory1,door3,search,door4,scenario5,scenario6,badend4}/*.po`。中文目录是 `locales/zh-Hans/chapters/door1/`。
+- 可编辑正文：`locales/<BCP47>/story.po`、`prologue.po`；章节位于 `locales/<BCP47>/chapters/`，包含主线、两次调查、坏结局、后台与奖励序章。中文目录为 `locales/zh-Hans/chapters/`。
 - 系统文字：各语言 `ui.po`；选择文字：`choices.po`。
 - 浏览器从Worker静态资源读取 `/programs/zh.modules.pb`、按SHA命名的代码模块、标题与 `/text/zh.ui.pb`；旧单门的指令模板/文本目录仅用于兼容。这些pb **不在 R2**，也不进 Git。
 - 图片、音频、字体由专用 R2 桶按 SHA 内容地址提供。只有跨全部语言相同的字节共享，其余按语言隔离。
 
 PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的发布格式，不能通过修改二进制维护剧情。[翻译说明](locales/README.md)和[章节说明](docs/CHAPTERS.md)列出保留标记与校验命令。
 
-新增发布候选：`pnpm exec tsx tooling/prepare-release.ts all`、`pnpm exec tsx tooling/verify-release.ts all`、`pnpm exec tsx tooling/stage-release.ts`；生成目录与测试数据均不进Git。
+早期四门候选使用prepare-release/verify-release/stage-release；这些命令不代表当前完整主包的重建。当前整合发布沿用经过验收的父版和冻结旧来源，最新命令见[本批发布记录](docs/evidence/HISTORY_RELEASE.md)。生成目录与测试数据均不进Git。
 
 ## 本地运行
 
@@ -30,7 +30,7 @@ PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的�
 5. 保留现有三门冻结来源后，`pnpm search:freeze`、`pnpm search:build all`、`pnpm search:verify all`；八语验收后 `pnpm search:promote`。
 6. `pnpm dev`，访问 `http://127.0.0.1:4184/`。语言：`?lang=en/fr/it/jp/ko/pt-br/ru/zh`（选其中一个）。默认 WebGL2 优先、不可用则 Canvas；`?renderer=canvas`可显式选择兼容路径。
 
-新 clone 不含游戏、tarball、构建或凭据。完整测试还需要原资料和 ignored `private/compat32`、`private/compat93`和 `private/compat-modules` 的真实旧发布快照；缺失会明确失败。SDK 构建只使用子模块锁定提交，不能通过 workspace 源码别名消费。
+新 clone 不含游戏、tarball、构建或凭据。完整测试还需要原资料和 ignored `private/compat32`、`private/compat93`和 `private/compat-modules` 的真实旧发布快照；缺失会明确失败。SDK 构建只使用子模块锁定提交，不能通过 workspace 源码别名消费。更新SDK实包后应重启开发服务器；长开Vite可能仍持有旧预构建，必要时用`FATA_MODULES=1 pnpm exec vite --force`重新预构建。
 
 ## 游玩与保存
 
@@ -64,7 +64,7 @@ PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的�
 
 ## 仍未完成
 
-第二次调查及后续剧情、通关变体、全通结局奖励与隐藏序章、原版 tft codec、原作逐帧和真实移动设备对照。当前可达结局列表已接入。当前SDK v2已支持富文/窗口/演出/源音频、鉴赏、剧本UI/流程图/视频/计时/RNG与注册operations的模块组合；正式主入口的当前章节和部署验收见[STATUS](STATUS.md)，跨v2 manifest的Web槽迁移已验收。模块recipe/SaveBridge/历史回溯仍列W1-03B3，完整旧性能/真机矩阵没有沿用为本版重验。
+原历史行缓冲与部分注释/当前正文语义、确认glyph、强制取消Auto/Skip、文字定位/字体与音轨精确恢复、跨文件书签继承、较大备份及跨清单导入、原版tft codec、原作逐帧和真实移动设备对照仍待完成。八语全部章节菜单累计路径与IndexedDB累计耐久未全部认证。具体状态见[差异清单](docs/REPLICA_GAPS.md)，不会因全线贯通而标为整作100%。
 
 当前事实和下一步见 [STATUS](STATUS.md)、[能力边界](docs/CAPABILITIES.md)、[部署说明](deployment/README.md)。游戏原包/解包/KS/TJS/素材/字体/日志/trace全部 ignore；Git 仅保存适配源码、允许提交的 PO 和短报告。SDK 包不含游戏、证据或日志。
 
@@ -78,4 +78,4 @@ PO 是维护源，protobuf 是经 Schema/控制关系/字体检查后生成的�
 
 既有原资料与界面基线下，`pnpm door5:build all`、`pnpm door5:connect all`、`pnpm door5:verify:main all`，再运行第五门浏览器验收与stage/promote，保留 `generated/fifth-public` 作为不可变输入。第六门依次运行 `pnpm door6:build all`、`pnpm door6:verify all`、`pnpm door6:connect all`、`pnpm door6:verify:main all`；`pnpm test:door6 --fully-parallel --workers=2` 完整通过后才可 `pnpm door6:stage`、`pnpm door6:promote`。这不会删除旧代码/素材，也不会把测试存档放入站点。
 
-整作复刻持续目标与推进顺序见[计划](docs/REPLICA_PLAN.md)，非阻塞差异见[清单](docs/REPLICA_GAPS.md)。当前继续第二次调查→第七/八门→终章/通关内容。
+整作复刻持续目标与推进顺序见[计划](docs/REPLICA_PLAN.md)，剩余差异见[清单](docs/REPLICA_GAPS.md)。主线已贯通；当前按[启动装载优化](docs/evidence/STARTUP_LOADING.md)等记录逐项收尾。

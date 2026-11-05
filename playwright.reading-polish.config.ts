@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'tests/reading-polish-browser',timeout:180000,workers:1,reporter:[['list'],['json',{outputFile:'artifacts/reading-polish/browser.json'}]],outputDir:'artifacts/reading-polish/traces',use:{baseURL:'http://127.0.0.1:4232',headless:true,viewport:{width:1280,height:960},trace:'retain-on-failure'},webServer:{command:'FATA_MODULES=1 pnpm exec vite --host 127.0.0.1 --port 4232',url:'http://127.0.0.1:4232',reuseExistingServer:false}});

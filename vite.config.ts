@@ -7,6 +7,6 @@ export default defineConfig({
  plugins:[versionedMediaPlugin(root)],
  publicDir:root,
  optimizeDeps:{entries:['index.html']},
- server:{host:'127.0.0.1',port:modular?4184:4180,strictPort:true,hmr:false,watch:{ignored:['**/galbox/**','**/private/**','**/artifacts/**','**/vendor/**','**/dist/**']},fs:{deny:['.env','.env.*','**/galbox/**','**/private/**','**/artifacts/**','**/vendor/**']}},
+ server:{host:'127.0.0.1',port:modular?4184:4180,strictPort:true,hmr:false,watch:{ignored:['**/galbox/**','**/private/**','**/artifacts/**','**/vendor/**','**/dist/**','**/generated/**','**/public/**']},fs:{deny:['.env','.env.*','**/galbox/**','**/private/**','**/artifacts/**','**/vendor/**']}},
  preview:{host:'127.0.0.1',port:4181,strictPort:true},
 });
