@@ -1,3 +1,4 @@
+import {storyHistoryLimit} from '../src/reading-history-policy.js';
 import {stageImage,stageFilteredImage,stageAsset,stageStyle,stageClone,stageMix,instruction,expr,variable,literal} from 'galbox-sdk/port-kit';
 import type {AssetRef,ProgramBuilder,StageStyleInput} from 'galbox-sdk/port-kit';import type {Instruction,ImageFrame,ImageFilter} from 'galbox-sdk/protocol';
 import {i32} from 'galbox-sdk/protocol';
@@ -36,6 +37,6 @@ export class DoorStage {
  join(skippable=true):void {if(!this.pending)return;const p=this.pending;this.code.push(instruction('task.join',{at:this.at('join'),group:this.at('group'),members:[p.task],skippable}));for(const id of p.source){const old=this.sent.get(id);if(old)this.sent.set(id,{...old,visible:false});}for(const name of p.names){const a=this.get(name),b=this.get(name,'back');this.fore.set(name,b);this.back.set(name,a);}this.pending=null;this.copy(p.names.filter(n=>!['leaf-low','leaf-high','rain','flash'].includes(n)&&!this.pluginLayers.has(n)),p.names.includes('rain'));}
  finish():void{if(this.pending){this.code.push(instruction('task.finish',{at:this.at('finish'),task:this.pending.task}));this.join(false);}}
  clear(key:string,page='fore'):void {const layer=this.get(key,page);this.assetWritten(layer);layer.asset=this.blank;delete layer.imageFilter;layer.brightness=1;delete layer.frame;layer.grayscale=0;if(key==='base'){layer.visible=true;layer.width=800;layer.height=600;}else layer.visible=false;}
- checkpoint(retain:readonly string[],historyLimit=128):void {this.flush();this.code.push(instruction('state.collect',{at:this.at('collect'),retainTasks:[...new Set(retain)],historyLimit}));}
+ checkpoint(retain:readonly string[],historyLimit=storyHistoryLimit):void {this.flush();this.code.push(instruction('state.collect',{at:this.at('collect'),retainTasks:[...new Set(retain)],historyLimit}));}
  take():Instruction[]{return this.code.splice(0);}
 }
