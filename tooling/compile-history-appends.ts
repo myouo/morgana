@@ -1,4 +1,4 @@
-import {readFile,writeFile,mkdir,readdir,link,copyFile,rename,stat} from 'node:fs/promises';
+import {readFile,writeFile,mkdir,rename,stat} from 'node:fs/promises';
 import path from 'node:path';
 import {createModuleProgram,compileProgramModuleParts,historyText,richText} from 'galbox-sdk/port-kit';
 import {canonicalWireJSON} from 'galbox-sdk/protocol';
@@ -9,12 +9,12 @@ import {sourceHistoryProfile,historyAnnotation,historySourceKey,historyTrailingB
 import {chapters} from './chapter-catalog.js';
 import {sdkProvenance} from './sdk-provenance.js';
 import {installModuleFiles} from './install-module-files.js';
+import {clonePublication} from './clone-publication.js';
 
 const from='generated/integrated',to='generated/history-appends',read=async(file:string)=>new Uint8Array(await readFile(file));
 async function atomic(file:string,bytes:Uint8Array){await mkdir(path.dirname(file),{recursive:true});await writeFile(file+'.next',bytes);await rename(file+'.next',file);}
-async function clone(source:string,target:string){await mkdir(target,{recursive:true});for(const entry of await readdir(source,{withFileTypes:true})){const a=path.join(source,entry.name),b=path.join(target,entry.name);requireValue(!entry.isSymbolicLink(),'APPEND_PUBLICATION_SYMLINK');if(entry.isDirectory())await clone(a,b);else if(/^[a-f0-9]{64}\.[^.]+$/u.test(entry.name))await link(a,b);else await copyFile(a,b);}}
 if(process.argv[2]==='--clone'){
- requireValue(!await stat(to).then(()=>true,error=>{if(error.code==='ENOENT')return false;throw error;}),'APPEND_CANDIDATE_EXISTS');const parents=[];for(const locale of languages){const bytes=await read(`${from}/programs/${locale}.modules.pb`);parents.push({locale,sha256:hash(bytes),release:decodeWire('ModuleManifest',bytes).header.release});}await clone(from,to);await atomic('artifacts/history-append/parents.json',new TextEncoder().encode(JSON.stringify(parents,null,2)));console.log({cloned:true,parents});
+ requireValue(!await stat(to).then(()=>true,error=>{if(error.code==='ENOENT')return false;throw error;}),'APPEND_CANDIDATE_EXISTS');const parents=[];for(const locale of languages){const bytes=await read(`${from}/programs/${locale}.modules.pb`);parents.push({locale,sha256:hash(bytes),release:decodeWire('ModuleManifest',bytes).header.release});}await clonePublication(from,to);await atomic('artifacts/history-append/parents.json',new TextEncoder().encode(JSON.stringify(parents,null,2)));console.log({cloned:true,parents});
 }else{
  const sdk=await sdkProvenance(),parents:unknown=JSON.parse(await readFile('artifacts/history-append/parents.json','utf8'));requireValue(Array.isArray(parents),'APPEND_PARENTS');
  for(const locale of languages.filter(l=>(process.argv[2]??'all')==='all'||(process.argv[2]??'').split(',').includes(l))){
