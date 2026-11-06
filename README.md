@@ -4,7 +4,7 @@
 
 当前已发布八语完整序章、第一至八门、终章、两次调查及badend1–7。原章节书十二入口接同一主Program；通关后前四门/调查变体、原通关标题、画廊、音乐室、后台和隐藏序章已接入。中英实际累计七结局解锁隐藏序章通过；其他语言完整累计、原作逐像素和原档互通仍分别验收。最新范围与限制见[STATUS](STATUS.md)。
 
-用户已授权线上发布；[test.morgana.love](https://test.morgana.love) 为可玩预览，[testsdk.morgana.love](https://testsdk.morgana.love) 为鉴权网络回归站。当前发布版本与验收见[历史注释整合发布](docs/evidence/HISTORY_RELEASE.md)，后续本地优化另行记录，不冒充已经上线。
+用户已授权线上发布；[test.morgana.love](https://test.morgana.love) 为可玩预览，[testsdk.morgana.love](https://testsdk.morgana.love) 为鉴权网络回归站。当前阅读收尾发布与验收见[本次发布](docs/evidence/READING_POLISH_RELEASE.md)，历史注释整合记录仍保留。
 
 本轮已按八语源参数补齐OP/序章的点击、Enter与Ctrl演出跳过，存档保护/删除/原分页及章节、调查回放和结局列表。原素材界面由正式SDK运行，开发说明不进入游戏画面。日文存档为10页，其余为11页；原作逐像素和全部累计/真机矩阵仍未认证。当前验收与发布状态见[过场、存档与回放记录](docs/evidence/INTERACTIVE_UI.md)。
 
