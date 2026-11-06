@@ -1,7 +1,7 @@
 import {parseTextStyle} from 'galbox-sdk/protocol';import type {TextStyle} from 'galbox-sdk/protocol';
 export interface HistorySpeakerHint {at:string;key:string;text:string;before:number;after:number;style:TextStyle;}
-export function historySpeakerHints(input:unknown):Map<string,HistorySpeakerHint>{
- const rows=input??[];if(!Array.isArray(rows)||rows.length>32)throw Error('HISTORY_SPEAKER_HINTS');const out=new Map<string,HistorySpeakerHint>();
+export function historySpeakerHints(input:unknown,maximum:32|128=32):Map<string,HistorySpeakerHint>{
+ const rows=input??[];if(!Array.isArray(rows)||rows.length>maximum)throw Error('HISTORY_SPEAKER_HINTS');const out=new Map<string,HistorySpeakerHint>();
  for(const row of rows){if(!row||typeof row!=='object'||Array.isArray(row)||!Object.keys(row).every(k=>['at','key','text','before','after','style'].includes(k))||typeof row.at!=='string'||!/^[a-zA-Z][a-zA-Z0-9_.:@/-]{0,127}$/u.test(row.at)||out.has(row.at)||typeof row.key!=='string'||!/^[a-zA-Z0-9_-]{1,64}$/u.test(row.key)||typeof row.text!=='string'||!row.text.length||row.text.length>256||!Number.isInteger(row.before)||row.before<0||row.before>4||!Number.isInteger(row.after)||row.after<0||row.after>4)throw Error('HISTORY_SPEAKER_HINT');const style=row.style;if(!style||typeof style!=='object'||Array.isArray(style)||!Object.keys(style).every(k=>['fontSize','baseSize','color','italic','bold'].includes(k))||!Number.isInteger(style.fontSize)||style.fontSize<1||style.fontSize>128||!Number.isInteger(style.baseSize)||style.baseSize<1||style.baseSize>128)throw Error('HISTORY_SPEAKER_STYLE');const {fontSize,baseSize,...other}=style;out.set(row.at,{at:row.at,key:row.key,text:row.text,before:row.before,after:row.after,style:parseTextStyle({...other,scale:fontSize/baseSize})});}
  return out;
 }
