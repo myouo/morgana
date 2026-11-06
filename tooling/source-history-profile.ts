@@ -4,7 +4,7 @@ import type {Language} from './locale.js';
 import {tokenize,literalArg,strictArgs,requireValue} from './kag.js';
 import type {Tag,Token} from './kag.js';
 
-export interface SourceHistoryProfile {maxLines:number;wrapping:'incremental'|'deferred';styleRuns:boolean;storeSha256:string;name?:{prefix:string;suffix:string;fontSize:number;face:string};}
+export interface SourceHistoryProfile {maxLines:number;wrapping:'incremental'|'deferred';styleRuns:boolean;storeSha256:string;lineBreakSha256:string;name?:{prefix:string;suffix:string;fontSize:number;face:string};}
 // Source-bound profiles, not code execution or a generic TJS evaluator.
 const stores=new Map([
  ['4f349940bc5e6238c0640fef6b3251c294071a763e88089a797956a32b52ec87',{wrapping:'incremental' as const,styleRuns:false}],
@@ -14,21 +14,23 @@ const stores=new Map([
 function macro(source:string,name:string){const tokens=tokenize(source,'history-macros.ks'),a=tokens.findIndex(t=>t.kind==='tag'&&t.name==='macro'&&t.args.name===name);if(a<0)return;const z=tokens.findIndex((t,n)=>n>a&&t.kind==='tag'&&t.name==='endmacro');requireValue(z>a,'HISTORY_MACRO_END');return tokens.slice(a+1,z).filter(t=>t.kind!=='text'||t.text.trim());}
 export async function sourceHistoryProfile(locale:Language):Promise<SourceHistoryProfile>{
  const root=`private/text/${locale}`,[config,history,system,library,main]=await Promise.all([readFile(root+'/system/Config.tjs','utf8'),readFile(root+'/system/HistoryLayer.tjs','utf8').then(s=>s.replace(/\r\n/gu,'\n')),readFile(root+'/scenario/system_define.ks','utf8'),readFile(root+'/scenario/macro.ks','utf8'),readFile(root+'/system/MainWindow.tjs','utf8').then(s=>s.replace(/\r\n/gu,'\n'))]),start=history.indexOf('function store('),end=history.indexOf('\n\tfunction ',start+10);requireValue(start>=0&&end>start,'HISTORY_STORE_SOURCE');const storeSha256=hash(history.slice(start,end)),shape=stores.get(storeSha256);requireValue(shape,'HISTORY_STORE_PROFILE '+locale);const maxLines=Number(/^;maxLines\s*=\s*(\d+)/mu.exec(config)?.[1]);requireValue(/^;autoReturn\s*=\s*true\s*;/mu.test(config),'HISTORY_AUTO_RETURN_PROFILE');requireValue(/^;everypage\s*=\s*false\s*;/mu.test(config)&&[500,2000].includes(maxLines),'HISTORY_SOURCE_CAPACITY');
+ const lineStart=history.indexOf('function reline()'),lineEnd=history.indexOf('\n\tfunction ',lineStart+10);requireValue(lineStart>=0&&lineEnd>lineStart,'HISTORY_RELINE_SOURCE');const lineBreakSha256=hash(history.slice(lineStart,lineEnd));requireValue(lineBreakSha256===(shape.wrapping==='incremental'?'fc0fa31344fd371ab07e2eebcf7e77579dcfc24fb1b9d09a7b87200364bb5cb0':'5385316fe75863c69e76de41064059446997a61d766e1f5b43eac537fe73ac33'),'HISTORY_RELINE_PROFILE');
  const output=macro(system,'hisout');requireValue(output?.length===1&&output[0]?.kind==='tag'&&output[0].name==='eval','HISTORY_OUTPUT_MACRO');strictArgs(output[0],['exp','cond']);requireValue(literalArg(output[0],'exp')==='kag.historyLayer.store(mp.txt)'&&literalArg(output[0],'cond')==='kag.historyWriteEnabled','HISTORY_OUTPUT_SEMANTICS');
  const hrStart=main.search(/\bhr\s*:\s*function\(elm\)/u),hrEnd=main.indexOf('} incontextof this',hrStart);requireValue(hrStart>=0&&hrEnd>hrStart&&hash(main.slice(hrStart,hrEnd+'} incontextof this'.length))==='23fa51521bc8d8dd7407e3f42aa19434870b012182c3b3a8552b09bb4d68b1d0','HISTORY_NEWLINE_HANDLER');
  const name=macro(library,'hisname');let format:SourceHistoryProfile['name'];if(name){requireValue(name.length===3&&name[0]?.kind==='tag'&&name[0].name==='font'&&name[1]?.kind==='tag'&&name[1].name==='hisout'&&name[2]?.kind==='tag'&&name[2].name==='resetfont','HISTORY_NAME_MACRO');strictArgs(name[0],['size','face']);strictArgs(name[1],['txt']);strictArgs(name[2],[]);requireValue(name[1].args.txt==='&formatHistoryName(mp.name)'&&name[1].attributes.find(a=>a.name==='txt')?.mode==='expression','HISTORY_NAME_EXPRESSION');const match=/function\s+formatHistoryName\(name\)\s*\{\s*return\s*("(?:[^"\\]|\\.)*")\s*\+\s*name\s*\+\s*("(?:[^"\\]|\\.)*")\s*;\s*\}/u.exec(library);requireValue(match,'HISTORY_NAME_FORMAT');format={prefix:JSON.parse(match[1]!),suffix:JSON.parse(match[2]!),fontSize:Number(literalArg(name[0],'size')),face:literalArg(name[0],'face')};requireValue(format.fontSize>0&&format.fontSize<=64,'HISTORY_NAME_FONT');}
- return {maxLines,...shape,storeSha256,...(format?{name:format}:{})};
+ return {maxLines,...shape,storeSha256,lineBreakSha256,...(format?{name:format}:{})};
 }
 export const historySourceKey=(tag:Tag)=>[tag.source.file,tag.source.line,tag.source.column,tag.name].join('|');
 /** Adjacent authored hr controls only; do not infer flow through branches or speaker macros. */
-export function historyTrailingBreaks(tokens:readonly Token[]):Map<string,number>{
- const formats=new Set(['i','/i','b','/b','red','/red','blue','/blue','gray','/gray','redb','/redb','big','/big','sm','/sm','accent','/accent','hc','/hc','font','resetfont','delay','nowait','endnowait']),out=new Map<string,number>();
- for(let n=0;n<tokens.length;n++){const note=tokens[n];if(note?.kind!=='tag'||!['hisout','hisname'].includes(note.name))continue;let breaks=0,enabled=true;
-  for(let j=n+1;j<tokens.length;j++){const next=tokens[j]!;if(next.kind==='text'&&!next.text.trim())continue;if(next.kind!=='tag')break;if(next.name==='hr'){strictArgs(next,[]);if(enabled)breaks++;requireValue(breaks<=256,'HISTORY_ANNOTATION_BREAK_LIMIT');continue;}if(next.name==='history'){strictArgs(next,['output','enabled']);requireValue(next.args.enabled===undefined||next.args.enabled==='true','HISTORY_NEWLINE_ENABLED');if(next.args.output!==undefined){requireValue(['true','false'].includes(next.args.output),'HISTORY_NEWLINE_OUTPUT');enabled=next.args.output==='true';}continue;}if(!formats.has(next.name))break;}
+export function historyTrailingBreakSources(tokens:readonly Token[]):Map<string,string[]>{
+ const formats=new Set(['i','/i','b','/b','red','/red','blue','/blue','gray','/gray','redb','/redb','big','/big','sm','/sm','accent','/accent','hc','/hc','font','resetfont','delay','nowait','endnowait']),out=new Map<string,string[]>();
+ for(let n=0;n<tokens.length;n++){const note=tokens[n];if(note?.kind!=='tag'||!['hisout','hisname'].includes(note.name))continue;const breaks:string[]=[];let enabled=true;
+  for(let j=n+1;j<tokens.length;j++){const next=tokens[j]!;if(next.kind==='text'&&!next.text.trim())continue;if(next.kind!=='tag')break;if(next.name==='hr'){strictArgs(next,[]);if(enabled)breaks.push(historySourceKey(next));requireValue(breaks.length<=256,'HISTORY_ANNOTATION_BREAK_LIMIT');continue;}if(next.name==='history'){strictArgs(next,['output','enabled']);requireValue(next.args.enabled===undefined||next.args.enabled==='true','HISTORY_NEWLINE_ENABLED');if(next.args.output!==undefined){requireValue(['true','false'].includes(next.args.output),'HISTORY_NEWLINE_OUTPUT');enabled=next.args.output==='true';}continue;}if(!formats.has(next.name))break;}
   out.set(historySourceKey(note),breaks);
  }
  return out;
 }
+export function historyTrailingBreaks(tokens:readonly Token[]):Map<string,number>{return new Map([...historyTrailingBreakSources(tokens)].map(([at,breaks])=>[at,breaks.length]));}
 /** Resolve only authored literal arguments; callers must preserve output state/order. */
 export function historyAnnotation(tag:Tag,profile:SourceHistoryProfile){
  requireValue(tag.name==='hisout'||tag.name==='hisname','HISTORY_ANNOTATION_TAG');
