@@ -1,4 +1,8 @@
-# 可玩预览与独立网络回归
+# 正式入口、测试预览与网络回归
+
+正式入口为 [fata.morgana.love](https://fata.morgana.love)，Worker `fata-morgana`，
+发布目录 `generated/edge-production`。独立于 Requiem 和主域粉丝站；
+当前版本、线上真实UI及字节核验见[正式发布记录](../docs/evidence/PRODUCTION_FATA.md)。
 
 2026-11-07最新阅读收尾已发布到两站，SDK实包d222adf212da（来源bd2cab2）。
 27项线上检查、旧线上40175已读存档的v4→v5布局升级、匿名预览存刷及
@@ -8,13 +12,19 @@
 
 最新界面状态：过场点击/Enter/Ctrl、原存档分页/保护/删除、章节与调查回放及结局列表已验收并更新两站。新增资源仅进入已有专用私有R2；当前详情及百分百原作认证限制见[界面与交互记录](../docs/evidence/INTERACTIVE_UI.md)。
 
-独立工程通过实际SDK tarball运行。`test.morgana.love`是本地Vite build的可玩预览，`testsdk.morgana.love`是自动化回归。两者使用不同Worker与前端目录，均由静态前端/程序/文本与私有R2绑定组成，桶名`morgana-sdk-network-test`。`workers.dev`和preview URL关闭，桶r2.dev公开入口关闭。按用户要求，preview环境直接公开页面和媒体；regression环境仍先认证。登录资料只在本机ignored `private/cloudflare/access.md`，Worker只保存`TEST_AUTH` secret。
+独立工程通过实际SDK tarball运行。`fata.morgana.love`是正式游玩入口，`test.morgana.love`是测试预览，`testsdk.morgana.love`是自动化回归。三者使用不同Worker与前端目录，均由静态前端/程序/文本与私有R2绑定组成，共用本作的桶`morgana-sdk-network-test`。`workers.dev`和preview URL关闭，桶r2.dev公开入口关闭。按用户要求，production/preview环境公开页面和媒体；regression环境仍先认证。登录资料只在本机ignored `private/cloudflare/access.md`，回归Worker只保存`TEST_AUTH` secret。
 
 `pnpm convert`先将原作准备到ignored public，再仅按8语言Program和标题/菜单资源闭包构建`generated/site.next`；全部摘要与文本绑定通过后原子提升为`generated/site`。Vite只服务该发布目录，旧public孤儿不会进入构建/上传。8语言字面剧情和UI分别为protobuf，模板摘要/文本身份验证后恢复标准Program，原图片里的文字继续作为本地化图片。
 
 资源为`assets/shared/{images,audio,fonts}/<sha256>.<ext>`或`assets/locales/<BCP47>/...`；按SHA复用相同字节，旧路径继续保留，所选语言的manifest决定实际闭包。切换语言确认后回标题，字体/美术/正文/UI/locale偏好同步；存档按语言隔离，已登记旧SDK槽自动迁移并保留，未知release拒绝。
 
 `pnpm cloudflare:prepare`只把前端和protobuf目录复制到`generated/edge-preview`（回归为`generated/edge-regression`），媒体只进R2。上传脚本从当前程序/展示资源引用闭包取文件，不再扫描所有历史文件。`pnpm r2:upload --oauth`使用已有Wrangler OAuth、4并发、完整摘要对象名校验与可续传标记；不删除既有对象。不要对其他桶执行该脚本。本机环境变量API Token缺R2权限，所以本次明确选择已登录的OAuth。
+
+正式构建 `pnpm build:production` 在已验证预览基础上，仅覆盖前端文件到独立
+`generated/edge-production`；`dist.production`不复制完整媒体，程序/文本不重编。
+准备步骤要求既有预览身份收据，验证八语清单/标题、代码摘要及全部PB字节相同。
+`FATA_PRODUCTION=1`在编译时剔除测试导入钩子和test-seed模块；测试域仍保留回归能力。
+当前命令面向本次冻结父版，父版变化后需先更新并通过对应验收，不能跳过收据门槛。
 
 在本机接续：
 
@@ -30,6 +40,11 @@ env -u CLOUDFLARE_API_TOKEN pnpm cloudflare:deploy:regression
 pnpm preview:check
 pnpm r2:probe
 MORGANA_RUN=full pnpm test:remote
+# 已有通过验收的预览父版后，单独构建与部署正式环境：
+pnpm build:production
+env -u CLOUDFLARE_API_TOKEN pnpm exec wrangler deploy --env production
+FATA_PRODUCTION_ORIGIN=https://fata.morgana.love pnpm exec playwright test --config playwright.production.config.ts
+FATA_CHECK_TARGET=production FATA_PREVIEW_VERSION=实际生产版本ID python3 tooling/check-preview.py
 ```
 
 新clone不含原资料、SDK tarball、生成站点或登录secret，先按项目intake/安装记录准备；不得提交这些内容。本机已有登录不需要再生成密码。预览不再使用TEST_AUTH；回归写入命令加`--env regression`。需要写入Worker时用`env -u CLOUDFLARE_API_TOKEN pnpm exec wrangler secret put TEST_AUTH < private/cloudflare/auth-header.txt`，不把值放命令参数。
@@ -38,9 +53,13 @@ Worker对R2响应直接传递body流，支持HEAD、单范围/后缀Range、强�
 
 实例当前默认balanced、提前4页、64MiB估算驻留，设置提供0/2/4/8页；`?loading=demand`提供纯按需。长音乐和长音效使用versioned-url渐进传输。资源目录可以大于驻留集，实际加载仍受预算和引用约束。64MiB不是浏览器总内存硬上限。
 
-当前主线包含新周目序章、前五门及其间探索，停在第六门入口。原版逐帧/逐像素、全通变体、原生存档codec与真实多机型仍另验。授权只覆盖两个test子域名和专桶，不扩展根域名或其他作品。测试用Snapshot/Profile和备份切点不进入发布目录。
+当前主线包含八语序章、第一至八门、终章、两次调查和七个坏结局；完整范围与未认证矩阵见[STATUS](../STATUS.md)。原版逐帧/逐像素、全部累计路径、原生存档codec与真实多机型仍另验。用户授权增加本作正式子域名，不扩展根域名或其他作品。测试用Snapshot/Profile和备份切点不进入发布目录。
 
-限速只存在tests/browser/network.spec.ts中的Chrome CDP模拟（180ms、750000B/s），不会写入构建、Worker或R2，也没有部署站点带宽限额。自动化配置与资源全量probe固定指向testsdk，预览只进行无时钟/无故障注入/无节流的构建一致性读取。`pnpm preview:check`逐文件确认预览与本地dist相同，并校验预览匿名访问及回归鉴权。
+浏览器存档按域名隔离，测试域旧档不会自动出现在正式域。保留原测试入口，
+不强制跳转；部分长期进度受便携备份100万JSON字符上限限制，跨域迁移不能
+视为已完成，见差异F-07。
+
+限速只存在tests/browser/network.spec.ts中的Chrome CDP模拟（180ms、750000B/s），不会写入构建、Worker或R2，也没有部署站点带宽限额。网络故障/慢网回归与资源全量probe固定指向testsdk，正式站/预览只进行无故障注入/无节流的真实UI及构建一致性读取。`pnpm preview:check`逐文件确认预览与本地dist相同；`FATA_CHECK_TARGET=production`核对正式树，其中前端与dist.production比较，其余与dist比较，同时校验匿名访问、媒体Range及回归鉴权。
 
 原包、解包目录、KS/TJS、图像/音频/字体等二进制提取物由ignore和提交边界检查双重排除；用户允许的i18n文本与解包脚本分别管理，本轮整理后的PO正文/UI文本作为贡献源入Git，原KS/TJS留在本地ignored目录。GitHub实例只含迁移器/应用/测试/配置/文档，不携带游戏载荷。
 

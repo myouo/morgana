@@ -1,5 +1,13 @@
 # 当前接续
 
+2026-11-07按用户选择，正式入口已独立部署到[fata.morgana.love](https://fata.morgana.love)。
+Worker fata-morgana，版本2e5c0234-5759-4f62-b856-e72134a4f39f；正式构建关闭
+测试导入钩子，7184个PB/预压缩二进制与已验收预览逐SHA相同。线上八语标题、
+中英原菜单图文保存/刷新/载入共10项通过，0失败/0跳过。SDK仍d222adf212da，
+7195静态文件/3546724669解码字节全量线上核对通过，媒体Range与回归鉴权通过。
+测试两站及Requiem部署版本保持不变。原测试域存档保留，不自动跨域迁移；
+长期便携备份上限等差异仍开放，见[正式发布记录](docs/evidence/PRODUCTION_FATA.md)。
+
 2026-11-07用户授权后已快进推送SDK/实例main，并发布阅读收尾。preview
 7b65d519-05bf-4d8e-b620-d48c5791c568，regression
 6b39ba1b-5aff-4627-80f0-b5367e68caa7；27项线上检查、真实旧线上40175已读
@@ -81,6 +89,7 @@ SDK W1-24的当前已揭示正文历史已通过实际tarball接入，中英真�
 
 ## 当前已发布
 
+正式游玩 fata.morgana.love：2e5c0234-5759-4f62-b856-e72134a4f39f。
 可玩预览 test.morgana.love：7b65d519-05bf-4d8e-b620-d48c5791c568。
 隔离回归 testsdk.morgana.love：6b39ba1b-5aff-4627-80f0-b5367e68caa7。
 

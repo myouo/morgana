@@ -19,3 +19,7 @@ test.morgana.love是本地build的可玩预览；testsdk.morgana.love用于自�
 ## 后续提交规则（用户最新偏好）
 
 首次清理开发历史、折叠新根和移除LICENSE已经完成。此后保留已发布历史，使用正常追加提交和快进推送；不为继续保持单根而反复amend/force-push。除非用户再次明确要求重写历史，不执行强推。其余载荷/凭据保护、只推明确main引用、不推旧分支/tag约束继续有效。
+
+## 正式入口（用户最新选择）
+
+用户已授权并选择fata.morgana.love作为本作独立正式入口，与requiem.morgana.love区分。使用独立fata-morgana Worker、production环境和generated/edge-production，复用本作已有私有SHA资产；不修改Requiem或主域粉丝站。test.morgana.love仅作测试预览，testsdk.morgana.love仍为鉴权回归。正式构建关闭测试导入钩子。浏览器旧存档留在原域，不强制跳转或宣称自动跨域迁移。
