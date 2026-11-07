@@ -1,0 +1,3 @@
+import {fromRoot,projectRoot} from './paths.js';
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:fromRoot('tests/history-scrollbar-browser'),workers:1,timeout:180000,reporter:[['list'],['json',{outputFile:fromRoot('artifacts/history-scrollbar/browser.json')}]],outputDir:fromRoot('artifacts/history-scrollbar/traces'),use:{baseURL:'http://127.0.0.1:4220',headless:true,viewport:{width:1280,height:950},trace:'retain-on-failure'},webServer:{cwd:projectRoot,command:'FATA_MODULES=1 FATA_PUBLICATION_ROOT=generated/integrated pnpm exec vite --host 127.0.0.1 --port 4220',url:'http://127.0.0.1:4220',reuseExistingServer:false}});

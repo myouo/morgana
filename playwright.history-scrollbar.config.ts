@@ -1,2 +1,0 @@
-import {defineConfig} from '@playwright/test';
-export default defineConfig({testDir:'tests/history-scrollbar-browser',workers:1,timeout:180000,reporter:[['list'],['json',{outputFile:'artifacts/history-scrollbar/browser.json'}]],outputDir:'artifacts/history-scrollbar/traces',use:{baseURL:'http://127.0.0.1:4220',headless:true,viewport:{width:1280,height:950},trace:'retain-on-failure'},webServer:{command:'FATA_MODULES=1 FATA_PUBLICATION_ROOT=generated/integrated pnpm exec vite --host 127.0.0.1 --port 4220',url:'http://127.0.0.1:4220',reuseExistingServer:false}});

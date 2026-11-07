@@ -1,0 +1,3 @@
+import {fromRoot,projectRoot} from './paths.js';
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:fromRoot('tests/door3-browser'),timeout:120000,workers:1,forbidOnly:!!process.env.CI,reporter:[['list'],['json',{outputFile:fromRoot('artifacts/door3/browser-results.json')}]],outputDir:fromRoot('artifacts/door3/browser-results'),use:{baseURL:'http://127.0.0.1:4185',headless:true,viewport:{width:1280,height:950},trace:'retain-on-failure'},webServer:{cwd:projectRoot,command:"vite --config tests/door3-app/vite.config.ts",url:'http://127.0.0.1:4185',reuseExistingServer:process.env.FATA_REUSE_SERVER==='1'}});

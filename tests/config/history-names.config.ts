@@ -1,0 +1,3 @@
+import {fromRoot,projectRoot} from './paths.js';
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:fromRoot('tests/history-names-browser'),timeout:180000,workers:1,reporter:[['list'],['json',{outputFile:fromRoot('artifacts/history-names/browser.json')}]],outputDir:fromRoot('artifacts/history-names/traces'),use:{baseURL:'http://127.0.0.1:4244',headless:true,viewport:{width:1280,height:960},trace:'retain-on-failure'},webServer:{cwd:projectRoot,command:'FATA_MODULES=1 FATA_PUBLICATION_ROOT=generated/history-names pnpm exec vite --force --host 127.0.0.1 --port 4244',url:'http://127.0.0.1:4244',reuseExistingServer:false}});

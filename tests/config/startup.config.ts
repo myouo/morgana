@@ -1,0 +1,3 @@
+import {fromRoot,projectRoot} from './paths.js';
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:fromRoot('tests/startup-browser'),timeout:120000,workers:1,reporter:[['list'],['json',{outputFile:fromRoot('artifacts/startup-optimization/browser.json')}]],outputDir:fromRoot('artifacts/startup-optimization/traces'),use:{baseURL:'http://127.0.0.1:4230',headless:true,viewport:{width:1280,height:960},trace:'retain-on-failure'},webServer:{cwd:projectRoot,command:'FATA_MODULES=1 pnpm exec vite --host 127.0.0.1 --port 4230',url:'http://127.0.0.1:4230',reuseExistingServer:false}});

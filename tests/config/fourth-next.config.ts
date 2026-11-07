@@ -1,0 +1,3 @@
+import {fromRoot,projectRoot} from './paths.js';
+import {defineConfig} from '@playwright/test';import base from "./fourth-door.config.js";
+export default defineConfig({...base,timeout:180000,testMatch:['full.spec.ts','text-fit.spec.ts'],use:{...base.use,baseURL:'http://127.0.0.1:4191'},webServer:{cwd:projectRoot,command:'FATA_CHAPTER=door4 FATA_CHAPTER_OUTPUT=generated/door4-next FATA_CHAPTER_PORT=4191 pnpm exec vite --config tests/door3-app/vite.config.ts',url:'http://127.0.0.1:4191',reuseExistingServer:false},reporter:[['list'],['json',{outputFile:fromRoot('artifacts/door4-complete/browser-results.json')}]],outputDir:fromRoot('artifacts/door4-complete/browser-results')});

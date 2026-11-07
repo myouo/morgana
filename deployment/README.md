@@ -28,9 +28,12 @@
 
 在本机接续：
 
+先完成[贡献环境](../CONTRIBUTING.md)及[当前整合基线](../docs/DEVELOPMENT.md)准备。
+下面是维护者的分阶段发布步骤，不是一份新clone的一键部署命令。
+
 ```sh
 pnpm install --frozen-lockfile
-pnpm convert
+# 已有经过对应章节验收的 generated/integrated 后：
 pnpm cloudflare:check
 pnpm test
 pnpm test:browser
@@ -43,7 +46,7 @@ MORGANA_RUN=full pnpm test:remote
 # 已有通过验收的预览父版后，单独构建与部署正式环境：
 pnpm build:production
 env -u CLOUDFLARE_API_TOKEN pnpm exec wrangler deploy --env production
-FATA_PRODUCTION_ORIGIN=https://fata.morgana.love pnpm exec playwright test --config playwright.production.config.ts
+FATA_PRODUCTION_ORIGIN=https://fata.morgana.love pnpm test:browser:production
 FATA_CHECK_TARGET=production FATA_PREVIEW_VERSION=实际生产版本ID python3 tooling/check-preview.py
 ```
 

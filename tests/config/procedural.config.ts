@@ -1,0 +1,3 @@
+import {fromRoot,projectRoot} from './paths.js';
+import {defineConfig} from '@playwright/test';import base from "./connection.config.js";
+export default defineConfig({...base,testMatch:'procedural.spec.ts',timeout:240000,reporter:[['list'],['json',{outputFile:fromRoot('artifacts/procedural/browser-results.json')}]],outputDir:fromRoot('artifacts/procedural/browser-results'),use:{...base.use,baseURL:'http://127.0.0.1:4188',launchOptions:{args:['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']}},webServer:{cwd:projectRoot,command:"FATA_MODULES=1 FATA_PUBLICATION_ROOT=generated/procedural pnpm exec vite --host 127.0.0.1 --port 4188",url:'http://127.0.0.1:4188',reuseExistingServer:false}});

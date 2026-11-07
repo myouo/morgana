@@ -1,0 +1,3 @@
+import {fromRoot,projectRoot} from './paths.js';
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:fromRoot('tests/integration-browser'),testMatch:['connection.spec.ts','text-fit.spec.ts'],timeout:180000,workers:1,reporter:[['list'],['json',{outputFile:fromRoot('artifacts/connection/browser-results.json')}]],outputDir:fromRoot('artifacts/connection/browser-results'),use:{baseURL:'http://127.0.0.1:4186',headless:true,viewport:{width:1280,height:950},launchOptions:{args:['--disable-webgl']},trace:'retain-on-failure'},webServer:{cwd:projectRoot,command:"FATA_MODULES=1 FATA_PUBLICATION_ROOT=generated/connected pnpm exec vite --host 127.0.0.1 --port 4186",url:'http://127.0.0.1:4186',reuseExistingServer:false}});

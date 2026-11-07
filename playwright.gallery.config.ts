@@ -1,2 +1,0 @@
-import {defineConfig} from '@playwright/test';
-export default defineConfig({testDir:'tests/gallery-browser',workers:1,timeout:240000,reporter:[['list'],['json',{outputFile:'artifacts/gallery/browser.json'}]],outputDir:'artifacts/gallery/traces',use:{baseURL:'http://127.0.0.1:4208',headless:true,viewport:{width:1280,height:960},trace:'retain-on-failure'},webServer:{command:'pnpm exec vite --config tests/gallery-app/vite.config.ts',url:'http://127.0.0.1:4208',reuseExistingServer:false}});

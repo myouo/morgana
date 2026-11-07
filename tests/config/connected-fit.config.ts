@@ -1,0 +1,3 @@
+import {fromRoot,projectRoot} from './paths.js';
+import {defineConfig} from '@playwright/test';import base from "./connection.config.js";
+export default defineConfig({...base,testMatch:'text-fit.spec.ts',workers:2,reporter:[['list'],['json',{outputFile:fromRoot('artifacts/connection/fit-results.json')}]],outputDir:fromRoot('artifacts/connection/fit-results'),use:{...base.use,baseURL:'http://127.0.0.1:4187'},webServer:{cwd:projectRoot,command:'FATA_MODULES=1 FATA_PUBLICATION_ROOT=generated/connected pnpm exec vite --host 127.0.0.1 --port 4187',url:'http://127.0.0.1:4187',reuseExistingServer:false}});

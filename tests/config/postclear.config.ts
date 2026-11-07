@@ -1,0 +1,3 @@
+import {fromRoot,projectRoot} from './paths.js';
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:fromRoot('tests/postclear-browser'),workers:1,timeout:180000,reporter:[['list'],['json',{outputFile:fromRoot('artifacts/postclear-connected/browser.json')}]],outputDir:fromRoot('artifacts/postclear-connected/traces'),use:{baseURL:'http://127.0.0.1:4214',headless:true,viewport:{width:1280,height:960},trace:'retain-on-failure'},webServer:{cwd:projectRoot,command:`FATA_MODULES=1 FATA_PUBLICATION_ROOT=${process.env.FATA_POSTCLEAR_BROWSER_ROOT??'generated/postclear-connected'} pnpm exec vite --host 127.0.0.1 --port 4214`,url:'http://127.0.0.1:4214',reuseExistingServer:false}});

@@ -1,0 +1,3 @@
+import {fromRoot,projectRoot} from './paths.js';
+import {defineConfig} from '@playwright/test';import base from "./procedural.config.js";
+export default defineConfig({...base,testMatch:'heartbeat.spec.ts',reporter:[['list'],['json',{outputFile:fromRoot('artifacts/heartbeat/browser-results.json')}]],outputDir:fromRoot('artifacts/heartbeat/browser-results'),use:{...base.use,baseURL:'http://127.0.0.1:4189'},webServer:{cwd:projectRoot,command:'FATA_MODULES=1 FATA_PUBLICATION_ROOT=generated/heartbeat pnpm exec vite --host 127.0.0.1 --port 4189',url:'http://127.0.0.1:4189',reuseExistingServer:false}});

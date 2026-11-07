@@ -1,0 +1,3 @@
+import {fromRoot,projectRoot} from './paths.js';
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:fromRoot('tests/integration-browser'),timeout:180000,workers:1,reporter:[['list'],['json',{outputFile:fromRoot('artifacts/integration/browser-results.json')}]],outputDir:fromRoot('artifacts/integration/browser-results'),use:{baseURL:'http://127.0.0.1:4184',headless:true,viewport:{width:1280,height:950},launchOptions:{args:['--disable-webgl']},trace:'retain-on-failure'},webServer:{cwd:projectRoot,command:'FATA_MODULES=1 pnpm exec vite',url:'http://127.0.0.1:4184',reuseExistingServer:process.env.FATA_REUSE_SERVER==='1'}});

@@ -1,7 +1,7 @@
 import {defineConfig} from 'vite';
 import {versionedMediaPlugin} from './tooling/versioned-media.js';
 const production=process.env.FATA_PRODUCTION==='1',frontendOnly=process.env.FATA_FRONTEND_ONLY==='1';if(frontendOnly&&!production)throw Error('FATA_FRONTEND_ONLY requires production mode');
-const modular=process.env.FATA_MODULES==='1',root=process.env.FATA_PUBLICATION_ROOT??(modular?'generated/integrated':'generated/site');
+const modular=process.env.FATA_MODULES!=='0',root=process.env.FATA_PUBLICATION_ROOT??(modular?'generated/integrated':'generated/site');
 export default defineConfig({
  cacheDir:modular?'node_modules/.vite-integrated':'node_modules/.vite-main',
  define:{'import.meta.env.VITE_FATA_MODULES':JSON.stringify(modular?'1':'0'),'import.meta.env.VITE_FATA_TEST_HOOKS':JSON.stringify(production?'0':'1')},

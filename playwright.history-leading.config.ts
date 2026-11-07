@@ -1,2 +1,0 @@
-import {defineConfig} from '@playwright/test';
-export default defineConfig({testDir:'tests/history-leading-browser',timeout:180000,workers:1,reporter:[['list'],['json',{outputFile:'artifacts/history-leading/browser.json'}]],outputDir:'artifacts/history-leading/traces',use:{baseURL:'http://127.0.0.1:4242',headless:true,viewport:{width:1280,height:960},trace:'retain-on-failure'},webServer:{command:'FATA_MODULES=1 FATA_PUBLICATION_ROOT=generated/history-leading pnpm exec vite --force --host 127.0.0.1 --port 4242',url:'http://127.0.0.1:4242',reuseExistingServer:false}});

@@ -1,2 +1,0 @@
-import {defineConfig} from '@playwright/test';
-export default defineConfig({testDir:'tests/history-retention-browser',timeout:180000,workers:1,reporter:[['list'],['json',{outputFile:'artifacts/history-retention/browser.json'}]],outputDir:'artifacts/history-retention/traces',use:{baseURL:'http://127.0.0.1:4238',headless:true,viewport:{width:1280,height:960},trace:'retain-on-failure'},webServer:{command:'FATA_MODULES=1 FATA_PUBLICATION_ROOT=generated/history-retention pnpm exec vite --force --host 127.0.0.1 --port 4238',url:'http://127.0.0.1:4238',reuseExistingServer:false}});

@@ -20,7 +20,7 @@ flowchart TD
 - KRKR2提供TJS、图像/音频/文件、原生插件以及KAGParser等基础设施；这里的KAG3系统脚本通过BaseConductor继承KAGParser、用getNextTag分发标签。不是每个KS标签都对应一个原生引擎指令。
 - Initialize.tjs读取`-language`或Steam.getLanguage，规范成en/fr/it/jp/ko/pt-br/ru/zh；添加语言包及bgimage/fgimage/bgm/scenario/system等路径。不能只合并游戏文本，语言包还覆盖菜单、图像和系统脚本。
 - first.ks注册macro.ks、角色图层/动作、声音、菜单、历史等定制。未知TJS、动态宏与原生插件需要逐项分析映射，不能直接执行脚本或静默省略。
-- title.ks根据sf.scenario1/sf.fataend选择标题；当前仅处理新档title_main的源淡入/循环钢琴/规则菜单，非通关标题。不同语言的按钮目标/文字也有差异，不能从hint反推动作。
+- title.ks根据sf.scenario1/sf.fataend选择标题；新档与通关标题分别按源菜单和持久profile接入。不同语言的按钮目标/文字也有差异，不能从hint反推动作。
 - 原作800×600。Config默认marginL=70，MessageLayer.locate会额外加marginL，故标题x=535的按钮实际位于605。不能把标签数字直接当最终屏幕坐标。
 - 正文jinobun、gray、draw_name、c、center_pos控制姓名、颜色、位置与居中。空姓名不是一个占位名字；西文draw_name仍locate y=42。中日两次换行与西文字号/行距不同。字体应按原Config选择，位图预渲染.tft还有待支持。
 
@@ -38,9 +38,9 @@ flowchart TD
 
 标题、原按钮和系统菜单、44段静态前导/OP、22页序言与完整新周目序章均使用同一正式SDK路径。zero2→scenario1start按sf.fataend=0编译，保留两条问候分支、女仆部件/表情、正常对白、版本化流式BGM、具名炉火/脚步SE和源转场。React只提交Player动作，不执行KAG或改PC。
 
-第一门全文、原章节回放、角色移动和有限环境效果已接正式SDK。正文框/姓名独立对象与早期合成图的无框变体共同由SDK临时投影隐藏；显示图走独立目录，不改变Core或存档签名。原设置/富历史/取消与隐藏见[本轮验收](evidence/INTERFACE_COMPLETION.md)。第二门及完整通关变体、日中.tft、原作精确存档/原生运行对照仍未完成。
+八语整作主线、原章节菜单和通关态/奖励内容已接正式SDK，实际累计范围见[STATUS](../STATUS.md)。正文框/姓名独立对象与早期合成图的无框变体共同由SDK临时投影隐藏；显示图走独立目录，不改变Core或存档签名。原设置/富历史/取消与隐藏见[界面验收](evidence/INTERFACE_COMPLETION.md)。日中.tft、原生精确存档、完整累计耐久与原作运行对照仍分别验收。
 
-完整支持集及已知旧32页自动迁移及未知版保留规则见[PROLOGUE_SCOPE](PROLOGUE_SCOPE.md)。下列增量段落记录历史实现，不代表当前完成范围。
+完整支持集及已知旧32页自动迁移及未知版保留规则见[PROLOGUE_SCOPE](evidence/PROLOGUE_SCOPE.md)。下列增量段落记录历史实现，不代表当前完成范围。
 
 公开参考仅辅助核对格式和语言分层：[XP3源码](https://github.com/krkrz/krkrz/blob/master/base/XP3Archive.cpp)、[KAGParser源码](https://github.com/krkrz/KAGParser)、[KAG标签参考](https://a-rabin.github.io/krkr2doc-en/kag3doc/contents/Tags.html)。本作的组织和定制以本地提取源码为准。
 

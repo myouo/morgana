@@ -1,6 +1,6 @@
 # 翻译贡献入口
 
-直接修改对应语言的`story.po`（22页序言）、`prologue.po`（其后完整新周目序章）、`choices.po`（问候选项）、`chapters/<chapter>/*.po`（已整理章节，当前候选至scenario6及badend4）或`ui.po`（系统界面）。例如中文是`zh-Hans/story.po`，日文是`ja/story.po`。可用Poedit、支持gettext的编辑器或普通文本编辑器。
+直接修改对应语言的`story.po`（22页序言）、`prologue.po`（其后完整新周目序章）、`choices.po`（问候选项）、`chapters/<chapter>/*.po`（主线、调查、坏结局及奖励）或`ui.po`（系统界面）。例如中文是`zh-Hans/story.po`，日文是`ja/story.po`。可用Poedit、支持gettext的编辑器或普通文本编辑器。环境准备和PR规则见[贡献指南](../CONTRIBUTING.md)，实际发布范围见[STATUS](../STATUS.md)。
 
 每条记录的`msgctxt`是稳定文本ID，`msgid`通常是英文原文（各语言独有段落以该语言原文为准），`msgstr`是该语言实际显示的文字。贡献者修改`msgstr`，保留`msgctxt`和`msgid`。英文纠错也修改英文文件的`msgstr`。不按文件行号匹配译本。
 
@@ -19,19 +19,17 @@ msgstr "修正后的译文。"
 ```sh
 # 不需要游戏素材；需要项目开发依赖及已安装的SDK包。
 pnpm locales:check
+pnpm chapters:check
 # 可选：GNU gettext语法检查，不需要Node或SDK。
 msgfmt --check locales/zh-Hans/story.po -o /dev/null
 
-# 维护者拥有本地游戏资料时：
-pnpm convert
-pnpm test
-pnpm build
+# 维护者拥有原资料和完整整合基线时，按开发说明重编对应章节再预览：
 pnpm dev
 ```
 
 检查拒绝重复/缺失/额外ID、原文不匹配、空译文、fuzzy、非法UTF-8、错误语言、未知或被删除/重排的控制标记。当前只支持单数消息；复数消息显式拒绝，不假称完整gettext功能。
 
-转换器读取PO后才生成字体子集，缺字检查仍执行。改动剧情文字会自动改变对应页的Revision和发布身份，避免沿用错误已读单位；没有隐式旧存档迁移。未修改的页面保留原Revision。`pnpm convert`不会覆写PO；`locales:seed`只初始化不存在的文件，已有翻译保持。
+转换器读取PO后才生成字体子集，缺字检查仍执行。改动剧情文字会自动改变对应页的Revision和发布身份，避免沿用错误已读单位；没有隐式旧存档迁移。未修改的页面保留原Revision。`pnpm convert`不会覆写PO；初始化工具`tooling/seed-locales.ts`只初始化不存在的文件，已有翻译保持。它只处理首门基线，完整主包的重编限制见[开发说明](../docs/DEVELOPMENT.md)。
 
 `.pb`仅是Schema校验后的发布产物，位于ignored `generated/site/text/`，不要手工修改。缺少最新转换时发布器拒绝旧Program与新PO混用。`private/`中的原KS/TJS、解包数据和二进制资产都不提交；这里仅包含用户授权纳入Git的整理后翻译文本及控制元数据。文本内容仍属于原作品，仓库未将其声明为新的开源授权。
 

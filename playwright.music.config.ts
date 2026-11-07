@@ -1,2 +1,0 @@
-import {defineConfig} from '@playwright/test';
-export default defineConfig({testDir:'tests/music-browser',workers:1,timeout:240000,reporter:[['list'],['json',{outputFile:'artifacts/music/browser.json'}]],outputDir:'artifacts/music/traces',use:{baseURL:'http://127.0.0.1:4210',headless:true,viewport:{width:1280,height:960},trace:'retain-on-failure'},webServer:{command:'FATA_EXTRA_ROOT=generated/music-full pnpm exec vite --config tests/gallery-app/vite.config.ts --port 4210',url:'http://127.0.0.1:4210',reuseExistingServer:false}});

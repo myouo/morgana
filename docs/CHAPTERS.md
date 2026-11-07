@@ -15,7 +15,7 @@ pnpm chapters:convert door1
 pnpm chapters:convert prologue
 pnpm chapters:convert all --staging
 pnpm chapters:check
-pnpm chapters:assets door1
+pnpm exec tsx tooling/plan-chapter-assets.ts door1
 ```
 
 转换器只读取private/text，复用KAG tokenizer，按原稳定标签关联，保留所有分支文字，不执行TJS。13个主线源范围×8语已批量运行，274289条候选、1391个有界PO。后续章暂存artifacts/chapter-catalogs，避免未审全文混入正式发布。badend/附录等尚不属于这13范围，不声称全作文本齐全。

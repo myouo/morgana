@@ -1,0 +1,3 @@
+import {fromRoot,projectRoot} from './paths.js';
+import {defineConfig} from '@playwright/test';import base from "./third-door.config.js";
+export default defineConfig({...base,testDir:fromRoot('tests/door4-browser'),timeout:150000,reporter:[['list'],['json',{outputFile:fromRoot('artifacts/door4/browser-results.json')}]],outputDir:fromRoot('artifacts/door4/browser-results'),use:{...base.use,baseURL:'http://127.0.0.1:4190',launchOptions:{args:['--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader']}},webServer:{cwd:projectRoot,command:"FATA_CHAPTER=door4 vite --config tests/door3-app/vite.config.ts",url:'http://127.0.0.1:4190',reuseExistingServer:process.env.FATA_REUSE_SERVER==='1'}});
