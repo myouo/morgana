@@ -8,7 +8,7 @@ async function authenticated(request:Request,secret:string|undefined):Promise<bo
 }
 function matches(header:string|null,etag:string,weak=false):boolean{return !!header&&header.split(',').some(raw=>{const value=raw.trim();return value==='*'||(weak?value.replace(/^W\//u,''):value)===etag;});}
 async function serve(request:Request,env:Env,ctx:ExecutionContext):Promise<Response>{
-  if(env.DEPLOYMENT_KIND!=='preview'&&!await authenticated(request,env.TEST_AUTH))return reply('Authentication required',401,{'WWW-Authenticate':'Basic realm="Morgana network test", charset="UTF-8"'});
+  if(env.DEPLOYMENT_KIND!=='preview'&&env.DEPLOYMENT_KIND!=='production'&&!await authenticated(request,env.TEST_AUTH))return reply('Authentication required',401,{'WWW-Authenticate':'Basic realm="Morgana network test", charset="UTF-8"'});
   if(!['GET','HEAD'].includes(request.method))return reply('Method not allowed',405,{Allow:'GET, HEAD'});
   const url=new URL(request.url),match=mediaPath.exec(url.pathname);
   if(!match){

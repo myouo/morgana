@@ -153,7 +153,9 @@
     "music:verify": "tsx tooling/drive-music.ts",
     "test:music": "playwright test --config playwright.music.config.ts",
     "cleared:build": "tsx tooling/compile-cleared-connected.ts",
-    "cleared:verify": "tsx tooling/verify-cleared-connected.ts"
+    "cleared:verify": "tsx tooling/verify-cleared-connected.ts",
+    "build:production": "pnpm check && FATA_MODULES=1 FATA_PRODUCTION=1 FATA_FRONTEND_ONLY=1 vite build --outDir dist.production && tsx tooling/prepare-production.ts",
+    "cloudflare:deploy:production": "pnpm build:production && wrangler deploy --env production"
   },
   "dependencies": {
     "galbox-sdk": "file:vendor/galbox-sdk-d222adf212da.tgz",

@@ -47,3 +47,25 @@ bucket_name = "morgana-sdk-network-test"
 
 [env.regression.vars]
 DEPLOYMENT_KIND = "regression"
+
+[env.production]
+name = "fata-morgana"
+workers_dev = false
+preview_urls = false
+
+[[env.production.routes]]
+pattern = "fata.morgana.love"
+custom_domain = true
+
+[env.production.assets]
+directory = "./generated/edge-production"
+binding = "SITE"
+run_worker_first = true
+not_found_handling = "none"
+
+[[env.production.r2_buckets]]
+binding = "MEDIA"
+bucket_name = "morgana-sdk-network-test"
+
+[env.production.vars]
+DEPLOYMENT_KIND = "production"

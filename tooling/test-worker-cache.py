@@ -126,6 +126,31 @@ try:
     status, _, body = request(partial, headers={'Range':'bytes=-16'})
     assert status == 206 and body == bodies[1][-16:]
     print('Production workerd/R2/Cache: full-range fill, cached HEAD/suffix, partial isolation, conditions and authorization passed')
+    # Reuse the real Worker and storage with the formal public deployment role.
+    import signal
+    os.killpg(server.pid, signal.SIGTERM)
+    server.wait(timeout=10)
+    config.write_text(config.read_text().replace('DEPLOYMENT_KIND = "regression"', 'DEPLOYMENT_KIND = "production"'))
+    server = subprocess.Popen(cli+['dev','--local','--port',str(port),'--persist-to',str(state),'--config',str(config)],env=env,stdout=log,stderr=subprocess.STDOUT,start_new_session=True)
+    for attempt in range(100):
+        if server.poll() is not None:
+            raise RuntimeError('Public workerd exited')
+        try:
+            if request('', authorized=False)[0] == 200:
+                break
+        except (OSError, urllib.error.URLError):
+            pass
+        time.sleep(.2)
+    else:
+        raise RuntimeError('Public workerd did not become ready')
+    status, headers, body = request('', authorized=False)
+    assert status == 200 and headers['X-Morgana-Deployment'] == 'production' and 'WWW-Authenticate' not in headers
+    assert request('programs/synthetic.pb', headers={'Accept-Encoding':'br'}, authorized=False)[2] == compressed
+    assert request(full, headers={'Range':'bytes=-100'}, authorized=False)[2] == bodies[0][-100:]
+    assert request(full, 'HEAD', authorized=False)[0] == 200
+    assert request(full+'?galbox-version=wrong', authorized=False)[0] == 412
+    print('Formal production role: anonymous frontend/protobuf/R2/Range allowed; digest/version conditions preserved')
+
 finally:
     import signal
     if server.poll() is None:

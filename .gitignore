@@ -54,3 +54,6 @@ unpacked/
 *.next
 
 dist.pre-integrated/
+
+# Independent frontend build for the formal game domain.
+dist.production/

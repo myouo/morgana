@@ -9,19 +9,22 @@ from pathlib import Path
 import urllib.request
 import urllib.error
 
-ORIGIN = 'https://test.morgana.love'
-ROOT = Path('generated/edge-preview')
+TARGET = os.environ.get('FATA_CHECK_TARGET', 'preview')
+assert TARGET in ('preview', 'production'), 'Expected preview or production verification target'
+ORIGIN = 'https://fata.morgana.love' if TARGET == 'production' else 'https://test.morgana.love'
+ROOT = Path('generated/edge-'+TARGET)
 EPOCH = os.environ.get('FATA_PREVIEW_VERSION', '')
 WORKERS = int(os.environ.get('FATA_PREVIEW_WORKERS', '12'))
 TIMEOUT = int(os.environ.get('FATA_PREVIEW_TIMEOUT', '30'))
 assert 1 <= WORKERS <= 12 and 20 <= TIMEOUT <= 120, 'Invalid verification client bounds'
-RECEIPTS = Path('artifacts/preview-verified')
+RECEIPTS = Path('artifacts/production-verified' if TARGET == 'production' else 'artifacts/preview-verified')
 RECEIPTS.mkdir(parents=True, exist_ok=True)
 
 def verify(file):
     key = file.relative_to(ROOT).as_posix()
     local = file.read_bytes()
-    assert local == (Path('dist')/key).read_bytes(), ('Not the current local build', key)
+    reference = (Path('dist.production')/key) if TARGET == 'production' and (key == 'index.html' or key.startswith('assets/')) else (Path('dist')/key)
+    assert local == reference.read_bytes(), ('Not the current local build', key)
     digest = hashlib.sha256(local).hexdigest()
     receipt = RECEIPTS/(hashlib.sha256(key.encode()).hexdigest()+'.json')
     if EPOCH and receipt.exists():
@@ -32,7 +35,7 @@ def verify(file):
     for attempt in range(5):
         try:
             with urllib.request.urlopen(urllib.request.Request(ORIGIN+'/'+key, headers=headers), timeout=TIMEOUT) as response:
-                assert response.status == 200 and response.headers['X-Morgana-Deployment'] == 'preview'
+                assert response.status == 200 and response.headers['X-Morgana-Deployment'] == TARGET
                 assert hashlib.sha256(response.read()).digest() == hashlib.sha256(local).digest(), ('Preview differs from build', key)
             receipt.write_text(json.dumps({'key':key, 'sha256':digest, 'epoch':EPOCH}))
             return len(local)
@@ -49,7 +52,7 @@ assert files, 'Build the preview first'
 with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as pool:
     sizes = list(pool.map(verify, files))
 with urllib.request.urlopen(urllib.request.Request(ORIGIN, headers={'User-Agent':'galbox-preview-check/1.0'}), timeout=20) as response:
-    assert response.status == 200 and response.headers['X-Morgana-Deployment'] == 'preview'
+    assert response.status == 200 and response.headers['X-Morgana-Deployment'] == TARGET
     assert response.headers.get('WWW-Authenticate') is None
 for url, role in [('https://testsdk.morgana.love', 'regression')]:
     try:
@@ -62,4 +65,4 @@ key = sample.relative_to('generated/site').as_posix()
 with urllib.request.urlopen(urllib.request.Request(ORIGIN+'/'+key, headers={'User-Agent':'galbox-preview-check/1.0','Range':'bytes=0-63'}), timeout=20) as response:
     assert response.status == 206 and response.read() == sample.read_bytes()[:64]
     assert response.headers.get('WWW-Authenticate') is None
-print(f'Anonymous preview equals local dist: {len(files)} files, {sum(sizes)} decoded bytes; media Range passed; regression still authenticated; no traffic shaping')
+print(f'Anonymous {TARGET} equals local build: {len(files)} files, {sum(sizes)} decoded bytes; media Range passed; regression still authenticated; no traffic shaping')
