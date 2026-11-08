@@ -256,3 +256,8 @@ msgstr "자동 저장"
 msgctxt "ui:savePages"
 msgid "Save pages"
 msgstr "저장 페이지"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:skipUnread"
+msgid "Skip unread text"
+msgstr "읽지 않은 텍스트도 스킵"

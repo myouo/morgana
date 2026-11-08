@@ -26,6 +26,8 @@ PATH="$PWD/private/.venv/bin:$PATH" pnpm test:extractor
 
 当前主应用为 `src/main.tsx`，默认数据为 `generated/integrated`。Vite 默认进入模块化主线；`FATA_MODULES=0` 仅供旧单门兼容测试。不要把旧独立章节夹具当作当前主线。
 
+`pnpm dev`、普通/正式build会先从PO重生八份系统UI目录；只写`text/<language>.ui.pb`及其Brotli副本，不改变剧情/存档身份。直接启动专项Vite、或单独修正系统文字时，可先运行 `pnpm exec tsx tooling/refresh-interface-text.ts`。原资料和完整整合目录的前置条件仍然保留。
+
 已有通过验收的整合目录时：
 
 ```sh

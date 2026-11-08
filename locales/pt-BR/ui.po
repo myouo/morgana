@@ -256,3 +256,8 @@ msgstr "Salvamentos automáticos"
 msgctxt "ui:savePages"
 msgid "Save pages"
 msgstr "Páginas de salvamento"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:skipUnread"
+msgid "Skip unread text"
+msgstr "Avançar texto não lido"

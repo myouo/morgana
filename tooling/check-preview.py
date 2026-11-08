@@ -23,7 +23,12 @@ RECEIPTS.mkdir(parents=True, exist_ok=True)
 def verify(file):
     key = file.relative_to(ROOT).as_posix()
     local = file.read_bytes()
-    reference = (Path('dist.production')/key) if TARGET == 'production' and (key == 'index.html' or key.startswith('assets/')) else (Path('dist')/key)
+    if TARGET == 'production' and (key == 'index.html' or key.startswith('assets/')):
+        reference = Path('dist.production')/key
+    elif TARGET == 'production' and key in {f'text/{locale}.ui.pb{suffix}' for locale in ('en','fr','it','jp','ko','pt-br','ru','zh') for suffix in ('','.br')}:
+        reference = Path('generated/integrated')/key
+    else:
+        reference = Path('dist')/key
     assert local == reference.read_bytes(), ('Not the current local build', key)
     digest = hashlib.sha256(local).hexdigest()
     receipt = RECEIPTS/(hashlib.sha256(key.encode()).hexdigest()+'.json')

@@ -8,6 +8,7 @@
 | 提取与组织检查 | `pnpm extract --source <安装目录>`、`pnpm inspect`、`pnpm analyze:kag` |
 | KAG/宏/原配置数据模型 | [kag.ts](kag.ts)、[kag-ast.ts](kag-ast.ts)、[source-macros.ts](source-macros.ts)、`source-*.ts` |
 | PO 检查与章节整理 | `pnpm locales:check`、`pnpm chapters:check`、`pnpm chapters:convert` |
+| 只重生系统UI文字 | `pnpm exec tsx tooling/refresh-interface-text.ts [发布根目录]`；默认当前整合目录，剧情与旧档身份不变 |
 | 首门转换基线 | `pnpm convert` → `generated/site`，不是整作一键构建 |
 | 主线编译 | `compile-integrated.ts`、`compile-*-connected.ts`、`compile-native-connected.ts` |
 | 章节独立编译/遍历 | `compile-full-door.ts`、`compile-*-door.ts`、`drive-*.ts` |

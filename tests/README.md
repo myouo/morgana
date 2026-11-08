@@ -8,7 +8,7 @@
 | `pnpm test` | `unit/`：合成 KAG、PO、历史 UI、迁移计划和 HTTP 协议 | 仓库文件和已安装 SDK |
 | `pnpm test:extractor` | 合成 XP3、图像规则 | Python 及 `requirements.txt`，不需要游戏 |
 | `pnpm test:source` | `source/`：原宏/正文/素材、生成程序及旧档回归 | 对应原资料、发布快照和生成物 |
-| `pnpm test:browser` | 当前主应用的八语标题、中英原菜单存刷读冒烟 | Chromium、已准备的整合站点；不需要旧档夹具 |
+| `pnpm test:browser` | 当前主应用的八语标题、中英原菜单存刷读和触屏快进冒烟 | Chromium、已准备的整合站点；不需要旧档夹具 |
 | `pnpm test:edge` | 本地 workerd 鉴权、缓存、Brotli、Range | Python、已安装 Wrangler；使用合成资源 |
 | `pnpm test:remote` | 鉴权测试域的网络回归 | 已发布测试版本、本机回归凭据与夹具 |
 
@@ -24,6 +24,8 @@ pnpm test:browser --list
 # 专项回归示例，先按对应证据记录准备生成物：
 pnpm exec playwright test --config tests/config/history-prefix.config.ts --list
 pnpm exec playwright test --config tests/config/full-door.config.ts
+# 横竖屏触屏、左右Ctrl、八语未读快进选项与持久化：
+pnpm exec playwright test --config tests/config/touch-skip.config.ts
 # 两门/三门兼容接续矩阵仍单独保留：
 pnpm exec playwright test --config tests/config/integrated.config.ts
 ```

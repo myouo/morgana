@@ -256,3 +256,8 @@ msgstr "自動保存"
 msgctxt "ui:savePages"
 msgid "Save pages"
 msgstr "保存ページ"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:skipUnread"
+msgid "Skip unread text"
+msgstr "未読テキストもスキップする"

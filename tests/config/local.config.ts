@@ -15,7 +15,7 @@ export default defineConfig({
   },
   webServer: {
     cwd: projectRoot,
-    command: 'FATA_MODULES=1 pnpm exec vite --host 127.0.0.1 --port 4261',
+    command: 'pnpm exec tsx tooling/refresh-interface-text.ts && FATA_MODULES=1 pnpm exec vite --host 127.0.0.1 --port 4261',
     url: 'http://127.0.0.1:4261',
     reuseExistingServer: false,
   },

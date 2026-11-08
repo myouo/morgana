@@ -256,3 +256,8 @@ msgstr "自动存档"
 msgctxt "ui:savePages"
 msgid "Save pages"
 msgstr "存档分页"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:skipUnread"
+msgid "Skip unread text"
+msgstr "快进未读文本"

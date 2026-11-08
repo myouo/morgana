@@ -256,3 +256,8 @@ msgstr "Автосохранения"
 msgctxt "ui:savePages"
 msgid "Save pages"
 msgstr "Страницы сохранений"
+
+#. Edit msgstr; keep msgctxt and msgid unchanged.
+msgctxt "ui:skipUnread"
+msgid "Skip unread text"
+msgstr "Пропускать непрочитанный текст"

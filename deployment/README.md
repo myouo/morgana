@@ -20,9 +20,12 @@
 
 `pnpm cloudflare:prepare`只把前端和protobuf目录复制到`generated/edge-preview`（回归为`generated/edge-regression`），媒体只进R2。上传脚本从当前程序/展示资源引用闭包取文件，不再扫描所有历史文件。`pnpm r2:upload --oauth`使用已有Wrangler OAuth、4并发、完整摘要对象名校验与可续传标记；不删除既有对象。不要对其他桶执行该脚本。本机环境变量API Token缺R2权限，所以本次明确选择已登录的OAuth。
 
-正式构建 `pnpm build:production` 在已验证预览基础上，仅覆盖前端文件到独立
-`generated/edge-production`；`dist.production`不复制完整媒体，程序/文本不重编。
-准备步骤要求既有预览身份收据，验证八语清单/标题、代码摘要及全部PB字节相同。
+正式构建 `pnpm build:production` 在已验证预览基础上，覆盖前端与由当前PO编译的
+八份系统UI目录到独立`generated/edge-production`。`dist.production`不复制完整媒体，
+剧情程序/正文不重编。准备步骤要求既有预览身份收据，验证八语清单/标题及代码摘要；
+只有固定16个UI PB/Brotli路径可采用编译器输出，其余PB逐字节保持父版。
+准备收据按日期写入`artifacts/production-YYYY-MM-DD`，可用`FATA_PRODUCTION_RUN`
+指定一次独立验收目录，旧证据不覆盖。
 `FATA_PRODUCTION=1`在编译时剔除测试导入钩子和test-seed模块；测试域仍保留回归能力。
 当前命令面向本次冻结父版，父版变化后需先更新并通过对应验收，不能跳过收据门槛。
 
@@ -62,7 +65,7 @@ Worker对R2响应直接传递body流，支持HEAD、单范围/后缀Range、强�
 不强制跳转；部分长期进度受便携备份100万JSON字符上限限制，跨域迁移不能
 视为已完成，见差异F-07。
 
-限速只存在tests/browser/network.spec.ts中的Chrome CDP模拟（180ms、750000B/s），不会写入构建、Worker或R2，也没有部署站点带宽限额。网络故障/慢网回归与资源全量probe固定指向testsdk，正式站/预览只进行无故障注入/无节流的真实UI及构建一致性读取。`pnpm preview:check`逐文件确认预览与本地dist相同；`FATA_CHECK_TARGET=production`核对正式树，其中前端与dist.production比较，其余与dist比较，同时校验匿名访问、媒体Range及回归鉴权。
+限速只存在tests/browser/network.spec.ts中的Chrome CDP模拟（180ms、750000B/s），不会写入构建、Worker或R2，也没有部署站点带宽限额。网络故障/慢网回归与资源全量probe固定指向testsdk，正式站/预览只进行无故障注入/无节流的真实UI及构建一致性读取。`pnpm preview:check`逐文件确认预览与本地dist相同；`FATA_CHECK_TARGET=production`核对正式树，其中前端与dist.production比较，16个系统UI文件与当前整合目录比较，其余与dist比较，同时校验匿名访问、媒体Range及回归鉴权。
 
 原包、解包目录、KS/TJS、图像/音频/字体等二进制提取物由ignore和提交边界检查双重排除；用户允许的i18n文本与解包脚本分别管理，本轮整理后的PO正文/UI文本作为贡献源入Git，原KS/TJS留在本地ignored目录。GitHub实例只含迁移器/应用/测试/配置/文档，不携带游戏载荷。
 
