@@ -45,3 +45,30 @@ FATA_PRODUCTION_RUN=2026-11-08 pnpm build:production
 原始日志、截图、差异摘要和测试产物位于ignored
 artifacts/touch-skip-2026-11-08，正式准备收据位于artifacts/production-2026-11-08。
 浏览器测试为Chromium的触屏模拟，未冒充真实iOS/Android设备认证。
+
+## 正式上线
+
+源提交a12c96d已正常推送main，正式Worker版本
+6d5250de-4307-4ffc-bb3d-5218fa142067已承接100%流量。
+fata.morgana.love匿名可用；Wrangler上传22个文件、复用7173个既有文件。
+
+- 正式站12项真实UI验收通过，0失败/跳过/flaky，约5.2分钟：八语标题与测试
+  钩子关闭、中英原菜单图文存刷读、中英触屏实际勾选和点按快进/停止。
+- 22个变更文件及八语清单/标题共38项远端摘要与候选相同；中文UI实际Brotli
+  返回解码匹配，音频Range携带正确If-Match并返回匹配字节，testsdk匿名仍401。
+  首次鉴权探针使用默认urllib UA得到403；沿用既有验收UA重试返回401并确认
+  regression响应头，没有修改Worker、WAF或放宽鉴权断言。
+- 只读部署列表确认preview仍7b65d519-05bf-4d8e-b620-d48c5791c568，
+  regression仍6b39ba1b-5aff-4627-80f0-b5367e68caa7，Requiem仍
+  4e89a3e2-beae-4e61-88f8-065958cfed60；SDK与R2资产不变。
+
+```sh
+pnpm exec wrangler deploy --env production --dry-run
+pnpm exec wrangler deploy --env production
+FATA_PRODUCTION_ORIGIN=https://fata.morgana.love pnpm test:browser:production
+```
+
+发布与只读部署列表使用现有OAuth，移除本机API Token/HTTP代理变量；网站核验
+使用正常网络。实际发布、差异/协议核验和生产浏览器日志均在本批ignored目录。
+本次为有界增量验收，未把7173个本地未变文件冒称本轮逐个重新远端下载，
+其完整远端字节闭包沿用首版正式发布证据；R2本轮为实际加载与Range验证。

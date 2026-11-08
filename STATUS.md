@@ -1,18 +1,22 @@
 # 当前状态
 
-更新于2026-11-07。开发与贡献统一从 [CONTRIBUTING.md](CONTRIBUTING.md) 开始；本地生成基线见[开发说明](docs/DEVELOPMENT.md)，历史验收按[文档索引](docs/README.md)查阅。
+更新于2026-11-08。开发与贡献统一从 [CONTRIBUTING.md](CONTRIBUTING.md) 开始；本地生成基线见[开发说明](docs/DEVELOPMENT.md)，历史验收按[文档索引](docs/README.md)查阅。
 
 ## 已发布版本
 
 | 环境 | 域名 | Worker版本 |
 | --- | --- | --- |
-| 正式游玩 | [fata.morgana.love](https://fata.morgana.love) | `2e5c0234-5759-4f62-b856-e72134a4f39f` |
+| 正式游玩 | [fata.morgana.love](https://fata.morgana.love) | `6d5250de-4307-4ffc-bb3d-5218fa142067` |
 | 测试预览 | test.morgana.love | `7b65d519-05bf-4d8e-b620-d48c5791c568` |
 | 鉴权回归 | testsdk.morgana.love | `6b39ba1b-5aff-4627-80f0-b5367e68caa7` |
 
 SDK实包 `d222adf212da`，源码 `bd2cab2`，经实际tarball与公开exports接入。三站Worker/前端目录隔离，共用本作私有SHA R2资产；正式构建关闭测试导入钩子。Requiem和主域粉丝站独立维护。
 
-正式站八语标题、中英原菜单图文保存/刷新/载入10项通过；7195静态文件、3546724669解码字节逐文件匹配本地构建，媒体Range及回归鉴权通过。此前阅读发布27项线上检查与旧线上40175已读存档v4→v5布局升级通过。详见[正式发布](docs/evidence/PRODUCTION_FATA.md)与[阅读收尾](docs/evidence/READING_POLISH_RELEASE.md)。
+本批正式加入触屏右上角快进切换按钮和八语config“快进未读文本”复选框；默认只快进已读，偏好刷新保留，电脑仍按住Ctrl。剧情/旧档身份和SDK不改。见[本批验证](docs/evidence/TOUCH_SKIP.md)。
+
+本批正式站12项真实UI检查、38项远端摘要及Brotli/Range/回归鉴权通过；本地13项功能、8项布局复查、2项无开发钩子触屏及59单元通过。仅22个前端/系统UI文件改变，7173个文件与前版相同，测试两站及Requiem版本保持不变。
+
+首版正式站八语标题、中英原菜单图文保存/刷新/载入10项通过；当时7195静态文件、3546724669解码字节逐文件匹配本地构建，媒体Range及回归鉴权通过。此前阅读发布27项线上检查与旧线上40175已读存档v4→v5布局升级通过。首版证据见[正式发布](docs/evidence/PRODUCTION_FATA.md)与[阅读收尾](docs/evidence/READING_POLISH_RELEASE.md)，本批增量范围见[触屏快进记录](docs/evidence/TOUCH_SKIP.md)。
 
 浏览器存档按语言和域名隔离。测试域旧档留在原域，不自动迁移；测试入口继续保留。
 
@@ -27,11 +31,11 @@ SDK实包 `d222adf212da`，源码 `bd2cab2`，经实际tarball与公开exports�
 
 源解析、Program执行、浏览器功能与原作等价分别验收；全线贯通不代表100%原作表现或原生存档互通。
 
-## 贡献者入口整理
+## 2026-11-07贡献者入口整理
 
 根目录只保留一个当前应用的浏览器测试入口；专项配置在 `tests/config/`，常用命令从152个收敛到33个。默认 `pnpm test` 只跑不依赖游戏的单元测试；原资料回归由 `pnpm test:source` 单独运行。默认浏览器冒烟通过原菜单操作，不需要旧档切点；阶段编译工具与兼容回归保留明确入口。
 
-本次整理、删除范围及实际验证见[入口整理记录](docs/evidence/CONTRIBUTOR_CLEANUP.md)。正式前端11个文件与已部署构建逐字节相同，本次不重新部署。
+该批整理、删除范围及实际验证见[入口整理记录](docs/evidence/CONTRIBUTOR_CLEANUP.md)。整理批的正式前端11个文件与当时已部署构建逐字节相同，因此当时没有重新部署；当前触屏快进版见上方发布记录。
 
 ## 待完善
 
